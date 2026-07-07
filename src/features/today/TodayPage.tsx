@@ -39,7 +39,7 @@ import type { CSSProperties } from "react";
 export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   const [pulse, setPulse] = useState<PulseLatest | null>(null);
   const [isSample, setIsSample] = useState(false);
-  const [stats] = useState(loadGlanceStats);
+  const [stats, setStats] = useState(loadGlanceStats);
   const [detail, setDetail] = useState<PulseSignal | null>(null);
   const [savedIds, setSavedIds] = useState<Set<string>>(() => {
     return new Set(
@@ -48,10 +48,10 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         .filter(Boolean),
     );
   });
-  // Snapshot at mount: signals already in the queue are excluded from
-  // today's top five (no re-showing processed content), but a card saved
-  // mid-session stays visible until the next visit.
-  const [excludeUrls] = useState<Set<string>>(() => new Set(savedIds));
+  // Signals already in the queue never re-show. A card saved right now
+  // first plays a leave animation (removingUrls), then joins savedIds so
+  // the next-ranked signal slides up into the top five.
+  const [removingUrls, setRemovingUrls] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     let cancelled = false;
@@ -72,13 +72,15 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
 
   const top = useMemo(() => {
     if (!pulse) return [];
+    // Saved signals leave the brief; cards mid-animation stay to play out.
     const fresh = {
       ...pulse,
-      signals: pulse.signals.filter((s) => !excludeUrls.has(s.url)),
+      signals: pulse.signals.filter(
+        (s) => !savedIds.has(s.url) || removingUrls.has(s.url),
+      ),
     };
-    // If everything fresh was already saved, fall back to the full list.
     return topSignals(fresh.signals.length > 0 ? fresh : pulse, 5);
-  }, [pulse, excludeUrls]);
+  }, [pulse, savedIds, removingUrls]);
 
   const saveToQueue = (s: PulseSignal) => {
     const item: LearningItem = {
@@ -93,7 +95,18 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       tags: s.tags.slice(0, 5),
     };
     upsertItem(STORE_KEYS.learningItems, item);
+    // Instant feedback: queue count ticks up, card animates out, and the
+    // next-ranked signal takes its place.
+    setStats((prev) => ({ ...prev, queueCount: prev.queueCount + 1 }));
     setSavedIds((prev) => new Set(prev).add(s.url));
+    setRemovingUrls((prev) => new Set(prev).add(s.url));
+    window.setTimeout(() => {
+      setRemovingUrls((prev) => {
+        const next = new Set(prev);
+        next.delete(s.url);
+        return next;
+      });
+    }, 380);
   };
 
   const hour = new Date().getHours();
@@ -153,15 +166,25 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           fetch has run.
         </div>
       )}
-      {pulse && (
-        <p className="signal-meta" style={{ marginBottom: 10 }}>
-          Updated {relativeTime(pulse.generatedAt)}
-        </p>
-      )}
+      {pulse &&
+        (() => {
+          const ageHours =
+            (Date.now() - new Date(pulse.generatedAt).getTime()) / 3600000;
+          const stale = Number.isNaN(ageHours) || ageHours > 24;
+          return (
+            <p className="signal-meta" style={{ marginBottom: 10 }}>
+              {stale
+                ? `Starter signals — the automatic feed refreshes every ~15 minutes once live`
+                : `Updated ${relativeTime(pulse.generatedAt)}`}
+            </p>
+          );
+        })()}
       {top.map((s) => (
         <Card
           key={s.id}
-          className="signal-card signal-card-tappable"
+          className={`signal-card signal-card-tappable ${
+            removingUrls.has(s.url) ? "signal-card-removing" : ""
+          }`}
           style={{ "--cat": categoryColor(s.category) } as CSSProperties}
         >
           {/* Tapping the card body opens details; the title link still

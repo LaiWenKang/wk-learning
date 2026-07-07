@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-/** Animate an integer from 0 to `target` on mount (~600ms, eased).
- *  Renders the final value immediately when reduced motion is set. */
+/** Animate an integer toward `target` (~600ms, eased) — from 0 on mount,
+ *  from the currently shown value on later changes. Renders the final
+ *  value immediately when reduced motion is set. */
 export function useCountUp(target: number): number {
   const [value, setValue] = useState(() =>
     typeof matchMedia !== "undefined" &&
@@ -9,16 +10,19 @@ export function useCountUp(target: number): number {
       ? target
       : 0,
   );
+  const shown = useRef(value);
+  shown.current = value;
   const raf = useRef(0);
 
   useEffect(() => {
-    if (value === target) return;
+    if (shown.current === target) return;
+    const from = shown.current;
     const start = performance.now();
     const dur = 600;
     const tick = (now: number) => {
       const t = Math.min(1, (now - start) / dur);
       const eased = 1 - Math.pow(1 - t, 3);
-      setValue(Math.round(target * eased));
+      setValue(Math.round(from + (target - from) * eased));
       if (t < 1) raf.current = requestAnimationFrame(tick);
     };
     raf.current = requestAnimationFrame(tick);

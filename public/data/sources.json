@@ -56,22 +56,31 @@
       "maxItems": 10
     },
     {
-      "id": "anthropic-news",
-      "name": "Anthropic Newsroom",
-      "type": "rss",
-      "url": "https://www.anthropic.com/rss.xml",
-      "category": "ai",
-      "enabled": false,
-      "maxItems": 10
-    },
-    {
       "id": "hn-best-rss",
-      "name": "Hacker News Best (RSS fallback)",
+      "name": "Hacker News Best",
       "type": "rss",
       "url": "https://hnrss.org/best",
       "category": "programming",
-      "enabled": false,
-      "maxItems": 20
+      "enabled": true,
+      "maxItems": 15
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison's Weblog",
+      "type": "rss",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "ai",
+      "enabled": true,
+      "maxItems": 10
+    },
+    {
+      "id": "martinfowler",
+      "name": "martinfowler.com",
+      "type": "rss",
+      "url": "https://martinfowler.com/feed.atom",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 8
     }
   ],
   "keywords": {

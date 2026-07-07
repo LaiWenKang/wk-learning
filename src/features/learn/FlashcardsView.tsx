@@ -219,6 +219,20 @@ export function FlashcardsView() {
         </button>
       </div>
 
+      {due.length === 0 && filtered.length > 0 && (
+        <div className="notice notice-info">
+          {(() => {
+            const upcoming = filtered
+              .map((c) => c.nextReviewAt)
+              .filter((d): d is string => !!d)
+              .sort()[0];
+            return upcoming
+              ? `All caught up — next review lands on ${upcoming}. Come back then, or add a new card now.`
+              : "All caught up.";
+          })()}
+        </div>
+      )}
+
       {showForm && (
         <Card title={editingId ? "Edit Flashcard" : "New Flashcard"}>
           <Field label="Front (question)">

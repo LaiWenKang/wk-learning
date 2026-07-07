@@ -516,6 +516,29 @@ body::before {
   transform: scale(0.99);
 }
 
+/* Saved card leaves; the list closes up and the next signal slides in. */
+.signal-card-removing {
+  overflow: hidden;
+  pointer-events: none;
+  animation: card-out 360ms var(--ease-spring) forwards;
+}
+
+@keyframes card-out {
+  0% {
+    opacity: 1;
+    max-height: 420px;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(36px) scale(0.97);
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-width: 0;
+  }
+}
+
 .signal-card::after {
   content: "";
   position: absolute;
