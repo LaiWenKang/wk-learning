@@ -130,6 +130,11 @@ Supported `type` values: `rss` (RSS 2.0 / Atom), `hn-algolia`,
   a floating glass tab bar keep it comfortable on iPhone. The theme is a
   single committed dark design; `prefers-reduced-motion` and
   `prefers-reduced-transparency` are honoured.
+- A first-run onboarding walkthrough introduces each area and the privacy
+  model (replayable from Settings), horizontal **swipe navigation** moves
+  between the five main tabs with a page-dots cue, and tapping a pulse
+  signal opens a **bottom-sheet** with its summary, why-it-matters and
+  actions.
 
 ## Project structure
 

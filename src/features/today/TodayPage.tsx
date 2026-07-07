@@ -15,6 +15,8 @@ import {
   Card,
   CategoryChip,
   SectionTitle,
+  Sheet,
+  TagRow,
   TintCard,
   categoryColor,
 } from "../../components/ui";
@@ -38,6 +40,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   const [pulse, setPulse] = useState<PulseLatest | null>(null);
   const [isSample, setIsSample] = useState(false);
   const [stats] = useState(loadGlanceStats);
+  const [detail, setDetail] = useState<PulseSignal | null>(null);
   const [savedIds, setSavedIds] = useState<Set<string>>(() => {
     return new Set(
       loadList<LearningItem>(STORE_KEYS.learningItems)
@@ -158,24 +161,34 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       {top.map((s) => (
         <Card
           key={s.id}
-          className="signal-card"
+          className="signal-card signal-card-tappable"
           style={{ "--cat": categoryColor(s.category) } as CSSProperties}
         >
-          <a href={s.url} target="_blank" rel="noreferrer" className="signal-title">
-            {s.title}
-          </a>
-          <div className="signal-meta" style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginTop: 7 }}>
-            <CategoryChip category={s.category} />
-            <span>
-              {s.source}
-              {s.publishedAt ? ` · ${relativeTime(s.publishedAt)}` : ""}
-            </span>
-          </div>
-          {s.whyItMatters && (
-            <p className="card-muted" style={{ marginTop: 8 }}>
-              {s.whyItMatters}
-            </p>
-          )}
+          {/* Tapping the card body opens details; the title link still
+              opens the source directly for those who want it. */}
+          <button
+            type="button"
+            className="signal-tap"
+            aria-label={`Details: ${s.title}`}
+            onClick={() => setDetail(s)}
+          >
+            <span className="signal-title">{s.title}</span>
+            <div
+              className="signal-meta"
+              style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginTop: 7 }}
+            >
+              <CategoryChip category={s.category} />
+              <span>
+                {s.source}
+                {s.publishedAt ? ` · ${relativeTime(s.publishedAt)}` : ""}
+              </span>
+            </div>
+            {s.whyItMatters && (
+              <p className="card-muted" style={{ marginTop: 8 }}>
+                {s.whyItMatters}
+              </p>
+            )}
+          </button>
           <div className="btn-row">
             <button
               type="button"
@@ -184,6 +197,13 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
               onClick={() => saveToQueue(s)}
             >
               {savedIds.has(s.url) ? "Saved ✓" : "Save to Learning Queue"}
+            </button>
+            <button
+              type="button"
+              className="btn btn-small"
+              onClick={() => setDetail(s)}
+            >
+              Details
             </button>
           </div>
         </Card>
@@ -269,6 +289,64 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       >
         <PencilIcon className="inline-icon" /> Everything you write stays on this device.
       </p>
+
+      {detail && (
+        <Sheet onClose={() => setDetail(null)} label="Signal details">
+          <div style={{ marginBottom: 4 }}>
+            <CategoryChip category={detail.category} />
+          </div>
+          <h3>{detail.title}</h3>
+          <p className="signal-meta">
+            {detail.source}
+            {detail.publishedAt ? ` · ${relativeTime(detail.publishedAt)}` : ""}
+          </p>
+
+          {detail.summary && (
+            <div className="sheet-section">
+              <div className="sheet-section-label">Summary</div>
+              <p className="card-muted" style={{ color: "var(--text)" }}>
+                {detail.summary}
+              </p>
+            </div>
+          )}
+          {detail.whyItMatters && (
+            <div className="sheet-section">
+              <div className="sheet-section-label">Why it matters</div>
+              <p className="card-muted" style={{ color: "var(--text)" }}>
+                {detail.whyItMatters}
+              </p>
+            </div>
+          )}
+          {detail.tags.length > 0 && (
+            <div className="sheet-section">
+              <div className="sheet-section-label">Tags</div>
+              <TagRow tags={detail.tags} />
+            </div>
+          )}
+
+          <div className="btn-row">
+            <a
+              href={detail.url}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              Open source ↗
+            </a>
+            <button
+              type="button"
+              className="btn"
+              disabled={savedIds.has(detail.url)}
+              onClick={() => {
+                saveToQueue(detail);
+                setDetail(null);
+              }}
+            >
+              {savedIds.has(detail.url) ? "Saved ✓" : "Save to Queue"}
+            </button>
+          </div>
+        </Sheet>
+      )}
     </div>
   );
 }

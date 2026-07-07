@@ -147,6 +147,60 @@ body::before {
   animation: page-in var(--dur-page) var(--ease-spring) both;
 }
 
+/* Directional slide when navigating via swipe. */
+.page-from-right {
+  animation: slide-from-right var(--dur-page) var(--ease-spring) both;
+}
+.page-from-left {
+  animation: slide-from-left var(--dur-page) var(--ease-spring) both;
+}
+
+@keyframes slide-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(34px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slide-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-34px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Page dots — swipe orientation cue */
+.page-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.page-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-tertiary);
+  opacity: 0.4;
+  transition: opacity var(--dur-press) ease, width var(--dur-press) var(--ease-spring);
+}
+
+.page-dot.active {
+  opacity: 1;
+  width: 18px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+
 /* Gentle stagger for the first few blocks on a fresh page. */
 .page > div > * {
   animation: page-in var(--dur-page) var(--ease-spring) both;
@@ -438,6 +492,28 @@ body::before {
 /* Signal cards carry a category accent bar on the left edge. */
 .signal-card {
   padding-left: 18px;
+}
+
+/* Full-width invisible tap zone that opens the detail sheet. */
+.signal-tap {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.signal-card-tappable {
+  transition: transform var(--dur-press) var(--ease-spring);
+}
+
+.signal-card-tappable:active {
+  transform: scale(0.99);
 }
 
 .signal-card::after {
@@ -1165,6 +1241,208 @@ details.drawer .drawer-body {
   from {
     opacity: 0;
   }
+}
+
+/* ====================== Onboarding ====================== */
+
+.onboard-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(24px + var(--safe-top)) 20px calc(24px + var(--safe-bottom));
+  overflow-y: auto;
+}
+
+.onboard-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--shadow-float);
+  padding: 30px 24px 22px;
+  text-align: center;
+  animation: page-in var(--dur-page) var(--ease-spring) both;
+}
+
+.onboard-skip {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  min-height: 32px;
+  padding: 4px 8px;
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.onboard-illus {
+  width: 76px;
+  height: 76px;
+  margin: 6px auto 18px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tint, var(--accent));
+  background: color-mix(in srgb, var(--tint, var(--accent)) 16%, transparent);
+  box-shadow: 0 0 34px -6px color-mix(in srgb, var(--tint, var(--accent)) 50%, transparent);
+  animation: onboard-pop 420ms var(--ease-spring) both;
+}
+
+.onboard-illus svg {
+  width: 38px;
+  height: 38px;
+}
+
+@keyframes onboard-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.onboard-title {
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+
+.onboard-body {
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0 0 20px;
+}
+
+.onboard-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.onboard-check input {
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  accent-color: var(--accent);
+}
+
+.onboard-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.onboard-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-tertiary);
+  opacity: 0.35;
+  transition: opacity var(--dur-press) ease, width var(--dur-press) var(--ease-spring);
+}
+
+.onboard-dot.active {
+  opacity: 1;
+  width: 20px;
+  border-radius: 4px;
+  background: var(--accent);
+}
+
+.onboard-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.onboard-actions .btn {
+  flex: 1;
+}
+
+/* ====================== Bottom-sheet drawer ====================== */
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  animation: fade-in 200ms ease both;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sheet {
+  width: 100%;
+  max-width: 640px;
+  max-height: 82dvh;
+  overflow-y: auto;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: inset 0 1px 0 var(--glass-highlight), 0 -8px 30px rgba(0, 0, 0, 0.5);
+  padding: 8px 20px calc(24px + var(--safe-bottom));
+  animation: sheet-up 320ms var(--ease-spring) both;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.sheet-handle {
+  width: 38px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--border-strong);
+  margin: 6px auto 14px;
+}
+
+.sheet h3 {
+  font-size: 19px;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+
+.sheet-section {
+  margin-top: 14px;
+}
+
+.sheet-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
 }
 
 /* Error boundary fallback */

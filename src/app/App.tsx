@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   SunIcon,
   BookIcon,
@@ -13,6 +13,7 @@ import { ThinkPage } from "../features/think/ThinkPage";
 import { FinancePage } from "../features/finance/FinancePage";
 import { ReflectPage } from "../features/reflect/ReflectPage";
 import { SettingsPage } from "../features/settings/SettingsPage";
+import { Onboarding, hasOnboarded } from "../features/onboarding/Onboarding";
 
 export type TabId = "today" | "learn" | "think" | "finance" | "reflect" | "settings";
 
@@ -35,6 +36,9 @@ const RIGHT_TABS: TabDef[] = [
   { id: "reflect", label: "Reflect", icon: JournalIcon },
 ];
 
+/* Left-to-right order for swipe navigation, matching the tab bar layout.
+   Settings is reachable only via the gear, so it's excluded from swipes. */
+const SWIPE_ORDER: TabId[] = ["learn", "think", "today", "finance", "reflect"];
 const ALL_TABS: TabId[] = ["today", "learn", "think", "finance", "reflect", "settings"];
 
 function tabFromHash(): TabId {
@@ -42,8 +46,15 @@ function tabFromHash(): TabId {
   return (ALL_TABS.includes(raw as TabId) ? raw : "today") as TabId;
 }
 
+/** Elements whose own horizontal scroll/drag must win over tab swiping. */
+const SWIPE_GUARD_SELECTOR =
+  ".table-wrap, .segmented, svg, .composition, input[type='range'], .chart-tip";
+
 export function App() {
   const [tab, setTab] = useState<TabId>(tabFromHash);
+  const [showOnboarding, setShowOnboarding] = useState(() => !hasOnboarded());
+  const [enterDir, setEnterDir] = useState<"left" | "right" | null>(null);
+  const touch = useRef<{ x: number; y: number; guarded: boolean } | null>(null);
 
   useEffect(() => {
     const onHash = () => setTab(tabFromHash());
@@ -51,10 +62,50 @@ export function App() {
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
 
-  const navigate = (id: TabId) => {
+  const navigate = (id: TabId, dir: "left" | "right" | null = null) => {
+    setEnterDir(dir);
     window.location.hash = `/${id}`;
     window.scrollTo({ top: 0 });
   };
+
+  const swipeIndex = SWIPE_ORDER.indexOf(tab);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length !== 1 || swipeIndex < 0) {
+      touch.current = null;
+      return;
+    }
+    const t = e.touches[0];
+    const guarded = !!(e.target as Element).closest?.(SWIPE_GUARD_SELECTOR);
+    touch.current = { x: t.clientX, y: t.clientY, guarded };
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const start = touch.current;
+    touch.current = null;
+    if (!start || start.guarded) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    // Deliberate, mostly-horizontal swipe only.
+    if (Math.abs(dx) < 64 || Math.abs(dx) < Math.abs(dy) * 1.8) return;
+    if (dx < 0 && swipeIndex < SWIPE_ORDER.length - 1) {
+      navigate(SWIPE_ORDER[swipeIndex + 1], "right");
+    } else if (dx > 0 && swipeIndex > 0) {
+      navigate(SWIPE_ORDER[swipeIndex - 1], "left");
+    }
+  };
+
+  const pageClass =
+    enterDir === "right"
+      ? "page page-from-right"
+      : enterDir === "left"
+        ? "page page-from-left"
+        : "page";
+
+  if (showOnboarding) {
+    return <Onboarding onDone={() => setShowOnboarding(false)} />;
+  }
 
   const renderTab = (t: TabDef) => {
     const Icon = t.icon;
@@ -84,16 +135,25 @@ export function App() {
         <GearIcon />
       </button>
 
-      <main className="app-main">
+      <main className="app-main" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
         {/* key remounts the page so the enter animation plays per tab */}
-        <div className="page" key={tab}>
+        <div className={pageClass} key={tab}>
           {tab === "today" && <TodayPage onNavigate={navigate} />}
           {tab === "learn" && <LearnPage />}
           {tab === "think" && <ThinkPage />}
           {tab === "finance" && <FinancePage />}
           {tab === "reflect" && <ReflectPage />}
-          {tab === "settings" && <SettingsPage />}
+          {tab === "settings" && <SettingsPage onReplayIntro={() => setShowOnboarding(true)} />}
         </div>
+
+        {/* Page dots — orientation cue for swipe navigation */}
+        {swipeIndex >= 0 && (
+          <div className="page-dots" aria-hidden="true">
+            {SWIPE_ORDER.map((id) => (
+              <span key={id} className={`page-dot ${id === tab ? "active" : ""}`} />
+            ))}
+          </div>
+        )}
       </main>
 
       <nav className="tabbar" aria-label="Main navigation">

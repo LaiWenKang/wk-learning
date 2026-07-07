@@ -8,7 +8,7 @@ import { downloadJson, readJsonFile } from "../../lib/export";
 import { todayKey } from "../../lib/date";
 import { Card } from "../../components/ui";
 
-const APP_VERSION = "0.5.0";
+const APP_VERSION = "0.6.0";
 
 type SourceConfig = {
   id: string;
@@ -18,7 +18,7 @@ type SourceConfig = {
   enabled: boolean;
 };
 
-export function SettingsPage() {
+export function SettingsPage(props: { onReplayIntro?: () => void }) {
   const [message, setMessage] = useState<string | null>(null);
   const [confirmClear, setConfirmClear] = useState(false);
   const [sources, setSources] = useState<SourceConfig[] | null>(null);
@@ -162,12 +162,17 @@ export function SettingsPage() {
 
       <h2 className="section-title">About</h2>
       <Card>
-        <p className="card-muted">
+        <p className="card-muted" style={{ marginBottom: 12 }}>
           WK Learning is a personal, local-first learning companion: daily
           public signals, flashcards, structured thinking tools, scenario
           modelling and daily reflection. Built with Vite + React + TypeScript,
           hosted on GitHub Pages.
         </p>
+        {props.onReplayIntro && (
+          <button type="button" className="btn btn-small" onClick={props.onReplayIntro}>
+            Replay introduction
+          </button>
+        )}
       </Card>
     </div>
   );

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import type { CSSProperties, ReactNode } from "react";
 import type { Rating, SignalCategory } from "../types";
 import { CATEGORY_LABELS } from "../types";
@@ -139,5 +141,40 @@ export function Drawer(props: { summary: ReactNode; children: ReactNode; open?: 
       <summary>{props.summary}</summary>
       <div className="drawer-body">{props.children}</div>
     </details>
+  );
+}
+
+/** Bottom-sheet modal. Tap backdrop or Escape to dismiss. */
+export function Sheet(props: { onClose: () => void; children: ReactNode; label?: string }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") props.onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    // Lock background scroll while the sheet is open.
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prev;
+    };
+  }, [props]);
+
+  // Portal to <body> so a transformed/animated ancestor (e.g. .page) can't
+  // trap the fixed-position backdrop in its containing block.
+  return createPortal(
+    <div
+      className="sheet-backdrop"
+      onClick={props.onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-label={props.label}
+    >
+      <div className="sheet" onClick={(e) => e.stopPropagation()}>
+        <div className="sheet-handle" />
+        {props.children}
+      </div>
+    </div>,
+    document.body,
   );
 }
