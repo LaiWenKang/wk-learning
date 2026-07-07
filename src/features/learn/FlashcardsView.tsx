@@ -118,31 +118,45 @@ export function FlashcardsView() {
         <p className="signal-meta" style={{ marginBottom: 8 }}>
           Reviewing · {due.length} card{due.length === 1 ? "" : "s"} due
         </p>
-        <Card>
-          <CategoryChip category={card.category} />
-          <p style={{ fontSize: 18, fontWeight: 650, margin: "10px 0 8px" }}>{card.front}</p>
-          {revealed ? (
-            <>
-              <hr className="divider" />
-              <p style={{ fontSize: 16, whiteSpace: "pre-wrap" }}>{card.back}</p>
-              <p className="field-label" style={{ marginTop: 12 }}>
-                How confident are you? (1 = review tomorrow, 5 = in two weeks)
-              </p>
-              <RatingInput value={card.confidence} onChange={rateCurrent} />
-            </>
-          ) : (
-            <div className="btn-row">
-              <button
-                type="button"
-                className="btn btn-primary"
-                onClick={() => setRevealed(true)}
-              >
-                Show Answer
-              </button>
+        <div className="flip-scene">
+          <div className={`flip-inner ${revealed ? "flipped" : ""}`}>
+            <div className="flip-face flip-front">
+              <Card style={{ minHeight: 300, marginBottom: 0 }}>
+                <CategoryChip category={card.category} />
+                <p style={{ fontSize: 18, fontWeight: 650, margin: "12px 0 10px" }}>
+                  {card.front}
+                </p>
+                <div className="btn-row">
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={() => setRevealed(true)}
+                  >
+                    Show Answer
+                  </button>
+                </div>
+              </Card>
             </div>
-          )}
-        </Card>
-        <button type="button" className="btn btn-small" onClick={() => setReviewing(false)}>
+            <div className="flip-face flip-back">
+              <Card style={{ minHeight: 300, height: "100%", marginBottom: 0 }}>
+                <span className="chip chip-neutral">Answer</span>
+                <p style={{ fontSize: 16, whiteSpace: "pre-wrap", margin: "12px 0 8px" }}>
+                  {card.back}
+                </p>
+                <p className="field-label" style={{ marginTop: 10 }}>
+                  How confident are you? (1 = review tomorrow, 5 = in two weeks)
+                </p>
+                <RatingInput value={card.confidence} onChange={rateCurrent} />
+              </Card>
+            </div>
+          </div>
+        </div>
+        <button
+          type="button"
+          className="btn btn-small"
+          style={{ marginTop: 12 }}
+          onClick={() => setReviewing(false)}
+        >
           Exit review
         </button>
       </div>

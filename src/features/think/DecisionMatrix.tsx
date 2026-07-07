@@ -181,14 +181,41 @@ export function DecisionMatrix() {
             </tbody>
           </table>
         </div>
+        {/* Weighted totals as bars — one measure, one hue; the leader is
+            marked by label, not by a different color. */}
+        <div style={{ marginTop: 14 }}>
+          {[...totals]
+            .sort((a, b) => b.raw - a.raw)
+            .map((t) => {
+              const isBest = best?.option.id === t.option.id;
+              return (
+                <div key={t.option.id} className="meter-row">
+                  <span className="meter-name">
+                    {t.option.name}
+                    {isBest ? " ✓" : ""}
+                  </span>
+                  <div className="meter">
+                    <div
+                      className="meter-fill"
+                      style={{
+                        width: `${Math.max(4, t.normalized * 100)}%`,
+                        opacity: isBest ? 1 : 0.55,
+                      }}
+                    />
+                  </div>
+                  <span className="meter-value">{Math.round(t.normalized * 100)}%</span>
+                </div>
+              );
+            })}
+        </div>
         {best ? (
-          <div className="notice notice-info" style={{ marginTop: 12, marginBottom: 0 }}>
+          <div className="notice notice-info" style={{ marginTop: 10, marginBottom: 0 }}>
             Leaning towards <strong>{best.option.name}</strong> at{" "}
             {Math.round(best.normalized * 100)}%. Sanity-check: does this match your
             gut? If not, a criterion or weight is missing.
           </div>
         ) : (
-          <div className="notice" style={{ marginTop: 12, marginBottom: 0 }}>
+          <div className="notice" style={{ marginTop: 10, marginBottom: 0 }}>
             It’s a tie — add a differentiating criterion or revisit the weights.
           </div>
         )}

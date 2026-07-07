@@ -95,6 +95,27 @@ export function RiskScanner() {
             placeholder="e.g. New batch job design"
           />
         </Field>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            fontSize: 12,
+            fontWeight: 650,
+            color: "var(--text-tertiary)",
+            marginBottom: 6,
+          }}
+        >
+          <span>
+            {reviewed}/{RISK_ITEMS.length} reviewed
+          </span>
+          <span>{flagged.length} flagged</span>
+        </div>
+        <div className="progress-thin" style={{ marginBottom: 14 }}>
+          <div
+            className="progress-fill"
+            style={{ width: `${(reviewed / RISK_ITEMS.length) * 100}%` }}
+          />
+        </div>
         {RISK_ITEMS.map((r) => {
           const st = stateOf(r.id);
           return (

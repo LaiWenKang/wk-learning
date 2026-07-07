@@ -4,7 +4,8 @@ A local-first, iPhone-friendly PWA for deliberate personal growth: daily
 public learning signals, flashcards and concept notes, structured
 engineering-thinking tools, personal finance scenario modelling, and daily
 reflection. Built with Vite + React + TypeScript, hosted on GitHub Pages,
-refreshed by a scheduled GitHub Actions job.
+refreshed by a scheduled GitHub Actions job. One deliberate dark theme,
+liquid-glass navigation, and chart colors validated for colorblind safety.
 
 **Live app:** `https://<your-username>.github.io/wk-learning/`
 
@@ -12,12 +13,22 @@ refreshed by a scheduled GitHub Actions job.
 
 | Tab | What it does |
 | --- | --- |
-| **Today** | Daily brief: top public signals from the Pulse, a professional mindset prompt, a thinking challenge, a suggested learning action, quick actions |
-| **Learn** | Learning Queue (saved signals + notes), flashcards with confidence-based review intervals, concept notes with tags/takeaways, JSON import/export |
-| **Think** | Thinking Gym: RCA Builder (generates markdown), Decision Matrix (weighted scoring), Assumption Checker, Risk Scanner |
-| **Finance** | Finance Simulator: net-worth projection with SVG chart, savings rate, years-to-target, saved scenario comparison |
-| **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day stats, streak, template-based weekly summary |
+| **Today** | Daily brief: streak/due/queue at a glance, top public signals from the Pulse, a professional mindset prompt, a thinking challenge, a suggested learning action, quick actions |
+| **Learn** | Learning Queue (saved signals + notes), flashcards with a 3D flip review and confidence-based intervals, concept notes with tags/takeaways, JSON import/export |
+| **Think** | Thinking Gym: RCA Builder (generates markdown), Decision Matrix (weighted scoring with result bars), Assumption Checker, Risk Scanner with coverage progress |
+| **Finance** | Finance Simulator: net-worth projection chart with crosshair tooltip, target progress ring, year-N composition breakdown, savings rate, saved scenario comparison |
+| **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, streak, template-based weekly summary |
 | **Settings** | Local Data & Privacy: full JSON backup/restore, clear-with-confirmation, pulse source list, app version |
+
+### Daily content never repeats
+
+The Today prompts (mindset / challenge / action) rotate through their
+pools with a deterministic shuffled-cycle algorithm
+(`dailyRotation` in `src/data/prompts.ts`): every item appears exactly
+once per cycle, each cycle is reshuffled, and the same item never shows
+on two consecutive days — no repeats until a pool is exhausted. Pulse
+signals are deduplicated by URL at fetch time, and signals you have
+already saved to the queue are excluded from the next day's top five.
 
 ## Privacy model
 
@@ -116,8 +127,9 @@ Supported `type` values: `rss` (RSS 2.0 / Atom), `hn-algolia`,
   network-first for pulse data and navigation, cache-first for hashed
   static assets. It registers only in production builds.
 - Safe-area insets, `viewport-fit=cover`, 16px inputs (no focus zoom) and
-  a bottom tab bar keep it comfortable on iPhone. Dark mode follows the
-  system setting.
+  a floating glass tab bar keep it comfortable on iPhone. The theme is a
+  single committed dark design; `prefers-reduced-motion` and
+  `prefers-reduced-transparency` are honoured.
 
 ## Project structure
 

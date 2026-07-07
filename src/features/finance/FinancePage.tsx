@@ -4,6 +4,7 @@ import { STORE_KEYS, loadList, newId, removeItem, upsertItem } from "../../lib/s
 import { formatMoneyFull, projectScenario } from "../../lib/scoring";
 import { Card, EmptyState, Field } from "../../components/ui";
 import { ProjectionChart } from "./ProjectionChart";
+import { ProgressRing } from "./ProgressRing";
 
 const DEFAULT_INPUTS: Omit<FinanceScenario, "id" | "name"> = {
   currency: "SGD",
@@ -128,7 +129,10 @@ export function FinancePage() {
       </Card>
 
       <Card title="Projection">
-        <div className="stat-grid" style={{ marginBottom: 14 }}>
+        <div
+          className="stat-grid"
+          style={{ marginBottom: 14, gridTemplateColumns: "repeat(2, 1fr)" }}
+        >
           <div className="stat-tile">
             <div className="stat-value">
               {Math.round(projection.monthlySavingsRate * 100)}%
@@ -143,6 +147,14 @@ export function FinancePage() {
             </div>
             <div className="stat-label">To target</div>
           </div>
+          <ProgressRing
+            fraction={
+              inputs.targetNetWorth > 0
+                ? inputs.currentPortfolio / inputs.targetNetWorth
+                : 0
+            }
+            label="Of target today"
+          />
           <div className="stat-tile">
             <div className="stat-value" style={{ fontSize: 16 }}>
               {formatMoneyFull(finalYear.portfolio, inputs.currency)}
@@ -155,6 +167,45 @@ export function FinancePage() {
           target={inputs.targetNetWorth}
           currency={inputs.currency}
         />
+
+        {/* Where the year-N value comes from: starting capital,
+            contributions, and compound growth. */}
+        <h3 className="section-title" style={{ marginTop: 18 }}>
+          Year {horizon} breakdown
+        </h3>
+        {(() => {
+          const start = Math.max(0, inputs.currentPortfolio);
+          const contrib = Math.max(0, finalYear.invested);
+          const growth = Math.max(0, finalYear.growth);
+          const total = start + contrib + growth || 1;
+          const segs = [
+            { name: "Starting capital", value: start, color: "var(--chart-series-3)" },
+            { name: "Contributions", value: contrib, color: "var(--chart-series-2)" },
+            { name: "Growth", value: growth, color: "var(--chart-series-1)" },
+          ].filter((s) => s.value > 0);
+          return (
+            <>
+              <div className="composition" role="img" aria-label="Portfolio composition">
+                {segs.map((s) => (
+                  <div
+                    key={s.name}
+                    className="comp-seg"
+                    style={{ flexGrow: s.value / total, background: s.color }}
+                  />
+                ))}
+              </div>
+              <div className="comp-legend">
+                {segs.map((s) => (
+                  <span key={s.name} className="comp-key">
+                    <span className="comp-dot" style={{ background: s.color }} />
+                    {s.name} · {formatMoneyFull(s.value, inputs.currency)} (
+                    {Math.round((s.value / total) * 100)}%)
+                  </span>
+                ))}
+              </div>
+            </>
+          );
+        })()}
         <div className="table-wrap" style={{ marginTop: 12 }}>
           <table className="data-table">
             <thead>

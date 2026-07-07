@@ -3,11 +3,12 @@ import type { PulseLatest, PulseSignal, LearningItem } from "../../types";
 import { loadLatestPulse, topSignals } from "../../lib/pulse";
 import { formatDateLong, greetingForHour, relativeTime, todayKey } from "../../lib/date";
 import { loadGlanceStats } from "../../lib/stats";
+import { useCountUp } from "../../lib/useCountUp";
 import {
   MINDSET_PROMPTS,
   THINKING_CHALLENGES,
   LEARNING_ACTIONS,
-  dailyPick,
+  dailyRotation,
 } from "../../data/prompts";
 import { STORE_KEYS, loadList, newId, upsertItem } from "../../lib/storage";
 import {
@@ -44,6 +45,10 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         .filter(Boolean),
     );
   });
+  // Snapshot at mount: signals already in the queue are excluded from
+  // today's top five (no re-showing processed content), but a card saved
+  // mid-session stays visible until the next visit.
+  const [excludeUrls] = useState<Set<string>>(() => new Set(savedIds));
 
   useEffect(() => {
     let cancelled = false;
@@ -58,11 +63,19 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   }, []);
 
   const dateKey = todayKey();
-  const mindset = dailyPick(MINDSET_PROMPTS, dateKey, 1);
-  const challenge = dailyPick(THINKING_CHALLENGES, dateKey, 2);
-  const action = dailyPick(LEARNING_ACTIONS, dateKey, 3);
+  const mindset = dailyRotation(MINDSET_PROMPTS, dateKey, 1);
+  const challenge = dailyRotation(THINKING_CHALLENGES, dateKey, 2);
+  const action = dailyRotation(LEARNING_ACTIONS, dateKey, 3);
 
-  const top = useMemo(() => (pulse ? topSignals(pulse, 5) : []), [pulse]);
+  const top = useMemo(() => {
+    if (!pulse) return [];
+    const fresh = {
+      ...pulse,
+      signals: pulse.signals.filter((s) => !excludeUrls.has(s.url)),
+    };
+    // If everything fresh was already saved, fall back to the full list.
+    return topSignals(fresh.signals.length > 0 ? fresh : pulse, 5);
+  }, [pulse, excludeUrls]);
 
   const saveToQueue = (s: PulseSignal) => {
     const item: LearningItem = {
@@ -81,6 +94,9 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   };
 
   const hour = new Date().getHours();
+  const streakShown = useCountUp(stats.streak);
+  const dueShown = useCountUp(stats.cardsDue);
+  const queueShown = useCountUp(stats.queueCount);
 
   return (
     <div>
@@ -97,7 +113,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         >
           <span className="stat-value">
             <FlameIcon />
-            {stats.streak}
+            {streakShown}
           </span>
           <span className="stat-label">Day streak</span>
         </button>
@@ -109,7 +125,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         >
           <span className="stat-value">
             <StackIcon />
-            {stats.cardsDue}
+            {dueShown}
           </span>
           <span className="stat-label">Cards due</span>
         </button>
@@ -121,7 +137,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         >
           <span className="stat-value">
             <InboxIcon />
-            {stats.queueCount}
+            {queueShown}
           </span>
           <span className="stat-label">In queue</span>
         </button>
