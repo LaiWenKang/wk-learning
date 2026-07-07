@@ -1,98 +1,42 @@
 /*
- * WK Learning service worker — minimal offline support.
- * - App shell: network-first with cached copy as offline fallback.
- * - Pulse data (data/*.json): network-first, cached copy as offline fallback.
- * - Built assets are content-hashed by Vite, so cache-first is safe.
+ * Self-destructing service worker.
  *
- * Only successful (ok) responses are ever cached: during a Pages deploy
- * the CDN can briefly 404 brand-new hashed assets, and caching that
- * failure would poison the cache and blank the app permanently. A cached
- * non-ok response from an older worker version is deleted on sight.
- * Bumping CACHE discards every previous cache on activation.
+ * Earlier versions cached built assets and, during a deploy, cached a
+ * transient 404 for a brand-new hashed file — permanently blanking the
+ * app until site data was cleared. For a personal, always-online,
+ * local-first app the offline benefit is not worth that failure mode, so
+ * the service worker is retired: this version clears every cache,
+ * unregisters itself, and reloads any open windows. After it runs once,
+ * the app is a plain, always-fresh page served straight from GitHub Pages.
+ *
+ * It deliberately has no fetch handler, so every request goes to the
+ * network — no cache can ever be served, poisoned or otherwise.
  */
 
-const CACHE = "wk-learning-v3";
-
-// Hashed build assets accumulate across deploys; keep only the newest few.
-const MAX_ASSET_ENTRIES = 24;
-
-async function trimAssets() {
-  const cache = await caches.open(CACHE);
-  const keys = await cache.keys();
-  const assets = keys.filter((req) => new URL(req.url).pathname.includes("/assets/"));
-  // Cache keys are ordered oldest-first; drop from the front.
-  for (const req of assets.slice(0, Math.max(0, assets.length - MAX_ASSET_ENTRIES))) {
-    await cache.delete(req);
-  }
-}
-
-/** Cache a response only if it is a real success. */
-async function putIfOk(request, response) {
-  if (response && response.ok) {
-    const cache = await caches.open(CACHE);
-    await cache.put(request, response.clone());
-    await trimAssets();
-  }
-}
-
-/** Read from cache, discarding any poisoned (non-ok) entry. */
-async function cachedOk(request, options) {
-  const hit = await caches.match(request, options);
-  if (hit && !hit.ok) {
-    const cache = await caches.open(CACHE);
-    await cache.delete(request);
-    return undefined;
-  }
-  return hit;
-}
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(self.skipWaiting());
-});
+self.addEventListener("install", () => self.skipWaiting());
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches
-      .keys()
-      .then((keys) =>
-        Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))),
-      )
-      .then(() => self.clients.claim()),
-  );
-});
-
-self.addEventListener("fetch", (event) => {
-  const { request } = event;
-  if (request.method !== "GET") return;
-  const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
-
-  const isData = url.pathname.includes("/data/");
-  const isNavigation = request.mode === "navigate";
-
-  if (isData || isNavigation) {
-    // Network-first: always try for fresh content, fall back to cache offline.
-    event.respondWith(
-      fetch(request)
-        .then(async (res) => {
-          await putIfOk(request, res);
-          return res;
-        })
-        .catch(() => cachedOk(request, { ignoreSearch: isNavigation })),
-    );
-    return;
-  }
-
-  // Static assets: cache-first, but a failed fetch is never cached and a
-  // previously poisoned entry is dropped and refetched.
-  event.respondWith(
-    cachedOk(request).then(
-      (cached) =>
-        cached ??
-        fetch(request).then(async (res) => {
-          await putIfOk(request, res);
-          return res;
-        }),
-    ),
+    (async () => {
+      try {
+        const keys = await caches.keys();
+        await Promise.all(keys.map((k) => caches.delete(k)));
+      } catch {
+        /* best effort */
+      }
+      try {
+        await self.registration.unregister();
+      } catch {
+        /* best effort */
+      }
+      try {
+        const clients = await self.clients.matchAll({ type: "window" });
+        for (const client of clients) {
+          client.navigate(client.url);
+        }
+      } catch {
+        /* best effort */
+      }
+    })(),
   );
 });
