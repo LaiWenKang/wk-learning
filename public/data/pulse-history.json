@@ -1,5 +1,316 @@
 {
-  "updatedAt": "2026-01-01T00:00:00.000Z",
-  "$comment": "Rolling public-signal history maintained by scripts/pulse-fetch.ts. Bounded to ~7 days / 300 items.",
-  "signals": []
+  "updatedAt": "2026-07-07T13:01:33.482Z",
+  "signals": [
+    {
+      "id": "sig-qdbkle",
+      "title": "Automated Data Readiness for Scientific AI",
+      "url": "https://arxiv.org/abs/2607.02771",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02771v1 Announce Type: new Abstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before serving as AI training data. However, no existing framework fully unifies automated transformation, rea",
+      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "leadership"
+      ]
+    },
+    {
+      "id": "sig-qdbld1",
+      "title": "Object-Centric Environment Modeling for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2607.02846",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qdbixv",
+      "title": "Better Together, in the Right Order: Classical-then-LLM Optimization for SE",
+      "url": "https://arxiv.org/abs/2607.02583",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02583v1 Announce Type: new Abstract: A growing body of work combines large language models (LLMs) with classical optimizers for software engineering (SE) configuration tasks. Often, the classical optimizer is in charge: it owns the search loop and calls the LLM only to",
+      "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qdbjku",
+      "title": "A Survey of LLM-Driven Penetration Testing: Taxonomy, Co-Evolution, and Open Challenges",
+      "url": "https://arxiv.org/abs/2607.02605",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02605v1 Announce Type: new Abstract: Agents4Pentest, an emerging class of LLM-based autonomous penetration testing systems, has become a rapidly growing area in security research. Despite this growth, the field still lacks a unified taxonomy, a systematic understanding",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qdbjkv",
+      "title": "ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance",
+      "url": "https://arxiv.org/abs/2607.02606",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02606v1 Announce Type: new Abstract: Language model (LM) agents are increasingly deployed to maintain codebases over extended periods, fixing streams of related defects while carrying context from one fix to the next. Yet existing software engineering (SWE) benchmarks ",
+      "whyItMatters": "Touches language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 7.7,
+      "tags": [
+        "language model",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qdbjs7",
+      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+      "url": "https://arxiv.org/abs/2607.02686",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qdblfv",
+      "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02879",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qdbm68",
+      "title": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "url": "https://arxiv.org/abs/2607.02931",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and e",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qdc6ai",
+      "title": "Beyond Forecasting: The Belief-to-Trade Layer in Prediction-Market Agents",
+      "url": "https://arxiv.org/abs/2607.03015",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.03015v1 Announce Type: new Abstract: Forecasting future events has attracted growing attention as a testbed for general-purpose AI. A natural way to ground this evaluation is let the models trade in the prediction markets. Trading, however, requires more than forecasti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qdc6bf",
+      "title": "Human-Centric Reflective Architecture for Human-AI Collaborative Decision-Making",
+      "url": "https://arxiv.org/abs/2607.03025",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.03025v1 Announce Type: new Abstract: The use of Large Language Models (LLMs) across diverse areas of human activity-ranging from everyday tasks to safety-critical applications-aims to enhance decision-making effectiveness with minimal human feedback. Concurrently, it s",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qdbiyy",
+      "title": "AgentLTL: A Trace-Verification Framework for Measuring, Enforcing, and Training Procedural Compliance in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02599",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.02599v1 Announce Type: new Abstract: Tool-using LLM agents are usually evaluated by final-answer correctness or LLM judges. Neither captures how an answer was produced. In safety-critical settings, the procedure itself is part of correctness. In this paper, we introduc",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-07T04:00:00.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.2,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-8k4woz",
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "184 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-06T23:59:54Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6.1,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-rliqug",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "530 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-06T20:14:55Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1j78t8a",
+      "title": "Linux on the Atari Jaguar",
+      "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "166 points on Hacker News",
+      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-06T18:35:54Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-1xlusew",
+      "title": "Fable's judgement",
+      "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example the",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-03T18:51:06.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-17z9bgq",
+      "title": "Kulaxyz/token-diet (Shell) — trending new repo",
+      "url": "https://github.com/Kulaxyz/token-diet",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness. · ★ 602",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-03T15:20:04Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-nyqjgf",
+      "title": "synthetic-sciences/openscience (TypeScript) — trending new repo",
+      "url": "https://github.com/synthetic-sciences/openscience",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "The open-source AI workbench for scientific research · ★ 1106",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-03T15:06:45Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-3qjw0p",
+      "title": "elder-plinius/T3MP3ST (TypeScript) — trending new repo",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "autonomous red teaming platform; multi-agent offensive-security meta-harness · ★ 2971",
+      "whyItMatters": "Touches typescript, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-02T17:53:55Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "typescript",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-imdpse",
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder to attack than it was before. The post 6 security settings every GitHub maintainer should enable thi",
+      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-01T15:59:29.000Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x3zjwx",
+      "title": "HKUDS/OpenOPC (Python) — trending new repo",
+      "url": "https://github.com/HKUDS/OpenOPC",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown · ★ 550",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-01T10:17:37Z",
+      "fetchedAt": "2026-07-07T13:01:33.482Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    }
+  ]
 }
