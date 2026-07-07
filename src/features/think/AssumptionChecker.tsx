@@ -1,14 +1,53 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, Field } from "../../components/ui";
 import { copyToClipboard } from "../../lib/export";
+import { storage } from "../../lib/storage";
+
+type AssumptionDraft = {
+  claim: string;
+  verified: string;
+  assumed: string;
+  counterEvidence: string;
+  risk: string;
+};
+
+const DRAFT_KEY = "assumption-draft";
 
 export function AssumptionChecker() {
-  const [claim, setClaim] = useState("");
-  const [verified, setVerified] = useState("");
-  const [assumed, setAssumed] = useState("");
-  const [counterEvidence, setCounterEvidence] = useState("");
-  const [risk, setRisk] = useState("");
+  const [initial] = useState<AssumptionDraft>(
+    () =>
+      storage.get<AssumptionDraft>(DRAFT_KEY) ?? {
+        claim: "",
+        verified: "",
+        assumed: "",
+        counterEvidence: "",
+        risk: "",
+      },
+  );
+  const [claim, setClaim] = useState(initial.claim);
+  const [verified, setVerified] = useState(initial.verified);
+  const [assumed, setAssumed] = useState(initial.assumed);
+  const [counterEvidence, setCounterEvidence] = useState(initial.counterEvidence);
+  const [risk, setRisk] = useState(initial.risk);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    storage.set<AssumptionDraft>(DRAFT_KEY, {
+      claim,
+      verified,
+      assumed,
+      counterEvidence,
+      risk,
+    });
+  }, [claim, verified, assumed, counterEvidence, risk]);
+
+  const clearAll = () => {
+    setClaim("");
+    setVerified("");
+    setAssumed("");
+    setCounterEvidence("");
+    setRisk("");
+  };
 
   const summary = [
     `**Claim:** ${claim.trim() || "—"}`,
@@ -64,6 +103,15 @@ export function AssumptionChecker() {
             <Field label="What is the risk if I am wrong?">
               <textarea value={risk} onChange={(e) => setRisk(e.target.value)} />
             </Field>
+            <div className="btn-row">
+              <button
+                type="button"
+                className="btn btn-danger btn-small"
+                onClick={clearAll}
+              >
+                Clear
+              </button>
+            </div>
           </>
         )}
       </Card>

@@ -125,6 +125,16 @@ export function idFromUrl(url: string): string {
   return `sig-${hash.toString(36)}`;
 }
 
+/** Only plain web URLs may enter the dataset (blocks javascript:, data:, etc.). */
+export function isSafeHttpUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    return u.protocol === "http:" || u.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
 export function normalizeUrl(url: string): string {
   try {
     const u = new URL(url);

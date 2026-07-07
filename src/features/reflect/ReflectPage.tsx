@@ -82,6 +82,15 @@ export function ReflectPage() {
       : EMPTY_DRAFT,
   );
   const [savedFlash, setSavedFlash] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+  const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
+
+  const deleteEntry = (id: string) => {
+    const next = entries.filter((e) => e.id !== id);
+    saveList(STORE_KEYS.reflections, next);
+    setEntries(next);
+    setConfirmDelete(null);
+  };
 
   const save = () => {
     const entry: ReflectionEntry = {
@@ -235,10 +244,23 @@ export function ReflectPage() {
       </Card>
 
       <SectionTitle icon={<JournalIcon />}>History</SectionTitle>
-      {last7.length === 0 ? (
+      {entries.length > last7.length && (
+        <div className="btn-row" style={{ marginTop: 0, marginBottom: 10 }}>
+          <button
+            type="button"
+            className="btn btn-small"
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll
+              ? "Show last 7 days"
+              : `Show all ${entries.length} entries`}
+          </button>
+        </div>
+      )}
+      {(showAll ? entries : last7).length === 0 ? (
         <div className="empty-state">No entries yet this week.</div>
       ) : (
-        last7.map((e) => (
+        (showAll ? entries : last7).map((e) => (
           <Card key={e.id}>
             <p className="signal-title">{e.date}</p>
             <div className="signal-meta">
@@ -255,6 +277,34 @@ export function ReflectPage() {
                 <strong>Do better:</strong> {e.oneThingToDoBetter}
               </p>
             )}
+            <div className="btn-row">
+              {confirmDelete === e.id ? (
+                <>
+                  <button
+                    type="button"
+                    className="btn btn-danger btn-small"
+                    onClick={() => deleteEntry(e.id)}
+                  >
+                    Confirm delete
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-small"
+                    onClick={() => setConfirmDelete(null)}
+                  >
+                    Cancel
+                  </button>
+                </>
+              ) : (
+                <button
+                  type="button"
+                  className="btn btn-danger btn-small"
+                  onClick={() => setConfirmDelete(e.id)}
+                >
+                  Delete
+                </button>
+              )}
+            </div>
           </Card>
         ))
       )}

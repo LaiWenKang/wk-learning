@@ -20,7 +20,7 @@ export function QueueView() {
   const [items, setItems] = useState<LearningItem[]>(() =>
     loadList<LearningItem>(STORE_KEYS.learningItems),
   );
-  const [madeCardFor, setMadeCardFor] = useState<string | null>(null);
+  const [madeCardFor, setMadeCardFor] = useState<Set<string>>(new Set());
 
   const active = items.filter((i) => !i.archived);
 
@@ -45,7 +45,7 @@ export function QueueView() {
       tags: item.tags,
     };
     upsertItem(STORE_KEYS.flashcards, card);
-    setMadeCardFor(item.id);
+    setMadeCardFor((prev) => new Set(prev).add(item.id));
   };
 
   if (active.length === 0) {
@@ -99,10 +99,10 @@ export function QueueView() {
             <button
               type="button"
               className="btn btn-soft btn-small"
-              disabled={madeCardFor === item.id}
+              disabled={madeCardFor.has(item.id)}
               onClick={() => toFlashcard(item)}
             >
-              {madeCardFor === item.id ? "Card created ✓" : "Make Flashcard"}
+              {madeCardFor.has(item.id) ? "Card created ✓" : "Make Flashcard"}
             </button>
             <button
               type="button"

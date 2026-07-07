@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, Field } from "../../components/ui";
 import { copyToClipboard } from "../../lib/export";
+import { storage } from "../../lib/storage";
 
 type RiskState = "unchecked" | "ok" | "risk";
+
+type RiskDraft = {
+  context: string;
+  states: Record<string, RiskState>;
+  notes: Record<string, string>;
+};
+
+const DRAFT_KEY = "risk-draft";
 
 const RISK_ITEMS: { id: string; label: string; probe: string }[] = [
   {
@@ -59,10 +68,23 @@ const STATE_CYCLE: Record<RiskState, RiskState> = {
 };
 
 export function RiskScanner() {
-  const [context, setContext] = useState("");
-  const [states, setStates] = useState<Record<string, RiskState>>({});
-  const [notes, setNotes] = useState<Record<string, string>>({});
+  const [initial] = useState<RiskDraft>(
+    () => storage.get<RiskDraft>(DRAFT_KEY) ?? { context: "", states: {}, notes: {} },
+  );
+  const [context, setContext] = useState(initial.context);
+  const [states, setStates] = useState<Record<string, RiskState>>(initial.states);
+  const [notes, setNotes] = useState<Record<string, string>>(initial.notes);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    storage.set<RiskDraft>(DRAFT_KEY, { context, states, notes });
+  }, [context, states, notes]);
+
+  const resetScan = () => {
+    setContext("");
+    setStates({});
+    setNotes({});
+  };
 
   const stateOf = (id: string): RiskState => states[id] ?? "unchecked";
   const flagged = RISK_ITEMS.filter((r) => stateOf(r.id) === "risk");
@@ -173,6 +195,9 @@ export function RiskScanner() {
             }}
           >
             {copied ? "Copied ✓" : "Copy"}
+          </button>
+          <button type="button" className="btn btn-danger btn-small" onClick={resetScan}>
+            New scan
           </button>
         </div>
       </Card>

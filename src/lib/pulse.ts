@@ -19,6 +19,16 @@ export async function loadLatestPulse(): Promise<{
     if (!Array.isArray(data.signals) || data.signals.length === 0) {
       throw new Error("empty pulse file");
     }
+    // Defense in depth: never render a non-http(s) link, whatever the file says.
+    data.signals = data.signals.filter((s) => {
+      try {
+        const u = new URL(s.url);
+        return u.protocol === "http:" || u.protocol === "https:";
+      } catch {
+        return false;
+      }
+    });
+    if (data.signals.length === 0) throw new Error("no valid signals");
     return { data, isSample: false };
   } catch {
     return { data: SAMPLE_PULSE, isSample: true };

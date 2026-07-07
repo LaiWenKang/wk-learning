@@ -19,6 +19,7 @@ import {
   categorize,
   dedupeSignals,
   idFromUrl,
+  isSafeHttpUrl,
   scoreSignal,
   whyItMatters,
   type CategoryKeywords,
@@ -223,7 +224,9 @@ async function main(): Promise<void> {
           console.warn(`[pulse] ${source.id}: unknown type, skipping`);
           continue;
       }
-      raw = raw.slice(0, source.maxItems ?? 20);
+      raw = raw
+        .filter((item) => isSafeHttpUrl(item.url))
+        .slice(0, source.maxItems ?? 20);
       for (const item of raw) {
         const { score, matched } = scoreSignal(
           item.title,

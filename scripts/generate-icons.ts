@@ -150,16 +150,25 @@ function inkAt(
   return { core, halo };
 }
 
-function renderIcon(size: number, opaqueSquare: boolean): Uint8Array {
+/**
+ * @param contentScale shrink the artwork toward the center (1 = full size).
+ *   Maskable icons keep the art inside the ~80% safe zone so any platform
+ *   mask (circle, squircle) never clips it.
+ */
+function renderIcon(size: number, opaqueSquare: boolean, contentScale = 1): Uint8Array {
   const rgba = new Uint8Array(size * size * 4);
   const radius = opaqueSquare ? 0 : size * 0.22;
-  const aa = 1.2 / size;
+  const aa = (1.2 / size) * contentScale;
 
   for (let y = 0; y < size; y++) {
     for (let x = 0; x < size; x++) {
       const i = (y * size + x) * 4;
-      const nx = x / size;
-      const ny = y / size;
+      // Background (glows, rounded rect) uses raw coords; the artwork is
+      // sampled in scaled space so it shrinks toward the center.
+      const rawNx = x / size;
+      const rawNy = y / size;
+      const nx = 0.5 + (rawNx - 0.5) / contentScale;
+      const ny = 0.5 + (rawNy - 0.5) / contentScale;
 
       // Rounded-rect coverage
       let alpha = 255;
@@ -177,7 +186,7 @@ function renderIcon(size: number, opaqueSquare: boolean): Uint8Array {
       let g = BG[1];
       let b = BG[2];
       for (const gl of [GLOW_BLUE, GLOW_VIOLET]) {
-        const d = Math.hypot(nx - gl.cx, ny - gl.cy);
+        const d = Math.hypot(rawNx - gl.cx, rawNy - gl.cy);
         const f = Math.max(0, 1 - d / gl.r);
         const s = f * f * gl.peak;
         r += gl.color[0] * s;
@@ -253,12 +262,13 @@ function renderIcon(size: number, opaqueSquare: boolean): Uint8Array {
 }
 
 mkdirSync(OUT_DIR, { recursive: true });
-for (const [name, size, square] of [
-  ["icon-192.png", 192, false],
-  ["icon-512.png", 512, false],
-  ["apple-touch-icon.png", 180, true], // iOS applies its own corner mask
+for (const [name, size, square, scale] of [
+  ["icon-192.png", 192, false, 1],
+  ["icon-512.png", 512, false, 1],
+  ["apple-touch-icon.png", 180, true, 1], // iOS applies its own corner mask
+  ["icon-maskable.png", 512, true, 0.76], // full-bleed; art inside the safe zone
 ] as const) {
-  writeFileSync(resolve(OUT_DIR, name), encodePng(size, renderIcon(size, square)));
+  writeFileSync(resolve(OUT_DIR, name), encodePng(size, renderIcon(size, square, scale)));
   console.log(`wrote icons/${name}`);
 }
 

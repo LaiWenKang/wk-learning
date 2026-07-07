@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import type { FinanceScenario } from "../../types";
 import {
   STORE_KEYS,
   loadList,
   newId,
   removeItem,
+  saveList,
   storage,
   upsertItem,
 } from "../../lib/storage";
@@ -48,6 +49,11 @@ export function FinancePage() {
   useEffect(() => {
     storage.set<FinanceDraft>(DRAFT_KEY, { inputs, horizon });
   }, [inputs, horizon]);
+
+  // Heavy simulations run against deferred values so typing stays instant
+  // even on older phones; results catch up a frame later.
+  const dInputs = useDeferredValue(inputs);
+  const dHorizon = useDeferredValue(horizon);
   const [scenarioName, setScenarioName] = useState("");
   const [scenarios, setScenarios] = useState<FinanceScenario[]>(() =>
     loadList<FinanceScenario>(STORE_KEYS.financeScenarios),
@@ -73,16 +79,16 @@ export function FinancePage() {
   );
 
   const projection = useMemo(
-    () => projectScenario({ id: "live", name: "live", ...inputs }, horizon),
-    [inputs, horizon],
+    () => projectScenario({ id: "live", name: "live", ...dInputs }, dHorizon),
+    [dInputs, dHorizon],
   );
 
   const simulation = useMemo(
     () =>
-      (inputs.volatilityPct ?? 0) > 0
-        ? simulateScenario({ id: "live", name: "live", ...inputs }, horizon)
+      (dInputs.volatilityPct ?? 0) > 0
+        ? simulateScenario({ id: "live", name: "live", ...dInputs }, dHorizon)
         : null,
-    [inputs, horizon],
+    [dInputs, dHorizon],
   );
 
   const monthlySurplus = inputs.monthlyIncome - inputs.monthlyExpenses;
@@ -91,16 +97,16 @@ export function FinancePage() {
   // How much the monthly amount matters: years-to-target at ±deltas.
   const SENSITIVITY_HORIZON = 50;
   const sensitivity = useMemo(() => {
-    if (inputs.targetNetWorth <= 0) return null;
+    if (dInputs.targetNetWorth <= 0) return null;
     return [-1000, -500, 0, 500, 1000].map((delta) => {
-      const inv = Math.max(0, inputs.monthlyInvestment + delta);
+      const inv = Math.max(0, dInputs.monthlyInvestment + delta);
       const p = projectScenario(
-        { id: "sens", name: "sens", ...inputs, monthlyInvestment: inv },
+        { id: "sens", name: "sens", ...dInputs, monthlyInvestment: inv },
         SENSITIVITY_HORIZON,
       );
       return { delta, inv, years: p.yearsToTarget };
     });
-  }, [inputs]);
+  }, [dInputs]);
 
   const saveScenario = () => {
     const name = scenarioName.trim() || `Scenario ${scenarios.length + 1}`;
@@ -121,10 +127,44 @@ export function FinancePage() {
   const deleteScenario = (id: string) =>
     setScenarios(removeItem<FinanceScenario>(STORE_KEYS.financeScenarios, id));
 
+  const addExampleScenarios = () => {
+    const examples: FinanceScenario[] = [
+      {
+        id: newId(),
+        name: "Steady saver (example)",
+        currency: "SGD",
+        currentPortfolio: 50000,
+        monthlyIncome: 6000,
+        monthlyExpenses: 3000,
+        monthlyInvestment: 2000,
+        expectedAnnualReturnPct: 5,
+        annualSalaryGrowthPct: 3,
+        targetNetWorth: 1000000,
+        volatilityPct: 10,
+      },
+      {
+        id: newId(),
+        name: "Aggressive investor (example)",
+        currency: "SGD",
+        currentPortfolio: 50000,
+        monthlyIncome: 6000,
+        monthlyExpenses: 2500,
+        monthlyInvestment: 3200,
+        expectedAnnualReturnPct: 6.5,
+        annualSalaryGrowthPct: 3,
+        targetNetWorth: 1000000,
+        volatilityPct: 16,
+      },
+    ];
+    const next = [...examples, ...scenarios];
+    saveList(STORE_KEYS.financeScenarios, next);
+    setScenarios(next);
+  };
+
   const comparison = useMemo(
     () =>
       scenarios.map((s) => {
-        const p = projectScenario(s, horizon);
+        const p = projectScenario(s, dHorizon);
         return {
           scenario: s,
           final: p.years[p.years.length - 1].portfolio,
@@ -132,7 +172,7 @@ export function FinancePage() {
           savingsRate: p.monthlySavingsRate,
         };
       }),
-    [scenarios, horizon],
+    [scenarios, dHorizon],
   );
 
   return (
@@ -384,7 +424,13 @@ export function FinancePage() {
       <h2 className="section-title">Scenario Comparison</h2>
       {comparison.length === 0 ? (
         <EmptyState>
-          No saved scenarios. Save the current inputs to start comparing.
+          <p style={{ marginTop: 0 }}>
+            No saved scenarios. Save the current inputs to start comparing, or
+            load two examples to see how comparison works.
+          </p>
+          <button type="button" className="btn btn-soft" onClick={addExampleScenarios}>
+            Add example scenarios
+          </button>
         </EmptyState>
       ) : (
         <Card>

@@ -106,7 +106,23 @@ export function exportAllData(): Record<string, unknown> {
   };
 }
 
-/** Import a backup produced by exportAllData. Returns imported key count. */
+/** Collection keys that must hold arrays of { id: string } items. */
+const LIST_KEYS = new Set<string>(Object.values(STORE_KEYS));
+
+function isValidList(value: unknown): boolean {
+  return (
+    Array.isArray(value) &&
+    value.every(
+      (item) =>
+        typeof item === "object" &&
+        item !== null &&
+        typeof (item as { id?: unknown }).id === "string",
+    )
+  );
+}
+
+/** Import a backup produced by exportAllData. Returns imported key count.
+ *  Shape-checks each collection so a corrupted file can't wedge the app. */
 export function importAllData(backup: unknown): number {
   if (
     typeof backup !== "object" ||
@@ -117,6 +133,17 @@ export function importAllData(backup: unknown): number {
     throw new Error("Not a valid WK Learning backup file.");
   }
   const data = (backup as { data: Record<string, unknown> }).data;
+
+  // Validate everything before writing anything (all-or-nothing restore).
+  for (const [key, value] of Object.entries(data)) {
+    if (LIST_KEYS.has(key) && !isValidList(value)) {
+      throw new Error(`Backup is corrupted: "${key}" is not a valid collection.`);
+    }
+    if (!LIST_KEYS.has(key) && (typeof value !== "object" || value === null)) {
+      throw new Error(`Backup is corrupted: "${key}" has an unexpected shape.`);
+    }
+  }
+
   let count = 0;
   for (const [key, value] of Object.entries(data)) {
     storage.set(key, value);

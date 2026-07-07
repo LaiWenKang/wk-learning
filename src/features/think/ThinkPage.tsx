@@ -4,8 +4,9 @@ import { RcaBuilder } from "./RcaBuilder";
 import { DecisionMatrix } from "./DecisionMatrix";
 import { AssumptionChecker } from "./AssumptionChecker";
 import { RiskScanner } from "./RiskScanner";
+import { FiveWhys } from "./FiveWhys";
 
-type ThinkTool = "rca" | "matrix" | "assumptions" | "risks";
+type ThinkTool = "rca" | "fivewhys" | "matrix" | "assumptions" | "risks";
 
 export function ThinkPage() {
   const [tool, setTool] = useState<ThinkTool>("rca");
@@ -21,12 +22,14 @@ export function ThinkPage() {
         onChange={setTool}
         options={[
           { value: "rca", label: "RCA" },
+          { value: "fivewhys", label: "5 Whys" },
           { value: "matrix", label: "Decision" },
           { value: "assumptions", label: "Assumptions" },
           { value: "risks", label: "Risks" },
         ]}
       />
       {tool === "rca" && <RcaBuilder />}
+      {tool === "fivewhys" && <FiveWhys />}
       {tool === "matrix" && <DecisionMatrix />}
       {tool === "assumptions" && <AssumptionChecker />}
       {tool === "risks" && <RiskScanner />}

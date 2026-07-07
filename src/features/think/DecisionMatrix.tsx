@@ -1,5 +1,6 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Card, Field } from "../../components/ui";
+import { storage } from "../../lib/storage";
 
 /* Fixed criterion colors (validated dark categorical order); extra
    criteria beyond the palette fold into neutral gray. */
@@ -20,21 +21,62 @@ type Criterion = { id: number; name: string; weight: number };
 type Option = { id: number; name: string };
 type Scores = Record<string, number>; // `${criterionId}:${optionId}` -> 1..5
 
+type MatrixDraft = {
+  question: string;
+  options: Option[];
+  criteria: Criterion[];
+  scores: Scores;
+};
+
+const MATRIX_KEY = "decision-draft";
+
 let nextId = 1;
 const uid = () => nextId++;
 
-export function DecisionMatrix() {
-  const [question, setQuestion] = useState("");
-  const [options, setOptions] = useState<Option[]>([
+const defaultDraft = (): MatrixDraft => ({
+  question: "",
+  options: [
     { id: uid(), name: "Option A" },
     { id: uid(), name: "Option B" },
-  ]);
-  const [criteria, setCriteria] = useState<Criterion[]>([
+  ],
+  criteria: [
     { id: uid(), name: "Impact", weight: 5 },
     { id: uid(), name: "Effort (higher = easier)", weight: 3 },
     { id: uid(), name: "Risk (higher = safer)", weight: 4 },
-  ]);
-  const [scores, setScores] = useState<Scores>({});
+  ],
+  scores: {},
+});
+
+function loadDraft(): MatrixDraft {
+  const saved = storage.get<MatrixDraft>(MATRIX_KEY);
+  if (!saved || !Array.isArray(saved.options) || !Array.isArray(saved.criteria)) {
+    return defaultDraft();
+  }
+  // Keep the id counter ahead of everything restored from storage.
+  const maxId = Math.max(0, ...saved.options.map((o) => o.id), ...saved.criteria.map((c) => c.id));
+  nextId = Math.max(nextId, maxId + 1);
+  return saved;
+}
+
+export function DecisionMatrix() {
+  const [initial] = useState(loadDraft);
+  const [question, setQuestion] = useState(initial.question);
+  const [options, setOptions] = useState<Option[]>(initial.options);
+  const [criteria, setCriteria] = useState<Criterion[]>(initial.criteria);
+  const [scores, setScores] = useState<Scores>(initial.scores);
+
+  // A half-finished decision survives leaving the tab or closing the app.
+  useEffect(() => {
+    storage.set<MatrixDraft>(MATRIX_KEY, { question, options, criteria, scores });
+  }, [question, options, criteria, scores]);
+
+  const reset = () => {
+    const fresh = defaultDraft();
+    setQuestion(fresh.question);
+    setOptions(fresh.options);
+    setCriteria(fresh.criteria);
+    setScores(fresh.scores);
+  };
 
   const scoreKey = (c: Criterion, o: Option) => `${c.id}:${o.id}`;
   const getScore = (c: Criterion, o: Option) => scores[scoreKey(c, o)] ?? 3;
@@ -144,6 +186,11 @@ export function DecisionMatrix() {
         >
           + Add criterion
         </button>
+        <div className="btn-row">
+          <button type="button" className="btn btn-danger btn-small" onClick={reset}>
+            Start over
+          </button>
+        </div>
       </Card>
 
       <Card title="Scores">
