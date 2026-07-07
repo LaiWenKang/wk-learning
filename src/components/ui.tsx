@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import type { CSSProperties, ReactNode } from "react";
 import type { Rating, SignalCategory } from "../types";
 import { CATEGORY_LABELS } from "../types";
+import { useFocusTrap } from "../lib/useFocusTrap";
 
 export function Card(props: {
   title?: string;
@@ -146,6 +147,8 @@ export function Drawer(props: { summary: ReactNode; children: ReactNode; open?: 
 
 /** Bottom-sheet modal. Tap backdrop or Escape to dismiss. */
 export function Sheet(props: { onClose: () => void; children: ReactNode; label?: string }) {
+  const trapRef = useFocusTrap<HTMLDivElement>();
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") props.onClose();
@@ -170,7 +173,7 @@ export function Sheet(props: { onClose: () => void; children: ReactNode; label?:
       aria-modal="true"
       aria-label={props.label}
     >
-      <div className="sheet" onClick={(e) => e.stopPropagation()}>
+      <div ref={trapRef} className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-handle" />
         {props.children}
       </div>

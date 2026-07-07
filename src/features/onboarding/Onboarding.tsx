@@ -9,6 +9,7 @@ import {
 } from "../../components/icons";
 import { STORE_KEYS, loadList, newId, saveList, storage } from "../../lib/storage";
 import { STARTER_DECK } from "../../data/starterDeck";
+import { useFocusTrap } from "../../lib/useFocusTrap";
 import type { Flashcard } from "../../types";
 
 const ONBOARDED_KEY = "onboarded";
@@ -98,6 +99,7 @@ const SLIDES: Slide[] = [
 export function Onboarding(props: { onDone: () => void }) {
   const [index, setIndex] = useState(0);
   const [seedCards, setSeedCards] = useState(true);
+  const trapRef = useFocusTrap<HTMLDivElement>();
   const last = index === SLIDES.length - 1;
 
   const finish = () => {
@@ -122,7 +124,7 @@ export function Onboarding(props: { onDone: () => void }) {
 
   return (
     <div className="onboard-overlay" role="dialog" aria-modal="true" aria-label="Welcome">
-      <div className="onboard-card">
+      <div ref={trapRef} className="onboard-card">
         <button
           type="button"
           className="onboard-skip"

@@ -54,7 +54,14 @@ npm run dev        # local dev server
 npm run build      # typecheck + production build into dist/
 npm run preview    # serve the production build locally
 npm run typecheck  # TypeScript check only
+npm test           # Vitest unit tests for the core logic
 ```
+
+Unit tests (Vitest, `src/**/*.test.ts` + `scripts/**/*.test.ts`) cover the
+pure logic: compound projection and Monte-Carlo determinism, the
+no-repeat daily rotation (consecutive-repeat + full-cycle coverage),
+keyword scoring, URL-safety filtering, dedup, and date helpers. They run
+in CI on every branch push and pull request.
 
 Node 20.11+ (CI uses Node 22).
 
