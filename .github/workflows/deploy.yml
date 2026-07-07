@@ -36,6 +36,11 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Self-heal: create the Pages site (or switch it from legacy
+          # branch-based publishing) to the "GitHub Actions" source, so
+          # the deploy never depends on a manual Settings → Pages step.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
