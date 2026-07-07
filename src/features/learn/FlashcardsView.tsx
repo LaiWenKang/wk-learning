@@ -1,8 +1,16 @@
 import { useMemo, useState } from "react";
 import type { Flashcard, Rating, SignalCategory } from "../../types";
 import { CATEGORY_LABELS, SIGNAL_CATEGORIES } from "../../types";
-import { STORE_KEYS, loadList, newId, removeItem, upsertItem } from "../../lib/storage";
+import {
+  STORE_KEYS,
+  loadList,
+  newId,
+  removeItem,
+  saveList,
+  upsertItem,
+} from "../../lib/storage";
 import { addDays, todayKey } from "../../lib/date";
+import { STARTER_DECK } from "../../data/starterDeck";
 import { Card, CategoryChip, EmptyState, Field, RatingInput } from "../../components/ui";
 
 /** Confidence drives the next review interval (simple spaced repetition). */
@@ -36,6 +44,8 @@ export function FlashcardsView() {
   // due list, so the next card slides into place automatically.
   const [reviewing, setReviewing] = useState(false);
   const [revealed, setRevealed] = useState(false);
+  const [sessionCount, setSessionCount] = useState(0);
+  const [lastSession, setLastSession] = useState(0);
 
   const filtered = useMemo(
     () => (filter === "all" ? cards : cards.filter((c) => c.category === filter)),
@@ -99,12 +109,34 @@ export function FlashcardsView() {
     };
     setCards(upsertItem(STORE_KEYS.flashcards, updated));
     setRevealed(false);
-    if (due.length <= 1) setReviewing(false);
+    setSessionCount((n) => n + 1);
+    if (due.length <= 1) {
+      setReviewing(false);
+      setLastSession(sessionCount + 1);
+    }
   };
 
   const startReview = () => {
     setReviewing(true);
     setRevealed(false);
+    setSessionCount(0);
+    setLastSession(0);
+  };
+
+  const addStarterDeck = () => {
+    const now = new Date().toISOString();
+    const starters: Flashcard[] = STARTER_DECK.map((c) => ({
+      id: newId(),
+      createdAt: now,
+      front: c.front,
+      back: c.back,
+      category: c.category,
+      confidence: 2,
+      tags: c.tags,
+    }));
+    const next = [...starters, ...cards];
+    saveList(STORE_KEYS.flashcards, next);
+    setCards(next);
   };
 
   if (reviewing) {
@@ -288,9 +320,24 @@ export function FlashcardsView() {
         </select>
       </Field>
 
+      {lastSession > 0 && (
+        <div className="notice notice-info">
+          Session complete — {lastSession} card{lastSession === 1 ? "" : "s"}{" "}
+          reviewed. Consistency beats intensity.
+        </div>
+      )}
+
       {filtered.length === 0 ? (
         <EmptyState>
-          No flashcards yet. Create one, or convert a learning queue item.
+          <p style={{ marginTop: 0 }}>
+            No flashcards yet. Create one, convert a learning queue item, or
+            start with a small set of fundamentals.
+          </p>
+          {cards.length === 0 && (
+            <button type="button" className="btn btn-soft" onClick={addStarterDeck}>
+              Add starter deck ({STARTER_DECK.length} cards)
+            </button>
+          )}
         </EmptyState>
       ) : (
         filtered.map((card) => (

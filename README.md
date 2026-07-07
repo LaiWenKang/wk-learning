@@ -14,9 +14,9 @@ liquid-glass navigation, and chart colors validated for colorblind safety.
 | Tab | What it does |
 | --- | --- |
 | **Today** | Daily brief: streak/due/queue at a glance, top public signals from the Pulse, a professional mindset prompt, a thinking challenge, a suggested learning action, quick actions |
-| **Learn** | Learning Queue (saved signals + notes), flashcards with a 3D flip review and confidence-based intervals, concept notes with tags/takeaways, JSON import/export |
-| **Think** | Thinking Gym: RCA Builder (generates markdown), Decision Matrix (weighted scoring with result bars), Assumption Checker, Risk Scanner with coverage progress |
-| **Finance** | Finance Simulator: net-worth projection with crosshair tooltip, seeded Monte-Carlo uncertainty band (p10–p90) with odds-of-target, target progress ring, year-N composition breakdown, saved scenario comparison; inputs persist between visits |
+| **Learn** | Learning Queue (saved signals + notes), flashcards with a 3D flip review, confidence-based intervals, deck insights, an optional starter deck, and session summaries; concept notes with tags/takeaways; JSON import/export |
+| **Think** | Thinking Gym: RCA Builder (flow diagram + markdown output), Decision Matrix (weighted scoring with result bars and per-criterion contribution breakdown), Assumption Checker, Risk Scanner with coverage progress |
+| **Finance** | Two simulators. Net Worth: projection with crosshair tooltip, seeded Monte-Carlo uncertainty band (p10–p90) with odds-of-target, target progress ring, year-N composition breakdown, investment sensitivity bars, saved scenario comparison. Career Path: compare two salary trajectories (growth ± one-time raise) with cumulative-earnings difference and break-even year. Inputs persist between visits |
 | **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, 8-week consistency heatmap, streak, template-based weekly summary |
 | **Settings** | Local Data & Privacy: full JSON backup/restore, clear-with-confirmation, pulse source list, app version |
 

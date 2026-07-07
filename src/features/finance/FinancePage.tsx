@@ -9,9 +9,10 @@ import {
   upsertItem,
 } from "../../lib/storage";
 import { formatMoneyFull, projectScenario, simulateScenario } from "../../lib/scoring";
-import { Card, EmptyState, Field } from "../../components/ui";
+import { Card, EmptyState, Field, Segmented } from "../../components/ui";
 import { ProjectionChart } from "./ProjectionChart";
 import { ProgressRing } from "./ProgressRing";
+import { CareerSim } from "./CareerSim";
 
 type FinanceInputs = Omit<FinanceScenario, "id" | "name">;
 
@@ -31,7 +32,10 @@ const DRAFT_KEY = "finance-draft";
 
 type FinanceDraft = { inputs: FinanceInputs; horizon: number };
 
+type FinanceView = "networth" | "career";
+
 export function FinancePage() {
+  const [view, setView] = useState<FinanceView>("networth");
   const [inputs, setInputs] = useState<FinanceInputs>(() => {
     const draft = storage.get<FinanceDraft>(DRAFT_KEY);
     return draft?.inputs ? { ...DEFAULT_INPUTS, ...draft.inputs } : DEFAULT_INPUTS;
@@ -84,6 +88,20 @@ export function FinancePage() {
   const monthlySurplus = inputs.monthlyIncome - inputs.monthlyExpenses;
   const finalYear = projection.years[projection.years.length - 1];
 
+  // How much the monthly amount matters: years-to-target at ±deltas.
+  const SENSITIVITY_HORIZON = 50;
+  const sensitivity = useMemo(() => {
+    if (inputs.targetNetWorth <= 0) return null;
+    return [-1000, -500, 0, 500, 1000].map((delta) => {
+      const inv = Math.max(0, inputs.monthlyInvestment + delta);
+      const p = projectScenario(
+        { id: "sens", name: "sens", ...inputs, monthlyInvestment: inv },
+        SENSITIVITY_HORIZON,
+      );
+      return { delta, inv, years: p.yearsToTarget };
+    });
+  }, [inputs]);
+
   const saveScenario = () => {
     const name = scenarioName.trim() || `Scenario ${scenarios.length + 1}`;
     const scenario: FinanceScenario = { id: newId(), name, ...inputs };
@@ -125,6 +143,19 @@ export function FinancePage() {
         advice. Inputs stay on this device.
       </p>
 
+      <Segmented<FinanceView>
+        value={view}
+        onChange={setView}
+        options={[
+          { value: "networth", label: "Net Worth" },
+          { value: "career", label: "Career Path" },
+        ]}
+      />
+
+      {view === "career" && <CareerSim />}
+
+      {view === "networth" && (
+        <>
       <Card title="Inputs">
         <Field label="Currency">
           <select
@@ -265,6 +296,49 @@ export function FinancePage() {
             </>
           );
         })()}
+
+        {sensitivity && (
+          <>
+            <h3 className="section-title" style={{ marginTop: 18 }}>
+              If you invested more (or less)…
+            </h3>
+            {sensitivity.map(({ delta, inv, years }) => {
+              const isCurrent = delta === 0;
+              const capped = years ?? SENSITIVITY_HORIZON;
+              return (
+                <div key={delta} className="meter-row" style={{ marginBottom: 5 }}>
+                  <span
+                    className="meter-name"
+                    style={{ fontWeight: isCurrent ? 750 : 600 }}
+                  >
+                    {isCurrent
+                      ? `Now (${Math.round(inv).toLocaleString()})`
+                      : `${delta > 0 ? "+" : "−"}${Math.abs(delta)}`}
+                  </span>
+                  <div className="meter" style={{ height: 18 }}>
+                    <div
+                      className="meter-fill"
+                      style={{
+                        width: `${Math.min(100, (capped / SENSITIVITY_HORIZON) * 100)}%`,
+                        opacity: isCurrent ? 1 : 0.5,
+                      }}
+                    />
+                  </div>
+                  <span
+                    className="meter-value"
+                    style={isCurrent ? { color: "var(--text)", fontWeight: 750 } : undefined}
+                  >
+                    {years === null ? `>${SENSITIVITY_HORIZON}y` : `${years.toFixed(1)}y`}
+                  </span>
+                </div>
+              );
+            })}
+            <p className="signal-meta" style={{ marginTop: 4 }}>
+              Years until the target at different monthly investment amounts —
+              shorter bar, sooner there.
+            </p>
+          </>
+        )}
         <div className="table-wrap" style={{ marginTop: 12 }}>
           <table className="data-table">
             <thead>
@@ -356,6 +430,8 @@ export function FinancePage() {
             </table>
           </div>
         </Card>
+      )}
+        </>
       )}
     </div>
   );

@@ -1,6 +1,21 @@
 import { useMemo, useState } from "react";
 import { Card, Field } from "../../components/ui";
 
+/* Fixed criterion colors (validated dark categorical order); extra
+   criteria beyond the palette fold into neutral gray. */
+const CRIT_COLORS = [
+  "#3987e5",
+  "#199e70",
+  "#c98500",
+  "#9085e9",
+  "#e66767",
+  "#d55181",
+  "#d95926",
+  "#008300",
+];
+const critColor = (index: number) =>
+  index < CRIT_COLORS.length ? CRIT_COLORS[index] : "var(--text-tertiary)";
+
 type Criterion = { id: number; name: string; weight: number };
 type Option = { id: number; name: string };
 type Scores = Record<string, number>; // `${criterionId}:${optionId}` -> 1..5
@@ -208,14 +223,58 @@ export function DecisionMatrix() {
               );
             })}
         </div>
+        {/* What drives each total: per-criterion contributions, stacked.
+            Criterion identity is color + the shared legend below. */}
+        {criteria.length >= 2 && (
+          <div style={{ marginTop: 16 }}>
+            <h3 className="section-title" style={{ marginTop: 0 }}>
+              What drives each score
+            </h3>
+            {totals.map((t) => {
+              const maxRaw = Math.max(...totals.map((x) => x.raw), 1);
+              return (
+                <div key={t.option.id} className="meter-row" style={{ marginBottom: 6 }}>
+                  <span className="meter-name">{t.option.name}</span>
+                  <div style={{ width: `${(t.raw / maxRaw) * 100}%`, minWidth: 40 }}>
+                    <div className="composition" style={{ height: 20 }}>
+                      {criteria.map((c, ci) => {
+                        const contribution = c.weight * getScore(c, t.option);
+                        return (
+                          <div
+                            key={c.id}
+                            className="comp-seg"
+                            style={{
+                              flexGrow: contribution,
+                              background: critColor(ci),
+                            }}
+                          />
+                        );
+                      })}
+                    </div>
+                  </div>
+                  <span className="meter-value">{t.raw}</span>
+                </div>
+              );
+            })}
+            <div className="comp-legend">
+              {criteria.map((c, ci) => (
+                <span key={c.id} className="comp-key">
+                  <span className="comp-dot" style={{ background: critColor(ci) }} />
+                  {c.name} ×{c.weight}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
         {best ? (
-          <div className="notice notice-info" style={{ marginTop: 10, marginBottom: 0 }}>
+          <div className="notice notice-info" style={{ marginTop: 12, marginBottom: 0 }}>
             Leaning towards <strong>{best.option.name}</strong> at{" "}
             {Math.round(best.normalized * 100)}%. Sanity-check: does this match your
             gut? If not, a criterion or weight is missing.
           </div>
         ) : (
-          <div className="notice" style={{ marginTop: 10, marginBottom: 0 }}>
+          <div className="notice" style={{ marginTop: 12, marginBottom: 0 }}>
             It’s a tie — add a differentiating criterion or revisit the weights.
           </div>
         )}

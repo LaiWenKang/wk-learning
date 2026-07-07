@@ -8,7 +8,7 @@ import { downloadJson, readJsonFile } from "../../lib/export";
 import { todayKey } from "../../lib/date";
 import { Card } from "../../components/ui";
 
-const APP_VERSION = "0.3.0";
+const APP_VERSION = "0.4.0";
 
 type SourceConfig = {
   id: string;
