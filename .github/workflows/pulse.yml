@@ -1,0 +1,60 @@
+name: WK Learning Pulse
+
+# Fetches public RSS/API signals and commits refreshed JSON under
+# public/data/. Public sources only — no keys, no private data.
+#
+# Notes:
+# - cron runs in UTC and GitHub may delay scheduled runs by several
+#   minutes under load; do not assume exact real-time behaviour.
+# - Each data commit to main also triggers the Pages deploy workflow,
+#   which is how the refreshed JSON reaches the live site.
+
+on:
+  schedule:
+    # Conservative default: roughly every 15 minutes (offset from :00
+    # to avoid the top-of-hour scheduling rush).
+    - cron: "7-57/15 * * * *"
+    # Optional high-frequency mode:
+    # - cron: "3-58/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse
+  cancel-in-progress: false
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch public signals
+        run: npm run pulse
+
+      - name: Commit refreshed data (only if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/latest.json public/data/pulse-history.json
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "pulse: refresh public signals"
+            git pull --rebase origin main
+            git push origin main
+          fi
