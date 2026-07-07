@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { CSSProperties } from "react";
 import type { LearningItem, SignalCategory } from "../../types";
 import { CATEGORY_LABELS, SIGNAL_CATEGORIES } from "../../types";
 import {
@@ -11,7 +12,14 @@ import {
 } from "../../lib/storage";
 import { downloadJson, readJsonFile } from "../../lib/export";
 import { relativeTime, todayKey } from "../../lib/date";
-import { Card, EmptyState, Field, TagRow } from "../../components/ui";
+import {
+  Card,
+  CategoryChip,
+  EmptyState,
+  Field,
+  TagRow,
+  categoryColor,
+} from "../../components/ui";
 
 type NoteDraft = {
   title: string;
@@ -244,7 +252,11 @@ export function NotesView() {
         <EmptyState>No notes yet. Capture your first concept note.</EmptyState>
       ) : (
         visible.map((item) => (
-          <Card key={item.id}>
+          <Card
+            key={item.id}
+            className="signal-card"
+            style={{ "--cat": categoryColor(item.category) } as CSSProperties}
+          >
             {item.sourceUrl ? (
               <a
                 href={item.sourceUrl}
@@ -257,9 +269,15 @@ export function NotesView() {
             ) : (
               <p className="signal-title">{item.title}</p>
             )}
-            <div className="signal-meta">
-              {CATEGORY_LABELS[item.category]} · {relativeTime(item.createdAt)}
-              {item.archived ? " · archived" : ""}
+            <div
+              className="signal-meta"
+              style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginTop: 7 }}
+            >
+              <CategoryChip category={item.category} />
+              <span>
+                {relativeTime(item.createdAt)}
+                {item.archived ? " · archived" : ""}
+              </span>
             </div>
             {item.note && (
               <p className="card-muted" style={{ marginTop: 6, whiteSpace: "pre-wrap" }}>

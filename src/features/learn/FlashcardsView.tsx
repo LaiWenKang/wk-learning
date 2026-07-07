@@ -3,7 +3,7 @@ import type { Flashcard, Rating, SignalCategory } from "../../types";
 import { CATEGORY_LABELS, SIGNAL_CATEGORIES } from "../../types";
 import { STORE_KEYS, loadList, newId, removeItem, upsertItem } from "../../lib/storage";
 import { addDays, todayKey } from "../../lib/date";
-import { Card, EmptyState, Field, RatingInput } from "../../components/ui";
+import { Card, CategoryChip, EmptyState, Field, RatingInput } from "../../components/ui";
 
 /** Confidence drives the next review interval (simple spaced repetition). */
 const REVIEW_INTERVAL_DAYS: Record<Rating, number> = {
@@ -32,9 +32,9 @@ export function FlashcardsView() {
   const [editingId, setEditingId] = useState<string | null>(null);
   const [showForm, setShowForm] = useState(false);
 
-  // Review mode state
+  // Review mode: always shows due[0]; rating a card moves it out of the
+  // due list, so the next card slides into place automatically.
   const [reviewing, setReviewing] = useState(false);
-  const [reviewIdx, setReviewIdx] = useState(0);
   const [revealed, setRevealed] = useState(false);
 
   const filtered = useMemo(
@@ -90,7 +90,7 @@ export function FlashcardsView() {
   };
 
   const rateCurrent = (confidence: Rating) => {
-    const card = due[reviewIdx];
+    const card = due[0];
     if (!card) return;
     const updated: Flashcard = {
       ...card,
@@ -99,22 +99,16 @@ export function FlashcardsView() {
     };
     setCards(upsertItem(STORE_KEYS.flashcards, updated));
     setRevealed(false);
-    // `due` recomputes after state change; the rated card leaves the due
-    // list, so keep the same index to show the next card.
-    if (reviewIdx >= due.length - 1) {
-      setReviewing(false);
-      setReviewIdx(0);
-    }
+    if (due.length <= 1) setReviewing(false);
   };
 
   const startReview = () => {
     setReviewing(true);
-    setReviewIdx(0);
     setRevealed(false);
   };
 
   if (reviewing) {
-    const card = due[reviewIdx];
+    const card = due[0];
     if (!card) {
       setReviewing(false);
       return null;
@@ -125,8 +119,8 @@ export function FlashcardsView() {
           Reviewing · {due.length} card{due.length === 1 ? "" : "s"} due
         </p>
         <Card>
-          <p className="signal-meta">{CATEGORY_LABELS[card.category]}</p>
-          <p style={{ fontSize: 18, fontWeight: 650, margin: "8px 0" }}>{card.front}</p>
+          <CategoryChip category={card.category} />
+          <p style={{ fontSize: 18, fontWeight: 650, margin: "10px 0 8px" }}>{card.front}</p>
           {revealed ? (
             <>
               <hr className="divider" />
@@ -255,9 +249,15 @@ export function FlashcardsView() {
             <p className="card-muted" style={{ marginTop: 4, whiteSpace: "pre-wrap" }}>
               {card.back}
             </p>
-            <div className="signal-meta" style={{ marginTop: 6 }}>
-              {CATEGORY_LABELS[card.category]} · confidence {card.confidence}/5
-              {card.nextReviewAt ? ` · next review ${card.nextReviewAt}` : " · due now"}
+            <div
+              className="signal-meta"
+              style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginTop: 8 }}
+            >
+              <CategoryChip category={card.category} />
+              <span>
+                confidence {card.confidence}/5
+                {card.nextReviewAt ? ` · next review ${card.nextReviewAt}` : " · due now"}
+              </span>
             </div>
             <div className="btn-row">
               <button type="button" className="btn btn-small" onClick={() => edit(card)}>

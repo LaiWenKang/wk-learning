@@ -1,9 +1,15 @@
 import { useState } from "react";
+import type { CSSProperties } from "react";
 import type { Flashcard, LearningItem } from "../../types";
-import { CATEGORY_LABELS } from "../../types";
 import { STORE_KEYS, loadList, newId, saveList, upsertItem } from "../../lib/storage";
 import { relativeTime } from "../../lib/date";
-import { Card, EmptyState, TagRow } from "../../components/ui";
+import {
+  Card,
+  CategoryChip,
+  EmptyState,
+  TagRow,
+  categoryColor,
+} from "../../components/ui";
 
 /**
  * The Learning Queue: saved pulse signals and notes waiting to be
@@ -54,7 +60,11 @@ export function QueueView() {
   return (
     <div>
       {active.map((item) => (
-        <Card key={item.id}>
+        <Card
+          key={item.id}
+          className="signal-card"
+          style={{ "--cat": categoryColor(item.category) } as CSSProperties}
+        >
           {item.sourceUrl ? (
             <a
               href={item.sourceUrl}
@@ -67,8 +77,12 @@ export function QueueView() {
           ) : (
             <p className="signal-title">{item.title}</p>
           )}
-          <div className="signal-meta">
-            {CATEGORY_LABELS[item.category]} · added {relativeTime(item.createdAt)}
+          <div
+            className="signal-meta"
+            style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginTop: 7 }}
+          >
+            <CategoryChip category={item.category} />
+            <span>added {relativeTime(item.createdAt)}</span>
           </div>
           {item.note && (
             <p className="card-muted" style={{ marginTop: 6 }}>

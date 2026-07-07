@@ -1,21 +1,44 @@
-import type { ReactNode } from "react";
-import type { Rating } from "../types";
+import type { CSSProperties, ReactNode } from "react";
+import type { Rating, SignalCategory } from "../types";
+import { CATEGORY_LABELS } from "../types";
 
 export function Card(props: {
   title?: string;
   children: ReactNode;
   className?: string;
+  style?: CSSProperties;
 }) {
   return (
-    <div className={`card ${props.className ?? ""}`}>
+    <div className={`card ${props.className ?? ""}`} style={props.style}>
       {props.title && <h3 className="card-title">{props.title}</h3>}
       {props.children}
     </div>
   );
 }
 
-export function SectionTitle(props: { children: ReactNode }) {
-  return <h2 className="section-title">{props.children}</h2>;
+/** Tinted card for daily prompt content — pass any CSS color as tint. */
+export function TintCard(props: {
+  tint: string;
+  icon?: ReactNode;
+  title?: string;
+  children: ReactNode;
+}) {
+  return (
+    <div className="card card-tint" style={{ "--tint": props.tint } as CSSProperties}>
+      {props.icon && <span className="tint-icon">{props.icon}</span>}
+      {props.title && <h3 className="card-title">{props.title}</h3>}
+      {props.children}
+    </div>
+  );
+}
+
+export function SectionTitle(props: { icon?: ReactNode; children: ReactNode }) {
+  return (
+    <h2 className="section-title">
+      {props.icon}
+      {props.children}
+    </h2>
+  );
 }
 
 export function Field(props: {
@@ -89,5 +112,32 @@ export function TagRow(props: { tags: string[] }) {
         </span>
       ))}
     </div>
+  );
+}
+
+/** CSS variable name for a category's hue (defined in global.css). */
+export function categoryColor(cat: SignalCategory): string {
+  return `var(--cat-${cat})`;
+}
+
+/** Colored dot + label chip. Identity is never color-alone: label included. */
+export function CategoryChip(props: { category: SignalCategory }) {
+  return (
+    <span
+      className="chip chip-cat"
+      style={{ "--cat": categoryColor(props.category) } as CSSProperties}
+    >
+      {CATEGORY_LABELS[props.category]}
+    </span>
+  );
+}
+
+/** iOS-style disclosure drawer built on <details>. */
+export function Drawer(props: { summary: ReactNode; children: ReactNode; open?: boolean }) {
+  return (
+    <details className="drawer" open={props.open}>
+      <summary>{props.summary}</summary>
+      <div className="drawer-body">{props.children}</div>
+    </details>
   );
 }

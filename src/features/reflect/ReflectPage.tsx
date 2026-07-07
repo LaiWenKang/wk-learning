@@ -2,7 +2,10 @@ import { useMemo, useState } from "react";
 import type { Rating, ReflectionEntry } from "../../types";
 import { STORE_KEYS, loadList, newId, saveList } from "../../lib/storage";
 import { addDays, daysBetween, todayKey } from "../../lib/date";
-import { Card, EmptyState, Field, RatingInput } from "../../components/ui";
+import { computeStreak } from "../../lib/stats";
+import { Card, Field, RatingInput, SectionTitle } from "../../components/ui";
+import { FlameIcon, JournalIcon, SparkleIcon } from "../../components/icons";
+import { TrendTile } from "./TrendTile";
 
 type ReflectDraft = {
   energy: Rating;
@@ -23,19 +26,6 @@ const EMPTY_DRAFT: ReflectDraft = {
   oneThingToDoBetter: "",
   openLoops: "",
 };
-
-function computeStreak(entries: ReflectionEntry[]): number {
-  const dates = new Set(entries.map((e) => e.date));
-  let streak = 0;
-  let cursor = todayKey();
-  // A streak counts consecutive days ending today or yesterday.
-  if (!dates.has(cursor)) cursor = addDays(cursor, -1);
-  while (dates.has(cursor)) {
-    streak++;
-    cursor = addDays(cursor, -1);
-  }
-  return streak;
-}
 
 function weeklySummary(entries: ReflectionEntry[]): string {
   const today = todayKey();
@@ -114,6 +104,23 @@ export function ReflectPage() {
     [entries, today],
   );
 
+  /** Points for the sparklines: last 7 days oldest→newest, null = no entry. */
+  const trendPoints = useMemo(() => {
+    const byDate = new Map(entries.map((e) => [e.date, e]));
+    const days: string[] = [];
+    for (let i = 6; i >= 0; i--) days.push(addDays(today, -i));
+    const series = (get: (e: ReflectionEntry) => number) =>
+      days.map((d) => {
+        const e = byDate.get(d);
+        return e ? get(e) : null;
+      });
+    return {
+      energy: series((e) => e.energy),
+      maturity: series((e) => e.maturityScore),
+      reliability: series((e) => e.reliabilityScore),
+    };
+  }, [entries, today]);
+
   const avgOf = (get: (e: ReflectionEntry) => number) =>
     last7.length === 0
       ? "—"
@@ -177,38 +184,56 @@ export function ReflectPage() {
         </div>
       </Card>
 
-      <h2 className="section-title">Last 7 Days</h2>
+      <SectionTitle icon={<SparkleIcon />}>Last 7 Days</SectionTitle>
       <Card>
-        <div className="stat-grid">
+        <div
+          className="stat-grid"
+          style={{ marginBottom: 10, gridTemplateColumns: "repeat(2, 1fr)" }}
+        >
           <div className="stat-tile">
-            <div className="stat-value">{streak}</div>
+            <div
+              className="stat-value"
+              style={{ display: "flex", alignItems: "center", gap: 5 }}
+            >
+              <FlameIcon className="streak-flame" />
+              {streak}
+            </div>
             <div className="stat-label">Day streak</div>
           </div>
-          <div className="stat-tile">
-            <div className="stat-value">{avgOf((e) => e.maturityScore)}</div>
-            <div className="stat-label">Avg maturity</div>
-          </div>
-          <div className="stat-tile">
-            <div className="stat-value">{avgOf((e) => e.reliabilityScore)}</div>
-            <div className="stat-label">Avg reliability</div>
-          </div>
-          <div className="stat-tile">
-            <div className="stat-value">{avgOf((e) => e.energy)}</div>
-            <div className="stat-label">Avg energy</div>
-          </div>
+          <TrendTile
+            label="Maturity"
+            value={avgOf((e) => e.maturityScore)}
+            color="var(--chart-series-1)"
+            points={trendPoints.maturity}
+          />
+          <TrendTile
+            label="Reliability"
+            value={avgOf((e) => e.reliabilityScore)}
+            color="var(--chart-series-2)"
+            points={trendPoints.reliability}
+          />
+          <TrendTile
+            label="Energy"
+            value={avgOf((e) => e.energy)}
+            color="var(--chart-series-3)"
+            points={trendPoints.energy}
+          />
         </div>
+        <p className="signal-meta">
+          Sparklines show each score over the last 7 days (1–5 scale).
+        </p>
       </Card>
 
-      <h2 className="section-title">Weekly Summary</h2>
+      <SectionTitle icon={<JournalIcon />}>Weekly Summary</SectionTitle>
       <Card>
         <p className="card-muted" style={{ whiteSpace: "pre-wrap", color: "var(--text)" }}>
           {summary}
         </p>
       </Card>
 
-      <h2 className="section-title">History</h2>
+      <SectionTitle icon={<JournalIcon />}>History</SectionTitle>
       {last7.length === 0 ? (
-        <EmptyState>No entries yet this week.</EmptyState>
+        <div className="empty-state">No entries yet this week.</div>
       ) : (
         last7.map((e) => (
           <Card key={e.id}>
