@@ -12,12 +12,19 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   </React.StrictMode>,
 );
 
-// Register the service worker for basic offline support (production only —
-// it would interfere with Vite's dev server).
-if ("serviceWorker" in navigator && import.meta.env.PROD) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register(`${import.meta.env.BASE_URL}sw.js`)
-      .catch((err) => console.warn("SW registration failed", err));
-  });
+// The service worker has been retired (it could cache a transient deploy
+// 404 and blank the app). On every load, proactively unregister any worker
+// still installed from an earlier version and clear its caches, so the app
+// always runs fresh from the network. This never re-registers a worker.
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .getRegistrations()
+    .then((regs) => regs.forEach((reg) => reg.unregister()))
+    .catch(() => {});
+  if (typeof caches !== "undefined") {
+    caches
+      .keys()
+      .then((keys) => keys.forEach((k) => caches.delete(k)))
+      .catch(() => {});
+  }
 }
