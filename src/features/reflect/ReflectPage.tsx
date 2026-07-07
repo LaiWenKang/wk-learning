@@ -6,6 +6,7 @@ import { computeStreak } from "../../lib/stats";
 import { Card, Field, RatingInput, SectionTitle } from "../../components/ui";
 import { FlameIcon, JournalIcon, SparkleIcon } from "../../components/icons";
 import { TrendTile } from "./TrendTile";
+import { HeatStrip } from "./HeatStrip";
 
 type ReflectDraft = {
   energy: Rating;
@@ -222,6 +223,8 @@ export function ReflectPage() {
         <p className="signal-meta">
           Sparklines show each score over the last 7 days (1–5 scale).
         </p>
+        <hr className="divider" />
+        <HeatStrip entries={entries} />
       </Card>
 
       <SectionTitle icon={<JournalIcon />}>Weekly Summary</SectionTitle>

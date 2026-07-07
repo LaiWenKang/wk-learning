@@ -1,12 +1,21 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { FinanceScenario } from "../../types";
-import { STORE_KEYS, loadList, newId, removeItem, upsertItem } from "../../lib/storage";
-import { formatMoneyFull, projectScenario } from "../../lib/scoring";
+import {
+  STORE_KEYS,
+  loadList,
+  newId,
+  removeItem,
+  storage,
+  upsertItem,
+} from "../../lib/storage";
+import { formatMoneyFull, projectScenario, simulateScenario } from "../../lib/scoring";
 import { Card, EmptyState, Field } from "../../components/ui";
 import { ProjectionChart } from "./ProjectionChart";
 import { ProgressRing } from "./ProgressRing";
 
-const DEFAULT_INPUTS: Omit<FinanceScenario, "id" | "name"> = {
+type FinanceInputs = Omit<FinanceScenario, "id" | "name">;
+
+const DEFAULT_INPUTS: FinanceInputs = {
   currency: "SGD",
   currentPortfolio: 50000,
   monthlyIncome: 6000,
@@ -15,11 +24,26 @@ const DEFAULT_INPUTS: Omit<FinanceScenario, "id" | "name"> = {
   expectedAnnualReturnPct: 5,
   annualSalaryGrowthPct: 3,
   targetNetWorth: 1000000,
+  volatilityPct: 10,
 };
 
+const DRAFT_KEY = "finance-draft";
+
+type FinanceDraft = { inputs: FinanceInputs; horizon: number };
+
 export function FinancePage() {
-  const [inputs, setInputs] = useState(DEFAULT_INPUTS);
-  const [horizon, setHorizon] = useState(30);
+  const [inputs, setInputs] = useState<FinanceInputs>(() => {
+    const draft = storage.get<FinanceDraft>(DRAFT_KEY);
+    return draft?.inputs ? { ...DEFAULT_INPUTS, ...draft.inputs } : DEFAULT_INPUTS;
+  });
+  const [horizon, setHorizon] = useState(
+    () => storage.get<FinanceDraft>(DRAFT_KEY)?.horizon ?? 30,
+  );
+
+  // The inputs survive a reload even without saving a named scenario.
+  useEffect(() => {
+    storage.set<FinanceDraft>(DRAFT_KEY, { inputs, horizon });
+  }, [inputs, horizon]);
   const [scenarioName, setScenarioName] = useState("");
   const [scenarios, setScenarios] = useState<FinanceScenario[]>(() =>
     loadList<FinanceScenario>(STORE_KEYS.financeScenarios),
@@ -49,6 +73,14 @@ export function FinancePage() {
     [inputs, horizon],
   );
 
+  const simulation = useMemo(
+    () =>
+      (inputs.volatilityPct ?? 0) > 0
+        ? simulateScenario({ id: "live", name: "live", ...inputs }, horizon)
+        : null,
+    [inputs, horizon],
+  );
+
   const monthlySurplus = inputs.monthlyIncome - inputs.monthlyExpenses;
   const finalYear = projection.years[projection.years.length - 1];
 
@@ -63,7 +95,8 @@ export function FinancePage() {
     const { id, name, ...rest } = s;
     void id;
     setScenarioName(name);
-    setInputs(rest);
+    // Scenarios saved before v0.3 have no volatility — use the default.
+    setInputs({ ...rest, volatilityPct: rest.volatilityPct ?? DEFAULT_INPUTS.volatilityPct });
     window.scrollTo({ top: 0 });
   };
 
@@ -109,6 +142,21 @@ export function FinancePage() {
         {numField("Monthly investment", "monthlyInvestment")}
         {numField("Expected annual return %", "expectedAnnualReturnPct", 0.5)}
         {numField("Annual salary growth %", "annualSalaryGrowthPct", 0.5)}
+        <Field
+          label="Return volatility % (annual)"
+          hint="How bumpy the ride is. 0 hides the uncertainty band; ~10–18 is typical for broad equity indexes."
+        >
+          <input
+            type="number"
+            inputMode="decimal"
+            step={1}
+            min={0}
+            value={inputs.volatilityPct ?? 0}
+            onChange={(e) =>
+              set("volatilityPct", Math.max(0, Number(e.target.value) || 0))
+            }
+          />
+        </Field>
         {numField("Target net worth", "targetNetWorth", 10000)}
         <Field label={`Years to project: ${horizon}`}>
           <input
@@ -161,11 +209,22 @@ export function FinancePage() {
             </div>
             <div className="stat-label">Year {horizon} value</div>
           </div>
+          {simulation && inputs.targetNetWorth > 0 && (
+            <div className="stat-tile" style={{ gridColumn: "1 / -1" }}>
+              <div className="stat-value">
+                {Math.round(simulation.successRate * 100)}%
+              </div>
+              <div className="stat-label">
+                Of {200} simulated runs reach the target within {horizon} years
+              </div>
+            </div>
+          )}
         </div>
         <ProjectionChart
           years={projection.years}
           target={inputs.targetNetWorth}
           currency={inputs.currency}
+          band={simulation?.band}
         />
 
         {/* Where the year-N value comes from: starting capital,

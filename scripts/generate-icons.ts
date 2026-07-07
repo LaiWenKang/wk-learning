@@ -68,22 +68,39 @@ type Seg = [number, number, number, number]; // x1,y1,x2,y2 in 0..1
 
 const MONOGRAM: Seg[] = [
   // W
-  [0.16, 0.38, 0.24, 0.7],
-  [0.24, 0.7, 0.315, 0.46],
-  [0.315, 0.46, 0.39, 0.7],
-  [0.39, 0.7, 0.47, 0.38],
+  [0.175, 0.26, 0.25, 0.55],
+  [0.25, 0.55, 0.318, 0.33],
+  [0.318, 0.33, 0.386, 0.55],
+  [0.386, 0.55, 0.46, 0.26],
   // K
-  [0.575, 0.38, 0.575, 0.7],
-  [0.575, 0.56, 0.79, 0.38],
-  [0.645, 0.51, 0.81, 0.7],
+  [0.565, 0.26, 0.565, 0.55],
+  [0.565, 0.425, 0.76, 0.26],
+  [0.628, 0.38, 0.775, 0.55],
 ];
-const STROKE = 0.05;
+const STROKE = 0.048;
 const GLOW_R = 0.085;
+
+// Open book beneath the monogram — the learning motif. Pages drawn as
+// shallow polyline "wings" meeting at a short spine.
+const BOOK: Seg[] = [
+  // spine
+  [0.5, 0.7, 0.5, 0.815],
+  // left page
+  [0.5, 0.7, 0.19, 0.64],
+  [0.19, 0.64, 0.19, 0.755],
+  [0.19, 0.755, 0.5, 0.815],
+  // right page (mirror)
+  [0.5, 0.7, 0.81, 0.64],
+  [0.81, 0.64, 0.81, 0.755],
+  [0.81, 0.755, 0.5, 0.815],
+];
+const BOOK_STROKE = 0.032;
+const BOOK_GLOW = 0.06;
 
 // Spark above the K — a thin four-point star.
 const SPARK: Seg[] = [
-  [0.8, 0.185, 0.8, 0.295],
-  [0.745, 0.24, 0.855, 0.24],
+  [0.79, 0.115, 0.79, 0.215],
+  [0.74, 0.165, 0.84, 0.165],
 ];
 const SPARK_STROKE = 0.02;
 const SPARK_GLOW = 0.06;
@@ -190,6 +207,28 @@ function renderIcon(size: number, opaqueSquare: boolean): Uint8Array {
         }
       }
 
+      // Book: same gradient ink, slightly dimmer than the monogram
+      const book = inkAt(nx, ny, BOOK, BOOK_STROKE, BOOK_GLOW, aa);
+      if (book.halo > 0) {
+        const t = Math.max(0, Math.min(1, (nx - 0.14) / 0.68));
+        const ir = INK_A[0] + (INK_B[0] - INK_A[0]) * t;
+        const ig = INK_A[1] + (INK_B[1] - INK_A[1]) * t;
+        const ib = INK_A[2] + (INK_B[2] - INK_A[2]) * t;
+        const haloS = book.halo * 0.3 * (1 - book.core);
+        r += ir * haloS;
+        g += ig * haloS;
+        b += ib * haloS;
+        if (book.core > 0) {
+          const dim = 0.88;
+          const cr = (ir + (255 - ir) * 0.14) * dim;
+          const cg = (ig + (255 - ig) * 0.14) * dim;
+          const cb = (ib + (255 - ib) * 0.14) * dim;
+          r = r * (1 - book.core) + cr * book.core;
+          g = g * (1 - book.core) + cg * book.core;
+          b = b * (1 - book.core) + cb * book.core;
+        }
+      }
+
       // Spark: bright white-blue with a strong small halo
       const spark = inkAt(nx, ny, SPARK, SPARK_STROKE, SPARK_GLOW, aa);
       if (spark.halo > 0) {
@@ -248,12 +287,15 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <rect width="100" height="100" rx="22" fill="#0c0e14"/>
   <rect width="100" height="100" rx="22" fill="url(#ga)"/>
   <rect width="100" height="100" rx="22" fill="url(#gb)"/>
-  <g stroke="url(#ink)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
-    <path d="M16 38 24 70 31.5 46 39 70 47 38"/>
-    <path d="M57.5 38 V70 M57.5 56 79 38 M64.5 51 81 70"/>
+  <g stroke="url(#ink)" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
+    <path d="M17.5 26 25 55 31.8 33 38.6 55 46 26"/>
+    <path d="M56.5 26 V55 M56.5 42.5 76 26 M62.8 38 77.5 55"/>
+  </g>
+  <g stroke="url(#ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85" filter="url(#glow)">
+    <path d="M50 70 19 64 V75.5 L50 81.5 81 75.5 V64 L50 70 V81.5"/>
   </g>
   <g stroke="#eaf1ff" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
-    <path d="M80 18.5v11M74.5 24h11"/>
+    <path d="M79 11.5v10M74 16.5h10"/>
   </g>
 </svg>
 `;

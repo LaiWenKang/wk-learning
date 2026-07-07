@@ -238,6 +238,42 @@ export function FlashcardsView() {
         </Card>
       )}
 
+      {cards.length > 0 && (
+        <Card title="Deck Insights">
+          {(() => {
+            const counts = [1, 2, 3, 4, 5].map(
+              (c) => cards.filter((card) => card.confidence === c).length,
+            );
+            const max = Math.max(...counts, 1);
+            return (
+              <>
+                {counts.map((count, i) => (
+                  <div key={i} className="meter-row" style={{ marginBottom: 5 }}>
+                    <span className="meter-name" style={{ fontWeight: 600 }}>
+                      Confidence {i + 1}
+                    </span>
+                    <div className="meter" style={{ height: 18 }}>
+                      <div
+                        className="meter-fill"
+                        style={{
+                          width: `${(count / max) * 100}%`,
+                          opacity: 0.45 + 0.55 * ((i + 1) / 5),
+                        }}
+                      />
+                    </div>
+                    <span className="meter-value">{count}</span>
+                  </div>
+                ))}
+                <p className="signal-meta" style={{ marginTop: 6 }}>
+                  {cards.length} card{cards.length === 1 ? "" : "s"} total —
+                  low-confidence cards come back sooner in review.
+                </p>
+              </>
+            );
+          })()}
+        </Card>
+      )}
+
       <Field label="Filter by category">
         <select
           value={filter}

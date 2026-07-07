@@ -102,6 +102,8 @@ export type FinanceScenario = {
   annualSalaryGrowthPct: number;
   targetNetWorth: number;
   currency: "SGD" | "MYR" | "USD";
+  /** Annual return volatility (std dev, %). Optional for old backups. */
+  volatilityPct?: number;
 };
 
 export type RcaDraft = {

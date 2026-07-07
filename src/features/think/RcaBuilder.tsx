@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
+import type { CSSProperties } from "react";
 import type { RcaDraft } from "../../types";
 import { STORE_KEYS, loadList, newId, removeItem, upsertItem } from "../../lib/storage";
 import { copyToClipboard, downloadText } from "../../lib/export";
@@ -95,9 +96,41 @@ export function RcaBuilder() {
   return (
     <div>
       <Card title="RCA Builder">
+        {/* The path the form walks — facts first, causes last. */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            overflowX: "auto",
+            paddingBottom: 6,
+            marginBottom: 10,
+          }}
+        >
+          {[
+            { label: "Observe", tint: "var(--cat-systems)" },
+            { label: "Evidence", tint: "var(--cat-programming)" },
+            { label: "Hypotheses", tint: "var(--cat-ai)" },
+            { label: "Root cause", tint: "var(--cat-semiconductor)" },
+            { label: "Prevent", tint: "var(--cat-finance)" },
+          ].map((s, i, arr) => (
+            <Fragment key={s.label}>
+              <span
+                className="chip chip-cat"
+                style={{ "--cat": s.tint, flexShrink: 0 } as CSSProperties}
+              >
+                {i + 1}. {s.label}
+              </span>
+              {i < arr.length - 1 && (
+                <span style={{ color: "var(--text-tertiary)", flexShrink: 0 }}>→</span>
+              )}
+            </Fragment>
+          ))}
+        </div>
         <p className="card-muted" style={{ marginBottom: 12 }}>
-          Work through the questions in order. The output is clean markdown you
-          can paste anywhere. Keep it generic — no confidential details.
+          Work through the questions in order — facts before causes. The output
+          is clean markdown you can paste anywhere. Keep it generic — no
+          confidential details.
         </p>
         <Field label="Incident title">
           <input

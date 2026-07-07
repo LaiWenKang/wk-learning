@@ -16,8 +16,8 @@ liquid-glass navigation, and chart colors validated for colorblind safety.
 | **Today** | Daily brief: streak/due/queue at a glance, top public signals from the Pulse, a professional mindset prompt, a thinking challenge, a suggested learning action, quick actions |
 | **Learn** | Learning Queue (saved signals + notes), flashcards with a 3D flip review and confidence-based intervals, concept notes with tags/takeaways, JSON import/export |
 | **Think** | Thinking Gym: RCA Builder (generates markdown), Decision Matrix (weighted scoring with result bars), Assumption Checker, Risk Scanner with coverage progress |
-| **Finance** | Finance Simulator: net-worth projection chart with crosshair tooltip, target progress ring, year-N composition breakdown, savings rate, saved scenario comparison |
-| **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, streak, template-based weekly summary |
+| **Finance** | Finance Simulator: net-worth projection with crosshair tooltip, seeded Monte-Carlo uncertainty band (p10–p90) with odds-of-target, target progress ring, year-N composition breakdown, saved scenario comparison; inputs persist between visits |
+| **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, 8-week consistency heatmap, streak, template-based weekly summary |
 | **Settings** | Local Data & Privacy: full JSON backup/restore, clear-with-confirmation, pulse source list, app version |
 
 ### Daily content never repeats

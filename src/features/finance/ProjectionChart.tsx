@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import type { YearProjection } from "../../lib/scoring";
+import type { BandPoint, YearProjection } from "../../lib/scoring";
 import type { FinanceScenario } from "../../types";
 import { formatMoney, formatMoneyFull } from "../../lib/scoring";
 
@@ -14,8 +14,10 @@ export function ProjectionChart(props: {
   years: YearProjection[];
   target: number;
   currency: FinanceScenario["currency"];
+  /** Optional Monte-Carlo p10–p90 band around the expected path. */
+  band?: BandPoint[];
 }) {
-  const { years, target, currency } = props;
+  const { years, target, currency, band } = props;
   const wrapRef = useRef<HTMLDivElement>(null);
   const [hoverYear, setHoverYear] = useState<number | null>(null);
 
@@ -29,7 +31,11 @@ export function ProjectionChart(props: {
 
   const startValue = years[0].portfolio;
   const maxVal =
-    Math.max(...years.map((y) => y.portfolio), target > 0 ? target : 0) * 1.04;
+    Math.max(
+      ...years.map((y) => y.portfolio),
+      ...(band ?? []).map((b) => b.p90),
+      target > 0 ? target : 0,
+    ) * 1.04;
   const maxYear = years[years.length - 1].year;
 
   const x = (year: number) => PAD.left + (year / maxYear) * innerW;
@@ -49,6 +55,19 @@ export function ProjectionChart(props: {
   const portfolioPath = line(valueOf);
   const areaPath = `${portfolioPath} L${x(maxYear).toFixed(1)},${y(0).toFixed(1)} L${x(0).toFixed(1)},${y(0).toFixed(1)} Z`;
   const investedPath = line(contribOf);
+
+  // p10–p90 envelope: p90 across the top, p10 back along the bottom.
+  let bandPath = "";
+  if (band && band.length > 1) {
+    const topPts = band.map(
+      (b, i) => `${i === 0 ? "M" : "L"}${x(b.year).toFixed(1)},${y(b.p90).toFixed(1)}`,
+    );
+    const bottomPts = [...band]
+      .reverse()
+      .map((b) => `L${x(b.year).toFixed(1)},${y(b.p10).toFixed(1)}`);
+    bandPath = `${topPts.join(" ")} ${bottomPts.join(" ")} Z`;
+  }
+  const bandAt = (year: number) => band?.find((b) => b.year === year);
 
   const step = niceStep(maxVal / 4);
   const gridVals: number[] = [];
@@ -81,6 +100,29 @@ export function ProjectionChart(props: {
         <LegendItem color="var(--chart-series-1)" label="Projected value" />
         <LegendItem color="var(--chart-series-2)" label="Contributions" dashed />
         {target > 0 && <LegendItem color="var(--chart-ref)" label="Target" dashed />}
+        {bandPath && (
+          <span
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              fontSize: 12,
+              color: "var(--text-secondary)",
+              fontWeight: 600,
+            }}
+          >
+            <span
+              style={{
+                width: 18,
+                height: 10,
+                borderRadius: 3,
+                background: "var(--chart-series-1)",
+                opacity: 0.22,
+              }}
+            />
+            Likely range (10–90%)
+          </span>
+        )}
       </div>
 
       <div ref={wrapRef} style={{ position: "relative" }}>
@@ -160,6 +202,14 @@ export function ProjectionChart(props: {
             </g>
           )}
 
+          {bandPath && (
+            <path
+              d={bandPath}
+              fill="var(--chart-series-1)"
+              opacity={0.13}
+              className="fade-in"
+            />
+          )}
           <path d={areaPath} fill="url(#wk-area)" />
           <path
             d={investedPath}
@@ -176,6 +226,8 @@ export function ProjectionChart(props: {
             strokeWidth={2.5}
             strokeLinejoin="round"
             strokeLinecap="round"
+            pathLength={1}
+            className="draw-in"
           />
 
           {/* Direct labels at line ends (relief for the light-mode aqua) */}
@@ -248,6 +300,18 @@ export function ProjectionChart(props: {
               <span className="tip-dot" style={{ background: "var(--chart-series-2)" }} />
               {formatMoneyFull(contribOf(hovered), currency)} contributed
             </div>
+            {(() => {
+              const b = bandAt(hovered.year);
+              return b ? (
+                <div className="tip-row">
+                  <span
+                    className="tip-dot"
+                    style={{ background: "var(--chart-series-1)", opacity: 0.3 }}
+                  />
+                  {formatMoney(b.p10, currency)} – {formatMoney(b.p90, currency)} range
+                </div>
+              ) : null;
+            })()}
           </div>
         )}
       </div>

@@ -23,11 +23,14 @@
   <rect width="100" height="100" rx="22" fill="#0c0e14"/>
   <rect width="100" height="100" rx="22" fill="url(#ga)"/>
   <rect width="100" height="100" rx="22" fill="url(#gb)"/>
-  <g stroke="url(#ink)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
-    <path d="M16 38 24 70 31.5 46 39 70 47 38"/>
-    <path d="M57.5 38 V70 M57.5 56 79 38 M64.5 51 81 70"/>
+  <g stroke="url(#ink)" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
+    <path d="M17.5 26 25 55 31.8 33 38.6 55 46 26"/>
+    <path d="M56.5 26 V55 M56.5 42.5 76 26 M62.8 38 77.5 55"/>
+  </g>
+  <g stroke="url(#ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85" filter="url(#glow)">
+    <path d="M50 70 19 64 V75.5 L50 81.5 81 75.5 V64 L50 70 V81.5"/>
   </g>
   <g stroke="#eaf1ff" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
-    <path d="M80 18.5v11M74.5 24h11"/>
+    <path d="M79 11.5v10M74 16.5h10"/>
   </g>
 </svg>
