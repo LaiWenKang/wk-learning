@@ -10,10 +10,13 @@ import {
   upsertItem,
 } from "../../lib/storage";
 import { formatMoneyFull, projectScenario, simulateScenario } from "../../lib/scoring";
-import { Card, EmptyState, Field, Segmented } from "../../components/ui";
+import { Card, EmptyState, Field, Segmented, TintCard } from "../../components/ui";
+import { TargetIcon } from "../../components/icons";
 import { ProjectionChart } from "./ProjectionChart";
 import { ProgressRing } from "./ProgressRing";
 import { CareerSim } from "./CareerSim";
+import { MONEY_PRINCIPLES, dailyRotation } from "../../data/prompts";
+import { todayKey } from "../../lib/date";
 
 type FinanceInputs = Omit<FinanceScenario, "id" | "name">;
 
@@ -182,6 +185,14 @@ export function FinancePage() {
         Personal scenario modelling with simplified assumptions — not financial
         advice. Inputs stay on this device.
       </p>
+
+      {/* A rotating money principle keeps the tab worth a daily glance
+          even when the numbers haven't changed. */}
+      <TintCard tint="var(--cat-finance)" icon={<TargetIcon />} title="Principle of the Day">
+        <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
+          {dailyRotation(MONEY_PRINCIPLES, todayKey(), 5)}
+        </p>
+      </TintCard>
 
       <Segmented<FinanceView>
         value={view}

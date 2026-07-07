@@ -87,6 +87,46 @@ export const LEARNING_ACTIONS: string[] = [
   "Set a 20-minute timer and clear the smallest three items in your learning queue — read, decide, archive.",
 ];
 
+/** Micro-drills for the Thinking Gym — one per day, tied to a tool. */
+export const THINK_WARMUPS: string[] = [
+  "Warm-up: take the last bug you saw and run one quick 5 Whys pass — even two levels deep counts.",
+  "Warm-up: score a decision you're sitting on in the Decision Matrix with just two criteria. Rough beats postponed.",
+  "Warm-up: write down one thing you believe about your current project, then open the Assumption Checker on it.",
+  "Warm-up: run the Risk Scanner on whatever you plan to ship next. Two minutes, tap through all nine.",
+  "Warm-up: draft an RCA title for the most annoying thing that happened this week — filling one field is enough to start.",
+  "Warm-up: pick a past decision that went well and check in the matrix — would the numbers have predicted it?",
+  "Warm-up: name one assumption a teammate is making that nobody has verified. Note it in the Assumption Checker.",
+  "Warm-up: think of a system that failed you recently (app, process, commute). Do a two-level 5 Whys on it.",
+  "Warm-up: scan yesterday's plan for the risk you ignored. Which of the nine checklist items was it?",
+  "Warm-up: turn one 'we should probably…' from your week into a decision matrix with a deadline criterion.",
+  "Warm-up: recall the last incident you heard about. What would the prevention action have been? One sentence.",
+  "Warm-up: pick the riskiest item in your queue and write only the 'what could go wrong' field.",
+  "Warm-up: find a claim in something you read today and list what evidence would change your mind about it.",
+  "Warm-up: run 5 Whys on a good outcome — why did it work? Success has root causes too.",
+  "Warm-up: add one criterion you always forget (maintenance cost? reversibility?) to your next decision.",
+  "Warm-up: what did you rule out too early this week? Give it one honest re-check in a tool of your choice.",
+];
+
+/** Timeless personal-finance principles — education, not advice. */
+export const MONEY_PRINCIPLES: string[] = [
+  "Time in the market compounds; timing the market mostly compounds stress.",
+  "Your savings rate is the only lever fully under your control — returns are weather, contributions are climate.",
+  "Fees compound exactly like returns, just against you. A 1% fee over 30 years can eat a quarter of a portfolio.",
+  "Lifestyle inflation is the silent counterforce to every raise. Bank the difference before you feel it.",
+  "An emergency fund isn't an investment — it's what stops you selling investments at the worst moment.",
+  "Volatility is the price of admission for long-term returns. The band on your projection chart is normal, not a flaw.",
+  "Automate the transfer on payday. Willpower is a terrible recurring payment method.",
+  "Diversification means always owning something that's underperforming — that's it working, not failing.",
+  "The first 100k is the hardest: early on, contributions dominate. Later, compounding takes over the rowing.",
+  "Risk tolerance is measured in bear markets, not questionnaires. Size positions so you can sleep.",
+  "Insurance is for catastrophes you can't absorb, not inconveniences you can.",
+  "A budget isn't a cage — it's just your values written in numbers. If it embarrasses you, that's information.",
+  "Comparing your beginning to someone else's middle is the fastest way to make a bad financial decision.",
+  "Every purchase has two prices: the sticker, and what the money would have become. Pay whichever you prefer, knowingly.",
+  "Simple portfolios survive their owners. Complexity mostly adds ways to make a mistake.",
+  "Net worth is a scoreboard, not a self-worth board. Check it monthly, live daily.",
+];
+
 /* ------------------------------------------------------------------ */
 
 const DAY_MS = 86400000;
