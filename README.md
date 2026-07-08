@@ -82,6 +82,12 @@ then rerun the deploy workflow. The scheduled Pulse workflow also deploys the
 built `dist/` artifact after refreshing public data so data commits do not
 leave the site serving raw source HTML.
 
+The deploy workflows also keep root-level `assets/`, `data/`, `icons/`,
+`manifest.webmanifest`, and `sw.js` files current as a defensive fallback for
+legacy branch-based Pages publishing. If the source HTML is served directly, a
+small guard in `index.html` loads those built assets instead of leaving the app
+blank.
+
 ## WK Learning Pulse
 
 `.github/workflows/pulse.yml` runs `scripts/pulse-fetch.ts` on a schedule
