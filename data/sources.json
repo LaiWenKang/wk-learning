@@ -1,0 +1,155 @@
+{
+  "$comment": "Public pulse sources and relevance keywords. Only public, key-free RSS feeds and APIs belong here. Set enabled:false to skip a source.",
+  "sources": [
+    {
+      "id": "hn-front",
+      "name": "Hacker News (front page)",
+      "type": "hn-algolia",
+      "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 30
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI (new submissions)",
+      "type": "rss",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "category": "ai",
+      "enabled": true,
+      "maxItems": 15
+    },
+    {
+      "id": "arxiv-cs-se",
+      "name": "arXiv cs.SE (new submissions)",
+      "type": "rss",
+      "url": "https://rss.arxiv.org/rss/cs.SE",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 10
+    },
+    {
+      "id": "github-trending-new",
+      "name": "GitHub trending new repos (search API)",
+      "type": "github-search",
+      "url": "https://api.github.com/search/repositories?q=created:%3E{{DATE_7D}}&sort=stars&order=desc&per_page=15",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 15
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "type": "rss",
+      "url": "https://github.blog/feed/",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 10
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare Blog",
+      "type": "rss",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category": "systems",
+      "enabled": true,
+      "maxItems": 10
+    },
+    {
+      "id": "hn-best-rss",
+      "name": "Hacker News Best",
+      "type": "rss",
+      "url": "https://hnrss.org/best",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 15
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison's Weblog",
+      "type": "rss",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "ai",
+      "enabled": true,
+      "maxItems": 10
+    },
+    {
+      "id": "martinfowler",
+      "name": "martinfowler.com",
+      "type": "rss",
+      "url": "https://martinfowler.com/feed.atom",
+      "category": "programming",
+      "enabled": true,
+      "maxItems": 8
+    }
+  ],
+  "keywords": {
+    "high": [
+      "ai",
+      "coding agent",
+      "claude code",
+      "claude",
+      "anthropic",
+      "openai",
+      "llm",
+      "language model",
+      "machine learning",
+      "software engineering",
+      "python",
+      "typescript",
+      "javascript",
+      "rust",
+      "github",
+      "semiconductor",
+      "nand",
+      "dram",
+      "hbm",
+      "ssd",
+      "storage",
+      "firmware",
+      "embedded",
+      "linux",
+      "kernel",
+      "finance",
+      "etf",
+      "investing",
+      "index fund",
+      "career",
+      "leadership",
+      "communication",
+      "productivity",
+      "debugging",
+      "performance",
+      "reliability",
+      "security"
+    ],
+    "low": [
+      "celebrity",
+      "gossip",
+      "kardashian",
+      "royal family",
+      "election rally",
+      "sports betting",
+      "clickbait",
+      "you won't believe",
+      "meme coin",
+      "memecoin",
+      "shiba",
+      "dogecoin",
+      "nft drop",
+      "to the moon"
+    ]
+  },
+  "categoryKeywords": {
+    "ai": ["ai", "llm", "language model", "machine learning", "neural", "gpt", "claude", "anthropic", "openai", "agent"],
+    "programming": ["programming", "typescript", "javascript", "python", "rust", "compiler", "github", "code", "api", "framework"],
+    "semiconductor": ["semiconductor", "chip", "nand", "dram", "hbm", "wafer", "foundry", "tsmc", "euv"],
+    "firmware": ["firmware", "embedded", "microcontroller", "rtos", "bootloader", "ssd controller"],
+    "systems": ["linux", "kernel", "distributed", "database", "network", "infrastructure", "cloud", "storage", "filesystem", "performance"],
+    "finance": ["finance", "investing", "etf", "index fund", "portfolio", "market", "interest rate", "inflation"],
+    "career": ["career", "leadership", "promotion", "hiring", "interview", "mentorship", "management"],
+    "communication": ["communication", "writing", "presentation", "negotiation", "feedback"],
+    "productivity": ["productivity", "habit", "focus", "time management", "workflow"],
+    "health": ["health", "sleep", "exercise", "nutrition", "stress"]
+  }
+}
