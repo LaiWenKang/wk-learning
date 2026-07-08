@@ -136,5 +136,26 @@
       </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      (function () {
+        var isGitHubProjectPage =
+          /\.github\.io$/.test(location.hostname) &&
+          location.pathname.indexOf("/wk-learning") === 0;
+        var rawDevEntry = document.querySelector(
+          'script[type="module"][src="/src/main.tsx"]',
+        );
+        if (!isGitHubProjectPage || !rawDevEntry) return;
+
+        var stylesheet = document.createElement("link");
+        stylesheet.rel = "stylesheet";
+        stylesheet.href = "assets/index.css";
+        document.head.appendChild(stylesheet);
+
+        var app = document.createElement("script");
+        app.type = "module";
+        app.src = "assets/index.js";
+        document.head.appendChild(app);
+      })();
+    </script>
   </body>
 </html>

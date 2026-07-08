@@ -88,6 +88,25 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Sync branch Pages fallback
+        run: |
+          rm -rf assets data icons manifest.webmanifest sw.js
+          cp -R dist/assets assets
+          cp -R dist/data data
+          cp -R dist/icons icons
+          cp dist/manifest.webmanifest manifest.webmanifest
+          cp dist/sw.js sw.js
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data icons manifest.webmanifest sw.js
+          if git diff --cached --quiet; then
+            echo "Branch Pages fallback assets are already current."
+          else
+            git commit -m "build: update Pages fallback assets"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
