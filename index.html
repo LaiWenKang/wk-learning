@@ -20,9 +20,121 @@
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
     <title>WK Learning</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #0b0d12;
+        color: #eceef3;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      #wk-boot {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        text-align: center;
+        padding: 24px;
+      }
+      #wk-boot .spin {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        border: 3px solid rgba(236, 238, 243, 0.18);
+        border-top-color: #5b8def;
+        animation: wk-spin 0.9s linear infinite;
+      }
+      #wk-boot .msg {
+        font-size: 14px;
+        color: #a2a9b8;
+        max-width: 300px;
+        line-height: 1.5;
+      }
+      #wk-boot a {
+        color: #5b8def;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      @keyframes wk-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <!--
+      Boot guard: runs even if the main app bundle fails to load (a stale
+      cache, a leftover service worker, or a CDN page pointing at an asset
+      that no longer exists all leave #root empty and the screen black).
+      It removes any legacy worker/caches, and if the app hasn't mounted
+      after a few seconds it hard-reloads once with a cache-busting query
+      so the browser must fetch a fresh, self-consistent page.
+    -->
+    <script>
+      (function () {
+        try {
+          if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+              .getRegistrations()
+              .then(function (rs) {
+                rs.forEach(function (r) {
+                  r.unregister();
+                });
+              })
+              .catch(function () {});
+          }
+          if (window.caches && caches.keys) {
+            caches
+              .keys()
+              .then(function (ks) {
+                ks.forEach(function (k) {
+                  caches.delete(k);
+                });
+              })
+              .catch(function () {});
+          }
+        } catch (e) {}
+
+        setTimeout(function () {
+          var mounted = !document.getElementById("wk-boot");
+          if (mounted) {
+            sessionStorage.removeItem("wk-reload");
+            return;
+          }
+          if (!sessionStorage.getItem("wk-reload")) {
+            // First failure: force a fresh copy of the page + assets.
+            sessionStorage.setItem("wk-reload", "1");
+            location.replace(
+              location.pathname + "?fresh=" + Date.now() + location.hash,
+            );
+          } else {
+            // Second failure: show something actionable instead of black.
+            var m = document.querySelector("#wk-boot .msg");
+            if (m) {
+              m.innerHTML =
+                "Couldn’t load the app. Please check your connection, then " +
+                '<a href="' +
+                location.pathname +
+                '?fresh=' +
+                Date.now() +
+                '">tap here to retry</a>.';
+            }
+            var s = document.querySelector("#wk-boot .spin");
+            if (s) s.style.display = "none";
+          }
+        }, 7000);
+      })();
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div id="wk-boot">
+        <div class="spin"></div>
+        <div class="msg">Loading WK Learning…</div>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
