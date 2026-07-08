@@ -6,14 +6,14 @@ import { SAMPLE_PULSE } from "../data/samplePulse";
  * GitHub Actions job. Falls back to bundled sample data so the app
  * always renders something useful (e.g. first run, offline, fetch error).
  */
-export async function loadLatestPulse(): Promise<{
+export async function loadLatestPulse(bust = false): Promise<{
   data: PulseLatest;
   isSample: boolean;
 }> {
   try {
-    const res = await fetch(`${import.meta.env.BASE_URL}data/latest.json`, {
-      cache: "no-cache",
-    });
+    const url =
+      `${import.meta.env.BASE_URL}data/latest.json` + (bust ? `?t=${Date.now()}` : "");
+    const res = await fetch(url, { cache: bust ? "reload" : "no-cache" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as PulseLatest;
     if (!Array.isArray(data.signals) || data.signals.length === 0) {

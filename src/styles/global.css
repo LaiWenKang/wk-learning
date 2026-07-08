@@ -915,6 +915,48 @@ input[type="range"] {
   color: var(--cat-semiconductor);
 }
 
+/* Manual pulse refresh */
+.pulse-refresh {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease-spring), opacity 0.12s ease;
+}
+
+.pulse-refresh:active {
+  transform: scale(0.95);
+}
+
+.pulse-refresh:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.pulse-refresh svg {
+  width: 15px;
+  height: 15px;
+}
+
+.pulse-refresh svg.spinning {
+  animation: wk-spin 0.8s linear infinite;
+}
+
+@keyframes wk-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));

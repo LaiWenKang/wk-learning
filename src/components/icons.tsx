@@ -136,6 +136,15 @@ export function WrenchIcon(p: IconProps) {
   );
 }
 
+export function RefreshIcon(p: IconProps) {
+  return (
+    <svg {...base} className={p.className}>
+      <path d="M21 12a9 9 0 1 1-2.64-6.36" />
+      <path d="M21 3v5h-5" />
+    </svg>
+  );
+}
+
 export function CompassIcon(p: IconProps) {
   return (
     <svg {...base} className={p.className}>
