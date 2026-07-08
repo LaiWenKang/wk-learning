@@ -37,7 +37,7 @@
         justify-content: center;
         gap: 16px;
         text-align: center;
-        padding: 24px;
+        padding: 28px;
       }
       #wk-boot .spin {
         width: 34px;
@@ -50,13 +50,27 @@
       #wk-boot .msg {
         font-size: 14px;
         color: #a2a9b8;
-        max-width: 300px;
+        max-width: 320px;
         line-height: 1.5;
       }
-      #wk-boot a {
-        color: #5b8def;
-        font-weight: 600;
-        text-decoration: none;
+      #wk-boot .err {
+        display: block;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #6e7585;
+        word-break: break-word;
+      }
+      #wk-boot button {
+        margin-top: 16px;
+        min-height: 44px;
+        padding: 10px 22px;
+        border-radius: 999px;
+        border: none;
+        background: linear-gradient(135deg, #4f8bf7 0%, #7d6bf2 100%);
+        color: #fff;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 650;
       }
       @keyframes wk-spin {
         to {
@@ -65,14 +79,32 @@
       }
     </style>
     <!--
-      Boot guard: runs even if the main app bundle fails to load (a stale
-      cache, a leftover service worker, or a CDN page pointing at an asset
-      that no longer exists all leave #root empty and the screen black).
-      It removes any legacy worker/caches, and if the app hasn't mounted
-      after a few seconds it hard-reloads once with a cache-busting query
-      so the browser must fetch a fresh, self-consistent page.
+      Boot guard: runs even if the app bundle never executes. It captures
+      any load/runtime error, removes any legacy service worker + caches,
+      and if the app hasn't mounted after a few seconds it either reloads
+      once with a cache-buster (bundle never ran) or shows the captured
+      error with a manual reset (bundle ran but couldn't start).
     -->
     <script>
+      window.__wkErr = "";
+      window.addEventListener(
+        "error",
+        function (e) {
+          var m =
+            e && e.message
+              ? e.message
+              : e && e.target && (e.target.src || e.target.href)
+                ? "Failed to load " + (e.target.src || e.target.href)
+                : "error";
+          window.__wkErr = String(m).slice(0, 220);
+        },
+        true,
+      );
+      window.addEventListener("unhandledrejection", function (e) {
+        window.__wkErr =
+          "promise: " + String(e && e.reason ? e.reason : "").slice(0, 200);
+      });
+
       (function () {
         try {
           if ("serviceWorker" in navigator) {
@@ -97,34 +129,67 @@
           }
         } catch (e) {}
 
-        setTimeout(function () {
-          var mounted = !document.getElementById("wk-boot");
-          if (mounted) {
+        function reset() {
+          try {
+            if (window.caches && caches.keys)
+              caches.keys().then(function (ks) {
+                ks.forEach(function (k) {
+                  caches.delete(k);
+                });
+              });
+            if ("serviceWorker" in navigator)
+              navigator.serviceWorker.getRegistrations().then(function (rs) {
+                rs.forEach(function (r) {
+                  r.unregister();
+                });
+              });
+          } catch (e) {}
+          try {
             sessionStorage.removeItem("wk-reload");
+          } catch (e) {}
+          location.replace(location.pathname + "?fresh=" + Date.now());
+        }
+
+        setTimeout(function () {
+          if (!document.getElementById("wk-boot")) {
+            try {
+              sessionStorage.removeItem("wk-reload");
+            } catch (e) {}
+            return; // app mounted — all good
+          }
+          var loaded = !!window.__wkLoaded;
+          var tried = false;
+          try {
+            tried = !!sessionStorage.getItem("wk-reload");
+          } catch (e) {}
+
+          if (!loaded && !tried) {
+            // Bundle never executed — force a fresh copy once.
+            try {
+              sessionStorage.setItem("wk-reload", "1");
+            } catch (e) {}
+            location.replace(location.pathname + "?fresh=" + Date.now() + location.hash);
             return;
           }
-          if (!sessionStorage.getItem("wk-reload")) {
-            // First failure: force a fresh copy of the page + assets.
-            sessionStorage.setItem("wk-reload", "1");
-            location.replace(
-              location.pathname + "?fresh=" + Date.now() + location.hash,
-            );
-          } else {
-            // Second failure: show something actionable instead of black.
-            var m = document.querySelector("#wk-boot .msg");
-            if (m) {
-              m.innerHTML =
-                "Couldn’t load the app. Please check your connection, then " +
-                '<a href="' +
-                location.pathname +
-                '?fresh=' +
-                Date.now() +
-                '">tap here to retry</a>.';
-            }
-            var s = document.querySelector("#wk-boot .spin");
-            if (s) s.style.display = "none";
+
+          var msg = document.querySelector("#wk-boot .msg");
+          var spin = document.querySelector("#wk-boot .spin");
+          if (spin) spin.style.display = "none";
+          if (msg) {
+            msg.innerHTML =
+              (loaded
+                ? "The app loaded but couldn’t start."
+                : "Couldn’t load the app.") +
+              (window.__wkErr
+                ? '<span class="err">' +
+                  window.__wkErr.replace(/</g, "&lt;") +
+                  "</span>"
+                : "") +
+              '<br><button id="wk-reset" type="button">Reset &amp; retry</button>';
+            var b = document.getElementById("wk-reset");
+            if (b) b.onclick = reset;
           }
-        }, 7000);
+        }, 5000);
       })();
     </script>
   </head>
