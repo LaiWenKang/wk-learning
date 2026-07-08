@@ -6,8 +6,8 @@ name: WK Learning Pulse
 # Notes:
 # - cron runs in UTC and GitHub may delay scheduled runs by several
 #   minutes under load; do not assume exact real-time behaviour.
-# - Each data commit to main also triggers the Pages deploy workflow,
-#   which is how the refreshed JSON reaches the live site.
+# - After refreshing data, this workflow builds and deploys the Pages
+#   artifact itself so scheduled updates reach the live site.
 
 on:
   schedule:
@@ -20,6 +20,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pulse
@@ -58,3 +60,44 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+  deploy:
+    needs: pulse
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Checkout refreshed main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

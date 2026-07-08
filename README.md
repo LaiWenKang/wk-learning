@@ -74,14 +74,21 @@ One-time setup: in the repo settings, under **Pages**, set the source to
 **GitHub Actions**. The Vite `base` is `/wk-learning/` (see
 `vite.config.ts`) — change it if you rename the repository.
 
+If the live site shows only the loading screen or a blank page, check the
+served HTML source. A script tag pointing at `/src/main.tsx` means Pages is
+publishing the repository root instead of the built `dist/` artifact. Switch
+**Settings → Pages → Build and deployment → Source** to **GitHub Actions**,
+then rerun the deploy workflow. The scheduled Pulse workflow also deploys the
+built `dist/` artifact after refreshing public data so data commits do not
+leave the site serving raw source HTML.
+
 ## WK Learning Pulse
 
 `.github/workflows/pulse.yml` runs `scripts/pulse-fetch.ts` on a schedule
 (default roughly every 15 minutes; a 5-minute variant is commented out in
-the workflow) and commits refreshed JSON only when something changed. Each
-data commit to `main` triggers the Pages deploy, which is how fresh
-signals reach the live site. You can also trigger it manually from the
-Actions tab (`workflow_dispatch`).
+the workflow), commits refreshed JSON only when something changed, then builds
+and deploys the updated `dist/` artifact to Pages. You can also trigger it
+manually from the Actions tab (`workflow_dispatch`).
 
 Notes on scheduling: cron is **UTC**, and GitHub may delay scheduled runs
 by several minutes under load — treat the pulse as "recent", not
