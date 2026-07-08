@@ -28,6 +28,7 @@ import {
   InboxIcon,
   JournalIcon,
   PencilIcon,
+  RefreshIcon,
   SparkleIcon,
   StackIcon,
   TargetIcon,
@@ -52,6 +53,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   // first plays a leave animation (removingUrls), then joins savedIds so
   // the next-ranked signal slides up into the top five.
   const [removingUrls, setRemovingUrls] = useState<Set<string>>(new Set());
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -64,6 +66,21 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       cancelled = true;
     };
   }, []);
+
+  // Re-fetch the newest signals the scheduled job has published (bypasses
+  // the browser cache). Doesn't fetch feeds directly — that runs server-side.
+  const refreshPulse = async () => {
+    if (refreshing) return;
+    setRefreshing(true);
+    try {
+      const { data, isSample } = await loadLatestPulse(true);
+      setPulse(data);
+      setIsSample(isSample);
+    } finally {
+      // brief minimum spin so the tap registers visually
+      setTimeout(() => setRefreshing(false), 500);
+    }
+  };
 
   const dateKey = todayKey();
   const mindset = dailyRotation(MINDSET_PROMPTS, dateKey, 1);
@@ -159,11 +176,30 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         </button>
       </div>
 
-      <SectionTitle icon={<BoltIcon />}>Today’s Pulse</SectionTitle>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <SectionTitle icon={<BoltIcon />}>Today’s Pulse</SectionTitle>
+        <button
+          type="button"
+          className="pulse-refresh"
+          aria-label="Refresh signals"
+          onClick={refreshPulse}
+          disabled={refreshing}
+        >
+          <RefreshIcon className={refreshing ? "spinning" : ""} />
+          {refreshing ? "Refreshing…" : "Refresh"}
+        </button>
+      </div>
       {isSample && (
         <div className="notice notice-info">
-          Showing demo signals — live pulse data will appear once the scheduled
-          fetch has run.
+          Showing starter signals — live public signals appear once the
+          scheduled fetch has run. Pull the Refresh button to check for new
+          ones.
         </div>
       )}
       {pulse &&
@@ -174,7 +210,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           return (
             <p className="signal-meta" style={{ marginBottom: 10 }}>
               {stale
-                ? `Starter signals — the automatic feed refreshes every ~15 minutes once live`
+                ? `Starter signals — the automatic feed refreshes about every 15 minutes once live`
                 : `Updated ${relativeTime(pulse.generatedAt)}`}
             </p>
           );
