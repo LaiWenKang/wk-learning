@@ -6,10 +6,10 @@ import { loadGlanceStats } from "../../lib/stats";
 import { useCountUp } from "../../lib/useCountUp";
 import {
   MINDSET_PROMPTS,
-  THINKING_CHALLENGES,
   LEARNING_ACTIONS,
   dailyRotation,
 } from "../../data/prompts";
+import { GymCard } from "../gym/GymCard";
 import { STORE_KEYS, loadList, newId, upsertItem } from "../../lib/storage";
 import {
   Card,
@@ -22,7 +22,6 @@ import {
 } from "../../components/ui";
 import {
   BoltIcon,
-  BrainIcon,
   CompassIcon,
   FlameIcon,
   InboxIcon,
@@ -84,7 +83,6 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
 
   const dateKey = todayKey();
   const mindset = dailyRotation(MINDSET_PROMPTS, dateKey, 1);
-  const challenge = dailyRotation(THINKING_CHALLENGES, dateKey, 2);
   const action = dailyRotation(LEARNING_ACTIONS, dateKey, 3);
 
   const top = useMemo(() => {
@@ -175,6 +173,8 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           <span className="stat-label">In queue</span>
         </button>
       </div>
+
+      <GymCard onNavigate={props.onNavigate} />
 
       <div
         style={{
@@ -274,20 +274,6 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
           {mindset}
         </p>
-      </TintCard>
-      <TintCard tint="var(--cat-programming)" icon={<BrainIcon />} title="Thinking Challenge">
-        <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
-          {challenge}
-        </p>
-        <div className="btn-row">
-          <button
-            type="button"
-            className="btn btn-soft btn-small"
-            onClick={() => props.onNavigate("think")}
-          >
-            Open Thinking Gym
-          </button>
-        </div>
       </TintCard>
       <TintCard tint="var(--cat-finance)" icon={<TargetIcon />} title="Learning Action">
         <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
