@@ -1,6 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PulseLatest, PulseSignal, LearningItem } from "../../types";
-import { loadLatestPulse, topSignals } from "../../lib/pulse";
+import {
+  defaultWeights,
+  loadLatestPulse,
+  loadPulseHistory,
+  weightedTopSignals,
+  type SignalWeights,
+} from "../../lib/pulse";
 import { formatDateLong, greetingForHour, relativeTime, todayKey } from "../../lib/date";
 import { loadGlanceStats } from "../../lib/stats";
 import { useCountUp } from "../../lib/useCountUp";
@@ -37,6 +43,54 @@ import {
 } from "../../components/icons";
 import type { TabId } from "../../app/App";
 import type { CSSProperties } from "react";
+
+/** This Week digest: the 7-day signal history, dedup'd and re-ranked. */
+function WeekDigest(props: { weights: SignalWeights; onClose: () => void }) {
+  const [items, setItems] = useState<PulseSignal[] | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadPulseHistory().then((signals) => {
+      if (cancelled) return;
+      const seen = new Set<string>();
+      const deduped = signals.filter((s) => {
+        const key = s.title.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+      setItems(weightedTopSignals({ generatedAt: "", signals: deduped }, 12, props.weights));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [props.weights]);
+
+  return (
+    <Sheet onClose={props.onClose} label="This week's digest">
+      <h3>This week, ranked for you</h3>
+      <p className="card-muted" style={{ marginBottom: 12 }}>
+        The strongest signals from the last 7 days of pulses, deduplicated and
+        weighted by your dials in Settings.
+      </p>
+      {items === null ? (
+        <p className="card-muted">Loading…</p>
+      ) : items.length === 0 ? (
+        <p className="card-muted">No history yet — it accumulates as the pulse runs.</p>
+      ) : (
+        items.map((s) => (
+          <a key={s.id} className="digest-row" href={s.url} target="_blank" rel="noreferrer">
+            <span className="digest-title">{s.title}</span>
+            <span className="digest-meta">
+              <CategoryChip category={s.category} /> {s.source}
+              {s.publishedAt ? ` · ${relativeTime(s.publishedAt)}` : ""}
+            </span>
+          </a>
+        ))
+      )}
+    </Sheet>
+  );
+}
 
 const BACKUP_NUDGE_DAYS = 21;
 
@@ -85,6 +139,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   // the next-ranked signal slides up into the top five.
   const [removingUrls, setRemovingUrls] = useState<Set<string>>(new Set());
   const [refreshing, setRefreshing] = useState(false);
+  const [digestOpen, setDigestOpen] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -117,6 +172,11 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   const mindset = dailyRotation(MINDSET_PROMPTS, dateKey, 1);
   const action = dailyRotation(LEARNING_ACTIONS, dateKey, 3);
 
+  const weights = useMemo<SignalWeights>(
+    () => ({ ...defaultWeights(), ...(storage.get<SignalWeights>("signal-weights") ?? {}) }),
+    [],
+  );
+
   const top = useMemo(() => {
     if (!pulse) return [];
     // Saved signals leave the brief; cards mid-animation stay to play out.
@@ -126,8 +186,8 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         (s) => !savedIds.has(s.url) || removingUrls.has(s.url),
       ),
     };
-    return topSignals(fresh.signals.length > 0 ? fresh : pulse, 5);
-  }, [pulse, savedIds, removingUrls]);
+    return weightedTopSignals(fresh.signals.length > 0 ? fresh : pulse, 5, weights);
+  }, [pulse, savedIds, removingUrls, weights]);
 
   const saveToQueue = (s: PulseSignal) => {
     const item: LearningItem = {
@@ -220,16 +280,26 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
         }}
       >
         <SectionTitle icon={<BoltIcon />}>Today’s Pulse</SectionTitle>
-        <button
-          type="button"
-          className="pulse-refresh"
-          aria-label="Refresh signals"
-          onClick={refreshPulse}
-          disabled={refreshing}
-        >
-          <RefreshIcon className={refreshing ? "spinning" : ""} />
-          {refreshing ? "Refreshing…" : "Refresh"}
-        </button>
+        <span style={{ display: "flex", gap: 6 }}>
+          <button
+            type="button"
+            className="pulse-refresh"
+            aria-label="This week's digest"
+            onClick={() => setDigestOpen(true)}
+          >
+            Week
+          </button>
+          <button
+            type="button"
+            className="pulse-refresh"
+            aria-label="Refresh signals"
+            onClick={refreshPulse}
+            disabled={refreshing}
+          >
+            <RefreshIcon className={refreshing ? "spinning" : ""} />
+            {refreshing ? "Refreshing…" : "Refresh"}
+          </button>
+        </span>
       </div>
       {isSample && (
         <div className="notice notice-info">
@@ -370,6 +440,10 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       >
         <PencilIcon className="inline-icon" /> Everything you write stays on this device.
       </p>
+
+      {digestOpen && (
+        <WeekDigest weights={weights} onClose={() => setDigestOpen(false)} />
+      )}
 
       {detail && (
         <Sheet onClose={() => setDetail(null)} label="Signal details">

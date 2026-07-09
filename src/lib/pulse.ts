@@ -38,3 +38,84 @@ export async function loadLatestPulse(bust = false): Promise<{
 export function topSignals(data: PulseLatest, n: number): PulseSignal[] {
   return [...data.signals].sort((a, b) => b.score - a.score).slice(0, n);
 }
+
+/* --------------------- personal signal tuning ---------------------- */
+
+/** Dial groups the user can weight — your algorithm, with knobs. */
+export type SignalGroup =
+  | "storage"
+  | "ai"
+  | "programming"
+  | "systems"
+  | "finance"
+  | "other";
+
+export const SIGNAL_GROUPS: SignalGroup[] = [
+  "storage",
+  "ai",
+  "programming",
+  "systems",
+  "finance",
+  "other",
+];
+
+export const SIGNAL_GROUP_LABELS: Record<SignalGroup, string> = {
+  storage: "Storage & Semiconductor",
+  ai: "AI & LLMs",
+  programming: "Programming",
+  systems: "Systems & Cloud",
+  finance: "Finance",
+  other: "Career & Everything Else",
+};
+
+export function groupOfCategory(category: PulseSignal["category"]): SignalGroup {
+  switch (category) {
+    case "semiconductor":
+    case "firmware":
+      return "storage";
+    case "ai":
+      return "ai";
+    case "programming":
+      return "programming";
+    case "systems":
+      return "systems";
+    case "finance":
+      return "finance";
+    default:
+      return "other";
+  }
+}
+
+export type SignalWeights = Record<SignalGroup, number>;
+
+export function defaultWeights(): SignalWeights {
+  return { storage: 1, ai: 1, programming: 1, systems: 1, finance: 1, other: 1 };
+}
+
+/** Re-rank signals by the user's dials (multiplier on fetch-time score). */
+export function weightedTopSignals(
+  data: PulseLatest,
+  n: number,
+  weights: SignalWeights,
+): PulseSignal[] {
+  const w = (s: PulseSignal) => weights[groupOfCategory(s.category)] ?? 1;
+  return [...data.signals]
+    .sort((a, b) => b.score * w(b) - a.score * w(a))
+    .filter((s) => w(s) > 0)
+    .slice(0, n);
+}
+
+/** Rolling 7-day signal history for the weekly digest. */
+export async function loadPulseHistory(): Promise<PulseSignal[]> {
+  try {
+    const res = await fetch(
+      `${import.meta.env.BASE_URL}data/pulse-history.json?t=${Date.now()}`,
+      { cache: "no-cache" },
+    );
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = (await res.json()) as { signals?: PulseSignal[] };
+    return Array.isArray(data.signals) ? data.signals : [];
+  } catch {
+    return [];
+  }
+}
