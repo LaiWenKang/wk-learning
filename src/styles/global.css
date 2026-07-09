@@ -2023,6 +2023,198 @@ details.drawer .drawer-body {
   color: var(--text-secondary);
 }
 
+/* --- The Feed That Ends --- */
+.feed-overlay {
+  overflow: hidden;
+}
+.feed-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+.feed-frame {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.feed-head {
+  position: absolute;
+  top: calc(var(--safe-top) + 10px);
+  left: 14px;
+  right: 14px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feed-counter {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  background: var(--glass-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+.feed-scroll {
+  flex: 1;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.feed-card {
+  height: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feed-inner {
+  width: 100%;
+  max-width: 520px;
+  padding: 70px 26px 60px;
+}
+.feed-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+}
+.feed-flip {
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  border-left: 3px solid var(--tint, var(--accent));
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--tint, var(--accent)) 5%, transparent);
+}
+.feed-kicker {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+.feed-flip .feed-kicker {
+  color: var(--tint, var(--accent));
+}
+.feed-big {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.feed-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 720;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+.feed-subtitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 720;
+}
+.feed-body {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.6;
+  text-align: left;
+}
+.feed-answer {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 790;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+.feed-unit {
+  font-size: 17px;
+  font-weight: 620;
+  color: var(--text-secondary);
+}
+.feed-muted {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+.feed-memory .feed-title {
+  font-style: italic;
+  font-weight: 600;
+}
+.feed-guess-options {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 100%;
+}
+.feed-swipe-hint {
+  font-size: 26px;
+  color: var(--text-tertiary);
+  animation: feed-bounce 1.4s ease-in-out infinite;
+}
+@keyframes feed-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Today entry point */
+.feed-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 13px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-family: inherit;
+  text-align: left;
+  box-shadow: var(--shadow-card);
+}
+.feed-entry-done {
+  opacity: 0.75;
+}
+.feed-entry-icon {
+  color: var(--accent-2);
+  display: flex;
+}
+.feed-entry-icon svg {
+  width: 20px;
+  height: 20px;
+}
+.feed-entry-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.feed-entry-text strong {
+  font-size: 14.5px;
+  font-weight: 700;
+}
+.feed-entry-text span {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+}
+.feed-entry-cta {
+  font-size: 17px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* --- v0.12: freezes, minimal mode, exams, badges, calibration --- */
 .gym-freeze {
   margin-right: 8px;
