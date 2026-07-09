@@ -3,25 +3,30 @@ import { Segmented } from "../../components/ui";
 import { QueueView } from "./QueueView";
 import { FlashcardsView } from "./FlashcardsView";
 import { NotesView } from "./NotesView";
+import { ModelsView } from "./ModelsView";
 
-type LearnView = "queue" | "cards" | "notes";
+type LearnView = "models" | "queue" | "cards" | "notes";
 
 export function LearnPage() {
-  const [view, setView] = useState<LearnView>("queue");
+  const [view, setView] = useState<LearnView>("models");
 
   return (
     <div>
       <h1 className="page-title">Learn</h1>
-      <p className="page-subtitle">Queue, flashcards and concept notes — stored locally.</p>
+      <p className="page-subtitle">
+        Mental models, queue, flashcards and notes — stored locally.
+      </p>
       <Segmented<LearnView>
         value={view}
         onChange={setView}
         options={[
-          { value: "queue", label: "Learning Queue" },
-          { value: "cards", label: "Flashcards" },
-          { value: "notes", label: "Concept Notes" },
+          { value: "models", label: "Models" },
+          { value: "queue", label: "Queue" },
+          { value: "cards", label: "Cards" },
+          { value: "notes", label: "Notes" },
         ]}
       />
+      {view === "models" && <ModelsView />}
       {view === "queue" && <QueueView />}
       {view === "cards" && <FlashcardsView />}
       {view === "notes" && <NotesView />}

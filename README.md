@@ -13,17 +13,30 @@ liquid-glass navigation, and chart colors validated for colorblind safety.
 
 | Tab | What it does |
 | --- | --- |
-| **Today** | Daily brief: streak/due/queue at a glance, top public signals from the Pulse, a professional mindset prompt, a thinking challenge, a suggested learning action, quick actions |
-| **Learn** | Learning Queue (saved signals + notes), flashcards with a 3D flip review, confidence-based intervals, deck insights, an optional starter deck, and session summaries; concept notes with tags/takeaways; JSON import/export |
+| **Today** | Opens with the **Daily Mind Gym** — a ~5-minute interactive session: a calibration estimate (with confidence tracking), a deep mental-model chapter, an active-recall check, and a rotating challenge (fallacy hunt / paradox / Fermi problem), closing with streaks and stats. Below it: top public signals from the Pulse, a mindset prompt, a learning action, quick actions |
+| **Learn** | **The Latticework**: all 42 mental models across 6 domains, lighting up as the daily gym trains them, each readable in full any time (with related-model links). Plus the Learning Queue (saved signals + notes), flashcards with a 3D flip review, confidence-based intervals, deck insights, concept notes, JSON import/export |
 | **Think** | Thinking Gym: RCA Builder (flow diagram + markdown output), 5 Whys ladder, Decision Matrix (weighted scoring with result bars and per-criterion contribution breakdown), Assumption Checker, Risk Scanner with coverage progress — every tool auto-saves its draft |
 | **Finance** | Two simulators. Net Worth: projection with crosshair tooltip, seeded Monte-Carlo uncertainty band (p10–p90) with odds-of-target, target progress ring, year-N composition breakdown, investment sensitivity bars, saved scenario comparison. Career Path: compare two salary trajectories (growth ± one-time raise) with cumulative-earnings difference and break-even year. Inputs persist between visits |
 | **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, 8-week consistency heatmap, streak, template-based weekly summary |
 | **Settings** | Local Data & Privacy: full JSON backup/restore, clear-with-confirmation, pulse source list, app version |
 
+### The Daily Mind Gym
+
+The gym is the app's core loop, designed around what actually builds a
+thinking system: **calibration training** (estimate → state confidence →
+see the truth → track whether your "90% sure" is really 90%), **deep
+mental models** (each a full chapter: mechanism, real example, and — the
+part slogans skip — where the model *fails*), **active recall**
+(self-graded, feeding a mastery latticework), and **daily-rotating
+challenges** (spot the fallacy in a realistic scenario, resolve a famous
+paradox, or decompose a Fermi estimate). Content pools:
+42 models, 60 calibration questions, 36 challenges — months of daily
+novelty before anything repeats.
+
 ### Daily content never repeats
 
-The Today prompts (mindset / challenge / action) rotate through their
-pools with a deterministic shuffled-cycle algorithm
+All daily selections (gym session parts and Today prompts) rotate
+through their pools with a deterministic shuffled-cycle algorithm
 (`dailyRotation` in `src/data/prompts.ts`): every item appears exactly
 once per cycle, each cycle is reshuffled, and the same item never shows
 on two consecutive days — no repeats until a pool is exhausted. Pulse
