@@ -2023,6 +2023,75 @@ details.drawer .drawer-body {
   color: var(--text-secondary);
 }
 
+/* --- Storage Field Desk --- */
+.brief-card {
+  border: 1px solid color-mix(in srgb, var(--tint, var(--accent)) 40%, transparent);
+  background:
+    radial-gradient(
+      120% 140% at 100% 0%,
+      color-mix(in srgb, var(--tint, var(--accent)) 12%, transparent) 0%,
+      transparent 55%
+    ),
+    var(--bg-elevated);
+}
+.brief-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tint, var(--accent));
+}
+.brief-kicker svg {
+  width: 15px;
+  height: 15px;
+}
+.brief-count {
+  font-size: 12px;
+  font-weight: 650;
+  color: var(--text-tertiary);
+}
+.brief-area {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.brief-teaser {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.chapter-matters {
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  border: 1px solid rgba(91, 141, 239, 0.25);
+}
+.chapter-matters .chapter-label {
+  color: var(--accent);
+}
+.brief-watch {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.chip-current {
+  border-color: var(--tint, var(--accent));
+  color: var(--text);
+  background: color-mix(in srgb, var(--tint, var(--accent)) 18%, transparent);
+}
+
 /* --- Latticework (Learn tab) --- */
 .lattice-header {
   padding: 16px;

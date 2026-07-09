@@ -31,6 +31,8 @@ export type PulseSignal = {
 };
 
 export type KeywordConfig = {
+  /** Core professional domain — weighted above general interest. */
+  priority?: string[];
   high: string[];
   low: string[];
 };
@@ -49,7 +51,8 @@ export function matchedKeywords(text: string, keywords: string[]): string[] {
 
 /**
  * Score a signal 0..10 from keyword relevance and recency.
- * High keywords add, low keywords subtract heavily.
+ * Priority (core-domain) keywords weigh most, high keywords add,
+ * low keywords subtract heavily.
  */
 export function scoreSignal(
   title: string,
@@ -58,11 +61,13 @@ export function scoreSignal(
   keywords: KeywordConfig,
 ): { score: number; matched: string[] } {
   const text = `${title} ${summary ?? ""}`;
+  const priority = matchedKeywords(text, keywords.priority ?? []);
   const high = matchedKeywords(text, keywords.high);
   const low = matchedKeywords(text, keywords.low);
 
   let score = 3; // neutral base so keyword-free items still rank by recency
-  score += Math.min(high.length * 1.5, 5);
+  score += Math.min(priority.length * 2.5, 5);
+  score += Math.min(high.length * 1.5, 4);
   score -= low.length * 4;
 
   // Recency bonus: full point under 24h, fades to 0 by 72h.
@@ -73,7 +78,9 @@ export function scoreSignal(
     }
   }
 
-  return { score: Math.max(0, Math.min(10, Math.round(score * 10) / 10)), matched: high };
+  // Priority tags lead, so the domain terms surface in the UI chips.
+  const matched = [...priority, ...high.filter((k) => !priority.includes(k))];
+  return { score: Math.max(0, Math.min(10, Math.round(score * 10) / 10)), matched };
 }
 
 export function categorize(
@@ -98,8 +105,69 @@ export function categorize(
   return best;
 }
 
+/**
+ * Domain implications, written for an SSD firmware test engineer:
+ * when a storage-domain keyword matches, say what the development
+ * typically means for test/validation work, not just "this is relevant".
+ * First matching entry wins (ordered roughly most→least specific).
+ */
+const DOMAIN_IMPLICATIONS: Array<[string[], string]> = [
+  [
+    ["fdp", "flexible data placement", "zns", "zoned namespace"],
+    "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
+  ],
+  [
+    ["nvme", "nvme-of", "tcg opal", "spdm"],
+    "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+  ],
+  [
+    ["qlc", "plc", "penta-level"],
+    "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
+  ],
+  [
+    ["3d nand", "nand", "onfi", "toggle"],
+    "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+  ],
+  [
+    ["pcie", "gen5", "gen6", "retimer"],
+    "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+  ],
+  [
+    ["cxl"],
+    "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+  ],
+  [
+    ["ssd controller", "controller", "hmb", "dram-less"],
+    "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
+  ],
+  [
+    ["hyperscaler", "ocp", "open compute", "datacenter ssd", "enterprise ssd"],
+    "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+  ],
+  [
+    ["telemetry", "smart", "predictive failure"],
+    "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+  ],
+  [
+    ["fault injection", "error injection", "fuzzing", "validation", "verification"],
+    "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
+  ],
+  [
+    ["hbm", "dram"],
+    "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+  ],
+  [
+    ["ufs", "emmc"],
+    "Mobile-storage evolution often previews cost/power tricks that later reach client and enterprise SSD firmware.",
+  ],
+];
+
 export function whyItMatters(matched: string[], category: SignalCategory): string | undefined {
   if (matched.length === 0) return undefined;
+  const matchedSet = new Set(matched.map((m) => m.toLowerCase()));
+  for (const [terms, implication] of DOMAIN_IMPLICATIONS) {
+    if (terms.some((t) => matchedSet.has(t))) return implication;
+  }
   const topics = matched.slice(0, 3).join(", ");
   const angle: Record<SignalCategory, string> = {
     ai: "keeping your AI/tooling knowledge current",

@@ -10,6 +10,7 @@ import {
   dailyRotation,
 } from "../../data/prompts";
 import { GymCard } from "../gym/GymCard";
+import { FieldBriefCard } from "../gym/FieldBriefCard";
 import { STORE_KEYS, loadList, newId, upsertItem } from "../../lib/storage";
 import {
   Card,
@@ -175,6 +176,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       </div>
 
       <GymCard onNavigate={props.onNavigate} />
+      <FieldBriefCard />
 
       <div
         style={{
