@@ -11,7 +11,7 @@ import {
 } from "../../data/prompts";
 import { GymCard } from "../gym/GymCard";
 import { FieldBriefCard } from "../gym/FieldBriefCard";
-import { STORE_KEYS, loadList, newId, upsertItem } from "../../lib/storage";
+import { STORE_KEYS, loadList, newId, storage, upsertItem } from "../../lib/storage";
 import {
   Card,
   CategoryChip,
@@ -36,6 +36,36 @@ import {
 } from "../../components/icons";
 import type { TabId } from "../../app/App";
 import type { CSSProperties } from "react";
+
+const BACKUP_NUDGE_DAYS = 21;
+
+/** Gentle reminder when accumulated progress has no recent backup. */
+function BackupNudge(props: { onNavigate: (tab: TabId) => void }) {
+  const hasData =
+    loadList(STORE_KEYS.reflections).length > 0 ||
+    (storage.get<{ totalSessions?: number }>("mindgym-stats")?.totalSessions ?? 0) >= 7;
+  if (!hasData) return null;
+  const last = storage.get<string>("last-backup");
+  const ageDays = last
+    ? (Date.now() - new Date(last).getTime()) / 86400000
+    : Infinity;
+  if (ageDays < BACKUP_NUDGE_DAYS) return null;
+  return (
+    <div className="notice notice-info" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+      <span style={{ flex: 1 }}>
+        Your streaks and progress live only on this device —{" "}
+        {last ? "your last backup is getting old" : "no backup exists yet"}.
+      </span>
+      <button
+        type="button"
+        className="btn btn-small btn-soft"
+        onClick={() => props.onNavigate("settings")}
+      >
+        Back up
+      </button>
+    </div>
+  );
+}
 
 export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
   const [pulse, setPulse] = useState<PulseLatest | null>(null);
@@ -177,6 +207,8 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
 
       <GymCard onNavigate={props.onNavigate} />
       <FieldBriefCard />
+
+      <BackupNudge onNavigate={props.onNavigate} />
 
       <div
         style={{

@@ -3,12 +3,15 @@ import {
   clearAllData,
   exportAllData,
   importAllData,
+  storage,
 } from "../../lib/storage";
 import { downloadJson, readJsonFile } from "../../lib/export";
-import { todayKey } from "../../lib/date";
+import { relativeTime, todayKey } from "../../lib/date";
 import { Card } from "../../components/ui";
 
-const APP_VERSION = "0.11.0";
+const APP_VERSION = "0.12.0";
+
+export const LAST_BACKUP_KEY = "last-backup";
 
 type SourceConfig = {
   id: string;
@@ -38,8 +41,15 @@ export function SettingsPage(props: { onReplayIntro?: () => void }) {
     };
   }, []);
 
+  const [lastBackup, setLastBackup] = useState<string | null>(() =>
+    storage.get<string>(LAST_BACKUP_KEY),
+  );
+
   const exportAll = () => {
     downloadJson(`wk-learning-backup-${todayKey()}.json`, exportAllData());
+    const now = new Date().toISOString();
+    storage.set(LAST_BACKUP_KEY, now);
+    setLastBackup(now);
     setMessage("Backup downloaded.");
   };
 
@@ -94,6 +104,11 @@ export function SettingsPage(props: { onReplayIntro?: () => void }) {
             />
           </label>
         </div>
+        <p className="signal-meta" style={{ marginTop: 8 }}>
+          {lastBackup
+            ? `Last backup: ${relativeTime(lastBackup)}.`
+            : "No backup recorded yet — export one so streaks and progress survive anything."}
+        </p>
         <hr className="divider" />
         {confirmClear ? (
           <div>

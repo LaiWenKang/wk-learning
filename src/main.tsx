@@ -17,6 +17,12 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   </React.StrictMode>,
 );
 
+// Ask the browser to protect this origin's storage from eviction —
+// streaks, mastery and reflections all live locally.
+if (typeof navigator !== "undefined" && navigator.storage?.persist) {
+  navigator.storage.persist().catch(() => {});
+}
+
 // The service worker has been retired (it could cache a transient deploy
 // 404 and blank the app). On every load, proactively unregister any worker
 // still installed from an earlier version and clear its caches, so the app

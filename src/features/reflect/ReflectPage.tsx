@@ -7,6 +7,7 @@ import { Card, Field, RatingInput, SectionTitle } from "../../components/ui";
 import { FlameIcon, JournalIcon, SparkleIcon } from "../../components/icons";
 import { TrendTile } from "./TrendTile";
 import { HeatStrip } from "./HeatStrip";
+import { CalibrationCard } from "./CalibrationCard";
 
 type ReflectDraft = {
   energy: Rating;
@@ -193,6 +194,8 @@ export function ReflectPage() {
           </button>
         </div>
       </Card>
+
+      <CalibrationCard />
 
       <SectionTitle icon={<SparkleIcon />}>Last 7 Days</SectionTitle>
       <Card>

@@ -1,10 +1,14 @@
 import { describe, expect, it } from "vitest";
+import type { GymStats } from "./gym";
 import {
   calibrationSummary,
+  categoryBias,
   challengeKindFor,
   completeSession,
   currentStreak,
   describeMiss,
+  dueReviews,
+  earnedBadges,
   emptyStats,
   formatBig,
   gradeEstimate,
@@ -13,7 +17,9 @@ import {
   ratioError,
   recordCalibration,
   recordChallenge,
+  recordExam,
   recordRecall,
+  reviewIntervalDays,
 } from "./gym";
 import { addDays } from "./date";
 import { MENTAL_MODELS, MODEL_BY_ID, MODEL_DOMAINS } from "../content/models";
@@ -268,6 +274,119 @@ describe("progress records", () => {
     expect(s.challenges.fermiHit).toBe(1);
     expect(s.challenges.fermiTotal).toBe(1);
     expect(s.challenges.paradoxSeen).toBe(1);
+  });
+});
+
+/* ------------------------- spaced reviews ---------------------------- */
+
+describe("spaced reviews", () => {
+  it("schedules by grade and consolidation", () => {
+    const base = { seenAt: "2026-07-01", recalls: 1, lastAt: "2026-07-01" };
+    expect(reviewIntervalDays({ ...base, got: 0, lastGrade: "missed" })).toBe(1);
+    expect(reviewIntervalDays({ ...base, got: 0, lastGrade: "fuzzy" })).toBe(3);
+    expect(reviewIntervalDays({ ...base, got: 1, lastGrade: "got" })).toBe(7);
+    expect(reviewIntervalDays({ ...base, got: 2, lastGrade: "got" })).toBe(21);
+    expect(reviewIntervalDays({ ...base, got: 5, lastGrade: "got" })).toBe(45);
+  });
+
+  it("returns due models most-overdue first, excluding today's model", () => {
+    let s = emptyStats();
+    s = recordRecall(s, "inversion", "missed", "2026-07-01"); // due 07-02
+    s = recordRecall(s, "anchoring", "fuzzy", "2026-07-01"); // due 07-04
+    s = recordRecall(s, "slack", "got", "2026-07-05"); // due 07-12
+    const due = dueReviews(s, "2026-07-06");
+    expect(due).toEqual(["inversion", "anchoring"]);
+    expect(dueReviews(s, "2026-07-06", "inversion")).toEqual(["anchoring"]);
+    expect(dueReviews(s, "2026-07-01")).toEqual([]);
+  });
+
+  it("review grading updates lastAt so the item reschedules", () => {
+    let s = emptyStats();
+    s = recordRecall(s, "inversion", "missed", "2026-07-01");
+    expect(dueReviews(s, "2026-07-03")).toEqual(["inversion"]);
+    s = recordRecall(s, "inversion", "got", "2026-07-03");
+    expect(dueReviews(s, "2026-07-04")).toEqual([]);
+    expect(s.mastery["inversion"].lastAt).toBe("2026-07-03");
+  });
+});
+
+/* ------------------------- streak freezes ---------------------------- */
+
+describe("streak freezes", () => {
+  it("banks a freeze every 7th consecutive day, capped at 3", () => {
+    let s = emptyStats();
+    for (let i = 0; i < 7; i++) s = completeSession(s, `2026-07-0${i + 1}`);
+    expect(s.streak).toBe(7);
+    expect(s.freezes).toBe(1);
+  });
+
+  it("a freeze absorbs exactly one missed day", () => {
+    let s: GymStats = { ...emptyStats(), streak: 7, freezes: 1, lastCompleted: "2026-07-07", totalSessions: 7 };
+    s = completeSession(s, "2026-07-09"); // skipped 07-08
+    expect(s.streak).toBe(8);
+    expect(s.freezes).toBe(0);
+  });
+
+  it("no freeze means a gap still resets", () => {
+    let s: GymStats = { ...emptyStats(), streak: 5, freezes: 0, lastCompleted: "2026-07-07", totalSessions: 5 };
+    s = completeSession(s, "2026-07-09");
+    expect(s.streak).toBe(1);
+  });
+
+  it("two missed days reset even with freezes", () => {
+    let s: GymStats = { ...emptyStats(), streak: 9, freezes: 2, lastCompleted: "2026-07-07", totalSessions: 9 };
+    s = completeSession(s, "2026-07-11");
+    expect(s.streak).toBe(1);
+    expect(s.freezes).toBe(2); // unspent
+  });
+
+  it("currentStreak survives a freeze-coverable gap", () => {
+    const s: GymStats = { ...emptyStats(), streak: 7, freezes: 1, lastCompleted: "2026-07-07", totalSessions: 7 };
+    expect(currentStreak(s, "2026-07-09")).toBe(7);
+    expect(currentStreak({ ...s, freezes: 0 }, "2026-07-09")).toBe(0);
+  });
+});
+
+/* --------------------------- domain exams ---------------------------- */
+
+describe("domain exams", () => {
+  it("passes at 4/5, tracks best score and attempts", () => {
+    let s = emptyStats();
+    s = recordExam(s, "decisions", 3, "2026-07-01");
+    expect(s.exams["decisions"].passedAt).toBeNull();
+    expect(s.exams["decisions"].attempts).toBe(1);
+    s = recordExam(s, "decisions", 5, "2026-07-02");
+    expect(s.exams["decisions"].passedAt).toBe("2026-07-02");
+    expect(s.exams["decisions"].bestScore).toBe(5);
+    s = recordExam(s, "decisions", 2, "2026-07-03");
+    expect(s.exams["decisions"].passedAt).toBe("2026-07-02"); // keeps first pass
+    expect(s.exams["decisions"].attempts).toBe(3);
+  });
+});
+
+/* ------------------------------ badges ------------------------------- */
+
+describe("badges and bias", () => {
+  it("derives badges from stats", () => {
+    let s = emptyStats();
+    expect(earnedBadges(s).filter((b) => b.earned)).toEqual([]);
+    s = { ...s, streak: 30, totalSessions: 100 };
+    s = recordExam(s, "decisions", 5, "2026-07-01");
+    const earned = earnedBadges(s).filter((b) => b.earned).map((b) => b.id);
+    expect(earned).toContain("week-streak");
+    expect(earned).toContain("month-streak");
+    expect(earned).toContain("first-exam");
+    expect(earned).toContain("century");
+  });
+
+  it("computes per-category over/under bias", () => {
+    const q = CALIBRATION_QUESTIONS[0];
+    let s = emptyStats();
+    s = recordCalibration(s, "d1", q, q.answer * 0.4, 70); // under
+    s = recordCalibration(s, "d2", q, q.answer * 0.5, 70); // under
+    s = recordCalibration(s, "d3", q, q.answer * 3, 70); // over
+    const bias = categoryBias(s.calibrationLog, () => "space");
+    expect(bias).toEqual([{ category: "space", n: 3, net: -1 }]);
   });
 });
 
