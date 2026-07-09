@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T16:44:45.939Z",
+  "generatedAt": "2026-07-09T18:29:52.993Z",
   "signals": [
     {
       "id": "sig-1msi33n",
@@ -10,7 +10,7 @@
       "summary": "Samsung has started mass production of the PM1763, its first PCIe Gen6 enterprise SSD, pairing 9th-generation V-NAND with a newly developed 4nm controller. The 15.36TB flagship is rated for sequential reads up to 28,400 MB/s and writes up to 21,000 MB/s, with reads landing at 1.9",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-08T18:57:07.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The Samsung PM1763 is a PCIe Gen6 NVMe SSD that the company said has entered production to support new AI servers The post Samsung PM1763 PCIe Gen6 Enterprise SSD in Production appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-08T13:51:57.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "SK hynix has announced plans to invest KRW 100 trillion (about US$65 billion at the current exchange rate) in Cheongju, South Korea, to expand its NAND flash manufacturing and advanced packaging capacity to meet rising AI-driven memory demand. The announcement was made by Preside",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-06T16:06:01.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 10,
       "tags": [
         "nand",
@@ -65,7 +65,7 @@
       "summary": "Ahead of the launch of PCIe Gen6 CPUs, Micron was at Computex 2026 showing off their first PCIe Gen6 SSD for data centers, the 9650 The post Spotted at Computex 2026: Micron’s First PCIe Gen6 Data Center SSD, the 9650 appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-05T17:00:11.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -84,7 +84,7 @@
       "summary": "At Computex 2026, Silicon Motion was showcasing its SM8388 and SM8008 SSD controllers for enterprise drives The post Silicon Motion Shows Off Enterprise SM8008 and SM8388 SSD Controllers at Computex 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Touches ssd, silicon motion — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-04T17:00:39.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -92,21 +92,20 @@
       ]
     },
     {
-      "id": "sig-19d6b30",
-      "title": "Kioxia and Sandisk sample shipping 332-layer 3D NAND",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/03/kioxia-and-sandisk-sample-shipping-332-layer-3d-nand/5266362",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-03T11:26:18.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
-      "score": 9.5,
+      "id": "sig-102mibk",
+      "title": "llm 0.31.1",
+      "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
+      "whyItMatters": "Touches ai, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-09T16:06:15.000Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
+      "score": 8.9,
       "tags": [
-        "nand",
-        "3d nand",
-        "kioxia",
-        "sandisk"
+        "ai",
+        "openai",
+        "llm"
       ]
     },
     {
@@ -118,12 +117,28 @@
       "summary": "arXiv:2607.07207v1 Announce Type: cross Abstract: We analyze how four forces restructure the AI industry over 2026-2030: the DRAM/HBM price surge, frontier-capable open-weight models (GLM-5.2), rapid inference-efficiency gains (near-Shannon-limit KV-cache compression, lightweight",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 8.6,
       "tags": [
         "ai",
         "dram",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-19bmjjf",
+      "title": "llm-meta-ai 0.1",
+      "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-09T16:12:20.000Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -135,7 +150,7 @@
       "summary": "NVIDIA has introduced a new business model to accelerate the deployment of AI infrastructure by combining revenue sharing with credit support for AI cloud providers. Announced July 1 in a blog post co-authored by CFO Colette Kress, the initiative is designed to expand access to a",
       "whyItMatters": "Touches ai, finance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-09T14:38:11.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -151,7 +166,7 @@
       "summary": "Building an AI agent that works in semiconductor and PCB design requires solving problems that generic agentic frameworks were never designed to handle. The post The Architecture Decisions Behind A Production-Ready EDA AI Agent appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:08:30.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -167,7 +182,7 @@
       "summary": "Characteristics once primarily associated with extending smartphone battery life map directly onto the needs of real-time on-device inference. The post The Expansion Of LPDDR Into Edge AI Platforms appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:07:13.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -183,7 +198,7 @@
       "summary": "As the semiconductor ecosystem pivots to AI, it is transforming how IP is created, verified, managed, and sold. The post AI Is Rewriting The IP Playbook appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:05:41.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -199,7 +214,7 @@
       "summary": "As AI infrastructure fragments into specialized tiers, CPUs are becoming the orchestration layer for agentic workloads. The post From Host Node To Heterogeneous Rack: Rethinking The AI CPU appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:02:11.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -215,7 +230,7 @@
       "summary": "Using models outside the context in which they were created for can result in misleading information. The post An AI Model Fit For Purpose appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:01:20.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -231,7 +246,7 @@
       "summary": "arXiv:2607.06820v1 Announce Type: new Abstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We propose a ReAct-style agentic setup t",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -247,7 +262,7 @@
       "summary": "arXiv:2607.07189v1 Announce Type: new Abstract: Vision-language models (VLMs) and agentic AI have shown strong performance on semantic visual tasks, but it remains unclear whether they can handle the physics and inverse problems that underlie computational imaging. We present Ima",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -263,7 +278,7 @@
       "summary": "arXiv:2607.07321v1 Announce Type: new Abstract: Tool utilization enables Large Language Model (LLM) agents to interact with the real world and resolve complex tasks. However, existing agent frameworks predominantly rely on static toolsets composed of granular atomic actions (e.g.",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -279,7 +294,7 @@
       "summary": "arXiv:2607.06713v1 Announce Type: new Abstract: Large language models are rapidly moving towards closing the development cycle, transitioning from simple assistive companions to autonomous contributors deeply embedded into collaborative development environments. Despite their acc",
       "whyItMatters": "Touches software engineering, embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "software engineering",
@@ -295,7 +310,7 @@
       "summary": "arXiv:2607.07052v1 Announce Type: new Abstract: AI agents deployed for IT operations are typically permanent cost centers because every execution requires full LLM inference, even for previously solved problems. This paper introduces progressive crystallization, a lifecycle that ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -311,27 +326,11 @@
       "summary": "arXiv:2607.07096v1 Announce Type: new Abstract: Chiplet-based DNN accelerators provide a scalable path to balance performance and yield for modern AI workloads. However, such systems face critical challenges in area and thermal constraints. Design space optimization should jointl",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
+      "fetchedAt": "2026-07-09T18:29:52.993Z",
       "score": 7.6,
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-qdep1i",
-      "title": "Smart Scissor: Coupling Spatial Redundancy Reduction and CNN Compression for Embedded Hardware",
-      "url": "https://arxiv.org/abs/2607.06915",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.06915v1 Announce Type: cross Abstract: Scaling down the resolution of input images can greatly reduce the computational overhead of convolutional neural networks (CNNs), which is promising for edge AI. However, as an image usually contains much spatial redundancy, e.g.",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-09T16:44:45.939Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "embedded"
       ]
     }
   ]
