@@ -21,7 +21,8 @@ import { MEDITATIONS_SERIAL } from "../../content/meditations";
 import { MODEL_BY_ID } from "../../content/models";
 import { ModelChapter } from "../gym/ModelChapter";
 import { Sheet } from "../../components/ui";
-import { STORE_KEYS, newId, upsertItem } from "../../lib/storage";
+import { STORE_KEYS, newId, storage, upsertItem } from "../../lib/storage";
+import { BOOK_DUELS, type BookDuel } from "../../content/duels";
 import type { LearningItem } from "../../types";
 import { BookIcon, PencilIcon, SparkleIcon } from "../../components/icons";
 import type { CSSProperties } from "react";
@@ -133,6 +134,13 @@ export function BooksView() {
           <span className="feed-entry-cta" aria-hidden="true">→</span>
         </button>
       ))}
+
+      {/* Book duels */}
+      <div className="lattice-domain-head" style={{ marginTop: 18 }}>
+        <h3>Book duels</h3>
+        <span className="lattice-domain-count">books that disagree</span>
+      </div>
+      <DuelsSection />
 
       {/* Commonplace capture */}
       <button type="button" className="btn btn-soft btn-block" style={{ marginTop: 14 }} onClick={() => setCaptureOpen(true)}>
@@ -298,6 +306,84 @@ function BookReader(props: { book: BookDistillation; onClose: () => void }) {
       )}
     </div>,
     document.body,
+  );
+}
+
+/* ------------------------------ duels ------------------------------- */
+
+const DUEL_PICKS_KEY = "duel-picks";
+
+function DuelsSection() {
+  const [open, setOpen] = useState<BookDuel | null>(null);
+  const [picks, setPicks] = useState<Record<string, "a" | "b">>(
+    () => storage.get<Record<string, "a" | "b">>(DUEL_PICKS_KEY) ?? {},
+  );
+
+  const pick = (id: string, side: "a" | "b") => {
+    const next = { ...picks, [id]: side };
+    storage.set(DUEL_PICKS_KEY, next);
+    setPicks(next);
+  };
+
+  return (
+    <>
+      {BOOK_DUELS.map((d) => (
+        <button
+          key={d.id}
+          type="button"
+          className="book-row"
+          style={{ "--tint": "var(--accent-2)" } as CSSProperties}
+          onClick={() => setOpen(d)}
+        >
+          <span className="book-spine" aria-hidden="true" />
+          <span className="book-info">
+            <strong>
+              {d.topic}
+              {picks[d.id] ? " ✓" : ""}
+            </strong>
+            <span>
+              {d.a.book} vs {d.b.book}
+            </span>
+          </span>
+          <span className="feed-entry-cta" aria-hidden="true">⚔</span>
+        </button>
+      ))}
+      {open && (
+        <Sheet onClose={() => setOpen(null)} label={`Duel: ${open.topic}`}>
+          <h3>{open.topic}</h3>
+          <div className="duel-side">
+            <div className="chapter-label">
+              {open.a.book} — {open.a.author}
+            </div>
+            <p>{open.a.thesis}</p>
+          </div>
+          <div className="duel-side duel-side-b">
+            <div className="chapter-label">
+              {open.b.book} — {open.b.author}
+            </div>
+            <p>{open.b.thesis}</p>
+          </div>
+          <p className="quote-ask">{open.question}</p>
+          {!picks[open.id] ? (
+            <div className="grade-row grade-row-2" style={{ marginTop: 12 }}>
+              <button type="button" className="btn grade-fuzzy" onClick={() => pick(open.id, "a")}>
+                {open.a.book}
+              </button>
+              <button type="button" className="btn grade-got" onClick={() => pick(open.id, "b")}>
+                {open.b.book}
+              </button>
+            </div>
+          ) : (
+            <div className="sheet-section" style={{ marginTop: 12 }}>
+              <div className="chapter-label">
+                The synthesis (you picked {picks[open.id] === "a" ? open.a.book : open.b.book})
+              </div>
+              <p className="card-muted" style={{ color: "var(--text)" }}>{open.synthesis}</p>
+            </div>
+          )}
+        </Sheet>
+      )}
+    </>
   );
 }
 

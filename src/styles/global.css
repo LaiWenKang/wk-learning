@@ -2023,6 +2023,101 @@ details.drawer .drawer-body {
   color: var(--text-secondary);
 }
 
+/* --- v0.15: duels, playbooks, dials, digest --- */
+.duel-side {
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+}
+.duel-side p {
+  margin: 4px 0 0;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+.duel-side-b {
+  border-color: rgba(69, 193, 136, 0.35);
+}
+.duel-side:first-of-type {
+  border-color: rgba(217, 164, 65, 0.35);
+}
+.playbook-step {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+.playbook-step input {
+  margin-top: 3px;
+  width: 17px;
+  height: 17px;
+  accent-color: var(--accent);
+  flex-shrink: 0;
+}
+.playbook-step span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.playbook-step strong {
+  font-size: 14.5px;
+  font-weight: 640;
+  line-height: 1.45;
+}
+.playbook-step em {
+  font-size: 12.5px;
+  font-style: normal;
+  color: var(--text-tertiary);
+  line-height: 1.45;
+}
+.playbook-step.done strong {
+  text-decoration: line-through;
+  color: var(--text-tertiary);
+}
+.dial-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 44px;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+}
+.dial-label {
+  font-size: 13.5px;
+}
+.dial-row input[type="range"] {
+  accent-color: var(--accent);
+}
+.dial-value {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--accent);
+  text-align: right;
+}
+.digest-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+.digest-title {
+  font-size: 14.5px;
+  font-weight: 640;
+  line-height: 1.4;
+}
+.digest-meta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
 /* --- The Bookshelf --- */
 .serial-card {
   border: 1px solid rgba(239, 127, 174, 0.3);

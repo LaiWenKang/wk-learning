@@ -8,10 +8,52 @@ import {
 import { downloadJson, readJsonFile } from "../../lib/export";
 import { relativeTime, todayKey } from "../../lib/date";
 import { Card } from "../../components/ui";
+import {
+  SIGNAL_GROUPS,
+  SIGNAL_GROUP_LABELS,
+  defaultWeights,
+  type SignalGroup,
+  type SignalWeights,
+} from "../../lib/pulse";
 
-const APP_VERSION = "0.14.0";
+const APP_VERSION = "0.15.0";
 
 export const LAST_BACKUP_KEY = "last-backup";
+
+/** Personal re-ranking dials for the pulse (stored locally). */
+function SignalDials() {
+  const [weights, setWeights] = useState<SignalWeights>(() => ({
+    ...defaultWeights(),
+    ...(storage.get<SignalWeights>("signal-weights") ?? {}),
+  }));
+
+  const update = (group: SignalGroup, value: number) => {
+    const next = { ...weights, [group]: value };
+    storage.set("signal-weights", next);
+    setWeights(next);
+  };
+
+  return (
+    <div>
+      {SIGNAL_GROUPS.map((g) => (
+        <label key={g} className="dial-row">
+          <span className="dial-label">{SIGNAL_GROUP_LABELS[g]}</span>
+          <input
+            type="range"
+            min={0}
+            max={2}
+            step={0.5}
+            value={weights[g]}
+            onChange={(e) => update(g, Number(e.target.value))}
+          />
+          <span className="dial-value">
+            {weights[g] === 0 ? "off" : `×${weights[g]}`}
+          </span>
+        </label>
+      ))}
+    </div>
+  );
+}
 
 type SourceConfig = {
   id: string;
@@ -138,6 +180,15 @@ export function SettingsPage(props: { onReplayIntro?: () => void }) {
             Clear Local Data…
           </button>
         )}
+      </Card>
+
+      <h2 className="section-title">Signal Tuning</h2>
+      <Card>
+        <p className="card-muted" style={{ marginBottom: 12 }}>
+          Your feed, your algorithm — these dials re-rank the pulse on this
+          device. 0 hides a group entirely; 2 doubles its pull.
+        </p>
+        <SignalDials />
       </Card>
 
       <h2 className="section-title">Pulse Sources</h2>
