@@ -11,6 +11,7 @@ import {
 } from "../../data/prompts";
 import { GymCard } from "../gym/GymCard";
 import { FieldBriefCard } from "../gym/FieldBriefCard";
+import { FeedEntryCard } from "../feed/FeedEntryCard";
 import { STORE_KEYS, loadList, newId, storage, upsertItem } from "../../lib/storage";
 import {
   Card,
@@ -206,6 +207,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       </div>
 
       <GymCard onNavigate={props.onNavigate} />
+      <FeedEntryCard />
       <FieldBriefCard />
 
       <BackupNudge onNavigate={props.onNavigate} />
