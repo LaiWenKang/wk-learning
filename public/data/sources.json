@@ -128,12 +128,13 @@
       "maxItems": 10
     },
     {
+      "$comment": "Disabled: nvmexpress.org bot-blocks the fetcher (HTTP 403).",
       "id": "nvmexpress",
       "name": "NVM Express (nvmexpress.org)",
       "type": "rss",
       "url": "https://nvmexpress.org/feed/",
       "category": "firmware",
-      "enabled": true,
+      "enabled": false,
       "maxItems": 6
     },
     {

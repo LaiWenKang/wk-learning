@@ -7,6 +7,7 @@ import {
   completeSession,
   currentStreak,
   describeMiss,
+  dueReviews,
   formatBig,
   gradeEstimate,
   loadGymDay,
@@ -25,6 +26,7 @@ import {
   type RecallGrade,
 } from "../../lib/gym";
 import {
+  MODEL_BY_ID,
   MODEL_DOMAIN_LABELS,
 } from "../../content/models";
 import { CALIBRATION_CATEGORY_LABELS } from "../../content/calibration";
@@ -91,9 +93,28 @@ export function GymSession(props: { dateKey: string; onClose: () => void }) {
 
   const submitRecall = (grade: RecallGrade) => {
     if (day.recallGrade) return;
+    const nextStats = recordRecall(stats, daily.model.id, grade, props.dateKey);
+    // Spaced repetition: pull in the most-overdue trained model, if any.
+    const due = dueReviews(nextStats, props.dateKey, daily.model.id);
+    const reviewId = due.length > 0 ? due[0] : null;
     update(
-      { ...day, recallGrade: grade, step: 3 },
-      recordRecall(stats, daily.model.id, grade, props.dateKey),
+      { ...day, recallGrade: grade, reviewId, step: reviewId ? 2 : 3 },
+      nextStats,
+    );
+  };
+
+  const submitReview = (grade: RecallGrade) => {
+    if (!day.reviewId || day.reviewGrade) return;
+    update(
+      { ...day, reviewGrade: grade, step: 3 },
+      recordRecall(stats, day.reviewId, grade, props.dateKey),
+    );
+  };
+
+  const finishMinimal = () => {
+    update(
+      { ...day, step: 4, completedAt: new Date().toISOString() },
+      completeSession(stats, props.dateKey),
     );
   };
 
@@ -160,7 +181,8 @@ export function GymSession(props: { dateKey: string; onClose: () => void }) {
               daily={daily}
               day={day}
               onSubmit={submitCalibration}
-              onContinue={() => update({ ...day, step: 1 })}
+              onContinue={day.minimal ? finishMinimal : () => update({ ...day, step: 1 })}
+              continueLabel={day.minimal ? "Done — streak safe" : "Continue"}
             />
           )}
           {step === 1 && (
@@ -176,7 +198,17 @@ export function GymSession(props: { dateKey: string; onClose: () => void }) {
               </button>
             </div>
           )}
-          {step === 2 && <RecallStep daily={daily} onGrade={submitRecall} />}
+          {step === 2 && !day.recallGrade && (
+            <RecallStep
+              kicker="Active recall · answer in your head first"
+              q={daily.model.recall.q}
+              a={daily.model.recall.a}
+              onGrade={submitRecall}
+            />
+          )}
+          {step === 2 && day.recallGrade && day.reviewId && (
+            <ReviewStep reviewId={day.reviewId} onGrade={submitReview} />
+          )}
           {step === 3 && daily.kind === "fallacy" && (
             <FallacyStep
               challenge={daily.challenge as FallacyChallenge}
@@ -213,6 +245,7 @@ function CalibrateStep(props: {
   day: GymDay;
   onSubmit: (estimate: number, confidence: ConfidenceLevel) => void;
   onContinue: () => void;
+  continueLabel?: string;
 }) {
   const [confidence, setConfidence] = useState<ConfidenceLevel>(70);
   const q = props.daily.question;
@@ -239,7 +272,7 @@ function CalibrateStep(props: {
         </div>
         <p className="gym-explain">{q.explain}</p>
         <button type="button" className="btn btn-primary btn-block" onClick={props.onContinue}>
-          Continue
+          {props.continueLabel ?? "Continue"}
         </button>
       </div>
     );
@@ -279,22 +312,23 @@ function CalibrateStep(props: {
 }
 
 function RecallStep(props: {
-  daily: ReturnType<typeof pickDaily>;
+  kicker: string;
+  q: string;
+  a: string;
   onGrade: (g: RecallGrade) => void;
 }) {
   const [revealed, setRevealed] = useState(false);
-  const m = props.daily.model;
   return (
     <div>
-      <p className="gym-kicker">Active recall · answer in your head first</p>
-      <h2 className="gym-question">{m.recall.q}</h2>
+      <p className="gym-kicker">{props.kicker}</p>
+      <h2 className="gym-question">{props.q}</h2>
       {!revealed ? (
         <button type="button" className="btn btn-primary btn-block" onClick={() => setRevealed(true)}>
           Reveal the answer
         </button>
       ) : (
         <>
-          <div className="reveal-box">{m.recall.a}</div>
+          <div className="reveal-box">{props.a}</div>
           <div className="grade-label">How did you do?</div>
           <div className="grade-row">
             <button type="button" className="btn grade-missed" onClick={() => props.onGrade("missed")}>
@@ -310,6 +344,28 @@ function RecallStep(props: {
         </>
       )}
     </div>
+  );
+}
+
+/** Spaced review of a previously trained model, injected when due. */
+function ReviewStep(props: {
+  reviewId: string;
+  onGrade: (g: RecallGrade) => void;
+}) {
+  const model = MODEL_BY_ID.get(props.reviewId);
+  if (!model) {
+    // Shouldn't happen (ids come from mastery of shipped models), but
+    // never strand the session on missing content.
+    props.onGrade("fuzzy");
+    return null;
+  }
+  return (
+    <RecallStep
+      kicker={`From your lattice · trained earlier — still there?`}
+      q={`${model.name}: ${model.recall.q}`}
+      a={model.recall.a}
+      onGrade={props.onGrade}
+    />
   );
 }
 
@@ -458,9 +514,22 @@ function SummaryStep(props: {
         {streak <= 1 ? "Session complete" : `${streak}-day streak`}
       </h2>
       <p className="summary-sub">
-        Trained <strong>{props.modelName}</strong>
-        {props.day.recallGrade === "got" ? " — recalled cleanly." : "."}
+        {props.day.minimal && !props.day.recallGrade ? (
+          "Quick session — streak safe. The full session is still here if you find five minutes."
+        ) : (
+          <>
+            Trained <strong>{props.modelName}</strong>
+            {props.day.recallGrade === "got" ? " — recalled cleanly." : "."}
+            {props.day.reviewGrade ? " Plus one review from your lattice." : ""}
+          </>
+        )}
       </p>
+      {stats.freezes > 0 && (
+        <p className="summary-freeze">
+          ❄ {stats.freezes} streak freeze{stats.freezes > 1 ? "s" : ""} banked — one
+          missed day is covered automatically.
+        </p>
+      )}
 
       <div className="summary-grid">
         <div className="summary-cell">

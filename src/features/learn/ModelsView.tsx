@@ -5,21 +5,25 @@ import {
   MODEL_DOMAINS,
   MODEL_DOMAIN_LABELS,
   MODEL_DOMAIN_TINTS,
+  type ModelDomain,
 } from "../../content/models";
-import { loadGymStats, masteryCounts } from "../../lib/gym";
+import { earnedBadges, loadGymStats, masteryCounts } from "../../lib/gym";
 import { ModelChapter } from "../gym/ModelChapter";
+import { DomainExam } from "./DomainExam";
 import { Sheet } from "../../components/ui";
 import type { CSSProperties } from "react";
 
 /**
  * The latticework — every mental model in the library, grouped by
- * domain, lighting up as the daily gym trains them. Untrained models
- * stay readable: the library is for browsing, the light is for progress.
+ * domain, lighting up as the daily gym trains them. Train a whole
+ * domain to unlock its exam; pass it to seal the domain gold.
  */
 export function ModelsView() {
   const [openId, setOpenId] = useState<string | null>(null);
-  const stats = loadGymStats();
+  const [examDomain, setExamDomain] = useState<ModelDomain | null>(null);
+  const [stats, setStats] = useState(loadGymStats);
   const counts = masteryCounts(stats);
+  const badges = earnedBadges(stats).filter((b) => b.earned);
   const open = openId ? MODEL_BY_ID.get(openId) : undefined;
   const openMastery = openId ? stats.mastery[openId] : undefined;
 
@@ -46,22 +50,49 @@ export function ModelsView() {
             style={{ width: `${Math.max(2, (counts.trained / counts.total) * 100)}%` }}
           />
         </div>
+        {badges.length > 0 && (
+          <div className="badge-row">
+            {badges.map((b) => (
+              <span key={b.id} className="badge-chip" title={b.detail}>
+                ★ {b.name}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
 
       {MODEL_DOMAINS.map((domain) => {
         const models = MENTAL_MODELS.filter((m) => m.domain === domain);
         const trained = models.filter((m) => stats.mastery[m.id]).length;
+        const allTrained = trained === models.length;
+        const exam = stats.exams[domain];
+        const sealed = !!exam?.passedAt;
         return (
-          <div key={domain} className="lattice-domain">
+          <div key={domain} className={`lattice-domain ${sealed ? "lattice-sealed" : ""}`}>
             <div className="lattice-domain-head">
               <span
                 className="lattice-domain-dot"
                 style={{ background: MODEL_DOMAIN_TINTS[domain] }}
               />
               <h3>{MODEL_DOMAIN_LABELS[domain]}</h3>
-              <span className="lattice-domain-count">
-                {trained}/{models.length}
-              </span>
+              {sealed ? (
+                <span className="lattice-seal" title={`Sealed ${exam.passedAt} · best ${exam.bestScore}/5`}>
+                  ✦ sealed
+                </span>
+              ) : allTrained ? (
+                <button
+                  type="button"
+                  className="lattice-exam-btn"
+                  style={{ "--tint": MODEL_DOMAIN_TINTS[domain] } as CSSProperties}
+                  onClick={() => setExamDomain(domain)}
+                >
+                  Take the exam
+                </button>
+              ) : (
+                <span className="lattice-domain-count">
+                  {trained}/{models.length}
+                </span>
+              )}
             </div>
             <div className="lattice-grid">
               {models.map((m) => {
@@ -90,6 +121,7 @@ export function ModelsView() {
 
       <p className="signal-meta" style={{ textAlign: "center", marginTop: 14 }}>
         Tap any model to read it now — the daily gym covers one per day.
+        Train a whole domain to unlock its exam.
       </p>
 
       {open && (
@@ -108,6 +140,16 @@ export function ModelsView() {
             <p className="signal-meta">Not yet trained in the daily gym.</p>
           )}
         </Sheet>
+      )}
+
+      {examDomain && (
+        <DomainExam
+          domain={examDomain}
+          onClose={() => {
+            setExamDomain(null);
+            setStats(loadGymStats());
+          }}
+        />
       )}
     </div>
   );

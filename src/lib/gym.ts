@@ -26,7 +26,7 @@ import {
   type ChallengeKind,
 } from "../content/challenges";
 import { storage } from "./storage";
-import { addDays } from "./date";
+import { addDays, daysBetween } from "./date";
 
 /* ------------------------- daily selection ------------------------- */
 
@@ -107,14 +107,25 @@ export type ModelMastery = {
   recalls: number;
   got: number;
   lastGrade: RecallGrade;
+  /** Date of the most recent recall or review — drives spaced reviews. */
+  lastAt: string;
+};
+
+export type DomainExam = {
+  passedAt: string | null;
+  bestScore: number;
+  attempts: number;
 };
 
 export type GymStats = {
   streak: number;
   lastCompleted: string | null;
   totalSessions: number;
+  /** Streak freezes in the bank — one missed day is auto-covered. */
+  freezes: number;
   calibrationLog: CalibrationRecord[];
   mastery: Record<string, ModelMastery>;
+  exams: Record<string, DomainExam>;
   challenges: {
     fallacyRight: number;
     fallacyTotal: number;
@@ -134,7 +145,7 @@ export type GymDayChallenge = {
 /** One day's in-progress session (resumable mid-way). */
 export type GymDay = {
   date: string;
-  /** 0 calibrate · 1 learn · 2 recall · 3 challenge · 4 done/summary */
+  /** 0 calibrate · 1 learn · 2 recall(+review) · 3 challenge · 4 done */
   step: number;
   calibration?: {
     estimate: number;
@@ -142,7 +153,12 @@ export type GymDay = {
     within2x: boolean;
   };
   recallGrade?: RecallGrade;
+  /** Due spaced review chosen when the main recall was graded (null = none due). */
+  reviewId?: string | null;
+  reviewGrade?: RecallGrade;
   challenge?: GymDayChallenge;
+  /** Quick 60-second session: calibration only, streak still counts. */
+  minimal?: boolean;
   completedAt?: string;
 };
 
@@ -151,8 +167,10 @@ export function emptyStats(): GymStats {
     streak: 0,
     lastCompleted: null,
     totalSessions: 0,
+    freezes: 0,
     calibrationLog: [],
     mastery: {},
+    exams: {},
     challenges: {
       fallacyRight: 0,
       fallacyTotal: 0,
@@ -172,11 +190,18 @@ export function loadGymStats(): GymStats {
   if (!raw || typeof raw !== "object") return emptyStats();
   // Merge over defaults so old backups missing new fields stay safe.
   const base = emptyStats();
+  const mastery =
+    raw.mastery && typeof raw.mastery === "object" ? { ...raw.mastery } : {};
+  // Migration: entries recorded before spaced reviews lack lastAt.
+  for (const [id, m] of Object.entries(mastery)) {
+    if (!m.lastAt) mastery[id] = { ...m, lastAt: m.seenAt };
+  }
   return {
     ...base,
     ...raw,
     calibrationLog: Array.isArray(raw.calibrationLog) ? raw.calibrationLog : [],
-    mastery: raw.mastery && typeof raw.mastery === "object" ? raw.mastery : {},
+    mastery,
+    exams: raw.exams && typeof raw.exams === "object" ? raw.exams : {},
     challenges: { ...base.challenges, ...(raw.challenges ?? {}) },
   };
 }
@@ -220,7 +245,7 @@ export function recordCalibration(
   return { ...stats, calibrationLog: log };
 }
 
-/** Record a recall self-grade for a model. */
+/** Record a recall self-grade for a model (daily session or spaced review). */
 export function recordRecall(
   stats: GymStats,
   modelId: string,
@@ -234,14 +259,70 @@ export function recordRecall(
         recalls: prev.recalls + 1,
         got: prev.got + (grade === "got" ? 1 : 0),
         lastGrade: grade,
+        lastAt: dateKey,
       }
     : {
         seenAt: dateKey,
         recalls: 1,
         got: grade === "got" ? 1 : 0,
         lastGrade: grade,
+        lastAt: dateKey,
       };
   return { ...stats, mastery: { ...stats.mastery, [modelId]: next } };
+}
+
+/* ------------------------- spaced reviews -------------------------- */
+
+/**
+ * Days until a trained model should be reviewed again. Missed answers
+ * come back fast; clean recalls stretch out (1 → 3 → 7 → 21 → 45).
+ */
+export function reviewIntervalDays(m: ModelMastery): number {
+  if (m.lastGrade === "missed") return 1;
+  if (m.lastGrade === "fuzzy") return 3;
+  if (m.got <= 1) return 7;
+  if (m.got === 2) return 21;
+  return 45;
+}
+
+/** Trained models whose review is due, most overdue first. */
+export function dueReviews(
+  stats: GymStats,
+  dateKey: string,
+  excludeId?: string,
+): string[] {
+  return Object.entries(stats.mastery)
+    .filter(([id, m]) => {
+      if (id === excludeId) return false;
+      const overdue = daysBetween(m.lastAt, dateKey) - reviewIntervalDays(m);
+      return overdue >= 0;
+    })
+    .sort(
+      (a, b) =>
+        daysBetween(b[1].lastAt, dateKey) -
+        reviewIntervalDays(b[1]) -
+        (daysBetween(a[1].lastAt, dateKey) - reviewIntervalDays(a[1])),
+    )
+    .map(([id]) => id);
+}
+
+/* --------------------------- domain exams -------------------------- */
+
+/** Record an exam attempt; passing (score >= 4 of 5) seals the domain. */
+export function recordExam(
+  stats: GymStats,
+  domain: string,
+  score: number,
+  dateKey: string,
+): GymStats {
+  const prev = stats.exams[domain];
+  const passed = score >= 4;
+  const next: DomainExam = {
+    passedAt: prev?.passedAt ?? (passed ? dateKey : null),
+    bestScore: Math.max(prev?.bestScore ?? 0, score),
+    attempts: (prev?.attempts ?? 0) + 1,
+  };
+  return { ...stats, exams: { ...stats.exams, [domain]: next } };
 }
 
 /** Record the challenge outcome. */
@@ -263,23 +344,43 @@ export function recordChallenge(
   return { ...stats, challenges: c };
 }
 
-/** Mark the session complete; streak math is idempotent per day. */
+const FREEZE_CAP = 3;
+
+/**
+ * Mark the session complete; idempotent per day. A banked streak freeze
+ * auto-covers exactly one missed day; every 7th consecutive day banks a
+ * new freeze (capped).
+ */
 export function completeSession(stats: GymStats, dateKey: string): GymStats {
   if (stats.lastCompleted === dateKey) return stats;
-  const streak =
-    stats.lastCompleted === addDays(dateKey, -1) ? stats.streak + 1 : 1;
+  let streak: number;
+  let freezes = stats.freezes;
+  if (stats.lastCompleted === addDays(dateKey, -1)) {
+    streak = stats.streak + 1;
+  } else if (stats.lastCompleted === addDays(dateKey, -2) && freezes > 0) {
+    // One day missed — a freeze silently absorbs it.
+    freezes -= 1;
+    streak = stats.streak + 1;
+  } else {
+    streak = 1;
+  }
+  if (streak > 0 && streak % 7 === 0) freezes = Math.min(freezes + 1, FREEZE_CAP);
   return {
     ...stats,
     streak,
+    freezes,
     lastCompleted: dateKey,
     totalSessions: stats.totalSessions + 1,
   };
 }
 
-/** Streak shown on cards: today counts, and yesterday's run isn't lost yet. */
+/** Streak shown on cards: alive if today, yesterday, or freeze-coverable. */
 export function currentStreak(stats: GymStats, dateKey: string): number {
   if (stats.lastCompleted === dateKey) return stats.streak;
   if (stats.lastCompleted === addDays(dateKey, -1)) return stats.streak;
+  if (stats.lastCompleted === addDays(dateKey, -2) && stats.freezes > 0) {
+    return stats.streak;
+  }
   return 0;
 }
 
@@ -358,4 +459,97 @@ export function describeMiss(grade: EstimateGrade): string {
   if (!Number.isFinite(grade.ratio)) return "no valid estimate";
   const r = grade.ratio >= 10 ? Math.round(grade.ratio) : Math.round(grade.ratio * 10) / 10;
   return `${r}× ${grade.side}`;
+}
+
+/* ------------------------------ badges ----------------------------- */
+
+export type Badge = {
+  id: string;
+  name: string;
+  detail: string;
+  earned: boolean;
+};
+
+/** Milestones derived from stats — nothing extra to store or migrate. */
+export function earnedBadges(stats: GymStats): Badge[] {
+  const cal = calibrationSummary(stats.calibrationLog);
+  const b90 = cal.buckets.find((b) => b.confidence === 90);
+  const mastery = masteryCounts(stats);
+  const examsPassed = Object.values(stats.exams).filter((e) => e.passedAt).length;
+  return [
+    {
+      id: "week-streak",
+      name: "One Solid Week",
+      detail: "7-day session streak",
+      earned: stats.streak >= 7 || stats.totalSessions >= 7,
+    },
+    {
+      id: "month-streak",
+      name: "The Habit Is Real",
+      detail: "30-day session streak",
+      earned: stats.streak >= 30,
+    },
+    {
+      id: "well-calibrated",
+      name: "Well-Calibrated",
+      detail: "“90% sure” right 85–95% of the time (20+ answers)",
+      earned:
+        !!b90 && b90.n >= 20 && b90.hitRate >= 0.85 && b90.hitRate <= 0.95,
+    },
+    {
+      id: "first-exam",
+      name: "First Seal",
+      detail: "Pass a domain exam",
+      earned: examsPassed >= 1,
+    },
+    {
+      id: "all-exams",
+      name: "Master of the Lattice",
+      detail: "Pass every domain exam",
+      earned: examsPassed >= 6,
+    },
+    {
+      id: "full-lattice",
+      name: "Full Lattice",
+      detail: "Train all mental models",
+      earned: mastery.trained >= mastery.total,
+    },
+    {
+      id: "century",
+      name: "Century",
+      detail: "100 total sessions",
+      earned: stats.totalSessions >= 100,
+    },
+  ];
+}
+
+/* ------------------------ calibration insight ---------------------- */
+
+export type CategoryBias = {
+  category: string;
+  n: number;
+  /** Net direction: positive = overestimates, negative = underestimates. */
+  net: number;
+};
+
+/**
+ * Per-category over/under tendency from the answer log. Uses the qId
+ * prefix-agnostic category passed by the caller via a lookup function.
+ */
+export function categoryBias(
+  log: CalibrationRecord[],
+  categoryOf: (qId: string) => string | undefined,
+): CategoryBias[] {
+  const acc = new Map<string, { n: number; net: number }>();
+  for (const r of log) {
+    const cat = categoryOf(r.qId);
+    if (!cat || r.estimate <= 0 || r.answer <= 0) continue;
+    const cur = acc.get(cat) ?? { n: 0, net: 0 };
+    cur.n += 1;
+    cur.net += r.estimate > r.answer ? 1 : r.estimate < r.answer ? -1 : 0;
+    acc.set(cat, cur);
+  }
+  return [...acc.entries()]
+    .map(([category, v]) => ({ category, n: v.n, net: v.net }))
+    .sort((a, b) => Math.abs(b.net) - Math.abs(a.net));
 }

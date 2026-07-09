@@ -2023,6 +2023,133 @@ details.drawer .drawer-body {
   color: var(--text-secondary);
 }
 
+/* --- v0.12: freezes, minimal mode, exams, badges, calibration --- */
+.gym-freeze {
+  margin-right: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--cat-systems);
+}
+.gym-minimal-link {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 12.5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.summary-freeze {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--cat-systems);
+}
+.grade-row-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.exam-result-score {
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+.lattice-seal {
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  color: var(--warning);
+}
+.lattice-sealed .lattice-domain-head h3 {
+  color: var(--warning);
+}
+.lattice-exam-btn {
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--tint, var(--accent));
+  background: color-mix(in srgb, var(--tint, var(--accent)) 14%, transparent);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+}
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+.badge-chip {
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(217, 164, 65, 0.45);
+  background: var(--warning-soft);
+  color: var(--warning);
+  font-size: 12px;
+  font-weight: 700;
+}
+.calib-row {
+  display: grid;
+  grid-template-columns: 82px 1fr 74px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+.calib-label {
+  font-size: 12.5px;
+  font-weight: 650;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.calib-track {
+  position: relative;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--bg-sunken);
+  overflow: hidden;
+}
+.calib-fill {
+  height: 100%;
+  border-radius: 6px;
+}
+.calib-good {
+  background: var(--positive);
+}
+.calib-over {
+  background: var(--warning);
+}
+.calib-under {
+  background: var(--chart-series-1);
+}
+.calib-claim {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  background: var(--text);
+  opacity: 0.75;
+  z-index: 1;
+}
+.calib-actual {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+.calib-n {
+  font-weight: 500;
+  color: var(--text-tertiary);
+  font-size: 11px;
+}
+.calib-bias {
+  margin: 10px 0 0;
+  padding: 10px 13px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
 /* --- Storage Field Desk --- */
 .brief-card {
   border: 1px solid color-mix(in srgb, var(--tint, var(--accent)) 40%, transparent);

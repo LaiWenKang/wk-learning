@@ -6,6 +6,7 @@ import {
   loadGymStats,
   masteryCounts,
   pickDaily,
+  saveGymDay,
 } from "../../lib/gym";
 import { GymSession, CHALLENGE_KIND_LABELS } from "./GymSession";
 import { FlameIcon, BrainIcon } from "../../components/icons";
@@ -37,6 +38,13 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
     setRefresh((n) => n + 1);
   };
 
+  const wasMinimal = done && day.minimal && !day.recallGrade;
+
+  const upgradeToFull = () => {
+    saveGymDay({ ...day, minimal: false, step: 1 });
+    setOpen(true);
+  };
+
   if (done) {
     const tomorrow = pickDaily(addDays(dateKey, 1));
     return (
@@ -46,24 +54,43 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
             <span className="gym-card-kicker">
               <BrainIcon /> Daily Mind Gym · done ✓
             </span>
-            {streak > 0 && (
-              <span className="gym-streak">
-                <FlameIcon /> {streak}
-              </span>
-            )}
+            <span className="gym-streak">
+              {stats.freezes > 0 && (
+                <span className="gym-freeze" title="Streak freezes banked">
+                  ❄{stats.freezes}
+                </span>
+              )}
+              {streak > 0 && (
+                <>
+                  <FlameIcon /> {streak}
+                </>
+              )}
+            </span>
           </div>
           <p className="gym-card-hook">
-            Trained <strong>{daily.model.name}</strong> · {mastery.trained}/
-            {mastery.total} models in your latticework.
+            {wasMinimal ? (
+              <>Quick session done — streak safe.</>
+            ) : (
+              <>
+                Trained <strong>{daily.model.name}</strong> · {mastery.trained}/
+                {mastery.total} models in your latticework.
+              </>
+            )}
           </p>
           <p className="gym-card-meta">
             Tomorrow: a {MODEL_DOMAIN_LABELS[tomorrow.model.domain]} model + a{" "}
             {CHALLENGE_KIND_LABELS[tomorrow.kind]}.
           </p>
           <div className="btn-row">
-            <button type="button" className="btn btn-soft btn-small" onClick={() => setOpen(true)}>
-              Review session
-            </button>
+            {wasMinimal ? (
+              <button type="button" className="btn btn-primary btn-small" onClick={upgradeToFull}>
+                Do the full session
+              </button>
+            ) : (
+              <button type="button" className="btn btn-soft btn-small" onClick={() => setOpen(true)}>
+                Review session
+              </button>
+            )}
             <button
               type="button"
               className="btn btn-small"
@@ -78,6 +105,11 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
     );
   }
 
+  const startMinimal = () => {
+    saveGymDay({ ...day, minimal: true });
+    setOpen(true);
+  };
+
   return (
     <>
       <div className="card gym-card">
@@ -85,11 +117,18 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
           <span className="gym-card-kicker">
             <BrainIcon /> Daily Mind Gym
           </span>
-          {streak > 0 && (
-            <span className="gym-streak">
-              <FlameIcon /> {streak}
-            </span>
-          )}
+          <span className="gym-streak">
+            {stats.freezes > 0 && (
+              <span className="gym-freeze" title="Streak freezes banked">
+                ❄{stats.freezes}
+              </span>
+            )}
+            {streak > 0 && (
+              <>
+                <FlameIcon /> {streak}
+              </>
+            )}
+          </span>
         </div>
         <p className="gym-card-hook">{daily.question.q}</p>
         <p className="gym-card-meta">
@@ -98,6 +137,11 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
         <button type="button" className="btn btn-primary btn-block" onClick={() => setOpen(true)}>
           {inProgress ? `Continue session · step ${Math.min(day.step, 3) + 1} of 4` : "Start today’s session"}
         </button>
+        {!inProgress && (
+          <button type="button" className="gym-minimal-link" onClick={startMinimal}>
+            Only got a minute? Quick session (keeps your streak)
+          </button>
+        )}
       </div>
       {open && <GymSession dateKey={dateKey} onClose={close} />}
     </>
