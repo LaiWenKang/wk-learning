@@ -9,6 +9,7 @@ import {
 } from "./pulse-rank.ts";
 
 const keywords = {
+  priority: ["nvme", "nand", "ssd controller"],
   high: ["ai", "typescript", "claude"],
   low: ["gossip", "meme coin"],
 };
@@ -48,6 +49,34 @@ describe("scoreSignal", () => {
     const r = scoreSignal("ai ai ai typescript claude ai", undefined, undefined, keywords);
     expect(r.score).toBeGreaterThanOrEqual(0);
     expect(r.score).toBeLessThanOrEqual(10);
+  });
+
+  it("ranks priority-domain matches above general-interest matches", () => {
+    const domain = scoreSignal("New NVMe NAND behavior found", undefined, undefined, keywords);
+    const general = scoreSignal("New AI TypeScript tooling", undefined, undefined, keywords);
+    expect(domain.score).toBeGreaterThan(general.score);
+    expect(domain.matched[0]).toBe("nvme");
+  });
+
+  it("works without a priority list (backward compatible)", () => {
+    const r = scoreSignal("An AI article", undefined, undefined, {
+      high: ["ai"],
+      low: [],
+    });
+    expect(r.matched).toEqual(["ai"]);
+    expect(r.score).toBeGreaterThan(3);
+  });
+
+  it("puts priority tags ahead of high tags without duplicates", () => {
+    const r = scoreSignal(
+      "NVMe meets AI: an nvme story",
+      undefined,
+      undefined,
+      keywords,
+    );
+    expect(r.matched[0]).toBe("nvme");
+    expect(r.matched.filter((t) => t === "nvme").length).toBe(1);
+    expect(r.matched).toContain("ai");
   });
 });
 
