@@ -179,6 +179,27 @@ function CardView(props: { card: FeedCard; onClose: () => void }) {
           back={<p className="feed-body">{c.brief.matters}</p>}
         />
       );
+    case "quote":
+      return (
+        <FlipCard
+          kicker="Unpacked quote"
+          tint="var(--cat-career)"
+          front={
+            <>
+              <h2 className="feed-title">“{c.quote.text}”</h2>
+              <p className="feed-muted">— {c.quote.who} · tap to unpack</p>
+            </>
+          }
+          back={
+            <>
+              <p className="feed-body">{c.quote.meaning}</p>
+              <p className="feed-muted" style={{ marginTop: 10 }}>
+                Where it fails: {c.quote.failure}
+              </p>
+            </>
+          }
+        />
+      );
     case "guess":
       return <GuessCard card={c} />;
     case "pulse":

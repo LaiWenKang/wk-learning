@@ -9,7 +9,7 @@ import { downloadJson, readJsonFile } from "../../lib/export";
 import { relativeTime, todayKey } from "../../lib/date";
 import { Card } from "../../components/ui";
 
-const APP_VERSION = "0.13.0";
+const APP_VERSION = "0.14.0";
 
 export const LAST_BACKUP_KEY = "last-backup";
 
