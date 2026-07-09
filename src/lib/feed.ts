@@ -18,6 +18,7 @@ import {
   type ParadoxChallenge,
 } from "../content/challenges";
 import { FIELD_BRIEFS, type FieldBrief } from "../content/fieldGuide";
+import { UNPACKED_QUOTES, type UnpackedQuote } from "../content/quotes";
 import type { PulseSignal, ReflectionEntry, LearningItem } from "../types";
 import type { CalibrationRecord } from "./gym";
 import { daysBetween } from "./date";
@@ -30,6 +31,7 @@ export type FeedCard =
   | { kind: "hook"; model: MentalModel }
   | { kind: "paradox"; paradox: ParadoxChallenge }
   | { kind: "brief"; brief: FieldBrief }
+  | { kind: "quote"; quote: UnpackedQuote }
   | { kind: "guess"; q: CalibrationQuestion; options: number[]; answerIdx: number }
   | { kind: "pulse"; signal: PulseSignal }
   | { kind: "memory"; text: string; source: string; daysAgo: number }
@@ -157,6 +159,7 @@ export function buildFeed(dateKey: string, inputs: FeedInputs): FeedCard[] {
   const hooks = pickSome(MENTAL_MODELS, 3, daySeed(dateKey, 32));
   const paradoxes = pickSome(PARADOX_CHALLENGES, 2, daySeed(dateKey, 33));
   const briefs = pickSome(FIELD_BRIEFS, 1, daySeed(dateKey, 34));
+  const quotes = pickSome(UNPACKED_QUOTES, 1, daySeed(dateKey, 38));
   const guessQ = pickSome(CALIBRATION_QUESTIONS, 1, daySeed(dateKey, 35))[0];
   const signals = inputs.signals.slice(0, 3);
   const memories = mineMemories(dateKey, inputs, daySeed(dateKey, 36));
@@ -181,6 +184,7 @@ export function buildFeed(dateKey: string, inputs: FeedInputs): FeedCard[] {
   push(facts[1] && { kind: "fact", q: facts[1] });
   push(briefs[0] && { kind: "brief", brief: briefs[0] });
   push(signals[1] && { kind: "pulse", signal: signals[1] });
+  push(quotes[0] && { kind: "quote", quote: quotes[0] });
   push(hooks[1] && { kind: "hook", model: hooks[1] });
   push(memories[1]);
   push(facts[2] && { kind: "fact", q: facts[2] });
