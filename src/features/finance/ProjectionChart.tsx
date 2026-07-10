@@ -16,8 +16,10 @@ export function ProjectionChart(props: {
   currency: FinanceScenario["currency"];
   /** Optional Monte-Carlo p10–p90 band around the expected path. */
   band?: BandPoint[];
+  /** Your real logged net worth, as fractional years since first log. */
+  actual?: Array<{ year: number; value: number }>;
 }) {
-  const { years, target, currency, band } = props;
+  const { years, target, currency, band, actual } = props;
   const wrapRef = useRef<HTMLDivElement>(null);
   const [hoverYear, setHoverYear] = useState<number | null>(null);
 
@@ -34,6 +36,7 @@ export function ProjectionChart(props: {
     Math.max(
       ...years.map((y) => y.portfolio),
       ...(band ?? []).map((b) => b.p90),
+      ...(actual ?? []).map((a) => a.value),
       target > 0 ? target : 0,
     ) * 1.04;
   const maxYear = years[years.length - 1].year;
@@ -69,6 +72,12 @@ export function ProjectionChart(props: {
   }
   const bandAt = (year: number) => band?.find((b) => b.year === year);
 
+  // The real trajectory from monthly check-ins, clipped to the horizon.
+  const actualPts = (actual ?? []).filter((a) => a.year <= maxYear);
+  const actualPath = actualPts
+    .map((a, i) => `${i === 0 ? "M" : "L"}${x(a.year).toFixed(1)},${y(a.value).toFixed(1)}`)
+    .join(" ");
+
   const step = niceStep(maxVal / 4);
   const gridVals: number[] = [];
   for (let v = step; v <= maxVal; v += step) gridVals.push(v);
@@ -100,6 +109,9 @@ export function ProjectionChart(props: {
         <LegendItem color="var(--chart-series-1)" label="Projected value" />
         <LegendItem color="var(--chart-series-2)" label="Contributions" dashed />
         {target > 0 && <LegendItem color="var(--chart-ref)" label="Target" dashed />}
+        {actualPts.length >= 2 && (
+          <LegendItem color="var(--chart-series-3)" label="Actual (your check-ins)" />
+        )}
         {bandPath && (
           <span
             style={{
@@ -229,6 +241,27 @@ export function ProjectionChart(props: {
             pathLength={1}
             className="draw-in"
           />
+
+          {/* Your real trajectory: monthly check-ins vs the plan. */}
+          {actualPts.length >= 2 && (
+            <path
+              d={actualPath}
+              fill="none"
+              stroke="var(--chart-series-3)"
+              strokeWidth={2.5}
+              strokeLinejoin="round"
+              strokeLinecap="round"
+            />
+          )}
+          {actualPts.map((a) => (
+            <circle
+              key={a.year}
+              cx={x(a.year)}
+              cy={y(a.value)}
+              r={3.5}
+              fill="var(--chart-series-3)"
+            />
+          ))}
 
           {/* Direct labels at line ends (relief for the light-mode aqua) */}
           <text

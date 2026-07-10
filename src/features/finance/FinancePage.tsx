@@ -15,7 +15,7 @@ import { TargetIcon } from "../../components/icons";
 import { ProjectionChart } from "./ProjectionChart";
 import { ProgressRing } from "./ProgressRing";
 import { CareerSim } from "./CareerSim";
-import { NetWorthLog } from "./NetWorthLog";
+import { NetWorthLog, actualTrajectory } from "./NetWorthLog";
 import { MONEY_PRINCIPLES, dailyRotation } from "../../data/prompts";
 import { todayKey } from "../../lib/date";
 
@@ -181,12 +181,6 @@ export function FinancePage() {
 
   return (
     <div>
-      <h1 className="page-title">Finance Simulator</h1>
-      <p className="page-subtitle">
-        Personal scenario modelling with simplified assumptions — not financial
-        advice. Inputs stay on this device.
-      </p>
-
       {/* A rotating money principle keeps the tab worth a daily glance
           even when the numbers haven't changed. */}
       <TintCard tint="var(--cat-finance)" icon={<TargetIcon />} title="Principle of the Day">
@@ -310,6 +304,7 @@ export function FinancePage() {
           target={inputs.targetNetWorth}
           currency={inputs.currency}
           band={simulation?.band}
+          actual={actualTrajectory()}
         />
 
         {/* Where the year-N value comes from: starting capital,

@@ -218,7 +218,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           type="button"
           className="stat-pill"
           style={{ "--tint": "var(--cat-semiconductor)" } as CSSProperties}
-          onClick={() => props.onNavigate("reflect")}
+          onClick={() => props.onNavigate("you")}
         >
           <span className="stat-value">
             <FlameIcon />
@@ -230,7 +230,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           type="button"
           className="stat-pill"
           style={{ "--tint": "var(--cat-ai)" } as CSSProperties}
-          onClick={() => props.onNavigate("learn")}
+          onClick={() => props.onNavigate("library")}
         >
           <span className="stat-value">
             <StackIcon />
@@ -242,7 +242,7 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
           type="button"
           className="stat-pill"
           style={{ "--tint": "var(--cat-systems)" } as CSSProperties}
-          onClick={() => props.onNavigate("learn")}
+          onClick={() => props.onNavigate("library")}
         >
           <span className="stat-value">
             <InboxIcon />

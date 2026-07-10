@@ -13,12 +13,10 @@ liquid-glass navigation, and chart colors validated for colorblind safety.
 
 | Tab | What it does |
 | --- | --- |
-| **Today** | Opens with the **Daily Mind Gym** — a ~5-minute interactive session: a calibration estimate (with confidence tracking), a deep mental-model chapter, an active-recall check, and a rotating challenge (fallacy hunt / paradox / Fermi problem), closing with streaks and stats. Then the **Storage Field Desk**: one deep SSD/storage domain brief per day (state of play → what changed → why it matters to firmware-test work → what to watch next), with all 14 briefs browsable. Below: top public signals from the Pulse (storage-industry sources weighted first), a mindset prompt, a learning action, quick actions |
-| **Learn** | **The Latticework**: all 42 mental models across 6 domains, lighting up as the daily gym trains them, each readable in full any time (with related-model links). Plus the Learning Queue (saved signals + notes), flashcards with a 3D flip review, confidence-based intervals, deck insights, concept notes, JSON import/export |
-| **Think** | Thinking Gym: RCA Builder (flow diagram + markdown output), 5 Whys ladder, Decision Matrix (weighted scoring with result bars and per-criterion contribution breakdown), Assumption Checker, Risk Scanner with coverage progress — every tool auto-saves its draft |
-| **Finance** | Two simulators. Net Worth: projection with crosshair tooltip, seeded Monte-Carlo uncertainty band (p10–p90) with odds-of-target, target progress ring, year-N composition breakdown, investment sensitivity bars, saved scenario comparison. Career Path: compare two salary trajectories (growth ± one-time raise) with cumulative-earnings difference and break-even year. Inputs persist between visits |
-| **Reflect** | Daily Reflection: energy/maturity/reliability scores, 7-day sparkline trends, 8-week consistency heatmap, streak, template-based weekly summary |
-| **Settings** | Local Data & Privacy: full JSON backup/restore, clear-with-confirmation, pulse source list, app version |
+| **Daily** | The ritual: the **Daily Mind Gym** (calibration estimate with confidence tracking, a mental-model chapter, active recall + spaced reviews, a rotating challenge, streaks with freezes), the finite swipeable **daily deck**, the **Storage Field Desk** brief, and the pulse (storage-weighted live signals, weekly digest) |
+| **Library** | One searchable body of knowledge: the mental-model **latticework** with domain exams, the **Bookshelf** (distillations, unpacked quotes, serialized Meditations, book duels, commonplace capture), **Practice** (thinking tools, interactive Case Files, playbooks) and your **Vault** (queue, flashcards, notes) |
+| **You** | The mirror: slim daily reflection with trends and heatmap, the **weekly recap** (streaks, calibration delta, best line, resurfaced memory), the calibration dashboard, and Money (monthly net-worth check-in drawn as a real line on the projection charts) |
+| **Settings** (gear) | Backup/restore with last-backup tracking, signal-tuning dials, pulse source list, app version |
 
 ### The Daily Mind Gym
 

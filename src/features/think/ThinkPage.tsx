@@ -14,17 +14,12 @@ import type { CSSProperties } from "react";
 
 type ThinkTool = "rca" | "fivewhys" | "matrix" | "assumptions" | "risks";
 
-export function ThinkPage() {
+export function PracticeView() {
   const [tool, setTool] = useState<ThinkTool>("rca");
   const warmup = dailyRotation(THINK_WARMUPS, todayKey(), 4);
 
   return (
     <div>
-      <h1 className="page-title">Thinking Gym</h1>
-      <p className="page-subtitle">
-        Structured tools for engineering judgement. Everything stays on this device.
-      </p>
-
       {/* A fresh two-minute drill every day — never repeats until the
           whole pool has been used. */}
       <TintCard tint="var(--cat-ai)" icon={<BoltIcon />} title="Today’s Warm-up">
@@ -53,7 +48,7 @@ export function ThinkPage() {
         <h3>Case Files</h3>
         <span className="lattice-domain-count">judgment under pressure</span>
       </div>
-      <CaseFilesSection />
+      <CaseFilesSection onOpenTool={(t) => setTool(t)} />
 
       <div className="lattice-domain-head" style={{ marginTop: 22 }}>
         <h3>Playbooks</h3>

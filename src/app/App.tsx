@@ -2,20 +2,16 @@ import { useEffect, useRef, useState } from "react";
 import {
   SunIcon,
   BookIcon,
-  BrainIcon,
-  ChartIcon,
   JournalIcon,
   GearIcon,
 } from "../components/icons";
 import { TodayPage } from "../features/today/TodayPage";
-import { LearnPage } from "../features/learn/LearnPage";
-import { ThinkPage } from "../features/think/ThinkPage";
-import { FinancePage } from "../features/finance/FinancePage";
-import { ReflectPage } from "../features/reflect/ReflectPage";
+import { LibraryPage } from "../features/library/LibraryPage";
+import { YouPage } from "../features/you/YouPage";
 import { SettingsPage } from "../features/settings/SettingsPage";
 import { Onboarding, hasOnboarded } from "../features/onboarding/Onboarding";
 
-export type TabId = "today" | "learn" | "think" | "finance" | "reflect" | "settings";
+export type TabId = "daily" | "library" | "you" | "settings";
 
 type TabDef = {
   id: TabId;
@@ -23,27 +19,31 @@ type TabDef = {
   icon: (p: { className?: string }) => JSX.Element;
 };
 
-/* Today sits in the center of the bar as the primary destination
-   (serial-position + Von Restorff: the distinct middle item is the anchor).
-   Settings lives in the floating header gear, keeping the bar at five items. */
-const LEFT_TABS: TabDef[] = [
-  { id: "learn", label: "Learn", icon: BookIcon },
-  { id: "think", label: "Think", icon: BrainIcon },
-];
-const CENTER_TAB: TabDef = { id: "today", label: "Today", icon: SunIcon };
-const RIGHT_TABS: TabDef[] = [
-  { id: "finance", label: "Finance", icon: ChartIcon },
-  { id: "reflect", label: "Reflect", icon: JournalIcon },
-];
+/* Three places, deeper places: Daily (the ritual) in the anchor center,
+   Library (all knowledge) left, You (the mirror) right. Settings lives
+   in the floating header gear. */
+const LEFT_TABS: TabDef[] = [{ id: "library", label: "Library", icon: BookIcon }];
+const CENTER_TAB: TabDef = { id: "daily", label: "Daily", icon: SunIcon };
+const RIGHT_TABS: TabDef[] = [{ id: "you", label: "You", icon: JournalIcon }];
 
 /* Left-to-right order for swipe navigation, matching the tab bar layout.
    Settings is reachable only via the gear, so it's excluded from swipes. */
-const SWIPE_ORDER: TabId[] = ["learn", "think", "today", "finance", "reflect"];
-const ALL_TABS: TabId[] = ["today", "learn", "think", "finance", "reflect", "settings"];
+const SWIPE_ORDER: TabId[] = ["library", "daily", "you"];
+const ALL_TABS: TabId[] = ["daily", "library", "you", "settings"];
+
+/* Old bookmarks and habits keep working. */
+const LEGACY_ROUTES: Record<string, TabId> = {
+  today: "daily",
+  learn: "library",
+  think: "library",
+  finance: "you",
+  reflect: "you",
+};
 
 function tabFromHash(): TabId {
   const raw = window.location.hash.replace(/^#\/?/, "").split("/")[0];
-  return (ALL_TABS.includes(raw as TabId) ? raw : "today") as TabId;
+  if (ALL_TABS.includes(raw as TabId)) return raw as TabId;
+  return LEGACY_ROUTES[raw] ?? "daily";
 }
 
 /** Elements whose own horizontal scroll/drag must win over tab swiping. */
@@ -138,11 +138,9 @@ export function App() {
       <main className="app-main" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
         {/* key remounts the page so the enter animation plays per tab */}
         <div className={pageClass} key={tab}>
-          {tab === "today" && <TodayPage onNavigate={navigate} />}
-          {tab === "learn" && <LearnPage />}
-          {tab === "think" && <ThinkPage />}
-          {tab === "finance" && <FinancePage />}
-          {tab === "reflect" && <ReflectPage />}
+          {tab === "daily" && <TodayPage onNavigate={navigate} />}
+          {tab === "library" && <LibraryPage />}
+          {tab === "you" && <YouPage />}
           {tab === "settings" && <SettingsPage onReplayIntro={() => setShowOnboarding(true)} />}
         </div>
 

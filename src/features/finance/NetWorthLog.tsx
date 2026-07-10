@@ -9,9 +9,21 @@ const LOG_KEY = "networth-log";
 
 type NetWorthEntry = { month: string; amount: number };
 
-function loadLog(): NetWorthEntry[] {
+export function loadNetWorthLog(): NetWorthEntry[] {
   const raw = storage.get<NetWorthEntry[]>(LOG_KEY);
   return Array.isArray(raw) ? raw : [];
+}
+const loadLog = loadNetWorthLog;
+
+/** Check-ins as fractional years since the first log — chart overlay. */
+export function actualTrajectory(): Array<{ year: number; value: number }> {
+  const entries = [...loadNetWorthLog()].sort((a, b) => a.month.localeCompare(b.month));
+  if (entries.length === 0) return [];
+  const [y0, m0] = entries[0].month.split("-").map(Number);
+  return entries.map((e) => {
+    const [y, m] = e.month.split("-").map(Number);
+    return { year: ((y - y0) * 12 + (m - m0)) / 12, value: e.amount };
+  });
 }
 
 function thisMonth(): string {

@@ -23,6 +23,16 @@ export type CaseStep = {
   options: CaseOption[];
 };
 
+export type CaseInstrument = "rca" | "fivewhys" | "matrix" | "assumptions" | "risks";
+
+export const INSTRUMENT_LABELS: Record<CaseInstrument, string> = {
+  rca: "RCA Builder",
+  fivewhys: "5 Whys",
+  matrix: "Decision Matrix",
+  assumptions: "Assumption Checker",
+  risks: "Risk Scanner",
+};
+
 export type CaseFile = {
   id: string;
   title: string;
@@ -31,6 +41,8 @@ export type CaseFile = {
   debrief: string;
   /** Latticework models this case exercises. */
   models: string[];
+  /** Thinking tools worth running on your own version of this case. */
+  instruments: CaseInstrument[];
 };
 
 export const CASE_FILES: CaseFile[] = [
@@ -144,6 +156,7 @@ export const CASE_FILES: CaseFile[] = [
     debrief:
       "The case is a chain of classic debugging judgment calls: characterize the class before the case (base rates), preserve perishable evidence, hold multiple hypotheses when multiple factors are shared (the B1 anchor was a 1-in-37 coincidence wearing a story), suspect conclusions you're incentivized to like, reproduce only once you know what to reproduce, and answer trust questions with bounded evidence rather than defensiveness. Notice where you were tempted to be confident early — that's the instinct calibration training exists to fix.",
     models: ["base-rates", "anchoring", "confirmation-bias", "incentives", "law-of-small-numbers"],
+    instruments: ["rca", "fivewhys"],
   },
   {
     id: "counteroffer",
@@ -255,6 +268,7 @@ export const CASE_FILES: CaseFile[] = [
     debrief:
       "Career decisions are where every bias you've trained against shows up wearing a suit: comp anchors, promises made under duress (incentives), the expertise-reset frame (loss aversion), the counteroffer base rate (outside view, used correctly as a prior), and the barbell logic of domain switches (asymmetry). The strongest single move in the whole case is the first one: refusing to decide next month's question and deciding the 3-year question instead.",
     models: ["opportunity-cost", "incentives", "asymmetry", "loss-aversion", "base-rates", "sunk-cost"],
+    instruments: ["matrix", "assumptions"],
   },
   {
     id: "2am-incident",
@@ -366,6 +380,7 @@ export const CASE_FILES: CaseFile[] = [
     debrief:
       "Incident judgment is mostly the discipline of sequencing: diagnose before acting (but timebox it), treat shared factors correctly (a constant can't discriminate — the fleet-wide update alone proved nothing), attack confirmed mechanisms from every available lever, compress stages under pressure without deleting them, and write the truth when incentives whisper otherwise. The 2am version of you falls to the level of what you've practiced — which is what this case is for.",
     models: ["second-order", "bayes-updating", "incentives", "margin-of-safety", "chestertons-fence"],
+    instruments: ["rca", "risks"],
   },
 ];
 
