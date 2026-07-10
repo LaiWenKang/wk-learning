@@ -148,11 +148,6 @@ export function ReflectPage() {
 
   return (
     <div>
-      <h1 className="page-title">Daily Reflection</h1>
-      <p className="page-subtitle">
-        {existingToday ? "Today's entry — edit any time." : "A few minutes of honest review."}
-      </p>
-
       <Card title={`Today · ${today}`}>
         <Field label="Energy">
           <RatingInput value={draft.energy} onChange={(v) => setDraft({ ...draft, energy: v })} />

@@ -5,7 +5,9 @@ import { todayKey } from "../../lib/date";
 import { storage } from "../../lib/storage";
 import {
   CASE_FILES,
+  INSTRUMENT_LABELS,
   type CaseFile,
+  type CaseInstrument,
   type OptionQuality,
 } from "../../content/cases";
 import { MODEL_BY_ID } from "../../content/models";
@@ -29,7 +31,7 @@ const QUALITY_LABEL: Record<OptionQuality, string> = {
 };
 
 /** Case list rows for the Think tab. */
-export function CaseFilesSection() {
+export function CaseFilesSection(props: { onOpenTool?: (tool: CaseInstrument) => void }) {
   const [open, setOpen] = useState<CaseFile | null>(null);
   const [done, setDone] = useState(loadCasesDone);
 
@@ -60,6 +62,7 @@ export function CaseFilesSection() {
       {open && (
         <CaseRunner
           caseFile={open}
+          onOpenTool={props.onOpenTool}
           onClose={() => {
             setOpen(null);
             setDone(loadCasesDone());
@@ -71,7 +74,11 @@ export function CaseFilesSection() {
 }
 
 /** Full-screen case flow: situation → commit → critique → … → debrief. */
-function CaseRunner(props: { caseFile: CaseFile; onClose: () => void }) {
+function CaseRunner(props: {
+  caseFile: CaseFile;
+  onClose: () => void;
+  onOpenTool?: (tool: CaseInstrument) => void;
+}) {
   const trapRef = useFocusTrap<HTMLDivElement>();
   const c = props.caseFile;
   const [stepIdx, setStepIdx] = useState(-1); // -1 = setting screen
@@ -222,6 +229,26 @@ function CaseRunner(props: { caseFile: CaseFile; onClose: () => void }) {
                   })}
                 </div>
               </div>
+              {props.onOpenTool && c.instruments.length > 0 && (
+                <div className="chapter-section" style={{ textAlign: "left" }}>
+                  <div className="chapter-label">Run it on your own version</div>
+                  <div className="chip-row">
+                    {c.instruments.map((t) => (
+                      <button
+                        key={t}
+                        type="button"
+                        className="chip chip-link"
+                        onClick={() => {
+                          props.onClose();
+                          props.onOpenTool?.(t);
+                        }}
+                      >
+                        {INSTRUMENT_LABELS[t]} →
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
               <button type="button" className="btn btn-primary btn-block" onClick={props.onClose}>
                 Close the file
               </button>

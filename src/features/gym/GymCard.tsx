@@ -95,7 +95,7 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
             <button
               type="button"
               className="btn btn-small"
-              onClick={() => props.onNavigate("learn")}
+              onClick={() => props.onNavigate("library")}
             >
               Explore the latticework
             </button>

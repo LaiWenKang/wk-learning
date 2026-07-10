@@ -2023,6 +2023,50 @@ details.drawer .drawer-body {
   color: var(--text-secondary);
 }
 
+/* --- v0.18: library search, recap --- */
+.library-search {
+  width: 100%;
+  padding: 13px 16px;
+  margin-bottom: 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 15px;
+}
+.library-search:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.recap-card {
+  border: 1px solid rgba(227, 176, 75, 0.35);
+  background:
+    radial-gradient(120% 140% at 100% 0%, rgba(227, 176, 75, 0.08) 0%, transparent 55%),
+    var(--bg-elevated);
+}
+.recap-up {
+  color: var(--positive);
+  font-size: 14px;
+}
+.recap-down {
+  color: var(--warning);
+  font-size: 14px;
+}
+.recap-line {
+  margin: 4px 0 8px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.recap-memory {
+  margin: 0;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
 /* --- v0.17: deck density, retire, cases, net-worth --- */
 .feed-title {
   font-size: clamp(24px, 6.2vw, 30px);
