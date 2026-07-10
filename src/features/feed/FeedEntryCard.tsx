@@ -9,6 +9,8 @@ export function FeedEntryCard() {
   const [open, setOpen] = useState(false);
   const [, setRefresh] = useState(0);
   const caughtUp = storage.get<string>(FEED_VIEWED_KEY) === todayKey();
+  const pos = storage.get<{ date: string; idx: number }>("feed-pos");
+  const midway = !caughtUp && pos?.date === todayKey() && pos.idx > 0;
 
   return (
     <>
@@ -21,11 +23,19 @@ export function FeedEntryCard() {
           <StackIcon />
         </span>
         <span className="feed-entry-text">
-          <strong>{caughtUp ? "Deck done — browse again?" : "Today’s deck"}</strong>
+          <strong>
+            {caughtUp
+              ? "Deck done — browse again?"
+              : midway
+                ? `Continue the deck · card ${pos!.idx + 1}`
+                : "Today’s deck"}
+          </strong>
           <span>
             {caughtUp
               ? "You're caught up. New cards tomorrow."
-              : "Facts, ideas, memories, signals — swipe until it ends. ~3 min"}
+              : midway
+                ? "Picks up right where you left off."
+                : "Facts, ideas, memories, signals — swipe until it ends. ~3 min"}
           </span>
         </span>
         <span className="feed-entry-cta" aria-hidden="true">

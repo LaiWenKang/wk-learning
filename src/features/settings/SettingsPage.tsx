@@ -16,7 +16,7 @@ import {
   type SignalWeights,
 } from "../../lib/pulse";
 
-const APP_VERSION = "0.15.0";
+const APP_VERSION = "0.16.0";
 
 export const LAST_BACKUP_KEY = "last-backup";
 
