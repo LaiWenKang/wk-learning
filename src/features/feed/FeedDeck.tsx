@@ -13,6 +13,7 @@ import type { PulseSignal, ReflectionEntry, LearningItem } from "../../types";
 import type { CSSProperties } from "react";
 
 export const FEED_VIEWED_KEY = "feed-viewed";
+const FEED_POS_KEY = "feed-pos";
 
 /**
  * The Feed That Ends — full-screen, scroll-snap card deck. Finite by
@@ -73,7 +74,20 @@ export function FeedDeck(props: { onClose: () => void }) {
     const i = Math.round(el.scrollTop / el.clientHeight);
     if (i !== idx) {
       setIdx(i);
+      // Resume point: closing mid-deck reopens on the same card today.
+      storage.set(FEED_POS_KEY, { date: dateKey, idx: i });
       if (i >= deck.length - 1) storage.set(FEED_VIEWED_KEY, dateKey);
+    }
+  };
+
+  // Restore today's position when the deck reopens mid-way.
+  const restoreScroll = (el: HTMLDivElement | null) => {
+    (scrollRef as React.MutableRefObject<HTMLDivElement | null>).current = el;
+    if (!el) return;
+    const pos = storage.get<{ date: string; idx: number }>(FEED_POS_KEY);
+    if (pos && pos.date === dateKey && pos.idx > 0 && pos.idx < deck.length) {
+      el.scrollTop = pos.idx * el.clientHeight;
+      setIdx(pos.idx);
     }
   };
 
@@ -88,7 +102,7 @@ export function FeedDeck(props: { onClose: () => void }) {
             {Math.min(idx + 1, deck.length)} / {deck.length}
           </span>
         </header>
-        <div className="feed-scroll" ref={scrollRef} onScroll={onScroll}>
+        <div className="feed-scroll" ref={restoreScroll} onScroll={onScroll}>
           {deck.map((card, i) => (
             <section className="feed-card" key={i}>
               <CardView card={card} onClose={props.onClose} />

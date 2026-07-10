@@ -420,33 +420,6 @@ export const CALIBRATION_QUESTIONS: CalibrationQuestion[] = [
       "About 20,000 — roughly 11,000 litres of air moved every day, almost all of it on autopilot.",
     category: "body",
   },
-  {
-    id: "hair-growth",
-    q: "How many centimetres does scalp hair grow in a year?",
-    answer: 15,
-    unit: "cm",
-    explain:
-      "About 15 cm — 1.25 cm a month, or ~0.4 mm a day. Waist-length hair is a 6-year project.",
-    category: "body",
-  },
-  {
-    id: "skin-area",
-    q: "What is the surface area of an adult's skin?",
-    answer: 1.8,
-    unit: "m²",
-    explain:
-      "About 1.8 m² — your largest organ, about the size of a single bed sheet, weighing ~4 kg.",
-    category: "body",
-  },
-  {
-    id: "sleep-share",
-    q: "What percentage of your life do you spend asleep?",
-    answer: 33,
-    unit: "%",
-    explain:
-      "About 33% — by 75 you'll have slept ~25 years. Memory consolidation happens there, so it's not wasted.",
-    category: "body",
-  },
 
   /* ---------------- Technology ---------------- */
   {
@@ -510,15 +483,6 @@ export const CALIBRATION_QUESTIONS: CalibrationQuestion[] = [
     unit: "%",
     explain:
       "About 99% — not satellites. Roughly 1.4 million km of cable, laid by a fleet of ~60 ships.",
-    category: "tech",
-  },
-  {
-    id: "mp3-size",
-    q: "How many megabytes is a typical 4-minute song as a standard MP3?",
-    answer: 4,
-    unit: "MB",
-    explain:
-      "About 4 MB at 128 kbps — the compression discards sounds your ear mostly can't perceive anyway.",
     category: "tech",
   },
 
@@ -664,6 +628,134 @@ export const CALIBRATION_QUESTIONS: CalibrationQuestion[] = [
     unit: "mm",
     explain:
       "About 0.1 mm — fold it 42 times (if you could) and the stack would reach the Moon. Doubling is violent.",
+    category: "civilization",
+  },
+
+  /* ---------------- Engineering scale (added v0.16) ---------------- */
+  {
+    id: "light-nanosecond",
+    q: "How far does light travel in one nanosecond?",
+    answer: 30,
+    unit: "cm",
+    explain:
+      "About 30 cm — Grace Hopper handed out foot-long wires as 'nanoseconds'. It's why signal path length matters at GHz speeds.",
+    category: "tech",
+  },
+  {
+    id: "cpu-cycle",
+    q: "How long is one clock cycle of a 3 GHz processor, in picoseconds?",
+    answer: 333,
+    unit: "ps",
+    explain:
+      "About 333 ps — in one cycle, light itself travels only ~10 cm. Modern computing operates at the edge of physics.",
+    category: "tech",
+  },
+  {
+    id: "fab-cost",
+    q: "How much does a leading-edge semiconductor fab cost to build (as of mid-2020s)?",
+    answer: 20000000000,
+    unit: "USD",
+    explain:
+      "About $20 billion — more than an aircraft carrier. Only three companies on Earth can still afford the leading edge.",
+    category: "tech",
+  },
+  {
+    id: "euv-wavelength",
+    q: "What wavelength of light do EUV lithography machines use?",
+    answer: 13.5,
+    unit: "nm",
+    explain:
+      "13.5 nm — made by hitting falling tin droplets with a laser 50,000 times a second, twice per droplet. It borders on science fiction.",
+    category: "tech",
+  },
+  {
+    id: "euv-cost",
+    q: "How much does one EUV lithography machine cost?",
+    answer: 180000000,
+    unit: "USD",
+    explain:
+      "About $180 million (High-NA versions approach $400M) — shipped in 40 freight containers, sold by exactly one company: ASML.",
+    category: "tech",
+  },
+  {
+    id: "virus-size",
+    q: "How wide is a SARS-CoV-2 virus particle?",
+    answer: 100,
+    unit: "nm",
+    explain:
+      "About 100 nm — several times larger than the finest features on a modern chip. Fabs build things smaller than viruses, by the trillion.",
+    category: "tech",
+  },
+  {
+    id: "hdd-latency",
+    q: "What is the average random-read latency of a 7200 rpm hard drive?",
+    answer: 10,
+    unit: "ms",
+    explain:
+      "About 10 ms — roughly 100× slower than a NAND flash read and a million times slower than a CPU cache hit. The memory hierarchy in one number.",
+    category: "tech",
+  },
+  {
+    id: "data-per-day",
+    q: "How much data does humanity create per day (estimated, mid-2020s)?",
+    answer: 400,
+    unit: "exabytes",
+    explain:
+      "About 400 exabytes daily — hundreds of millions of large hard drives' worth, every single day. Most is never read again.",
+    category: "tech",
+  },
+  {
+    id: "nand-die",
+    q: "What is the highest capacity announced for a single NAND flash die (as of 2025), in terabits?",
+    answer: 2,
+    unit: "Tb",
+    explain:
+      "2 terabits (256 GB) on one fingernail-sized die — achieved by stacking hundreds of layers and 4 bits per cell.",
+    category: "tech",
+  },
+  {
+    id: "cable-count",
+    q: "How many active undersea internet cables are there (as of mid-2020s)?",
+    answer: 600,
+    unit: "cables",
+    explain:
+      "Around 600 — about 1.4 million km total. A handful of ships and a few hundred cables carry effectively the entire internet.",
+    category: "tech",
+  },
+  {
+    id: "semi-revenue",
+    q: "What is the global semiconductor industry's annual revenue (as of 2024)?",
+    answer: 630000000000,
+    unit: "USD",
+    explain:
+      "About $630 billion in 2024 — headed toward a trillion. Larger than the GDP of most countries, built on features smaller than viruses.",
+    category: "tech",
+  },
+  {
+    id: "kola-hole",
+    q: "How deep is the deepest hole humans have ever drilled (Kola Superdeep Borehole)?",
+    answer: 12262,
+    unit: "m",
+    explain:
+      "12,262 m — after 19 years of drilling. That's 0.2% of the way to Earth's center; we know the cosmos better than what's 15 km below us.",
+    category: "earth",
+  },
+  {
+    id: "oldest-tree",
+    q: "How old is the oldest known living tree?",
+    answer: 4850,
+    unit: "years",
+    explain:
+      "About 4,850 years (a bristlecone pine named Methuselah) — alive before the pyramids were built, still adding rings.",
+    category: "life",
+  },
+  {
+    id: "gold-mined",
+    q: "How much gold has humanity mined in all of history?",
+    answer: 212000,
+    unit: "tonnes",
+    explain:
+      "About 212,000 tonnes — all of it would fit in a cube ~22 m per side. Every ring and vault, one large house's volume.",
     category: "civilization",
   },
 ];
