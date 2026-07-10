@@ -2,14 +2,15 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useFocusTrap } from "../../lib/useFocusTrap";
 import { buildFeed, type FeedCard } from "../../lib/feed";
-import { formatBig, gradeEstimate, describeMiss, loadGymStats, currentStreak } from "../../lib/gym";
+import { formatBig, gradeEstimate, describeMiss, loadGymStats, loadRetired, retireContent, currentStreak, masteryCounts } from "../../lib/gym";
 import { loadLatestPulse, topSignals } from "../../lib/pulse";
-import { STORE_KEYS, loadList, storage } from "../../lib/storage";
+import { STORE_KEYS, loadList, newId, storage, upsertItem } from "../../lib/storage";
 import { todayKey, relativeTime } from "../../lib/date";
 import { MODEL_DOMAIN_LABELS, MODEL_DOMAIN_TINTS } from "../../content/models";
 import { FIELD_AREA_LABELS, FIELD_AREA_TINTS } from "../../content/fieldGuide";
 import { CALIBRATION_CATEGORY_LABELS } from "../../content/calibration";
 import type { PulseSignal, ReflectionEntry, LearningItem } from "../../types";
+import { CALIBRATION_QUESTIONS } from "../../content/calibration";
 import type { CSSProperties } from "react";
 
 export const FEED_VIEWED_KEY = "feed-viewed";
@@ -66,6 +67,7 @@ export function FeedDeck(props: { onClose: () => void }) {
     notes: loadList<LearningItem>(STORE_KEYS.learningItems),
     calibrationLog: stats.calibrationLog,
     streak: currentStreak(stats, dateKey),
+    retired: loadRetired(dateKey),
   });
 
   const onScroll = () => {
@@ -105,7 +107,7 @@ export function FeedDeck(props: { onClose: () => void }) {
         <div className="feed-scroll" ref={restoreScroll} onScroll={onScroll}>
           {deck.map((card, i) => (
             <section className="feed-card" key={i}>
-              <CardView card={card} onClose={props.onClose} />
+              <CardView card={card} index={i} total={deck.length} dateKey={dateKey} onClose={props.onClose} />
             </section>
           ))}
         </div>
@@ -117,7 +119,13 @@ export function FeedDeck(props: { onClose: () => void }) {
 
 /* --------------------------- card renderers ------------------------- */
 
-function CardView(props: { card: FeedCard; onClose: () => void }) {
+function CardView(props: {
+  card: FeedCard;
+  index: number;
+  total: number;
+  dateKey: string;
+  onClose: () => void;
+}) {
   const c = props.card;
   switch (c.kind) {
     case "intro":
@@ -128,6 +136,7 @@ function CardView(props: { card: FeedCard; onClose: () => void }) {
           <p className="feed-muted">
             Facts, ideas, memories and signals — then it ends. Swipe up.
           </p>
+          <IntroBreakdown />
           <div className="feed-swipe-hint" aria-hidden="true">↑</div>
         </div>
       );
@@ -139,7 +148,8 @@ function CardView(props: { card: FeedCard; onClose: () => void }) {
           <p className="feed-answer">
             {formatBig(c.q.answer)} <span className="feed-unit">{c.q.unit}</span>
           </p>
-          <p className="feed-muted">{c.q.explain}</p>
+          <p className="feed-muted feed-explain">{c.q.explain}</p>
+          <FactFoot id={c.q.id} dateKey={props.dateKey} />
         </div>
       );
     case "hook":
@@ -217,19 +227,7 @@ function CardView(props: { card: FeedCard; onClose: () => void }) {
     case "guess":
       return <GuessCard card={c} />;
     case "pulse":
-      return (
-        <div className="feed-inner feed-center">
-          <p className="feed-kicker">
-            Live signal · {c.signal.source}
-            {c.signal.publishedAt ? ` · ${relativeTime(c.signal.publishedAt)}` : ""}
-          </p>
-          <h2 className="feed-title">{c.signal.title}</h2>
-          {c.signal.whyItMatters && <p className="feed-muted">{c.signal.whyItMatters}</p>}
-          <a className="btn btn-soft btn-small" href={c.signal.url} target="_blank" rel="noreferrer">
-            Open source ↗
-          </a>
-        </div>
-      );
+      return <PulseCard signal={c.signal} />;
     case "memory":
       return (
         <div className="feed-inner feed-center feed-memory">
@@ -245,10 +243,8 @@ function CardView(props: { card: FeedCard; onClose: () => void }) {
         <div className="feed-inner feed-center">
           <p className="feed-kicker">That’s all</p>
           <h2 className="feed-big">You’re caught up.</h2>
-          <p className="feed-muted">
-            No infinite scroll here — the deck refreshes tomorrow.
-            {c.streak > 0 ? ` Streak: ${c.streak} days.` : ""}
-          </p>
+          <p className="feed-muted">No infinite scroll here — the deck refreshes tomorrow.</p>
+          <OutroStats streak={c.streak} />
           <button type="button" className="btn btn-primary" onClick={props.onClose}>
             Back to today
           </button>
@@ -338,6 +334,104 @@ function RematchCard(props: { card: Extract<FeedCard, { kind: "rematch" }> }) {
           </p>
         </>
       )}
+    </div>
+  );
+}
+
+/** What's inside today — makes the intro card earn its space. */
+function IntroBreakdown() {
+  return (
+    <div className="feed-breakdown">
+      <span>4 facts</span>
+      <span>3 model sparks</span>
+      <span>2 paradoxes</span>
+      <span>1 quote</span>
+      <span>1 guess</span>
+      <span>live signals</span>
+      <span>your memories</span>
+    </div>
+  );
+}
+
+/** Fact footer: source count + personal curation. */
+function FactFoot(props: { id: string; dateKey: string }) {
+  const [retired, setRetired] = useState(false);
+  return (
+    <div className="feed-foot">
+      {retired ? (
+        <span className="retire-done">Retired — gone after today.</span>
+      ) : (
+        <button
+          type="button"
+          className="retire-link"
+          onClick={() => {
+            retireContent(props.id, props.dateKey);
+            setRetired(true);
+          }}
+        >
+          ✕ Not for me
+        </button>
+      )}
+    </div>
+  );
+}
+
+/** Pulse card with save-to-queue so signals can be kept without leaving. */
+function PulseCard(props: { signal: PulseSignal }) {
+  const [saved, setSaved] = useState(false);
+  const s = props.signal;
+  const save = () => {
+    if (saved) return;
+    upsertItem(STORE_KEYS.learningItems, {
+      id: newId(),
+      createdAt: new Date().toISOString(),
+      title: s.title,
+      sourceUrl: s.url,
+      category: s.category,
+      note: s.summary ?? "",
+      keyTakeaway: "",
+      action: "Read and capture one takeaway",
+      tags: s.tags.slice(0, 5),
+    } as LearningItem);
+    setSaved(true);
+  };
+  return (
+    <div className="feed-inner feed-center">
+      <p className="feed-kicker">
+        Live signal · {s.source}
+        {s.publishedAt ? ` · ${relativeTime(s.publishedAt)}` : ""}
+      </p>
+      <h2 className="feed-title">{s.title}</h2>
+      {s.whyItMatters && <p className="feed-muted feed-explain">{s.whyItMatters}</p>}
+      <div className="btn-row" style={{ justifyContent: "center" }}>
+        <a className="btn btn-soft btn-small" href={s.url} target="_blank" rel="noreferrer">
+          Open source ↗
+        </a>
+        <button type="button" className="btn btn-small" disabled={saved} onClick={save}>
+          {saved ? "Saved ✓" : "Save to queue"}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/** Outro card stats: the day's accumulation at a glance. */
+function OutroStats(props: { streak: number }) {
+  const stats = loadGymStats();
+  const mastery = masteryCounts(stats);
+  const cells: Array<[string, string]> = [
+    ["🔥", `${props.streak}-day streak`],
+    ["🧠", `${mastery.trained}/${mastery.total} models trained`],
+    ["🎯", `${stats.calibrationLog.length} estimates logged`],
+    ["📚", `${CALIBRATION_QUESTIONS.length}+ facts in rotation`],
+  ];
+  return (
+    <div className="feed-breakdown feed-outro-stats">
+      {cells.map(([icon, label]) => (
+        <span key={label}>
+          {icon} {label}
+        </span>
+      ))}
     </div>
   );
 }

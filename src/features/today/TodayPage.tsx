@@ -7,14 +7,9 @@ import {
   weightedTopSignals,
   type SignalWeights,
 } from "../../lib/pulse";
-import { formatDateLong, greetingForHour, relativeTime, todayKey } from "../../lib/date";
+import { formatDateLong, greetingForHour, relativeTime } from "../../lib/date";
 import { loadGlanceStats } from "../../lib/stats";
 import { useCountUp } from "../../lib/useCountUp";
-import {
-  MINDSET_PROMPTS,
-  LEARNING_ACTIONS,
-  dailyRotation,
-} from "../../data/prompts";
 import { GymCard } from "../gym/GymCard";
 import { FieldBriefCard } from "../gym/FieldBriefCard";
 import { FeedEntryCard } from "../feed/FeedEntryCard";
@@ -25,21 +20,15 @@ import {
   SectionTitle,
   Sheet,
   TagRow,
-  TintCard,
   categoryColor,
 } from "../../components/ui";
 import {
   BoltIcon,
-  CompassIcon,
   FlameIcon,
   InboxIcon,
-  JournalIcon,
   PencilIcon,
   RefreshIcon,
-  SparkleIcon,
   StackIcon,
-  TargetIcon,
-  WrenchIcon,
 } from "../../components/icons";
 import type { TabId } from "../../app/App";
 import type { CSSProperties } from "react";
@@ -168,9 +157,6 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
     }
   };
 
-  const dateKey = todayKey();
-  const mindset = dailyRotation(MINDSET_PROMPTS, dateKey, 1);
-  const action = dailyRotation(LEARNING_ACTIONS, dateKey, 3);
 
   const weights = useMemo<SignalWeights>(
     () => ({ ...defaultWeights(), ...(storage.get<SignalWeights>("signal-weights") ?? {}) }),
@@ -375,65 +361,6 @@ export function TodayPage(props: { onNavigate: (tab: TabId) => void }) {
       ))}
       {!pulse && <div className="empty-state">Loading pulse…</div>}
 
-      <SectionTitle icon={<SparkleIcon />}>Daily Focus</SectionTitle>
-      <TintCard tint="var(--cat-ai)" icon={<CompassIcon />} title="Professional Mindset">
-        <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
-          {mindset}
-        </p>
-      </TintCard>
-      <TintCard tint="var(--cat-finance)" icon={<TargetIcon />} title="Learning Action">
-        <p className="card-muted" style={{ color: "var(--text)", fontSize: 15 }}>
-          {action}
-        </p>
-      </TintCard>
-
-      <SectionTitle icon={<BoltIcon />}>Quick Actions</SectionTitle>
-      <div className="action-grid">
-        <button
-          type="button"
-          className="action-tile"
-          style={{ "--tint": "var(--cat-systems)" } as CSSProperties}
-          onClick={() => props.onNavigate("learn")}
-        >
-          <span className="action-icon">
-            <InboxIcon />
-          </span>
-          Learning Queue
-        </button>
-        <button
-          type="button"
-          className="action-tile"
-          style={{ "--tint": "var(--cat-ai)" } as CSSProperties}
-          onClick={() => props.onNavigate("learn")}
-        >
-          <span className="action-icon">
-            <StackIcon />
-          </span>
-          Create Flashcard
-        </button>
-        <button
-          type="button"
-          className="action-tile"
-          style={{ "--tint": "var(--cat-finance)" } as CSSProperties}
-          onClick={() => props.onNavigate("reflect")}
-        >
-          <span className="action-icon">
-            <JournalIcon />
-          </span>
-          {stats.reflectedToday ? "Edit Reflection" : "Add Reflection"}
-        </button>
-        <button
-          type="button"
-          className="action-tile"
-          style={{ "--tint": "var(--cat-semiconductor)" } as CSSProperties}
-          onClick={() => props.onNavigate("think")}
-        >
-          <span className="action-icon">
-            <WrenchIcon />
-          </span>
-          RCA Builder
-        </button>
-      </div>
       <p
         className="signal-meta"
         style={{ textAlign: "center", marginTop: 18, display: "flex", alignItems: "center", justifyContent: "center", gap: 5 }}

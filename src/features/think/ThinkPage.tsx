@@ -9,6 +9,7 @@ import { FiveWhys } from "./FiveWhys";
 import { THINK_WARMUPS, dailyRotation } from "../../data/prompts";
 import { todayKey } from "../../lib/date";
 import { PLAYBOOKS, type Playbook } from "../../content/playbooks";
+import { CaseFilesSection } from "./CaseRunner";
 import type { CSSProperties } from "react";
 
 type ThinkTool = "rca" | "fivewhys" | "matrix" | "assumptions" | "risks";
@@ -47,6 +48,12 @@ export function ThinkPage() {
       {tool === "matrix" && <DecisionMatrix />}
       {tool === "assumptions" && <AssumptionChecker />}
       {tool === "risks" && <RiskScanner />}
+
+      <div className="lattice-domain-head" style={{ marginTop: 22 }}>
+        <h3>Case Files</h3>
+        <span className="lattice-domain-count">judgment under pressure</span>
+      </div>
+      <CaseFilesSection />
 
       <div className="lattice-domain-head" style={{ marginTop: 22 }}>
         <h3>Playbooks</h3>

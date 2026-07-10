@@ -12,8 +12,10 @@ import {
   gradeEstimate,
   loadGymDay,
   loadGymStats,
+  loadRetired,
   masteryCounts,
   pickDaily,
+  retireContent,
   recordCalibration,
   recordChallenge,
   recordRecall,
@@ -54,7 +56,7 @@ export const CHALLENGE_KIND_LABELS = {
  */
 export function GymSession(props: { dateKey: string; onClose: () => void }) {
   const trapRef = useFocusTrap<HTMLDivElement>();
-  const daily = pickDaily(props.dateKey);
+  const daily = pickDaily(props.dateKey, loadRetired(props.dateKey));
   const [day, setDay] = useState<GymDay>(() => loadGymDay(props.dateKey));
   const [stats, setStats] = useState<GymStats>(loadGymStats);
 
@@ -180,6 +182,7 @@ export function GymSession(props: { dateKey: string; onClose: () => void }) {
             <CalibrateStep
               daily={daily}
               day={day}
+              dateKey={props.dateKey}
               onSubmit={submitCalibration}
               onContinue={day.minimal ? finishMinimal : () => update({ ...day, step: 1 })}
               continueLabel={day.minimal ? "Done — streak safe" : "Continue"}
@@ -243,6 +246,7 @@ export function GymSession(props: { dateKey: string; onClose: () => void }) {
 function CalibrateStep(props: {
   daily: ReturnType<typeof pickDaily>;
   day: GymDay;
+  dateKey: string;
   onSubmit: (estimate: number, confidence: ConfidenceLevel) => void;
   onContinue: () => void;
   continueLabel?: string;
@@ -271,6 +275,7 @@ function CalibrateStep(props: {
           </div>
         </div>
         <p className="gym-explain">{q.explain}</p>
+        <RetireLink id={q.id} dateKey={props.dateKey} />
         <button type="button" className="btn btn-primary btn-block" onClick={props.onContinue}>
           {props.continueLabel ?? "Continue"}
         </button>
@@ -501,7 +506,8 @@ function SummaryStep(props: {
   const streak = currentStreak(stats, props.dateKey);
   const cal = calibrationSummary(stats.calibrationLog);
   const mastery = masteryCounts(stats);
-  const tomorrow = pickDaily(addDays(props.dateKey, 1));
+  const tomorrowKey = addDays(props.dateKey, 1);
+  const tomorrow = pickDaily(tomorrowKey, loadRetired(tomorrowKey));
   const bucket90 = cal.buckets.find((b) => b.confidence === 90);
 
   return (
@@ -580,5 +586,25 @@ function SummaryStep(props: {
         Done for today
       </button>
     </div>
+  );
+}
+
+/** "Not for me" — retires a content item from tomorrow onward. */
+function RetireLink(props: { id: string; dateKey: string }) {
+  const [done, setDone] = useState(false);
+  if (done) {
+    return <p className="retire-done">Retired — it won’t appear again.</p>;
+  }
+  return (
+    <button
+      type="button"
+      className="retire-link"
+      onClick={() => {
+        retireContent(props.id, props.dateKey);
+        setDone(true);
+      }}
+    >
+      ✕ Not for me — never show this one again
+    </button>
   );
 }

@@ -390,6 +390,56 @@ describe("badges and bias", () => {
   });
 });
 
+/* --------------------------- retire loop ----------------------------- */
+
+describe("content retiring", () => {
+  it("filters pools but refuses to over-shrink", async () => {
+    const { activePool } = await import("./gym");
+    const pool = CALIBRATION_QUESTIONS;
+    const some = new Set([pool[0].id, pool[1].id]);
+    const filtered = activePool(pool, some);
+    expect(filtered.length).toBe(pool.length - 2);
+    expect(filtered.some((q) => some.has(q.id))).toBe(false);
+    // Retiring nearly everything is ignored (floor protection).
+    const nearlyAll = new Set(pool.slice(0, pool.length - 3).map((q) => q.id));
+    expect(activePool(pool, nearlyAll).length).toBe(pool.length);
+  });
+
+  it("pickDaily skips retired items from the effective date", async () => {
+    const { pickDaily } = await import("./gym");
+    const base = pickDaily("2026-07-10");
+    const retired = new Set([base.question.id]);
+    const changed = pickDaily("2026-07-10", retired);
+    expect(changed.question.id).not.toBe(base.question.id);
+    expect(pickDaily("2026-07-10", new Set()).question.id).toBe(base.question.id);
+  });
+});
+
+/* ------------------------- case files content ------------------------ */
+
+describe("case files", () => {
+  it("cases are complete with graded options and resolvable models", async () => {
+    const { CASE_FILES } = await import("../content/cases");
+    expect(CASE_FILES.length).toBeGreaterThanOrEqual(3);
+    for (const c of CASE_FILES) {
+      expect(c.setting.length).toBeGreaterThan(150);
+      expect(c.steps.length).toBeGreaterThanOrEqual(3);
+      expect(c.debrief.length).toBeGreaterThan(150);
+      for (const step of c.steps) {
+        expect(step.options.length).toBe(3);
+        const qualities = step.options.map((o) => o.quality);
+        expect(qualities.filter((q) => q === "strong").length).toBe(1);
+        for (const o of step.options) {
+          expect(o.critique.length, c.id).toBeGreaterThan(80);
+        }
+      }
+      for (const id of c.models) {
+        expect(MODEL_BY_ID.has(id), `case ${c.id} model "${id}"`).toBe(true);
+      }
+    }
+  });
+});
+
 /* ----------------------------- formatting ---------------------------- */
 
 describe("formatBig", () => {

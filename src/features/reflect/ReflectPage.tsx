@@ -69,6 +69,12 @@ export function ReflectPage() {
   const today = todayKey();
   const existingToday = entries.find((e) => e.date === today);
 
+  const [expanded, setExpanded] = useState<boolean>(() =>
+    existingToday
+      ? existingToday.improvedToday.trim().length > 0 ||
+        existingToday.openLoops.trim().length > 0
+      : false,
+  );
   const [draft, setDraft] = useState<ReflectDraft>(() =>
     existingToday
       ? {
@@ -151,28 +157,10 @@ export function ReflectPage() {
         <Field label="Energy">
           <RatingInput value={draft.energy} onChange={(v) => setDraft({ ...draft, energy: v })} />
         </Field>
-        <Field label="Maturity — did I respond, not react?">
-          <RatingInput
-            value={draft.maturityScore}
-            onChange={(v) => setDraft({ ...draft, maturityScore: v })}
-          />
-        </Field>
-        <Field label="Reliability — did I do what I said?">
-          <RatingInput
-            value={draft.reliabilityScore}
-            onChange={(v) => setDraft({ ...draft, reliabilityScore: v })}
-          />
-        </Field>
         <Field label="What did I learn today?">
           <textarea
             value={draft.learnedToday}
             onChange={(e) => setDraft({ ...draft, learnedToday: e.target.value })}
-          />
-        </Field>
-        <Field label="What did I improve today?">
-          <textarea
-            value={draft.improvedToday}
-            onChange={(e) => setDraft({ ...draft, improvedToday: e.target.value })}
           />
         </Field>
         <Field label="One thing to do better">
@@ -182,12 +170,38 @@ export function ReflectPage() {
             onChange={(e) => setDraft({ ...draft, oneThingToDoBetter: e.target.value })}
           />
         </Field>
-        <Field label="Open loops" hint="Unfinished things occupying your head.">
-          <textarea
-            value={draft.openLoops}
-            onChange={(e) => setDraft({ ...draft, openLoops: e.target.value })}
-          />
-        </Field>
+        {!expanded ? (
+          <button type="button" className="gym-minimal-link" style={{ textAlign: "left", marginTop: 0 }} onClick={() => setExpanded(true)}>
+            + More: maturity, reliability, improvements, open loops
+          </button>
+        ) : (
+          <>
+            <Field label="Maturity — did I respond, not react?">
+              <RatingInput
+                value={draft.maturityScore}
+                onChange={(v) => setDraft({ ...draft, maturityScore: v })}
+              />
+            </Field>
+            <Field label="Reliability — did I do what I said?">
+              <RatingInput
+                value={draft.reliabilityScore}
+                onChange={(v) => setDraft({ ...draft, reliabilityScore: v })}
+              />
+            </Field>
+            <Field label="What did I improve today?">
+              <textarea
+                value={draft.improvedToday}
+                onChange={(e) => setDraft({ ...draft, improvedToday: e.target.value })}
+              />
+            </Field>
+            <Field label="Open loops" hint="Unfinished things occupying your head.">
+              <textarea
+                value={draft.openLoops}
+                onChange={(e) => setDraft({ ...draft, openLoops: e.target.value })}
+              />
+            </Field>
+          </>
+        )}
         <div className="btn-row">
           <button type="button" className="btn btn-primary" onClick={save}>
             {savedFlash ? "Saved ✓" : existingToday ? "Update Entry" : "Save Entry"}

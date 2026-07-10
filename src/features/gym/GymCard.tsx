@@ -4,6 +4,7 @@ import {
   currentStreak,
   loadGymDay,
   loadGymStats,
+  loadRetired,
   masteryCounts,
   pickDaily,
   saveGymDay,
@@ -25,7 +26,7 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
   // Bump to re-read persisted state after the session overlay closes.
   const [, setRefresh] = useState(0);
 
-  const daily = pickDaily(dateKey);
+  const daily = pickDaily(dateKey, loadRetired(dateKey));
   const stats = loadGymStats();
   const day = loadGymDay(dateKey);
   const streak = currentStreak(stats, dateKey);
@@ -46,7 +47,7 @@ export function GymCard(props: { onNavigate: (tab: TabId) => void }) {
   };
 
   if (done) {
-    const tomorrow = pickDaily(addDays(dateKey, 1));
+    const tomorrow = pickDaily(addDays(dateKey, 1), loadRetired(addDays(dateKey, 1)));
     return (
       <>
         <div className="card gym-card gym-card-done">
