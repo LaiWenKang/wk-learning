@@ -20,7 +20,7 @@ import {
 import { FIELD_BRIEFS, type FieldBrief } from "../content/fieldGuide";
 import { UNPACKED_QUOTES, type UnpackedQuote } from "../content/quotes";
 import type { PulseSignal, ReflectionEntry, LearningItem } from "../types";
-import type { CalibrationRecord } from "./gym";
+import { activePool, type CalibrationRecord } from "./gym";
 import { daysBetween } from "./date";
 
 /* ------------------------------ cards ------------------------------ */
@@ -44,6 +44,8 @@ export type FeedInputs = {
   notes: LearningItem[];
   calibrationLog: CalibrationRecord[];
   streak: number;
+  /** Content ids the user has retired ("not for me"). */
+  retired?: Set<string>;
 };
 
 /* --------------------------- seeded picks --------------------------- */
@@ -155,12 +157,14 @@ export function buildGuess(
  * All selection is deterministic per date.
  */
 export function buildFeed(dateKey: string, inputs: FeedInputs): FeedCard[] {
-  const facts = pickSome(CALIBRATION_QUESTIONS, 4, daySeed(dateKey, 31));
+  const retired = inputs.retired ?? new Set<string>();
+  const calPool = activePool(CALIBRATION_QUESTIONS, retired);
+  const facts = pickSome(calPool, 4, daySeed(dateKey, 31));
   const hooks = pickSome(MENTAL_MODELS, 3, daySeed(dateKey, 32));
   const paradoxes = pickSome(PARADOX_CHALLENGES, 2, daySeed(dateKey, 33));
   const briefs = pickSome(FIELD_BRIEFS, 1, daySeed(dateKey, 34));
   const quotes = pickSome(UNPACKED_QUOTES, 1, daySeed(dateKey, 38));
-  const guessQ = pickSome(CALIBRATION_QUESTIONS, 1, daySeed(dateKey, 35))[0];
+  const guessQ = pickSome(calPool, 1, daySeed(dateKey, 35))[0];
   const signals = inputs.signals.slice(0, 3);
   const memories = mineMemories(dateKey, inputs, daySeed(dateKey, 36));
 
@@ -169,7 +173,7 @@ export function buildFeed(dateKey: string, inputs: FeedInputs): FeedCard[] {
   const guess =
     guessQ && !factSet.has(guessQ.id)
       ? guessQ
-      : CALIBRATION_QUESTIONS.find((q) => !factSet.has(q.id))!;
+      : calPool.find((q) => !factSet.has(q.id))!;
 
   const middle: FeedCard[] = [];
   const push = (c: FeedCard | undefined) => c && middle.push(c);

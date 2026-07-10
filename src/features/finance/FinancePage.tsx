@@ -15,6 +15,7 @@ import { TargetIcon } from "../../components/icons";
 import { ProjectionChart } from "./ProjectionChart";
 import { ProgressRing } from "./ProgressRing";
 import { CareerSim } from "./CareerSim";
+import { NetWorthLog } from "./NetWorthLog";
 import { MONEY_PRINCIPLES, dailyRotation } from "../../data/prompts";
 import { todayKey } from "../../lib/date";
 
@@ -193,6 +194,8 @@ export function FinancePage() {
           {dailyRotation(MONEY_PRINCIPLES, todayKey(), 5)}
         </p>
       </TintCard>
+
+      <NetWorthLog currency={inputs.currency} />
 
       <Segmented<FinanceView>
         value={view}

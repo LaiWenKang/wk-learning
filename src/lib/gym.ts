@@ -43,17 +43,55 @@ export function challengeKindFor(dateKey: string): ChallengeKind {
   return CHALLENGE_KINDS[((day % 3) + 3) % 3];
 }
 
+/* ------------------------ content retiring ------------------------- */
+
+const RETIRED_KEY = "retired-content";
+/** Never let personal culls shrink a pool below this. */
+const RETIRE_FLOOR = 10;
+
+/**
+ * Retired ids effective on a given date. Retirement always takes effect
+ * TOMORROW, so today's already-answered session and already-built deck
+ * stay stable — the item simply never appears again after today.
+ */
+export function loadRetired(dateKey: string): Set<string> {
+  const raw = storage.get<Record<string, string>>(RETIRED_KEY);
+  if (!raw || typeof raw !== "object") return new Set();
+  return new Set(
+    Object.entries(raw)
+      .filter(([, from]) => from <= dateKey)
+      .map(([id]) => id),
+  );
+}
+
+/** "Not for me" — drops an item from this user's rotation from tomorrow. */
+export function retireContent(id: string, dateKey: string): void {
+  const raw = storage.get<Record<string, string>>(RETIRED_KEY) ?? {};
+  storage.set(RETIRED_KEY, { ...raw, [id]: addDays(dateKey, 1) });
+}
+
+/** Filter a pool by the retire list, refusing to over-shrink it. */
+export function activePool<T extends { id: string }>(
+  items: T[],
+  retired: Set<string>,
+): T[] {
+  if (retired.size === 0) return items;
+  const filtered = items.filter((i) => !retired.has(i.id));
+  return filtered.length >= RETIRE_FLOOR ? filtered : items;
+}
+
 /** The full session for a date — deterministic and repeat-free per pool. */
-export function pickDaily(dateKey: string): DailyGym {
-  const question = dailyRotation(CALIBRATION_QUESTIONS, dateKey, 11);
+export function pickDaily(dateKey: string, retired?: Set<string>): DailyGym {
+  const r = retired ?? new Set<string>();
+  const question = dailyRotation(activePool(CALIBRATION_QUESTIONS, r), dateKey, 11);
   const model = dailyRotation(MENTAL_MODELS, dateKey, 12);
   const kind = challengeKindFor(dateKey);
   const challenge: Challenge =
     kind === "fallacy"
-      ? dailyRotation(FALLACY_CHALLENGES, dateKey, 13)
+      ? dailyRotation(activePool(FALLACY_CHALLENGES, r), dateKey, 13)
       : kind === "paradox"
-        ? dailyRotation(PARADOX_CHALLENGES, dateKey, 14)
-        : dailyRotation(FERMI_CHALLENGES, dateKey, 15);
+        ? dailyRotation(activePool(PARADOX_CHALLENGES, r), dateKey, 14)
+        : dailyRotation(activePool(FERMI_CHALLENGES, r), dateKey, 15);
   return { question, model, challenge, kind };
 }
 
