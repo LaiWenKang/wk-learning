@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:57:43.705Z",
+  "generatedAt": "2026-07-10T17:54:07.183Z",
   "signals": [
     {
       "id": "sig-1msi33n",
@@ -10,7 +10,7 @@
       "summary": "Samsung has started mass production of the PM1763, its first PCIe Gen6 enterprise SSD, pairing 9th-generation V-NAND with a newly developed 4nm controller. The 15.36TB flagship is rated for sequential reads up to 28,400 MB/s and writes up to 21,000 MB/s, with reads landing at 1.9",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-08T18:57:07.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The Samsung PM1763 is a PCIe Gen6 NVMe SSD that the company said has entered production to support new AI servers The post Samsung PM1763 PCIe Gen6 Enterprise SSD in Production appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-08T13:51:57.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "SK hynix has announced plans to invest KRW 100 trillion (about US$65 billion at the current exchange rate) in Cheongju, South Korea, to expand its NAND flash manufacturing and advanced packaging capacity to meet rising AI-driven memory demand. The announcement was made by Preside",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-06T16:06:01.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 10,
       "tags": [
         "nand",
@@ -65,7 +65,7 @@
       "summary": "Ahead of the launch of PCIe Gen6 CPUs, Micron was at Computex 2026 showing off their first PCIe Gen6 SSD for data centers, the 9650 The post Spotted at Computex 2026: Micron’s First PCIe Gen6 Data Center SSD, the 9650 appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-05T17:00:11.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -73,22 +73,6 @@
         "gen6",
         "data center ssd",
         "micron"
-      ]
-    },
-    {
-      "id": "sig-1wg0z7n",
-      "title": "Silicon Motion Shows Off Enterprise SM8008 and SM8388 SSD Controllers at Computex 2026",
-      "url": "https://www.servethehome.com/silicon-motion-shows-off-enterprise-sm8008-sm8388-ssd-controllers-at-computex-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At Computex 2026, Silicon Motion was showcasing its SM8388 and SM8008 SSD controllers for enterprise drives The post Silicon Motion Shows Off Enterprise SM8008 and SM8388 SSD Controllers at Computex 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ssd, silicon motion — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-04T17:00:39.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "silicon motion"
       ]
     },
     {
@@ -100,8 +84,8 @@
       "summary": "arXiv:2607.08407v1 Announce Type: new Abstract: The rising pressure on DRAM availability and contract pricing reflects generative AI's massive high-performance memory requirements. This pressure is heavily compounded by hyperscale data center expansion, which now consumes a signi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 8.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "dram",
@@ -117,12 +101,28 @@
       "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
       "whyItMatters": "Touches ai, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T16:06:15.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 8.3,
       "tags": [
         "ai",
         "openai",
         "llm"
+      ]
+    },
+    {
+      "id": "sig-pkva2e",
+      "title": "ASUS Thermal Lab Tour 2026 Testing AI Servers",
+      "url": "https://www.servethehome.com/asus-thermal-lab-tour-2026-testing-ai-servers/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "Join me as I visit the ASUS thermal lab and uncover how they conduct rigorous thermal testing for server performance and durability The post ASUS Thermal Lab Tour 2026 Testing AI Servers appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-10T17:00:46.000Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "performance"
       ]
     },
     {
@@ -134,8 +134,8 @@
       "summary": "arXiv:2607.06820v1 Announce Type: new Abstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We propose a ReAct-style agentic setup t",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -150,8 +150,8 @@
       "summary": "arXiv:2607.07946v1 Announce Type: new Abstract: DeepSWE is a benchmark of 113 original, long-horizon software engineering tasks for evaluating coding agents. Most public agentic coding benchmarks follow SWE-bench in mining merged fixes from public GitHub repositories, which creat",
       "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.6,
       "tags": [
         "software engineering",
         "github"
@@ -166,8 +166,8 @@
       "summary": "arXiv:2607.08043v1 Announce Type: new Abstract: Research software collaborations span meetings, informal chats, pull requests, and GitHub issues. A decision surfaced in a Slack thread, refined in a meeting, and implemented in a pull request can lose its original rationale across ",
       "whyItMatters": "Touches software engineering, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.6,
       "tags": [
         "software engineering",
         "github"
@@ -182,8 +182,8 @@
       "summary": "arXiv:2607.07711v1 Announce Type: new Abstract: Photonic Integrated Circuits (PICs) are advancing high-performance computing, data centers, and sensing, yet three-dimensional (3D) PICs introduce critical thermal management challenges due to high-density bonding and heterogeneous ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -198,8 +198,8 @@
       "summary": "arXiv:2605.03713v3 Announce Type: replace Abstract: Specialized accelerators dominate AI workloads, but CPUs remain critical for orchestrating accelerators and running daily services. CPU performance therefore shapes end-to-end system efficiency, making benchmarks reflect modern ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-10T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -214,26 +214,11 @@
       "summary": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus serie",
       "whyItMatters": "Touches claude, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T19:46:38.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 7.4,
       "tags": [
         "claude",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-12of8kr",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-146/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Micron ups US investments; Apple's $30B deal; Solstice's buy; onsemi divests; diamonds for inspection; fault-tolerant quantum $; analog IMC; patent infringements; Accellera's functional safety standard; 189k workers shortage; USB standards; fab roadblocks. The post Chip Industry ",
-      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-10T07:01:43.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.3,
-      "tags": [
-        "micron"
       ]
     },
     {
@@ -245,11 +230,26 @@
       "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T16:12:20.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
       "score": 7.3,
       "tags": [
         "ai",
         "llm"
+      ]
+    },
+    {
+      "id": "sig-12of8kr",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-146/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Micron ups US investments; Apple's $30B deal; Solstice's buy; onsemi divests; diamonds for inspection; fault-tolerant quantum $; analog IMC; patent infringements; Accellera's functional safety standard; 189k workers shortage; USB standards; fab roadblocks. The post Chip Industry ",
+      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-10T07:01:43.000Z",
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.2,
+      "tags": [
+        "micron"
       ]
     },
     {
@@ -261,8 +261,8 @@
       "summary": "NVIDIA has introduced a new business model to accelerate the deployment of AI infrastructure by combining revenue sharing with credit support for AI cloud providers. Announced July 1 in a blog post co-authored by CFO Colette Kress, the initiative is designed to expand access to a",
       "whyItMatters": "Touches ai, finance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-09T14:38:11.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.3,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "finance"
@@ -277,8 +277,8 @@
       "summary": "Building an AI agent that works in semiconductor and PCB design requires solving problems that generic agentic frameworks were never designed to handle. The post The Architecture Decisions Behind A Production-Ready EDA AI Agent appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:08:30.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -293,8 +293,8 @@
       "summary": "Characteristics once primarily associated with extending smartphone battery life map directly onto the needs of real-time on-device inference. The post The Expansion Of LPDDR Into Edge AI Platforms appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:07:13.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -309,8 +309,8 @@
       "summary": "As the semiconductor ecosystem pivots to AI, it is transforming how IP is created, verified, managed, and sold. The post AI Is Rewriting The IP Playbook appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:05:41.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -325,8 +325,8 @@
       "summary": "As AI infrastructure fragments into specialized tiers, CPUs are becoming the orchestration layer for agentic workloads. The post From Host Node To Heterogeneous Rack: Rethinking The AI CPU appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-09T07:02:11.000Z",
-      "fetchedAt": "2026-07-10T15:57:43.705Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-10T17:54:07.183Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
