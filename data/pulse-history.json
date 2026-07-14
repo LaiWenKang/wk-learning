@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T01:05:01.281Z",
+  "updatedAt": "2026-07-14T04:11:25.102Z",
   "signals": [
     {
       "id": "sig-caqpvr",
@@ -10,7 +10,7 @@
       "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-13T19:36:14.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
       "score": 10,
       "tags": [
         "sk hynix",
@@ -28,7 +28,7 @@
       "summary": "Samsung has started mass production of the PM1763, its first PCIe Gen6 enterprise SSD, pairing 9th-generation V-NAND with a newly developed 4nm controller. The 15.36TB flagship is rated for sequential reads up to 28,400 MB/s and writes up to 21,000 MB/s, with reads landing at 1.9",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-08T18:57:07.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -47,7 +47,7 @@
       "summary": "The Samsung PM1763 is a PCIe Gen6 NVMe SSD that the company said has entered production to support new AI servers The post Samsung PM1763 PCIe Gen6 Enterprise SSD in Production appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-08T13:51:57.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -58,20 +58,37 @@
       ]
     },
     {
-      "id": "sig-qdaq73",
-      "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-      "url": "https://arxiv.org/abs/2607.01418",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "19 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-13T21:43:51Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 8.9,
+      "id": "sig-qdzbvb",
+      "title": "Which Neurons Detect Malicious Code? A Probing Study of LLM Security Knowledge",
+      "url": "https://arxiv.org/abs/2607.10221",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.10221v1 Announce Type: new Abstract: Background. Large language models (LLMs) have become increasingly capable of understanding and generating source code, leading to their widespread adoption in software engineering tasks such as code completion, repair, and vulnerabi",
+      "whyItMatters": "Touches llm, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 9,
       "tags": [
-        "claude code",
-        "claude",
-        "github"
+        "llm",
+        "software engineering",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qdzb6p",
+      "title": "FlashAccel: Leveraging High-Bandwidth Flash for High-Throughput LLM Inference",
+      "url": "https://arxiv.org/abs/2607.10186",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.10186v1 Announce Type: new Abstract: Large language model (LLM) inference is increasingly limited by the capacity of High-Bandwidth Memory (HBM) in GPUs, as model weights and KV cache grow rapidly. High-Bandwidth Flash (HBF) provides higher capacity than HBM while reta",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "hbm"
       ]
     },
     {
@@ -83,11 +100,237 @@
       "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
       "score": 8.9,
       "tags": [
         "ssd",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-qdaq73",
+      "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "42 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-13T21:43:51Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8.8,
+      "tags": [
+        "claude code",
+        "claude",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kij7cp",
+      "title": "Fable gets another bump",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’",
+      "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-12T21:20:07.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8.1,
+      "tags": [
+        "claude code",
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-qdzc02",
+      "title": "From Business Requirements to Test Assertions: Evaluating LLM-Generated Oracles on Real Bugs",
+      "url": "https://arxiv.org/abs/2607.10277",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.10277v1 Announce Type: new Abstract: The oracle problem (determining the correct expected outcome for a test) remains a major bottleneck in automated testing, and is increasingly relevant as non-experts rely on AI-generated code they cannot reliably validate. We study ",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qdgymf",
+      "title": "Chiplet3D: Pin- and Thermal-Aware 3D Chiplet Floorplanning via Convolution-Embedded MILP",
+      "url": "https://arxiv.org/abs/2607.09742",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "firmware",
+      "summary": "arXiv:2607.09742v1 Announce Type: new Abstract: As traditional Moore's Law scaling slows down, 3D-ICs stack multiple active dies vertically to sustain performance scaling. However, this vertical stacking traps heat inside, making temperature a design concern. Although we can fix ",
+      "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8,
+      "tags": [
+        "embedded",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-qdgyp9",
+      "title": "WINT: A Novel Weighted Integer Representation with Improved Error Characteristics",
+      "url": "https://arxiv.org/abs/2607.09775",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.09775v1 Announce Type: new Abstract: In computing, there is a need for number representation schemes that provide large dynamic range with low error. Many applications, including embedded systems and edge machine learning, have stringent memory constraints yet require ",
+      "whyItMatters": "Touches machine learning, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8,
+      "tags": [
+        "machine learning",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-qdzhsz",
+      "title": "IRONSmith: A Visual Dataflow Design Environment for AMD Ryzen AI NPUs",
+      "url": "https://arxiv.org/abs/2607.10944",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.10944v1 Announce Type: new Abstract: Machine learning inference increasingly relies on specialized hardware accelerators for throughput and power efficiency. Neural Processing Units (NPUs), such as the AMD Ryzen AI NPU, offer significant ML advantages over CPUs and GPU",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-85rlhx",
+      "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
+      "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-13T18:53:38.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7.7,
+      "tags": [
+        "storage",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1lherza",
+      "title": "Startup Funding: Q2 2026",
+      "url": "https://semiengineering.com/startup-funding-q2-2026/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B. The post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-13T07:10:19.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1rh27mx",
+      "title": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
+      "url": "https://semiengineering.com/innovation-first-ai-second-lessons-from-ssn-and-the-future-of-test/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Human engineers created the breakthrough architecture; AI helps maximize its value. The post Innovation First, AI Second: Lessons From SSN And The Future Of Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-13T07:02:37.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1ljeobt",
+      "title": "Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN",
+      "url": "https://semiengineering.com/rethinking-ethernet-for-the-ai-scale-up-era-inside-esun/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Evolving Ethernet into a lossless, low-latency, deterministic transport built for the way AI accelerators actually talk to each other. The post Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-13T07:01:25.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-14gyitz",
+      "title": "Sandisk sets up flash chip supply agreement with Meta",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/13/sandisk-sets-up-flash-chip-supply-agreement-with-meta/5270489",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sandisk — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-13T13:09:52.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7.1,
+      "tags": [
+        "sandisk"
+      ]
+    },
+    {
+      "id": "sig-1ucogwk",
+      "title": "Nanako0129/pilotfish (Python) — trending new repo",
+      "url": "https://github.com/Nanako0129/pilotfish",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install. · ★ 430",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-08T10:53:34Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1mnxnxj",
+      "title": "Raymondhou0917/speak-human-tw — trending new repo",
+      "url": "https://github.com/Raymondhou0917/speak-human-tw",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。 · ★ 488",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-08T09:23:53Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-qdgxu3",
+      "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+      "url": "https://arxiv.org/abs/2607.09665",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.09665v1 Announce Type: new Abstract: Prompt wrappers often differ only in formatting, yet they can change model scores enough to flip leaderboard conclusions. We study this variance under a token-controlled protocol and introduce two complementary metrics: the Format S",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T04:00:00.000Z",
+      "fetchedAt": "2026-07-14T04:11:25.102Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -159,87 +402,6 @@
       ]
     },
     {
-      "id": "sig-kij7cp",
-      "title": "Fable gets another bump",
-      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’",
-      "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-12T21:20:07.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 8.2,
-      "tags": [
-        "claude code",
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-85rlhx",
-      "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
-      "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-13T18:53:38.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7.8,
-      "tags": [
-        "storage",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1lherza",
-      "title": "Startup Funding: Q2 2026",
-      "url": "https://semiengineering.com/startup-funding-q2-2026/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B. The post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T07:10:19.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1rh27mx",
-      "title": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
-      "url": "https://semiengineering.com/innovation-first-ai-second-lessons-from-ssn-and-the-future-of-test/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Human engineers created the breakthrough architecture; AI helps maximize its value. The post Innovation First, AI Second: Lessons From SSN And The Future Of Test appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T07:02:37.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1ljeobt",
-      "title": "Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN",
-      "url": "https://semiengineering.com/rethinking-ethernet-for-the-ai-scale-up-era-inside-esun/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Evolving Ethernet into a lossless, low-latency, deterministic transport built for the way AI accelerators actually talk to each other. The post Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T07:01:25.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-qdg7v2",
       "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
       "url": "https://arxiv.org/abs/2607.08894",
@@ -285,55 +447,6 @@
       "tags": [
         "ai",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-14gyitz",
-      "title": "Sandisk sets up flash chip supply agreement with Meta",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/13/sandisk-sets-up-flash-chip-supply-agreement-with-meta/5270489",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sandisk — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-13T13:09:52.000Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7.2,
-      "tags": [
-        "sandisk"
-      ]
-    },
-    {
-      "id": "sig-1ucogwk",
-      "title": "Nanako0129/pilotfish (Python) — trending new repo",
-      "url": "https://github.com/Nanako0129/pilotfish",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install. · ★ 426",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-08T10:53:34Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1mnxnxj",
-      "title": "Raymondhou0917/speak-human-tw — trending new repo",
-      "url": "https://github.com/Raymondhou0917/speak-human-tw",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。 · ★ 478",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T09:23:53Z",
-      "fetchedAt": "2026-07-14T01:05:01.281Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
       ]
     },
     {
