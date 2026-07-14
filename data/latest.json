@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:44:33.157Z",
+  "generatedAt": "2026-07-14T21:40:16.537Z",
   "signals": [
     {
       "id": "sig-10wspx7",
@@ -10,7 +10,7 @@
       "summary": "Samsung’s new 990 SSD joins the consumer lineup as a mainstream PCIe Gen4 drive that prioritizes efficiency and value over raw speed. Samsung calls it its most power-efficient SSD to date, claiming up to 38% better power efficiency than the 990 PRO. The 2TB model is rated at 7,25",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T16:00:24.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,13 +26,30 @@
       "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-13T19:36:14.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 10,
       "tags": [
         "sk hynix",
         "ai",
         "llm",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-1mh1inq",
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "url": "https://gwern.net/guardian-angel",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "26 points on Hacker News",
+      "whyItMatters": "Touches llm, productivity, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T12:50:29Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
+      "score": 8.8,
+      "tags": [
+        "llm",
+        "productivity",
+        "security"
       ]
     },
     {
@@ -44,7 +61,7 @@
       "summary": "arXiv:2607.10221v1 Announce Type: new Abstract: Background. Large language models (LLMs) have become increasingly capable of understanding and generating source code, leading to their widespread adoption in software engineering tasks such as code completion, repair, and vulnerabi",
       "whyItMatters": "Touches llm, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 8.5,
       "tags": [
         "llm",
@@ -61,7 +78,7 @@
       "summary": "arXiv:2607.10186v1 Announce Type: new Abstract: Large language model (LLM) inference is increasingly limited by the capacity of High-Bandwidth Memory (HBM) in GPUs, as model weights and KV cache grow rapidly. High-Bandwidth Flash (HBF) provides higher capacity than HBM while reta",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 8.5,
       "tags": [
         "llm",
@@ -78,7 +95,7 @@
       "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 8.5,
       "tags": [
         "ssd",
@@ -94,7 +111,7 @@
       "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T17:44:58.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -107,10 +124,10 @@
       "url": "https://github.com/openai/codex/issues/28058",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://github.com/openai/codex/issues/28058 Comments URL: https://news.ycombinator.com/item?id=48905028 Points: 393 # Comments: 234",
+      "summary": "Article URL: https://github.com/openai/codex/issues/28058 Comments URL: https://news.ycombinator.com/item?id=48905028 Points: 397 # Comments: 234",
       "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T11:21:32.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.7,
       "tags": [
         "openai",
@@ -126,7 +143,7 @@
       "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’",
       "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-12T21:20:07.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.7,
       "tags": [
         "claude code",
@@ -143,7 +160,7 @@
       "summary": "Customizing NPUs without sacrificing flexibility. The post AI Models On The Edge appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T07:15:13.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -159,7 +176,7 @@
       "summary": "arXiv:2607.10277v1 Announce Type: new Abstract: The oracle problem (determining the correct expected outcome for a test) remains a major bottleneck in automated testing, and is increasingly relevant as non-experts rely on AI-generated code they cannot reliably validate. We study ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -175,7 +192,7 @@
       "summary": "arXiv:2607.09742v1 Announce Type: new Abstract: As traditional Moore's Law scaling slows down, 3D-ICs stack multiple active dies vertically to sustain performance scaling. However, this vertical stacking traps heat inside, making temperature a design concern. Although we can fix ",
       "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.5,
       "tags": [
         "embedded",
@@ -191,7 +208,7 @@
       "summary": "arXiv:2607.09775v1 Announce Type: new Abstract: In computing, there is a need for number representation schemes that provide large dynamic range with low error. Many applications, including embedded systems and edge machine learning, have stringent memory constraints yet require ",
       "whyItMatters": "Touches machine learning, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.5,
       "tags": [
         "machine learning",
@@ -207,7 +224,7 @@
       "summary": "arXiv:2607.10944v1 Announce Type: new Abstract: Machine learning inference increasingly relies on specialized hardware accelerators for throughput and power efficiency. Neural Processing Units (NPUs), such as the AMD Ryzen AI NPU, offer significant ML advantages over CPUs and GPU",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T04:00:00.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -223,7 +240,7 @@
       "summary": "Today we are taking a look at Lenovo's more spacious mini-PC workstation, the ThinkStation P3 Ultra SFF Gen 2. With multiple PCIe slots, the P3 Ultra seeks to strike a fine balance between size and expandability The post Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T17:00:56.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.4,
       "tags": [
         "pcie"
@@ -238,7 +255,7 @@
       "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
       "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-13T18:53:38.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
       "score": 7.3,
       "tags": [
         "storage",
@@ -254,8 +271,8 @@
       "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B. The post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-13T07:10:19.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
-      "score": 7,
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "semiconductor"
@@ -270,8 +287,8 @@
       "summary": "Human engineers created the breakthrough architecture; AI helps maximize its value. The post Innovation First, AI Second: Lessons From SSN And The Future Of Test appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-13T07:02:37.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
-      "score": 7,
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "semiconductor"
@@ -286,41 +303,26 @@
       "summary": "Evolving Ethernet into a lossless, low-latency, deterministic transport built for the way AI accelerators actually talk to each other. The post Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-13T07:01:25.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
-      "score": 7,
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "semiconductor"
       ]
     },
     {
-      "id": "sig-1p26qd9",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-14T18:04:23.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
-      "score": 6.4,
+      "id": "sig-14gyitz",
+      "title": "Sandisk sets up flash chip supply agreement with Meta",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/13/sandisk-sets-up-flash-chip-supply-agreement-with-meta/5270489",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sandisk — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-13T13:09:52.000Z",
+      "fetchedAt": "2026-07-14T21:40:16.537Z",
+      "score": 6.6,
       "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-kb9bo9",
-      "title": "Intel Arc Pro B70 Review: The Hardware Is Ready, the Stack Needs to Catch Up",
-      "url": "https://www.storagereview.com/review/intel-arc-pro-b70-review",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Intel Arc Pro B70 is the most capable and promising deskside AI card Intel has shipped, but at times, it is also the most frustrating. Intel set the list price at $949 for 32GB of GDDR6 when it launched in March of this year. However, the memory crunch squeezing the whole mar",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-14T16:59:17.000Z",
-      "fetchedAt": "2026-07-14T20:44:33.157Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
+        "sandisk"
       ]
     }
   ]
