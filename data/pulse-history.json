@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T14:15:32.263Z",
+  "updatedAt": "2026-07-15T15:53:00.436Z",
   "signals": [
     {
       "id": "sig-1sbc723",
@@ -10,10 +10,309 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
       "score": 10,
       "tags": [
         "pcie",
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-caqpvr",
+      "title": "Near-memory Dequantization Architecture In Custom HBM for LLM inference (SK hynix)",
+      "url": "https://semiengineering.com/near-memory-dequantization-architecture-in-custom-hbm-for-llm-inference-sk-hynix/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-13T19:36:14.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 10,
+      "tags": [
+        "sk hynix",
+        "ai",
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-qe0uft",
+      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.12104",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2607.12104v1 Announce Type: new Abstract: Machine learning models for system diagnostics rely on kernel execution traces to capture fine-grained system behavior, but collecting production traces in industrial systems is costly due to runtime overhead, storage demands, and p",
+      "whyItMatters": "Touches machine learning, storage, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 8.7,
+      "tags": [
+        "machine learning",
+        "storage",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-mhfxmh",
+      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
+      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
+      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-11T17:00:08.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 8.5,
+      "tags": [
+        "ssd",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-sqpmzn",
+      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
+      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-15T07:01:01.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qe0vbv",
+      "title": "TestMiner: Software Testing Analysis for GitHub Repositories",
+      "url": "https://arxiv.org/abs/2607.12223",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.12223v1 Announce Type: new Abstract: Software systems have unique testing characteristics. Some projects can emphasize unit tests, while others may focus on end-to-end testing. Test organization may vary across ecosystems: in languages like Python and Java, tests are t",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.7,
+      "tags": [
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-qe0ves",
+      "title": "WIP: Software Engineering Competencies in the Age of AI",
+      "url": "https://arxiv.org/abs/2607.12259",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.12259v1 Announce Type: new Abstract: A university education is meant to fully prepare graduates to enter and succeed in the workforce in their field. Accreditation bodies and professional organizations help to achieve this by publishing curriculum content, skills and c",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qe0vgg",
+      "title": "Code-MUE: Measuring Code LLMs' Uncertainty through Execution-based Semantic Interaction Graphs",
+      "url": "https://arxiv.org/abs/2607.12273",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.12273v1 Announce Type: new Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks, where even minor errors can lead to severe functional, security, or safety conseque",
+      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.7,
+      "tags": [
+        "software engineering",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qe0ufq",
+      "title": "Fault Injection in OpenAPI Specifications for Evaluating Black-Box Testing Effectiveness",
+      "url": "https://arxiv.org/abs/2607.12101",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.12101v1 Announce Type: new Abstract: OpenAPI specifications are the primary input for black-box testing tools in microservice systems (MSS), yet prior work shows these specifications are often incomplete, inconsistent, or incorrect. Despite this, most studies on OpenAP",
+      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.2,
+      "tags": [
+        "fault injection"
+      ]
+    },
+    {
+      "id": "sig-bvwsax",
+      "title": "AI Models On The Edge",
+      "url": "https://semiengineering.com/ai-models-on-the-edge/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Customizing NPUs without sacrificing flexibility. The post AI Models On The Edge appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T07:15:13.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1dfuivc",
+      "title": "Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and a Bit Better",
+      "url": "https://www.servethehome.com/lenovo-thinkstation-p3-ultra-sff-g2-review-intel-nvidia-a-bit-bigger-and-a-bit-better/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "Today we are taking a look at Lenovo's more spacious mini-PC workstation, the ThinkStation P3 Ultra SFF Gen 2. With multiple PCIe slots, the P3 Ultra seeks to strike a fine balance between size and expandability The post Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-14T17:00:56.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.9,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-1dff7il",
+      "title": "OpenAI loses trademark dispute at EU court",
+      "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "42 points on Hacker News",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T14:32:36Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.5,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1pdhida",
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "How I tricked Claude into leaking your deepest, darkest secrets I've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap: regular Claude chat is at risk of lethal trifecta attacks, be",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T14:21:54.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.5,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-jexyox",
+      "title": "Show HN: StyleSeed – a design-rules engine so AI agents stop building generic UI",
+      "url": "https://github.com/bitjaru/styleseed",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "13 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T13:55:23Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-pnfbf7",
+      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "94 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T13:18:15Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-60gvet",
+      "title": "WEKA changes marketing head as messaging moves to AI inferencing at scale",
+      "url": "https://www.blocksandfiles.com/file/2026/07/15/weka-changes-marketing-head-as-messaging-moves-to-ai-inferencing-at-scale/5271663",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T12:06:00.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-19pl9ng",
+      "title": "Prioritize mental health, and why communication is so important",
+      "url": "https://ramones.dev/posts/mental-health/",
+      "source": "Hacker News (front page)",
+      "category": "communication",
+      "summary": "136 points on Hacker News",
+      "whyItMatters": "Touches communication — relevant to communicating with more impact.",
+      "publishedAt": "2026-07-15T11:27:35Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-9wjuf",
+      "title": "oil-oil/beautify-github-readme (Python) — trending new repo",
+      "url": "https://github.com/oil-oil/beautify-github-readme",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown · ★ 456",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-13T07:31:56Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1lherza",
+      "title": "Startup Funding: Q2 2026",
+      "url": "https://semiengineering.com/startup-funding-q2-2026/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B. The post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-13T07:10:19.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1rh27mx",
+      "title": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
+      "url": "https://semiengineering.com/innovation-first-ai-second-lessons-from-ssn-and-the-future-of-test/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Human engineers created the breakthrough architecture; AI helps maximize its value. The post Innovation First, AI Second: Lessons From SSN And The Future Of Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-13T07:02:37.000Z",
+      "fetchedAt": "2026-07-15T15:53:00.436Z",
+      "score": 6.4,
+      "tags": [
         "ai",
         "semiconductor"
       ]
@@ -32,121 +331,6 @@
       "tags": [
         "ssd",
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-caqpvr",
-      "title": "Near-memory Dequantization Architecture In Custom HBM for LLM inference (SK hynix)",
-      "url": "https://semiengineering.com/near-memory-dequantization-architecture-in-custom-hbm-for-llm-inference-sk-hynix/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-13T19:36:14.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 10,
-      "tags": [
-        "sk hynix",
-        "ai",
-        "llm",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-qe0uft",
-      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
-      "url": "https://arxiv.org/abs/2607.12104",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2607.12104v1 Announce Type: new Abstract: Machine learning models for system diagnostics rely on kernel execution traces to capture fine-grained system behavior, but collecting production traces in industrial systems is costly due to runtime overhead, storage demands, and p",
-      "whyItMatters": "Touches machine learning, storage, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 8.7,
-      "tags": [
-        "machine learning",
-        "storage",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-mhfxmh",
-      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
-      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
-      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 8.5,
-      "tags": [
-        "ssd",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-sqpmzn",
-      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
-      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process? The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-15T07:01:01.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-qe0vbv",
-      "title": "TestMiner: Software Testing Analysis for GitHub Repositories",
-      "url": "https://arxiv.org/abs/2607.12223",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12223v1 Announce Type: new Abstract: Software systems have unique testing characteristics. Some projects can emphasize unit tests, while others may focus on end-to-end testing. Test organization may vary across ecosystems: in languages like Python and Java, tests are t",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.7,
-      "tags": [
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-qe0ves",
-      "title": "WIP: Software Engineering Competencies in the Age of AI",
-      "url": "https://arxiv.org/abs/2607.12259",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.12259v1 Announce Type: new Abstract: A university education is meant to fully prepare graduates to enter and succeed in the workforce in their field. Accreditation bodies and professional organizations help to achieve this by publishing curriculum content, skills and c",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-qe0vgg",
-      "title": "Code-MUE: Measuring Code LLMs' Uncertainty through Execution-based Semantic Interaction Graphs",
-      "url": "https://arxiv.org/abs/2607.12273",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12273v1 Announce Type: new Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks, where even minor errors can lead to severe functional, security, or safety conseque",
-      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.7,
-      "tags": [
-        "software engineering",
-        "security"
       ]
     },
     {
@@ -182,52 +366,6 @@
       ]
     },
     {
-      "id": "sig-qe0ufq",
-      "title": "Fault Injection in OpenAPI Specifications for Evaluating Black-Box Testing Effectiveness",
-      "url": "https://arxiv.org/abs/2607.12101",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12101v1 Announce Type: new Abstract: OpenAPI specifications are the primary input for black-box testing tools in microservice systems (MSS), yet prior work shows these specifications are often incomplete, inconsistent, or incorrect. Despite this, most studies on OpenAP",
-      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.2,
-      "tags": [
-        "fault injection"
-      ]
-    },
-    {
-      "id": "sig-bvwsax",
-      "title": "AI Models On The Edge",
-      "url": "https://semiengineering.com/ai-models-on-the-edge/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Customizing NPUs without sacrificing flexibility. The post AI Models On The Edge appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-14T07:15:13.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1dfuivc",
-      "title": "Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and a Bit Better",
-      "url": "https://www.servethehome.com/lenovo-thinkstation-p3-ultra-sff-g2-review-intel-nvidia-a-bit-bigger-and-a-bit-better/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "Today we are taking a look at Lenovo's more spacious mini-PC workstation, the ThinkStation P3 Ultra SFF Gen 2. With multiple PCIe slots, the P3 Ultra seeks to strike a fine balance between size and expandability The post Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-14T17:00:56.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 6.9,
-      "tags": [
-        "pcie"
-      ]
-    },
-    {
       "id": "sig-85rlhx",
       "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
       "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
@@ -244,69 +382,6 @@
       ]
     },
     {
-      "id": "sig-pnfbf7",
-      "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
-      "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "35 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T13:18:15Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-9wjuf",
-      "title": "oil-oil/beautify-github-readme (Python) — trending new repo",
-      "url": "https://github.com/oil-oil/beautify-github-readme",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown · ★ 430",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-13T07:31:56Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 6.5,
-      "tags": [
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1lherza",
-      "title": "Startup Funding: Q2 2026",
-      "url": "https://semiengineering.com/startup-funding-q2-2026/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B. The post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T07:10:19.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1rh27mx",
-      "title": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
-      "url": "https://semiengineering.com/innovation-first-ai-second-lessons-from-ssn-and-the-future-of-test/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Human engineers created the breakthrough architecture; AI helps maximize its value. The post Innovation First, AI Second: Lessons From SSN And The Future Of Test appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T07:02:37.000Z",
-      "fetchedAt": "2026-07-15T14:15:32.263Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-1ljeobt",
       "title": "Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN",
       "url": "https://semiengineering.com/rethinking-ethernet-for-the-ai-scale-up-era-inside-esun/",
@@ -320,36 +395,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-60gvet",
-      "title": "WEKA changes marketing head as messaging moves to AI inferencing at scale",
-      "url": "https://www.blocksandfiles.com/file/2026/07/15/weka-changes-marketing-head-as-messaging-moves-to-ai-inferencing-at-scale/5271663",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T12:06:00.000Z",
-      "fetchedAt": "2026-07-15T12:20:41.550Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-19pl9ng",
-      "title": "Prioritize mental health, and why communication is so important",
-      "url": "https://ramones.dev/posts/mental-health/",
-      "source": "Hacker News (front page)",
-      "category": "communication",
-      "summary": "9 points on Hacker News",
-      "whyItMatters": "Touches communication — relevant to communicating with more impact.",
-      "publishedAt": "2026-07-15T11:27:35Z",
-      "fetchedAt": "2026-07-15T12:20:41.550Z",
-      "score": 6.5,
-      "tags": [
-        "communication"
       ]
     },
     {
@@ -2967,37 +3012,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1bm3rom",
-      "title": "We charge $10k a week to delete AI-generated code",
-      "url": "https://odra.dev/slopfix/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://odra.dev/slopfix/ Comments URL: https://news.ycombinator.com/item?id=48823359 Points: 283 # Comments: 215",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-07T20:35:42.000Z",
-      "fetchedAt": "2026-07-08T15:36:48.385Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-3qjw0p",
-      "title": "elder-plinius/T3MP3ST (TypeScript) — trending new repo",
-      "url": "https://github.com/elder-plinius/T3MP3ST",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "autonomous red teaming platform; multi-agent offensive-security meta-harness · ★ 3721",
-      "whyItMatters": "Touches typescript, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-02T17:53:55Z",
-      "fetchedAt": "2026-07-08T15:36:48.385Z",
-      "score": 6,
-      "tags": [
-        "typescript",
-        "security"
       ]
     }
   ]
