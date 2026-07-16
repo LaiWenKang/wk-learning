@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T23:14:17.141Z",
+  "updatedAt": "2026-07-16T00:11:40.257Z",
   "signals": [
     {
       "id": "sig-1sbc723",
@@ -10,7 +10,7 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -27,7 +27,7 @@
       "summary": "Samsung’s new 990 SSD joins the consumer lineup as a mainstream PCIe Gen4 drive that prioritizes efficiency and value over raw speed. Samsung calls it its most power-efficient SSD to date, claiming up to 38% better power efficiency than the 990 PRO. The 2TB model is rated at 7,25",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T16:00:24.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -43,30 +43,13 @@
       "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-13T19:36:14.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 10,
       "tags": [
         "sk hynix",
         "ai",
         "llm",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-qe0uft",
-      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
-      "url": "https://arxiv.org/abs/2607.12104",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2607.12104v1 Announce Type: new Abstract: Machine learning models for system diagnostics rely on kernel execution traces to capture fine-grained system behavior, but collecting production traces in industrial systems is costly due to runtime overhead, storage demands, and p",
-      "whyItMatters": "Touches machine learning, storage, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 8.5,
-      "tags": [
-        "machine learning",
-        "storage",
-        "kernel"
       ]
     },
     {
@@ -78,11 +61,28 @@
       "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 8.5,
       "tags": [
         "ssd",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-qe0uft",
+      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.12104",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2607.12104v1 Announce Type: new Abstract: Machine learning models for system diagnostics rely on kernel execution traces to capture fine-grained system behavior, but collecting production traces in industrial systems is costly due to runtime overhead, storage demands, and p",
+      "whyItMatters": "Touches machine learning, storage, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 8.4,
+      "tags": [
+        "machine learning",
+        "storage",
+        "kernel"
       ]
     },
     {
@@ -91,10 +91,10 @@
       "url": "https://brainless.swerdlow.dev",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "65 points on Hacker News",
+      "summary": "77 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-15T19:42:53Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 7.9,
       "tags": [
         "claude code",
@@ -110,7 +110,7 @@
       "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-15T07:01:01.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -126,8 +126,8 @@
       "summary": "arXiv:2607.12223v1 Announce Type: new Abstract: Software systems have unique testing characteristics. Some projects can emphasize unit tests, while others may focus on end-to-end testing. Test organization may vary across ecosystems: in languages like Python and Java, tests are t",
       "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 7.4,
       "tags": [
         "python",
         "github"
@@ -142,8 +142,8 @@
       "summary": "arXiv:2607.12259v1 Announce Type: new Abstract: A university education is meant to fully prepare graduates to enter and succeed in the workforce in their field. Accreditation bodies and professional organizations help to achieve this by publishing curriculum content, skills and c",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "software engineering"
@@ -158,8 +158,8 @@
       "summary": "arXiv:2607.12273v1 Announce Type: new Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks, where even minor errors can lead to severe functional, security, or safety conseque",
       "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 7.4,
       "tags": [
         "software engineering",
         "security"
@@ -174,7 +174,7 @@
       "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T17:44:58.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 7.2,
       "tags": [
         "ai",
@@ -190,8 +190,8 @@
       "summary": "arXiv:2607.12101v1 Announce Type: new Abstract: OpenAPI specifications are the primary input for black-box testing tools in microservice systems (MSS), yet prior work shows these specifications are often incomplete, inconsistent, or incorrect. Despite this, most studies on OpenAP",
       "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
       "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 7,
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.9,
       "tags": [
         "fault injection"
       ]
@@ -205,7 +205,7 @@
       "summary": "Customizing NPUs without sacrificing flexibility. The post AI Models On The Edge appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T07:15:13.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 6.9,
       "tags": [
         "ai",
@@ -221,8 +221,8 @@
       "summary": "Today we are taking a look at Lenovo's more spacious mini-PC workstation, the ThinkStation P3 Ultra SFF Gen 2. With multiple PCIe slots, the P3 Ultra seeks to strike a fine balance between size and expandability The post Lenovo ThinkStation P3 Ultra SFF G2 Review A Bit Bigger and",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T17:00:56.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 6.7,
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.6,
       "tags": [
         "pcie"
       ]
@@ -233,13 +233,89 @@
       "url": "https://mort.coffee/home/sqlite-editions/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "21 points on Hacker News",
+      "summary": "57 points on Hacker News",
       "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-15T22:42:58Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
       "score": 6.5,
       "tags": [
         "rust"
+      ]
+    },
+    {
+      "id": "sig-85rlhx",
+      "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
+      "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-13T18:53:38.000Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.5,
+      "tags": [
+        "storage",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-j6bfls",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "20 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T22:23:27Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1uhvx7k",
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "54 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T21:16:36Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-xcqket",
+      "title": "Cloudera and VAST Data Take Aim at GPU Starvation With Joint AI Factory Stack",
+      "url": "https://www.storagereview.com/news/cloudera-and-vast-data-take-aim-at-gpu-starvation-with-joint-ai-factory-stack",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Cloudera and VAST Data have entered into a partnership to build a unified AI factory architecture for enterprises running continuous AI training, inference, and analytics workloads. The joint offering combines Cloudera’s containerized data services with the VAST AI Operating Syst",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-15T17:43:28.000Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1kfbp38",
+      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-15T17:29:31.000Z",
+      "fetchedAt": "2026-07-16T00:11:40.257Z",
+      "score": 6.3,
+      "tags": [
+        "github"
       ]
     },
     {
@@ -270,67 +346,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-85rlhx",
-      "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
-      "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-13T18:53:38.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 6.5,
-      "tags": [
-        "storage",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1uhvx7k",
-      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "35 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T21:16:36Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-xcqket",
-      "title": "Cloudera and VAST Data Take Aim at GPU Starvation With Joint AI Factory Stack",
-      "url": "https://www.storagereview.com/news/cloudera-and-vast-data-take-aim-at-gpu-starvation-with-joint-ai-factory-stack",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Cloudera and VAST Data have entered into a partnership to build a unified AI factory architecture for enterprises running continuous AI training, inference, and analytics workloads. The joint offering combines Cloudera’s containerized data services with the VAST AI Operating Syst",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T17:43:28.000Z",
-      "fetchedAt": "2026-07-15T23:14:17.141Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1kfbp38",
-      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-      "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T17:29:31.000Z",
-      "fetchedAt": "2026-07-15T22:15:29.155Z",
-      "score": 6.4,
-      "tags": [
-        "github"
       ]
     },
     {
@@ -2923,81 +2938,6 @@
       "tags": [
         "ai",
         "typescript"
-      ]
-    },
-    {
-      "id": "sig-uub81s",
-      "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
-      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "21 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T23:11:28Z",
-      "fetchedAt": "2026-07-08T23:39:08.759Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-nbrj88",
-      "title": "The classifiers Anthropic puts in front of Fable are too zealous",
-      "url": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "177 points on Hacker News",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T20:41:33Z",
-      "fetchedAt": "2026-07-08T23:39:08.759Z",
-      "score": 6.4,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1n893mv",
-      "title": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase",
-      "url": "https://github.com/animesh-94/Onboard-CLI",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "16 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T20:09:03Z",
-      "fetchedAt": "2026-07-08T23:39:08.759Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qddt7p",
-      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
-      "url": "https://arxiv.org/abs/2607.05456",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.05456v1 Announce Type: new Abstract: While recent advances in large language models have enabled end-to-end automated manuscript generation, existing systems suffer from three critical deficiencies: (i) generated claims are not deterministically grounded in verifiable ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T04:00:00.000Z",
-      "fetchedAt": "2026-07-08T23:39:08.759Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qddu3n",
-      "title": "CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming",
-      "url": "https://arxiv.org/abs/2607.05571",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.05571v1 Announce Type: new Abstract: Large language models are increasingly explored as AI tutors, yet deploying them in K-12 settings raises concerns around privacy, cost, and reliance on proprietary models. Small language models (SLMs) offer a promising alternative, ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-08T04:00:00.000Z",
-      "fetchedAt": "2026-07-08T23:39:08.759Z",
-      "score": 6,
-      "tags": [
-        "ai"
       ]
     }
   ]
