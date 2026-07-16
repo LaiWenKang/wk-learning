@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T06:05:55.154Z",
+  "updatedAt": "2026-07-16T08:28:29.291Z",
   "signals": [
     {
       "id": "sig-10wspx7",
@@ -10,7 +10,7 @@
       "summary": "Samsung’s new 990 SSD joins the consumer lineup as a mainstream PCIe Gen4 drive that prioritizes efficiency and value over raw speed. Samsung calls it its most power-efficient SSD to date, claiming up to 38% better power efficiency than the 990 PRO. The 2TB model is rated at 7,25",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T16:00:24.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,12 +26,292 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 9.9,
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qe1li5",
+      "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
+      "url": "https://arxiv.org/abs/2607.13071",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13071v1 Announce Type: new Abstract: Agentic LLM coding tools compress long session histories into compaction summaries that subsequent sessions inherit as ground truth. This paper documents a failure mode in Claude Code where partial standard output from timed-out com",
+      "whyItMatters": "Touches claude code, claude, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 8.9,
+      "tags": [
+        "claude code",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qe1lhf",
+      "title": "The Economics of AI Decoding Chips: Rebalancing Compute, Capacity, and Bandwidth for Efficient LLM Inference",
+      "url": "https://arxiv.org/abs/2607.13068",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.13068v1 Announce Type: new Abstract: Every mainstream GPU is built compute-heavy and capacity-light: it pairs enormous arithmetic throughput with too little memory to hold a modern model. In contrast, large language model decoding requires little compute and a large am",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-mhfxmh",
+      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
+      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
+      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-11T17:00:08.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 8.5,
+      "tags": [
+        "ssd",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-qe1ljz",
+      "title": "Self-Improving AI Coding Agents Through Accumulated Behavioral Rules: A Closed-Loop Framework",
+      "url": "https://arxiv.org/abs/2607.13091",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13091v1 Announce Type: new Abstract: LLM-based coding agents repeat the same classes of mistakes across sessions because they lack a mechanism to retain corrections from human review feedback. We present a closed-loop framework in which every accepted review comment is",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qe1map",
+      "title": "Design-System-Aware Development with AI: Evaluating Productivity and Design Consistency",
+      "url": "https://arxiv.org/abs/2607.13156",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13156v1 Announce Type: new Abstract: Design Systems (DS) help standardize front-end development, yet developers still face challenges when translating high-fidelity mockups into consistent, production-ready interfaces. Although AI-assisted tools have emerged as a poten",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-tk0keg",
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to t",
+      "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T00:33:18.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 7.8,
+      "tags": [
+        "coding agent",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-qe1qeb",
+      "title": "A Telemetry-Driven Model for Quantifying Upgrade Risk in Durable Workflow Execution",
+      "url": "https://arxiv.org/abs/2607.13617",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.13617v1 Announce Type: new Abstract: Durable workflow engines reconstruct execution state by deterministically replaying an immutable event log, coupling every in-flight run to the code version that produced its history: a new deployment can invalidate the replay of ru",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 7.4,
+      "tags": [
+        "telemetry"
+      ]
+    },
+    {
+      "id": "sig-sqpmzn",
+      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
+      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-15T07:01:01.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-uo0kw",
+      "title": "Supermicro’s Edge AI Appliances Drop the Per-Site Storage Array With Portworx and OpenShift",
+      "url": "https://www.storagereview.com/news/supermicros-edge-ai-appliances-drop-the-per-site-storage-array-with-portworx-and-openshift",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-14T17:44:58.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-vdvinz",
+      "title": "Why Metal TIM Warpage Simulations Fail—And How To Fix Them",
+      "url": "https://semiengineering.com/why-metal-tim-warpage-simulations-fail-and-how-to-fix-them/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Characterizing the properties of thermal interface materials under actual application conditions. The post Why Metal TIM Warpage Simulations Fail—And How To Fix Them appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:08:58.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-18scbzs",
+      "title": "From Feature-Scale Simulation To Digital Twins: Helping Process Engineers Tackle Growing Complexity",
+      "url": "https://semiengineering.com/from-feature-scale-simulation-to-digital-twins-helping-process-engineers-tackle-growing-complexity/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Physics-grounded workflows help process teams to explore, understand, and act on a rapidly expanding innovation space. The post From Feature-Scale Simulation To Digital Twins: Helping Process Engineers Tackle Growing Complexity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:06:16.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1szytt8",
+      "title": "Can Fine-Pitch Hybrid Bonding Go High Volume?",
+      "url": "https://semiengineering.com/can-fine-pitch-hybrid-bonding-go-high-volume/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Hybrid bonding already works in production, but finer-pitch die-to-wafer integration must preserve fab-level surface and alignment control at back-end volumes and costs. The post Can Fine-Pitch Hybrid Bonding Go High Volume? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:05:19.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1b20p88",
+      "title": "Optimizing The Nano-TSV-to-BPR Connection In Backside Power Networks",
+      "url": "https://semiengineering.com/optimizing-the-nano-tsv-to-bpr-connection-in-backside-power-networks/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "A realistic virtual model uncovers the impact of rounded corners on sensitivity to overlay-induced resistance. The post Optimizing The Nano-TSV-to-BPR Connection In Backside Power Networks appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:05:11.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1tzv629",
+      "title": "New Nonvolatile Memory Winners Emerge",
+      "url": "https://semiengineering.com/new-nonvolatile-memory-winners-emerge/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "RRAM, MRAM have promising futures, while FeRAM lurks, and UltraRAM plans a debut. The post New Nonvolatile Memory Winners Emerge appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:02:17.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1cnxi1z",
+      "title": "Co-Packaged Optics for Multi-Die Designs",
+      "url": "https://semiengineering.com/co-packaged-optics-for-multi-die-designs/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "CPO reduces electrical loss, improves energy efficiency and reach, and enables bandwidth densities that are increasingly difficult to achieve with copper alone. The post Co-Packaged Optics for Multi-Die Designs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:01:45.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1yw5kdv",
+      "title": "Alternative Materials For Hybrid Bonding",
+      "url": "https://semiengineering.com/alternative-materials-for-hybrid-bonding/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Nanotwinned copper, SiCN, BCB, and passivating metals are all possibilities The post Alternative Materials For Hybrid Bonding appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:01:42.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1tjn8dy",
+      "title": "Accelerating Sustainability With Smart Manufacturing",
+      "url": "https://semiengineering.com/accelerating-sustainability-with-smart-manufacturing/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "An Industry 4.0 technology roadmap for semiconductor device makers that covers carbon emissions, water, and hazardous waste. The post Accelerating Sustainability With Smart Manufacturing appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-16T07:01:16.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qe1len",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate a",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "fetchedAt": "2026-07-16T08:28:29.291Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -50,151 +330,6 @@
         "ai",
         "llm",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-qe1li5",
-      "title": "Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes",
-      "url": "https://arxiv.org/abs/2607.13071",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13071v1 Announce Type: new Abstract: Agentic LLM coding tools compress long session histories into compaction summaries that subsequent sessions inherit as ground truth. This paper documents a failure mode in Claude Code where partial standard output from timed-out com",
-      "whyItMatters": "Touches claude code, claude, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 8.9,
-      "tags": [
-        "claude code",
-        "claude",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe1lhf",
-      "title": "The Economics of AI Decoding Chips: Rebalancing Compute, Capacity, and Bandwidth for Efficient LLM Inference",
-      "url": "https://arxiv.org/abs/2607.13068",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.13068v1 Announce Type: new Abstract: Every mainstream GPU is built compute-heavy and capacity-light: it pairs enormous arithmetic throughput with too little memory to hold a modern model. In contrast, large language model decoding requires little compute and a large am",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-mhfxmh",
-      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
-      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
-      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 8.5,
-      "tags": [
-        "ssd",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-qe1ljz",
-      "title": "Self-Improving AI Coding Agents Through Accumulated Behavioral Rules: A Closed-Loop Framework",
-      "url": "https://arxiv.org/abs/2607.13091",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13091v1 Announce Type: new Abstract: LLM-based coding agents repeat the same classes of mistakes across sessions because they lack a mechanism to retain corrections from human review feedback. We present a closed-loop framework in which every accepted review comment is",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe1map",
-      "title": "Design-System-Aware Development with AI: Evaluating Productivity and Design Consistency",
-      "url": "https://arxiv.org/abs/2607.13156",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13156v1 Announce Type: new Abstract: Design Systems (DS) help standardize front-end development, yet developers still face challenges when translating high-fidelity mockups into consistent, production-ready interfaces. Although AI-assisted tools have emerged as a poten",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-tk0keg",
-      "title": "Mermaid to Unicode box art (grok-mermaid)",
-      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to t",
-      "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T00:33:18.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7.8,
-      "tags": [
-        "coding agent",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-qe1qeb",
-      "title": "A Telemetry-Driven Model for Quantifying Upgrade Risk in Durable Workflow Execution",
-      "url": "https://arxiv.org/abs/2607.13617",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.13617v1 Announce Type: new Abstract: Durable workflow engines reconstruct execution state by deterministically replaying an immutable event log, coupling every in-flight run to the code version that produced its history: a new deployment can invalidate the replay of ru",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7.4,
-      "tags": [
-        "telemetry"
-      ]
-    },
-    {
-      "id": "sig-sqpmzn",
-      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
-      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-15T07:01:01.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-uo0kw",
-      "title": "Supermicro’s Edge AI Appliances Drop the Per-Site Storage Array With Portworx and OpenShift",
-      "url": "https://www.storagereview.com/news/supermicros-edge-ai-appliances-drop-the-per-site-storage-array-with-portworx-and-openshift",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-14T17:44:58.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage"
       ]
     },
     {
@@ -241,21 +376,6 @@
       "score": 6.5,
       "tags": [
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-qe1len",
-      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-      "url": "https://arxiv.org/abs/2607.13037",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate a",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
