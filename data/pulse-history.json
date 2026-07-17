@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T01:04:49.661Z",
+  "updatedAt": "2026-07-17T04:16:31.954Z",
   "signals": [
     {
       "id": "sig-10wspx7",
@@ -10,8 +10,8 @@
       "summary": "Samsung’s new 990 SSD joins the consumer lineup as a mainstream PCIe Gen4 drive that prioritizes efficiency and value over raw speed. Samsung calls it its most power-efficient SSD to date, claiming up to 38% better power efficiency than the 990 PRO. The 2TB model is rated at 7,25",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T16:00:24.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 9.9,
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 9.8,
       "tags": [
         "ssd",
         "pcie"
@@ -26,8 +26,8 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 9.3,
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 9.2,
       "tags": [
         "pcie",
         "ai",
@@ -43,8 +43,8 @@
       "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 8.7,
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "claude code",
@@ -60,11 +60,261 @@
       "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
       "score": 8.5,
       "tags": [
         "ssd",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-qe2e1u",
+      "title": "Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation",
+      "url": "https://arxiv.org/abs/2607.14165",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.14165v1 Announce Type: new Abstract: While Large Language Models (LLMs) have demonstrated significant capability in software code generation, their application to analog Electronic Design Automation (EDA) is bottlenecked. Owing to limited circuit topology understanding",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qe2fod",
+      "title": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
+      "url": "https://arxiv.org/abs/2607.14340",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.14340v1 Announce Type: new Abstract: AI coding agents produce code faster than humans can review it. In our approach, the prover is the judge of whether the code is correct. Under a verifier-driven loop, AI agents wrote and verified bare-metal security software in Ada/",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1naiaka",
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "175 points on Hacker News",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T20:03:23Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-zsw1az",
+      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
+      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "169 points on Hacker News",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T16:41:37Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1smo6ig",
+      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "107 points on Hacker News",
+      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T15:13:00Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-i2sti6",
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 comp",
+      "whyItMatters": "Touches claude, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-16T14:57:39.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.6,
+      "tags": [
+        "claude",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-sxf4pc",
+      "title": "Quoting Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just",
+      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T13:26:10.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-422y4e",
+      "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
+      "url": "https://joinedanthropic.com",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://joinedanthropic.com Comments URL: https://news.ycombinator.com/item?id=48931588 Points: 295 # Comments: 212",
+      "whyItMatters": "Touches anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T08:03:35.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.4,
+      "tags": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-tk0keg",
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to t",
+      "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T00:33:18.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 7.2,
+      "tags": [
+        "coding agent",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-sqpmzn",
+      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
+      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-15T07:01:01.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qe1len",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate a",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qe1lfm",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "url": "https://arxiv.org/abs/2607.13049",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spina",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qe1lhg",
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "url": "https://arxiv.org/abs/2607.13069",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13069v1 Announce Type: new Abstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise d",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qe1li7",
+      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
+      "url": "https://arxiv.org/abs/2607.13073",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13073v1 Announce Type: new Abstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure) with formal logical machinery for ",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qe1maq",
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "url": "https://arxiv.org/abs/2607.13157",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13157v1 Announce Type: new Abstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of pro",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qe1n21",
+      "title": "Networked Intelligence: Active Shared Context Graphs for Human-AI Team Science",
+      "url": "https://arxiv.org/abs/2607.13220",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.13220v2 Announce Type: new Abstract: Most AI-for-science systems focus on scaling a single reasoning process by using better models, larger context windows, long-horizon agentic execution, or digital co-scientists working with one principal user. However, challenging s",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-17T04:00:00.000Z",
+      "fetchedAt": "2026-07-17T04:16:31.954Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -102,102 +352,6 @@
       ]
     },
     {
-      "id": "sig-1naiaka",
-      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "101 points on Hacker News",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T20:03:23Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-zsw1az",
-      "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
-      "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "151 points on Hacker News",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T16:41:37Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1smo6ig",
-      "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "93 points on Hacker News",
-      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T15:13:00Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-i2sti6",
-      "title": "Mermaid to ASCII art (mermaid-ascii)",
-      "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 comp",
-      "whyItMatters": "Touches claude, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-16T14:57:39.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.7,
-      "tags": [
-        "claude",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-sxf4pc",
-      "title": "Quoting Linus Torvalds",
-      "url": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just",
-      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T13:26:10.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-422y4e",
-      "title": "At least 105 past YC founders have worked at OpenAI and Anthropic",
-      "url": "https://joinedanthropic.com",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://joinedanthropic.com Comments URL: https://news.ycombinator.com/item?id=48931588 Points: 293 # Comments: 210",
-      "whyItMatters": "Touches anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T08:03:35.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.5,
-      "tags": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "id": "sig-qe1ljz",
       "title": "Self-Improving AI Coding Agents Through Accumulated Behavioral Rules: A Closed-Loop Framework",
       "url": "https://arxiv.org/abs/2607.13091",
@@ -230,22 +384,6 @@
       ]
     },
     {
-      "id": "sig-tk0keg",
-      "title": "Mermaid to Unicode box art (grok-mermaid)",
-      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to t",
-      "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T00:33:18.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 7.3,
-      "tags": [
-        "coding agent",
-        "rust"
-      ]
-    },
-    {
       "id": "sig-qe1qeb",
       "title": "A Telemetry-Driven Model for Quantifying Upgrade Risk in Durable Workflow Execution",
       "url": "https://arxiv.org/abs/2607.13617",
@@ -258,22 +396,6 @@
       "score": 6.9,
       "tags": [
         "telemetry"
-      ]
-    },
-    {
-      "id": "sig-sqpmzn",
-      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
-      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-15T07:01:01.000Z",
-      "fetchedAt": "2026-07-17T01:04:49.661Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -581,21 +703,6 @@
       ]
     },
     {
-      "id": "sig-qe1len",
-      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-      "url": "https://arxiv.org/abs/2607.13037",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author. Existing provenance systems operate a",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T08:28:29.291Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "id": "sig-caqpvr",
       "title": "Near-memory Dequantization Architecture In Custom HBM for LLM inference (SK hynix)",
       "url": "https://semiengineering.com/near-memory-dequantization-architecture-in-custom-hbm-for-llm-inference-sk-hynix/",
@@ -657,66 +764,6 @@
       "score": 6.5,
       "tags": [
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-qe1lfm",
-      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-      "url": "https://arxiv.org/abs/2607.13049",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spina",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qe1lhg",
-      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
-      "url": "https://arxiv.org/abs/2607.13069",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13069v1 Announce Type: new Abstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a black-box, step-level test of premise d",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe1li7",
-      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
-      "url": "https://arxiv.org/abs/2607.13073",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13073v1 Announce Type: new Abstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure) with formal logical machinery for ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qe1maq",
-      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
-      "url": "https://arxiv.org/abs/2607.13157",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.13157v1 Announce Type: new Abstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of pro",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T06:05:55.154Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -2902,87 +2949,6 @@
       "tags": [
         "ssd",
         "silicon motion"
-      ]
-    },
-    {
-      "id": "sig-qdfav5",
-      "title": "Memory Scarcity, Open Models, and the Restructuring of the AI Industry, 2026-2030 -- A quantitative scenario analysis of inference economics, training-cost divergence, and infrastructure solvency",
-      "url": "https://arxiv.org/abs/2607.07207",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2607.07207v1 Announce Type: cross Abstract: We analyze how four forces restructure the AI industry over 2026-2030: the DRAM/HBM price surge, frontier-capable open-weight models (GLM-5.2), rapid inference-efficiency gains (near-Shannon-limit KV-cache compression, lightweight",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T01:11:57.542Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "dram",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-qdfa8a",
-      "title": "Does AI Understand Imaging? A Systematic Benchmark of Agentic AI for Computational Imaging Tasks",
-      "url": "https://arxiv.org/abs/2607.07189",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.07189v1 Announce Type: new Abstract: Vision-language models (VLMs) and agentic AI have shown strong performance on semantic visual tasks, but it remains unclear whether they can handle the physics and inverse problems that underlie computational imaging. We present Ima",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T01:11:57.542Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qdfbr2",
-      "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
-      "url": "https://arxiv.org/abs/2607.07321",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.07321v1 Announce Type: new Abstract: Tool utilization enables Large Language Model (LLM) agents to interact with the real world and resolve complex tasks. However, existing agent frameworks predominantly rely on static toolsets composed of granular atomic actions (e.g.",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T01:11:57.542Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qdency",
-      "title": "Reliable and Developer-Aligned Evaluation of Agents for Software Engineering",
-      "url": "https://arxiv.org/abs/2607.06713",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "firmware",
-      "summary": "arXiv:2607.06713v1 Announce Type: new Abstract: Large language models are rapidly moving towards closing the development cycle, transitioning from simple assistive companions to autonomous contributors deeply embedded into collaborative development environments. Despite their acc",
-      "whyItMatters": "Touches software engineering, embedded — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T01:11:57.542Z",
-      "score": 7.4,
-      "tags": [
-        "software engineering",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-qdf9b3",
-      "title": "Progressive Crystallization: Turning Agent Exploration into Deterministic, Lower-Cost Workflows in Production",
-      "url": "https://arxiv.org/abs/2607.07052",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.07052v1 Announce Type: new Abstract: AI agents deployed for IT operations are typically permanent cost centers because every execution requires full LLM inference, even for previously solved problems. This paper introduces progressive crystallization, a lifecycle that ",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-09T04:00:00.000Z",
-      "fetchedAt": "2026-07-10T01:11:57.542Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
       ]
     }
   ]
