@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:29:07.802Z",
+  "generatedAt": "2026-07-17T01:04:49.661Z",
   "signals": [
     {
       "id": "sig-10wspx7",
@@ -10,8 +10,8 @@
       "summary": "Samsung’s new 990 SSD joins the consumer lineup as a mainstream PCIe Gen4 drive that prioritizes efficiency and value over raw speed. Samsung calls it its most power-efficient SSD to date, claiming up to 38% better power efficiency than the 990 PRO. The 2TB model is rated at 7,25",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-14T16:00:24.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 10,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "pcie"
@@ -26,8 +26,8 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 9.4,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 9.3,
       "tags": [
         "pcie",
         "ai",
@@ -43,12 +43,28 @@
       "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "claude code",
         "claude"
+      ]
+    },
+    {
+      "id": "sig-mhfxmh",
+      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
+      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
+      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-11T17:00:08.000Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 8.5,
+      "tags": [
+        "ssd",
+        "storage"
       ]
     },
     {
@@ -60,8 +76,8 @@
       "summary": "arXiv:2607.13071v1 Announce Type: new Abstract: Agentic LLM coding tools compress long session histories into compaction summaries that subsequent sessions inherit as ground truth. This paper documents a failure mode in Claude Code where partial standard output from timed-out com",
       "whyItMatters": "Touches claude code, claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 8.5,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 8.4,
       "tags": [
         "claude code",
         "claude",
@@ -77,8 +93,8 @@
       "summary": "arXiv:2607.13068v1 Announce Type: new Abstract: Every mainstream GPU is built compute-heavy and capacity-light: it pairs enormous arithmetic throughput with too little memory to hold a modern model. In contrast, large language model decoding requires little compute and a large am",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 8.5,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "llm",
@@ -86,35 +102,19 @@
       ]
     },
     {
-      "id": "sig-mhfxmh",
-      "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
-      "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 S",
-      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-11T17:00:08.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 8.5,
-      "tags": [
-        "ssd",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-527vw7",
-      "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
-      "url": "https://news.ycombinator.com/item?id=48937020",
+      "id": "sig-1naiaka",
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "21 points on Hacker News",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T16:52:16Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.8,
+      "summary": "101 points on Hacker News",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T20:03:23Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.9,
       "tags": [
         "ai",
-        "security"
+        "claude"
       ]
     },
     {
@@ -123,10 +123,10 @@
       "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "134 points on Hacker News",
+      "summary": "151 points on Hacker News",
       "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T16:41:37Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
       "score": 7.8,
       "tags": [
         "llm",
@@ -139,14 +139,30 @@
       "url": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "83 points on Hacker News",
+      "summary": "93 points on Hacker News",
       "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:13:00Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-i2sti6",
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 comp",
+      "whyItMatters": "Touches claude, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-16T14:57:39.000Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.7,
+      "tags": [
+        "claude",
+        "rust"
       ]
     },
     {
@@ -158,7 +174,7 @@
       "summary": "I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just",
       "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T13:26:10.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -171,11 +187,11 @@
       "url": "https://joinedanthropic.com",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://joinedanthropic.com Comments URL: https://news.ycombinator.com/item?id=48931588 Points: 292 # Comments: 208",
+      "summary": "Article URL: https://joinedanthropic.com Comments URL: https://news.ycombinator.com/item?id=48931588 Points: 293 # Comments: 210",
       "whyItMatters": "Touches anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T08:03:35.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.5,
       "tags": [
         "anthropic",
         "openai"
@@ -190,8 +206,8 @@
       "summary": "arXiv:2607.13091v1 Announce Type: new Abstract: LLM-based coding agents repeat the same classes of mistakes across sessions because they lack a mechanism to retain corrections from human review feedback. We present a closed-loop framework in which every accepted review comment is",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -206,8 +222,8 @@
       "summary": "arXiv:2607.13156v1 Announce Type: new Abstract: Design Systems (DS) help standardize front-end development, yet developers still face challenges when translating high-fidelity mockups into consistent, production-ready interfaces. Although AI-assisted tools have emerged as a poten",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "productivity"
@@ -222,8 +238,8 @@
       "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to t",
       "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T00:33:18.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 7.3,
       "tags": [
         "coding agent",
         "rust"
@@ -238,8 +254,8 @@
       "summary": "arXiv:2607.13617v1 Announce Type: new Abstract: Durable workflow engines reconstruct execution state by deterministically replaying an immutable event log, coupling every in-flight run to the code version that produced its history: a new deployment can invalidate the replay of ru",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-16T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 7,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 6.9,
       "tags": [
         "telemetry"
       ]
@@ -253,11 +269,27 @@
       "summary": "Where AI will be successful, who will benefit, and how that will affect the design process. The post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-15T07:01:01.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 6.9,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-3ms83m",
+      "title": "MatinSenPai/Aether-GUI (TypeScript) — trending new repo",
+      "url": "https://github.com/MatinSenPai/Aether-GUI",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust · ★ 480",
+      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-14T20:13:18Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 6.5,
+      "tags": [
+        "typescript",
+        "rust"
       ]
     },
     {
@@ -266,11 +298,11 @@
       "url": "https://github.com/xai-org/grok-build",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. · ★ 11921",
+      "summary": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. · ★ 12192",
       "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T20:04:23Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 6.6,
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
+      "score": 6.5,
       "tags": [
         "coding agent",
         "rust"
@@ -285,41 +317,11 @@
       "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T17:44:58.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
+      "fetchedAt": "2026-07-17T01:04:49.661Z",
       "score": 6.5,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1vpf7m0",
-      "title": "Timeline Scan – AI fixes the dates on your scanned photos",
-      "url": "https://timelinescan.com/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "16 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T20:25:47Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-w74aam",
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this t",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T20:19:30.000Z",
-      "fetchedAt": "2026-07-16T23:29:07.802Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     }
   ]
