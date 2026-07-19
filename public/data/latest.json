@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T12:38:29.247Z",
+  "generatedAt": "2026-07-19T14:14:51.332Z",
   "signals": [
     {
       "id": "sig-xlr2x",
@@ -10,8 +10,8 @@
       "summary": "We have been seeing the AMD Instinct MI350P 144GB HBM3E PCIe accelerator everywhere over the past few weeks as this appears to be a popular GPU The post The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-17T17:00:59.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 9.3,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 9.2,
       "tags": [
         "pcie",
         "ai",
@@ -19,20 +19,21 @@
       ]
     },
     {
-      "id": "sig-15iq5zl",
+      "id": "sig-f31x9z",
       "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "source": "Hacker News (front page)",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "source": "Simon Willison's Weblog",
       "category": "programming",
-      "summary": "113 points on Hacker News",
+      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst",
       "whyItMatters": "Touches claude code, claude, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-19T10:03:23Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 8.9,
+      "publishedAt": "2026-07-19T03:54:09.000Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 8.7,
       "tags": [
         "claude code",
         "claude",
-        "rust"
+        "rust",
+        "linux"
       ]
     },
     {
@@ -44,29 +45,12 @@
       "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce. The post Blog Review: July 15 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-15T07:01:04.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-qc56si",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://ykdojo.github.io/claude-controls-mac/ Comments URL: https://news.ycombinator.com/item?id=48959392 Points: 235 # Comments: 165",
-      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-18T16:12:08.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 8.4,
-      "tags": [
-        "claude code",
-        "claude",
-        "github"
       ]
     },
     {
@@ -78,8 +62,8 @@
       "summary": "Microsoft and 3M have announced a strategic partnership covering both data center optical connectivity and enterprise AI adoption. Under the July 15 agreement, Azure becomes the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology across",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-07-17T16:06:57.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 7.7,
       "tags": [
         "hyperscaler",
         "ai"
@@ -94,8 +78,8 @@
       "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 7,
       "tags": [
         "ai",
         "claude code",
@@ -111,8 +95,8 @@
       "summary": "The next generation of server memory is slated to get even faster. At Computex 2026 Micron was showing off DDR5-8000 RDIMMs, while Samsung had uber-fast 12,800 MT/s second-gen MRDIMMs The post Next Gen Server Memory On Display: DDR5-8000 RDIMMs and MRDIMM Gen2 Hits DDR5-12800 app",
       "whyItMatters": "Touches micron — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-18T17:00:51.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 7,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6.9,
       "tags": [
         "micron"
       ]
@@ -126,8 +110,8 @@
       "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-17T16:46:47.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 6.8,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "github"
@@ -142,7 +126,7 @@
       "summary": "Intel's expansion; Cadence AI super agent for PCB, advanced packaging; photonics fab wars; earlier Yongin fab; German funding; new CHIPS Act award; HBM standard; Quadric funding; AMS acquisition; earnings; Rapidus teams up. The post Chip Industry Week In Review appeared first on ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-17T07:01:01.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6.5,
       "tags": [
         "ai",
@@ -155,25 +139,25 @@
       "url": "https://github.com/openai/codex/pull/33972/files",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "55 points on Hacker News",
+      "summary": "90 points on Hacker News",
       "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-19T07:54:39Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 6.4,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6.3,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "sig-12ggxnw",
+      "id": "sig-1u2p96x",
       "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-      "source": "Hacker News (front page)",
+      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "source": "Simon Willison's Weblog",
       "category": "ai",
-      "summary": "259 points on Hacker News",
+      "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executi",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-19T01:29:19Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "publishedAt": "2026-07-19T05:06:21.000Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6.2,
       "tags": [
         "ai"
@@ -185,13 +169,28 @@
       "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "496 points on Hacker News",
+      "summary": "517 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-18T22:13:39Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6.1,
       "tags": [
         "ai"
+      ]
+    },
+    {
+      "id": "sig-14srqzi",
+      "title": "lopopolo/harness-engineering (Python) — trending new repo",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering · ★ 430",
+      "whyItMatters": "Touches python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-18T21:42:28Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6,
+      "tags": [
+        "python"
       ]
     },
     {
@@ -203,40 +202,10 @@
       "summary": "Circuit Framework — multi-agent LLM trading research system · ★ 484",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:02:10Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 6.1,
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6,
       "tags": [
         "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-f1g2dn",
-      "title": "Broadcom Goes CNCF Platinum After Handing Velero to the Sandbox",
-      "url": "https://www.storagereview.com/news/broadcom-goes-cncf-platinum-after-handing-velero-to-the-sandbox",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Cloud Native Computing Foundation (CNCF) announced on July 16 that Broadcom has elevated its membership to Platinum. The move expands Broadcom’s participation in the CNCF ecosystem as enterprises operationalize AI, analytics, and other data-intensive workloads on Kubernetes-b",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-18T17:23:32.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1juohcl",
-      "title": "SQLite Query Explainer",
-      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in th",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-18T17:19:10.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
-      "score": 6,
-      "tags": [
         "python"
       ]
     },
@@ -246,10 +215,10 @@
       "url": "https://github.com/Blueturboguy07/cue",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key. · ★ 570",
+      "summary": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key. · ★ 577",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-15T22:17:25Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6,
       "tags": [
         "ai",
@@ -262,10 +231,10 @@
       "url": "https://github.com/MatinSenPai/Aether-GUI",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust · ★ 612",
+      "summary": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust · ★ 614",
       "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-14T20:13:18Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6,
       "tags": [
         "typescript",
@@ -278,10 +247,10 @@
       "url": "https://github.com/xai-org/grok-build",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. · ★ 19703",
+      "summary": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. · ★ 19751",
       "whyItMatters": "Touches coding agent, rust — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T20:04:23Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6,
       "tags": [
         "coding agent",
@@ -297,7 +266,7 @@
       "summary": "Supermicro has introduced Kubernetes Edge AI Appliances, developed in partnership with Red Hat and Everpure. The pre-integrated systems combine Supermicro edge servers, Red Hat OpenShift, and the Portworx by Everpure Kubernetes data management platform to support AI inference, co",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-14T17:44:58.000Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6,
       "tags": [
         "ai",
@@ -310,14 +279,46 @@
       "url": "https://github.com/KubeezMedia/kubeez-scroll-world-video",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video · ★ 655",
+      "summary": "Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video · ★ 657",
       "whyItMatters": "Touches javascript, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-13T23:32:54Z",
-      "fetchedAt": "2026-07-19T12:38:29.247Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
       "score": 6,
       "tags": [
         "javascript",
         "github"
+      ]
+    },
+    {
+      "id": "sig-9wjuf",
+      "title": "oil-oil/beautify-github-readme (Python) — trending new repo",
+      "url": "https://github.com/oil-oil/beautify-github-readme",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown · ★ 844",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-13T07:31:56Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6,
+      "tags": [
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-k4r8wv",
+      "title": "GitHub availability report: June 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In June, we experienced six incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: June 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-08T19:35:51.000Z",
+      "fetchedAt": "2026-07-19T14:14:51.332Z",
+      "score": 6,
+      "tags": [
+        "github",
+        "performance"
       ]
     }
   ]
