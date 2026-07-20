@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T14:51:10.644Z",
+  "updatedAt": "2026-07-20T16:16:43.673Z",
   "signals": [
     {
       "id": "sig-xlr2x",
@@ -10,8 +10,8 @@
       "summary": "We have been seeing the AMD Instinct MI350P 144GB HBM3E PCIe accelerator everywhere over the past few weeks as this appears to be a popular GPU The post The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-17T17:00:59.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 8.6,
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 8.5,
       "tags": [
         "pcie",
         "ai",
@@ -19,20 +19,21 @@
       ]
     },
     {
-      "id": "sig-15iq5zl",
+      "id": "sig-f31x9z",
       "title": "Claude Code uses Bun written in Rust now",
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "source": "Hacker News (front page)",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "source": "Simon Willison's Weblog",
       "category": "programming",
-      "summary": "580 points on Hacker News",
+      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst",
       "whyItMatters": "Touches claude code, claude, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-19T10:03:23Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 8.2,
+      "publishedAt": "2026-07-19T03:54:09.000Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 8,
       "tags": [
         "claude code",
         "claude",
-        "rust"
+        "rust",
+        "linux"
       ]
     },
     {
@@ -44,8 +45,8 @@
       "summary": "Technical, political, and supply chain challenges are complicating data center buildouts around the U.S. The post Data Center Chokepoints Tied To AI, Political Pressure, Supply Chain appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T07:01:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -60,7 +61,7 @@
       "summary": "arXiv:2607.15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 7.7,
       "tags": [
         "llm",
@@ -76,7 +77,7 @@
       "summary": "arXiv:2607.16042v1 Announce Type: cross Abstract: Gain-cell embedded dynamic random-access memory (GCRAM) offers dense and energy-efficient on-chip storage, but retention-time variations force frequent refresh operations to cover worst-case bits. Error-correction codes (ECCs) can",
       "whyItMatters": "Touches storage, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 7.7,
       "tags": [
         "storage",
@@ -92,7 +93,7 @@
       "summary": "Microsoft and 3M have announced a strategic partnership covering both data center optical connectivity and enterprise AI adoption. Under the July 15 agreement, Azure becomes the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology across",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-07-17T16:06:57.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 7,
       "tags": [
         "hyperscaler",
@@ -108,12 +109,87 @@
       "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 7,
       "tags": [
         "ai",
         "claude code",
         "claude"
+      ]
+    },
+    {
+      "id": "sig-1es14bz",
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-20T16:00:00.000Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.5,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1mcvbt8",
+      "title": "NVIDIA Omniverse Libraries Put AI Agents to Work Prepping 3D Content for Simulation",
+      "url": "https://www.storagereview.com/news/nvidia-omniverse-libraries-put-ai-agents-to-work-prepping-3d-content-for-simulation",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA has introduced Omniverse libraries, a set of software components designed to bring physical AI capabilities into existing 3D applications and prepare content for simulation. The libraries are intended to help developers, technical artists, and engineering teams build workf",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-20T15:37:09.000Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1rhia83",
+      "title": "Jaron Lanier: there is no AI (2023)",
+      "url": "https://www.newyorker.com/science/annals-of-artificial-intelligence/there-is-no-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "16 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-20T15:28:32Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-9crj1c",
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "64 points on Hacker News",
+      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-20T15:13:42Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.5,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1frlxou",
+      "title": "American AI is locked down and proprietary. It's losing",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "97 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-20T14:21:47Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -125,8 +201,8 @@
       "summary": "",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T14:15:42.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 6.5,
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -140,8 +216,8 @@
       "summary": "",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T14:04:04.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 6.5,
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -155,8 +231,8 @@
       "summary": "Challenges increase significantly with chiplets and coherency. The post Verifying Networks On Chip appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-20T07:15:30.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
+      "score": 6.2,
       "tags": [
         "semiconductor"
       ]
@@ -170,7 +246,7 @@
       "summary": "arXiv:2607.15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 6.2,
       "tags": [
         "llm"
@@ -185,7 +261,7 @@
       "summary": "arXiv:2607.15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning o",
       "whyItMatters": "Touches communication — relevant to communicating with more impact.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 6.2,
       "tags": [
         "communication"
@@ -200,7 +276,7 @@
       "summary": "arXiv:2607.15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and tr",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 6.2,
       "tags": [
         "llm"
@@ -215,7 +291,7 @@
       "summary": "arXiv:2607.15439v1 Announce Type: new Abstract: Our previous ARC-AGI-3 agent bundled executable world modeling, scheduled simplification, and exact replay verification, leaving unclear which idea accounted for its performance. We address this attribution question with four nested",
       "whyItMatters": "Touches performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 6.2,
       "tags": [
         "performance"
@@ -230,7 +306,7 @@
       "summary": "arXiv:2607.15480v1 Announce Type: new Abstract: As artificial intelligence (AI) systems increasingly impact society, ensuring their ethical and trustworthy deployment has become a global priority. While a myriad of high-level ethical guidelines have emerged, criticism persists th",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-20T14:51:10.644Z",
+      "fetchedAt": "2026-07-20T16:16:43.673Z",
       "score": 6.2,
       "tags": [
         "ai"
@@ -2922,21 +2998,6 @@
       "score": 6.4,
       "tags": [
         "linux"
-      ]
-    },
-    {
-      "id": "sig-11reeqn",
-      "title": "Dell pushes AI factory, knocks rivals",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/13/dell-pushes-ai-factory-knocks-rivals/5269792",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-13T13:17:00.000Z",
-      "fetchedAt": "2026-07-13T16:08:16.931Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     }
   ]
