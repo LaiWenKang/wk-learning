@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-21T12:14:18.726Z",
+  "generatedAt": "2026-07-21T14:25:45.621Z",
   "signals": [
+    {
+      "id": "sig-1h021xv",
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools them",
+      "whyItMatters": "Touches ai, coding agent, claude code — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T12:54:02.000Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "coding agent",
+        "claude code",
+        "claude",
+        "anthropic"
+      ]
+    },
     {
       "id": "sig-an0t7j",
       "title": "Chip Industry Technical Paper Roundup: July 21",
@@ -10,8 +29,8 @@
       "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-21T07:01:42.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 8.9,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "llm",
@@ -28,12 +47,60 @@
       "summary": "We have been seeing the AMD Instinct MI350P 144GB HBM3E PCIe accelerator everywhere over the past few weeks as this appears to be a popular GPU The post The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-17T17:00:59.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-jxzfvr",
+      "title": "Nativ: Run AI models locally on your Mac",
+      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T14:22:27.000Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-r032j7",
+      "title": "Megaport’s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage",
+      "url": "https://www.storagereview.com/news/megaports-neocloud-gets-its-storage-layer-as-wasabi-powers-megaport-storage",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-21T13:43:57.000Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1yfqg8k",
+      "title": "Chelsio’s T7 Brings 400GbE RDMA SmartNICs, Storage Controllers, and DPUs to AI Fabrics",
+      "url": "https://www.storagereview.com/news/chelsios-t7-brings-400gbe-rdma-smartnics-storage-controllers-and-dpus-to-ai-fabrics",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T13:04:52.000Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -45,8 +112,8 @@
       "summary": "arXiv:2607.16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collecti",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm"
@@ -61,8 +128,8 @@
       "summary": "arXiv:2607.16494v1 Announce Type: new Abstract: The rapid development and popularization of AI-enabled coding agents have meant software engineering students and professionals cannot be assumed to understand their own code, which risks academic integrity and professional accounta",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "software engineering"
@@ -77,8 +144,8 @@
       "summary": "arXiv:2607.16488v1 Announce Type: new Abstract: To meet the ever-increasing computing demands of large language model (LLM) services, modern cloud platforms have widely deployed neural processing units (NPUs). These NPU chips have been developed and evolved at an incredibly fast ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -93,7 +160,7 @@
       "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst",
       "whyItMatters": "Touches claude code, claude, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-19T03:54:09.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
       "score": 7.4,
       "tags": [
         "claude code",
@@ -111,8 +178,8 @@
       "summary": "Technical, political, and supply chain challenges are complicating data center buildouts around the U.S. The post Data Center Chokepoints Tied To AI, Political Pressure, Supply Chain appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-20T07:01:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "semiconductor"
@@ -127,7 +194,7 @@
       "summary": "Microsoft and 3M have announced a strategic partnership covering both data center optical connectivity and enterprise AI adoption. Under the July 15 agreement, Azure becomes the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology across",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-07-17T16:06:57.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
       "score": 7,
       "tags": [
         "hyperscaler",
@@ -143,7 +210,7 @@
       "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
       "score": 7,
       "tags": [
         "ai",
@@ -152,18 +219,18 @@
       ]
     },
     {
-      "id": "sig-1cce6nx",
-      "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?)",
-      "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "15 points on Hacker News",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-21T11:39:02Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
+      "id": "sig-10trh1z",
+      "title": "WEKA’s WEKApod 3 Breaks the Single-Rack Exabyte Barrier as NeuralMesh 6 Goes Multi-Tenant",
+      "url": "https://www.storagereview.com/news/wekas-wekapod-3-breaks-the-single-rack-exabyte-barrier-as-neuralmesh-6-goes-multi-tenant",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "WEKA has launched two connected products: NeuralMesh 6, its most significant software release to date, and WEKApod 3, a new generation of storage appliances designed and engineered by WEKA to run it. NeuralMesh 6 remains deployable on customer-selected hardware, while WEKApod pro",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-21T13:00:05.000Z",
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
       "score": 6.5,
       "tags": [
-        "github"
+        "storage"
       ]
     },
     {
@@ -175,8 +242,8 @@
       "summary": "Thin TMD transistors; diamond defect detection; roll-to-roll litho. The post Research Bits: July 21 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-21T07:01:14.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.4,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.3,
       "tags": [
         "semiconductor"
       ]
@@ -190,8 +257,8 @@
       "summary": "arXiv:2607.16199v1 Announce Type: new Abstract: Multi-agent LLM systems increasingly rely on a Planner to decompose goals into sub-task sequences that downstream Executor and Critic agents execute and audit. We identify the planning phase as a critical attack surface: a single in",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.2,
       "tags": [
         "llm"
       ]
@@ -205,8 +272,8 @@
       "summary": "arXiv:2607.16201v1 Announce Type: new Abstract: Ontology engineering remains a critical bottleneck in knowledge-intensive AI systems. Existing automated approaches either depend on predefined schemas, operate within narrow domains, or produce unstructured outputs unsuitable for d",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -220,8 +287,8 @@
       "summary": "arXiv:2607.16202v1 Announce Type: new Abstract: AI democratization is not primarily a question of matching frontier-scale generality; it is a question of whether capable models can be selected, audited, and specialized under hardware and governance constraints that ordinary insti",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -235,8 +302,8 @@
       "summary": "arXiv:2607.16204v1 Announce Type: new Abstract: Recent growth in reinforcement learning (RL) has surfaced a need for diverse, specialized training environments. Hand-curated environments with fixed task and reward difficulties become ineffective signals as model performance impro",
       "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.2,
       "tags": [
         "performance"
       ]
@@ -250,70 +317,10 @@
       "summary": "arXiv:2607.16206v1 Announce Type: new Abstract: This paper introduces PPO-HSC (Proximal Policy Optimization with High-order Sampling Coverage), an exploratory reinforcement learning framework designed to address the \"Invisible Shackles\" of mode collapse in Large Language Model (L",
       "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
+      "fetchedAt": "2026-07-21T14:25:45.621Z",
+      "score": 6.2,
       "tags": [
         "language model"
-      ]
-    },
-    {
-      "id": "sig-qe3z50",
-      "title": "AEVAL: From Anecdotal to Deterministic Testing for Agentic Skill Workflows",
-      "url": "https://arxiv.org/abs/2607.16345",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.16345v1 Announce Type: new Abstract: Modern agentic systems increasingly rely on skills: installable packages of natural language and code that teach an LLM agent to perform a domain task. As skill repositories grow, developers need automated quality signals on every c",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe3z7o",
-      "title": "AoA: Theorem Proving Agent over Abstract Syntax Tree of Redesigned Language",
-      "url": "https://arxiv.org/abs/2607.16372",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.16372v1 Announce Type: new Abstract: Interactive theorem proving (ITP) underpins program verification and formalized mathematics, but its manual effort limits scalability. LLM-based proof agents promise to ease this effort, but their heavy token consumption and API cos",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe4021",
-      "title": "When to Use Which? Benchmarking Optimisers for Configurable Systems under Varying Budgets",
-      "url": "https://arxiv.org/abs/2607.16476",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2607.16476v1 Announce Type: new Abstract: Software configuration tuning is crucial for optimising system performance, and various optimisers have emerged over the last decade. Yet, the time required during the tuning process may vary across systems. In some systems (e.g., P",
-      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
-      "tags": [
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qe40vg",
-      "title": "From Discussion to Execution: Replicating Buggy and Correct Data Science Code",
-      "url": "https://arxiv.org/abs/2607.16569",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.16569v1 Announce Type: new Abstract: Reproducing reliable data science code from informal sources is challenging due to ambiguous problem specifications, missing dependencies, and performance bottlenecks. Although developer Q&A forums provide rich discussions on diagno",
-      "whyItMatters": "Touches performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T12:14:18.726Z",
-      "score": 6.3,
-      "tags": [
-        "performance"
       ]
     }
   ]
