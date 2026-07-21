@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-21T17:39:00.601Z",
+  "updatedAt": "2026-07-21T18:57:38.561Z",
   "signals": [
+    {
+      "id": "sig-dyxks0",
+      "title": "Monolithic 3D-DRAM with Oxide-Semiconductor Architecture (imec, KU Leuven, Samsung, Lam)",
+      "url": "https://semiengineering.com/monolithic-3d-dram-with-oxide-semiconductor-architecture-imec-ku-leuven-samsung-lam/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers from imec, KU Leuven, Samsung Electronics, and Lam Research published a technical paper titled “Optimization of 3D-DRAM Architecture with Oxide-Semiconductor Channel through Process and Device Simulation.” Abstract Excerpt: “We investigate a monolithically stackable O",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-21T18:31:31.000Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 10,
+      "tags": [
+        "samsung electronics",
+        "semiconductor",
+        "dram"
+      ]
+    },
     {
       "id": "sig-1h021xv",
       "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
@@ -10,8 +27,8 @@
       "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools them",
       "whyItMatters": "Touches ai, coding agent, claude code — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T12:54:02.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 8.9,
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "coding agent",
@@ -29,7 +46,7 @@
       "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-21T07:01:42.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 8.7,
       "tags": [
         "ai",
@@ -47,12 +64,28 @@
       "summary": "We have been seeing the AMD Instinct MI350P 144GB HBM3E PCIe accelerator everywhere over the past few weeks as this appears to be a popular GPU The post The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-17T17:00:59.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-xchb5n",
+      "title": "HW-based Methods to Dynamically Throttle AI Performance (Princeton University)",
+      "url": "https://semiengineering.com/hw-based-methods-to-dynamically-throttle-ai-performance-princeton-university/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to lim",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T18:41:34.000Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "performance"
       ]
     },
     {
@@ -64,8 +97,8 @@
       "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 8,
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "github"
@@ -80,8 +113,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T15:58:25.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 8,
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "claude"
@@ -96,7 +129,7 @@
       "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T14:22:27.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -112,7 +145,7 @@
       "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-21T13:43:57.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -128,8 +161,8 @@
       "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T13:04:52.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
@@ -144,7 +177,7 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T12:00:00.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -160,7 +193,7 @@
       "summary": "arXiv:2607.16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collecti",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -176,7 +209,7 @@
       "summary": "arXiv:2607.16494v1 Announce Type: new Abstract: The rapid development and popularization of AI-enabled coding agents have meant software engineering students and professionals cannot be assumed to understand their own code, which risks academic integrity and professional accounta",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -192,7 +225,7 @@
       "summary": "arXiv:2607.16488v1 Announce Type: new Abstract: To meet the ever-increasing computing demands of large language model (LLM) services, modern cloud platforms have widely deployed neural processing units (NPUs). These NPU chips have been developed and evolved at an incredibly fast ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -208,13 +241,91 @@
       "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst",
       "whyItMatters": "Touches claude code, claude, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-19T03:54:09.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 7.3,
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7.2,
       "tags": [
         "claude code",
         "claude",
         "rust",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-1c1jco0",
+      "title": "Azure Becomes First Announced Hyperscaler to Deploy 3M’s Expanded Beam Optical Fiber",
+      "url": "https://www.storagereview.com/news/azure-becomes-first-announced-hyperscaler-to-deploy-3ms-expanded-beam-optical-fiber",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft and 3M have announced a strategic partnership covering both data center optical connectivity and enterprise AI adoption. Under the July 15 agreement, Azure becomes the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology across",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-07-17T16:06:57.000Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7,
+      "tags": [
+        "hyperscaler",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-kbbjud",
+      "title": "Axelera’s Voyager Wingman Pitches 20-30% Better Results Than Claude Code for Edge AI Development",
+      "url": "https://www.storagereview.com/news/axeleras-voyager-wingman-pitches-20-30-better-results-than-claude-code-for-edge-ai-development",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-16T15:14:48.000Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-etfs4e",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "55 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T17:14:06Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-kl1c8y",
+      "title": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects",
+      "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "44 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T17:03:18Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-14vieue",
+      "title": "Diving Deeper on NVIDIA’s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
+      "url": "https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/",
+      "source": "ServeTheHome",
+      "category": "semiconductor",
+      "summary": "NVIDIA this morning has released a trove of new technical details on Vera, their upcoming server CPU, as well as the Olympus CPU core. The company is also publishing the first SPEC CPU 2026 benchmarks, giving us our best look yet at the performance of the chip The post Diving Dee",
+      "whyItMatters": "Touches performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-21T15:00:01.000Z",
+      "fetchedAt": "2026-07-21T18:57:38.561Z",
+      "score": 6.4,
+      "tags": [
+        "performance"
       ]
     },
     {
@@ -231,69 +342,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1c1jco0",
-      "title": "Azure Becomes First Announced Hyperscaler to Deploy 3M’s Expanded Beam Optical Fiber",
-      "url": "https://www.storagereview.com/news/azure-becomes-first-announced-hyperscaler-to-deploy-3ms-expanded-beam-optical-fiber",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft and 3M have announced a strategic partnership covering both data center optical connectivity and enterprise AI adoption. Under the July 15 agreement, Azure becomes the first announced hyperscale cloud provider to deploy 3M’s Expanded Beam Optical (EBO) technology across",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-07-17T16:06:57.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 7,
-      "tags": [
-        "hyperscaler",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-kbbjud",
-      "title": "Axelera’s Voyager Wingman Pitches 20-30% Better Results Than Claude Code for Edge AI Development",
-      "url": "https://www.storagereview.com/news/axeleras-voyager-wingman-pitches-20-30-better-results-than-claude-code-for-edge-ai-development",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-kl1c8y",
-      "title": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects",
-      "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "16 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T17:03:18Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-14vieue",
-      "title": "Diving Deeper on NVIDIA’s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
-      "url": "https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "NVIDIA this morning has released a trove of new technical details on Vera, their upcoming server CPU, as well as the Olympus CPU core. The company is also publishing the first SPEC CPU 2026 benchmarks, giving us our best look yet at the performance of the chip The post Diving Dee",
-      "whyItMatters": "Touches performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-21T15:00:01.000Z",
-      "fetchedAt": "2026-07-21T17:39:00.601Z",
-      "score": 6.4,
-      "tags": [
-        "performance"
       ]
     },
     {
