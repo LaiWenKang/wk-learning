@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T01:15:42.073Z",
+  "updatedAt": "2026-07-23T04:36:27.793Z",
   "signals": [
     {
       "id": "sig-dyxks0",
@@ -10,12 +10,29 @@
       "summary": "Researchers from imec, KU Leuven, Samsung Electronics, and Lam Research published a technical paper titled “Optimization of 3D-DRAM Architecture with Oxide-Semiconductor Channel through Process and Device Simulation.” Abstract Excerpt: “We investigate a monolithically stackable O",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-21T18:31:31.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
       "score": 9.6,
       "tags": [
         "samsung electronics",
         "semiconductor",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-qe5hra",
+      "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
+      "url": "https://arxiv.org/abs/2607.18246",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy s",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
       ]
     },
     {
@@ -27,8 +44,8 @@
       "summary": "Securing physical AI; agents need feedback; 3D-IC security; chiplet interoperability; RF digital twins. The post Blog Review: July 22 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-22T07:01:38.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 8.5,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "semiconductor",
@@ -36,20 +53,51 @@
       ]
     },
     {
-      "id": "sig-qe5hra",
-      "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-      "url": "https://arxiv.org/abs/2607.18246",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-qe6cvd",
+      "title": "PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization",
+      "url": "https://arxiv.org/abs/2607.19653",
+      "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy s",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 8.4,
+      "summary": "arXiv:2607.19653v1 Announce Type: new Abstract: Large language model (LLM) agents now perform well on correctness-oriented repository-level tasks, including SWE-Bench issue resolution and feature implementation in real codebases. However, they still struggle with repository-level",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 8,
       "tags": [
-        "ai",
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-qe6cy3",
+      "title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
+      "url": "https://arxiv.org/abs/2607.19682",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.19682v1 Announce Type: new Abstract: Automated unit test generation has recently benefited from advances in large language models (LLMs), yet our industrial deployments reveal a persistent gap between promising research results and practical usability. In real-world pr",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-qeoq55",
+      "title": "Formal Foundations for Known Good Reliable Die Screening in Chiplet-Based AI Systems-on-Chip",
+      "url": "https://arxiv.org/abs/2607.20141",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2607.20141v1 Announce Type: new Abstract: The rapid growth of chiplet-based artificial intelligence systems-on-chip (SoCs) has exposed a fundamental gap in semiconductor test methodology. Existing Known Good Die (KGD) screening guarantees pre-assembly functional correctness",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -61,8 +109,8 @@
       "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools them",
       "whyItMatters": "Touches ai, coding agent, claude code — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T12:54:02.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 8,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "coding agent",
@@ -80,13 +128,28 @@
       "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-21T07:01:42.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm",
         "dram",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-qeopbs",
+      "title": "SequenceFI: Non-intrusive Temporal Fault Injection for Microservice Systems",
+      "url": "https://arxiv.org/abs/2607.20050",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.20050v1 Announce Type: new Abstract: Fault injection is widely used to evaluate the resilience of microservice systems, where client requests often span multiple services and execution stages. Existing request-level techniques usually control where and what faults are ",
+      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
+      "publishedAt": "2026-07-23T04:00:00.000Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.5,
+      "tags": [
+        "fault injection"
       ]
     },
     {
@@ -98,8 +161,8 @@
       "summary": "A scalable, Common Weakness Enumeration (CWE)–based security assurance methodology for third-party RISC-V processor IP. The post Enabling Comprehensive CWE-based Assurance for RISC-V Processors appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-22T07:01:35.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -114,8 +177,8 @@
       "summary": "Success at the edge takes advantage of common threads — lithography, imaging, chiplets, and AI. The post From Highways To Health Care: Portability Proves Key To Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-22T07:01:26.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -130,8 +193,8 @@
       "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to lim",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T18:41:34.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "performance"
@@ -146,8 +209,8 @@
       "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7,
       "tags": [
         "ai",
         "github"
@@ -162,11 +225,29 @@
       "summary": "",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T15:58:25.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7,
       "tags": [
         "ai",
         "claude"
+      ]
+    },
+    {
+      "id": "sig-dxdlao",
+      "title": "Vincentwei1021/video-shotcraft (TypeScript) — trending new repo",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 553",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-19T11:44:41Z",
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "typescript"
       ]
     },
     {
@@ -178,8 +259,8 @@
       "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T14:22:27.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "python"
@@ -194,8 +275,8 @@
       "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-21T13:43:57.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "storage"
@@ -210,8 +291,8 @@
       "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T13:04:52.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "storage"
@@ -226,29 +307,11 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T12:00:00.000Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-dxdlao",
-      "title": "Vincentwei1021/video-shotcraft (TypeScript) — trending new repo",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 519",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-19T11:44:41Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "typescript"
       ]
     },
     {
@@ -257,11 +320,11 @@
       "url": "https://github.com/Jakubantalik/thinking-orbs",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 621",
+      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 661",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T07:01:53Z",
-      "fetchedAt": "2026-07-23T01:15:42.073Z",
-      "score": 6.8,
+      "fetchedAt": "2026-07-23T04:36:27.793Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "typescript"
@@ -2818,179 +2881,6 @@
       "score": 6.5,
       "tags": [
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-qe0uft",
-      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
-      "url": "https://arxiv.org/abs/2607.12104",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2607.12104v1 Announce Type: new Abstract: Machine learning models for system diagnostics rely on kernel execution traces to capture fine-grained system behavior, but collecting production traces in industrial systems is costly due to runtime overhead, storage demands, and p",
-      "whyItMatters": "Touches machine learning, storage, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 8.3,
-      "tags": [
-        "machine learning",
-        "storage",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-17gbqmd",
-      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
-      "url": "https://brainless.swerdlow.dev",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "108 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T19:42:53Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 7.8,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-qe0tq7",
-      "title": "Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Reliability",
-      "url": "https://arxiv.org/abs/2607.12056",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.12056v1 Announce Type: new Abstract: Online shopping is increasingly shifting toward a model in which AI agents independently search for products, compare options, evaluate constraints, and carry out parts of the purchasing process for users. Website design must now su",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qe0vbv",
-      "title": "TestMiner: Software Testing Analysis for GitHub Repositories",
-      "url": "https://arxiv.org/abs/2607.12223",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12223v1 Announce Type: new Abstract: Software systems have unique testing characteristics. Some projects can emphasize unit tests, while others may focus on end-to-end testing. Test organization may vary across ecosystems: in languages like Python and Java, tests are t",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 7.3,
-      "tags": [
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-qe0ves",
-      "title": "WIP: Software Engineering Competencies in the Age of AI",
-      "url": "https://arxiv.org/abs/2607.12259",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.12259v1 Announce Type: new Abstract: A university education is meant to fully prepare graduates to enter and succeed in the workforce in their field. Accreditation bodies and professional organizations help to achieve this by publishing curriculum content, skills and c",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-qe0vgg",
-      "title": "Code-MUE: Measuring Code LLMs' Uncertainty through Execution-based Semantic Interaction Graphs",
-      "url": "https://arxiv.org/abs/2607.12273",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12273v1 Announce Type: new Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks, where even minor errors can lead to severe functional, security, or safety conseque",
-      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 7.3,
-      "tags": [
-        "software engineering",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qe0ufq",
-      "title": "Fault Injection in OpenAPI Specifications for Evaluating Black-Box Testing Effectiveness",
-      "url": "https://arxiv.org/abs/2607.12101",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.12101v1 Announce Type: new Abstract: OpenAPI specifications are the primary input for black-box testing tools in microservice systems (MSS), yet prior work shows these specifications are often incomplete, inconsistent, or incorrect. Despite this, most studies on OpenAP",
-      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 6.8,
-      "tags": [
-        "fault injection"
-      ]
-    },
-    {
-      "id": "sig-uu1qrg",
-      "title": "SQLite should have (Rust-style) editions",
-      "url": "https://mort.coffee/home/sqlite-editions/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "146 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T22:42:58Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 6.4,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-j6bfls",
-      "title": "LLM Networking with MikroTik",
-      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "62 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T22:23:27Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-85rlhx",
-      "title": "Podcast #150: HPE Alletra Storage MP B10000: Meeting Cyber Attacks Head-On",
-      "url": "https://www.storagereview.com/podcast/podcast-150-hpe-alletra-storage-mp-b10000-meeting-cyber-attacks-head-on",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Brian connected with HPE’s Dan Gardner to follow up on HPE Discover and go into more detail on the HPE Alletra Storage MP B10000. Dan is the Senior Technical Marketing Engineer at Hewlett Packard Enterprise and considers himself a security nerd. Dan joined HP in 2017 in hardware ",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-13T18:53:38.000Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 6.4,
-      "tags": [
-        "storage",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1uhvx7k",
-      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "112 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T21:16:36Z",
-      "fetchedAt": "2026-07-16T03:41:11.423Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
       ]
     }
   ]
