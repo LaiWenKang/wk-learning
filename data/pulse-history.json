@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T23:44:04.834Z",
+  "updatedAt": "2026-07-23T01:15:42.073Z",
   "signals": [
     {
       "id": "sig-dyxks0",
@@ -10,8 +10,8 @@
       "summary": "Researchers from imec, KU Leuven, Samsung Electronics, and Lam Research published a technical paper titled “Optimization of 3D-DRAM Architecture with Oxide-Semiconductor Channel through Process and Device Simulation.” Abstract Excerpt: “We investigate a monolithically stackable O",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-21T18:31:31.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 9.7,
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 9.6,
       "tags": [
         "samsung electronics",
         "semiconductor",
@@ -27,7 +27,7 @@
       "summary": "Securing physical AI; agents need feedback; 3D-IC security; chiplet interoperability; RF digital twins. The post Blog Review: July 22 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-22T07:01:38.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
       "score": 8.5,
       "tags": [
         "ai",
@@ -44,12 +44,287 @@
       "summary": "arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy s",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-22T04:00:00.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 8.5,
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-1h021xv",
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools them",
+      "whyItMatters": "Touches ai, coding agent, claude code — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T12:54:02.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "coding agent",
+        "claude code",
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-an0t7j",
+      "title": "Chip Industry Technical Paper Roundup: July 21",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-july-21/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-21T07:01:42.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "llm",
+        "dram",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-p0ieqg",
+      "title": "Enabling Comprehensive CWE-based Assurance for RISC-V Processors",
+      "url": "https://semiengineering.com/enabling-comprehensive-cwe-based-assurance-for-risc-v-processors/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "A scalable, Common Weakness Enumeration (CWE)–based security assurance methodology for third-party RISC-V processor IP. The post Enabling Comprehensive CWE-based Assurance for RISC-V Processors appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-22T07:01:35.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.5,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1txah9j",
+      "title": "From Highways To Health Care: Portability Proves Key To Physical AI",
+      "url": "https://semiengineering.com/from-highways-to-health-care-portability-proves-key-to-physical-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Success at the edge takes advantage of common threads — lithography, imaging, chiplets, and AI. The post From Highways To Health Care: Portability Proves Key To Physical AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-22T07:01:26.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-xchb5n",
+      "title": "HW-based Methods to Dynamically Throttle AI Performance (Princeton University)",
+      "url": "https://semiengineering.com/hw-based-methods-to-dynamically-throttle-ai-performance-princeton-university/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to lim",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T18:41:34.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-ktxaz7",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kgvv01",
+      "title": "Druva spreading AI agent cyber-resilience wings with Claude and Copilot co-operation",
+      "url": "https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T15:58:25.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-jxzfvr",
+      "title": "Nativ: Run AI models locally on your Mac",
+      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T14:22:27.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-r032j7",
+      "title": "Megaport’s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage",
+      "url": "https://www.storagereview.com/news/megaports-neocloud-gets-its-storage-layer-as-wasabi-powers-megaport-storage",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-21T13:43:57.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1yfqg8k",
+      "title": "Chelsio’s T7 Brings 400GbE RDMA SmartNICs, Storage Controllers, and DPUs to AI Fabrics",
+      "url": "https://www.storagereview.com/news/chelsios-t7-brings-400gbe-rdma-smartnics-storage-controllers-and-dpus-to-ai-fabrics",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T13:04:52.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-o15xcb",
+      "title": "WEKA's big beast AI storage products",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/07/21/wekas-big-beast-ai-storage-products/5275510",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-dxdlao",
+      "title": "Vincentwei1021/video-shotcraft (TypeScript) — trending new repo",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 519",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-19T11:44:41Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-tem3vy",
+      "title": "Jakubantalik/thinking-orbs (TypeScript) — trending new repo",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 621",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T07:01:53Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-yz0dtj",
+      "title": "Quoting Thomas Ptacek",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. &mdash; Thomas Ptacek , doesn'",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-22T23:59:01.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 6.5,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-f8g8ak",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Fac",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-22T23:51:33.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 6.5,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-qe5hs1",
+      "title": "Anthropomorphism in Children's Interactions with LLM Chatbots",
+      "url": "https://arxiv.org/abs/2607.18250",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "16 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-22T22:49:58Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1iuscvi",
+      "title": "Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop",
+      "url": "https://www.storagereview.com/review/dell-pro-7-14-amd-review-ryzen-ai-9-hx-pro-470-in-a-2-8-pound-business-laptop",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Dell sent us four Pro laptops this cycle, covering two sizes, two product tiers, and both AMD and Intel platforms. The two Pro 5 models approach the business-laptop formula from different directions: the Pro 5 16 AMD uses a larger chassis, replaceable DDR5 memory, and the Ryzen A",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-22T21:13:27.000Z",
+      "fetchedAt": "2026-07-23T01:15:42.073Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -70,75 +345,6 @@
       ]
     },
     {
-      "id": "sig-1h021xv",
-      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools them",
-      "whyItMatters": "Touches ai, coding agent, claude code — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T12:54:02.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "coding agent",
-        "claude code",
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-an0t7j",
-      "title": "Chip Industry Technical Paper Roundup: July 21",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-july-21/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-21T07:01:42.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "llm",
-        "dram",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-p0ieqg",
-      "title": "Enabling Comprehensive CWE-based Assurance for RISC-V Processors",
-      "url": "https://semiengineering.com/enabling-comprehensive-cwe-based-assurance-for-risc-v-processors/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A scalable, Common Weakness Enumeration (CWE)–based security assurance methodology for third-party RISC-V processor IP. The post Enabling Comprehensive CWE-based Assurance for RISC-V Processors appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-22T07:01:35.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.5,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1txah9j",
-      "title": "From Highways To Health Care: Portability Proves Key To Physical AI",
-      "url": "https://semiengineering.com/from-highways-to-health-care-portability-proves-key-to-physical-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Success at the edge takes advantage of common threads — lithography, imaging, chiplets, and AI. The post From Highways To Health Care: Portability Proves Key To Physical AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T07:01:26.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-l2nqcm",
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
@@ -152,136 +358,6 @@
       "tags": [
         "openai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-xchb5n",
-      "title": "HW-based Methods to Dynamically Throttle AI Performance (Princeton University)",
-      "url": "https://semiengineering.com/hw-based-methods-to-dynamically-throttle-ai-performance-princeton-university/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to lim",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T18:41:34.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-ktxaz7",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-kgvv01",
-      "title": "Druva spreading AI agent cyber-resilience wings with Claude and Copilot co-operation",
-      "url": "https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T15:58:25.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-jxzfvr",
-      "title": "Nativ: Run AI models locally on your Mac",
-      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T14:22:27.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-r032j7",
-      "title": "Megaport’s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage",
-      "url": "https://www.storagereview.com/news/megaports-neocloud-gets-its-storage-layer-as-wasabi-powers-megaport-storage",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-21T13:43:57.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1yfqg8k",
-      "title": "Chelsio’s T7 Brings 400GbE RDMA SmartNICs, Storage Controllers, and DPUs to AI Fabrics",
-      "url": "https://www.storagereview.com/news/chelsios-t7-brings-400gbe-rdma-smartnics-storage-controllers-and-dpus-to-ai-fabrics",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T13:04:52.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-o15xcb",
-      "title": "WEKA's big beast AI storage products",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/07/21/wekas-big-beast-ai-storage-products/5275510",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T12:00:00.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-dxdlao",
-      "title": "Vincentwei1021/video-shotcraft (TypeScript) — trending new repo",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 511",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-19T11:44:41Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "typescript"
       ]
     },
     {
@@ -300,37 +376,6 @@
         "claude",
         "rust",
         "linux"
-      ]
-    },
-    {
-      "id": "sig-tem3vy",
-      "title": "Jakubantalik/thinking-orbs (TypeScript) — trending new repo",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 601",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T07:01:53Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1iuscvi",
-      "title": "Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop",
-      "url": "https://www.storagereview.com/review/dell-pro-7-14-amd-review-ryzen-ai-9-hx-pro-470-in-a-2-8-pound-business-laptop",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Dell sent us four Pro laptops this cycle, covering two sizes, two product tiers, and both AMD and Intel platforms. The two Pro 5 models approach the business-laptop formula from different directions: the Pro 5 16 AMD uses a larger chassis, replaceable DDR5 memory, and the Ryzen A",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T21:13:27.000Z",
-      "fetchedAt": "2026-07-22T23:44:04.834Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -2946,36 +2991,6 @@
       "score": 6.3,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-xcqket",
-      "title": "Cloudera and VAST Data Take Aim at GPU Starvation With Joint AI Factory Stack",
-      "url": "https://www.storagereview.com/news/cloudera-and-vast-data-take-aim-at-gpu-starvation-with-joint-ai-factory-stack",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Cloudera and VAST Data have entered into a partnership to build a unified AI factory architecture for enterprises running continuous AI training, inference, and analytics workloads. The joint offering combines Cloudera’s containerized data services with the VAST AI Operating Syst",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T17:43:28.000Z",
-      "fetchedAt": "2026-07-16T00:11:40.257Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1kfbp38",
-      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-      "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-15T17:29:31.000Z",
-      "fetchedAt": "2026-07-16T00:11:40.257Z",
-      "score": 6.3,
-      "tags": [
-        "github"
       ]
     }
   ]
