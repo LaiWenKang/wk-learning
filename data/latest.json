@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-07-25T04:32:06.013Z",
+  "generatedAt": "2026-07-25T06:40:41.962Z",
   "signals": [
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 8.5,
+      "tags": [
+        "nand"
+      ]
+    },
     {
       "id": "sig-1qhtljh",
       "title": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
@@ -10,8 +25,8 @@
       "summary": "Advancing AI 2026 was AMD’s biggest launch event yet, big enough that we split our coverage in two. Our first article covered the Instinct MI455X and the 72-GPU Helios rack; this sister piece covers what could not comfortably fit alongside them: the 6th Gen EPYC server CPUs, code",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-23T18:30:32.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 8.1,
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 8,
       "tags": [
         "pcie",
         "ai"
@@ -26,8 +41,8 @@
       "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that com",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-24T23:48:50.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 7.8,
       "tags": [
         "claude",
         "anthropic"
@@ -42,7 +57,7 @@
       "summary": "Integrating real-time voltage telemetry and functional monitoring for deeper insights. The post Enhancing System Observability appeared first on Semiconductor Engineering .",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-23T07:03:15.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 7.7,
       "tags": [
         "telemetry",
@@ -55,10 +70,10 @@
       "url": "https://hhh.hn/hanwha-github-token/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "536 points on Hacker News",
+      "summary": "555 points on Hacker News",
       "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-24T11:54:41Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 7.5,
       "tags": [
         "github",
@@ -74,27 +89,26 @@
       "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find poten",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-23T22:53:08.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "openai"
       ]
     },
     {
-      "id": "sig-1p8biuu",
-      "title": "slvDev/esp32-ai (Python) — trending new repo",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "★ 466",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T14:53:51Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "id": "sig-1euso7j",
+      "title": "SK Hynix and Etched Frontier Inference Clusters",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/07/24/sk-hynix-and-etched-frontier-inference-clusters/5278155",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-24T14:10:45.000Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 7,
       "tags": [
-        "ai",
-        "python"
+        "sk hynix"
       ]
     },
     {
@@ -103,16 +117,32 @@
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 1501",
+      "summary": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template · ★ 1534",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-19T11:44:41Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 7,
       "tags": [
         "ai",
         "claude code",
         "claude",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-1p8biuu",
+      "title": "slvDev/esp32-ai (Python) — trending new repo",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "★ 499",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-23T14:53:51Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "python"
       ]
     },
     {
@@ -124,7 +154,7 @@
       "summary": "Automating the most repetitive and time-consuming parts of behavioral model creation while keeping humans in the loop. The post Why Chip Engineers Should Care About AI-Created Behavioral Models appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-23T07:04:28.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6.7,
       "tags": [
         "ai",
@@ -140,7 +170,7 @@
       "summary": "Change is coming, but how quickly depends on the availability of data and when chipmakers are confident enough to let AI take over. The post The Impact Of AI Automation On Chip Design appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-23T07:03:31.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6.7,
       "tags": [
         "ai",
@@ -153,11 +183,11 @@
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "1388 points on Hacker News",
+      "summary": "1454 points on Hacker News",
       "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-24T16:57:41Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6.2,
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 6.1,
       "tags": [
         "claude"
       ]
@@ -166,13 +196,13 @@
       "id": "sig-1bzqbl0",
       "title": "Be skeptical of OpenAI's rogue hacker agent story",
       "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "460 points on Hacker News",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker Comments URL: https://news.ycombinator.com/item?id=49038060 Points: 474 # Comments: 276",
       "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T16:33:31Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6.2,
+      "publishedAt": "2026-07-24T16:33:31.000Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 6.1,
       "tags": [
         "openai"
       ]
@@ -183,28 +213,28 @@
       "url": "https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "410 points on Hacker News",
+      "summary": "445 points on Hacker News",
       "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-24T14:41:59Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6.1,
       "tags": [
         "github"
       ]
     },
     {
-      "id": "sig-7frhg9",
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://bfl.ai/blog/flux-3-mimic Comments URL: https://news.ycombinator.com/item?id=49033127 Points: 313 # Comments: 49",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T09:31:48.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6,
+      "id": "sig-11l4306",
+      "title": "Storage news ticker - 25 July",
+      "url": "https://www.blocksandfiles.com/tape/2026/07/24/storage-news-ticker-25-july/5278392",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-24T14:40:18.000Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 6.1,
       "tags": [
-        "ai"
+        "storage"
       ]
     },
     {
@@ -216,11 +246,27 @@
       "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-kgvv01",
+      "title": "Druva spreading AI agent cyber-resilience wings with Claude and Copilot co-operation",
+      "url": "https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T15:58:25.000Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -232,7 +278,7 @@
       "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to ",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T14:22:27.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6,
       "tags": [
         "ai",
@@ -248,7 +294,7 @@
       "summary": "Wasabi Technologies and Megaport Limited have entered a strategic partnership to add Wasabi cloud object storage to Megaport Storage. The integration combines Wasabi’s object storage platform with Megaport’s private global network, targeting AI data platforms, analytics environme",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-21T13:43:57.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6,
       "tags": [
         "ai",
@@ -264,59 +310,11 @@
       "summary": "Chelsio Communications has introduced its seventh-generation AI Interconnect Platform, expanding its Ethernet offload portfolio with SmartNICs, storage controllers, and Data Processing Units. Built on the company’s Unified Wire architecture, the T7 platform targets AI training an",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T13:04:52.000Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
+      "fetchedAt": "2026-07-25T06:40:41.962Z",
       "score": 6,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-tem3vy",
-      "title": "Jakubantalik/thinking-orbs (TypeScript) — trending new repo",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 936",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T07:01:53Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-16xvio0",
-      "title": "pireel/pireel (TypeScript) — trending new repo",
-      "url": "https://github.com/pireel/pireel",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP. · ★ 716",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T09:34:24Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-58k3io",
-      "title": "KinetiNode/claude-fable-5-system-prompt-clean — trending new repo",
-      "url": "https://github.com/KinetiNode/claude-fable-5-system-prompt-clean",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "the optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents. · ★ 409",
-      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-19T06:09:52Z",
-      "fetchedAt": "2026-07-25T04:32:06.013Z",
-      "score": 6,
-      "tags": [
-        "claude",
-        "llm"
       ]
     }
   ]
