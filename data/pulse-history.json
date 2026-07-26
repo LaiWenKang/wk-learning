@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T23:33:28.670Z",
+  "updatedAt": "2026-07-26T01:09:27.085Z",
   "signals": [
     {
       "id": "sig-1pmh4u1",
@@ -10,8 +10,8 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 8.1,
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 8,
       "tags": [
         "nand"
       ]
@@ -25,7 +25,7 @@
       "summary": "Advancing AI 2026 was AMD’s biggest launch event yet, big enough that we split our coverage in two. Our first article covered the Instinct MI455X and the 72-GPU Helios rack; this sister piece covers what could not comfortably fit alongside them: the 6th Gen EPYC server CPUs, code",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-23T18:30:32.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
       "score": 7.5,
       "tags": [
         "pcie",
@@ -41,7 +41,7 @@
       "summary": "Supermicro introduced its new H15 server portfolio, built around 6th Gen AMD EPYC 9006 Series CPUs. These servers are designed to work with AMD Instinct GPUs and AMD Pensando networking solutions. In addition, Supermicro is expanding its AMD GPU offerings with new PCIe GPU server",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-25T18:08:19.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
       "score": 7.3,
       "tags": [
         "pcie"
@@ -56,7 +56,7 @@
       "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that com",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-24T23:48:50.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
       "score": 7.3,
       "tags": [
         "claude",
@@ -69,30 +69,14 @@
       "url": "https://github.com/mikiarlo3/ai-copywriter",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone. · ★ 576",
+      "summary": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone. · ★ 583",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-24T19:52:13Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
       "score": 7.2,
       "tags": [
         "ai",
         "python"
-      ]
-    },
-    {
-      "id": "sig-obxc2f",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "https://www.anthropic.com/claude-opus-5-system-card Comments URL: https://news.ycombinator.com/item?id=49038433 Points: 1733 # Comments: 1255",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T16:57:41.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 7.2,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -104,11 +88,227 @@
       "summary": "Integrating real-time voltage telemetry and functional monitoring for deeper insights. The post Enhancing System Observability appeared first on Semiconductor Engineering .",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-23T07:03:15.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
       "score": 7.2,
       "tags": [
         "telemetry",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-obxc2f",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "https://www.anthropic.com/claude-opus-5-system-card Comments URL: https://news.ycombinator.com/item?id=49038433 Points: 1736 # Comments: 1258",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-24T16:57:41.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 7.1,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1syyh1a",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find poten",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-23T22:53:08.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.6,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1euso7j",
+      "title": "SK Hynix and Etched Frontier Inference Clusters",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/07/24/sk-hynix-and-etched-frontier-inference-clusters/5278155",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-24T14:10:45.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.5,
+      "tags": [
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-qhfvvg",
+      "title": "Ruff v0.16.0",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's anno",
+      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-25T22:44:05.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.4,
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1jd5m67",
+      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "109 points on Hacker News",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-25T21:48:22Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.4,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1s5kcw",
+      "title": "Becoming a Research Engineer at a Big LLM Lab",
+      "url": "https://www.maxmynter.com/pages/blog/jobhunt",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "15 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-25T21:19:42Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dmzu90",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "146 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-25T20:42:35Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.4,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1e2rpwg",
+      "title": "LLM Usage in Debian: Three Proposals",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "56 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-25T19:44:39Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.3,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1p8biuu",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "58 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-25T18:59:50Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.3,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-6r17eg",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "303 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-25T14:49:49Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-v3iivh",
+      "title": "Why Chip Engineers Should Care About AI-Created Behavioral Models",
+      "url": "https://semiengineering.com/why-chip-engineers-should-care-about-ai-created-behavioral-models/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Automating the most repetitive and time-consuming parts of behavioral model creation while keeping humans in the loop. The post Why Chip Engineers Should Care About AI-Created Behavioral Models appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-23T07:04:28.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.2,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-pqc689",
+      "title": "The Impact Of AI Automation On Chip Design",
+      "url": "https://semiengineering.com/the-impact-of-ai-automation-on-chip-design/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Change is coming, but how quickly depends on the availability of data and when chipmakers are confident enough to let AI take over. The post The Impact Of AI Automation On Chip Design appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-23T07:03:31.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6.2,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ktxaz7",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kgvv01",
+      "title": "Druva spreading AI agent cyber-resilience wings with Claude and Copilot co-operation",
+      "url": "https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-21T15:58:25.000Z",
+      "fetchedAt": "2026-07-26T01:09:27.085Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -146,175 +346,6 @@
       ]
     },
     {
-      "id": "sig-1euso7j",
-      "title": "SK Hynix and Etched Frontier Inference Clusters",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/07/24/sk-hynix-and-etched-frontier-inference-clusters/5278155",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-24T14:10:45.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.6,
-      "tags": [
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-1syyh1a",
-      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find poten",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T22:53:08.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-qhfvvg",
-      "title": "Ruff v0.16.0",
-      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's anno",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-25T22:44:05.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.5,
-      "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1jd5m67",
-      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
-      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "71 points on Hacker News",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-25T21:48:22Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.5,
-      "tags": [
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-dmzu90",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "110 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T20:42:35Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.4,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1e2rpwg",
-      "title": "General Resolution: LLM Usage in Debian",
-      "url": "https://www.debian.org/vote/2026/vote_002",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "32 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T19:44:39Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1p8biuu",
-      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "20 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T18:59:50Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-6r17eg",
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "284 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T14:49:49Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-v3iivh",
-      "title": "Why Chip Engineers Should Care About AI-Created Behavioral Models",
-      "url": "https://semiengineering.com/why-chip-engineers-should-care-about-ai-created-behavioral-models/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Automating the most repetitive and time-consuming parts of behavioral model creation while keeping humans in the loop. The post Why Chip Engineers Should Care About AI-Created Behavioral Models appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:04:28.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.2,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-pqc689",
-      "title": "The Impact Of AI Automation On Chip Design",
-      "url": "https://semiengineering.com/the-impact-of-ai-automation-on-chip-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Change is coming, but how quickly depends on the availability of data and when chipmakers are confident enough to let AI take over. The post The Impact Of AI Automation On Chip Design appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:03:31.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6.2,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ktxaz7",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-25T23:33:28.670Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-zg8rmk",
       "title": "Tile's security is so bad it's a feature for stalkers",
       "url": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers/",
@@ -327,22 +358,6 @@
       "score": 6.4,
       "tags": [
         "security"
-      ]
-    },
-    {
-      "id": "sig-kgvv01",
-      "title": "Druva spreading AI agent cyber-resilience wings with Claude and Copilot co-operation",
-      "url": "https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T15:58:25.000Z",
-      "fetchedAt": "2026-07-25T21:28:46.721Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "claude"
       ]
     },
     {
@@ -3054,36 +3069,6 @@
       "score": 6,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-13dcj44",
-      "title": "Claude make Fable 5 permanent",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will rec",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-18T06:00:13.000Z",
-      "fetchedAt": "2026-07-19T01:03:41.620Z",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-pxn8fu",
-      "title": "nascheme/quixote",
-      "url": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "nascheme/quixote A certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into ",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-18T05:27:49.000Z",
-      "fetchedAt": "2026-07-19T01:03:41.620Z",
-      "score": 6,
-      "tags": [
-        "python"
       ]
     }
   ]
