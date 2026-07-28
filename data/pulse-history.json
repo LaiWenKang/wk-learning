@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:56:31.479Z",
+  "updatedAt": "2026-07-28T21:15:46.798Z",
   "signals": [
     {
       "id": "sig-8txthk",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +18,23 @@
         "pcie",
         "endurance",
         "dwpd"
+      ]
+    },
+    {
+      "id": "sig-bkamya",
+      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-28T17:15:55.000Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "pcie",
+        "kioxia"
       ]
     },
     {
@@ -29,12 +46,28 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 8.2,
       "tags": [
         "ai",
         "anthropic",
         "openai"
+      ]
+    },
+    {
+      "id": "sig-tge236",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "16 points on Hacker News",
+      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T20:52:55Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 8,
+      "tags": [
+        "openai",
+        "security"
       ]
     },
     {
@@ -46,8 +79,8 @@
       "summary": "How to achieve a 10X productivity improvement using AI agents. The post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T07:01:53.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 8,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "semiconductor",
@@ -63,8 +96,8 @@
       "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
@@ -79,7 +112,7 @@
       "summary": "HW methods to throttle AI; M3D DRAM; interconnect signal-integrity analysis; 3D mask effects in high/hyper-NA EUV litho; compute-in-interconnect and memory; NbAs nanowire interconnects; and 3D conformal thin-film patterning. The post Chip Industry Technical Paper Roundup: July 28",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-28T07:01:45.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -95,8 +128,8 @@
       "summary": "arXiv:2607.22984v1 Announce Type: new Abstract: Machine learning models for clinical prediction tasks, such as in-hospital mortality and sepsis onset, routinely achieve high AUROC scores. However, AUROC measures ranking performance rather than clinical sensibility. A model may ra",
       "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.5,
       "tags": [
         "machine learning",
         "performance"
@@ -111,8 +144,8 @@
       "summary": "arXiv:2607.23169v1 Announce Type: new Abstract: Log-based fault diagnosis is crucial for runtime debugging and maintenance. Existing fault diagnosis methods use language models pre-trained on natural language (PLMs) for log representation. However, system faults are reflected in ",
       "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.5,
       "tags": [
         "language model",
         "debugging"
@@ -127,8 +160,8 @@
       "summary": "arXiv:2607.23308v1 Announce Type: new Abstract: The immutable nature of smart contracts makes it challenging to fix and patch bugs once they are deployed to a blockchain. This implies that security vulnerabilities may be exposed to possible exploitation for a longer period, neces",
       "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "security"
@@ -143,8 +176,8 @@
       "summary": "arXiv:2607.22792v1 Announce Type: new Abstract: Embedded RISC-V processors are increasingly deployed for on-device AI inference at the edge, where energy efficiency is a primary design constraint. Instruction fetching from SRAM-based memory is a dominant source of energy consumpt",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "embedded"
@@ -159,7 +192,7 @@
       "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T21:55:53.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -175,7 +208,7 @@
       "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-28T13:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 7.3,
       "tags": [
         "telemetry"
@@ -190,8 +223,8 @@
       "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T18:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7.3,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "github"
@@ -206,11 +239,26 @@
       "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 7.2,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 7,
+      "tags": [
+        "nand"
       ]
     },
     {
@@ -222,11 +270,26 @@
       "summary": "Jobs, markets, and economics are undergoing dramatic changes, but it's still too early to know how this will all shake out. The post Preparing For AI-Driven Chip Design And Verification appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-27T07:01:32.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 7,
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1s3ltde",
+      "title": "Hulios: An eBPF-powered, transparent Tor gateway for Linux",
+      "url": "https://github.com/ghaziwali/Hulios",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "11 points on Hacker News",
+      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-28T19:54:38Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
+      "score": 6.5,
+      "tags": [
+        "linux"
       ]
     },
     {
@@ -235,10 +298,10 @@
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "92 points on Hacker News",
+      "summary": "110 points on Hacker News",
       "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T17:22:16Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 6.4,
       "tags": [
         "claude"
@@ -253,7 +316,7 @@
       "summary": "Proxmox Server Solutions has joined the NVIDIA Mission Control ecosystem, pairing Proxmox Virtual Environment (Proxmox VE) with NVIDIA’s AI factory management platform. The arrangement targets organizations deploying accelerated AI infrastructure based on NVIDIA Blackwell and Ver",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T16:23:19.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
+      "fetchedAt": "2026-07-28T21:15:46.798Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -350,21 +413,6 @@
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-28T18:22:07.052Z",
-      "score": 7,
-      "tags": [
-        "nand"
       ]
     },
     {
@@ -3005,38 +3053,6 @@
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-21T18:32:21Z",
       "fetchedAt": "2026-07-21T22:30:23.188Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-kbbjud",
-      "title": "Axelera’s Voyager Wingman Pitches 20-30% Better Results Than Claude Code for Edge AI Development",
-      "url": "https://www.storagereview.com/news/axeleras-voyager-wingman-pitches-20-30-better-results-than-claude-code-for-edge-ai-development",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Axelera AI has launched Voyager Wingman, an AI-powered assistant designed to accelerate development with its Voyager Toolkit. The tool was first shown at CES in January and has since undergone extensive testing ahead of this broader release. Wingman lets developers use natural la",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T15:14:48.000Z",
-      "fetchedAt": "2026-07-21T20:21:58.914Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-enql1k",
-      "title": "AI makes programming differently difficult",
-      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "112 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T18:30:21Z",
-      "fetchedAt": "2026-07-21T20:21:58.914Z",
       "score": 6.4,
       "tags": [
         "ai"
