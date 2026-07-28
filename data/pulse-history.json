@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T01:06:58.689Z",
+  "updatedAt": "2026-07-28T04:20:51.242Z",
   "signals": [
     {
       "id": "sig-y3hzzz",
@@ -10,8 +10,8 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "anthropic",
@@ -27,12 +27,293 @@
       "summary": "How to achieve a 10X productivity improvement using AI agents. The post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T07:01:53.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 8.5,
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "semiconductor",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-qeqgfe",
+      "title": "Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study",
+      "url": "https://arxiv.org/abs/2607.22984",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22984v1 Announce Type: new Abstract: Machine learning models for clinical prediction tasks, such as in-hospital mortality and sepsis onset, routinely achieve high AUROC scores. However, AUROC measures ranking performance rather than clinical sensibility. A model may ra",
+      "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8,
+      "tags": [
+        "machine learning",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-qer1dy",
+      "title": "Bifrost: Empowering Pretrained Language Model with Fallibility Representation for Log-Based Fault Diagnosis",
+      "url": "https://arxiv.org/abs/2607.23169",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.23169v1 Announce Type: new Abstract: Log-based fault diagnosis is crucial for runtime debugging and maintenance. Existing fault diagnosis methods use language models pre-trained on natural language (PLMs) for log representation. However, system faults are reflected in ",
+      "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8,
+      "tags": [
+        "language model",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-qer2wx",
+      "title": "Towards LLM-assisted High-Quality Property Generation for Solidity Smart Contracts",
+      "url": "https://arxiv.org/abs/2607.23308",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.23308v1 Announce Type: new Abstract: The immutable nature of smart contracts makes it challenging to fix and patch bugs once they are deployed to a blockchain. This implies that security vulnerabilities may be exposed to possible exploitation for a longer period, neces",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qeqerr",
+      "title": "Reducing Instruction-Fetch Energy in RISC-V for Embedded AI Processing via Dynamic and Static Loop Caching",
+      "url": "https://arxiv.org/abs/2607.22792",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.22792v1 Announce Type: new Abstract: Embedded RISC-V processors are increasingly deployed for on-device AI inference at the edge, where energy efficiency is a primary design constraint. Instruction fetching from SRAM-based memory is a dominant source of energy consumpt",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-h56djm",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T21:55:53.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-tiw6ac",
+      "title": "The harness is all you need (mostly)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-z65ilw",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T16:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-c901z8",
+      "title": "Preparing For AI-Driven Chip Design And Verification",
+      "url": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Jobs, markets, and economics are undergoing dramatic changes, but it's still too early to know how this will all shake out. The post Preparing For AI-Driven Chip Design And Verification appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-27T07:01:32.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7,
+      "tags": [
+        "nand"
+      ]
+    },
+    {
+      "id": "sig-1qhtljh",
+      "title": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
+      "url": "https://www.storagereview.com/news/amd-6th-gen-epyc-venice-256-cores-1-6tb-s-and-the-first-pcie-gen-6-server-cpu",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Advancing AI 2026 was AMD’s biggest launch event yet, big enough that we split our coverage in two. Our first article covered the Instinct MI455X and the 72-GPU Helios rack; this sister piece covers what could not comfortably fit alongside them: the 6th Gen EPYC server CPUs, code",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-23T18:30:32.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7,
+      "tags": [
+        "pcie",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-ub23v1",
+      "title": "danilo-znamerovszkij/draw-your-font (JavaScript) — trending new repo",
+      "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill. · ★ 411",
+      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-22T09:47:19Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-qepld4",
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "url": "https://arxiv.org/abs/2607.21596",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21596v1 Announce Type: new Abstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures ",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qeplyy",
+      "title": "Securing Multimodal AI through Internal Information Decomposition",
+      "url": "https://arxiv.org/abs/2607.21600",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21600v1 Announce Type: new Abstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a det",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qeplz0",
+      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
+      "url": "https://arxiv.org/abs/2607.21602",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dyn",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qeplz2",
+      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
+      "url": "https://arxiv.org/abs/2607.21604",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21604v1 Announce Type: new Abstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries, keywords, and tags. From an inference ",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qeplzz",
+      "title": "Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution",
+      "url": "https://arxiv.org/abs/2607.21614",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21614v1 Announce Type: new Abstract: Entity resolution (ER) typically relies on pairwise similarity comparisons between records, which limits its ability to capture indirect relationships present in demographic occupancy data. An important indirect pattern arises from ",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qepm00",
+      "title": "FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding",
+      "url": "https://arxiv.org/abs/2607.21615",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.21615v1 Announce Type: new Abstract: The rapid deployment of generative AI has amplified the critical need for Training Data Attribution to ensure transparency and accountability. However, current parametric approaches require computationally prohibitive access to mode",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qeqfdw",
+      "title": "The Best Programming Language for Tokenmaxxing: An Investigation of Coding Agent Behavior Across Programming Languages",
+      "url": "https://arxiv.org/abs/2607.22807",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22807v1 Announce Type: new Abstract: Although coding agents are now very effective in a variety of programming languages, this paper first shows that the cost (in tokens) can very significantly by programming language. We evaluate five recent models on programming prob",
+      "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-28T04:20:51.242Z",
+      "score": 6.5,
+      "tags": [
+        "coding agent"
       ]
     },
     {
@@ -68,54 +349,6 @@
       ]
     },
     {
-      "id": "sig-h56djm",
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T21:55:53.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-tiw6ac",
-      "title": "The harness is all you need (mostly)",
-      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T18:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-z65ilw",
-      "title": "GitHub Copilot app for Beginners: Getting started",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T16:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-12p5dhz",
       "title": "How is the Bun rewrite in Rust going?",
       "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
@@ -129,22 +362,6 @@
       "tags": [
         "ai",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-c901z8",
-      "title": "Preparing For AI-Driven Chip Design And Verification",
-      "url": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Jobs, markets, and economics are undergoing dramatic changes, but it's still too early to know how this will all shake out. The post Preparing For AI-Driven Chip Design And Verification appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-27T07:01:32.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -209,39 +426,6 @@
       "tags": [
         "ai",
         "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1qhtljh",
-      "title": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
-      "url": "https://www.storagereview.com/news/amd-6th-gen-epyc-venice-256-cores-1-6tb-s-and-the-first-pcie-gen-6-server-cpu",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Advancing AI 2026 was AMD’s biggest launch event yet, big enough that we split our coverage in two. Our first article covered the Instinct MI455X and the 72-GPU Helios rack; this sister piece covers what could not comfortably fit alongside them: the 6th Gen EPYC server CPUs, code",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-23T18:30:32.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7,
-      "tags": [
-        "pcie",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-ub23v1",
-      "title": "danilo-znamerovszkij/draw-your-font (JavaScript) — trending new repo",
-      "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill. · ★ 403",
-      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-22T09:47:19Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "javascript"
       ]
     },
     {
@@ -319,21 +503,6 @@
       "score": 6.2,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-27T23:40:04.934Z",
-      "score": 7,
-      "tags": [
-        "nand"
       ]
     },
     {
@@ -504,81 +673,6 @@
       ]
     },
     {
-      "id": "sig-qepld4",
-      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-      "url": "https://arxiv.org/abs/2607.21596",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21596v1 Announce Type: new Abstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures ",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T11:59:28.004Z",
-      "score": 6.3,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qeplyy",
-      "title": "Securing Multimodal AI through Internal Information Decomposition",
-      "url": "https://arxiv.org/abs/2607.21600",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21600v1 Announce Type: new Abstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a det",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T11:59:28.004Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qeplz0",
-      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
-      "url": "https://arxiv.org/abs/2607.21602",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dyn",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T08:39:09.350Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qeplz2",
-      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
-      "url": "https://arxiv.org/abs/2607.21604",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21604v1 Announce Type: new Abstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries, keywords, and tags. From an inference ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T08:39:09.350Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qeplzz",
-      "title": "Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution",
-      "url": "https://arxiv.org/abs/2607.21614",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21614v1 Announce Type: new Abstract: Entity resolution (ER) typically relies on pairwise similarity comparisons between records, which limits its ability to capture indirect relationships present in demographic occupancy data. An important indirect pattern arises from ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T08:39:09.350Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
       "id": "sig-4v7gd9",
       "title": "Enhancing System Observability",
       "url": "https://semiengineering.com/enhancing-system-observability/",
@@ -592,21 +686,6 @@
       "tags": [
         "telemetry",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-qepm00",
-      "title": "FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding",
-      "url": "https://arxiv.org/abs/2607.21615",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21615v1 Announce Type: new Abstract: The rapid deployment of generative AI has amplified the critical need for Training Data Attribution to ensure transparency and accountability. However, current parametric approaches require computationally prohibitive access to mode",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-27T04:54:43.254Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -2999,222 +3078,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-qe36o1",
-      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-      "url": "https://arxiv.org/abs/2607.15280",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qe3wm6",
-      "title": "Reducing Power Consumption of Embedded Dynamic Memories with ECCs",
-      "url": "https://arxiv.org/abs/2607.16042",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2607.16042v1 Announce Type: cross Abstract: Gain-cell embedded dynamic random-access memory (GCRAM) offers dense and energy-efficient on-chip storage, but retention-time variations force frequent refresh operations to cover worst-case bits. Error-correction codes (ECCs) can",
-      "whyItMatters": "Touches storage, embedded — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 7.3,
-      "tags": [
-        "storage",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-m8tko8",
-      "title": "Inference Accelerator that Integrates Compute-in-Interconnect and Memory to Mitigate the Memory Wall (NUS)",
-      "url": "https://semiengineering.com/inference-accelerator-that-integrates-compute-in-interconnect-and-memory-to-mitigate-the-memory-wall-nus/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the National University of Singapore published a technical paper titled “CIMERA: Compute-in-Interconnect and Memory with Reconfigurable Precision for LLM Inference.” Abstract Excerpt: “This paper presents CIMERA, a reconfigurable-precision LLM inference accelerator",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T17:57:49.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-9wbs3y",
-      "title": "Microsoft Will Ramp AMD’s Helios Rack-Scale AI Platform at Scale on Azure",
-      "url": "https://www.storagereview.com/news/microsoft-will-ramp-amds-helios-rack-scale-ai-platform-at-scale-on-azure",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD has expanded its strategic partnership with Microsoft to cover GPUs, CPUs, networking, and software across Azure infrastructure. The collaboration includes Microsoft’s planned deployment of AMD’s Helios Rackscale Solution for AI inference workloads supporting frontier models,",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T17:22:38.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x3dm7e",
-      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
-      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "200 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T16:36:36Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-55mdpa",
-      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "66 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T16:32:10Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1es14bz",
-      "title": "$100 million for open source: A milestone built by the community",
-      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day. The post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-20T16:00:00.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1mcvbt8",
-      "title": "NVIDIA Omniverse Libraries Put AI Agents to Work Prepping 3D Content for Simulation",
-      "url": "https://www.storagereview.com/news/nvidia-omniverse-libraries-put-ai-agents-to-work-prepping-3d-content-for-simulation",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA has introduced Omniverse libraries, a set of software components designed to bring physical AI capabilities into existing 3D applications and prepare content for simulation. The libraries are intended to help developers, technical artists, and engineering teams build workf",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T15:37:09.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-9crj1c",
-      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
-      "url": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.emergingtrajectories.com/lh/frontier-lab-economics/ Comments URL: https://news.ycombinator.com/item?id=48980019 Points: 310 # Comments: 300",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T15:13:42.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.2,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1frlxou",
-      "title": "China’s open-weights AI strategy is winning",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "1003 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-20T14:21:47Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6.1,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-12of8lo",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-147/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Intel's expansion; Cadence AI super agent for PCB, advanced packaging; photonics fab wars; earlier Yongin fab; German funding; new CHIPS Act award; HBM standard; Quadric funding; AMS acquisition; earnings; Rapidus teams up. The post Chip Industry Week In Review appeared first on ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-17T07:01:01.000Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1hrrdbs",
-      "title": "EthanXiang777/circuit-framework (Python) — trending new repo",
-      "url": "https://github.com/EthanXiang777/circuit-framework",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Circuit Framework — multi-agent LLM trading research system · ★ 486",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-16T15:02:10Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1rxm617",
-      "title": "Blueturboguy07/cue (JavaScript) — trending new repo",
-      "url": "https://github.com/Blueturboguy07/cue",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key. · ★ 664",
-      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T22:17:25Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1n7wlb2",
-      "title": "yuwen-cool/yuwen-publish-precheck (Python) — trending new repo",
-      "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "发布前审｜发抖音/小红书/视频号前先让 AI 审一遍：哪句踩线、依据哪条官方规则、给能直接用的改法。38 篇真实样本校准判定尺度，72 条官方原文引文可查证，你踩过的坑沉淀成本地规则库越用越准。不承诺过审，不教绕审。 · ★ 358",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-15T13:53:48Z",
-      "fetchedAt": "2026-07-21T03:48:52.868Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "python"
       ]
     }
   ]
