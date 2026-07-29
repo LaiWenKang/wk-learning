@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:34:44.518Z",
+  "generatedAt": "2026-07-29T13:17:48.577Z",
   "signals": [
     {
       "id": "sig-8txthk",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,8 +46,8 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 8.9,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "semiconductor",
@@ -63,8 +63,8 @@
       "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is ",
       "whyItMatters": "Touches llm, machine learning, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 8.7,
       "tags": [
         "llm",
         "machine learning",
@@ -81,13 +81,29 @@
       "summary": "arXiv:2607.24849v1 Announce Type: cross Abstract: Cyclic Redundancy Check (CRC) remains one of the most widely used error-detection mechanisms in communication, storage, and embedded systems. However, conventional software CRC implementations suffer from inherent sequential depen",
       "whyItMatters": "Touches storage, embedded, communication — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 8.7,
       "tags": [
         "storage",
         "embedded",
         "communication",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1rx6kum",
+      "title": "NVIDIA’s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
+      "url": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T13:16:52.000Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "security"
       ]
     },
     {
@@ -99,8 +115,8 @@
       "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned ob",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm"
@@ -115,8 +131,8 @@
       "summary": "arXiv:2607.24991v1 Announce Type: new Abstract: Context: Generative AI (GenAI) and Large Language Models (LLMs) are increasingly used for academic tasks in software engineering and beyond, including systematic literature reviews (SLRs). However, while capable of summarizing text,",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "software engineering"
@@ -131,8 +147,8 @@
       "summary": "arXiv:2607.25032v1 Announce Type: new Abstract: Agent Skills are an emerging way to extend large language model agents with reusable procedural knowledge that the agent loads on demand. Anthropic introduced Agent Skills and published the format as an open specification supported ",
       "whyItMatters": "Touches anthropic, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 7.7,
       "tags": [
         "anthropic",
         "language model"
@@ -147,8 +163,8 @@
       "summary": "arXiv:2607.25498v1 Announce Type: new Abstract: Prefill-decode disaggregation (PD) and roofline-based operator placement are common strategies for partitioning Large Language Model (LLM) inference across heterogeneous systems, but they are often insufficient in practice. End-to-e",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -163,8 +179,8 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "anthropic",
@@ -180,7 +196,7 @@
       "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s co",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T22:45:37.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7.6,
       "tags": [
         "claude",
@@ -196,7 +212,7 @@
       "summary": "How to achieve a 10X productivity improvement using AI agents. The post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T07:01:53.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -213,7 +229,7 @@
       "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -226,10 +242,10 @@
       "url": "https://github.com/0xwilliamortiz/ponytail-improved",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 476",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 451",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T14:16:19Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -245,27 +261,11 @@
       "summary": "HW methods to throttle AI; M3D DRAM; interconnect signal-integrity analysis; 3D mask effects in high/hyper-NA EUV litho; compute-in-interconnect and memory; NbAs nanowire interconnects; and 3D conformal thin-film patterning. The post Chip Industry Technical Paper Roundup: July 28",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-28T07:01:45.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7.2,
       "tags": [
         "ai",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-h56djm",
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T21:55:53.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude"
       ]
     },
     {
@@ -277,10 +277,26 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 7,
       "tags": [
         "nand"
+      ]
+    },
+    {
+      "id": "sig-h56djm",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T21:55:53.000Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -292,8 +308,8 @@
       "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-28T13:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 6.9,
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
+      "score": 6.8,
       "tags": [
         "telemetry"
       ]
@@ -307,23 +323,7 @@
       "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T18:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-z65ilw",
-      "title": "GitHub Copilot app for Beginners: Getting started",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T16:00:00.000Z",
-      "fetchedAt": "2026-07-29T11:34:44.518Z",
+      "fetchedAt": "2026-07-29T13:17:48.577Z",
       "score": 6.8,
       "tags": [
         "ai",
