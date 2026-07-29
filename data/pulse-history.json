@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T00:11:08.470Z",
+  "updatedAt": "2026-07-29T03:43:43.850Z",
   "signals": [
     {
       "id": "sig-8txthk",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +29,45 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
       "score": 10,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-qeqcyu",
+      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+      "url": "https://arxiv.org/abs/2607.22548",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 8.3,
+      "tags": [
+        "telemetry",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-qeqd0p",
+      "title": "Execution-Grounded Security Testing for Coding Agents in Software Engineering Pipelines",
+      "url": "https://arxiv.org/abs/2607.22569",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22569v1 Announce Type: new Abstract: Coding agents are increasingly integrated into system operations, where their tool use can directly modify project artifacts, execution environments, and the underlying system. For example, if a coding agent inserts a hook into a sy",
+      "whyItMatters": "Touches coding agent, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 8.3,
+      "tags": [
+        "coding agent",
+        "software engineering",
+        "security"
       ]
     },
     {
@@ -46,8 +79,8 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 8.1,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 8,
       "tags": [
         "ai",
         "anthropic",
@@ -63,8 +96,8 @@
       "summary": "How to achieve a 10X productivity improvement using AI agents. The post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T07:01:53.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor",
@@ -80,8 +113,8 @@
       "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "storage"
@@ -93,11 +126,11 @@
       "url": "https://github.com/0xwilliamortiz/ponytail-improved",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 423",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 474",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T14:16:19Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "javascript"
@@ -112,11 +145,75 @@
       "summary": "HW methods to throttle AI; M3D DRAM; interconnect signal-integrity analysis; 3D mask effects in high/hyper-NA EUV litho; compute-in-interconnect and memory; NbAs nanowire interconnects; and 3D conformal thin-film patterning. The post Chip Industry Technical Paper Roundup: July 28",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-28T07:01:45.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-qeqczn",
+      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+      "url": "https://arxiv.org/abs/2607.22554",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how m",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-qeqd0h",
+      "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
+      "url": "https://arxiv.org/abs/2607.22561",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22561v1 Announce Type: new Abstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple,",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-qeqd0l",
+      "title": "DSTFView: Multi-View Cloud-Edge Workload Forecasting with Dual-Input Spatio-Temporal-Frequency Modeling",
+      "url": "https://arxiv.org/abs/2607.22565",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22565v1 Announce Type: new Abstract: With the widespread deployment of edge-side AI inference, edge platforms are increasingly required to support latency-sensitive, highly concurrent, and reliability-critical applications. However, existing methods often struggle to b",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-qeqd0o",
+      "title": "Keyword Matters: Unveiling the Energy Sensitivity of On-Device LLM Prompting",
+      "url": "https://arxiv.org/abs/2607.22568",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.22568v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed on mobile and embedded devices to improve privacy and reduce network latency. Yet on-device inference faces a fundamental constraint: high energy consumption on battery-powered,",
+      "whyItMatters": "Touches llm, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
+      "tags": [
+        "llm",
+        "embedded"
       ]
     },
     {
@@ -128,8 +225,8 @@
       "summary": "arXiv:2607.22984v1 Announce Type: new Abstract: Machine learning models for clinical prediction tasks, such as in-hospital mortality and sepsis onset, routinely achieve high AUROC scores. However, AUROC measures ranking performance rather than clinical sensibility. A model may ra",
       "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
       "tags": [
         "machine learning",
         "performance"
@@ -144,8 +241,8 @@
       "summary": "arXiv:2607.23169v1 Announce Type: new Abstract: Log-based fault diagnosis is crucial for runtime debugging and maintenance. Existing fault diagnosis methods use language models pre-trained on natural language (PLMs) for log representation. However, system faults are reflected in ",
       "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
       "tags": [
         "language model",
         "debugging"
@@ -160,8 +257,8 @@
       "summary": "arXiv:2607.23308v1 Announce Type: new Abstract: The immutable nature of smart contracts makes it challenging to fix and patch bugs once they are deployed to a blockchain. This implies that security vulnerabilities may be exposed to possible exploitation for a longer period, neces",
       "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "security"
@@ -176,8 +273,8 @@
       "summary": "arXiv:2607.22792v1 Announce Type: new Abstract: Embedded RISC-V processors are increasingly deployed for on-device AI inference at the edge, where energy efficiency is a primary design constraint. Instruction fetching from SRAM-based memory is a dominant source of energy consumpt",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "embedded"
@@ -192,8 +289,8 @@
       "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T21:55:53.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.3,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "claude"
@@ -208,8 +305,8 @@
       "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-28T13:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.1,
       "tags": [
         "telemetry"
       ]
@@ -223,8 +320,8 @@
       "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T18:00:00.000Z",
-      "fetchedAt": "2026-07-29T00:11:08.470Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "github"
@@ -3008,84 +3105,6 @@
       "score": 6.4,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-qe3y6y",
-      "title": "Deterministic Replay for AI Agent Systems",
-      "url": "https://arxiv.org/abs/2607.16200",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collecti",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-22T00:58:48.254Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe403t",
-      "title": "Personalized Assessments from Personal Artifacts",
-      "url": "https://arxiv.org/abs/2607.16494",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.16494v1 Announce Type: new Abstract: The rapid development and popularization of AI-enabled coding agents have meant software engineering students and professionals cannot be assumed to understand their own code, which risks academic integrity and professional accounta",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-22T00:58:48.254Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-qe4030",
-      "title": "Auto-Scaling Heterogeneous Neural Processing Units for Energy and Cost-Efficient LLM Serving",
-      "url": "https://arxiv.org/abs/2607.16488",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.16488v1 Announce Type: new Abstract: To meet the ever-increasing computing demands of large language model (LLM) services, modern cloud platforms have widely deployed neural processing units (NPUs). These NPU chips have been developed and evolved at an incredibly fast ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T04:00:00.000Z",
-      "fetchedAt": "2026-07-22T00:58:48.254Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-c8l6q3",
-      "title": "Dell Pro 5 16 (AMD) Review: The Desk-First AMD Option in Dell’s Pro Laptop Line",
-      "url": "https://www.storagereview.com/review/dell-pro-5-16-amd-review-the-desk-first-amd-option-in-dells-pro-laptop-line",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Dell Pro 5 16 is the large-screen entry in Dell’s commercial Pro laptop line, and the one that leads on value rather than portability. Our review unit pairs the AMD Ryzen AI 9 HX PRO 470 (12 cores, 24 threads, 55 TOPS NPU) with AMD Radeon 890M integrated graphics, 64 GB of DD",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T20:30:05.000Z",
-      "fetchedAt": "2026-07-22T00:58:48.254Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-v6duil",
-      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
-      "url": "https://github.com/Kalcode/spaceprojectsim",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "82 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-21T18:29:57Z",
-      "fetchedAt": "2026-07-22T00:58:48.254Z",
-      "score": 6.3,
-      "tags": [
-        "rust"
       ]
     }
   ]
