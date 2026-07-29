@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T03:43:43.850Z",
+  "generatedAt": "2026-07-29T06:20:04.961Z",
   "signals": [
     {
       "id": "sig-8txthk",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -38,36 +38,103 @@
       ]
     },
     {
-      "id": "sig-qeqcyu",
-      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
-      "url": "https://arxiv.org/abs/2607.22548",
+      "id": "sig-qery5i",
+      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+      "url": "https://arxiv.org/abs/2607.24762",
       "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 8.3,
+      "summary": "arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is ",
+      "whyItMatters": "Touches llm, machine learning, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 8.9,
       "tags": [
-        "telemetry",
-        "machine learning"
+        "llm",
+        "machine learning",
+        "embedded",
+        "kernel"
       ]
     },
     {
-      "id": "sig-qeqd0p",
-      "title": "Execution-Grounded Security Testing for Coding Agents in Software Engineering Pipelines",
-      "url": "https://arxiv.org/abs/2607.22569",
+      "id": "sig-qeryy4",
+      "title": "Enhancing Error Detection Performance through Parallel CRC Computation on Multi-Core Architectures",
+      "url": "https://arxiv.org/abs/2607.24849",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2607.24849v1 Announce Type: cross Abstract: Cyclic Redundancy Check (CRC) remains one of the most widely used error-detection mechanisms in communication, storage, and embedded systems. However, conventional software CRC implementations suffer from inherent sequential depen",
+      "whyItMatters": "Touches storage, embedded, communication — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 8.9,
+      "tags": [
+        "storage",
+        "embedded",
+        "communication",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-qery5p",
+      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
+      "url": "https://arxiv.org/abs/2607.24769",
       "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2607.22569v1 Announce Type: new Abstract: Coding agents are increasingly integrated into system operations, where their tool use can directly modify project artifacts, execution environments, and the underlying system. For example, if a coding agent inserts a hook into a sy",
-      "whyItMatters": "Touches coding agent, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 8.3,
+      "summary": "arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned ob",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.9,
       "tags": [
-        "coding agent",
-        "software engineering",
-        "security"
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qerzwq",
+      "title": "Preliminary Guidelines for Using and Evaluating GenAI Tools to Support Systematic Literature Reviews",
+      "url": "https://arxiv.org/abs/2607.24991",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.24991v1 Announce Type: new Abstract: Context: Generative AI (GenAI) and Large Language Models (LLMs) are increasingly used for academic tasks in software engineering and beyond, including systematic literature reviews (SLRs). However, while capable of summarizing text,",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qesjx9",
+      "title": "Authoring Agent Skills: A Software-Engineering Approach",
+      "url": "https://arxiv.org/abs/2607.25032",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.25032v1 Announce Type: new Abstract: Agent Skills are an emerging way to extend large language model agents with reusable procedural knowledge that the agent loads on demand. Anthropic introduced Agent Skills and published the format as an open specification supported ",
+      "whyItMatters": "Touches anthropic, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.9,
+      "tags": [
+        "anthropic",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qesnfx",
+      "title": "Beyond Prefill-Decode Disaggregation: Dissecting LLM Inference for Heterogeneous Platforms via Dynamic Operator Scheduling",
+      "url": "https://arxiv.org/abs/2607.25498",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.25498v1 Announce Type: new Abstract: Prefill-decode disaggregation (PD) and roofline-based operator placement are common strategies for partitioning Large Language Model (LLM) inference across heterogeneous systems, but they are often insufficient in practice. End-to-e",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -79,8 +146,8 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 8,
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "anthropic",
@@ -96,8 +163,8 @@
       "summary": "How to achieve a 10X productivity improvement using AI agents. The post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T07:01:53.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -113,7 +180,7 @@
       "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -126,10 +193,10 @@
       "url": "https://github.com/0xwilliamortiz/ponytail-improved",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 474",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 475",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-28T14:16:19Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -145,139 +212,11 @@
       "summary": "HW methods to throttle AI; M3D DRAM; interconnect signal-integrity analysis; 3D mask effects in high/hyper-NA EUV litho; compute-in-interconnect and memory; NbAs nanowire interconnects; and 3D conformal thin-film patterning. The post Chip Industry Technical Paper Roundup: July 28",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-28T07:01:45.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
       "score": 7.4,
       "tags": [
         "ai",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-qeqczn",
-      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
-      "url": "https://arxiv.org/abs/2607.22554",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how m",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0h",
-      "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
-      "url": "https://arxiv.org/abs/2607.22561",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22561v1 Announce Type: new Abstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple,",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0l",
-      "title": "DSTFView: Multi-View Cloud-Edge Workload Forecasting with Dual-Input Spatio-Temporal-Frequency Modeling",
-      "url": "https://arxiv.org/abs/2607.22565",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22565v1 Announce Type: new Abstract: With the widespread deployment of edge-side AI inference, edge platforms are increasingly required to support latency-sensitive, highly concurrent, and reliability-critical applications. However, existing methods often struggle to b",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0o",
-      "title": "Keyword Matters: Unveiling the Energy Sensitivity of On-Device LLM Prompting",
-      "url": "https://arxiv.org/abs/2607.22568",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22568v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed on mobile and embedded devices to improve privacy and reduce network latency. Yet on-device inference faces a fundamental constraint: high energy consumption on battery-powered,",
-      "whyItMatters": "Touches llm, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-qeqgfe",
-      "title": "Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study",
-      "url": "https://arxiv.org/abs/2607.22984",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22984v1 Announce Type: new Abstract: Machine learning models for clinical prediction tasks, such as in-hospital mortality and sepsis onset, routinely achieve high AUROC scores. However, AUROC measures ranking performance rather than clinical sensibility. A model may ra",
-      "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "machine learning",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qer1dy",
-      "title": "Bifrost: Empowering Pretrained Language Model with Fallibility Representation for Log-Based Fault Diagnosis",
-      "url": "https://arxiv.org/abs/2607.23169",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.23169v1 Announce Type: new Abstract: Log-based fault diagnosis is crucial for runtime debugging and maintenance. Existing fault diagnosis methods use language models pre-trained on natural language (PLMs) for log representation. However, system faults are reflected in ",
-      "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "language model",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-qer2wx",
-      "title": "Towards LLM-assisted High-Quality Property Generation for Solidity Smart Contracts",
-      "url": "https://arxiv.org/abs/2607.23308",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.23308v1 Announce Type: new Abstract: The immutable nature of smart contracts makes it challenging to fix and patch bugs once they are deployed to a blockchain. This implies that security vulnerabilities may be exposed to possible exploitation for a longer period, neces",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeqerr",
-      "title": "Reducing Instruction-Fetch Energy in RISC-V for Embedded AI Processing via Dynamic and Static Loop Caching",
-      "url": "https://arxiv.org/abs/2607.22792",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.22792v1 Announce Type: new Abstract: Embedded RISC-V processors are increasingly deployed for on-device AI inference at the edge, where energy efficiency is a primary design constraint. Instruction fetching from SRAM-based memory is a dominant source of energy consumpt",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "embedded"
       ]
     },
     {
@@ -289,8 +228,8 @@
       "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a usefu",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T21:55:53.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.2,
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "claude"
@@ -305,8 +244,8 @@
       "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-28T13:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7,
       "tags": [
         "telemetry"
       ]
@@ -320,11 +259,73 @@
       "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T18:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 7,
+      "tags": [
+        "nand"
+      ]
+    },
+    {
+      "id": "sig-z65ilw",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T16:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-c901z8",
+      "title": "Preparing For AI-Driven Chip Design And Verification",
+      "url": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Jobs, markets, and economics are undergoing dramatic changes, but it's still too early to know how this will all shake out. The post Preparing For AI-Driven Chip Design And Verification appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-27T07:01:32.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qery4s",
+      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.24759",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back clai",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "fetchedAt": "2026-07-29T06:20:04.961Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
       ]
     }
   ]
