@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-30T13:09:05.842Z",
+  "updatedAt": "2026-07-30T15:24:31.312Z",
   "signals": [
+    {
+      "id": "sig-p3ckjk",
+      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T13:48:14.000Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "kioxia",
+        "ai"
+      ]
+    },
     {
       "id": "sig-ksu5wc",
       "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
@@ -10,7 +27,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +44,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +63,7 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -60,10 +77,10 @@
       "url": "https://github.com/mikehasa/agentacct",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry. · ★ 534",
+      "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry. · ★ 535",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-24T16:28:06Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 9.5,
       "tags": [
         "telemetry",
@@ -81,7 +98,7 @@
       "summary": "arXiv:2607.26083v1 Announce Type: new Abstract: AI coding agents have quickly become omnipresent in software engineering. Their serial performance, both in terms of accuracy and speed, has been extensively covered. However, recent initial results suggest their parallel programmin",
       "whyItMatters": "Touches ai, coding agent, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 8.7,
       "tags": [
         "ai",
@@ -99,7 +116,7 @@
       "summary": "arXiv:2607.26390v1 Announce Type: new Abstract: LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debu",
       "whyItMatters": "Touches llm, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 8.7,
       "tags": [
         "llm",
@@ -116,12 +133,28 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
-      "score": 8.2,
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "semiconductor",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-l4lfnr",
+      "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
+      "url": "https://github.com/grafana/ai-sdk",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "31 points on Hacker News",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T11:55:39Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -130,11 +163,11 @@
       "url": "https://github.com/YoanWai/agent-manager",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "34 points on Hacker News",
+      "summary": "72 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T09:34:27Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -149,7 +182,7 @@
       "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T07:01:21.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -165,7 +198,7 @@
       "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -181,7 +214,7 @@
       "summary": "arXiv:2607.26212v1 Announce Type: new Abstract: Multi-Agent Debate (MAD) is a promising paradigm for improving the accuracy and robustness of Large Language Model (LLM)-based agentic systems. It enables multiple agents to exchange arguments, critique each other's outputs, and ite",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7.7,
       "tags": [
         "llm",
@@ -197,11 +230,26 @@
       "summary": "arXiv:2607.26491v1 Announce Type: new Abstract: The energy consumption of Large Language Model (LLM) serving is becoming a major system challenge as deployment scales, driven by hardware power and thermal constraints and rising electricity costs. A key contributor to chip energy ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7.7,
       "tags": [
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-1de2a70",
+      "title": "Seagate HAMRing customers - generating more and more $/TB",
+      "url": "https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-30T14:33:56.000Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 7.5,
+      "tags": [
+        "seagate"
       ]
     },
     {
@@ -213,8 +261,8 @@
       "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T14:42:26.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "storage"
@@ -229,7 +277,7 @@
       "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T13:16:52.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7.3,
       "tags": [
         "ai",
@@ -245,28 +293,12 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
-      "score": 7.1,
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 7,
       "tags": [
         "ai",
         "anthropic",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-1drhx1g",
-      "title": "Adding a custom MCP server to Claude and ChatGPT",
-      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T00:13:18.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude"
       ]
     },
     {
@@ -278,10 +310,26 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
       "score": 7,
       "tags": [
         "nand"
+      ]
+    },
+    {
+      "id": "sig-1drhx1g",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T00:13:18.000Z",
+      "fetchedAt": "2026-07-30T15:24:31.312Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
