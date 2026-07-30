@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:43:32.557Z",
+  "updatedAt": "2026-07-30T09:19:52.525Z",
   "signals": [
     {
       "id": "sig-ksu5wc",
@@ -10,7 +10,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -60,10 +60,10 @@
       "url": "https://github.com/mikehasa/agentacct",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry. · ★ 532",
+      "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry. · ★ 534",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-24T16:28:06Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 9.5,
       "tags": [
         "telemetry",
@@ -81,7 +81,7 @@
       "summary": "arXiv:2607.26083v1 Announce Type: new Abstract: AI coding agents have quickly become omnipresent in software engineering. Their serial performance, both in terms of accuracy and speed, has been extensively covered. However, recent initial results suggest their parallel programmin",
       "whyItMatters": "Touches ai, coding agent, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 8.9,
       "tags": [
         "ai",
@@ -99,7 +99,7 @@
       "summary": "arXiv:2607.26390v1 Announce Type: new Abstract: LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debu",
       "whyItMatters": "Touches llm, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 8.9,
       "tags": [
         "llm",
@@ -116,12 +116,28 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 8.3,
       "tags": [
         "ai",
         "semiconductor",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-dq9mhm",
+      "title": "Compute Clusters Break Out Of National Labs To Scale AI",
+      "url": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T07:01:21.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
       ]
     },
     {
@@ -133,7 +149,7 @@
       "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -149,7 +165,7 @@
       "summary": "arXiv:2607.26212v1 Announce Type: new Abstract: Multi-Agent Debate (MAD) is a promising paradigm for improving the accuracy and robustness of Large Language Model (LLM)-based agentic systems. It enables multiple agents to exchange arguments, critique each other's outputs, and ite",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 7.9,
       "tags": [
         "llm",
@@ -165,11 +181,154 @@
       "summary": "arXiv:2607.26491v1 Announce Type: new Abstract: The energy consumption of Large Language Model (LLM) serving is becoming a major system challenge as deployment scales, driven by hardware power and thermal constraints and rising electricity costs. A key contributor to chip energy ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
       "score": 7.9,
       "tags": [
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-umzrgc",
+      "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
+      "url": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T14:42:26.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1rx6kum",
+      "title": "NVIDIA’s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
+      "url": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T13:16:52.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-y3hzzz",
+      "title": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
+      "url": "https://www.storagereview.com/news/korea-ai-summit-sk-and-nvidia-float-a-500b-partnership-as-naver-triples-its-ai-factory",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
+      "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-27T16:16:11.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1drhx1g",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T00:13:18.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-10amowh",
+      "title": "SK Hynix announces extraordinarily high revenues but misses expectations",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/29/sk-hynix-announces-extraordinarily-high-revenues-but-misses-expectations/5280499",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-29T14:42:52.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7,
+      "tags": [
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-8u7dlr",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s co",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T22:45:37.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 7,
+      "tags": [
+        "nand"
+      ]
+    },
+    {
+      "id": "sig-1odofs1",
+      "title": "NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives",
+      "url": "https://www.storagereview.com/news/netapp-buys-datapelago-to-run-gpu-data-processing-where-the-data-already-lives",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-07-28T15:05:31.000Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-16lt8og",
+      "title": "0xwilliamortiz/ponytail-improved (JavaScript) — trending new repo",
+      "url": "https://github.com/0xwilliamortiz/ponytail-improved",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 555",
+      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T14:16:19Z",
+      "fetchedAt": "2026-07-30T09:19:52.525Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "javascript"
       ]
     },
     {
@@ -189,102 +348,6 @@
       ]
     },
     {
-      "id": "sig-umzrgc",
-      "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
-      "url": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T14:42:26.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1rx6kum",
-      "title": "NVIDIA’s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
-      "url": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T13:16:52.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-y3hzzz",
-      "title": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
-      "url": "https://www.storagereview.com/news/korea-ai-summit-sk-and-nvidia-float-a-500b-partnership-as-naver-triples-its-ai-factory",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
-      "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1drhx1g",
-      "title": "Adding a custom MCP server to Claude and ChatGPT",
-      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T00:13:18.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-10amowh",
-      "title": "SK Hynix announces extraordinarily high revenues but misses expectations",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/29/sk-hynix-announces-extraordinarily-high-revenues-but-misses-expectations/5280499",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-29T14:42:52.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.1,
-      "tags": [
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-8u7dlr",
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s co",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T22:45:37.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7.1,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
       "id": "sig-c2sziu",
       "title": "AI Agent Orchestration For ASIC Autonomy",
       "url": "https://semiengineering.com/ai-agent-orchestration-for-asic-autonomy/",
@@ -299,53 +362,6 @@
         "ai",
         "semiconductor",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 7,
-      "tags": [
-        "nand"
-      ]
-    },
-    {
-      "id": "sig-1odofs1",
-      "title": "NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives",
-      "url": "https://www.storagereview.com/news/netapp-buys-datapelago-to-run-gpu-data-processing-where-the-data-already-lives",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-30T06:43:32.557Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-16lt8og",
-      "title": "0xwilliamortiz/ponytail-improved (JavaScript) — trending new repo",
-      "url": "https://github.com/0xwilliamortiz/ponytail-improved",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. · ★ 547",
-      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T14:16:19Z",
-      "fetchedAt": "2026-07-30T04:12:14.736Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "javascript"
       ]
     },
     {
@@ -3162,122 +3178,6 @@
       "score": 6.4,
       "tags": [
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-dyxks0",
-      "title": "Monolithic 3D-DRAM with Oxide-Semiconductor Architecture (imec, KU Leuven, Samsung, Lam)",
-      "url": "https://semiengineering.com/monolithic-3d-dram-with-oxide-semiconductor-architecture-imec-ku-leuven-samsung-lam/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers from imec, KU Leuven, Samsung Electronics, and Lam Research published a technical paper titled “Optimization of 3D-DRAM Architecture with Oxide-Semiconductor Channel through Process and Device Simulation.” Abstract Excerpt: “We investigate a monolithically stackable O",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-21T18:31:31.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 9.5,
-      "tags": [
-        "samsung electronics",
-        "semiconductor",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-1sbzaxl",
-      "title": "Blog Review: July 22",
-      "url": "https://semiengineering.com/blog-review-july-22-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Securing physical AI; agents need feedback; 3D-IC security; chiplet interoperability; RF digital twins. The post Blog Review: July 22 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T07:01:38.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1q72359",
-      "title": "Using Reliability Degradation Parameters To Drive Better Design Choices",
-      "url": "https://semiengineering.com/using-reliability-degradation-parameters-to-drive-better-design-choices/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Translate stress and aging data into measurable design signals to determine if a circuit still meets reliability expectations. The post Using Reliability Degradation Parameters To Drive Better Design Choices appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:01:00.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 8,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-an0t7j",
-      "title": "Chip Industry Technical Paper Roundup: July 21",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-july-21/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits. The post Chip Industry Tech",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-21T07:01:42.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "llm",
-        "dram",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-p0ieqg",
-      "title": "Enabling Comprehensive CWE-based Assurance for RISC-V Processors",
-      "url": "https://semiengineering.com/enabling-comprehensive-cwe-based-assurance-for-risc-v-processors/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A scalable, Common Weakness Enumeration (CWE)–based security assurance methodology for third-party RISC-V processor IP. The post Enabling Comprehensive CWE-based Assurance for RISC-V Processors appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-22T07:01:35.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 7.3,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1txah9j",
-      "title": "From Highways To Health Care: Portability Proves Key To Physical AI",
-      "url": "https://semiengineering.com/from-highways-to-health-care-portability-proves-key-to-physical-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Success at the edge takes advantage of common threads — lithography, imaging, chiplets, and AI. The post From Highways To Health Care: Portability Proves Key To Physical AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T07:01:26.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-xchb5n",
-      "title": "HW-based Methods to Dynamically Throttle AI Performance (Princeton University)",
-      "url": "https://semiengineering.com/hw-based-methods-to-dynamically-throttle-ai-performance-princeton-university/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to lim",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T18:41:34.000Z",
-      "fetchedAt": "2026-07-23T07:12:58.479Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "performance"
       ]
     }
   ]
