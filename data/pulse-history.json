@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T11:23:18.046Z",
+  "updatedAt": "2026-07-30T13:09:05.842Z",
   "signals": [
     {
       "id": "sig-ksu5wc",
@@ -10,7 +10,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -63,7 +63,7 @@
       "summary": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry. · ★ 534",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-07-24T16:28:06Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 9.5,
       "tags": [
         "telemetry",
@@ -81,8 +81,8 @@
       "summary": "arXiv:2607.26083v1 Announce Type: new Abstract: AI coding agents have quickly become omnipresent in software engineering. Their serial performance, both in terms of accuracy and speed, has been extensively covered. However, recent initial results suggest their parallel programmin",
       "whyItMatters": "Touches ai, coding agent, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "coding agent",
@@ -99,8 +99,8 @@
       "summary": "arXiv:2607.26390v1 Announce Type: new Abstract: LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debu",
       "whyItMatters": "Touches llm, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 8.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 8.7,
       "tags": [
         "llm",
         "software engineering",
@@ -116,12 +116,28 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 8.2,
       "tags": [
         "ai",
         "semiconductor",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-1rhmict",
+      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+      "url": "https://github.com/YoanWai/agent-manager",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "34 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T09:34:27Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -133,8 +149,8 @@
       "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T07:01:21.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7.9,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "performance"
@@ -149,8 +165,8 @@
       "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm"
@@ -165,8 +181,8 @@
       "summary": "arXiv:2607.26212v1 Announce Type: new Abstract: Multi-Agent Debate (MAD) is a promising paradigm for improving the accuracy and robustness of Large Language Model (LLM)-based agentic systems. It enables multiple agents to exchange arguments, critique each other's outputs, and ite",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -181,8 +197,8 @@
       "summary": "arXiv:2607.26491v1 Announce Type: new Abstract: The energy consumption of Large Language Model (LLM) serving is becoming a major system challenge as deployment scales, driven by hardware power and thermal constraints and rising electricity costs. A key contributor to chip energy ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -197,7 +213,7 @@
       "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T14:42:26.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -213,8 +229,8 @@
       "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T13:16:52.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7.4,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "security"
@@ -229,7 +245,7 @@
       "summary": "The Korea-focused AI Summit in San Francisco on July 24 gathered leaders from NVIDIA, OpenAI, Broadcom, Anthropic, Samsung, SK Group, Hyundai Motor Group, and NAVER. Held during South Korean President Lee Jae Myung’s visit, the event produced announcements spanning AI factory cap",
       "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T16:16:11.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 7.1,
       "tags": [
         "ai",
@@ -246,27 +262,11 @@
       "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T00:13:18.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 7,
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-8u7dlr",
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s co",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T22:45:37.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 7,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -278,7 +278,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 7,
       "tags": [
         "nand"
@@ -293,10 +293,26 @@
       "summary": "",
       "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-07-29T14:42:52.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
       "score": 6.9,
       "tags": [
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-8u7dlr",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s co",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-28T22:45:37.000Z",
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 6.9,
+      "tags": [
+        "claude",
+        "anthropic"
       ]
     },
     {
@@ -308,8 +324,8 @@
       "summary": "NetApp has acquired DataPelago, a California-based AI data infrastructure company. The acquisition extends NetApp’s data infrastructure portfolio with GPU-accelerated processing capabilities that operate at the storage layer, reducing the need to move enterprise data into separat",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-07-28T15:05:31.000Z",
-      "fetchedAt": "2026-07-30T11:23:18.046Z",
-      "score": 6.8,
+      "fetchedAt": "2026-07-30T13:09:05.842Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "storage"
@@ -2953,201 +2969,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-3imyy9",
-      "title": "Understanding the AI Economy",
-      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "55 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T12:11:05Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-5mtuub",
-      "title": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory",
-      "url": "https://frame.work/desktop?tab=192gb-coming-soon",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "52 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T11:09:48Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1yr2kxj",
-      "title": "Quoting Seth Larson",
-      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-23T04:50:36.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.3,
-      "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-qe5hqg",
-      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
-      "url": "https://arxiv.org/abs/2607.18239",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18239v1 Announce Type: new Abstract: Power-seeking defined as behaviors where AI systems acquire resources, evade oversight, or resist termination beyond task requirements is identified as a key driver of Loss of Control (LoC) risk. In this work, we introduce SysAdmin,",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qe5hr4",
-      "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-      "url": "https://arxiv.org/abs/2607.18240",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18240v1 Announce Type: new Abstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or inter",
-      "whyItMatters": "Touches reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qe5hr5",
-      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "url": "https://arxiv.org/abs/2607.18241",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18241v1 Announce Type: new Abstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context overflow, loss of per-entity attribution, and linear ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qe5hr6",
-      "title": "AI Tool Discovery at Scale: All You Need is DNS",
-      "url": "https://arxiv.org/abs/2607.18242",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18242v1 Announce Type: new Abstract: The coming era of autonomous AI agents demands a discovery mechanism capable of navigating millions of tools, yet existing solutions buckle under O(N) complexity and centralized governance. Instead of building another fragile overla",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qe5hr7",
-      "title": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
-      "url": "https://arxiv.org/abs/2607.18243",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18243v1 Announce Type: new Abstract: Agentic AI is crossing trust boundaries faster than current risk models can represent. Existing approaches provide one of two partial views. They either describe failure mechanisms without producing a transferable residual-risk esti",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qe5hs3",
-      "title": "MILP-Evo: Closed-Loop Fully Automatic Design of MILP Solvers",
-      "url": "https://arxiv.org/abs/2607.18252",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18252v1 Announce Type: new Abstract: Machine learning methods have shown that data-driven policies can accelerate mixed-integer linear programming (MILP) solvers, but many such approaches remain difficult to inspect, adapt, and deploy because the learned policy is repr",
-      "whyItMatters": "Touches machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-qe5hs4",
-      "title": "Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads",
-      "url": "https://arxiv.org/abs/2607.18253",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18253v1 Announce Type: new Abstract: Modern language query routers improve inference efficiency by assigning each query to a model that balances response quality and monetary cost. However, current query routers are largely latency-agnostic and do not consider the gene",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-23T13:07:34.300Z",
-      "score": 6.2,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1p42tes",
-      "title": "Designing Electro-Optical Chips",
-      "url": "https://semiengineering.com/designing-electro-optical-chips/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Photonics is forcing EDA to verify not just chips, but the physics of light inside full electro-optical systems. The post Designing Electro-Optical Chips appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:11:26.000Z",
-      "fetchedAt": "2026-07-23T11:34:18.148Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-8vgstc",
-      "title": "Untangling Chip Traffic Jams",
-      "url": "https://semiengineering.com/untangling-chip-traffic-jams/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Scaling NoCs across chiplets requires earlier validation of coherency, congestion, thermal effects, and fault behavior. The post Untangling Chip Traffic Jams appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:11:26.000Z",
-      "fetchedAt": "2026-07-23T11:34:18.148Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-lko3fy",
-      "title": "Chip Policy: The UK Vs. The US Vs. EU Vs. India",
-      "url": "https://semiengineering.com/chip-policy-the-uk-vs-the-us-vs-eu-vs-india/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Policy shifts affect every company in the semiconductor industry, regardless of their size. The post Chip Policy: The UK Vs. The US Vs. EU Vs. India appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T07:09:07.000Z",
-      "fetchedAt": "2026-07-23T11:34:18.148Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
       ]
     }
   ]
