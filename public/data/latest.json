@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T16:26:02.560Z",
+  "generatedAt": "2026-07-31T18:05:59.490Z",
   "signals": [
     {
       "id": "sig-2dg9su",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 10,
       "tags": [
         "nand",
@@ -63,7 +63,7 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -82,12 +82,29 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -99,7 +116,7 @@
       "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 8.7,
       "tags": [
         "ai",
@@ -116,12 +133,28 @@
       "summary": "arXiv:2607.27879v1 Announce Type: new Abstract: Large language model (LLM) agents optimize the power, performance, and area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis, and PPA analysis, paying a dollar cost for every LLM call. Prior agents r",
       "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 8.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 8.6,
       "tags": [
         "llm",
         "language model",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1fej8sw",
+      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
+      "url": "https://swe-rebench.com",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "19 points on Hacker News",
+      "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T15:28:28Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.9,
+      "tags": [
+        "python",
+        "rust"
       ]
     },
     {
@@ -133,7 +166,7 @@
       "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the last couple of years we’ve framed AI as a productivity tool. How",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T13:48:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -149,8 +182,8 @@
       "summary": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no rec",
       "whyItMatters": "Touches rust, kernel — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-31T07:53:54Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.8,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.7,
       "tags": [
         "rust",
         "kernel"
@@ -165,8 +198,8 @@
       "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -181,8 +214,8 @@
       "summary": "arXiv:2607.27249v1 Announce Type: new Abstract: LLM-based software engineering agents are constrained by limited context windows: roughly 100K tokens must store structurally relevant code subsets to resolve bugs. Standard retrieval models treat code as plain text, forcing agents ",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "software engineering"
@@ -197,8 +230,8 @@
       "summary": "arXiv:2607.27250v1 Announce Type: new Abstract: Persistent context files (AGENTS.md, CLAUDE.md) are standard practice for guiding AI coding agents, yet evidence for their effectiveness is contradictory. We present a controlled ablation of context-injection strategy across two fro",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "claude"
@@ -213,8 +246,8 @@
       "summary": "arXiv:2607.27294v1 Announce Type: new Abstract: Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and s",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -229,8 +262,8 @@
       "summary": "arXiv:2607.27374v1 Announce Type: new Abstract: Continuous software engineering in regulated domains requires engineering teams to address security throughout the development lifecycle. Yet making security requirements explicit in backlog items is still problematic. Engineers mus",
       "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "software engineering",
         "security"
@@ -245,8 +278,8 @@
       "summary": "arXiv:2607.27606v1 Announce Type: new Abstract: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop i",
       "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "machine learning"
@@ -261,27 +294,11 @@
       "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T22:00:54.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "embedded"
-      ]
-    },
-    {
-      "id": "sig-18nfg5u",
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 588 # Comments: 389",
-      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T17:15:51.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.4,
-      "tags": [
-        "openai",
-        "performance"
       ]
     },
     {
@@ -293,7 +310,7 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -302,34 +319,18 @@
       ]
     },
     {
-      "id": "sig-104arg5",
-      "title": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-18nfg5u",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T15:43:16.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
+      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 589 # Comments: 391",
+      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T17:15:51.000Z",
+      "fetchedAt": "2026-07-31T18:05:59.490Z",
       "score": 7.3,
       "tags": [
         "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dq9mhm",
-      "title": "Compute Clusters Break Out Of National Labs To Scale AI",
-      "url": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T07:01:21.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
         "performance"
       ]
     }
