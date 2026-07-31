@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-31T10:10:57.835Z",
+  "updatedAt": "2026-07-31T12:19:19.892Z",
   "signals": [
+    {
+      "id": "sig-p3ckjk",
+      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T13:48:14.000Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "kioxia",
+        "ai"
+      ]
+    },
     {
       "id": "sig-ksu5wc",
       "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
@@ -10,7 +27,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,14 +44,31 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 9.7,
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 9.6,
       "tags": [
         "ssd",
         "nvme",
         "pcie",
         "endurance",
         "dwpd"
+      ]
+    },
+    {
+      "id": "sig-bkamya",
+      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-28T17:15:55.000Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 9.6,
+      "tags": [
+        "ssd",
+        "pcie",
+        "kioxia"
       ]
     },
     {
@@ -46,7 +80,7 @@
       "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 8.9,
       "tags": [
         "ai",
@@ -63,7 +97,7 @@
       "summary": "arXiv:2607.27879v1 Announce Type: new Abstract: Large language model (LLM) agents optimize the power, performance, and area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis, and PPA analysis, paying a dollar cost for every LLM call. Prior agents r",
       "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 8.8,
       "tags": [
         "llm",
@@ -80,7 +114,7 @@
       "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -96,7 +130,7 @@
       "summary": "arXiv:2607.27249v1 Announce Type: new Abstract: LLM-based software engineering agents are constrained by limited context windows: roughly 100K tokens must store structurally relevant code subsets to resolve bugs. Standard retrieval models treat code as plain text, forcing agents ",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "llm",
@@ -112,7 +146,7 @@
       "summary": "arXiv:2607.27250v1 Announce Type: new Abstract: Persistent context files (AGENTS.md, CLAUDE.md) are standard practice for guiding AI coding agents, yet evidence for their effectiveness is contradictory. We present a controlled ablation of context-injection strategy across two fro",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -128,7 +162,7 @@
       "summary": "arXiv:2607.27294v1 Announce Type: new Abstract: Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and s",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "llm",
@@ -144,7 +178,7 @@
       "summary": "arXiv:2607.27374v1 Announce Type: new Abstract: Continuous software engineering in regulated domains requires engineering teams to address security throughout the development lifecycle. Yet making security requirements explicit in backlog items is still problematic. Engineers mus",
       "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "software engineering",
@@ -160,7 +194,7 @@
       "summary": "arXiv:2607.27606v1 Announce Type: new Abstract: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop i",
       "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.8,
       "tags": [
         "llm",
@@ -176,11 +210,27 @@
       "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T22:00:54.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 7.7,
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "embedded"
+      ]
+    },
+    {
+      "id": "sig-18nfg5u",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 582 # Comments: 381",
+      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T17:15:51.000Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 7.5,
+      "tags": [
+        "openai",
+        "performance"
       ]
     },
     {
@@ -192,28 +242,12 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 7.6,
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor",
         "reliability"
-      ]
-    },
-    {
-      "id": "sig-18nfg5u",
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 574 # Comments: 380",
-      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T17:15:51.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 7.5,
-      "tags": [
-        "openai",
-        "performance"
       ]
     },
     {
@@ -225,8 +259,8 @@
       "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T15:43:16.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 7.5,
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 7.4,
       "tags": [
         "openai",
         "llm"
@@ -241,11 +275,41 @@
       "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T07:01:21.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
       "score": 7.2,
       "tags": [
         "ai",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 7,
+      "tags": [
+        "nand"
+      ]
+    },
+    {
+      "id": "sig-1de2a70",
+      "title": "Seagate HAMRing customers - generating more and more $/TB",
+      "url": "https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-30T14:33:56.000Z",
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 6.9,
+      "tags": [
+        "seagate"
       ]
     },
     {
@@ -257,8 +321,8 @@
       "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T14:42:26.000Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 6.8,
+      "fetchedAt": "2026-07-31T12:19:19.892Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "storage"
@@ -323,70 +387,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-p3ckjk",
-      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-07-31T07:36:57.070Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "kioxia",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-bkamya",
-      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-31T07:36:57.070Z",
-      "score": 9.8,
-      "tags": [
-        "ssd",
-        "pcie",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1de2a70",
-      "title": "Seagate HAMRing customers - generating more and more $/TB",
-      "url": "https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-30T14:33:56.000Z",
-      "fetchedAt": "2026-07-31T07:36:57.070Z",
-      "score": 7,
-      "tags": [
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-31T07:36:57.070Z",
-      "score": 7,
-      "tags": [
-        "nand"
       ]
     },
     {
