@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:05:59.490Z",
+  "updatedAt": "2026-07-31T19:46:50.895Z",
   "signals": [
     {
       "id": "sig-2dg9su",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +18,318 @@
         "pcie",
         "endurance",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-ksu5wc",
+      "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
+      "url": "https://semiengineering.com/nad-memory-combines-nand-flash-and-dram-for-faster-data-transfer-u-of-seoul/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-29T23:00:06.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "flash memory",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-8txthk",
+      "title": "KIOXIA’s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
+      "url": "https://www.storagereview.com/news/kioxias-first-liquid-cooled-ssd-arrives-in-the-e1-s-nx1-series",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-07-28T17:32:02.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "nvme",
+        "pcie",
+        "endurance",
+        "dwpd"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-12of8ni",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-31T07:01:48.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 8.6,
+      "tags": [
+        "ai",
+        "dram",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qeua7m",
+      "title": "ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.27879",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.27879v1 Announce Type: new Abstract: Large language model (LLM) agents optimize the power, performance, and area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis, and PPA analysis, paying a dollar cost for every LLM call. Prior agents r",
+      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 8.6,
+      "tags": [
+        "llm",
+        "language model",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1fej8sw",
+      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
+      "url": "https://swe-rebench.com",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "30 points on Hacker News",
+      "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T15:28:28Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.9,
+      "tags": [
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-yb4bxm",
+      "title": "The Conductor Developer",
+      "url": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the last couple of years we’ve framed AI as a productivity tool. How",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T13:48:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1q0j8z6",
+      "title": "WilonityDev/WilonityLoader — trending new repo",
+      "url": "https://github.com/WilonityDev/WilonityLoader",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no rec",
+      "whyItMatters": "Touches rust, kernel — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T07:53:54Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.7,
+      "tags": [
+        "rust",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-vqlnw4",
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 445 # Comments: 448",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T07:29:22.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qete95",
+      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+      "url": "https://arxiv.org/abs/2607.26367",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qeu53d",
+      "title": "OwlPath: Lossless Knowledge Compression for LLM Bug Repair",
+      "url": "https://arxiv.org/abs/2607.27249",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27249v1 Announce Type: new Abstract: LLM-based software engineering agents are constrained by limited context windows: roughly 100K tokens must store structurally relevant code subsets to resolve bugs. Standard retrieval models treat code as plain text, forcing agents ",
+      "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "llm",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qeu541",
+      "title": "Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories",
+      "url": "https://arxiv.org/abs/2607.27250",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27250v1 Announce Type: new Abstract: Persistent context files (AGENTS.md, CLAUDE.md) are standard practice for guiding AI coding agents, yet evidence for their effectiveness is contradictory. We present a controlled ablation of context-injection strategy across two fro",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-qeu57t",
+      "title": "AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents",
+      "url": "https://arxiv.org/abs/2607.27294",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27294v1 Announce Type: new Abstract: Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and s",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qeu608",
+      "title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+      "url": "https://arxiv.org/abs/2607.27374",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.27374v1 Announce Type: new Abstract: Continuous software engineering in regulated domains requires engineering teams to address security throughout the development lifecycle. Yet making security requirements explicit in backlog items is still problematic. Engineers mus",
+      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "software engineering",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qeu8cm",
+      "title": "LimICE: Integrating LLM into ICE Framework for Efficient Loop Invariant Inference",
+      "url": "https://arxiv.org/abs/2607.27606",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27606v1 Announce Type: new Abstract: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop i",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.6,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-38022p",
+      "title": "AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
+      "url": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T22:00:54.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-18nfg5u",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 591 # Comments: 390",
+      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T17:15:51.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.3,
+      "tags": [
+        "openai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1sc4p1c",
+      "title": "Blog Review: July 29",
+      "url": "https://semiengineering.com/blog-review-july-29-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T07:01:00.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-104arg5",
+      "title": "llm-chat-completions-server 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T15:43:16.000Z",
+      "fetchedAt": "2026-07-31T19:46:50.895Z",
+      "score": 7.2,
+      "tags": [
+        "openai",
+        "llm"
       ]
     },
     {
@@ -38,42 +350,6 @@
       ]
     },
     {
-      "id": "sig-ksu5wc",
-      "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
-      "url": "https://semiengineering.com/nad-memory-combines-nand-flash-and-dram-for-faster-data-transfer-u-of-seoul/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "flash memory",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-8txthk",
-      "title": "KIOXIA’s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
-      "url": "https://www.storagereview.com/news/kioxias-first-liquid-cooled-ssd-arrives-in-the-e1-s-nx1-series",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "nvme",
-        "pcie",
-        "endurance",
-        "dwpd"
-      ]
-    },
-    {
       "id": "sig-bkamya",
       "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
       "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
@@ -88,266 +364,6 @@
         "ssd",
         "pcie",
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1peh2iu",
-      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
-      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T17:38:04.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 9,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-12of8ni",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 8.7,
-      "tags": [
-        "ai",
-        "dram",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeua7m",
-      "title": "ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents",
-      "url": "https://arxiv.org/abs/2607.27879",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.27879v1 Announce Type: new Abstract: Large language model (LLM) agents optimize the power, performance, and area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis, and PPA analysis, paying a dollar cost for every LLM call. Prior agents r",
-      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 8.6,
-      "tags": [
-        "llm",
-        "language model",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1fej8sw",
-      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
-      "url": "https://swe-rebench.com",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "19 points on Hacker News",
-      "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-31T15:28:28Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.9,
-      "tags": [
-        "python",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-yb4bxm",
-      "title": "The Conductor Developer",
-      "url": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the last couple of years we’ve framed AI as a productivity tool. How",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T13:48:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1q0j8z6",
-      "title": "WilonityDev/WilonityLoader — trending new repo",
-      "url": "https://github.com/WilonityDev/WilonityLoader",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no rec",
-      "whyItMatters": "Touches rust, kernel — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-31T07:53:54Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.7,
-      "tags": [
-        "rust",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-qete95",
-      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
-      "url": "https://arxiv.org/abs/2607.26367",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qeu53d",
-      "title": "OwlPath: Lossless Knowledge Compression for LLM Bug Repair",
-      "url": "https://arxiv.org/abs/2607.27249",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.27249v1 Announce Type: new Abstract: LLM-based software engineering agents are constrained by limited context windows: roughly 100K tokens must store structurally relevant code subsets to resolve bugs. Standard retrieval models treat code as plain text, forcing agents ",
-      "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-qeu541",
-      "title": "Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories",
-      "url": "https://arxiv.org/abs/2607.27250",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.27250v1 Announce Type: new Abstract: Persistent context files (AGENTS.md, CLAUDE.md) are standard practice for guiding AI coding agents, yet evidence for their effectiveness is contradictory. We present a controlled ablation of context-injection strategy across two fro",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-qeu57t",
-      "title": "AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents",
-      "url": "https://arxiv.org/abs/2607.27294",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.27294v1 Announce Type: new Abstract: Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and s",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qeu608",
-      "title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
-      "url": "https://arxiv.org/abs/2607.27374",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.27374v1 Announce Type: new Abstract: Continuous software engineering in regulated domains requires engineering teams to address security throughout the development lifecycle. Yet making security requirements explicit in backlog items is still problematic. Engineers mus",
-      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "software engineering",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeu8cm",
-      "title": "LimICE: Integrating LLM into ICE Framework for Efficient Loop Invariant Inference",
-      "url": "https://arxiv.org/abs/2607.27606",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.27606v1 Announce Type: new Abstract: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop i",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-38022p",
-      "title": "AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
-      "url": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T22:00:54.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1sc4p1c",
-      "title": "Blog Review: July 29",
-      "url": "https://semiengineering.com/blog-review-july-29-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-18nfg5u",
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 589 # Comments: 391",
-      "whyItMatters": "Touches openai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T17:15:51.000Z",
-      "fetchedAt": "2026-07-31T18:05:59.490Z",
-      "score": 7.3,
-      "tags": [
-        "openai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-104arg5",
-      "title": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T15:43:16.000Z",
-      "fetchedAt": "2026-07-31T16:26:02.560Z",
-      "score": 7.3,
-      "tags": [
-        "openai",
-        "llm"
       ]
     },
     {
@@ -441,21 +457,6 @@
       "score": 6.4,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-vqlnw4",
-      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "69 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T07:29:22Z",
-      "fetchedAt": "2026-07-31T10:10:57.835Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -2891,21 +2892,6 @@
         "claude code",
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-hghf2e",
-      "title": "Asked Codex to redesign a page; it pushed my repo to OpenAI infra",
-      "url": "https://bhanu.io/blog/codex-pushed-my-private-repo-to-an-openai-server",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "17 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T16:26:08Z",
-      "fetchedAt": "2026-07-24T19:05:03.738Z",
-      "score": 6.4,
-      "tags": [
-        "openai"
       ]
     }
   ]
