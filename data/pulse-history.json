@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T01:08:23.284Z",
+  "updatedAt": "2026-07-31T04:44:46.256Z",
   "signals": [
     {
       "id": "sig-p3ckjk",
@@ -10,7 +10,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,8 +44,8 @@
       "summary": "KIOXIA has introduced the NX1 Series, a new family of PCIe 5.0 NVMe data center SSDs built around the E1.S form factor. Capacities range from 1.92 TB to 15.36 TB, with read-intensive endurance rated at 1 DWPD, while cooling options include both air and direct liquid cooling. The ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-07-28T17:32:02.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 10,
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "nvme",
@@ -63,12 +63,268 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 9.9,
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 9.8,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-qeua7m",
+      "title": "ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.27879",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.27879v1 Announce Type: new Abstract: Large language model (LLM) agents optimize the power, performance, and area (PPA) of register-transfer-level (RTL) designs by iterating over edits, synthesis, and PPA analysis, paying a dollar cost for every LLM call. Prior agents r",
+      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-qete95",
+      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
+      "url": "https://arxiv.org/abs/2607.26367",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qeu53d",
+      "title": "OwlPath: Lossless Knowledge Compression for LLM Bug Repair",
+      "url": "https://arxiv.org/abs/2607.27249",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27249v1 Announce Type: new Abstract: LLM-based software engineering agents are constrained by limited context windows: roughly 100K tokens must store structurally relevant code subsets to resolve bugs. Standard retrieval models treat code as plain text, forcing agents ",
+      "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-qeu541",
+      "title": "Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories",
+      "url": "https://arxiv.org/abs/2607.27250",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27250v1 Announce Type: new Abstract: Persistent context files (AGENTS.md, CLAUDE.md) are standard practice for guiding AI coding agents, yet evidence for their effectiveness is contradictory. We present a controlled ablation of context-injection strategy across two fro",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-qeu57t",
+      "title": "AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents",
+      "url": "https://arxiv.org/abs/2607.27294",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27294v1 Announce Type: new Abstract: Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and s",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qeu608",
+      "title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+      "url": "https://arxiv.org/abs/2607.27374",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2607.27374v1 Announce Type: new Abstract: Continuous software engineering in regulated domains requires engineering teams to address security throughout the development lifecycle. Yet making security requirements explicit in backlog items is still problematic. Engineers mus",
+      "whyItMatters": "Touches software engineering, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "software engineering",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-qeu8cm",
+      "title": "LimICE: Integrating LLM into ICE Framework for Efficient Loop Invariant Inference",
+      "url": "https://arxiv.org/abs/2607.27606",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.27606v1 Announce Type: new Abstract: Loop invariant synthesis is a fundamental problem in program verification, yet the inherent undecidability makes it highly challenging. Recent studies have increasingly employed various machine learning techniques to generate loop i",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1ci6w07",
+      "title": "WilonityXYZ/Wilonity — trending new repo",
+      "url": "https://github.com/WilonityXYZ/Wilonity",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no rec",
+      "whyItMatters": "Touches rust, kernel — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-07-31T02:01:20Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.9,
+      "tags": [
+        "rust",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-38022p",
+      "title": "AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
+      "url": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T22:00:54.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-1sc4p1c",
+      "title": "Blog Review: July 29",
+      "url": "https://semiengineering.com/blog-review-july-29-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T07:01:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-104arg5",
+      "title": "llm-chat-completions-server 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T15:43:16.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.6,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dq9mhm",
+      "title": "Compute Clusters Break Out Of National Labs To Scale AI",
+      "url": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T07:01:21.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1de2a70",
+      "title": "Seagate HAMRing customers - generating more and more $/TB",
+      "url": "https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-07-30T14:33:56.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7.1,
+      "tags": [
+        "seagate"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 7,
+      "tags": [
+        "nand"
+      ]
+    },
+    {
+      "id": "sig-umzrgc",
+      "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
+      "url": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T14:42:26.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1rx6kum",
+      "title": "NVIDIA’s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
+      "url": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-29T13:16:52.000Z",
+      "fetchedAt": "2026-07-31T04:44:46.256Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "security"
       ]
     },
     {
@@ -107,87 +363,6 @@
       ]
     },
     {
-      "id": "sig-38022p",
-      "title": "AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
-      "url": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T22:00:54.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1sc4p1c",
-      "title": "Blog Review: July 29",
-      "url": "https://semiengineering.com/blog-review-july-29-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-104arg5",
-      "title": "llm-chat-completions-server 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/co",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T15:43:16.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.7,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dq9mhm",
-      "title": "Compute Clusters Break Out Of National Labs To Scale AI",
-      "url": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips. The post Compute Clusters Break Out Of National Labs To Scale AI appeared fir",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T07:01:21.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qete95",
-      "title": "Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?",
-      "url": "https://arxiv.org/abs/2607.26367",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.26367v1 Announce Type: new Abstract: An important skill in theoretical physics is to recognize when a new problem can be transformed into a known model. We study this skill as an AI-agent task: can LLM-based agents discover statistical mechanical mappings from a raw pa",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
       "id": "sig-qetda6",
       "title": "Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges",
       "url": "https://arxiv.org/abs/2607.26212",
@@ -217,68 +392,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-1de2a70",
-      "title": "Seagate HAMRing customers - generating more and more $/TB",
-      "url": "https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-30T14:33:56.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7.2,
-      "tags": [
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-umzrgc",
-      "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
-      "url": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "MinIO has introduced AIStor Memory, a storage service that provides persistent memory, workspaces, and secrets for AI agents within a single enterprise-controlled platform. The offering targets organizations moving agentic AI workloads from isolated experiments into production pr",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T14:42:26.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1rx6kum",
-      "title": "NVIDIA’s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
-      "url": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA and more than 35 founding partners have launched the Open Secure AI Alliance, an initiative focused on developing open-source tools, models, agent frameworks, and security technologies for AI systems. The membership is notable as much for who is absent as who signed on: Mi",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-29T13:16:52.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-07-31T01:08:23.284Z",
-      "score": 7,
-      "tags": [
-        "nand"
       ]
     },
     {
@@ -2816,148 +2929,6 @@
       "score": 6.4,
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1rabtcl",
-      "title": "The End Of Physics Silos In Engineering AI",
-      "url": "https://semiengineering.com/the-end-of-physics-silos-in-engineering-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As systems become more advanced, engineering intelligence cannot remain fragmented across isolated AI models that only understand narrow slices of physical behavior. The post The End Of Physics Silos In Engineering AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T07:03:03.000Z",
-      "fetchedAt": "2026-07-24T04:34:34.938Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-133l2ve",
-      "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
-      "url": "https://soteria-tools.com/blog/meta-garbage-collection",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "63 points on Hacker News",
-      "whyItMatters": "Touches garbage collection, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-20T13:59:49Z",
-      "fetchedAt": "2026-07-24T04:34:34.938Z",
-      "score": 7,
-      "tags": [
-        "garbage collection",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-qe5hra",
-      "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-      "url": "https://arxiv.org/abs/2607.18246",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy s",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qe6cvd",
-      "title": "PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization",
-      "url": "https://arxiv.org/abs/2607.19653",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.19653v1 Announce Type: new Abstract: Large language model (LLM) agents now perform well on correctness-oriented repository-level tasks, including SWE-Bench issue resolution and feature implementation in real codebases. However, they still struggle with repository-level",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qe6cy3",
-      "title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
-      "url": "https://arxiv.org/abs/2607.19682",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.19682v1 Announce Type: new Abstract: Automated unit test generation has recently benefited from advances in large language models (LLMs), yet our industrial deployments reveal a persistent gap between promising research results and practical usability. In real-world pr",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeoq55",
-      "title": "Formal Foundations for Known Good Reliable Die Screening in Chiplet-Based AI Systems-on-Chip",
-      "url": "https://arxiv.org/abs/2607.20141",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2607.20141v1 Announce Type: new Abstract: The rapid growth of chiplet-based artificial intelligence systems-on-chip (SoCs) has exposed a fundamental gap in semiconductor test methodology. Existing Known Good Die (KGD) screening guarantees pre-assembly functional correctness",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-qeopbs",
-      "title": "SequenceFI: Non-intrusive Temporal Fault Injection for Microservice Systems",
-      "url": "https://arxiv.org/abs/2607.20050",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2607.20050v1 Announce Type: new Abstract: Fault injection is widely used to evaluate the resilience of microservice systems, where client requests often span multiple services and execution stages. Existing request-level techniques usually control where and what faults are ",
-      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 6.9,
-      "tags": [
-        "fault injection"
-      ]
-    },
-    {
-      "id": "sig-kkqm3b",
-      "title": "Tell HN: Namecheap gave my account to an unverified third party",
-      "url": "https://news.ycombinator.com/item?id=49028037",
-      "source": "Hacker News Best",
-      "category": "career",
-      "summary": "I’ve been a NameCheap customer for 13 years. I’ve also helped out an old college club paying for a .com they use (that is registered to me under my name, address, and phone number). During a recent leadership transition, the incoming club lead wanted to make changes to the DNS an",
-      "whyItMatters": "Touches leadership — relevant to growing professionally.",
-      "publishedAt": "2026-07-23T21:05:29.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 6.4,
-      "tags": [
-        "leadership"
-      ]
-    },
-    {
-      "id": "sig-18zqbsp",
-      "title": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
-      "url": "https://www.storagereview.com/news/amd-mi455x-and-helios-432gb-hbm4-72-gpu-racks-and-a-real-answer-to-vera-rubin",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD hosted its largest Advancing AI event to date, emphasizing scale as a central theme. The company introduced the Instinct MI455X GPU, the 72-GPU Helios rack, and the 6th Generation EPYC Venice CPUs. The MI455X features 432GB of HBM4, a 50% increase over NVIDIA’s B300 or Rubin,",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T18:30:00.000Z",
-      "fetchedAt": "2026-07-24T01:11:52.348Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
       ]
     }
   ]
