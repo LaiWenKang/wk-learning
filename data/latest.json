@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:21:51.743Z",
+  "generatedAt": "2026-08-02T08:40:06.414Z",
   "signals": [
     {
       "id": "sig-1nbrf17",
@@ -10,7 +10,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +29,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -48,7 +48,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -67,7 +67,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -75,6 +75,23 @@
         "pcie",
         "endurance",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-p3ckjk",
+      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T13:48:14.000Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "kioxia",
+        "ai"
       ]
     },
     {
@@ -86,12 +103,29 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 10,
       "tags": [
         "nand",
         "flash memory",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-bkamya",
+      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-28T17:15:55.000Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "pcie",
+        "kioxia"
       ]
     },
     {
@@ -103,28 +137,11 @@
       "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 8.5,
       "tags": [
         "open compute",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1peh2iu",
-      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
-      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T17:38:04.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
       ]
     },
     {
@@ -136,7 +153,7 @@
       "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
       "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-02T04:16:52.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -152,11 +169,28 @@
       "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and D",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-02T04:12:41.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 7.9,
       "tags": [
         "claude",
         "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -168,8 +202,8 @@
       "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "dram",
@@ -185,12 +219,27 @@
       "summary": "Rethinking AI compute; DFI 6; 3D-IC reliability; local AI in browser; surface prep and cleaning. The post Blog Review: July 29 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-29T07:01:00.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-1pmh4u1",
+      "title": "Where did that NAND upstart come from?",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-07-24T14:14:00.000Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 7,
+      "tags": [
+        "nand"
       ]
     },
     {
@@ -202,8 +251,8 @@
       "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the last couple of years we’ve framed AI as a productivity tool. How",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T13:48:00.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.9,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "productivity"
@@ -218,8 +267,8 @@
       "summary": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no rec",
       "whyItMatters": "Touches rust, kernel — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-07-31T07:53:54Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.7,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 6.6,
       "tags": [
         "rust",
         "kernel"
@@ -231,43 +280,13 @@
       "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
       "source": "Hacker News (front page)",
       "category": "systems",
-      "summary": "74 points on Hacker News",
+      "summary": "115 points on Hacker News",
       "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-02T04:21:14Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 6.4,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1m5lk8s",
-      "title": "Linux desktop market share has hit over 10% in North America",
-      "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "94 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-02T03:10:00Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.4,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1pegkxa",
-      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-      "url": "https://costperprompt.com/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "13 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-02T01:56:44Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -279,7 +298,7 @@
       "summary": "At Advancing AI 2026, AMD laid out their plans for a comprehensive product stack for physical AI hardware. From SoCs to modules to dev kits, AMD is eyeing physical AI as their next big growth opportunity The post AMD’s Physical AI Plans Come Into Focus as Company Launches Ryzen E",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T22:00:54.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
       "score": 6.4,
       "tags": [
         "ai",
@@ -295,8 +314,8 @@
       "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human rel",
       "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-01T22:29:44.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.3,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 6.2,
       "tags": [
         "openai"
       ]
@@ -307,28 +326,13 @@
       "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "255 points on Hacker News",
+      "summary": "293 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-01T22:25:12Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.3,
+      "fetchedAt": "2026-08-02T08:40:06.414Z",
+      "score": 6.2,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1y7h8cl",
-      "title": "datasette-apps 0.2a0",
-      "url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit,",
-      "whyItMatters": "Touches javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-01T21:23:56.000Z",
-      "fetchedAt": "2026-08-02T06:21:51.743Z",
-      "score": 6.3,
-      "tags": [
-        "javascript"
       ]
     }
   ]
