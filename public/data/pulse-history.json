@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T18:19:03.474Z",
+  "updatedAt": "2026-08-03T20:01:50.917Z",
   "signals": [
     {
       "id": "sig-1vx4nn7",
@@ -10,12 +10,28 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "pcie",
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-l84j8n",
+      "title": "Kioxia’s nearly faster than Optane SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/03/kioxias-nearly-faster-than-optane-ssd/5282259",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 10,
+      "tags": [
+        "ssd",
         "kioxia"
       ]
     },
@@ -28,7 +44,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 10,
       "tags": [
         "nand",
@@ -47,7 +63,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -66,7 +82,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -74,6 +90,23 @@
         "flexible data placement",
         "endurance",
         "dwpd"
+      ]
+    },
+    {
+      "id": "sig-p3ckjk",
+      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T13:48:14.000Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "kioxia",
+        "ai"
       ]
     },
     {
@@ -85,7 +118,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 10,
       "tags": [
         "nand",
@@ -102,7 +135,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -110,6 +143,23 @@
         "pcie",
         "endurance",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-bkamya",
+      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-28T17:15:55.000Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "pcie",
+        "kioxia"
       ]
     },
     {
@@ -121,8 +171,8 @@
       "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
       "whyItMatters": "Touches coding agent, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 8.8,
       "tags": [
         "coding agent",
         "python",
@@ -138,7 +188,7 @@
       "summary": "arXiv:2607.28824v1 Announce Type: new Abstract: Large language model (LLM) workloads motivate multi-partition GPUs as a path to scaling compute and memory capacity, but their non-uniform memory access characteristics and inter-partition communication can amplify contention and de",
       "whyItMatters": "Touches llm, language model, kernel — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 8.6,
       "tags": [
         "llm",
@@ -156,8 +206,8 @@
       "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T07:01:41.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -172,7 +222,7 @@
       "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -188,7 +238,7 @@
       "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), ",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -204,7 +254,7 @@
       "summary": "arXiv:2607.28692v1 Announce Type: new Abstract: Large language model (LLM) agents have been increasingly adopted in scientific research for organizing and invoking specialized computational tools. However, their reliance on predefined tool spaces with static semantics limits thei",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -220,7 +270,7 @@
       "summary": "arXiv:2607.28835v1 Announce Type: new Abstract: C underpins operating systems, embedded platforms, and network infrastructure because its abstractions map directly to machine behaviour. Its explicit memory model, predictable data representations, and minimal runtime allow compile",
       "whyItMatters": "Touches rust, embedded — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
       "score": 7.6,
       "tags": [
         "rust",
@@ -233,11 +283,11 @@
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda Comments URL: https://news.ycombinator.com/item?id=49150561 Points: 200 # Comments: 96",
+      "summary": "Article URL: https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda Comments URL: https://news.ycombinator.com/item?id=49150561 Points: 202 # Comments: 100",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T02:30:30.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "openai"
@@ -252,11 +302,42 @@
       "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 7.5,
       "tags": [
         "open compute",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-vadgmm",
+      "title": "Kioxia has a profitable yen for SSDs",
+      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-03T11:44:23.000Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 7.3,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1b7vgw2",
+      "title": "Welcome to Agents Week",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-02T16:00:00.000Z",
+      "fetchedAt": "2026-08-03T20:01:50.917Z",
+      "score": 7.2,
+      "tags": [
+        "storage",
+        "security"
       ]
     },
     {
@@ -273,22 +354,6 @@
       "tags": [
         "github",
         "linux"
-      ]
-    },
-    {
-      "id": "sig-1b7vgw2",
-      "title": "Welcome to Agents Week",
-      "url": "https://blog.cloudflare.com/agents-week-welcome/",
-      "source": "Cloudflare Blog",
-      "category": "systems",
-      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-02T16:00:00.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 7.3,
-      "tags": [
-        "storage",
-        "security"
       ]
     },
     {
@@ -339,71 +404,6 @@
       "tags": [
         "ai",
         "leadership"
-      ]
-    },
-    {
-      "id": "sig-l84j8n",
-      "title": "Kioxia’s nearly faster than Optane SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/03/kioxias-nearly-faster-than-optane-ssd/5282259",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-03T16:32:49.434Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-p3ckjk",
-      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-03T16:32:49.434Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "kioxia",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-bkamya",
-      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-08-03T16:32:49.434Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "pcie",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-vadgmm",
-      "title": "Kioxia has a profitable yen for SSDs",
-      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-03T11:44:23.000Z",
-      "fetchedAt": "2026-08-03T16:32:49.434Z",
-      "score": 7.4,
-      "tags": [
-        "kioxia"
       ]
     },
     {
@@ -2661,53 +2661,6 @@
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-27T14:07:48.000Z",
       "fetchedAt": "2026-07-27T20:09:27.235Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-baz75y",
-      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/vercel-labs/scriptc Comments URL: https://news.ycombinator.com/item?id=49063175 Points: 254 # Comments: 149",
-      "whyItMatters": "Touches typescript, javascript, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-26T22:46:10.000Z",
-      "fetchedAt": "2026-07-27T18:42:22.881Z",
-      "score": 8.4,
-      "tags": [
-        "typescript",
-        "javascript",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-d5pztu",
-      "title": "Jensen Huang's first-ever post on X is in defense of open access to AI models",
-      "url": "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "12 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T17:56:20Z",
-      "fetchedAt": "2026-07-27T18:42:22.881Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-btux3g",
-      "title": "AI companies are shredding rare books",
-      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 666 # Comments: 415",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T12:32:12.000Z",
-      "fetchedAt": "2026-07-27T18:42:22.881Z",
       "score": 6.3,
       "tags": [
         "ai"
