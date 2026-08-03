@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T01:08:33.919Z",
+  "updatedAt": "2026-08-03T04:49:30.052Z",
   "signals": [
     {
       "id": "sig-1nbrf17",
@@ -10,7 +10,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +29,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -48,7 +48,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -67,7 +67,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -84,7 +84,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 10,
       "tags": [
         "nand",
@@ -101,8 +101,8 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 9.9,
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 9.8,
       "tags": [
         "ssd",
         "tlc",
@@ -120,12 +120,94 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-qev1t5",
+      "title": "Characterizing LLM Kernel Access and Memory Interaction in Multi-Partition NUMA GPUs",
+      "url": "https://arxiv.org/abs/2607.28824",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2607.28824v1 Announce Type: new Abstract: Large language model (LLM) workloads motivate multi-partition GPUs as a path to scaling compute and memory capacity, but their non-uniform memory access characteristics and inter-partition communication can amplify contention and de",
+      "whyItMatters": "Touches llm, language model, kernel — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "kernel",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-qev05i",
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "url": "https://arxiv.org/abs/2607.28632",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-qev07h",
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "url": "https://arxiv.org/abs/2607.28657",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), ",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-qev0b0",
+      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
+      "url": "https://arxiv.org/abs/2607.28692",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2607.28692v1 Announce Type: new Abstract: Large language model (LLM) agents have been increasingly adopted in scientific research for organizing and invoking specialized computational tools. However, their reliance on predefined tool spaces with static semantics limits thei",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qev1u3",
+      "title": "From C to Idiomatic Rust: A Ship-of-Theseus Agentic Translation",
+      "url": "https://arxiv.org/abs/2607.28835",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2607.28835v1 Announce Type: new Abstract: C underpins operating systems, embedded platforms, and network infrastructure because its abstractions map directly to machine behaviour. Its explicit memory model, predictable data representations, and minimal runtime allow compile",
+      "whyItMatters": "Touches rust, embedded — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-03T04:00:00.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 8,
+      "tags": [
+        "rust",
+        "embedded"
       ]
     },
     {
@@ -137,8 +219,8 @@
       "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 8.1,
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 8,
       "tags": [
         "open compute",
         "ai"
@@ -153,8 +235,8 @@
       "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
       "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-02T16:00:00.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.6,
       "tags": [
         "storage",
         "security"
@@ -169,12 +251,93 @@
       "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
       "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-31T17:38:04.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-vwezmw",
+      "title": "Open letters about AI development",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
+      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-02T04:16:52.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "leadership"
+      ]
+    },
+    {
+      "id": "sig-hkxmn8",
+      "title": "July 2026 newsletter",
+      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and D",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-02T04:12:41.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.3,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-miewhx",
+      "title": "0xwilliamortiz/humanizer-cli (JavaScript) — trending new repo",
+      "url": "https://github.com/0xwilliamortiz/humanizer-cli",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies. · ★ 542",
+      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-01T20:36:27Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1dlntq7",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want ",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-01T20:34:49.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.1,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-12of8ni",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-31T07:01:48.000Z",
+      "fetchedAt": "2026-08-03T04:49:30.052Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "dram",
+        "security"
       ]
     },
     {
@@ -191,87 +354,6 @@
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-vwezmw",
-      "title": "Open letters about AI development",
-      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
-      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-02T04:16:52.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "leadership"
-      ]
-    },
-    {
-      "id": "sig-hkxmn8",
-      "title": "July 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and D",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-02T04:12:41.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.4,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-miewhx",
-      "title": "0xwilliamortiz/humanizer-cli (JavaScript) — trending new repo",
-      "url": "https://github.com/0xwilliamortiz/humanizer-cli",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies. · ★ 541",
-      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-01T20:36:27Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1dlntq7",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want ",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-01T20:34:49.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.2,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-12of8ni",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "dram",
-        "security"
       ]
     },
     {
@@ -2636,284 +2718,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-8d7133",
-      "title": "Introducing Claude Opus 5",
-      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that com",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T23:48:50.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.6,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-19cqp3s",
-      "title": "mikiarlo3/ai-copywriter (Python) — trending new repo",
-      "url": "https://github.com/mikiarlo3/ai-copywriter",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone. · ★ 854",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-24T19:52:13Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-38v5ln",
-      "title": "Multiway Turing Machines (2021 pre-ai)",
-      "url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "18 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-26T20:49:43Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1y9ji48",
-      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Reseller",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-26T19:30:54.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-ihlo5z",
-      "title": "How AST-grep Rewrote Tree-sitter in Rust and Made It 30% Faster",
-      "url": "https://astgrep.com/blog/tree-sitter-rust-rewrite",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "60 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-26T17:51:03Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.3,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-4p3b78",
-      "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
-      "url": "https://github.com/gmrandazzo/CheapSecurity",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "100 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-26T15:53:55Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.2,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-muu3ct",
-      "title": "The New AI Superpowers: Focus and Followthrough",
-      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "137 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-26T13:13:03Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1qehldz",
-      "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
-      "url": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "348 points on Hacker News",
-      "whyItMatters": "Touches javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-26T12:00:11Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6.1,
-      "tags": [
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1syyh1a",
-      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find poten",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T22:53:08.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1p8biuu",
-      "title": "slvDev/esp32-ai (Python) — trending new repo",
-      "url": "https://github.com/slvDev/esp32-ai",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "★ 1339",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-23T14:53:51Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-7vny4q",
-      "title": "makecindy/cindy (TypeScript) — trending new repo",
-      "url": "https://github.com/makecindy/cindy",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 · ★ 453",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-22T17:49:34Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-ktxaz7",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T16:00:00.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-tem3vy",
-      "title": "Jakubantalik/thinking-orbs (TypeScript) — trending new repo",
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light · ★ 1099",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-21T07:01:53Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-190qmho",
-      "title": "The cost of saying yes has changed",
-      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era. The post The cost of saying yes has changed appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-17T16:46:47.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1uexk36",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf Comments URL: https://news.ycombinator.",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-25T23:32:50.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 5.8,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1fkvd91",
-      "title": "What is happening to jobs? Separating AI hype from reality",
-      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality Comments URL: https://news.ycombinator.com/item?id=49052570 Points: 245 # Comments: 314",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T22:51:10.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 5.8,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qhfvvg",
-      "title": "Ruff v0.16.0",
-      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's anno",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-25T22:44:05.000Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 5.8,
-      "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-m0pp1e",
-      "title": "melloworchid8rr6g/TG-Polymarket-bot (JavaScript) — trending new repo",
-      "url": "https://github.com/melloworchid8rr6g/TG-Polymarket-bot",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Telegram bot that catches Polymarket whale trades in real time and lets you copy them in one tap — plus a free public alerts channel. · ★ 390",
-      "whyItMatters": "Touches javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-24T18:16:29Z",
-      "fetchedAt": "2026-07-27T01:11:30.601Z",
-      "score": 5,
-      "tags": [
-        "javascript"
       ]
     }
   ]
