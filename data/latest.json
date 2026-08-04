@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T01:02:05.865Z",
+  "generatedAt": "2026-08-04T04:19:05.243Z",
   "signals": [
     {
       "id": "sig-1vx4nn7",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -44,7 +44,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -63,7 +63,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -99,7 +99,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "nand",
@@ -116,8 +116,8 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 9.9,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9.8,
       "tags": [
         "nand",
         "pcie",
@@ -135,7 +135,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -154,12 +154,47 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1bq6i6y",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9,
+      "tags": [
+        "telemetry",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bq6iz8",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "url": "https://arxiv.org/abs/2608.00101",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "llm",
+        "github"
       ]
     },
     {
@@ -171,30 +206,12 @@
       "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
       "whyItMatters": "Touches coding agent, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 8.6,
       "tags": [
         "coding agent",
         "python",
         "javascript"
-      ]
-    },
-    {
-      "id": "sig-qev1t5",
-      "title": "Characterizing LLM Kernel Access and Memory Interaction in Multi-Partition NUMA GPUs",
-      "url": "https://arxiv.org/abs/2607.28824",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.28824v1 Announce Type: new Abstract: Large language model (LLM) workloads motivate multi-partition GPUs as a path to scaling compute and memory capacity, but their non-uniform memory access characteristics and inter-partition communication can amplify contention and de",
-      "whyItMatters": "Touches llm, language model, kernel — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "kernel",
-        "communication"
       ]
     },
     {
@@ -206,8 +223,8 @@
       "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-03T07:01:41.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -219,94 +236,14 @@
       "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
       "source": "Hacker News Best",
       "category": "programming",
-      "summary": "Article URL: https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md Comments URL: https://news.ycombinator.com/item?id=49152023 Points: 232 # Comments: 89",
+      "summary": "Article URL: https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md Comments URL: https://news.ycombinator.com/item?id=49152023 Points: 233 # Comments: 92",
       "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-03T06:42:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.4,
       "tags": [
         "rust",
         "github"
-      ]
-    },
-    {
-      "id": "sig-qev05i",
-      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
-      "url": "https://arxiv.org/abs/2607.28632",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qev07h",
-      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
-      "url": "https://arxiv.org/abs/2607.28657",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qev0b0",
-      "title": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
-      "url": "https://arxiv.org/abs/2607.28692",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.28692v1 Announce Type: new Abstract: Large language model (LLM) agents have been increasingly adopted in scientific research for organizing and invoking specialized computational tools. However, their reliance on predefined tool spaces with static semantics limits thei",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qev1u3",
-      "title": "From C to Idiomatic Rust: A Ship-of-Theseus Agentic Translation",
-      "url": "https://arxiv.org/abs/2607.28835",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2607.28835v1 Announce Type: new Abstract: C underpins operating systems, embedded platforms, and network infrastructure because its abstractions map directly to machine behaviour. Its explicit memory model, predictable data representations, and minimal runtime allow compile",
-      "whyItMatters": "Touches rust, embedded — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "rust",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1605hph",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda Comments URL: https://news.ycombinator.com/item?id=49150561 Points: 205 # Comments: 104",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T02:30:30.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "openai"
       ]
     },
     {
@@ -318,8 +255,8 @@
       "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.3,
       "tags": [
         "open compute",
         "ai"
@@ -334,10 +271,76 @@
       "summary": "",
       "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T11:44:23.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.1,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
       "tags": [
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1b7vgw2",
+      "title": "Welcome to Agents Week",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-02T16:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "storage",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-12of8ni",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-31T07:01:48.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "dram",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-vwezmw",
+      "title": "Open letters about AI development",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
+      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-02T04:16:52.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "leadership"
       ]
     }
   ]

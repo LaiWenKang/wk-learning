@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T01:02:05.865Z",
+  "updatedAt": "2026-08-04T04:19:05.243Z",
   "signals": [
     {
       "id": "sig-1vx4nn7",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -44,7 +44,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -63,7 +63,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -99,7 +99,7 @@
       "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes “a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and p",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-07-29T23:00:06.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 10,
       "tags": [
         "nand",
@@ -116,8 +116,8 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 9.9,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9.8,
       "tags": [
         "nand",
         "pcie",
@@ -135,7 +135,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -154,12 +154,47 @@
       "summary": "",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1bq6i6y",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9,
+      "tags": [
+        "telemetry",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bq6iz8",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "url": "https://arxiv.org/abs/2608.00101",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "llm",
+        "github"
       ]
     },
     {
@@ -171,12 +206,141 @@
       "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
       "whyItMatters": "Touches coding agent, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 8.6,
       "tags": [
         "coding agent",
         "python",
         "javascript"
+      ]
+    },
+    {
+      "id": "sig-1sdwwcy",
+      "title": "Self-Driving Cars Have An Aging Problem",
+      "url": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T07:01:41.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-41iohk",
+      "title": "Rust project goals: Immobile types and guaranteed destructors",
+      "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md Comments URL: https://news.ycombinator.com/item?id=49152023 Points: 233 # Comments: 92",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-03T06:42:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.4,
+      "tags": [
+        "rust",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-blcrgk",
+      "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
+      "url": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-08-01T15:08:30.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7.3,
+      "tags": [
+        "open compute",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-vadgmm",
+      "title": "Kioxia has a profitable yen for SSDs",
+      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-03T11:44:23.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1b7vgw2",
+      "title": "Welcome to Agents Week",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-02T16:00:00.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "storage",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-12of8ni",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-31T07:01:48.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "dram",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-vwezmw",
+      "title": "Open letters about AI development",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
+      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-02T04:16:52.000Z",
+      "fetchedAt": "2026-08-04T04:19:05.243Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "leadership"
       ]
     },
     {
@@ -195,38 +359,6 @@
         "language model",
         "kernel",
         "communication"
-      ]
-    },
-    {
-      "id": "sig-1sdwwcy",
-      "title": "Self-Driving Cars Have An Aging Problem",
-      "url": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T07:01:41.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-41iohk",
-      "title": "Rust project goals: Immobile types and guaranteed destructors",
-      "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md Comments URL: https://news.ycombinator.com/item?id=49152023 Points: 232 # Comments: 89",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-03T06:42:00.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.5,
-      "tags": [
-        "rust",
-        "github"
       ]
     },
     {
@@ -310,70 +442,6 @@
       ]
     },
     {
-      "id": "sig-blcrgk",
-      "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
-      "url": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.4,
-      "tags": [
-        "open compute",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-vadgmm",
-      "title": "Kioxia has a profitable yen for SSDs",
-      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-03T11:44:23.000Z",
-      "fetchedAt": "2026-08-04T01:02:05.865Z",
-      "score": 7.1,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1b7vgw2",
-      "title": "Welcome to Agents Week",
-      "url": "https://blog.cloudflare.com/agents-week-welcome/",
-      "source": "Cloudflare Blog",
-      "category": "systems",
-      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-02T16:00:00.000Z",
-      "fetchedAt": "2026-08-03T23:29:57.348Z",
-      "score": 7.1,
-      "tags": [
-        "storage",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1peh2iu",
-      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
-      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T17:38:04.000Z",
-      "fetchedAt": "2026-08-03T21:13:27.589Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-ch472o",
       "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
       "url": "https://github.com/wie-project/kakehashi",
@@ -387,39 +455,6 @@
       "tags": [
         "github",
         "linux"
-      ]
-    },
-    {
-      "id": "sig-12of8ni",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "dram",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-vwezmw",
-      "title": "Open letters about AI development",
-      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by ",
-      "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-02T04:16:52.000Z",
-      "fetchedAt": "2026-08-03T18:19:03.474Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "leadership"
       ]
     },
     {
@@ -2462,179 +2497,6 @@
       "score": 6.5,
       "tags": [
         "coding agent"
-      ]
-    },
-    {
-      "id": "sig-qepm2n",
-      "title": "Tool-Guided Retrieval-Augmented Repair for Securing LLM-Generated C Code",
-      "url": "https://arxiv.org/abs/2607.21641",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21641v1 Announce Type: new Abstract: Large language models can generate C code from natural-language descriptions, but resulting programs often contain security vulnerabilities and compilation errors, posing risks for embedded and resource-constrained systems. This wor",
-      "whyItMatters": "Touches llm, embedded, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "embedded",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeq8pl",
-      "title": "HEMERA: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference",
-      "url": "https://arxiv.org/abs/2607.22022",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2607.22022v1 Announce Type: new Abstract: Structured State Space Models (SSMs), such as Mamba, enable efficient long-sequence modeling with linear time complexity. Recent implementations realize this capability through Structured State Space Duality (SSD), which transforms ",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 8.4,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-qepm3p",
-      "title": "Cross-Model LLM Code Review: Should you use Claude to review Codex or vice versa?",
-      "url": "https://arxiv.org/abs/2607.21656",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21656v1 Announce Type: new Abstract: Developers increasingly use two coding agents together: one writes a draft, and the other reviews it. However, it is not clear whether the pairing is worth its cost and time, or whether the order of the pairing matters. We run a con",
-      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.4,
-      "tags": [
-        "claude",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qepm5h",
-      "title": "Output Format x Model Identity: Interaction Effects in Single-Round Coding Agent Performance",
-      "url": "https://arxiv.org/abs/2607.21674",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21674v1 Announce Type: new Abstract: Output format is not a neutral implementation detail -- it can reorder model rankings, amplify or suppress individual model differences, and determine whether a coding agent succeeds or fails. We conducted a controlled single-round ",
-      "whyItMatters": "Touches coding agent, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.4,
-      "tags": [
-        "coding agent",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qepm5j",
-      "title": "Directed Symbolic Execution for Vulnerability Discovery: An LLM-Guided Approach in KLEE",
-      "url": "https://arxiv.org/abs/2607.21676",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21676v1 Announce Type: new Abstract: Symbolic execution effectively discovers security violations but suffers from path explosion. Engines like KLEE therefore use path prioritization heuristics to order state exploration, typically optimizing code coverage. However, pa",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qepnq9",
-      "title": "How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests",
-      "url": "https://arxiv.org/abs/2607.21832",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21832v1 Announce Type: new Abstract: Recent advances in large language models and their rapid adoption across software engineering tasks have made Artificial Intelligence (AI) coding agents an integral component of modern software development workflows. While developer",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-71pzsy",
-      "title": "mshumer/Claude-of-Duty (JavaScript) — trending new repo",
-      "url": "https://github.com/mshumer/Claude-of-Duty",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Call of Duty-quality FPS in Three.js, built from a single prompt. · ★ 1026",
-      "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T19:32:36Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 6.5,
-      "tags": [
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1ujkm6c",
-      "title": "VictorTaelin/OptMem (Python) — trending new repo",
-      "url": "https://github.com/VictorTaelin/OptMem",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play. · ★ 649",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-25T16:58:43Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1q8kdm4",
-      "title": "Self-contained highly-portable Python distributions",
-      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "109 points on Hacker News",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-27T18:43:31Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 6.3,
-      "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-jfowvf",
-      "title": "VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct",
-      "url": "https://www.storagereview.com/news/vast-data-and-amd-claim-9x-faster-time-to-first-token-with-kv-cache-offload-on-instinct",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "VAST Data has expanded its collaboration with AMD around AI infrastructure for cloud providers and enterprises deploying training, inference, retrieval-augmented generation, and agentic AI services. The effort combines the VAST AI Operating System with 6th Gen AMD EPYC processors",
-      "whyItMatters": "Touches ai — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-07-27T15:18:22.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1r7wu1n",
-      "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
-      "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 233 # Comments: 305",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-27T14:42:41.000Z",
-      "fetchedAt": "2026-07-28T01:06:58.689Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
       ]
     }
   ]
