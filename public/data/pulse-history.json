@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T19:47:12.424Z",
+  "updatedAt": "2026-08-04T20:56:58.620Z",
   "signals": [
     {
       "id": "sig-1039tsg",
@@ -10,7 +10,7 @@
       "summary": "Samsung used the Future of Memory and Storage (FMS) 2026 conference to present its latest memory and storage technologies for artificial intelligence and high-performance computing. The company highlighted developments in DRAM, NAND, enterprise storage, advanced packaging, and se",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T19:30:31.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +29,7 @@
       "summary": "Hybrid NAND flash-DRAM memory; neuromorphic many-core computing; modular HW-SW leakage verification; bridging p-type gap in oxide electronics w/2D semis; 3D structures from wafer-fabricated precursors; LLM benchmarking for Verilog design flows; pre-silicon power side-channel anal",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T07:01:23.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "nand",
@@ -46,7 +46,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,7 +64,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -80,7 +80,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -99,7 +99,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -118,7 +118,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -135,7 +135,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -154,7 +154,7 @@
       "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -162,6 +162,23 @@
         "pcie",
         "endurance",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-17by5hn",
+      "title": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
+      "url": "https://www.storagereview.com/news/vdura-and-wasabi-pair-gpu-adjacent-ai-storage-with-no-egress-fee-s3-archiving",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
+      "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-04T20:00:20.000Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -173,8 +190,8 @@
       "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
+      "score": 8.5,
       "tags": [
         "telemetry",
         "llm"
@@ -189,8 +206,8 @@
       "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "claude code",
@@ -208,7 +225,7 @@
       "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T16:47:18.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -224,7 +241,7 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T13:27:40.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -240,7 +257,7 @@
       "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -256,7 +273,7 @@
       "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -272,7 +289,7 @@
       "summary": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face . This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three incidents where models had gained unauthorized access to data in ",
       "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T12:08:00.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -288,7 +305,7 @@
       "summary": "Instead of working out how to replace junior engineers with AI, develop better ways to train and build fresh minds with new ideas. The post Invest In Junior Engineers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T07:05:09.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -304,7 +321,7 @@
       "summary": "Building hyper-large form factor packages that measure up to 240 mm x 240 mm with reliable encapsulation. The post From Blueprint To Build: Engineering The World’s Largest AI Chips appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T07:01:18.000Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -317,10 +334,10 @@
       "url": "https://github.com/firecrawl/anydoc",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings. · ★ 809",
+      "summary": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings. · ★ 947",
       "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-03T16:36:14Z",
-      "fetchedAt": "2026-08-04T19:47:12.424Z",
+      "fetchedAt": "2026-08-04T20:56:58.620Z",
       "score": 7.2,
       "tags": [
         "python",
@@ -2371,66 +2388,6 @@
       "score": 6.3,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-4twyxi",
-      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 6.4,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-qg9f8y",
-      "title": "Giga Computing Debuts Its First EPYC 9006 Servers, With SP7 Shipping in November",
-      "url": "https://www.storagereview.com/news/giga-computing-debuts-its-first-epyc-9006-servers-with-sp7-shipping-in-november",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Giga Computing, a GIGABYTE subsidiary, has announced support for AMD’s 6th Gen EPYC server processors across its server portfolio. The company also introduced its first system based on the AMD EPYC 9006 platform at AMD Advancing AI 2026 in San Francisco. AMD’s 6th Gen EPYC platfo",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T15:16:06.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1su4m6w",
-      "title": "About the security content of macOS Tahoe 26.6",
-      "url": "https://support.apple.com/en-us/128067",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "185 points on Hacker News",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-07-28T09:45:43Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 6.2,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-ttthxk",
-      "title": "Research Bits: July 28",
-      "url": "https://semiengineering.com/research-bits-july-28/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Photonics: Inverse design; slowing down light; on-chip electro-optic isolator. The post Research Bits: July 28 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-07-28T07:01:02.000Z",
-      "fetchedAt": "2026-07-28T19:56:31.479Z",
-      "score": 6.1,
-      "tags": [
-        "semiconductor"
       ]
     }
   ]
