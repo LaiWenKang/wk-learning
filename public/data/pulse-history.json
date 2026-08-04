@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-08-04T06:43:53.169Z",
+  "updatedAt": "2026-08-04T09:30:45.528Z",
   "signals": [
+    {
+      "id": "sig-vf9x2h",
+      "title": "Chip Industry Technical Paper Roundup: Aug. 4",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-4/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Hybrid NAND flash-DRAM memory; neuromorphic many-core computing; modular HW-SW leakage verification; bridging p-type gap in oxide electronics w/2D semis; 3D structures from wafer-fabricated precursors; LLM benchmarking for Verilog design flows; pre-silicon power side-channel anal",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-04T07:01:23.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "llm",
+        "dram"
+      ]
+    },
     {
       "id": "sig-1vx4nn7",
       "title": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
@@ -10,7 +27,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +45,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -44,7 +61,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -63,7 +80,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -82,12 +99,248 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
       "score": 10,
       "tags": [
         "ssd",
         "kioxia",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1nbrf17",
+      "title": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
+      "url": "https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/",
+      "source": "ServeTheHome",
+      "category": "semiconductor",
+      "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-01T15:00:24.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 9.7,
+      "tags": [
+        "nand",
+        "pcie",
+        "gen5",
+        "gen6",
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-2dg9su",
+      "title": "KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache",
+      "url": "https://www.storagereview.com/news/kioxia-cm10-is-its-first-pcie-6-0-enterprise-ssd-aimed-at-nvidia-cmx-kv-cache",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-31T16:13:39.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "tlc",
+        "pcie",
+        "endurance",
+        "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-bkamya",
+      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-07-28T17:15:55.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "pcie",
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1bq6i6y",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 8.8,
+      "tags": [
+        "telemetry",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bq6iz8",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "url": "https://arxiv.org/abs/2608.00101",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "llm",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-bhbv8c",
+      "title": "Workers RPC now works across Python and JavaScript",
+      "url": "https://blog.cloudflare.com/python-workers-rpc/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
+      "whyItMatters": "Touches coding agent, python, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 8.4,
+      "tags": [
+        "coding agent",
+        "python",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-x5p03m",
+      "title": "Invest In Junior Engineers",
+      "url": "https://semiengineering.com/invest-in-junior-engineers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Instead of working out how to replace junior engineers with AI, develop better ways to train and build fresh minds with new ideas. The post Invest In Junior Engineers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-04T07:05:09.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-fx5vsv",
+      "title": "From Blueprint To Build: Engineering The World’s Largest AI Chips",
+      "url": "https://semiengineering.com/from-blueprint-to-build-engineering-the-worlds-largest-ai-chips/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Building hyper-large form factor packages that measure up to 240 mm x 240 mm with reliable encapsulation. The post From Blueprint To Build: Engineering The World’s Largest AI Chips appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-04T07:01:18.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1sdwwcy",
+      "title": "Self-Driving Cars Have An Aging Problem",
+      "url": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-03T07:01:41.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-blcrgk",
+      "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
+      "url": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-08-01T15:08:30.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7.2,
+      "tags": [
+        "open compute",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1peh2iu",
+      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
+      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-31T17:38:04.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-12of8ni",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-07-31T07:01:48.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "dram",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-vadgmm",
+      "title": "Kioxia has a profitable yen for SSDs",
+      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-03T11:44:23.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 6.9,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1b7vgw2",
+      "title": "Welcome to Agents Week",
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-02T16:00:00.000Z",
+      "fetchedAt": "2026-08-04T09:30:45.528Z",
+      "score": 6.8,
+      "tags": [
+        "storage",
+        "security"
       ]
     },
     {
@@ -108,129 +361,6 @@
       ]
     },
     {
-      "id": "sig-1nbrf17",
-      "title": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
-      "url": "https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 9.7,
-      "tags": [
-        "nand",
-        "pcie",
-        "gen5",
-        "gen6",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-2dg9su",
-      "title": "KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache",
-      "url": "https://www.storagereview.com/news/kioxia-cm10-is-its-first-pcie-6-0-enterprise-ssd-aimed-at-nvidia-cmx-kv-cache",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "KIOXIA has introduced the CM10 Series, the company’s first PCIe 6.0 enterprise SSD and its first enterprise drive built on BiCS FLASH generation 10 TLC memory. The drives cover E3.S, E1.S, and 2.5-inch form factors, with capacities ranging from 1.60TB to 61.44TB and endurance opt",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-31T16:13:39.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "tlc",
-        "pcie",
-        "endurance",
-        "enterprise ssd"
-      ]
-    },
-    {
-      "id": "sig-bkamya",
-      "title": "Kioxia launches its first PCIe gen 5 liquid-cooled SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/28/kioxia-launches-its-first-pcie-gen-5-liquid-cooled-ssd/5279797",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-07-28T17:15:55.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "pcie",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1bq6i6y",
-      "title": "Request-Level Energy Attribution for Batched LLM Serving",
-      "url": "https://arxiv.org/abs/2608.00026",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 8.9,
-      "tags": [
-        "telemetry",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1bq6iz8",
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "url": "https://arxiv.org/abs/2608.00101",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "llm",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-bhbv8c",
-      "title": "Workers RPC now works across Python and JavaScript",
-      "url": "https://blog.cloudflare.com/python-workers-rpc/",
-      "source": "Cloudflare Blog",
-      "category": "programming",
-      "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
-      "whyItMatters": "Touches coding agent, python, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 8.5,
-      "tags": [
-        "coding agent",
-        "python",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1sdwwcy",
-      "title": "Self-Driving Cars Have An Aging Problem",
-      "url": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted. The post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-03T07:01:41.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-41iohk",
       "title": "Rust project goals: Immobile types and guaranteed destructors",
       "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
@@ -244,87 +374,6 @@
       "tags": [
         "rust",
         "github"
-      ]
-    },
-    {
-      "id": "sig-blcrgk",
-      "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
-      "url": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Supermicro has introduced an expanded rack portfolio for high-density AI and other mission-critical data center deployments. The lineup includes rack options based on NVIDIA MGX platforms, Open Compute Project Open Rack v3 (ORv3), and conventional EIA 19-inch designs, with config",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-08-01T15:08:30.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 7.2,
-      "tags": [
-        "open compute",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-vadgmm",
-      "title": "Kioxia has a profitable yen for SSDs",
-      "url": "https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-03T11:44:23.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 7,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1peh2iu",
-      "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-      "url": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "WEKA announced that Andromeda, the platform that connects AI teams with high-performance compute across an open market of providers, is integrating WEKA NeuralMesh as a core data storage layer for its managed GPU clusters. Andromeda customers can choose between a dedicated Neural",
-      "whyItMatters": "Touches ai, storage, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T17:38:04.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-12of8ni",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban. The post Chip Industry Week In Review appeared first on Semi",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-07-31T07:01:48.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "dram",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1b7vgw2",
-      "title": "Welcome to Agents Week",
-      "url": "https://blog.cloudflare.com/agents-week-welcome/",
-      "source": "Cloudflare Blog",
-      "category": "systems",
-      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
-      "whyItMatters": "Touches storage, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-02T16:00:00.000Z",
-      "fetchedAt": "2026-08-04T06:43:53.169Z",
-      "score": 6.9,
-      "tags": [
-        "storage",
-        "security"
       ]
     },
     {
@@ -2420,66 +2469,6 @@
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "fetchedAt": "2026-07-28T11:37:01.169Z",
       "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-qeplz0",
-      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
-      "url": "https://arxiv.org/abs/2607.21602",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dyn",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T09:28:10.624Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qeplz2",
-      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
-      "url": "https://arxiv.org/abs/2607.21604",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21604v1 Announce Type: new Abstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries, keywords, and tags. From an inference ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T09:28:10.624Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qeplzz",
-      "title": "Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution",
-      "url": "https://arxiv.org/abs/2607.21614",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21614v1 Announce Type: new Abstract: Entity resolution (ER) typically relies on pairwise similarity comparisons between records, which limits its ability to capture indirect relationships present in demographic occupancy data. An important indirect pattern arises from ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T09:28:10.624Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-qepm00",
-      "title": "FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding",
-      "url": "https://arxiv.org/abs/2607.21615",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.21615v1 Announce Type: new Abstract: The rapid deployment of generative AI has amplified the critical need for Training Data Attribution to ensure transparency and accountability. However, current parametric approaches require computationally prohibitive access to mode",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-28T06:44:58.961Z",
-      "score": 6.4,
       "tags": [
         "ai"
       ]
