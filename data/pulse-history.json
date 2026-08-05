@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T06:43:58.222Z",
+  "updatedAt": "2026-08-05T09:27:17.076Z",
   "signals": [
     {
       "id": "sig-1039tsg",
@@ -10,7 +10,7 @@
       "summary": "Samsung used the Future of Memory and Storage (FMS) 2026 conference to present its latest memory and storage technologies for artificial intelligence and high-performance computing. The company highlighted developments in DRAM, NAND, enterprise storage, advanced packaging, and se",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T19:30:31.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 10,
       "tags": [
         "nand",
@@ -18,23 +18,6 @@
         "dram",
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-vf9x2h",
-      "title": "Chip Industry Technical Paper Roundup: Aug. 4",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-4/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Hybrid NAND flash-DRAM memory; neuromorphic many-core computing; modular HW-SW leakage verification; bridging p-type gap in oxide electronics w/2D semis; 3D structures from wafer-fabricated precursors; LLM benchmarking for Verilog design flows; pre-silicon power side-channel anal",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-04T07:01:23.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "llm",
-        "dram"
       ]
     },
     {
@@ -46,12 +29,28 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "pcie",
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-l84j8n",
+      "title": "Kioxia’s nearly faster than Optane SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/03/kioxias-nearly-faster-than-optane-ssd/5282259",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-03T13:00:00.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 10,
+      "tags": [
+        "ssd",
         "kioxia"
       ]
     },
@@ -64,7 +63,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -83,7 +82,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -91,6 +90,23 @@
         "flexible data placement",
         "endurance",
         "dwpd"
+      ]
+    },
+    {
+      "id": "sig-p3ckjk",
+      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
+      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-07-30T13:48:14.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "kioxia",
+        "ai"
       ]
     },
     {
@@ -102,7 +118,7 @@
       "summary": "Sandisk and SK hynix have released the first HBF (High Bandwidth Flash) technical specification through the Open Compute Project, six months after the two companies formed the HBF workstream in February. Google and Tenstorrent joined the consortium during the standardization proc",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-04T21:03:53.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 9.7,
       "tags": [
         "open compute",
@@ -119,7 +135,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -127,6 +143,23 @@
         "gen5",
         "gen6",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1961u58",
+      "title": "Embedded HSM Root of Trust with Arm Cortex-M33 Processor",
+      "url": "https://semiengineering.com/rt-648-embedded-hsm-root-of-trust-with-arm-cortex-m33-processor/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Whether V2X, ADAS, infotainment, or other applications, one constant is the need for a hardware Root of Trust-based security. The post Embedded HSM Root of Trust with Arm Cortex-M33 Processor appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, embedded, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-05T07:01:24.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.9,
+      "tags": [
+        "semiconductor",
+        "embedded",
+        "security"
       ]
     },
     {
@@ -138,8 +171,8 @@
       "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.8,
       "tags": [
         "telemetry",
         "llm"
@@ -154,8 +187,8 @@
       "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "claude code",
@@ -173,8 +206,8 @@
       "summary": "arXiv:2608.02645v1 Announce Type: new Abstract: Large Language Model (LLM) agents rely on external tools to perform multistage tasks. Existing agent frameworks typically assume that tool calls are atomic and return binary success or failure signals. However, real-world systems ex",
       "whyItMatters": "Touches llm, language model, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.8,
       "tags": [
         "llm",
         "language model",
@@ -190,8 +223,8 @@
       "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Pytho",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T22:00:58.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 8.8,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.7,
       "tags": [
         "claude",
         "anthropic",
@@ -207,12 +240,60 @@
       "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T20:00:20.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-30yuqn",
+      "title": "Implementing the Cyber Resilience Act: eBook",
+      "url": "https://semiengineering.com/implementing-the-cyber-resilience-act-ebook/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "How to build a CRA compliance strategy that connects regulatory obligations with secure engineering practices, lifecycle security, supply chain governance, and long-term product resilience. The post Implementing the Cyber Resilience Act: eBook appeared first on Semiconductor Engi",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-05T07:03:46.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.9,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-18bf52q",
+      "title": "Building AI Factories With IP Solutions",
+      "url": "https://semiengineering.com/building-ai-factories-with-ip-solutions/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI factories demand bandwidth-first design, latency-deterministic fabrics, energy-aware memory tiers, and scalable multi‑die integration. The post Building AI Factories With IP Solutions appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T07:02:30.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-eonbf9",
+      "title": "AI Data Centers Look Beyond Just GPUs",
+      "url": "https://semiengineering.com/ai-data-centers-look-beyond-just-gpus/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Focus shifts to clusters of heterogeneous processing elements and faster interconnects. The post AI Data Centers Look Beyond Just GPUs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T07:01:46.000Z",
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -224,8 +305,8 @@
       "summary": "arXiv:2608.03033v1 Announce Type: new Abstract: Non-linear functions such as exponential and sigmoid are essential in AI and LLM acceleration, although implementing them efficiently on FPGAs is still costly. This paper proposes a PWL interpolation framework based on partial recon",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
@@ -240,8 +321,8 @@
       "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features e",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T23:58:24.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.7,
       "tags": [
         "openai",
         "llm"
@@ -256,11 +337,28 @@
       "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T16:47:18.000Z",
-      "fetchedAt": "2026-08-05T06:43:58.222Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-05T09:27:17.076Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-vf9x2h",
+      "title": "Chip Industry Technical Paper Roundup: Aug. 4",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-4/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Hybrid NAND flash-DRAM memory; neuromorphic many-core computing; modular HW-SW leakage verification; bridging p-type gap in oxide electronics w/2D semis; 3D structures from wafer-fabricated precursors; LLM benchmarking for Verilog design flows; pre-silicon power side-channel anal",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-04T07:01:23.000Z",
+      "fetchedAt": "2026-08-05T06:43:58.222Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "llm",
+        "dram"
       ]
     },
     {
@@ -341,39 +439,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-l84j8n",
-      "title": "Kioxia’s nearly faster than Optane SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/03/kioxias-nearly-faster-than-optane-ssd/5282259",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-05T04:17:33.383Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-p3ckjk",
-      "title": "Kioxia launches KV caching SSD and AI-focussed fingernail drive",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/30/kioxia-launches-kv-caching-ssd-and-ai-focussed-fingernail-drive/5280989",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-05T04:17:33.383Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "kioxia",
-        "ai"
       ]
     },
     {
