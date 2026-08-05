@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T00:56:39.328Z",
+  "updatedAt": "2026-08-05T04:17:33.383Z",
   "signals": [
     {
       "id": "sig-1039tsg",
@@ -10,7 +10,7 @@
       "summary": "Samsung used the Future of Memory and Storage (FMS) 2026 conference to present its latest memory and storage technologies for artificial intelligence and high-performance computing. The company highlighted developments in DRAM, NAND, enterprise storage, advanced packaging, and se",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T19:30:31.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +29,7 @@
       "summary": "Hybrid NAND flash-DRAM memory; neuromorphic many-core computing; modular HW-SW leakage verification; bridging p-type gap in oxide electronics w/2D semis; 3D structures from wafer-fabricated precursors; LLM benchmarking for Verilog design flows; pre-silicon power side-channel anal",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T07:01:23.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "nand",
@@ -46,7 +46,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,7 +64,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -80,7 +80,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -99,7 +99,7 @@
       "summary": "ScaleFlux has introduced an AI-optimized SSD platform designed for NVIDIA CMX and other inference architectures that use SSDs as a shared KV-cache tier beyond GPU HBM and host DRAM. The platform combines high-endurance SSD hardware, Flexible Data Placement (FDP) support, and work",
       "whyItMatters": "Data-placement features reshape FTL behavior — expect new conformance surfaces, WAF measurements and placement-hint corner cases in test plans.",
       "publishedAt": "2026-07-31T20:43:51.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -118,7 +118,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -135,8 +135,8 @@
       "summary": "Sandisk and SK hynix have released the first HBF (High Bandwidth Flash) technical specification through the Open Compute Project, six months after the two companies formed the HBF workstream in February. Google and Tenstorrent joined the consortium during the standardization proc",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-04T21:03:53.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 9.9,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 9.8,
       "tags": [
         "open compute",
         "sandisk",
@@ -152,7 +152,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -160,6 +160,58 @@
         "gen5",
         "gen6",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1bq6i6y",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-08-05T04:00:00.000Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 9,
+      "tags": [
+        "telemetry",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bq6iz8",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "url": "https://arxiv.org/abs/2608.00101",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T04:00:00.000Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "llm",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1bq86qr",
+      "title": "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures",
+      "url": "https://arxiv.org/abs/2608.02645",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.02645v1 Announce Type: new Abstract: Large Language Model (LLM) agents rely on external tools to perform multistage tasks. Existing agent frameworks typically assume that tool calls are atomic and return binary success or failure signals. However, real-world systems ex",
+      "whyItMatters": "Touches llm, language model, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T04:00:00.000Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "reliability"
       ]
     },
     {
@@ -171,8 +223,8 @@
       "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Pytho",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T22:00:58.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 8.8,
       "tags": [
         "claude",
         "anthropic",
@@ -188,8 +240,8 @@
       "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T20:00:20.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "storage",
@@ -197,38 +249,19 @@
       ]
     },
     {
-      "id": "sig-1bq6i6y",
-      "title": "Request-Level Energy Attribution for Batched LLM Serving",
-      "url": "https://arxiv.org/abs/2608.00026",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-1bq8tej",
+      "title": "Interpolation of Non-Linear Functions for LLMs using Partial Reconfiguration in FPGAs",
+      "url": "https://arxiv.org/abs/2608.03033",
+      "source": "arXiv cs.AR (hardware architecture)",
       "category": "ai",
-      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 8.4,
-      "tags": [
-        "telemetry",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1bq6iz8",
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "url": "https://arxiv.org/abs/2608.00101",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 8.4,
+      "summary": "arXiv:2608.03033v1 Announce Type: new Abstract: Non-linear functions such as exponential and sigmoid are essential in AI and LLM acceleration, although implementing them efficiently on FPGAs is still costly. This paper proposes a PWL interpolation framework based on partial recon",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T04:00:00.000Z",
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 8,
       "tags": [
         "ai",
-        "claude code",
-        "claude",
-        "llm",
-        "github"
+        "llm"
       ]
     },
     {
@@ -240,8 +273,8 @@
       "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features e",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T23:58:24.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 7.9,
       "tags": [
         "openai",
         "llm"
@@ -256,8 +289,8 @@
       "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T16:47:18.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "github"
@@ -272,8 +305,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T13:27:40.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "storage"
@@ -288,8 +321,8 @@
       "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "typescript"
@@ -304,8 +337,8 @@
       "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
-      "fetchedAt": "2026-08-05T00:56:39.328Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-05T04:17:33.383Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "github"
@@ -2217,167 +2250,6 @@
       "score": 6.4,
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "sig-qeqcyu",
-      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
-      "url": "https://arxiv.org/abs/2607.22548",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 8.3,
-      "tags": [
-        "telemetry",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-qeqd0p",
-      "title": "Execution-Grounded Security Testing for Coding Agents in Software Engineering Pipelines",
-      "url": "https://arxiv.org/abs/2607.22569",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22569v1 Announce Type: new Abstract: Coding agents are increasingly integrated into system operations, where their tool use can directly modify project artifacts, execution environments, and the underlying system. For example, if a coding agent inserts a hook into a sy",
-      "whyItMatters": "Touches coding agent, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 8.3,
-      "tags": [
-        "coding agent",
-        "software engineering",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeqczn",
-      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
-      "url": "https://arxiv.org/abs/2607.22554",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how m",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0h",
-      "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
-      "url": "https://arxiv.org/abs/2607.22561",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22561v1 Announce Type: new Abstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple,",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0l",
-      "title": "DSTFView: Multi-View Cloud-Edge Workload Forecasting with Dual-Input Spatio-Temporal-Frequency Modeling",
-      "url": "https://arxiv.org/abs/2607.22565",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22565v1 Announce Type: new Abstract: With the widespread deployment of edge-side AI inference, edge platforms are increasingly required to support latency-sensitive, highly concurrent, and reliability-critical applications. However, existing methods often struggle to b",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-qeqd0o",
-      "title": "Keyword Matters: Unveiling the Energy Sensitivity of On-Device LLM Prompting",
-      "url": "https://arxiv.org/abs/2607.22568",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22568v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed on mobile and embedded devices to improve privacy and reduce network latency. Yet on-device inference faces a fundamental constraint: high energy consumption on battery-powered,",
-      "whyItMatters": "Touches llm, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-qeqgfe",
-      "title": "Metamorphic Testing for Clinical ML Models: A Framework Proposal and Pilot Study",
-      "url": "https://arxiv.org/abs/2607.22984",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.22984v1 Announce Type: new Abstract: Machine learning models for clinical prediction tasks, such as in-hospital mortality and sepsis onset, routinely achieve high AUROC scores. However, AUROC measures ranking performance rather than clinical sensibility. A model may ra",
-      "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "machine learning",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-qer1dy",
-      "title": "Bifrost: Empowering Pretrained Language Model with Fallibility Representation for Log-Based Fault Diagnosis",
-      "url": "https://arxiv.org/abs/2607.23169",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.23169v1 Announce Type: new Abstract: Log-based fault diagnosis is crucial for runtime debugging and maintenance. Existing fault diagnosis methods use language models pre-trained on natural language (PLMs) for log representation. However, system faults are reflected in ",
-      "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "language model",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-qer2wx",
-      "title": "Towards LLM-assisted High-Quality Property Generation for Solidity Smart Contracts",
-      "url": "https://arxiv.org/abs/2607.23308",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2607.23308v1 Announce Type: new Abstract: The immutable nature of smart contracts makes it challenging to fix and patch bugs once they are deployed to a blockchain. This implies that security vulnerabilities may be exposed to possible exploitation for a longer period, neces",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-qeqerr",
-      "title": "Reducing Instruction-Fetch Energy in RISC-V for Embedded AI Processing via Dynamic and Static Loop Caching",
-      "url": "https://arxiv.org/abs/2607.22792",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2607.22792v1 Announce Type: new Abstract: Embedded RISC-V processors are increasingly deployed for on-device AI inference at the edge, where energy efficiency is a primary design constraint. Instruction fetching from SRAM-based memory is a dominant source of energy consumpt",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "fetchedAt": "2026-07-29T03:43:43.850Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "embedded"
       ]
     }
   ]
