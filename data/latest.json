@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T01:07:14.406Z",
+  "generatedAt": "2026-08-06T04:32:15.828Z",
   "signals": [
     {
       "id": "sig-6htji",
@@ -10,7 +10,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,7 +26,7 @@
       "summary": "Marvell used FMS 2026 to introduce new memory infrastructure technologies aimed at helping hyperscalers and cloud providers scale memory independently from compute. The portfolio spans server-level AI storage, rack-scale CXL memory expansion and pooling, and pod-level optical sha",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-05T15:35:04.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 10,
       "tags": [
         "gen5",
@@ -44,7 +44,7 @@
       "summary": "Samsung used the Future of Memory and Storage (FMS) 2026 conference to present its latest memory and storage technologies for artificial intelligence and high-performance computing. The company highlighted developments in DRAM, NAND, enterprise storage, advanced packaging, and se",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-04T19:30:31.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 10,
       "tags": [
         "nand",
@@ -63,7 +63,7 @@
       "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-07-30T13:48:14.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -99,7 +99,7 @@
       "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 9.9,
       "tags": [
         "ssd",
@@ -117,8 +117,8 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 9.8,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 9.7,
       "tags": [
         "ssd",
         "kioxia"
@@ -133,7 +133,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -152,12 +152,29 @@
       "summary": "Sandisk and SK hynix have released the first HBF (High Bandwidth Flash) technical specification through the Open Compute Project, six months after the two companies formed the HBF workstream in February. Google and Tenstorrent joined the consortium during the standardization proc",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-04T21:03:53.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 9.2,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 9.1,
       "tags": [
         "open compute",
         "sandisk",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1bq9m1y",
+      "title": "On Design Principles for Efficient Heterogeneous DRAM-PIM-GPU Systems",
+      "url": "https://arxiv.org/abs/2608.04169",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.04169v1 Announce Type: new Abstract: Heterogeneous DRAM-based processing-in-memory (PIM)-GPU systems promise significant efficiency gains for decode-phase large language model (LLM) inference, particularly in long-output generation, yet current design practices overloo",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "dram"
       ]
     },
     {
@@ -169,64 +186,12 @@
       "summary": "Whether V2X, ADAS, infotainment, or other applications, one constant is the need for a hardware Root of Trust-based security. The post Embedded HSM Root of Trust with Arm Cortex-M33 Processor appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, embedded, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-05T07:01:24.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8.5,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 8.4,
       "tags": [
         "semiconductor",
         "embedded",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1bq6i6y",
-      "title": "Request-Level Energy Attribution for Batched LLM Serving",
-      "url": "https://arxiv.org/abs/2608.00026",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing in",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8.4,
-      "tags": [
-        "telemetry",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1bq6iz8",
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "url": "https://arxiv.org/abs/2608.00101",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.00101v1 Announce Type: new Abstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first production-scale characterization of this worklo",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "llm",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1bq86qr",
-      "title": "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures",
-      "url": "https://arxiv.org/abs/2608.02645",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.02645v1 Announce Type: new Abstract: Large Language Model (LLM) agents rely on external tools to perform multistage tasks. Existing agent frameworks typically assume that tool calls are atomic and return binary success or failure signals. However, real-world systems ex",
-      "whyItMatters": "Touches llm, language model, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "reliability"
       ]
     },
     {
@@ -238,7 +203,7 @@
       "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Pytho",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T22:00:58.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 8.2,
       "tags": [
         "claude",
@@ -255,12 +220,60 @@
       "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T20:00:20.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8.2,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1bq9lac",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bq9mxx",
+      "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
+      "url": "https://arxiv.org/abs/2608.04285",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.04285v1 Announce Type: new Abstract: Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning ",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1bq9m03",
+      "title": "AgentForge: An Immersive Role-Playing Platform for Learning Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2608.04148",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.04148v1 Announce Type: new Abstract: Agentic AI is increasingly used to coordinate planning, implementation, review, and testing in software development, yet it often offers limited transparency into its decisions and interactions. Many such systems also assume that us",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "software engineering"
       ]
     },
     {
@@ -272,8 +285,8 @@
       "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : I",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T23:45:32.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "openai"
@@ -288,8 +301,8 @@
       "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their techn",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T23:32:06.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 8,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "security"
@@ -304,7 +317,7 @@
       "summary": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content o",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T19:42:38.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
       "score": 7.8,
       "tags": [
         "claude code",
@@ -317,30 +330,14 @@
       "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor · ★ 616",
+      "summary": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor · ★ 794",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T07:30:56Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-06T04:32:15.828Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "python"
-      ]
-    },
-    {
-      "id": "sig-30yuqn",
-      "title": "Implementing the Cyber Resilience Act: eBook",
-      "url": "https://semiengineering.com/implementing-the-cyber-resilience-act-ebook/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "How to build a CRA compliance strategy that connects regulatory obligations with secure engineering practices, lifecycle security, supply chain governance, and long-term product resilience. The post Implementing the Cyber Resilience Act: eBook appeared first on Semiconductor Engi",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-05T07:03:46.000Z",
-      "fetchedAt": "2026-08-06T01:07:14.406Z",
-      "score": 7.5,
-      "tags": [
-        "semiconductor",
-        "security"
       ]
     }
   ]
