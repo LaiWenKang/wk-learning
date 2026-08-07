@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-07T00:17:08.088Z",
+  "generatedAt": "2026-08-07T03:17:35.553Z",
   "signals": [
-    {
-      "id": "sig-1epgipg",
-      "title": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources",
-      "url": "https://semiengineering.com/shared-ide-for-pcie-bifurcation-scaling-security-without-scaling-complexity-resources/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-06T07:06:17.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 10,
-      "tags": [
-        "pcie",
-        "semiconductor",
-        "security"
-      ]
-    },
     {
       "id": "sig-6htji",
       "title": "Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026",
@@ -27,7 +10,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -43,13 +26,30 @@
       "summary": "Marvell used FMS 2026 to introduce new memory infrastructure technologies aimed at helping hyperscalers and cloud providers scale memory independently from compute. The portfolio spans server-level AI storage, rack-scale CXL memory expansion and pooling, and pod-level optical sha",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-05T15:35:04.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 10,
       "tags": [
         "gen5",
         "cxl",
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1epgipg",
+      "title": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources",
+      "url": "https://semiengineering.com/shared-ide-for-pcie-bifurcation-scaling-security-without-scaling-complexity-resources/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-06T07:06:17.000Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 9.9,
+      "tags": [
+        "pcie",
+        "semiconductor",
+        "security"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-03T13:00:00.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -77,7 +77,7 @@
       "summary": "The new Kioxia CM10 series spans 2.5\" and EDSFF form factors, PCIe Gen5 and Gen6, air-cooled and liquid-cooled, and two NAND generations The post Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-01T15:00:24.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -96,8 +96,8 @@
       "summary": "Sandisk and SK hynix have released the first HBF (High Bandwidth Flash) technical specification through the Open Compute Project, six months after the two companies formed the HBF workstream in February. Google and Tenstorrent joined the consortium during the standardization proc",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-04T21:03:53.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 8.5,
       "tags": [
         "open compute",
         "sandisk",
@@ -113,8 +113,8 @@
       "summary": "AI has access to every known security paper and powerful tools, but that's not all bad. The post AI: Friend And Foe For Chip Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:05:17.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 8.5,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "semiconductor",
@@ -130,7 +130,7 @@
       "summary": "arXiv:2608.04169v1 Announce Type: new Abstract: Heterogeneous DRAM-based processing-in-memory (PIM)-GPU systems promise significant efficiency gains for decode-phase large language model (LLM) inference, particularly in long-output generation, yet current design practices overloo",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-06T04:00:00.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 8.4,
       "tags": [
         "llm",
@@ -147,7 +147,7 @@
       "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-06T15:10:22.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 7.7,
       "tags": [
         "performance",
@@ -163,12 +163,29 @@
       "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Pytho",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T22:00:58.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.5,
       "tags": [
         "claude",
         "anthropic",
         "llm"
+      ]
+    },
+    {
+      "id": "sig-17by5hn",
+      "title": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
+      "url": "https://www.storagereview.com/news/vdura-and-wasabi-pair-gpu-adjacent-ai-storage-with-no-egress-fee-s3-archiving",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
+      "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-04T20:00:20.000Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -180,8 +197,8 @@
       "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T07:05:36.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -196,8 +213,8 @@
       "summary": "Combining SRAM-based identity generation with added functional safety and security mechanisms. The post Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:03:31.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -212,8 +229,8 @@
       "summary": "Semiconductor leaders say hardware trust, verification, and lifecycle resilience must become core design requirements rather than late-stage additions. The post The Next Big Chip Failure May Be A Security One appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:02:33.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -228,43 +245,11 @@
       "summary": "AI agents can understand design intent and implement meaningful portions of the design process. The post The Autonomous Chip-To-System Engineer Has Arrived appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:01:02.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-17by5hn",
-      "title": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
-      "url": "https://www.storagereview.com/news/vdura-and-wasabi-pair-gpu-adjacent-ai-storage-with-no-egress-fee-s3-archiving",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "VDURA and Wasabi Technologies have formed a technology alliance to connect GPU-adjacent AI data infrastructure with predictably priced, S3-compatible cloud storage. The partnership targets AI factories, neoclouds, and enterprise high-performance computing environments that need t",
-      "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-04T20:00:20.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-s7t5cf",
-      "title": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
-      "url": "https://www.storagereview.com/news/wd-bets-8x-bandwidth-beats-more-terabytes-as-40tb-ultrasmr-starts-shipping",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Western Digital started shipping its next-generation ePMR nearline platform at up to 40TB per drive during the quarter that ended July 3, and told investors on August 5 that its 44TB HAMR drive remains on track for the first half of calendar 2027. The company shipped 231 exabytes",
-      "whyItMatters": "Touches western digital — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-06T21:01:09.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.4,
-      "tags": [
-        "western digital"
       ]
     },
     {
@@ -276,7 +261,7 @@
       "summary": "arXiv:2608.04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T04:00:00.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 7.4,
       "tags": [
         "llm",
@@ -292,7 +277,7 @@
       "summary": "arXiv:2608.04285v1 Announce Type: new Abstract: Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning ",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T04:00:00.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -308,11 +293,26 @@
       "summary": "arXiv:2608.04148v1 Announce Type: new Abstract: Agentic AI is increasingly used to coordinate planning, implementation, review, and testing in software development, yet it often offers limited transparency into its decisions and interactions. Many such systems also assume that us",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T04:00:00.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
       "score": 7.4,
       "tags": [
         "ai",
         "software engineering"
+      ]
+    },
+    {
+      "id": "sig-s7t5cf",
+      "title": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
+      "url": "https://www.storagereview.com/news/wd-bets-8x-bandwidth-beats-more-terabytes-as-40tb-ultrasmr-starts-shipping",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Western Digital started shipping its next-generation ePMR nearline platform at up to 40TB per drive during the quarter that ended July 3, and told investors on August 5 that its 44TB HAMR drive remains on track for the first half of calendar 2027. The company shipped 231 exabytes",
+      "whyItMatters": "Touches western digital — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-06T21:01:09.000Z",
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.3,
+      "tags": [
+        "western digital"
       ]
     },
     {
@@ -324,8 +324,8 @@
       "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : I",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T23:45:32.000Z",
-      "fetchedAt": "2026-08-07T00:17:08.088Z",
-      "score": 7.3,
+      "fetchedAt": "2026-08-07T03:17:35.553Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "openai"
