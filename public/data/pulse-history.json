@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T02:29:34.556Z",
+  "updatedAt": "2026-08-08T03:52:03.594Z",
   "signals": [
     {
       "id": "sig-5nmlpx",
@@ -10,7 +10,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "CoreWeave said on August 5 that it has signed a multi-year agreement with Solidigm for priority access to enterprise SSD capacity. Storage has become the second component after GPUs that an AI cloud has to contract for years in advance, and CoreWeave has now done for flash what c",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-07T15:51:34.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -37,23 +37,6 @@
         "solidigm",
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-cetk0",
-      "title": "SK Hynix building new DRAM and NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "sk hynix",
-        "dram"
       ]
     },
     {
@@ -65,7 +48,7 @@
       "summary": "arXiv:2503.13105v2 Announce Type: replace Abstract: A hybrid Solid-State Drives (SSDs) integrates different modes of flash cells (e.g., single-level cell (SLC) and Quad-Level Cell (QLC)) and enables them to convert between each other, achieving both high performance and storage c",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -83,7 +66,7 @@
       "summary": "Marvell used FMS 2026 to introduce new memory infrastructure technologies aimed at helping hyperscalers and cloud providers scale memory independently from compute. The portfolio spans server-level AI storage, rack-scale CXL memory expansion and pooling, and pod-level optical sha",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-05T15:35:04.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 10,
       "tags": [
         "gen5",
@@ -101,7 +84,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 9.9,
       "tags": [
         "ssd",
@@ -117,7 +100,7 @@
       "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-06T07:06:17.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 9.3,
       "tags": [
         "pcie",
@@ -134,8 +117,8 @@
       "summary": "SK hynix's $38B new fabs; memory density increases; 2026 chip industry revenue to hit $1.65T; imec metrology roadmap; MIT's self-assembled contacts; new U.S. restrictions; Intel's new training program; NXP to buy Ambarella?; AI sandbox leaks; memory-centric accelerator; entangled",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T07:01:09.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 8.5,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 8.4,
       "tags": [
         "sk hynix",
         "ai"
@@ -150,8 +133,8 @@
       "summary": "arXiv:2608.05886v1 Announce Type: new Abstract: Modern LLM coding agents such as Claude Code and OpenHands share a common inefficiency: they spend much of their token budget finding the file to patch, rather than patching it. On SWE-Bench Verified, a 30B OpenHands agent averages ",
       "whyItMatters": "Touches claude code, claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 8.4,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 8.3,
       "tags": [
         "claude code",
         "claude",
@@ -167,7 +150,7 @@
       "summary": "Sandisk and SK hynix have released the first HBF (High Bandwidth Flash) technical specification through the Open Compute Project, six months after the two companies formed the HBF workstream in February. Google and Tenstorrent joined the consortium during the standardization proc",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-04T21:03:53.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 8,
       "tags": [
         "open compute",
@@ -184,7 +167,7 @@
       "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details ",
       "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T23:55:58.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 7.9,
       "tags": [
         "openai",
@@ -200,11 +183,28 @@
       "summary": "AI has access to every known security paper and powerful tools, but what it does with that isn't clear. The post AI: Friend And Foe For Chip Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:05:17.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 7.8,
       "tags": [
         "ai",
         "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-ha65lv",
+      "title": "0xwilliamortiz/claude-red (JavaScript) — trending new repo",
+      "url": "https://github.com/0xwilliamortiz/claude-red",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development",
+      "whyItMatters": "Touches claude, javascript, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-05T16:54:36Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.4,
+      "tags": [
+        "claude",
+        "javascript",
         "security"
       ]
     },
@@ -217,8 +217,8 @@
       "summary": "arXiv:2608.05203v1 Announce Type: new Abstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians' reasoning. Motivated by ",
       "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 7.4,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.3,
       "tags": [
         "machine learning",
         "performance"
@@ -233,8 +233,8 @@
       "summary": "arXiv:2608.05561v1 Announce Type: new Abstract: The widespread adoption of Large Language Models (LLMs) has changed how software engineers perform everyday development activities. While these systems provide substantial support for tasks such as code generation, debugging, and do",
       "whyItMatters": "Touches language model, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 7.4,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.3,
       "tags": [
         "language model",
         "debugging"
@@ -249,8 +249,8 @@
       "summary": "arXiv:2608.05898v1 Announce Type: new Abstract: As Generative AI coding tools reshape professional software development, universities have begun designing courses to prepare students for AI-assisted development workflows. By analyzing the syllabi of these courses, we can gather e",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 7.4,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "software engineering"
@@ -265,28 +265,27 @@
       "summary": "arXiv:2608.05888v1 Announce Type: new Abstract: Accurate power measurement is not only essential for evaluating the energy efficiency of modern embedded and semiconductor systems, but power draw is an important proxy during stress testing. Industrial semiconductor test equipment,",
       "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 7.4,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.3,
       "tags": [
         "semiconductor",
         "embedded"
       ]
     },
     {
-      "id": "sig-ha65lv",
-      "title": "0xwilliamortiz/claude-red (JavaScript) — trending new repo",
-      "url": "https://github.com/0xwilliamortiz/claude-red",
-      "source": "GitHub trending new repos (search API)",
+      "id": "sig-nsoe81",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development",
-      "whyItMatters": "Touches claude, javascript, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-05T16:54:36Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 7.4,
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am... https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 892 # Comments: 669",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-06T20:23:11.000Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 7.1,
       "tags": [
-        "claude",
-        "javascript",
-        "security"
+        "ai",
+        "performance"
       ]
     },
     {
@@ -298,7 +297,7 @@
       "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-06T15:10:22.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 7,
       "tags": [
         "performance",
@@ -314,8 +313,8 @@
       "summary": "arXiv:2608.05965v1 Announce Type: new Abstract: Processor design is converging on a new model of cache-coherent shared memory characterized by heterogeneity, hierarchy, and scopes. Protocols like CXL or AMBA CHI are used as global protocols to combine multiple clusters, each with",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-08-07T04:00:00.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
-      "score": 6.9,
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
+      "score": 6.8,
       "tags": [
         "cxl"
       ]
@@ -329,11 +328,28 @@
       "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T07:05:36.000Z",
-      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "fetchedAt": "2026-08-08T03:52:03.594Z",
       "score": 6.8,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-cetk0",
+      "title": "SK Hynix building new DRAM and NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-07T14:39:41.000Z",
+      "fetchedAt": "2026-08-08T02:29:34.556Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "sk hynix",
+        "dram"
       ]
     },
     {
