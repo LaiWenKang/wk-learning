@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T16:56:13.926Z",
+  "updatedAt": "2026-08-09T17:38:46.005Z",
   "signals": [
     {
       "id": "sig-exlv42",
@@ -10,7 +10,7 @@
       "summary": "Synopsys has announced what it describes as the industry’s first complete Compute Express Link (CXL) 4.0 intellectual property suite. The portfolio combines a CXL controller, IDE security modules, a PCIe 7.0-based physical layer, and verification IP for system-on-chip designers b",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-08T16:28:31.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -27,7 +27,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "CoreWeave said on August 5 that it has signed a multi-year agreement with Solidigm for priority access to enterprise SSD capacity. Storage has become the second component after GPUs that an AI cloud has to contract for years in advance, and CoreWeave has now done for flash what c",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-07T15:51:34.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -65,7 +65,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 10,
       "tags": [
         "nand",
@@ -82,7 +82,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -98,7 +98,7 @@
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the to",
       "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-08T22:36:03.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 8.5,
       "tags": [
         "claude code",
@@ -115,7 +115,7 @@
       "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-06T07:06:17.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 8.5,
       "tags": [
         "pcie",
@@ -132,7 +132,7 @@
       "summary": "SK hynix's $38B new fabs; memory density increases; 2026 chip industry revenue to hit $1.65T; imec metrology roadmap; MIT's self-assembled contacts; new U.S. restrictions; Intel's new training program; NXP to buy Ambarella?; AI sandbox leaks; memory-centric accelerator; entangled",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T07:01:09.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 7.4,
       "tags": [
         "sk hynix",
@@ -148,7 +148,7 @@
       "summary": "AI has access to every known security paper and powerful tools, but what it does with that isn't clear. The post AI: Friend And Foe For Chip Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:05:17.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 7,
       "tags": [
         "ai",
@@ -165,12 +165,27 @@
       "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development",
       "whyItMatters": "Touches claude, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T16:54:36Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 7,
       "tags": [
         "claude",
         "javascript",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1hsyvq2",
+      "title": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
+      "url": "https://www.storagereview.com/news/amd-to-acquire-taalas-the-toronto-startup-building-silicon-around-one-model",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "AMD has entered into a definitive agreement to acquire Toronto-based Taalas, a developer of specialized AI inference silicon. The acquisition is intended to expand AMD’s inference capabilities as AI deployments shift toward real-time and high-volume production workloads, where ef",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-09T17:09:15.000Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -182,25 +197,25 @@
       "summary": "Over the past two years, end-user computing (EUC) has evolved at a pace that we have never seen before. This is being driven by rapid AI integration, major platform licensing shifts, and massive enterprise migrations to Windows 11. In this rapidly changing environment, independen",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-09T16:00:04.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6.5,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-18nd71c",
-      "title": "Show HN: Vibez – Open-Source Rust Based Digital Audio Workstation (DAW)",
-      "url": "https://alexanderwanyoike.github.io/vibez/",
+      "id": "sig-1u25k8h",
+      "title": "Human vs. AI – Diff-based line-level provenance for text under agentic editing",
+      "url": "https://github.com/eighttrigrams/us-vs-them",
       "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "10 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-09T15:31:49Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
-      "score": 6.5,
+      "category": "ai",
+      "summary": "12 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-09T15:25:29Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
+      "score": 6.4,
       "tags": [
-        "rust"
+        "ai"
       ]
     },
     {
@@ -212,7 +227,7 @@
       "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-06T15:10:22.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "performance",
@@ -228,7 +243,7 @@
       "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T07:05:36.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "ai",
@@ -244,7 +259,7 @@
       "summary": "Combining SRAM-based identity generation with added functional safety and security mechanisms. The post Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:03:31.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "semiconductor",
@@ -257,10 +272,10 @@
       "url": "https://github.com/KKKKhazix/human-writing",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 · ★ 2082",
+      "summary": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 · ★ 2086",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T01:19:41Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "ai",
@@ -276,7 +291,7 @@
       "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T16:47:18.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "ai",
@@ -292,7 +307,7 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-04T13:27:40.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "ai",
@@ -308,11 +323,26 @@
       "summary": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face . This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three incidents where models had gained unauthorized access to data in ",
       "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-04T12:08:00.000Z",
-      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "fetchedAt": "2026-08-09T17:38:46.005Z",
       "score": 6,
       "tags": [
         "ai",
         "anthropic"
+      ]
+    },
+    {
+      "id": "sig-18nd71c",
+      "title": "Show HN: Vibez – Open-Source Rust Based Digital Audio Workstation (DAW)",
+      "url": "https://alexanderwanyoike.github.io/vibez/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "10 points on Hacker News",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-09T15:31:49Z",
+      "fetchedAt": "2026-08-09T16:56:13.926Z",
+      "score": 6.5,
+      "tags": [
+        "rust"
       ]
     },
     {
