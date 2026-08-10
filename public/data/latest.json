@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-10T07:56:40.971Z",
+  "generatedAt": "2026-08-10T09:41:25.315Z",
   "signals": [
+    {
+      "id": "sig-t38h9j",
+      "title": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
+      "url": "https://www.storagereview.com/news/netlist-and-samsung-sign-five-year-patent-supply-and-technology-agreements",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. The deal gives Samsung a worldwide license to specified Netlist patents",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-10T09:32:09.000Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "dram"
+      ]
+    },
     {
       "id": "sig-18cmatw",
       "title": "SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch",
@@ -10,7 +26,7 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +45,7 @@
       "summary": "Synopsys has announced what it describes as the industry’s first complete Compute Express Link (CXL) 4.0 intellectual property suite. The portfolio combines a CXL controller, IDE security modules, a PCIe 7.0-based physical layer, and verification IP for system-on-chip designers b",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-08T16:28:31.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -46,7 +62,7 @@
       "summary": "CoreWeave said on August 5 that it has signed a multi-year agreement with Solidigm for priority access to enterprise SSD capacity. Storage has become the second component after GPUs that an AI cloud has to contract for years in advance, and CoreWeave has now done for flash what c",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-07T15:51:34.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -54,23 +70,6 @@
         "solidigm",
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-cetk0",
-      "title": "SK Hynix building new DRAM and NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "sk hynix",
-        "dram"
       ]
     },
     {
@@ -82,7 +81,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 9.8,
       "tags": [
         "ssd",
@@ -101,7 +100,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -117,8 +116,8 @@
       "summary": "arXiv:2608.06790v1 Announce Type: new Abstract: Agent systems rely on LLM APIs for every response, but these APIs can return server errors, truncated responses, or corrupted content that propagates through downstream agents and causes task failure. Evaluating robustness under the",
       "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
       "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 8.8,
       "tags": [
         "fault injection",
         "llm"
@@ -133,7 +132,7 @@
       "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-06T07:06:17.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 8.5,
       "tags": [
         "pcie",
@@ -150,8 +149,8 @@
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the to",
       "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-08T22:36:03.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 8.1,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 8,
       "tags": [
         "claude code",
         "claude",
@@ -167,8 +166,8 @@
       "summary": "Efficiency is key for the next two to five years. But what happens when supply eventually catches up? The post How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-10T07:01:44.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 8,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "semiconductor"
@@ -183,8 +182,8 @@
       "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. C",
       "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "communication"
@@ -199,8 +198,8 @@
       "summary": "arXiv:2608.06811v1 Announce Type: new Abstract: Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base m",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
@@ -215,8 +214,8 @@
       "summary": "arXiv:2608.07226v1 Announce Type: new Abstract: Compact AI systems make local language-model experimentation increasingly accessible, yet practical evidence for multi-node training on desktop-class accelerators remains limited. This report presents a proof-of-concept deployment o",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
@@ -228,11 +227,11 @@
       "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "169 points on Hacker News",
+      "summary": "207 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-10T03:50:00Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -247,8 +246,8 @@
       "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on ",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-09T23:31:39.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 7.7,
       "tags": [
         "claude",
         "anthropic"
@@ -263,7 +262,7 @@
       "summary": "SK hynix's $38B new fabs; memory density increases; 2026 chip industry revenue to hit $1.65T; imec metrology roadmap; MIT's self-assembled contacts; new U.S. restrictions; Intel's new training program; NXP to buy Ambarella?; AI sandbox leaks; memory-centric accelerator; entangled",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T07:01:09.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 7,
       "tags": [
         "sk hynix",
@@ -279,7 +278,7 @@
       "summary": "给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and codex. novel-characters turns a novel into a character bible: profiles, cartoon-design prompts, voice prompts and ",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T10:38:49Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 7,
       "tags": [
         "ai",
@@ -297,7 +296,7 @@
       "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development",
       "whyItMatters": "Touches claude, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T16:54:36Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
       "score": 7,
       "tags": [
         "claude",
@@ -314,8 +313,8 @@
       "summary": "Ultrafast optical switching in doped semis; PIM simulation; foundry-compatible silicon photonics MEMS switching; GPU-accelerated switching-power analysis; neuromorphic computing; magneto-ionic HW security; bond front velocity; measuring heat movement. The post Chip Industry Techn",
       "whyItMatters": "Touches security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-10T07:01:34.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 6.5,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 6.4,
       "tags": [
         "security"
       ]
@@ -329,8 +328,8 @@
       "summary": "Thin chip stacking; analog CAM with MoS2; sensor-level processing and memory. The post Research Bits: Aug. 10 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-10T07:01:00.000Z",
-      "fetchedAt": "2026-08-10T07:56:40.971Z",
-      "score": 6.5,
+      "fetchedAt": "2026-08-10T09:41:25.315Z",
+      "score": 6.4,
       "tags": [
         "semiconductor"
       ]
