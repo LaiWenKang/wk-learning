@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T00:36:38.847Z",
+  "updatedAt": "2026-08-10T02:54:49.399Z",
   "signals": [
     {
       "id": "sig-18cmatw",
@@ -10,7 +10,7 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,31 +29,12 @@
       "summary": "Synopsys has announced what it describes as the industry’s first complete Compute Express Link (CXL) 4.0 intellectual property suite. The portfolio combines a CXL controller, IDE security modules, a PCIe 7.0-based physical layer, and verification IP for system-on-chip designers b",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-08T16:28:31.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 10,
       "tags": [
         "pcie",
         "cxl",
         "security"
-      ]
-    },
-    {
-      "id": "sig-5nmlpx",
-      "title": "A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026",
-      "url": "https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "nvme",
-        "pcie",
-        "gen6",
-        "kioxia"
       ]
     },
     {
@@ -65,7 +46,7 @@
       "summary": "CoreWeave said on August 5 that it has signed a multi-year agreement with Solidigm for priority access to enterprise SSD capacity. Storage has become the second component after GPUs that an AI cloud has to contract for years in advance, and CoreWeave has now done for flash what c",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-07T15:51:34.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -84,12 +65,31 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 10,
       "tags": [
         "nand",
         "sk hynix",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-5nmlpx",
+      "title": "A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026",
+      "url": "https://www.servethehome.com/a-10m-iops-kioxia-gp1-ssd-shown-running-at-fms-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-08-07T19:00:09.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 9.9,
+      "tags": [
+        "ssd",
+        "nvme",
+        "pcie",
+        "gen6",
+        "kioxia"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -117,7 +117,7 @@
       "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms. The post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-06T07:06:17.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 8.5,
       "tags": [
         "pcie",
@@ -134,8 +134,8 @@
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the to",
       "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-08T22:36:03.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 8.3,
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 8.2,
       "tags": [
         "claude code",
         "claude",
@@ -151,8 +151,8 @@
       "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on ",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-09T23:31:39.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 8,
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 7.9,
       "tags": [
         "claude",
         "anthropic"
@@ -167,8 +167,8 @@
       "summary": "SK hynix's $38B new fabs; memory density increases; 2026 chip industry revenue to hit $1.65T; imec metrology roadmap; MIT's self-assembled contacts; new U.S. restrictions; Intel's new training program; NXP to buy Ambarella?; AI sandbox leaks; memory-centric accelerator; entangled",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-07T07:01:09.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 7.2,
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 7.1,
       "tags": [
         "sk hynix",
         "ai"
@@ -183,7 +183,7 @@
       "summary": "给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and codex. novel-characters turns a novel into a character bible: profiles, cartoon-design prompts, voice prompts and ",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-06T10:38:49Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 7,
       "tags": [
         "ai",
@@ -201,7 +201,7 @@
       "summary": "AI has access to every known security paper and powerful tools, but what it does with that isn't clear. The post AI: Friend And Foe For Chip Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-06T07:05:17.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 7,
       "tags": [
         "ai",
@@ -218,12 +218,27 @@
       "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development",
       "whyItMatters": "Touches claude, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-05T16:54:36Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 7,
       "tags": [
         "claude",
         "javascript",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1womzri",
+      "title": "Quoting OpenClaw",
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. &mdash; OpenClaw , hacking an Australian gym-booking website Tags: ai-et",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-10T02:05:16.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -235,10 +250,87 @@
       "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because t",
       "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-09T22:48:05.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
       "score": 6.4,
       "tags": [
         "github"
+      ]
+    },
+    {
+      "id": "sig-164m2yc",
+      "title": "The tragedy of the commons, AI edition",
+      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "84 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-09T19:43:52Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1hsyvq2",
+      "title": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
+      "url": "https://www.storagereview.com/news/amd-to-acquire-taalas-the-toronto-startup-building-silicon-around-one-model",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "AMD has entered into a definitive agreement to acquire Toronto-based Taalas, a developer of specialized AI inference silicon. The acquisition is intended to expand AMD’s inference capabilities as AI deployments shift toward real-time and high-volume production workloads, where ef",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-09T17:09:15.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-e990uq",
+      "title": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
+      "url": "https://www.storagereview.com/news/beyond-the-sales-pitch-why-were-heading-to-euc-world-amplify-2026",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Over the past two years, end-user computing (EUC) has evolved at a pace that we have never seen before. This is being driven by rapid AI integration, major platform licensing shifts, and massive enterprise migrations to Windows 11. In this rapidly changing environment, independen",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-09T16:00:04.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-12k2s4y",
+      "title": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
+      "url": "https://www.storagereview.com/news/vmware-vdefend-75tbps-distributed-firewall-vcf-9-1-update",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
+      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-06T15:10:22.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6,
+      "tags": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1tcw01g",
+      "title": "How To Scale AI Arithmetic Efficiently",
+      "url": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-06T07:05:36.000Z",
+      "fetchedAt": "2026-08-10T02:54:49.399Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -257,51 +349,6 @@
       ]
     },
     {
-      "id": "sig-164m2yc",
-      "title": "The tragedy of the commons, AI edition",
-      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "66 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T19:43:52Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1hsyvq2",
-      "title": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
-      "url": "https://www.storagereview.com/news/amd-to-acquire-taalas-the-toronto-startup-building-silicon-around-one-model",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD has entered into a definitive agreement to acquire Toronto-based Taalas, a developer of specialized AI inference silicon. The acquisition is intended to expand AMD’s inference capabilities as AI deployments shift toward real-time and high-volume production workloads, where ef",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T17:09:15.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-e990uq",
-      "title": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
-      "url": "https://www.storagereview.com/news/beyond-the-sales-pitch-why-were-heading-to-euc-world-amplify-2026",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Over the past two years, end-user computing (EUC) has evolved at a pace that we have never seen before. This is being driven by rapid AI integration, major platform licensing shifts, and massive enterprise migrations to Windows 11. In this rapidly changing environment, independen",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T16:00:04.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "id": "sig-1u25k8h",
       "title": "Human vs. AI – Diff-based line-level provenance for text under agentic editing",
       "url": "https://github.com/eighttrigrams/us-vs-them",
@@ -314,38 +361,6 @@
       "score": 6.2,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-12k2s4y",
-      "title": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
-      "url": "https://www.storagereview.com/news/vmware-vdefend-75tbps-distributed-firewall-vcf-9-1-update",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-06T15:10:22.000Z",
-      "fetchedAt": "2026-08-10T00:36:38.847Z",
-      "score": 6,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1tcw01g",
-      "title": "How To Scale AI Arithmetic Efficiently",
-      "url": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-06T07:05:36.000Z",
-      "fetchedAt": "2026-08-09T23:38:59.139Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -2042,52 +2057,6 @@
       "tags": [
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1pmh4u1",
-      "title": "Where did that NAND upstart come from?",
-      "url": "https://www.blocksandfiles.com/flash/2026/07/24/where-did-that-nand-upstart-come-from/5278261",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-07-24T14:14:00.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 7,
-      "tags": [
-        "nand"
-      ]
-    },
-    {
-      "id": "sig-yb4bxm",
-      "title": "The Conductor Developer",
-      "url": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the last couple of years we’ve framed AI as a productivity tool. How",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-07-31T13:48:00.000Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1jppvtf",
-      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-      "url": "https://frogs.vaguespac.es/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "93 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-02T19:42:08Z",
-      "fetchedAt": "2026-08-03T01:08:33.919Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
       ]
     }
   ]
