@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:37:05.443Z",
+  "generatedAt": "2026-08-11T04:04:11.996Z",
   "signals": [
     {
       "id": "sig-hxgrm3",
@@ -10,7 +10,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,7 +44,7 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 10,
       "tags": [
         "nand",
@@ -63,7 +63,7 @@
       "summary": "CoreWeave said on August 5 that it has signed a multi-year agreement with Solidigm for priority access to enterprise SSD capacity. Storage has become the second component after GPUs that an AI cloud has to contract for years in advance, and CoreWeave has now done for flash what c",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-07T15:51:34.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 10,
       "tags": [
         "nand",
@@ -99,8 +99,8 @@
       "summary": "Synopsys has announced what it describes as the industry’s first complete Compute Express Link (CXL) 4.0 intellectual property suite. The portfolio combines a CXL controller, IDE security modules, a PCIe 7.0-based physical layer, and verification IP for system-on-chip designers b",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-08T16:28:31.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 9.9,
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "cxl",
@@ -116,7 +116,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -135,11 +135,28 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "nvme"
+      ]
+    },
+    {
+      "id": "sig-1bqc0ir",
+      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2608.07532",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
+      "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "language model",
+        "communication"
       ]
     },
     {
@@ -151,7 +168,7 @@
       "summary": "Lumilens has emerged from stealth with a portfolio of optical interconnect products targeting two networking constraints in large AI clusters: scale-out connectivity between racks and scale-up connectivity among GPUs within a compute domain. The company said it has begun shipping",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-10T17:05:24.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 8.7,
       "tags": [
         "hyperscaler",
@@ -159,18 +176,98 @@
       ]
     },
     {
-      "id": "sig-1bqbamg",
-      "title": "AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection",
-      "url": "https://arxiv.org/abs/2608.06790",
+      "id": "sig-1bqc3zl",
+      "title": "Verication-driven closed-loop multi-agent large language modelframework for code-compliant structural design",
+      "url": "https://arxiv.org/abs/2608.07978",
       "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2608.06790v1 Announce Type: new Abstract: Agent systems rely on LLM APIs for every response, but these APIs can return server errors, truncated responses, or corrupted content that propagates through downstream agents and causes task failure. Evaluating robustness under the",
-      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 8.4,
+      "summary": "arXiv:2608.07978v1 Announce Type: new Abstract: Multi-agent large language model(LLM)systems are applied to structural design,yet most use one-shot generation and cannot verify their output,leaving themill-suited to safety-critical tasks.Rather than trusting LLM self-correction,t",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
       "tags": [
-        "fault injection",
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bqcqn8",
+      "title": "Do Stack Overflow Answer Edits Occur Beyond Java? A Replication on Python and JavaScript",
+      "url": "https://arxiv.org/abs/2608.08361",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2608.08361v1 Announce Type: new Abstract: Stack Overflow answers are continually revised by the community, and the edits made to their code snippets are a potential source of improvements for code that has been reused in open-source projects. A recent empirical study establ",
+      "whyItMatters": "Touches python, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
+      "tags": [
+        "python",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1bqc1c6",
+      "title": "HINT: Toward an Executable Hardware-Intent Representation Layer for LLM-Driven RTL Generation",
+      "url": "https://arxiv.org/abs/2608.07625",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.07625v1 Announce Type: new Abstract: Generating implementation-quality RTL with large language models (LLMs) remains difficult because direct generation must resolve microarchitecture while simultaneously producing and debugging low-level code. We present HINT, an exec",
+      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-1bqc374",
+      "title": "Hybrid ASIC-FPAA Fabric for Performance Security Trade-off",
+      "url": "https://arxiv.org/abs/2608.07896",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2608.07896v1 Announce Type: new Abstract: In this paper, a hybrid architecture that combines an application specific integrated circuit (ASIC) and a field-programmable analog array (ASIC-FPAA) is proposed to address the performance-security trade-off in analog circuits. A p",
+      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
+      "tags": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1bqcrkd",
+      "title": "ReVolt: Power Delivery Network-Aware Voltage Droop Control for 2.5D PIM Chiplet Architectures",
+      "url": "https://arxiv.org/abs/2608.08496",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2608.08496v1 Announce Type: new Abstract: Processing-in-memory (PIM)-based 2.5D multi-chiplet platforms are enablers for machine learning (ML) workloads. However, their performance is affected by the power delivery network (PDN), where varying chiplet-level current demand i",
+      "whyItMatters": "Touches machine learning, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
+      "tags": [
+        "machine learning",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1bqdhic",
+      "title": "FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications",
+      "url": "https://arxiv.org/abs/2608.09252",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.09252v1 Announce Type: new Abstract: With the growing demand of artificial intelligence (AI) applications, large language models (LLMs) have become important workloads in many domains. The question of how to efficiently generate optimal AI chip accelerator designs rema",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 8,
+      "tags": [
+        "ai",
         "llm"
       ]
     },
@@ -183,8 +280,8 @@
       "summary": "Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login you already have. No OpenAI API key. · ★ 358",
       "whyItMatters": "Touches claude code, claude, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-09T06:57:08Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 7.7,
       "tags": [
         "claude code",
         "claude",
@@ -200,11 +297,27 @@
       "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-10T13:00:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 7.6,
       "tags": [
         "performance",
         "security"
+      ]
+    },
+    {
+      "id": "sig-q9381c",
+      "title": "SMNETSTUDIO/WeChat-AI (TypeScript) — trending new repo",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "★ 967",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-10T09:06:43Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -216,122 +329,10 @@
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the to",
       "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-08T22:36:03.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.6,
-      "tags": [
-        "claude code",
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-q9381c",
-      "title": "SMNETSTUDIO/WeChat-AI (TypeScript) — trending new repo",
-      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "★ 866",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T09:06:43Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
+      "fetchedAt": "2026-08-11T04:04:11.996Z",
       "score": 7.5,
       "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-17r497d",
-      "title": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
-      "url": "https://semiengineering.com/how-data-center-ai-can-keep-growing-despite-supply-chain-bottlenecks/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Efficiency is key for the next two to five years. But what happens when supply eventually catches up? The post How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T07:01:44.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1bqb8pq",
-      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
-      "url": "https://arxiv.org/abs/2608.06501",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. C",
-      "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-1bqbb9e",
-      "title": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "url": "https://arxiv.org/abs/2608.06811",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.06811v1 Announce Type: new Abstract: Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base m",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1bqbxz7",
-      "title": "Dual-Node NVIDIA DGX Spark over Tailscale: A Remote-Access Testbed for Distributed LLM Training and Cyber-Threat-Intelligence Fine-Tuning",
-      "url": "https://arxiv.org/abs/2608.07226",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.07226v1 Announce Type: new Abstract: Compact AI systems make local language-model experimentation increasingly accessible, yet practical evidence for multi-node training on desktop-class accelerators remains limited. This report presents a proof-of-concept deployment o",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1b24fbl",
-      "title": "Auto mode is now the default in Claude Code",
-      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://claude.com/blog/auto-mode-default-in-claude-code Comments URL: https://news.ycombinator.com/item?id=49239021 Points: 276 # Comments: 303",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T03:50:00.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.4,
-      "tags": [
         "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1vou3w2",
-      "title": "Quoting Claude Opus 5 system prompt",
-      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on ",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T23:31:39.000Z",
-      "fetchedAt": "2026-08-11T02:37:05.443Z",
-      "score": 7.2,
-      "tags": [
         "claude",
         "anthropic"
       ]
