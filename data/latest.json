@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:24:29.984Z",
+  "generatedAt": "2026-08-11T13:58:31.150Z",
   "signals": [
     {
       "id": "sig-hxgrm3",
@@ -10,7 +10,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 10,
       "tags": [
         "nand",
@@ -47,7 +47,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 10,
       "tags": [
         "nand",
@@ -64,8 +64,8 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 9.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 9.7,
       "tags": [
         "nand",
         "dram"
@@ -80,7 +80,7 @@
       "summary": "Synopsys has announced what it describes as the industry’s first complete Compute Express Link (CXL) 4.0 intellectual property suite. The portfolio combines a CXL controller, IDE security modules, a PCIe 7.0-based physical layer, and verification IP for system-on-chip designers b",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-08T16:28:31.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 9.6,
       "tags": [
         "pcie",
@@ -97,7 +97,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -116,11 +116,26 @@
       "summary": "At FMS 2026, we saw the gigantic DapuStor R6060, an E2 form factor NVMe SSD that packs 512TB of capacity per drive The post Gigantic DapuStor R6060 512TB E2 NVMe SSD Shown at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-05T17:32:05.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "nvme"
+      ]
+    },
+    {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 9,
+      "tags": [
+        "ssd"
       ]
     },
     {
@@ -132,8 +147,8 @@
       "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 8.8,
       "tags": [
         "semiconductor",
         "hbm",
@@ -149,8 +164,8 @@
       "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
       "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 8.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "language model",
@@ -166,11 +181,27 @@
       "summary": "Lumilens has emerged from stealth with a portfolio of optical interconnect products targeting two networking constraints in large AI clusters: scale-out connectivity between racks and scale-up connectivity among GPUs within a compute domain. The company said it has begun shipping",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-10T17:05:24.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 8.5,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 8.4,
       "tags": [
         "hyperscaler",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1xq6kvh",
+      "title": "How to organize Claude Code for product work",
+      "url": "https://www.theaithinker.com/p/how-to-organize-claude-code-for-product",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "24 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T11:02:34Z",
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -182,8 +213,8 @@
       "summary": "The most sophisticated AI algorithm in the world cannot compensate for fragmented data, absent governance, or siloed infrastructure. The post From Hype To Implementation: Building The Core Pillars For AI In Semiconductors appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T07:06:54.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor"
@@ -198,8 +229,8 @@
       "summary": "Monitoring critical process parameters and identifying variations before they impact device accuracy and long-term reliability. The post Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices appeared first on Semiconductor E",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-11T07:05:38.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.8,
       "tags": [
         "semiconductor",
         "reliability"
@@ -214,8 +245,8 @@
       "summary": "Heterogeneous integration does not simply increase complexity but redistributes where quality must be assured. The post AI Chiplet Architectures Redefining Test Insertions appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T07:02:51.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.9,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor"
@@ -230,8 +261,8 @@
       "summary": "arXiv:2608.07978v1 Announce Type: new Abstract: Multi-agent large language model(LLM)systems are applied to structural design,yet most use one-shot generation and cannot verify their output,leaving themill-suited to safety-critical tasks.Rather than trusting LLM self-correction,t",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -246,8 +277,8 @@
       "summary": "arXiv:2608.08361v1 Announce Type: new Abstract: Stack Overflow answers are continually revised by the community, and the edits made to their code snippets are a potential source of improvements for code that has been reused in open-source projects. A recent empirical study establ",
       "whyItMatters": "Touches python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.7,
       "tags": [
         "python",
         "javascript"
@@ -262,8 +293,8 @@
       "summary": "arXiv:2608.07625v1 Announce Type: new Abstract: Generating implementation-quality RTL with large language models (LLMs) remains difficult because direct generation must resolve microarchitecture while simultaneously producing and debugging low-level code. We present HINT, an exec",
       "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "debugging"
@@ -278,8 +309,8 @@
       "summary": "arXiv:2608.07896v1 Announce Type: new Abstract: In this paper, a hybrid architecture that combines an application specific integrated circuit (ASIC) and a field-programmable analog array (ASIC-FPAA) is proposed to address the performance-security trade-off in analog circuits. A p",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.7,
       "tags": [
         "performance",
         "security"
@@ -294,43 +325,11 @@
       "summary": "arXiv:2608.08496v1 Announce Type: new Abstract: Processing-in-memory (PIM)-based 2.5D multi-chiplet platforms are enablers for machine learning (ML) workloads. However, their performance is affected by the power delivery network (PDN), where varying chiplet-level current demand i",
       "whyItMatters": "Touches machine learning, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-11T13:58:31.150Z",
+      "score": 7.7,
       "tags": [
         "machine learning",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1bqdhic",
-      "title": "FSGen: Agile Fused and Sparse Accelerator Generator with Accurate Power Model for LLM Applications",
-      "url": "https://arxiv.org/abs/2608.09252",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.09252v1 Announce Type: new Abstract: With the growing demand of artificial intelligence (AI) applications, large language models (LLMs) have become important workloads in many domains. The question of how to efficiently generate optimal AI chip accelerator designs rema",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-j9hhbj",
-      "title": "How Claude marks AI-generated content",
-      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "216 points on Hacker News",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T21:36:56Z",
-      "fetchedAt": "2026-08-11T12:24:29.984Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "claude"
       ]
     }
   ]
