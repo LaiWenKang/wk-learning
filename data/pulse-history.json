@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T03:12:42.752Z",
+  "updatedAt": "2026-08-12T05:05:56.155Z",
   "signals": [
     {
       "id": "sig-hxgrm3",
@@ -10,7 +10,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,13 +28,30 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 10,
       "tags": [
         "nand",
         "cxl",
         "sk hynix",
         "ai",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-cetk0",
+      "title": "SK Hynix building new DRAM and NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-07T14:39:41.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "sk hynix",
         "dram"
       ]
     },
@@ -47,7 +64,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -66,11 +83,60 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 9.3,
       "tags": [
         "nand",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-1bqc0ir",
+      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2608.07532",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
+      "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "language model",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-1bqvzr4",
+      "title": "Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories",
+      "url": "https://arxiv.org/abs/2608.10319",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.10319v1 Announce Type: new Abstract: Large language model (LLM)-powered agents have rapidly evolved from code-completion tools into solvers of complex software engineering tasks. As developers collaborate with coding agents over time, their preferences emerge through r",
+      "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8.5,
+      "tags": [
+        "ssd"
       ]
     },
     {
@@ -82,7 +148,7 @@
       "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 8.4,
       "tags": [
         "semiconductor",
@@ -91,20 +157,83 @@
       ]
     },
     {
-      "id": "sig-1bqc0ir",
-      "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
-      "url": "https://arxiv.org/abs/2608.07532",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-1bqvy1h",
+      "title": "Exploring Semantic Stability Across Reviews in the Linux Kernel",
+      "url": "https://arxiv.org/abs/2608.10101",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2608.10101v1 Announce Type: new Abstract: Code review is credited with substantially changing a patch's code between its first submission and the version that eventually lands. However, prior work typically studied only the final merged patch without comparing it to the fir",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-1bqvz1c",
+      "title": "Enhancing Reliability of Symbolic Execution Tools for Smart Contract Analysis through Rule-Based False Positive Reduction",
+      "url": "https://arxiv.org/abs/2608.10265",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2608.10265v1 Announce Type: new Abstract: A blockchain is a decentralized, secure ledger system that enables transparent and immutable record-keeping, essential for trust and security in digital transactions. Smart contracts are self-executing agreements encoded on a blockc",
+      "whyItMatters": "Touches reliability, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
+      "tags": [
+        "reliability",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1bqvz3y",
+      "title": "Comprendia: AI-Augmented Code Comprehension",
+      "url": "https://arxiv.org/abs/2608.10290",
+      "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
-      "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
-      "score": 8.4,
+      "summary": "arXiv:2608.10290v1 Announce Type: new Abstract: Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-typ",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
       "tags": [
         "ai",
-        "language model",
-        "communication"
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bqw29p",
+      "title": "CausalRepair: Bridging the Causality Gap in Large Language Model-Based Automated Program Repair via Dual-Slicing",
+      "url": "https://arxiv.org/abs/2608.10613",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.10613v1 Announce Type: new Abstract: Automated Program Repair (APR) has recently benefited from Large Language Models (LLMs), yet their effectiveness heavily depends on repair context. Existing LLM-based APR methods suffer from a causality gap: test contexts can be noi",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bqwpwf",
+      "title": "On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization",
+      "url": "https://arxiv.org/abs/2608.11155",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "finance",
+      "summary": "arXiv:2608.11155v1 Announce Type: new Abstract: Homomorphic Encryption (HE) enables computation on encrypted data without decryption and is a key primitive for privacy-preserving computation in sensitive domains such as healthcare, finance, and government. Its security relies on ",
+      "whyItMatters": "Touches finance, security — relevant to long-term personal finance thinking.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
+      "tags": [
+        "finance",
+        "security"
       ]
     },
     {
@@ -116,8 +245,8 @@
       "summary": "Lumilens has emerged from stealth with a portfolio of optical interconnect products targeting two networking constraints in large AI clusters: scale-out connectivity between racks and scale-up connectivity among GPUs within a compute domain. The company said it has begun shipping",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-10T17:05:24.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
-      "score": 8.1,
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 8,
       "tags": [
         "hyperscaler",
         "ai"
@@ -129,10 +258,10 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "296 points on Hacker News",
+      "summary": "311 points on Hacker News",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T16:57:09Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -145,11 +274,11 @@
       "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 288 # Comments: 43",
+      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 289 # Comments: 43",
       "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T14:50:33.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "github"
@@ -161,11 +290,11 @@
       "url": "https://github.com/shadcn-ui/chatbot-template",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway. · ★ 441",
+      "summary": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway. · ★ 463",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T11:53:02Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "typescript"
@@ -180,7 +309,7 @@
       "summary": "The most sophisticated AI algorithm in the world cannot compensate for fragmented data, absent governance, or siloed infrastructure. The post From Hype To Implementation: Building The Core Pillars For AI In Semiconductors appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T07:06:54.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -196,7 +325,7 @@
       "summary": "Monitoring critical process parameters and identifying variations before they impact device accuracy and long-term reliability. The post Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices appeared first on Semiconductor E",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-11T07:05:38.000Z",
-      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "fetchedAt": "2026-08-12T05:05:56.155Z",
       "score": 7.4,
       "tags": [
         "semiconductor",
@@ -328,38 +457,6 @@
       "score": 7.2,
       "tags": [
         "gen5"
-      ]
-    },
-    {
-      "id": "sig-cetk0",
-      "title": "SK Hynix building new DRAM and NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "sk hynix",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 8.7,
-      "tags": [
-        "ssd"
       ]
     },
     {
