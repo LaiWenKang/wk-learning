@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T00:44:33.601Z",
+  "generatedAt": "2026-08-12T03:12:42.752Z",
   "signals": [
     {
       "id": "sig-hxgrm3",
@@ -10,7 +10,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,30 +28,13 @@
       "summary": "SK hynix used Future of Memory and Storage 2026, held August 4 to 6 at the Santa Clara Convention Center, to showcase a comprehensive “full-stack” AI memory portfolio spanning HBM, server DRAM, NAND, and CXL expansion. The company’s presence centered on the transition toward agen",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-09T21:06:28.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 10,
       "tags": [
         "nand",
         "cxl",
         "sk hynix",
         "ai",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-cetk0",
-      "title": "SK Hynix building new DRAM and NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "sk hynix",
         "dram"
       ]
     },
@@ -64,7 +47,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -83,26 +66,11 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 9.4,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 9.3,
       "tags": [
         "nand",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 8.7,
-      "tags": [
-        "ssd"
       ]
     },
     {
@@ -114,8 +82,8 @@
       "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 8.5,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 8.4,
       "tags": [
         "semiconductor",
         "hbm",
@@ -131,7 +99,7 @@
       "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
       "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 8.4,
       "tags": [
         "ai",
@@ -148,7 +116,7 @@
       "summary": "Lumilens has emerged from stealth with a portfolio of optical interconnect products targeting two networking constraints in large AI clusters: scale-out connectivity between racks and scale-up connectivity among GPUs within a compute domain. The company said it has begun shipping",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-10T17:05:24.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 8.1,
       "tags": [
         "hyperscaler",
@@ -161,14 +129,46 @@
       "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "240 points on Hacker News",
+      "summary": "296 points on Hacker News",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T16:57:09Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "software engineering"
+      ]
+    },
+    {
+      "id": "sig-6v33xi",
+      "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 288 # Comments: 43",
+      "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T14:50:33.000Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1sqnwx4",
+      "title": "shadcn-ui/chatbot-template (TypeScript) — trending new repo",
+      "url": "https://github.com/shadcn-ui/chatbot-template",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway. · ★ 441",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T11:53:02Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -180,8 +180,8 @@
       "summary": "The most sophisticated AI algorithm in the world cannot compensate for fragmented data, absent governance, or siloed infrastructure. The post From Hype To Implementation: Building The Core Pillars For AI In Semiconductors appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T07:06:54.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -196,8 +196,8 @@
       "summary": "Monitoring critical process parameters and identifying variations before they impact device accuracy and long-term reliability. The post Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices appeared first on Semiconductor E",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-11T07:05:38.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "reliability"
@@ -212,8 +212,8 @@
       "summary": "Heterogeneous integration does not simply increase complexity but redistributes where quality must be assured. The post AI Chiplet Architectures Redefining Test Insertions appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T07:02:51.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 7.5,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -228,7 +228,7 @@
       "summary": "arXiv:2608.07978v1 Announce Type: new Abstract: Multi-agent large language model(LLM)systems are applied to structural design,yet most use one-shot generation and cannot verify their output,leaving themill-suited to safety-critical tasks.Rather than trusting LLM self-correction,t",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "llm",
@@ -244,7 +244,7 @@
       "summary": "arXiv:2608.08361v1 Announce Type: new Abstract: Stack Overflow answers are continually revised by the community, and the edits made to their code snippets are a potential source of improvements for code that has been reused in open-source projects. A recent empirical study establ",
       "whyItMatters": "Touches python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "python",
@@ -260,7 +260,7 @@
       "summary": "arXiv:2608.07625v1 Announce Type: new Abstract: Generating implementation-quality RTL with large language models (LLMs) remains difficult because direct generation must resolve microarchitecture while simultaneously producing and debugging low-level code. We present HINT, an exec",
       "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "llm",
@@ -276,7 +276,7 @@
       "summary": "arXiv:2608.07896v1 Announce Type: new Abstract: In this paper, a hybrid architecture that combines an application specific integrated circuit (ASIC) and a field-programmable analog array (ASIC-FPAA) is proposed to address the performance-security trade-off in analog circuits. A p",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "performance",
@@ -292,7 +292,7 @@
       "summary": "arXiv:2608.08496v1 Announce Type: new Abstract: Processing-in-memory (PIM)-based 2.5D multi-chiplet platforms are enablers for machine learning (ML) workloads. However, their performance is affected by the power delivery network (PDN), where varying chiplet-level current demand i",
       "whyItMatters": "Touches machine learning, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "machine learning",
@@ -308,7 +308,7 @@
       "summary": "arXiv:2608.09252v1 Announce Type: new Abstract: With the growing demand of artificial intelligence (AI) applications, large language models (LLMs) have become important workloads in many domains. The question of how to efficiently generate optimal AI chip accelerator designs rema",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
       "score": 7.4,
       "tags": [
         "ai",
@@ -324,8 +324,8 @@
       "summary": "The Dell Pro Precision 5 16s Intel is a 16-inch mobile workstation built for users who want more screen space while keeping the system reasonably portable. Our review unit pairs the Core Ultra X9 388H with Intel Arc Pro B390 graphics, 64GB of LPCAMM2-8533 memory, and a 1TB Gen5 S",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-11T16:39:59.000Z",
-      "fetchedAt": "2026-08-12T00:44:33.601Z",
-      "score": 7.3,
+      "fetchedAt": "2026-08-12T03:12:42.752Z",
+      "score": 7.2,
       "tags": [
         "gen5"
       ]
