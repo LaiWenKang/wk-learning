@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T19:13:13.245Z",
+  "updatedAt": "2026-08-12T20:05:35.712Z",
   "signals": [
     {
       "id": "sig-e7ur2o",
@@ -10,7 +10,7 @@
       "summary": "DapuStor used FMS 2026 to show what it calls an industry-first 512TB SSD: a new top capacity for the R6060 PCIe 5.0 QLC line that doubles the company’s previous 245TB design and puts a full petabyte of flash in just two drives. The drive was demonstrated on the show floor through",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-12T13:52:18.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,7 +44,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -62,7 +62,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 10,
       "tags": [
         "nand",
@@ -79,7 +79,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -98,7 +98,7 @@
       "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-12T18:40:29.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 9,
       "tags": [
         "pcie",
@@ -114,7 +114,7 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8.9,
       "tags": [
         "nand",
@@ -130,7 +130,7 @@
       "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
       "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8.6,
       "tags": [
         "ai",
@@ -147,7 +147,7 @@
       "summary": "arXiv:2608.10319v1 Announce Type: new Abstract: Large language model (LLM)-powered agents have rapidly evolved from code-completion tools into solvers of complex software engineering tasks. As developers collaborate with coding agents over time, their preferences emerge through r",
       "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8.6,
       "tags": [
         "llm",
@@ -164,7 +164,7 @@
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
       "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T22:40:45.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8.4,
       "tags": [
         "anthropic",
@@ -181,26 +181,10 @@
       "summary": "",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8.1,
       "tags": [
         "ssd"
-      ]
-    },
-    {
-      "id": "sig-74fqq9",
-      "title": "Your contributors are AI-first now. Is your project?",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-12T18:00:08.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "github"
       ]
     },
     {
@@ -212,7 +196,7 @@
       "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 8,
       "tags": [
         "semiconductor",
@@ -221,15 +205,31 @@
       ]
     },
     {
+      "id": "sig-74fqq9",
+      "title": "Your contributors are AI-first now. Is your project?",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
       "id": "sig-lxcwig",
       "title": "AI is removing the middle class of software engineering",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "494 points on Hacker News",
+      "summary": "540 points on Hacker News",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T13:20:05Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -245,8 +245,8 @@
       "summary": "Early multiphysics; high-speed M-PHY; STCO for 3D-ICs; what EDA needs for AI; workload optimization. The post Blog Review: Aug. 12 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T07:01:47.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -261,8 +261,8 @@
       "summary": "112G PHY IP for linear optics to reduce power, latency and thermal load for high-speed data movement in AI and data center systems. The post Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T07:01:40.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
-      "score": 7.7,
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -277,7 +277,7 @@
       "summary": "arXiv:2608.10101v1 Announce Type: new Abstract: Code review is credited with substantially changing a patch's code between its first submission and the version that eventually lands. However, prior work typically studied only the final merged patch without comparing it to the fir",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 7.6,
       "tags": [
         "linux",
@@ -293,7 +293,7 @@
       "summary": "arXiv:2608.10265v1 Announce Type: new Abstract: A blockchain is a decentralized, secure ledger system that enables transparent and immutable record-keeping, essential for trust and security in digital transactions. Smart contracts are self-executing agreements encoded on a blockc",
       "whyItMatters": "Touches reliability, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 7.6,
       "tags": [
         "reliability",
@@ -309,7 +309,7 @@
       "summary": "arXiv:2608.10290v1 Announce Type: new Abstract: Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-typ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -325,7 +325,7 @@
       "summary": "arXiv:2608.10613v1 Announce Type: new Abstract: Automated Program Repair (APR) has recently benefited from Large Language Models (LLMs), yet their effectiveness heavily depends on repair context. Existing LLM-based APR methods suffer from a causality gap: test contexts can be noi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T19:13:13.245Z",
+      "fetchedAt": "2026-08-12T20:05:35.712Z",
       "score": 7.6,
       "tags": [
         "llm",
