@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:05:35.712Z",
+  "generatedAt": "2026-08-12T20:57:38.946Z",
   "signals": [
     {
       "id": "sig-e7ur2o",
@@ -10,29 +10,12 @@
       "summary": "DapuStor used FMS 2026 to show what it calls an industry-first 512TB SSD: a new top capacity for the R6060 PCIe 5.0 QLC line that doubles the company’s previous 245TB design and puts a full petabyte of flash in just two drives. The drive was demonstrated on the show floor through",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-12T13:52:18.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 10,
       "tags": [
         "ssd",
         "qlc",
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -44,30 +27,13 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 10,
       "tags": [
         "ssd",
         "gen6",
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-cetk0",
-      "title": "SK Hynix building new DRAM and NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "sk hynix",
-        "dram"
       ]
     },
     {
@@ -79,7 +45,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -98,8 +64,8 @@
       "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-12T18:40:29.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 9,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 8.9,
       "tags": [
         "pcie",
         "ai"
@@ -114,8 +80,8 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 8.9,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 8.8,
       "tags": [
         "nand",
         "dram"
@@ -130,8 +96,8 @@
       "summary": "arXiv:2608.07532v1 Announce Type: new Abstract: Modern agentic AI systems combine multiple large language model agents with heterogeneous skills, yet most architectures either fix communication in advance or allow full broadcast. Both can be inefficient because token cost, latenc",
       "whyItMatters": "Touches ai, language model, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "language model",
@@ -147,8 +113,8 @@
       "summary": "arXiv:2608.10319v1 Announce Type: new Abstract: Large language model (LLM)-powered agents have rapidly evolved from code-completion tools into solvers of complex software engineering tasks. As developers collaborate with coding agents over time, their preferences emerge through r",
       "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 8.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "language model",
@@ -164,44 +130,12 @@
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
       "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T22:40:45.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 8.4,
       "tags": [
         "anthropic",
         "openai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 8.1,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-1wfq2zb",
-      "title": "HBM Becomes Testbed For 3D Assembly Yield",
-      "url": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 8,
-      "tags": [
-        "semiconductor",
-        "hbm",
-        "reliability"
       ]
     },
     {
@@ -213,7 +147,7 @@
       "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T18:00:08.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -221,15 +155,32 @@
       ]
     },
     {
+      "id": "sig-1wfq2zb",
+      "title": "HBM Becomes Testbed For 3D Assembly Yield",
+      "url": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-11T07:05:17.000Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.9,
+      "tags": [
+        "semiconductor",
+        "hbm",
+        "reliability"
+      ]
+    },
+    {
       "id": "sig-lxcwig",
-      "title": "AI is removing the middle class of software engineering",
+      "title": "AI is removing the middle class of software engineering?",
       "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "540 points on Hacker News",
+      "summary": "594 points on Hacker News",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T13:20:05Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -245,7 +196,7 @@
       "summary": "Early multiphysics; high-speed M-PHY; STCO for 3D-ICs; what EDA needs for AI; workload optimization. The post Blog Review: Aug. 12 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T07:01:47.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -261,11 +212,27 @@
       "summary": "112G PHY IP for linear optics to reduce power, latency and thermal load for high-speed data movement in AI and data center systems. The post Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T07:01:40.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
       "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1ar7bua",
+      "title": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
+      "url": "https://www.storagereview.com/news/lumilens-exits-stealth-with-700m-and-ai-optics-already-shipping-to-a-hyperscaler",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Lumilens has emerged from stealth with a portfolio of optical interconnect products targeting two networking constraints in large AI clusters: scale-out connectivity between racks and scale-up connectivity among GPUs within a compute domain. The company said it has begun shipping",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-08-10T17:05:24.000Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.6,
+      "tags": [
+        "hyperscaler",
+        "ai"
       ]
     },
     {
@@ -277,8 +244,8 @@
       "summary": "arXiv:2608.10101v1 Announce Type: new Abstract: Code review is credited with substantially changing a patch's code between its first submission and the version that eventually lands. However, prior work typically studied only the final merged patch without comparing it to the fir",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.5,
       "tags": [
         "linux",
         "kernel"
@@ -293,8 +260,8 @@
       "summary": "arXiv:2608.10265v1 Announce Type: new Abstract: A blockchain is a decentralized, secure ledger system that enables transparent and immutable record-keeping, essential for trust and security in digital transactions. Smart contracts are self-executing agreements encoded on a blockc",
       "whyItMatters": "Touches reliability, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.5,
       "tags": [
         "reliability",
         "security"
@@ -309,8 +276,8 @@
       "summary": "arXiv:2608.10290v1 Announce Type: new Abstract: Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-typ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "llm"
@@ -325,11 +292,43 @@
       "summary": "arXiv:2608.10613v1 Announce Type: new Abstract: Automated Program Repair (APR) has recently benefited from Large Language Models (LLMs), yet their effectiveness heavily depends on repair context. Existing LLM-based APR methods suffer from a causality gap: test contexts can be noi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T20:05:35.712Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-1bqwpwf",
+      "title": "On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization",
+      "url": "https://arxiv.org/abs/2608.11155",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "finance",
+      "summary": "arXiv:2608.11155v1 Announce Type: new Abstract: Homomorphic Encryption (HE) enables computation on encrypted data without decryption and is a key primitive for privacy-preserving computation in sensitive domains such as healthcare, finance, and government. Its security relies on ",
+      "whyItMatters": "Touches finance, security — relevant to long-term personal finance thinking.",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.5,
+      "tags": [
+        "finance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1atj9v7",
+      "title": "guillaumemeyer/watermarks-remover (Python) — trending new repo",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD · ★ 1888",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T16:32:38Z",
+      "fetchedAt": "2026-08-12T20:57:38.946Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "python"
       ]
     }
   ]
