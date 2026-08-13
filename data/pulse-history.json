@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-08-13T15:04:56.624Z",
+  "updatedAt": "2026-08-13T16:05:09.548Z",
   "signals": [
+    {
+      "id": "sig-1ktkflt",
+      "title": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
+      "url": "https://www.storagereview.com/news/silicon-motion-montitan-rdk-targets-agentic-ai-storage-with-next-gen-performashape-and-pcie-6-0-support",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "At FMS 2026, Silicon Motion introduced the MonTitan SSD Reference Design Kit (RDK), a platform built around the company’s next-generation PerformaShape technology. The design targets Agentic AI infrastructure, where enterprise SSDs can provide a persistent memory layer for KV cac",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-13T15:53:44.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "pcie",
+        "silicon motion",
+        "ai",
+        "storage"
+      ]
+    },
     {
       "id": "sig-1bqwu4o",
       "title": "A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving",
@@ -10,7 +29,7 @@
       "summary": "arXiv:2608.11668v1 Announce Type: new Abstract: High-Bandwidth Flash (HBF) stacks NAND behind a wide, package-local interface, giving flash-scale capacity with far better read latency and bandwidth than an SSD. This makes it tempting to keep an SSD-style Mooncake KV-offloading st",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +46,7 @@
       "summary": "arXiv:2608.11920v1 Announce Type: new Abstract: In-storage computing (ISC) is considered a next-generation memory architecture for its ability to relieve the data bottleneck between the host and the memory. While the required resources of large language models (LLMs) have increas",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 10,
       "tags": [
         "nand",
@@ -45,12 +64,29 @@
       "summary": "DapuStor used FMS 2026 to show what it calls an industry-first 512TB SSD: a new top capacity for the R6060 PCIe 5.0 QLC line that doubles the company’s previous 245TB design and puts a full petabyte of flash in just two drives. The drive was demonstrated on the show floor through",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-12T13:52:18.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 10,
       "tags": [
         "ssd",
         "qlc",
         "pcie"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -62,7 +98,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -80,7 +116,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -88,6 +124,23 @@
         "pcie",
         "gen6",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "github",
+        "security"
       ]
     },
     {
@@ -99,7 +152,7 @@
       "summary": "arXiv:2608.11513v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software engineering workflows, helping developers write, debug, test, and maintain code. While prompt wording and structure are known to influence model performance, the",
       "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 8.7,
       "tags": [
         "llm",
@@ -116,7 +169,7 @@
       "summary": "arXiv:2608.11965v1 Announce Type: new Abstract: The proliferation of Generative Artificial Intelligence (Gen AI) powered by large language models (LLMs) has transformed the software development process, introducing new paradigms for code generation, debugging, testing, and mainte",
       "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 8.7,
       "tags": [
         "ai",
@@ -134,12 +187,157 @@
       "summary": "arXiv:2608.12004v1 Announce Type: new Abstract: In modern AI frameworks, GPU kernels are key to overall system performance. Combining usability, portability, and near-handwritten CUDA performance, Triton is widely adopted for implementing GPU kernels. Recent advances show the pot",
       "whyItMatters": "Touches ai, kernel, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
       "score": 8.7,
       "tags": [
         "ai",
         "kernel",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-4bl0fp",
+      "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
+      "url": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-12T18:40:29.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 8.4,
+      "tags": [
+        "pcie",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1ibs9p1",
+      "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
+      "url": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T07:11:36.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1lnpzx1",
+      "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
+      "url": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-13T07:08:19.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.8,
+      "tags": [
+        "semiconductor",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1ye1vsz",
+      "title": "Is Pergrammable A Word?",
+      "url": "https://semiengineering.com/is-pergrammable-a-word/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "SoC architects need AI silicon that is both highly efficient and fully programmable. The post Is Pergrammable A Word? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T07:05:36.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-hb7r9l",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T22:40:45.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.8,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-pkk8hd",
+      "title": "Linear Optics And The Push To Scale AI Interconnects",
+      "url": "https://semiengineering.com/linear-optics-and-the-push-to-scale-ai-interconnects/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Move signal processing back onto the host SerDes to reduce system power, latency, and thermal load. The post Linear Optics And The Push To Scale AI Interconnects appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T07:03:53.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1bcilfe",
+      "title": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
+      "url": "https://semiengineering.com/from-tokens-to-tasks-why-agentic-ai-changes-the-infrastructure-conversation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI moves from answering prompts to completing work, infrastructure has to optimize the full workflow around the model. The post From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T07:02:34.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1bqwqn0",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the co",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bqwqny",
+      "title": "Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet",
+      "url": "https://arxiv.org/abs/2608.11226",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and re",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T16:05:09.548Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -156,151 +354,6 @@
       "tags": [
         "nand",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-4bl0fp",
-      "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
-      "url": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-12T18:40:29.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 8.4,
-      "tags": [
-        "pcie",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-hb7r9l",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-11T22:40:45.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.9,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1ibs9p1",
-      "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
-      "url": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T07:11:36.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1lnpzx1",
-      "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
-      "url": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-13T07:08:19.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.8,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1ye1vsz",
-      "title": "Is Pergrammable A Word?",
-      "url": "https://semiengineering.com/is-pergrammable-a-word/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "SoC architects need AI silicon that is both highly efficient and fully programmable. The post Is Pergrammable A Word? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T07:05:36.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-pkk8hd",
-      "title": "Linear Optics And The Push To Scale AI Interconnects",
-      "url": "https://semiengineering.com/linear-optics-and-the-push-to-scale-ai-interconnects/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Move signal processing back onto the host SerDes to reduce system power, latency, and thermal load. The post Linear Optics And The Push To Scale AI Interconnects appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T07:03:53.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1bcilfe",
-      "title": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
-      "url": "https://semiengineering.com/from-tokens-to-tasks-why-agentic-ai-changes-the-infrastructure-conversation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI moves from answering prompts to completing work, infrastructure has to optimize the full workflow around the model. The post From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T07:02:34.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1bqwqn0",
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "url": "https://arxiv.org/abs/2608.11215",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the co",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.7,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1bqwqny",
-      "title": "Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet",
-      "url": "https://arxiv.org/abs/2608.11226",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and re",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T15:04:56.624Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "llm"
       ]
     },
     {
@@ -333,23 +386,6 @@
       "tags": [
         "github",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
