@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T14:00:41.077Z",
+  "updatedAt": "2026-08-13T15:04:56.624Z",
   "signals": [
     {
       "id": "sig-1bqwu4o",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2608.11668v1 Announce Type: new Abstract: High-Bandwidth Flash (HBF) stacks NAND behind a wide, package-local interface, giving flash-scale capacity with far better read latency and bandwidth than an SSD. This makes it tempting to keep an SSD-style Mooncake KV-offloading st",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2608.11920v1 Announce Type: new Abstract: In-storage computing (ISC) is considered a next-generation memory architecture for its ability to relieve the data bottleneck between the host and the memory. While the required resources of large language models (LLMs) have increas",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 10,
       "tags": [
         "nand",
@@ -45,29 +45,12 @@
       "summary": "DapuStor used FMS 2026 to show what it calls an industry-first 512TB SSD: a new top capacity for the R6060 PCIe 5.0 QLC line that doubles the company’s previous 245TB design and puts a full petabyte of flash in just two drives. The drive was demonstrated on the show floor through",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-12T13:52:18.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 10,
       "tags": [
         "ssd",
         "qlc",
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -79,7 +62,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -97,7 +80,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -116,7 +99,7 @@
       "summary": "arXiv:2608.11513v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software engineering workflows, helping developers write, debug, test, and maintain code. While prompt wording and structure are known to influence model performance, the",
       "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 8.7,
       "tags": [
         "llm",
@@ -133,7 +116,7 @@
       "summary": "arXiv:2608.11965v1 Announce Type: new Abstract: The proliferation of Generative Artificial Intelligence (Gen AI) powered by large language models (LLMs) has transformed the software development process, introducing new paradigms for code generation, debugging, testing, and mainte",
       "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 8.7,
       "tags": [
         "ai",
@@ -151,28 +134,12 @@
       "summary": "arXiv:2608.12004v1 Announce Type: new Abstract: In modern AI frameworks, GPU kernels are key to overall system performance. Combining usability, portability, and near-handwritten CUDA performance, Triton is widely adopted for implementing GPU kernels. Recent advances show the pot",
       "whyItMatters": "Touches ai, kernel, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 8.7,
       "tags": [
         "ai",
         "kernel",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-4bl0fp",
-      "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
-      "url": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-12T18:40:29.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
-      "score": 8.5,
-      "tags": [
-        "pcie",
-        "ai"
       ]
     },
     {
@@ -184,11 +151,27 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 8.5,
       "tags": [
         "nand",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-4bl0fp",
+      "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
+      "url": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-12T18:40:29.000Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "score": 8.4,
+      "tags": [
+        "pcie",
+        "ai"
       ]
     },
     {
@@ -200,7 +183,7 @@
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
       "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-11T22:40:45.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.9,
       "tags": [
         "anthropic",
@@ -217,7 +200,7 @@
       "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:11:36.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -233,7 +216,7 @@
       "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-13T07:08:19.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.8,
       "tags": [
         "semiconductor",
@@ -249,7 +232,7 @@
       "summary": "SoC architects need AI silicon that is both highly efficient and fully programmable. The post Is Pergrammable A Word? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:05:36.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -265,7 +248,7 @@
       "summary": "Move signal processing back onto the host SerDes to reduce system power, latency, and thermal load. The post Linear Optics And The Push To Scale AI Interconnects appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:03:53.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -281,7 +264,7 @@
       "summary": "As AI moves from answering prompts to completing work, infrastructure has to optimize the full workflow around the model. The post From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:02:34.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -297,7 +280,7 @@
       "summary": "arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the co",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.7,
       "tags": [
         "llm",
@@ -313,7 +296,7 @@
       "summary": "arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and re",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.7,
       "tags": [
         "ai",
@@ -329,11 +312,44 @@
       "summary": "arXiv:2608.11744v1 Announce Type: new Abstract: Python libraries underpin deep learning, scientific computing, data analysis, and computer vision, making their reliability critical to downstream applications. Testing their APIs requires inputs that satisfy both per-parameter cons",
       "whyItMatters": "Touches python, reliability — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T04:00:00.000Z",
-      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
       "score": 7.7,
       "tags": [
         "python",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-w2mjox",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-12T22:17:32.000Z",
+      "fetchedAt": "2026-08-13T15:04:56.624Z",
+      "score": 7.5,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-13T14:00:41.077Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -384,22 +400,6 @@
       "tags": [
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-w2mjox",
-      "title": "GitHub availability report: July 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-12T22:17:32.000Z",
-      "fetchedAt": "2026-08-13T06:21:29.966Z",
-      "score": 7.8,
-      "tags": [
-        "github",
-        "performance"
       ]
     },
     {
@@ -2407,62 +2407,6 @@
       "tags": [
         "ai",
         "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1039tsg",
-      "title": "Samsung Outlines 3D Memory Roadmap for AI Infrastructure at FMS 2026",
-      "url": "https://www.storagereview.com/news/samsung-outlines-3d-memory-roadmap-for-ai-infrastructure-at-fms-2026",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Samsung used the Future of Memory and Storage (FMS) 2026 conference to present its latest memory and storage technologies for artificial intelligence and high-performance computing. The company highlighted developments in DRAM, NAND, enterprise storage, advanced packaging, and se",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-04T19:30:31.000Z",
-      "fetchedAt": "2026-08-06T14:37:02.500Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "ai",
-        "dram",
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-19ace8t",
-      "title": "PCIe Gen6 and Gen5 Will Both Matter for AI Storage",
-      "url": "https://www.servethehome.com/pcie-gen6-and-gen5-will-both-matter-for-ai-storage/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "We discuss why both PCIe Gen5 and PCIe Gen6 will both matter for AI storage as the industry builds at an incredible pace The post PCIe Gen6 and Gen5 Will Both Matter for AI Storage appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-01T02:00:19.000Z",
-      "fetchedAt": "2026-08-06T14:37:02.500Z",
-      "score": 10,
-      "tags": [
-        "pcie",
-        "gen5",
-        "gen6",
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1vx4nn7",
-      "title": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
-      "url": "https://www.storagereview.com/news/kioxia-gp1-series-hits-10-million-random-read-iops-on-xl-flash-gen-2",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "KIOXIA has introduced the GP1 Series PCIe 6.0 NVMe SSD, the first product in its GP Series of Super High IOPS drives optimized for GPU direct access. KIOXIA describes it as building on the GP Series technology it introduced in March, now realized in shipping silicon. Built around",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-08-03T17:10:51.000Z",
-      "fetchedAt": "2026-08-06T14:37:02.500Z",
-      "score": 9.6,
-      "tags": [
-        "ssd",
-        "nvme",
-        "pcie",
-        "kioxia"
       ]
     }
   ]
