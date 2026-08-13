@@ -1,6 +1,41 @@
 {
-  "updatedAt": "2026-08-13T03:01:07.077Z",
+  "updatedAt": "2026-08-13T04:58:57.326Z",
   "signals": [
+    {
+      "id": "sig-1bqwu4o",
+      "title": "A Full-Stack Characterization of High-Bandwidth Flash for KV-Centric LLM Serving",
+      "url": "https://arxiv.org/abs/2608.11668",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.11668v1 Announce Type: new Abstract: High-Bandwidth Flash (HBF) stacks NAND behind a wide, package-local interface, giving flash-scale capacity with far better read latency and bandwidth than an SSD. This makes it tempting to keep an SSD-style Mooncake KV-offloading st",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "nand",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bqwwjj",
+      "title": "NITRO: High-Performance 3D NAND Flash-Based In-Storage Computing with Enhanced Activation Dataflow",
+      "url": "https://arxiv.org/abs/2608.11920",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2608.11920v1 Announce Type: new Abstract: In-storage computing (ISC) is considered a next-generation memory architecture for its ability to relieve the data bottleneck between the host and the memory. While the required resources of large language models (LLMs) have increas",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "3d nand",
+        "storage",
+        "performance"
+      ]
+    },
     {
       "id": "sig-e7ur2o",
       "title": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
@@ -10,7 +45,7 @@
       "summary": "DapuStor used FMS 2026 to show what it calls an industry-first 512TB SSD: a new top capacity for the R6060 PCIe 5.0 QLC line that doubles the company’s previous 245TB design and puts a full petabyte of flash in just two drives. The drive was demonstrated on the show floor through",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-08-12T13:52:18.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +62,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,7 +79,7 @@
       "summary": "Smart IOPS and H3 Platform have announced an AI compute storage platform targeting up to one billion random-read IOPS. The proposed system combines Smart IOPS’ Unobtanium T50 solid-state devices with an air-cooled H3 Platform appliance designed around NVIDIA accelerated computing",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-10T15:58:53.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -62,7 +97,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-07T14:39:41.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
       "score": 10,
       "tags": [
         "nand",
@@ -79,7 +114,7 @@
       "summary": "At FMS 2026, we saw the Kioxia GP1 PCIe Gen6 NVMe SSD running live in the company's booth at just over 10M IOPS The post A 10M IOPS Kioxia GP1 SSD Shown Running at FMS 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-07T19:00:09.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -87,6 +122,58 @@
         "pcie",
         "gen6",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1bqwt5p",
+      "title": "Do Influence Tactics Matter? Investigating Prompt Framing Effects in LLM Code Generation",
+      "url": "https://arxiv.org/abs/2608.11513",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11513v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software engineering workflows, helping developers write, debug, test, and maintain code. While prompt wording and structure are known to influence model performance, the",
+      "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "software engineering",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1bqwwnc",
+      "title": "Developing LLM-based Multi-Agent Systems in Software Engineering: A Mixed-Method Experience Report",
+      "url": "https://arxiv.org/abs/2608.11965",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11965v1 Announce Type: new Abstract: The proliferation of Generative Artificial Intelligence (Gen AI) powered by large language models (LLMs) has transformed the software development process, introducing new paradigms for code generation, debugging, testing, and mainte",
+      "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "llm",
+        "software engineering",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-1bqxgnt",
+      "title": "RealisticTritonBench: A Benchmark for Triton-Kernel Generation in Real-World AI Frameworks",
+      "url": "https://arxiv.org/abs/2608.12004",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2608.12004v1 Announce Type: new Abstract: In modern AI frameworks, GPU kernels are key to overall system performance. Combining usability, portability, and near-handwritten CUDA performance, Triton is widely adopted for implementing GPU kernels. Recent advances show the pot",
+      "whyItMatters": "Touches ai, kernel, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "kernel",
+        "performance"
       ]
     },
     {
@@ -98,8 +185,8 @@
       "summary": "In late July, Liqid unveiled a scale-up AI platform built around AMD Instinct MI350P PCIe GPUs. The UltraStack 30 pairs Liqid’s composable GPU pooling technology with AMD accelerators to address enterprise and cloud AI inference deployments that need to scale beyond the accelerat",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-12T18:40:29.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 8.8,
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8.7,
       "tags": [
         "pcie",
         "ai"
@@ -114,11 +201,140 @@
       "summary": "Netlist and Samsung have signed a five-year set of agreements covering patent cross-licensing, DRAM and NAND supply, technology cooperation, and the settlement of all pending litigation between the companies. “We’re excited to renew this partnership and look forward to working cl",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-10T09:32:09.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8.6,
       "tags": [
         "nand",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-hb7r9l",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-11T22:40:45.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8.2,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bqwqn0",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the co",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bqwqny",
+      "title": "Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet",
+      "url": "https://arxiv.org/abs/2608.11226",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and re",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1bqwuwz",
+      "title": "Harnessing LLMs for Document-Guided Fuzzing of Python Libraries",
+      "url": "https://arxiv.org/abs/2608.11744",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2608.11744v1 Announce Type: new Abstract: Python libraries underpin deep learning, scientific computing, data analysis, and computer vision, making their reliability critical to downstream applications. Testing their APIs requires inputs that satisfy both per-parameter cons",
+      "whyItMatters": "Touches python, reliability — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 8,
+      "tags": [
+        "python",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 7.9,
+      "tags": [
+        "ssd"
+      ]
+    },
+    {
+      "id": "sig-w2mjox",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-12T22:17:32.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 7.8,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-74fqq9",
+      "title": "Your contributors are AI-first now. Is your project?",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1wfq2zb",
+      "title": "HBM Becomes Testbed For 3D Assembly Yield",
+      "url": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-11T07:05:17.000Z",
+      "fetchedAt": "2026-08-13T04:58:57.326Z",
+      "score": 7.7,
+      "tags": [
+        "semiconductor",
+        "hbm",
+        "reliability"
       ]
     },
     {
@@ -153,87 +369,6 @@
         "llm",
         "language model",
         "software engineering"
-      ]
-    },
-    {
-      "id": "sig-hb7r9l",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced ",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-11T22:40:45.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 8.2,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-w2mjox",
-      "title": "GitHub availability report: July 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-12T22:17:32.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 7.9,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 7.9,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-1wfq2zb",
-      "title": "HBM Becomes Testbed For 3D Assembly Yield",
-      "url": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "High-bandwidth memory has become a proving ground for 3D stack testing, DFT, and reliability. The post HBM Becomes Testbed For 3D Assembly Yield appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-11T07:05:17.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 7.8,
-      "tags": [
-        "semiconductor",
-        "hbm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-74fqq9",
-      "title": "Your contributors are AI-first now. Is your project?",
-      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-12T18:00:08.000Z",
-      "fetchedAt": "2026-08-13T03:01:07.077Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "github"
       ]
     },
     {
@@ -2298,38 +2433,6 @@
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-enhco",
-      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content o",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-05T19:42:38.000Z",
-      "fetchedAt": "2026-08-06T04:32:15.828Z",
-      "score": 7.8,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-k0ha69",
-      "title": "Binaryify/open-kimi-ppt-skill (Python) — trending new repo",
-      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor · ★ 794",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-05T07:30:56Z",
-      "fetchedAt": "2026-08-06T04:32:15.828Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "python"
       ]
     }
   ]
