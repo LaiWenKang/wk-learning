@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:58:48.458Z",
+  "updatedAt": "2026-08-16T18:38:49.438Z",
   "signals": [
     {
       "id": "sig-1f5h9ng",
@@ -10,12 +10,29 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -27,7 +44,7 @@
       "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 9.4,
       "tags": [
         "nvme",
@@ -43,7 +60,7 @@
       "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -56,10 +73,10 @@
       "url": "https://littlelearner-ll.github.io/",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 223 # Comments: 191",
+      "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 225 # Comments: 194",
       "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T07:37:53.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 7.7,
       "tags": [
         "llm",
@@ -75,7 +92,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 7,
       "tags": [
         "ai",
@@ -89,10 +106,10 @@
       "url": "https://github.com/Leutenegger/book-to-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1146",
+      "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1148",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T13:15:23Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -106,10 +123,10 @@
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1529",
+      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1532",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -118,15 +135,30 @@
       ]
     },
     {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 7,
+      "tags": [
+        "ssd"
+      ]
+    },
+    {
       "id": "sig-1j31p2g",
       "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
       "url": "https://rvembedded.com/blog_post/12/",
       "source": "Hacker News (front page)",
       "category": "firmware",
-      "summary": "12 points on Hacker News",
+      "summary": "51 points on Hacker News",
       "whyItMatters": "Touches embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-08-16T17:01:07Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 6.5,
       "tags": [
         "embedded"
@@ -141,7 +173,7 @@
       "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T15:05:36.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -153,10 +185,10 @@
       "url": "https://vectoral.com/blog/who-are-the-token-brokers",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "127 points on Hacker News",
+      "summary": "142 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T14:44:55Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -168,10 +200,10 @@
       "url": "https://wildstatic.com/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "40 points on Hacker News",
+      "summary": "47 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T13:21:45Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -183,13 +215,28 @@
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "331 points on Hacker News",
+      "summary": "353 points on Hacker News",
       "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T12:48:21Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6.4,
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6.3,
       "tags": [
         "claude"
+      ]
+    },
+    {
+      "id": "sig-1pz8suy",
+      "title": "AI Coding Without the Vibes",
+      "url": "https://peterbloem.nl/blog/craft-coding",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "53 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T10:31:36Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -201,26 +248,11 @@
       "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip. The post Chip Industry W",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-14T07:01:48.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6.4,
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6.3,
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1pz8suy",
-      "title": "AI Coding Without the Vibes",
-      "url": "https://peterbloem.nl/blog/craft-coding",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "45 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T10:31:36Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -229,13 +261,61 @@
       "url": "https://www.anthropic.com/research/multiagent-systems",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 167 # Comments: 117",
+      "summary": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 169 # Comments: 125",
       "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T02:12:53.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6.1,
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6,
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "id": "sig-prjywy",
+      "title": "deepseek-ai/deepseek-harness (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 129845",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1ibs9p1",
+      "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
+      "url": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T07:11:36.000Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1lnpzx1",
+      "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
+      "url": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-13T07:08:19.000Z",
+      "fetchedAt": "2026-08-16T18:38:49.438Z",
+      "score": 6,
+      "tags": [
+        "semiconductor",
+        "performance"
       ]
     },
     {
@@ -254,54 +334,6 @@
       ]
     },
     {
-      "id": "sig-prjywy",
-      "title": "deepseek-ai/deepseek-harness (TypeScript) — trending new repo",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 129592",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T11:56:32Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1ibs9p1",
-      "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
-      "url": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T07:11:36.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1lnpzx1",
-      "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
-      "url": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-13T07:08:19.000Z",
-      "fetchedAt": "2026-08-16T17:58:48.458Z",
-      "score": 6,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-1ye1vsz",
       "title": "Is Pergrammable A Word?",
       "url": "https://semiengineering.com/is-pergrammable-a-word/",
@@ -315,38 +347,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-16T17:48:32.624Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-16T17:48:32.624Z",
-      "score": 7,
-      "tags": [
-        "ssd"
       ]
     },
     {
