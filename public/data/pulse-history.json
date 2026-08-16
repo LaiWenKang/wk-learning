@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T23:27:14.197Z",
+  "updatedAt": "2026-08-16T23:47:44.476Z",
   "signals": [
     {
       "id": "sig-1h4y72t",
@@ -10,7 +10,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +29,29 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -46,8 +63,8 @@
       "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
-      "score": 9.3,
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 9.2,
       "tags": [
         "nvme",
         "kioxia"
@@ -62,27 +79,11 @@
       "summary": "Updated August 16, 2026: Initial publication. Model sizes and memory figures verified against official model releases as of this date; this table is refreshed quarterly because model sizes churn. Every hardware guide for local AI eventually comes down to one question: will the mo",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T22:51:33.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 8,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1sba9pu",
-      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "78 points on Hacker News",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T21:53:43Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
-      "score": 8,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -94,11 +95,27 @@
       "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen6"
+      ]
+    },
+    {
+      "id": "sig-1sba9pu",
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "96 points on Hacker News",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T21:53:43Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 7.9,
+      "tags": [
+        "claude",
+        "anthropic"
       ]
     },
     {
@@ -107,10 +124,10 @@
       "url": "https://littlelearner-ll.github.io/",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 233 # Comments: 204",
+      "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 234 # Comments: 204",
       "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T07:37:53.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -126,7 +143,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 7,
       "tags": [
         "ai",
@@ -143,7 +160,7 @@
       "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1152",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T13:15:23Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -157,15 +174,30 @@
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1539",
+      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1541",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 7,
       "tags": [
         "claude code",
         "claude",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 7,
+      "tags": [
+        "ssd"
       ]
     },
     {
@@ -177,7 +209,7 @@
       "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T22:00:39.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.5,
       "tags": [
         "llm"
@@ -189,10 +221,10 @@
       "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "59 points on Hacker News",
+      "summary": "68 points on Hacker News",
       "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T21:07:10Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.4,
       "tags": [
         "openai"
@@ -204,10 +236,10 @@
       "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "112 points on Hacker News",
+      "summary": "118 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T20:31:16Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -222,8 +254,8 @@
       "summary": "49 points on Hacker News",
       "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T18:17:10Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
-      "score": 6.4,
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 6.3,
       "tags": [
         "coding agent"
       ]
@@ -234,10 +266,10 @@
       "url": "https://rvembedded.com/blog_post/12/",
       "source": "Hacker News (front page)",
       "category": "firmware",
-      "summary": "308 points on Hacker News",
+      "summary": "317 points on Hacker News",
       "whyItMatters": "Touches embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-08-16T17:01:07Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.3,
       "tags": [
         "embedded"
@@ -252,7 +284,7 @@
       "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T15:05:36.000Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.3,
       "tags": [
         "ai"
@@ -264,11 +296,11 @@
       "url": "https://vectoral.com/blog/who-are-the-token-brokers",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "210 points on Hacker News",
+      "summary": "212 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T14:44:55Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
-      "score": 6.3,
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -279,10 +311,10 @@
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "489 points on Hacker News",
+      "summary": "498 points on Hacker News",
       "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T12:48:21Z",
-      "fetchedAt": "2026-08-16T23:27:14.197Z",
+      "fetchedAt": "2026-08-16T23:47:44.476Z",
       "score": 6.2,
       "tags": [
         "claude"
@@ -318,38 +350,6 @@
       "tags": [
         "ai",
         "typescript"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-16T23:00:16.722Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-16T23:00:16.722Z",
-      "score": 7,
-      "tags": [
-        "ssd"
       ]
     },
     {
@@ -2577,22 +2577,6 @@
       "score": 6.2,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1qomf4y",
-      "title": "Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security",
-      "url": "https://semiengineering.com/certified-automotive-grade-puf-ip-unclonable-silicon-identity-for-safety-and-security/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Combining SRAM-based identity generation with added functional safety and security mechanisms. The post Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-06T07:03:31.000Z",
-      "fetchedAt": "2026-08-09T23:38:59.139Z",
-      "score": 6,
-      "tags": [
-        "semiconductor",
-        "security"
       ]
     }
   ]
