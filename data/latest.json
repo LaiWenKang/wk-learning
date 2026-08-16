@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:55:52.908Z",
+  "generatedAt": "2026-08-16T14:30:34.282Z",
   "signals": [
     {
       "id": "sig-1f5h9ng",
@@ -10,28 +10,12 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1fqobmo",
-      "title": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
-      "url": "https://www.storagereview.com/news/dell-puts-9-83pb-in-2u-with-245tb-kioxia-ssds-adds-s3-over-rdma-and-kv-cache-offload-to-objectscale",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
-      "score": 9.5,
-      "tags": [
-        "nvme",
-        "kioxia"
       ]
     },
     {
@@ -43,7 +27,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -60,7 +44,7 @@
       "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 8.1,
       "tags": [
         "pcie",
@@ -73,10 +57,10 @@
       "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/ Comments URL: https://news.ycombinator.com/item?id=49309451 Points: 307 # Comments: 193",
+      "summary": "Article URL: https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/ Comments URL: https://news.ycombinator.com/item?id=49309451 Points: 309 # Comments: 193",
       "whyItMatters": "Touches ai, leadership — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-15T10:39:41.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 7.2,
       "tags": [
         "ai",
@@ -92,8 +76,8 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
-      "score": 7.1,
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
+      "score": 7,
       "tags": [
         "ai",
         "github",
@@ -109,7 +93,7 @@
       "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1144",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T13:15:23Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -123,10 +107,10 @@
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1476",
+      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1482",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -143,7 +127,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 7,
       "tags": [
         "ssd"
@@ -155,10 +139,10 @@
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "53 points on Hacker News",
+      "summary": "97 points on Hacker News",
       "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T12:48:21Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6.5,
       "tags": [
         "claude"
@@ -173,7 +157,7 @@
       "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip. The post Chip Industry W",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-14T07:01:48.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6.5,
       "tags": [
         "ai",
@@ -186,10 +170,10 @@
       "url": "https://littlelearner-ll.github.io/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "188 points on Hacker News",
+      "summary": "197 points on Hacker News",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T07:37:53Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6.3,
       "tags": [
         "llm"
@@ -201,10 +185,10 @@
       "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "217 points on Hacker News",
+      "summary": "223 points on Hacker News",
       "whyItMatters": "Touches software engineering — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-15T22:31:09Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6.1,
       "tags": [
         "software engineering"
@@ -216,25 +200,10 @@
       "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "156 points on Hacker News",
+      "summary": "159 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-15T19:12:53Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-180gxgf",
-      "title": "AI has access to a vastly larger working memory than the human brain",
-      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians Comments URL: https://news.ycombinator.com/item?id=49312845 Points: 529 # Comments: 455",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-15T18:13:02.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "ai"
@@ -246,10 +215,10 @@
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 126689",
+      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 127246",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T11:56:32Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "ai",
@@ -265,7 +234,7 @@
       "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. The post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:11:36.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "ai",
@@ -281,7 +250,7 @@
       "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects. The post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-13T07:08:19.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "semiconductor",
@@ -297,7 +266,7 @@
       "summary": "SoC architects need AI silicon that is both highly efficient and fully programmable. The post Is Pergrammable A Word? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:05:36.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "ai",
@@ -313,11 +282,43 @@
       "summary": "Move signal processing back onto the host SerDes to reduce system power, latency, and thermal load. The post Linear Optics And The Push To Scale AI Interconnects appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T07:03:53.000Z",
-      "fetchedAt": "2026-08-16T13:55:52.908Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
       "score": 6,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-w2mjox",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: July 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-12T22:17:32.000Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
+      "score": 6,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-74fqq9",
+      "title": "Your contributors are AI-first now. Is your project?",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control. The post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-12T18:00:08.000Z",
+      "fetchedAt": "2026-08-16T14:30:34.282Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
       ]
     }
   ]
