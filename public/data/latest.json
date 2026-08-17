@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:41:18.328Z",
+  "generatedAt": "2026-08-17T06:21:16.011Z",
   "signals": [
     {
       "id": "sig-1bqz0ap",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2608.14073v1 Announce Type: new Abstract: This work investigates the system-level performance impact of read disturbance in modern NAND flash-based SSDs, aiming to provide new insights that can help develop better storage architectures and optimize system software. Continuo",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2608.13920v1 Announce Type: cross Abstract: Hardware attacks like Spectre exploit built-in processor vulnerabilities, leaving anomalous footprints in Hardware Performance Counter (HPC) metrics. While machine learning can detect these footprints in controlled settings, stati",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -44,7 +44,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -63,29 +63,12 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -97,11 +80,27 @@
       "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 9.1,
       "tags": [
         "nvme",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-18k77bo",
+      "title": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
+      "url": "https://www.servethehome.com/microchip-switchtec-160-lane-pcie-gen6-switch-shown-at-fms-2026-with-xpressconnect-pcie-6-retimer/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-13T18:00:18.000Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen6"
       ]
     },
     {
@@ -113,8 +112,8 @@
       "summary": "arXiv:2608.13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems. However, existing LLM serving workload studies remain limited in scale and ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "language model"
@@ -129,8 +128,8 @@
       "summary": "arXiv:2608.13577v1 Announce Type: new Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Ins",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "performance"
@@ -145,8 +144,8 @@
       "summary": "arXiv:2608.13604v1 Announce Type: new Abstract: Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the r",
       "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "communication"
@@ -161,8 +160,8 @@
       "summary": "arXiv:2608.13681v1 Announce Type: new Abstract: Translating C code into safe, idiomatic Rust is a longstanding software-engineering goal because it can eliminate entire classes of memory-safety vulnerabilities while preserving the functional behavior of legacy systems. Large lang",
       "whyItMatters": "Touches rust, debugging — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "rust",
         "debugging"
@@ -177,8 +176,8 @@
       "summary": "arXiv:2608.13867v1 Announce Type: new Abstract: AI coding agents are commonly evaluated as models but deployed as systems. Their reliability depends not only on model capability, but on the harness, execution state, retrieval, memory and state management, permissions, review inte",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "reliability"
@@ -193,8 +192,8 @@
       "summary": "arXiv:2608.13884v1 Announce Type: new Abstract: The rapid adoption of AI coding assistants and autonomous agentic development systems has coincided with major changes in the pace and structure of open-source software engineering. Yet empirical longitudinal evidence of these chang",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "software engineering"
@@ -209,8 +208,8 @@
       "summary": "arXiv:2608.14065v1 Announce Type: new Abstract: Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "language model"
@@ -225,8 +224,8 @@
       "summary": "arXiv:2608.14352v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used for complex tasks such as software testing and cybersecurity assessment. While these agents demonstrate impressive capabilities, their behavior is difficult to understand",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "language model"
@@ -241,8 +240,8 @@
       "summary": "arXiv:2608.13868v1 Announce Type: new Abstract: This work investigates the potential benefits and technical challenges of using high-bandwidth flash (HBF) for large language model (LLM) inference. HBF has gained increasing attention as a promising solution to mitigate memory-capa",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "language model"
@@ -257,27 +256,11 @@
       "summary": "arXiv:2608.14333v1 Announce Type: new Abstract: Modern mixture-of-experts (MoE) language models increasingly strain the capacity and cost efficiency of high-bandwidth memory (HBM), as rapidly growing expert weights must be provisioned close to GPUs. High-bandwidth flash (HBF) off",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-18k77bo",
-      "title": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
-      "url": "https://www.servethehome.com/microchip-switchtec-160-lane-pcie-gen6-switch-shown-at-fms-2026-with-xpressconnect-pcie-6-retimer/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen6"
       ]
     },
     {
@@ -289,7 +272,7 @@
       "summary": "Updated August 16, 2026: Initial publication. Model sizes and memory figures verified against official model releases as of this date; this table is refreshed quarterly because model sizes churn. Every hardware guide for local AI eventually comes down to one question: will the mo",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T22:51:33.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -302,10 +285,10 @@
       "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing Comments URL: https://news.ycombinator.com/item?id=49324087 Points: 172 # Comments: 170",
+      "summary": "Article URL: https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing Comments URL: https://news.ycombinator.com/item?id=49324087 Points: 174 # Comments: 171",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T21:53:43.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
       "score": 7.8,
       "tags": [
         "claude",
@@ -313,19 +296,37 @@
       ]
     },
     {
-      "id": "sig-zwihpu",
-      "title": "What happens when an LLM never sees material beyond fifth grade?",
-      "url": "https://littlelearner-ll.github.io/",
-      "source": "Hacker News Best",
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
       "category": "ai",
-      "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 238 # Comments: 205",
-      "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T07:37:53.000Z",
-      "fetchedAt": "2026-08-17T05:41:18.328Z",
-      "score": 7.4,
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7,
       "tags": [
-        "llm",
-        "github"
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-9y0wpo",
+      "title": "Leutenegger/book-to-skill (Python) — trending new repo",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1159",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-13T13:15:23Z",
+      "fetchedAt": "2026-08-17T06:21:16.011Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
       ]
     }
   ]
