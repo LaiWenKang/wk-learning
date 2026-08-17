@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:52:18.903Z",
+  "generatedAt": "2026-08-17T23:29:08.512Z",
   "signals": [
     {
       "id": "sig-h7g3xf",
@@ -10,7 +10,7 @@
       "summary": "Two of the three big memory makers are putting money into U.S. semiconductor infrastructure at opposite ends of the production chain. Micron committed up to $3 billion to domestic supply-chain investments in July, anchored by a raw silicon wafer deal in Texas, while SK hynix is p",
       "whyItMatters": "Touches sk hynix, micron, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-17T18:48:16.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 10,
       "tags": [
         "sk hynix",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2608.14073v1 Announce Type: new Abstract: This work investigates the system-level performance impact of read disturbance in modern NAND flash-based SSDs, aiming to provide new insights that can help develop better storage architectures and optimize system software. Continuo",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,7 +44,7 @@
       "summary": "arXiv:2608.13920v1 Announce Type: cross Abstract: Hardware attacks like Spectre exploit built-in processor vulnerabilities, leaving anomalous footprints in Hardware Performance Counter (HPC) metrics. While machine learning can detect these footprints in controlled settings, stati",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -61,7 +61,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -80,7 +80,7 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -97,7 +97,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -114,7 +114,7 @@
       "summary": "DRAFT for review. Not linked from the hub or nav yet. Updated August 17, 2026: Samsung T9 and T7 Shield added, and the eligibility window broadened so any drive still widely sold stays in contention regardless of review date. Pricing context added for the ongoing NAND shortage. E",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-17T16:59:06.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 8.8,
       "tags": [
         "nand"
@@ -129,29 +129,12 @@
       "summary": "HCLTech and NetApp have expanded their strategic partnership to deliver an integrated hybrid cloud Storage-as-a-Service (STaaS) platform tailored for enterprise artificial intelligence, generative AI, and high-performance data architectures. It is the latest in a run of NetApp mo",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-17T16:15:26.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 8.8,
       "tags": [
         "ai",
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1ix20u7",
-      "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
-      "url": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Bond testing is emerging as a critical control point for long-term performance and yield. The post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-17T07:01:15.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
-      "score": 8.6,
-      "tags": [
-        "semiconductor",
-        "performance",
-        "reliability"
       ]
     },
     {
@@ -163,11 +146,28 @@
       "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 8.6,
       "tags": [
         "nvme",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1ix20u7",
+      "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
+      "url": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Bond testing is emerging as a critical control point for long-term performance and yield. The post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-17T07:01:15.000Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
+      "score": 8.5,
+      "tags": [
+        "semiconductor",
+        "performance",
+        "reliability"
       ]
     },
     {
@@ -179,7 +179,7 @@
       "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -192,11 +192,11 @@
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "291 points on Hacker News",
+      "summary": "299 points on Hacker News",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T14:18:38Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "github"
@@ -211,8 +211,8 @@
       "summary": "The next power bottleneck is no longer just inside the accelerator — it is the full conversion path from medium-voltage AC to sub-1V silicon. The post 800VDC Pushes AI Power Design From Grid To Gate appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T07:01:48.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -227,7 +227,7 @@
       "summary": "arXiv:2608.13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems. However, existing LLM serving workload studies remain limited in scale and ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "llm",
@@ -243,7 +243,7 @@
       "summary": "arXiv:2608.13577v1 Announce Type: new Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Ins",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -259,7 +259,7 @@
       "summary": "arXiv:2608.13604v1 Announce Type: new Abstract: Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the r",
       "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -275,7 +275,7 @@
       "summary": "arXiv:2608.13681v1 Announce Type: new Abstract: Translating C code into safe, idiomatic Rust is a longstanding software-engineering goal because it can eliminate entire classes of memory-safety vulnerabilities while preserving the functional behavior of legacy systems. Large lang",
       "whyItMatters": "Touches rust, debugging — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "rust",
@@ -291,7 +291,7 @@
       "summary": "arXiv:2608.13867v1 Announce Type: new Abstract: AI coding agents are commonly evaluated as models but deployed as systems. Their reliability depends not only on model capability, but on the harness, execution state, retrieval, memory and state management, permissions, review inte",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -307,7 +307,7 @@
       "summary": "arXiv:2608.13884v1 Announce Type: new Abstract: The rapid adoption of AI coding assistants and autonomous agentic development systems has coincided with major changes in the pace and structure of open-source software engineering. Yet empirical longitudinal evidence of these chang",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -323,7 +323,7 @@
       "summary": "arXiv:2608.14065v1 Announce Type: new Abstract: Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T04:00:00.000Z",
-      "fetchedAt": "2026-08-17T22:52:18.903Z",
+      "fetchedAt": "2026-08-17T23:29:08.512Z",
       "score": 7.5,
       "tags": [
         "llm",
