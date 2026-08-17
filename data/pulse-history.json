@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T02:47:30.432Z",
+  "updatedAt": "2026-08-17T03:34:30.790Z",
   "signals": [
     {
       "id": "sig-1h4y72t",
@@ -10,7 +10,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +29,29 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -46,8 +63,8 @@
       "summary": "Dell has qualified KIOXIA’s 245.76TB NVMe SSDs for software-defined ObjectScale, putting 9.83PB of raw flash in a single 2U server. The density milestone lands on top of the data-path work Dell detailed earlier this year across ObjectScale 4.2 and 4.3, which targets high-throughp",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-15T20:44:23.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 9.2,
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 9.1,
       "tags": [
         "nvme",
         "kioxia"
@@ -62,7 +79,7 @@
       "summary": "At FMS 2026, we saw a 160-lane Microchip Switchtec PCIe Gen6 switch, XpressConnect retimer demo, and even an Everpure cameo The post Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-13T18:00:18.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -78,11 +95,229 @@
       "summary": "Updated August 16, 2026: Initial publication. Model sizes and memory figures verified against official model releases as of this date; this table is refreshed quarterly because model sizes churn. Every hardware guide for local AI eventually comes down to one question: will the mo",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-16T22:51:33.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
       "score": 7.9,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-9y0wpo",
+      "title": "Leutenegger/book-to-skill (Python) — trending new repo",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1158",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-13T13:15:23Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1szo2i1",
+      "title": "ccch1mneyyy/dsh-TUI (TypeScript) — trending new repo",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1629",
+      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-aolqo0",
+      "title": "SSD prices still rocketing up faster than disk",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-11T12:32:08.000Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 7,
+      "tags": [
+        "ssd"
+      ]
+    },
+    {
+      "id": "sig-bktovk",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "134 points on Hacker News",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T21:07:10Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.3,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1aztlia",
+      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "229 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T20:31:16Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-k5dpav",
+      "title": "Red queen hypothesis – a new way forward for self-improving AI",
+      "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "20 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T20:01:13Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1di1a8w",
+      "title": "MathCode, Mathematical Coding Agent",
+      "url": "https://math-ai-org.github.io/mathcode/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "72 points on Hacker News",
+      "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T18:17:10Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.2,
+      "tags": [
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1j31p2g",
+      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "source": "Hacker News (front page)",
+      "category": "firmware",
+      "summary": "399 points on Hacker News",
+      "whyItMatters": "Touches embedded — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-08-16T17:01:07Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.2,
+      "tags": [
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-t4xw8w",
+      "title": "Quoting Dario Amodei",
+      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T15:05:36.000Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1g25bzn",
+      "title": "The AI Credit Resale Economy",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "241 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T14:44:55Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.1,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1mrvu2c",
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "571 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-16T12:48:21Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.1,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-12of9af",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-151/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip. The post Chip Industry W",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-14T07:01:48.000Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6.1,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-prjywy",
+      "title": "deepseek-ai/deepseek-harness (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 136928",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "fetchedAt": "2026-08-17T03:34:30.790Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -115,241 +350,6 @@
       "tags": [
         "llm",
         "github"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-9y0wpo",
-      "title": "Leutenegger/book-to-skill (Python) — trending new repo",
-      "url": "https://github.com/Leutenegger/book-to-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1157",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-13T13:15:23Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1szo2i1",
-      "title": "ccch1mneyyy/dsh-TUI (TypeScript) — trending new repo",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click. · ★ 1599",
-      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-13T12:49:31Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-bktovk",
-      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "116 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T21:07:10Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.3,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1aztlia",
-      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "214 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T20:31:16Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-k5dpav",
-      "title": "Red queen hypothesis – a new way forward for self-improving AI",
-      "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "15 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T20:01:13Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1di1a8w",
-      "title": "MathCode, Mathematical Coding Agent",
-      "url": "https://math-ai-org.github.io/mathcode/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "67 points on Hacker News",
-      "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T18:17:10Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.3,
-      "tags": [
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-1j31p2g",
-      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-      "url": "https://rvembedded.com/blog_post/12/",
-      "source": "Hacker News (front page)",
-      "category": "firmware",
-      "summary": "390 points on Hacker News",
-      "whyItMatters": "Touches embedded — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-08-16T17:01:07Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.2,
-      "tags": [
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-t4xw8w",
-      "title": "Quoting Dario Amodei",
-      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T15:05:36.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1g25bzn",
-      "title": "The AI Credit Resale Economy",
-      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "235 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T14:44:55Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1mrvu2c",
-      "title": "Claude: System Prompts",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "559 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-16T12:48:21Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.1,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-12of9af",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-151/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip. The post Chip Industry W",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-14T07:01:48.000Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6.1,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-prjywy",
-      "title": "deepseek-ai/deepseek-harness (TypeScript) — trending new repo",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "DeepSeek Harness: Everything is a Plugin. · ★ 135526",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T11:56:32Z",
-      "fetchedAt": "2026-08-17T02:47:30.432Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-17T01:48:15.146Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-aolqo0",
-      "title": "SSD prices still rocketing up faster than disk",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/11/ssd-prices-still-rocketing-up-faster-than-disk/5286189",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-11T12:32:08.000Z",
-      "fetchedAt": "2026-08-17T01:48:15.146Z",
-      "score": 7,
-      "tags": [
-        "ssd"
       ]
     },
     {
@@ -2455,113 +2455,6 @@
       "score": 6.5,
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1womzri",
-      "title": "Quoting OpenClaw",
-      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. &mdash; OpenClaw , hacking an Australian gym-booking website Tags: ai-et",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-10T02:05:16.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-k4clon",
-      "title": "GitHub Models is now retired",
-      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because t",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-09T22:48:05.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6.4,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-164m2yc",
-      "title": "The tragedy of the commons, AI edition",
-      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "84 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T19:43:52Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1hsyvq2",
-      "title": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
-      "url": "https://www.storagereview.com/news/amd-to-acquire-taalas-the-toronto-startup-building-silicon-around-one-model",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD has entered into a definitive agreement to acquire Toronto-based Taalas, a developer of specialized AI inference silicon. The acquisition is intended to expand AMD’s inference capabilities as AI deployments shift toward real-time and high-volume production workloads, where ef",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T17:09:15.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-e990uq",
-      "title": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
-      "url": "https://www.storagereview.com/news/beyond-the-sales-pitch-why-were-heading-to-euc-world-amplify-2026",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Over the past two years, end-user computing (EUC) has evolved at a pace that we have never seen before. This is being driven by rapid AI integration, major platform licensing shifts, and massive enterprise migrations to Windows 11. In this rapidly changing environment, independen",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-09T16:00:04.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-12k2s4y",
-      "title": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
-      "url": "https://www.storagereview.com/news/vmware-vdefend-75tbps-distributed-firewall-vcf-9-1-update",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Broadcom has issued updates for VMware vDefend and VMware Avi Load Balancer, enhancing security, performance, deployment, and automation features for VMware Cloud Foundation 9.1 environments. These updates include vDefend SSP 5.2, vDefend 9.1.1, Avi Load Balancer 32.1.4, and the ",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-06T15:10:22.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1tcw01g",
-      "title": "How To Scale AI Arithmetic Efficiently",
-      "url": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area. The post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-06T07:05:36.000Z",
-      "fetchedAt": "2026-08-10T02:54:49.399Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     }
   ]
