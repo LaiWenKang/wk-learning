@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:53:13.219Z",
+  "updatedAt": "2026-08-19T23:29:27.053Z",
   "signals": [
     {
       "id": "sig-bhk5uk",
@@ -10,7 +10,7 @@
       "summary": "Enterprise SSD prices increased another 5 percent in July 2026, according to the latest VDURA Flash Volatility Index. While the monthly increase was lower than the extreme fluctuations seen over the past year, flash pricing remains approximately 6.5 times higher than it was in th",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-18T18:57:21.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "SK hynix and its subsidiary Solidigm are following a two-part manufacturing plan to keep mature flash production separate from next-generation memory. Recent updates show they are expanding older production capacity overseas while also investing heavily at home. These moves will ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-18T18:32:03.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 10,
       "tags": [
         "nand",
@@ -45,7 +45,7 @@
       "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -62,8 +62,8 @@
       "summary": "",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-18T13:05:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
-      "score": 9.6,
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
+      "score": 9.5,
       "tags": [
         "ssd",
         "storage"
@@ -78,7 +78,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -97,7 +97,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -114,7 +114,7 @@
       "summary": "Sandisk has taped out the first High Bandwidth Flash memory die. The company put it on a slide at its 2026 Investor Day on August 13, under the header HBF Roadmap, next to what the slide labels an actual die picture. The second half of that slide covers the first HBF inference pr",
       "whyItMatters": "Touches flash memory, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-18T19:25:53.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 9.2,
       "tags": [
         "flash memory",
@@ -130,10 +130,26 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-19T15:39:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 8.8,
       "tags": [
         "nand"
+      ]
+    },
+    {
+      "id": "sig-1n9d8c8",
+      "title": "Conceptual integrity and counting lines of code",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-19T22:46:07.000Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -145,7 +161,7 @@
       "summary": "Updated August 19, 2026: First publication. Research current as of this date. There are four reasons to run a language model on your own hardware instead of in a browser tab, and only one of them is ideological. Privacy: a document you hand to a local model never leaves the machi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T20:02:19.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.9,
       "tags": [
         "llm",
@@ -161,7 +177,7 @@
       "summary": "NVIDIA, OpenAI, and SB Energy have shared more information about the PORTS-Pike Technology Campus in Pike County, Ohio. The project will combine an 8 IT-GW compute buildout with one of the largest financing backstops seen so far in the AI infrastructure sector. The project is bei",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T18:26:44.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -177,8 +193,8 @@
       "summary": "Power, token cost, interconnects, and software orchestration are pushing data centers toward heterogeneous clusters built from CPUs, GPUs, NPUs, optics, and custom accelerators. The post The Future Of AI Compute Won’t Run On Just One Kind Of Chip appeared first on Semiconductor E",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-19T07:01:42.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
-      "score": 7.6,
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -193,7 +209,7 @@
       "summary": "arXiv:2608.17124v1 Announce Type: new Abstract: Combining the answers a large language model (LLM) samples for a question into one decision is a test-time information fusion problem, usually solved by majority voting. Voting is unreliable on difficult questions, where the sampled",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.5,
       "tags": [
         "llm",
@@ -209,7 +225,7 @@
       "summary": "arXiv:2608.17183v1 Announce Type: new Abstract: Small Language Models (SLMs) are increasingly deployed in resource-constrained, privacy-sensitive settings, where safety and bias failures can cause security and societal risks. However, existing AI safety\\slash security\\slash compl",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -225,7 +241,7 @@
       "summary": "arXiv:2608.17177v1 Announce Type: new Abstract: LLM-based agents are increasingly used for coding tasks, where they have outperformed many classical approaches and scaled to repository-level tasks, such as test generation. However, when directly prompted to generate tests, these ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -238,10 +254,10 @@
       "url": "https://github.com/yetone/cumora",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · ★ 2676",
+      "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · ★ 2677",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T09:13:52Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.3,
       "tags": [
         "ai",
@@ -259,7 +275,7 @@
       "summary": "Bond testing is emerging as a critical control point for long-term performance and yield. The post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-17T07:01:15.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7.2,
       "tags": [
         "semiconductor",
@@ -276,7 +292,7 @@
       "summary": "arXiv:2608.17018v1 Announce Type: new Abstract: Microservice failures are often diagnosed from operational telemetry. However, automated program repair systems usually start from issue reports, localized code context, or failing tests. This mismatch leaves a gap between telemetry",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-08-19T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7,
       "tags": [
         "telemetry"
@@ -291,7 +307,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7,
       "tags": [
         "ai",
@@ -308,7 +324,7 @@
       "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. · ★ 1202",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-13T13:15:23Z",
-      "fetchedAt": "2026-08-19T22:53:13.219Z",
+      "fetchedAt": "2026-08-19T23:29:27.053Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -2427,22 +2443,6 @@
       "tags": [
         "reliability",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1bqvz3y",
-      "title": "Comprendia: AI-Augmented Code Comprehension",
-      "url": "https://arxiv.org/abs/2608.10290",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.10290v1 Announce Type: new Abstract: Comprendia is an Eclipse plugin that integrates structural dependency visualization with LLM-powered code explanation on a shared interactive graph for Java program comprehension. The tool rests on four pillars: (1) a multi-edge-typ",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "fetchedAt": "2026-08-12T23:25:26.490Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "llm"
       ]
     }
   ]
