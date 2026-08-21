@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T07:59:26.798Z",
+  "updatedAt": "2026-08-21T08:50:28.341Z",
   "signals": [
     {
       "id": "sig-12of9bc",
@@ -10,7 +10,7 @@
       "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches micron, ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-21T07:01:08.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 10,
       "tags": [
         "micron",
@@ -27,7 +27,7 @@
       "summary": "We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T22:02:41.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "Sandisk has introduced two SSD families designed specifically for network-attached storage, covering both SATA-based systems and higher-performance NVMe NAS deployments. The Sandisk NAS 600 SATA SSD offers capacities up to 4TB and endurance up to 2,500 TBW, while the Sandisk NAS ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T18:53:29.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -65,7 +65,7 @@
       "summary": "SK hynix and its subsidiary Solidigm are following a two-part manufacturing plan to keep mature flash production separate from next-generation memory. Recent updates show they are expanding older production capacity overseas while also investing heavily at home. These moves will ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-18T18:32:03.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 10,
       "tags": [
         "nand",
@@ -83,7 +83,7 @@
       "summary": "Enterprise SSD prices increased another 5 percent in July 2026, according to the latest VDURA Flash Volatility Index. While the monthly increase was lower than the extreme fluctuations seen over the past year, flash pricing remains approximately 6.5 times higher than it was in th",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-08-18T18:57:21.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 9.8,
       "tags": [
         "ssd",
@@ -100,7 +100,7 @@
       "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -108,6 +108,23 @@
         "gen5",
         "e1.s",
         "e3.s"
+      ]
+    },
+    {
+      "id": "sig-1r7fppj",
+      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-12T10:16:10.000Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -119,7 +136,7 @@
       "summary": "arXiv:2608.19487v1 Announce Type: new Abstract: Python is widely used in scientific research because it enables rapid development and provides rich ecosystems for data analysis, artificial intelligence (AI), and machine learning. However, customized research code can become prohi",
       "whyItMatters": "Touches ai, machine learning, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 8.9,
       "tags": [
         "ai",
@@ -136,11 +153,43 @@
       "summary": "arXiv:2608.19520v1 Announce Type: new Abstract: Garbage-collector selection is a low-effort configuration decision that can influence both the performance and energy consumption of Java applications. However, it remains unclear whether aggregate energy rankings among collectors g",
       "whyItMatters": "Touches garbage collection, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 8.9,
       "tags": [
         "garbage collection",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-13z7mbq",
+      "title": "Micron rolls out big guns to support Boise memory lab launch as WD looks to Japan to for storage innovation lab",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/08/20/micron-rolls-out-big-guns-to-support-boise-memory-lab-launch-as-wd-looks-to-japan-to-for-storage-innovation-lab/5290522",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches micron, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-20T16:57:00.000Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
+      "score": 8.6,
+      "tags": [
+        "micron",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1v6stqt",
+      "title": "Hard reality of surging SSD costs force tech pros to consider software defined storage",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/18/hard-reality-of-surging-ssd-costs-force-tech-pros-to-consider-software-defined-storage/5289055",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-18T13:05:00.000Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
+      "score": 8.6,
+      "tags": [
+        "ssd",
+        "storage"
       ]
     },
     {
@@ -152,7 +201,7 @@
       "summary": "Sandisk has taped out the first High Bandwidth Flash memory die. The company put it on a slide at its 2026 Investor Day on August 13, under the header HBF Roadmap, next to what the slide labels an actual die picture. The second half of that slide covers the first HBF inference pr",
       "whyItMatters": "Touches flash memory, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-18T19:25:53.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 8.3,
       "tags": [
         "flash memory",
@@ -168,7 +217,7 @@
       "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use t",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-19T23:16:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 8.1,
       "tags": [
         "claude code",
@@ -186,7 +235,7 @@
       "summary": "arXiv:2608.18092v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) promise scalable collaboration, yet adding agents often reduces reliability. This position paper argues that many MAS failures are fundamentally concurrency control problems: agents concurrently r",
       "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 7.9,
       "tags": [
         "llm",
@@ -202,7 +251,7 @@
       "summary": "arXiv:2608.18104v1 Announce Type: new Abstract: Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other agents. These capabi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 7.9,
       "tags": [
         "llm",
@@ -218,7 +267,7 @@
       "summary": "arXiv:2608.19395v1 Announce Type: new Abstract: Hybrid Transformer-Mamba large language models (LLMs) enhance long-context efficiency, but their heterogeneous computation and communication patterns complicate efficient hardware acceleration. Chiplet-based architectures offer a sc",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 7.9,
       "tags": [
         "llm",
@@ -234,7 +283,7 @@
       "summary": "arXiv:2608.19471v1 Announce Type: new Abstract: High Bandwidth Memory (HBM) systems can exhibit partial service rather than only full service or complete isolation: a controller-visible service unit may deliver full, reduced, or zero bandwidth because of sub-channel isolation, la",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 7.9,
       "tags": [
         "hbm",
@@ -250,11 +299,26 @@
       "summary": "arXiv:2608.19705v1 Announce Type: new Abstract: Embedded memories occupy a large portion of modern System-on-Chip (SoC) designs, especially in high-performance applications such as artificial intelligence and edge computing. Memory Built-In Self-Test (MBIST) is commonly used to e",
       "whyItMatters": "Touches embedded, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-21T04:00:00.000Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
       "score": 7.9,
       "tags": [
         "embedded",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1uku75x",
+      "title": "Surging NAND demand sends big five’s revenue skywards in Q2",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/19/surging-nand-demand-sends-big-fives-revenue-skywards-in-q2/5289690",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-19T15:39:00.000Z",
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
+      "score": 7.9,
+      "tags": [
+        "nand"
       ]
     },
     {
@@ -266,8 +330,8 @@
       "summary": "Offline utilities for Coldcard hardware wallet users: PSBT inspection, BIP39/dice entropy, Seed XOR split/combine, BBQr encode/decode, output descriptors, and firmware verification guidance. Companion to official Coldcard firmware. Not affiliated with Coinkite. · ★ 608",
       "whyItMatters": "Touches python, firmware — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-20T23:14:34Z",
-      "fetchedAt": "2026-08-21T07:59:26.798Z",
-      "score": 7.8,
+      "fetchedAt": "2026-08-21T08:50:28.341Z",
+      "score": 7.7,
       "tags": [
         "python",
         "firmware"
@@ -351,70 +415,6 @@
       "tags": [
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1r7fppj",
-      "title": "SK Hynix expanding Solidigm Dalian NAND plant",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-21T06:17:51.478Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-1v6stqt",
-      "title": "Hard reality of surging SSD costs force tech pros to consider software defined storage",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/18/hard-reality-of-surging-ssd-costs-force-tech-pros-to-consider-software-defined-storage/5289055",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-18T13:05:00.000Z",
-      "fetchedAt": "2026-08-21T06:17:51.478Z",
-      "score": 8.7,
-      "tags": [
-        "ssd",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-13z7mbq",
-      "title": "Micron rolls out big guns to support Boise memory lab launch as WD looks to Japan to for storage innovation lab",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/08/20/micron-rolls-out-big-guns-to-support-boise-memory-lab-launch-as-wd-looks-to-japan-to-for-storage-innovation-lab/5290522",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches micron, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-20T16:57:00.000Z",
-      "fetchedAt": "2026-08-21T06:17:51.478Z",
-      "score": 8.6,
-      "tags": [
-        "micron",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1uku75x",
-      "title": "Surging NAND demand sends big five’s revenue skywards in Q2",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/19/surging-nand-demand-sends-big-fives-revenue-skywards-in-q2/5289690",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-19T15:39:00.000Z",
-      "fetchedAt": "2026-08-21T06:17:51.478Z",
-      "score": 7.9,
-      "tags": [
-        "nand"
       ]
     },
     {
