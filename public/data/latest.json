@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:00:13.736Z",
+  "generatedAt": "2026-08-22T18:40:18.876Z",
   "signals": [
     {
       "id": "sig-jmya08",
@@ -10,7 +10,7 @@
       "summary": "The Dell Pro Precision 5 16s AMD brings the Ryzen AI 9 HX PRO 475 into Dell’s larger 16-inch mobile workstation chassis, pairing 12 cores and 24 threads with Radeon 890M graphics and a 60 TOPS NPU. Our review unit adds 64GB of LPDDR5x memory, a 1 TB PCIe Gen4 SSD, and a 2560 x Th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-21T17:30:24.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T22:02:41.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "Sandisk has introduced two SSD families designed specifically for network-attached storage, covering both SATA-based systems and higher-performance NVMe NAS deployments. The Sandisk NAS 600 SATA SSD offers capacities up to 4TB and endurance up to 2,500 TBW, while the Sandisk NAS ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T18:53:29.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -65,7 +65,7 @@
       "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches micron, ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-21T07:01:08.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 9.5,
       "tags": [
         "micron",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-12T10:16:10.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -99,29 +99,12 @@
       "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
       "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-22T17:01:16.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 9,
       "tags": [
         "openai",
         "llm",
         "python"
-      ]
-    },
-    {
-      "id": "sig-xi0ca0",
-      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-      "url": "https://twitter.com/argofowl/status/2091150597374537729",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "28 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T16:58:49Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
-      "score": 9,
-      "tags": [
-        "claude code",
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -133,7 +116,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-18T13:05:00.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 8.5,
       "tags": [
         "ssd",
@@ -149,7 +132,7 @@
       "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the mome",
       "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T17:16:13.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 8.3,
       "tags": [
         "openai",
@@ -166,27 +149,11 @@
       "summary": "Across several hardware generations, memory and networking vendors have identified different choke points in high-performance computing clusters. Memory manufacturers focused on in-package memory bandwidth, while network fabric providers addressed inter-chassis and cross-rack thr",
       "whyItMatters": "Touches sk hynix, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-21T17:11:44.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 8.3,
       "tags": [
         "sk hynix",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-gysfcf",
-      "title": "Embedded AI",
-      "url": "https://nostarch.com/embedded-ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "28 points on Hacker News",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T09:07:26Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "embedded"
       ]
     },
     {
@@ -198,11 +165,27 @@
       "summary": "",
       "whyItMatters": "Touches micron, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-20T16:57:00.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 7.6,
       "tags": [
         "micron",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1fodhrb",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/adnanakil/nobuzz/blob/main/README.md Comments URL: https://news.ycombinator.com/item?id=49388752 Points: 336 # Comments: 221",
+      "whyItMatters": "Touches claude, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-21T14:31:52.000Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
+      "score": 7.2,
+      "tags": [
+        "claude",
+        "github"
       ]
     },
     {
@@ -214,7 +197,7 @@
       "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use t",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-19T23:16:00.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 7.1,
       "tags": [
         "claude code",
@@ -232,7 +215,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-19T15:39:00.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 7,
       "tags": [
         "nand"
@@ -247,7 +230,7 @@
       "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · ★ 2895",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T09:13:52Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 7,
       "tags": [
         "ai",
@@ -265,7 +248,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 7,
       "tags": [
         "ai",
@@ -282,7 +265,7 @@
       "summary": "Offline utilities for Coldcard hardware wallet users: PSBT inspection, BIP39/dice entropy, Seed XOR split/combine, BBQr encode/decode, output descriptors, and firmware verification guidance. Companion to official Coldcard firmware. Not affiliated with Coinkite. · ★ 608",
       "whyItMatters": "Touches python, firmware — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-20T23:14:34Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 6.8,
       "tags": [
         "python",
@@ -298,7 +281,7 @@
       "summary": "An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, reliability — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-20T18:36:11.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
       "score": 6.7,
       "tags": [
         "github",
@@ -314,8 +297,8 @@
       "summary": "There is no one-size-fits-all — yet. The post How Will The Custom HBM Business Work? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-20T07:02:29.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
-      "score": 6.4,
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
+      "score": 6.3,
       "tags": [
         "semiconductor",
         "hbm"
@@ -330,11 +313,27 @@
       "summary": "Reducing manufacturing-related emissions may support lowering the embedded carbon footprint of the chips customers use in their products. The post Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation appeared first on Semiconductor Engineerin",
       "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-20T07:02:04.000Z",
-      "fetchedAt": "2026-08-22T18:00:13.736Z",
-      "score": 6.4,
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
+      "score": 6.3,
       "tags": [
         "semiconductor",
         "embedded"
+      ]
+    },
+    {
+      "id": "sig-9wi6b8",
+      "title": "Three Strategic Imperatives For Energy-Efficient AI Computing",
+      "url": "https://semiengineering.com/three-strategic-imperatives-for-energy-efficient-ai-computing/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Reducing energy consumption is key to both lowering inference cost and enabling emerging physical AI applications. The post Three Strategic Imperatives For Energy-Efficient AI Computing appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-20T07:01:40.000Z",
+      "fetchedAt": "2026-08-22T18:40:18.876Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     }
   ]
