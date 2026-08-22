@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T15:59:44.051Z",
+  "updatedAt": "2026-08-22T16:33:00.867Z",
   "signals": [
     {
       "id": "sig-jmya08",
@@ -10,7 +10,7 @@
       "summary": "The Dell Pro Precision 5 16s AMD brings the Ryzen AI 9 HX PRO 475 into Dell’s larger 16-inch mobile workstation chassis, pairing 12 cores and 24 threads with Radeon 890M graphics and a 60 TOPS NPU. Our review unit adds 64GB of LPDDR5x memory, a 1 TB PCIe Gen4 SSD, and a 2560 x Th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-21T17:30:24.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "We test the Kioxia CD9P (CD9P-R) in its 7.68TB E3.S configuration to see how the new PCIe Gen5 NVMe SSD performs on different architectures The post Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T22:02:41.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "Sandisk has introduced two SSD families designed specifically for network-attached storage, covering both SATA-based systems and higher-performance NVMe NAS deployments. The Sandisk NAS 600 SATA SSD offers capacities up to 4TB and endurance up to 2,500 TBW, while the Sandisk NAS ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T18:53:29.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -65,7 +65,7 @@
       "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches micron, ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-21T07:01:08.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 9.6,
       "tags": [
         "micron",
@@ -82,7 +82,7 @@
       "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the mome",
       "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T17:16:13.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 8.4,
       "tags": [
         "openai",
@@ -99,11 +99,27 @@
       "summary": "Across several hardware generations, memory and networking vendors have identified different choke points in high-performance computing clusters. Memory manufacturers focused on in-package memory bandwidth, while network fabric providers addressed inter-chassis and cross-rack thr",
       "whyItMatters": "Touches sk hynix, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-08-21T17:11:44.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 8.4,
       "tags": [
         "sk hynix",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-gysfcf",
+      "title": "Embedded AI",
+      "url": "https://nostarch.com/embedded-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "18 points on Hacker News",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-22T09:07:26Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "embedded"
       ]
     },
     {
@@ -115,7 +131,7 @@
       "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use t",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-19T23:16:00.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 7.2,
       "tags": [
         "claude code",
@@ -133,7 +149,7 @@
       "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · ★ 2894",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-17T09:13:52Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 7,
       "tags": [
         "ai",
@@ -151,7 +167,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 7,
       "tags": [
         "ai",
@@ -168,7 +184,7 @@
       "summary": "Offline utilities for Coldcard hardware wallet users: PSBT inspection, BIP39/dice entropy, Seed XOR split/combine, BBQr encode/decode, output descriptors, and firmware verification guidance. Companion to official Coldcard firmware. Not affiliated with Coinkite. · ★ 608",
       "whyItMatters": "Touches python, firmware — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-20T23:14:34Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.9,
       "tags": [
         "python",
@@ -184,26 +200,11 @@
       "summary": "An update on the August 17 outage and the steps we're taking to improve reliability. The post The August 17 outage, and the work ahead appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, reliability — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-20T18:36:11.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.7,
       "tags": [
         "github",
         "reliability"
-      ]
-    },
-    {
-      "id": "sig-1cemmmc",
-      "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
-      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "35 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T14:13:05Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -215,7 +216,7 @@
       "summary": "There is no one-size-fits-all — yet. The post How Will The Custom HBM Business Work? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-20T07:02:29.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.4,
       "tags": [
         "semiconductor",
@@ -231,7 +232,7 @@
       "summary": "Reducing manufacturing-related emissions may support lowering the embedded carbon footprint of the chips customers use in their products. The post Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation appeared first on Semiconductor Engineerin",
       "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-20T07:02:04.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.4,
       "tags": [
         "semiconductor",
@@ -247,7 +248,7 @@
       "summary": "Reducing energy consumption is key to both lowering inference cost and enabling emerging physical AI applications. The post Three Strategic Imperatives For Energy-Efficient AI Computing appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-20T07:01:40.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.4,
       "tags": [
         "ai",
@@ -263,7 +264,7 @@
       "summary": "Performance advantage may come down to material choices and precise interconnect decisions. The post CFETs Forge Better Connections appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-08-20T07:01:04.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.4,
       "tags": [
         "semiconductor",
@@ -279,7 +280,7 @@
       "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T22:46:07.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.2,
       "tags": [
         "ai",
@@ -295,7 +296,7 @@
       "summary": "Updated August 19, 2026: First publication. Research current as of this date. There are four reasons to run a language model on your own hardware instead of in a browser tab, and only one of them is ideological. Privacy: a document you hand to a local model never leaves the machi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T20:02:19.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.1,
       "tags": [
         "llm",
@@ -311,7 +312,7 @@
       "summary": "NVIDIA, OpenAI, and SB Energy have shared more information about the PORTS-Pike Technology Campus in Pike County, Ohio. The project will combine an 8 IT-GW compute buildout with one of the largest financing backstops seen so far in the AI infrastructure sector. The project is bei",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-19T18:26:44.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6.1,
       "tags": [
         "ai",
@@ -327,26 +328,25 @@
       "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-21T23:19:57.000Z",
-      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "fetchedAt": "2026-08-22T16:33:00.867Z",
       "score": 6,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-gysfcf",
-      "title": "Embedded AI",
-      "url": "https://nostarch.com/embedded-ai",
+      "id": "sig-1cemmmc",
+      "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "16 points on Hacker News",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T09:07:26Z",
-      "fetchedAt": "2026-08-22T15:48:50.552Z",
-      "score": 7.8,
+      "summary": "35 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-22T14:13:05Z",
+      "fetchedAt": "2026-08-22T15:59:44.051Z",
+      "score": 6.5,
       "tags": [
-        "ai",
-        "embedded"
+        "ai"
       ]
     },
     {
