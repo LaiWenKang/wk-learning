@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T03:26:57.862Z",
+  "updatedAt": "2026-08-26T04:11:41.555Z",
   "signals": [
     {
       "id": "sig-jmya08",
@@ -10,7 +10,7 @@
       "summary": "The Dell Pro Precision 5 16s AMD brings the Ryzen AI 9 HX PRO 475 into Dell’s larger 16-inch mobile workstation chassis, pairing 12 cores and 24 threads with Radeon 890M graphics and a 60 TOPS NPU. Our review unit adds 64GB of LPDDR5x memory, a 1 TB PCIe Gen4 SSD, and a 2560 x Th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-21T17:30:24.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "Sandisk has introduced two SSD families designed specifically for network-attached storage, covering both SATA-based systems and higher-performance NVMe NAS deployments. The Sandisk NAS 600 SATA SSD offers capacities up to 4TB and endurance up to 2,500 TBW, while the Sandisk NAS ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-08-20T18:53:29.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -35,6 +35,296 @@
         "pcie",
         "endurance",
         "tbw"
+      ]
+    },
+    {
+      "id": "sig-12of9bc",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-152/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches micron, ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-21T07:01:08.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 8.5,
+      "tags": [
+        "micron",
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1brnsld",
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "url": "https://arxiv.org/abs/2608.23640",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subje",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1brnsim",
+      "title": "From Traceability to Justifiability: Accountability Structures in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2608.23610",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23610v1 Announce Type: new Abstract: A pipeline promoting an AI system publishes records claiming the thing evaluated is the thing deployed and that the evidence licensed the transition. We measure, from public material only, whether those records can express that clai",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1brokaw",
+      "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
+      "url": "https://arxiv.org/abs/2608.24637",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.24637v1 Announce Type: new Abstract: The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands because expert-parallel execution is communication-intensive. Wafer-scale optical interconn",
+      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-y7dlam",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-24T16:27:04.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 8,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1oex16a",
+      "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+      "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator The post OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T00:45:45.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1tb54u5",
+      "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "87 points on Hacker News",
+      "whyItMatters": "Touches python, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-25T20:49:03Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7.8,
+      "tags": [
+        "python",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-135tcqa",
+      "title": "Redefining Roles For Edge And Cloud AI",
+      "url": "https://semiengineering.com/redefining-roles-for-edge-and-cloud-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "The race is on for localized intelligence. The post Redefining Roles For Edge And Cloud AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-25T07:15:21.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-176f40n",
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
+      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-22T17:01:16.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7,
+      "tags": [
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1hng2au",
+      "title": "nateherkai/scroll-craft (JavaScript) — trending new repo",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. · ★ 924",
+      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-22T15:25:08Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-16j4aye",
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the mome",
+      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-21T17:16:13.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7,
+      "tags": [
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1kxqhzy",
+      "title": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns",
+      "url": "https://www.storagereview.com/news/sk-hynix-takes-its-co-packaged-optics-roadmap-to-nature-electronics-100tb-s-nodes-sub-1pj-bit-under-10ns",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Across several hardware generations, memory and networking vendors have identified different choke points in high-performance computing clusters. Memory manufacturers focused on in-package memory bandwidth, while network fabric providers addressed inter-chassis and cross-rack thr",
+      "whyItMatters": "Touches sk hynix, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-21T17:11:44.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7,
+      "tags": [
+        "sk hynix",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1brnrt6",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "url": "https://arxiv.org/abs/2608.23568",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchma",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1brnsjl",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a syste",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1brnskh",
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "url": "https://arxiv.org/abs/2608.23631",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store ",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1brnsle",
+      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
+      "url": "https://arxiv.org/abs/2608.23641",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1brnslf",
+      "title": "AI Agents Push Humans Out of the Loop",
+      "url": "https://arxiv.org/abs/2608.23642",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI a",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "fetchedAt": "2026-08-26T04:11:41.555Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -51,23 +341,6 @@
       "tags": [
         "sk hynix",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-12of9bc",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-152/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches micron, ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-21T07:01:08.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 8.5,
-      "tags": [
-        "micron",
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -104,72 +377,6 @@
       ]
     },
     {
-      "id": "sig-y7dlam",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-24T16:27:04.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 8,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1oex16a",
-      "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
-      "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator The post OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T00:45:45.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1tb54u5",
-      "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
-      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "79 points on Hacker News",
-      "whyItMatters": "Touches python, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-25T20:49:03Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7.8,
-      "tags": [
-        "python",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-135tcqa",
-      "title": "Redefining Roles For Edge And Cloud AI",
-      "url": "https://semiengineering.com/redefining-roles-for-edge-and-cloud-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "The race is on for localized intelligence. The post Redefining Roles For Edge And Cloud AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T07:15:21.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-1brm6pu",
       "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
       "url": "https://arxiv.org/abs/2608.21382",
@@ -202,73 +409,6 @@
       ]
     },
     {
-      "id": "sig-176f40n",
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
-      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T17:01:16.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7,
-      "tags": [
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1hng2au",
-      "title": "nateherkai/scroll-craft (JavaScript) — trending new repo",
-      "url": "https://github.com/nateherkai/scroll-craft",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll. · ★ 921",
-      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-22T15:25:08Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-16j4aye",
-      "title": "llm 0.32.1",
-      "url": "https://simonwillison.net/2026/Aug/21/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the mome",
-      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-21T17:16:13.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7,
-      "tags": [
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1kxqhzy",
-      "title": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns",
-      "url": "https://www.storagereview.com/news/sk-hynix-takes-its-co-packaged-optics-roadmap-to-nature-electronics-100tb-s-nodes-sub-1pj-bit-under-10ns",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Across several hardware generations, memory and networking vendors have identified different choke points in high-performance computing clusters. Memory manufacturers focused on in-package memory bandwidth, while network fabric providers addressed inter-chassis and cross-rack thr",
-      "whyItMatters": "Touches sk hynix, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-21T17:11:44.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7,
-      "tags": [
-        "sk hynix",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-13z7mbq",
       "title": "Micron rolls out big guns to support Boise memory lab launch as WD looks to Japan to for storage innovation lab",
       "url": "https://www.blocksandfiles.com/ai-ml/2026/08/20/micron-rolls-out-big-guns-to-support-boise-memory-lab-launch-as-wd-looks-to-japan-to-for-storage-innovation-lab/5290522",
@@ -297,23 +437,6 @@
       "score": 7,
       "tags": [
         "nand"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
       ]
     },
     {
@@ -1766,73 +1889,6 @@
       "tags": [
         "pcie",
         "gen6"
-      ]
-    },
-    {
-      "id": "sig-1bqz4is",
-      "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
-      "url": "https://arxiv.org/abs/2608.14580",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.14580v1 Announce Type: new Abstract: OGX (Open GenAI Stack) is an open-source AI application server and Python library that implements the APIs of major frontier labs (OpenAI, Anthropic, Google) with pluggable backend providers. Developers building agentic AI applicati",
-      "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T03:31:25.663Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "anthropic",
-        "openai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1bqzsw9",
-      "title": "The Quality of Claude AI-authored Python Tests Is Not Weaker Than Human-authored Tests",
-      "url": "https://arxiv.org/abs/2608.15188",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.15188v1 Announce Type: new Abstract: We evaluate the quality of Claude AI-written Python tests against human-written Python tests from two established open-source projects Django and Pandas. Hundreds of tests per corpus are scored under one identical protocol. Using on",
-      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T03:31:25.663Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1bqz6zs",
-      "title": "Evaluating Agentic Code Repair Capabilities in Distributed Systems",
-      "url": "https://arxiv.org/abs/2608.14863",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.14863v1 Announce Type: new Abstract: LLM-based coding agents have advanced rapidly on single-process SWE tasks, with frontier models now clustering in the high-70s on SWE-bench Verified. Distributed-system debugging, however, remains an under-explored regime: bugs span",
-      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T03:31:25.663Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-1br0m6d",
-      "title": "Beyond Binary Priorities: Multi-Tier SLA Scheduling for Large Language Model Serving",
-      "url": "https://arxiv.org/abs/2608.16336",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.16336v1 Announce Type: new Abstract: Modern LLM serving deployments must simultaneously satisfy heterogeneous service-level objectives (SLOs) across a diverse population of user tiers, ranging from latency-critical API calls to background batch processing. Llumnix intr",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "fetchedAt": "2026-08-19T03:31:25.663Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
       ]
     }
   ]
