@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-08-27T14:20:09.901Z",
+  "updatedAt": "2026-08-27T23:49:10.207Z",
   "signals": [
+    {
+      "id": "sig-vw7esr",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Reh",
+      "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T22:50:25.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 9,
+      "tags": [
+        "coding agent",
+        "claude code",
+        "claude",
+        "anthropic"
+      ]
+    },
     {
       "id": "sig-1bromvf",
       "title": "The Evolution of Binary Decompilation in the Modern Era: A Taxonomy, Literature Review, and Future Perspectives",
@@ -10,12 +28,303 @@
       "summary": "arXiv:2608.24955v1 Announce Type: new Abstract: Decompilation has become a foundational technique in software engineering and security analysis, and it is now advancing through the integration of modern machine learning (ML) approaches. This article presents a systematic review o",
       "whyItMatters": "Touches machine learning, software engineering, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-27T04:00:00.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 8.4,
       "tags": [
         "machine learning",
         "software engineering",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1gnm3jn",
+      "title": "IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment",
+      "url": "https://www.storagereview.com/news/ibm-ds8000-release-10-2-brings-fcm5-in-edsff-doubled-back-end-throughput-and-automated-ransomware-containment",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "IBM has announced the IBM Storage DS8000 Release 10.2, an update to its flagship enterprise storage platform tailored for IBM Z, IBM LinuxONE, and high-performance, mission-critical environments. The release targets large-scale enterprise demands by focusing on increased drive de",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-27T16:24:22.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.8,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-2jyh1t",
+      "title": "Oxmiq Labs HBF in AI Compute at Hot Chips 2026",
+      "url": "https://www.servethehome.com/oxmiq-labs-hbf-in-ai-compute-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At Hot Chips 2026, Oxmiq Labs went into an analysis of HBF versus HBM in AI compute and where the buzzworthy HBF fits in the ecosystem The post Oxmiq Labs HBF in AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T16:13:39.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-r92juc",
+      "title": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon’s Trainium4 First in Line",
+      "url": "https://www.storagereview.com/news/nvidia-nvhbm-moves-the-memory-controller-into-the-hbm-stack-with-amazons-trainium4-first-in-line",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Hyperscalers and AI-focused infrastructure operators are increasingly developing proprietary AI accelerators and XPUs to keep pace with large language models and complex reasoning workloads. To address the physical, memory, and networking challenges of deploying proprietary silic",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T16:00:06.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-1jc6ua7",
+      "title": "Issues Stack Up With More HBM Layers",
+      "url": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Hot Chips 2026: Thinner dies, more TSV area, thermal dissipation, and limited manufacturing capacity make HBM scaling much more difficult. The post Issues Stack Up With More HBM Layers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T07:15:08.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "semiconductor",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-12n4z6z",
+      "title": "Agentic AI Success Relies On Excellent Human Scaffolding",
+      "url": "https://semiengineering.com/agentic-ai-success-relies-on-excellent-human-scaffolding/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Before deploying agentic AI into a chip design, engineers must define the domain ontology and agentic harness. Fundamental engines are still crucial. The post Agentic AI Success Relies On Excellent Human Scaffolding appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-27T07:11:19.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1cu9bo1",
+      "title": "Planning Your AI Design Journey: Start With What You’d Lose",
+      "url": "https://semiengineering.com/planning-your-ai-design-journey-start-with-what-youd-lose/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "How to build capability without forcing a disruptive rebuild of workflows that already ship products. The post Planning Your AI Design Journey: Start With What You’d Lose appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T07:09:31.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-mik9gh",
+      "title": "How Cache Coherency Simplifies AI Software",
+      "url": "https://semiengineering.com/how-cache-coherency-simplifies-ai-software/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Designing SoCs to reduce the software required to coordinate increasingly complex systems. The post How Cache Coherency Simplifies AI Software appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T07:08:29.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-10z0ovi",
+      "title": "How Agentic AI Turns IC Engineers Into Architects",
+      "url": "https://semiengineering.com/how-agentic-ai-turns-ic-engineers-into-architects/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Engineers using agents suddenly inherit a set of traditionally managerial responsibilities. The post How Agentic AI Turns IC Engineers Into Architects appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T07:06:31.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-iliak3",
+      "title": "Streamlining 3D-IC Design: Substrate, Finalization, And Tapeout",
+      "url": "https://semiengineering.com/streamlining-3d-ic-design-substrate-finalization-and-tapeout/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Effective substrate implementation is crucial for signal integrity, power delivery, and overall system reliability. The post Streamlining 3D-IC Design: Substrate, Finalization, And Tapeout appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-27T07:04:49.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "semiconductor",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1jz8srm",
+      "title": "From GAA To CFET: Scaling Transistors For The AI Era",
+      "url": "https://semiengineering.com/from-gaa-to-cfet-scaling-transistors-for-the-ai-era/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Backside power delivery and design technology co-optimization help enable the full potential of new transistor structures. The post From GAA To CFET: Scaling Transistors For The AI Era appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T07:03:43.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-15iwkj2",
+      "title": "Full-Fidelity Thermal Simulation at Floorplanning Speed for 2.5D AI Accelerator Packages",
+      "url": "https://semiengineering.com/full-fidelity-thermal-simulation-at-floorplanning-speed-for-2-5d-ai-accelerator-packages/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Manage power density, mitigate hotspot formation, and co-optimize die and package design under increasingly constrained thermal budgets. The post Full-Fidelity Thermal Simulation at Floorplanning Speed for 2.5D AI Accelerator Packages appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T07:03:16.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1brnsld",
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "url": "https://arxiv.org/abs/2608.23640",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subje",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1bromw9",
+      "title": "Evaluating and Preventing Security Smells in AI-Generated Ansible Code",
+      "url": "https://arxiv.org/abs/2608.24962",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.24962v1 Announce Type: new Abstract: AI coding assistants generate Infrastructure as Code, yet no work has examined whether this code meets security requirements. This matters because security smells in infrastructure code propagate to deployed systems, producing infra",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1brp71a",
+      "title": "ARISMA: Guidelines for AI- and LLM-Assisted Systematic Reviews, Scoping Reviews, and Mapping Studies",
+      "url": "https://arxiv.org/abs/2608.25050",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.25050v1 Announce Type: new Abstract: Systematic reviews, scoping reviews, mapping studies, and related evidence syntheses are increasingly difficult to conduct with fully manual workflows as search volumes, update cycles, and synthesis requirements continue to expand. ",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-6v325p",
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/SenteLabsAI/OpenExecutive Comments URL: https://news.ycombinator.com/item?id=49458418 Points: 930 # Comments: 636",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T01:46:22.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-8hyyew",
+      "title": "SK Hynix chipping away at AI memory wall from several angles",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-25T11:33:00.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7.3,
+      "tags": [
+        "sk hynix",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-y7dlam",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-24T16:27:04.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-176f40n",
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
+      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-22T17:01:16.000Z",
+      "fetchedAt": "2026-08-27T23:49:10.207Z",
+      "score": 7,
+      "tags": [
+        "openai",
+        "llm",
+        "python"
       ]
     },
     {
@@ -35,216 +344,6 @@
       ]
     },
     {
-      "id": "sig-1jc6ua7",
-      "title": "Issues Stack Up With More HBM Layers",
-      "url": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Hot Chips 2026: Thinner dies, more TSV area, thermal dissipation, and limited manufacturing capacity make HBM scaling much more difficult. The post Issues Stack Up With More HBM Layers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-27T07:15:08.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "semiconductor",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-12n4z6z",
-      "title": "Agentic AI Success Relies On Excellent Human Scaffolding",
-      "url": "https://semiengineering.com/agentic-ai-success-relies-on-excellent-human-scaffolding/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Before deploying agentic AI into a chip design, engineers must define the domain ontology and agentic harness. Fundamental engines are still crucial. The post Agentic AI Success Relies On Excellent Human Scaffolding appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-27T07:11:19.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1cu9bo1",
-      "title": "Planning Your AI Design Journey: Start With What You’d Lose",
-      "url": "https://semiengineering.com/planning-your-ai-design-journey-start-with-what-youd-lose/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "How to build capability without forcing a disruptive rebuild of workflows that already ship products. The post Planning Your AI Design Journey: Start With What You’d Lose appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T07:09:31.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-mik9gh",
-      "title": "How Cache Coherency Simplifies AI Software",
-      "url": "https://semiengineering.com/how-cache-coherency-simplifies-ai-software/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Designing SoCs to reduce the software required to coordinate increasingly complex systems. The post How Cache Coherency Simplifies AI Software appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T07:08:29.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-10z0ovi",
-      "title": "How Agentic AI Turns IC Engineers Into Architects",
-      "url": "https://semiengineering.com/how-agentic-ai-turns-ic-engineers-into-architects/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Engineers using agents suddenly inherit a set of traditionally managerial responsibilities. The post How Agentic AI Turns IC Engineers Into Architects appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T07:06:31.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-iliak3",
-      "title": "Streamlining 3D-IC Design: Substrate, Finalization, And Tapeout",
-      "url": "https://semiengineering.com/streamlining-3d-ic-design-substrate-finalization-and-tapeout/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Effective substrate implementation is crucial for signal integrity, power delivery, and overall system reliability. The post Streamlining 3D-IC Design: Substrate, Finalization, And Tapeout appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-27T07:04:49.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1jz8srm",
-      "title": "From GAA To CFET: Scaling Transistors For The AI Era",
-      "url": "https://semiengineering.com/from-gaa-to-cfet-scaling-transistors-for-the-ai-era/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Backside power delivery and design technology co-optimization help enable the full potential of new transistor structures. The post From GAA To CFET: Scaling Transistors For The AI Era appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T07:03:43.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-15iwkj2",
-      "title": "Full-Fidelity Thermal Simulation at Floorplanning Speed for 2.5D AI Accelerator Packages",
-      "url": "https://semiengineering.com/full-fidelity-thermal-simulation-at-floorplanning-speed-for-2-5d-ai-accelerator-packages/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Manage power density, mitigate hotspot formation, and co-optimize die and package design under increasingly constrained thermal budgets. The post Full-Fidelity Thermal Simulation at Floorplanning Speed for 2.5D AI Accelerator Packages appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T07:03:16.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1brnsld",
-      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
-      "url": "https://arxiv.org/abs/2608.23640",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subje",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T04:00:00.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.7,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1bromw9",
-      "title": "Evaluating and Preventing Security Smells in AI-Generated Ansible Code",
-      "url": "https://arxiv.org/abs/2608.24962",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.24962v1 Announce Type: new Abstract: AI coding assistants generate Infrastructure as Code, yet no work has examined whether this code meets security requirements. This matters because security smells in infrastructure code propagate to deployed systems, producing infra",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T04:00:00.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1brp71a",
-      "title": "ARISMA: Guidelines for AI- and LLM-Assisted Systematic Reviews, Scoping Reviews, and Mapping Studies",
-      "url": "https://arxiv.org/abs/2608.25050",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.25050v1 Announce Type: new Abstract: Systematic reviews, scoping reviews, mapping studies, and related evidence syntheses are increasingly difficult to conduct with fully manual workflows as search volumes, update cycles, and synthesis requirements continue to expand. ",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T04:00:00.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-8hyyew",
-      "title": "SK Hynix chipping away at AI memory wall from several angles",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.6,
-      "tags": [
-        "sk hynix",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-y7dlam",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-24T16:27:04.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7.1,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
       "id": "sig-1oex16a",
       "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
       "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
@@ -258,23 +357,6 @@
       "tags": [
         "ai",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-176f40n",
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm emb",
-      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T17:01:16.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7,
-      "tags": [
-        "openai",
-        "llm",
-        "python"
       ]
     },
     {
@@ -449,21 +531,6 @@
       "summary": "4 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-27T02:37:07Z",
-      "fetchedAt": "2026-08-27T03:21:00.769Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-6v325p",
-      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-      "url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "108 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T01:46:22Z",
       "fetchedAt": "2026-08-27T03:21:00.769Z",
       "score": 6.5,
       "tags": [
@@ -2003,39 +2070,6 @@
       "tags": [
         "ai",
         "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1f5h9ng",
-      "title": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
-      "url": "https://www.servethehome.com/160-bay-nvme-ssd-4u-server-shown-at-fms-2026-supermicro-asg-4116s-nu160r/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "On the FMS 2026 show floor, we saw a massive 160-bay NVMe storage server (Supermicro ASG-4116S-NU160R) that can deliver crazy storage density The post 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R appeared first on ServeTheHome .",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-08-14T17:36:39.000Z",
-      "fetchedAt": "2026-08-20T21:45:39.497Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "nvme",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1jmh72x",
-      "title": "Feature Request: Support AGENTS.md",
-      "url": "https://github.com/anthropics/claude-code/issues/6235",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/6235 Comments URL: https://news.ycombinator.com/item?id=49367350 Points: 343 # Comments: 212",
-      "whyItMatters": "Touches claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-19T21:19:50.000Z",
-      "fetchedAt": "2026-08-20T20:48:40.731Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "github"
       ]
     }
   ]
