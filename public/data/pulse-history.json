@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T09:19:39.468Z",
+  "updatedAt": "2026-08-29T14:33:14.189Z",
   "signals": [
     {
       "id": "sig-teik8i",
@@ -10,7 +10,7 @@
       "summary": "Kioxia and Sandisk outlined a joint capital investment plan totaling over $31 billion (approximately 5 trillion yen) through 2032 to expand advanced 3D NAND flash memory production in Japan. The planned deployment of capital is contingent on Japanese government subsidies and buil",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T16:02:14.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,7 +29,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
       "score": 10,
       "tags": [
         "nand",
@@ -46,8 +46,8 @@
       "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 9.6,
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 9.5,
       "tags": [
         "pcie",
         "gen5"
@@ -62,8 +62,8 @@
       "summary": "Hot Chips AI HW wave; HBM vs HBC; capacity buildout; Infineon's latest buy; advanced packaging enablers; foundry report; ASIC security threats; IC tariffs; executive changes; Nvidia, Synopsys earnings; dependence on Taiwan; wafer-scale 2D semiconductors. The post Chip Industry We",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-28T07:01:37.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 8.3,
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "hbm",
@@ -72,15 +72,15 @@
     },
     {
       "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia (Shell) — trending new repo",
+      "title": "Nanako0129/sepia — trending new repo",
       "url": "https://github.com/Nanako0129/sepia",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). · ★ 538",
+      "summary": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). · ★ 572",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 8.2,
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "claude code",
@@ -96,13 +96,236 @@
       "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Reh",
       "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-27T22:50:25.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 8,
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 7.9,
       "tags": [
         "coding agent",
         "claude code",
         "claude",
         "anthropic"
+      ]
+    },
+    {
+      "id": "sig-8hyyew",
+      "title": "SK Hynix chipping away at AI memory wall from several angles",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-25T11:33:00.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 7,
+      "tags": [
+        "sk hynix",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-y7dlam",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-24T16:27:04.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1gnm3jn",
+      "title": "IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment",
+      "url": "https://www.storagereview.com/news/ibm-ds8000-release-10-2-brings-fcm5-in-edsff-doubled-back-end-throughput-and-automated-ransomware-containment",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "IBM has announced the IBM Storage DS8000 Release 10.2, an update to its flagship enterprise storage platform tailored for IBM Z, IBM LinuxONE, and high-performance, mission-critical environments. The release targets large-scale enterprise demands by focusing on increased drive de",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-27T16:24:22.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.7,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-2jyh1t",
+      "title": "Oxmiq Labs HBF in AI Compute at Hot Chips 2026",
+      "url": "https://www.servethehome.com/oxmiq-labs-hbf-in-ai-compute-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At Hot Chips 2026, Oxmiq Labs went into an analysis of HBF versus HBM in AI compute and where the buzzworthy HBF fits in the ecosystem The post Oxmiq Labs HBF in AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T16:13:39.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-r92juc",
+      "title": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon’s Trainium4 First in Line",
+      "url": "https://www.storagereview.com/news/nvidia-nvhbm-moves-the-memory-controller-into-the-hbm-stack-with-amazons-trainium4-first-in-line",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Hyperscalers and AI-focused infrastructure operators are increasingly developing proprietary AI accelerators and XPUs to keep pace with large language models and complex reasoning workloads. To address the physical, memory, and networking challenges of deploying proprietary silic",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T16:00:06.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-1jc6ua7",
+      "title": "Issues Stack Up With More HBM Layers",
+      "url": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Hot Chips 2026: Thinner dies, more TSV area, thermal dissipation, and limited manufacturing capacity make HBM scaling much more difficult. The post Issues Stack Up With More HBM Layers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-27T07:15:08.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-12n4z6z",
+      "title": "Agentic AI Success Relies On Excellent Human Scaffolding",
+      "url": "https://semiengineering.com/agentic-ai-success-relies-on-excellent-human-scaffolding/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Before deploying agentic AI into a chip design, engineers must define the domain ontology and agentic harness. Fundamental engines are still crucial. The post Agentic AI Success Relies On Excellent Human Scaffolding appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-08-27T07:11:19.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1awk293",
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "url": "https://github.com/kingroryg/turbokv",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "136 points on Hacker News",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-29T02:23:37Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.2,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1jpipdr",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "154 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-29T01:24:13Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.1,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-8p9q7k",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "200 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-28T23:27:45Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6.1,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-12crori",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing eviden",
+      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-28T22:12:02.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1oex16a",
+      "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+      "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator The post OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-26T00:45:45.000Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-13icc1t",
+      "title": "amosblomqvist/learn (TypeScript) — trending new repo",
+      "url": "https://github.com/amosblomqvist/learn",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "My AI learning system. · ★ 717",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-24T16:45:07Z",
+      "fetchedAt": "2026-08-29T14:33:14.189Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -122,152 +345,6 @@
       ]
     },
     {
-      "id": "sig-8hyyew",
-      "title": "SK Hynix chipping away at AI memory wall from several angles",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 7,
-      "tags": [
-        "sk hynix",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-y7dlam",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-24T16:27:04.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1gnm3jn",
-      "title": "IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment",
-      "url": "https://www.storagereview.com/news/ibm-ds8000-release-10-2-brings-fcm5-in-edsff-doubled-back-end-throughput-and-automated-ransomware-containment",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "IBM has announced the IBM Storage DS8000 Release 10.2, an update to its flagship enterprise storage platform tailored for IBM Z, IBM LinuxONE, and high-performance, mission-critical environments. The release targets large-scale enterprise demands by focusing on increased drive de",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-27T16:24:22.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.9,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-2jyh1t",
-      "title": "Oxmiq Labs HBF in AI Compute at Hot Chips 2026",
-      "url": "https://www.servethehome.com/oxmiq-labs-hbf-in-ai-compute-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At Hot Chips 2026, Oxmiq Labs went into an analysis of HBF versus HBM in AI compute and where the buzzworthy HBF fits in the ecosystem The post Oxmiq Labs HBF in AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-27T16:13:39.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-r92juc",
-      "title": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon’s Trainium4 First in Line",
-      "url": "https://www.storagereview.com/news/nvidia-nvhbm-moves-the-memory-controller-into-the-hbm-stack-with-amazons-trainium4-first-in-line",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Hyperscalers and AI-focused infrastructure operators are increasingly developing proprietary AI accelerators and XPUs to keep pace with large language models and complex reasoning workloads. To address the physical, memory, and networking challenges of deploying proprietary silic",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-27T16:00:06.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1jc6ua7",
-      "title": "Issues Stack Up With More HBM Layers",
-      "url": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Hot Chips 2026: Thinner dies, more TSV area, thermal dissipation, and limited manufacturing capacity make HBM scaling much more difficult. The post Issues Stack Up With More HBM Layers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-27T07:15:08.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.6,
-      "tags": [
-        "semiconductor",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-12n4z6z",
-      "title": "Agentic AI Success Relies On Excellent Human Scaffolding",
-      "url": "https://semiengineering.com/agentic-ai-success-relies-on-excellent-human-scaffolding/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Before deploying agentic AI into a chip design, engineers must define the domain ontology and agentic harness. Fundamental engines are still crucial. The post Agentic AI Success Relies On Excellent Human Scaffolding appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-27T07:11:19.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1awk293",
-      "title": "TurboKV: Insanely fast Rust key-value store",
-      "url": "https://github.com/kingroryg/turbokv",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "99 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-29T02:23:37Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.3,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
       "id": "sig-jpwvjz",
       "title": "Kumander Linux – A Linux Distro with a Windows 7 Desktop",
       "url": "https://www.kumander.org/",
@@ -280,51 +357,6 @@
       "score": 6.3,
       "tags": [
         "linux"
-      ]
-    },
-    {
-      "id": "sig-1jpipdr",
-      "title": "StemDeck, a free, open-source and local AI stem separator",
-      "url": "https://github.com/stemdeckapp/stemdeck",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "92 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-29T01:24:13Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-8p9q7k",
-      "title": "I accidentally turned LLM memory into program analysis",
-      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "139 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-28T23:27:45Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.2,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-12crori",
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing eviden",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-28T22:12:02.000Z",
-      "fetchedAt": "2026-08-29T09:19:39.468Z",
-      "score": 6.2,
-      "tags": [
-        "security"
       ]
     },
     {
@@ -633,22 +665,6 @@
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1oex16a",
-      "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
-      "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator The post OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T00:45:45.000Z",
-      "fetchedAt": "2026-08-27T14:20:09.901Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai"
       ]
     },
     {
@@ -2063,25 +2079,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1h4y72t",
-      "title": "ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review",
-      "url": "https://www.servethehome.com/adt-r27a-bk3-edsff-e1-s-and-e3-s-to-pcie-slot-review/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We tested the ADT R27A-BK3 which allows you to mount a PCIe Gen5 E1.S or E3.S EDSFF SSD into a PCIe card slot The post ADT R27A-BK3 EDSFF E1.S and E3.S to PCIe Slot Review appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-16T19:00:09.000Z",
-      "fetchedAt": "2026-08-22T13:37:30.216Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "pcie",
-        "gen5",
-        "e1.s",
-        "e3.s"
       ]
     }
   ]
