@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-08-31T15:30:15.837Z",
+  "updatedAt": "2026-08-31T21:01:18.315Z",
   "signals": [
+    {
+      "id": "sig-100t8xp",
+      "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
+      "url": "https://www.storagereview.com/review/solidigm-d7-ps1030-review-3-dwpd-gen5-that-earned-its-keep-in-the-kv-cache-tier",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-31T20:20:44.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "gen5",
+        "endurance",
+        "dwpd",
+        "solidigm"
+      ]
+    },
     {
       "id": "sig-teik8i",
       "title": "Kioxia and Sandisk Plan Over $31 Billion for Japan NAND Fabs Through 2032, With Kitakami Fab3 Targeting Fiscal 2029",
@@ -10,7 +29,7 @@
       "summary": "Kioxia and Sandisk outlined a joint capital investment plan totaling over $31 billion (approximately 5 trillion yen) through 2032 to expand advanced 3D NAND flash memory production in Japan. The planned deployment of capital is contingent on Japanese government subsidies and buil",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T16:02:14.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -29,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -46,8 +65,8 @@
       "summary": "arXiv:2608.27621v1 Announce Type: new Abstract: Background. LLM outputs are highly sensitive to prompt formulation: small wording changes can substantially affect output quality. This matters in software engineering, where prompts guide requirements analysis, code generation, and",
       "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "software engineering",
@@ -63,8 +82,8 @@
       "summary": "arXiv:2608.27703v1 Announce Type: new Abstract: Integrating Large Language Models (LLMs) into the Software Development Life Cycle (SDLC) can improve developer productivity, but it also introduces security, privacy, and compliance risks during model selection. Regulations and fram",
       "whyItMatters": "Touches llm, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 8.7,
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "software engineering",
@@ -81,8 +100,8 @@
       "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 8.1,
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 8,
       "tags": [
         "pcie",
         "gen5"
@@ -97,11 +116,217 @@
       "summary": "At VMware Explore, Broadcom introduced comprehensive security, identity, and open-source supply-chain solutions designed for enterprise AI deployments. As organizations move from static model querying to autonomous agentic architectures, workloads increasingly use emerging commun",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T15:03:07.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 8,
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-8d6l7l",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "313 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T07:49:18Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.6,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-16pl10w",
+      "title": "Trust, But Verify",
+      "url": "https://semiengineering.com/trust-but-verify/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T07:03:35.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1brquki",
+      "title": "Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems",
+      "url": "https://arxiv.org/abs/2608.27502",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2608.27502v1 Announce Type: new Abstract: Ensuring the reliability of deep learning-based image retrieval systems is a software engineering challenge. This paper presents a dual contribution: (1) a literature review of augmentation and generation techniques which resulted i",
+      "whyItMatters": "Touches software engineering, reliability — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.5,
+      "tags": [
+        "software engineering",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1brqxzh",
+      "title": "Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers",
+      "url": "https://arxiv.org/abs/2608.27927",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.27927v1 Announce Type: new Abstract: AI-assisted qualitative data analysis (QDA) offers unprecedented opportunities to streamline software engineering (SE) research, yet uncritical use risks compromising analytical rigor and flooding the field with accelerated producti",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1brrj37",
+      "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
+      "url": "https://arxiv.org/abs/2608.28160",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.28160v1 Announce Type: new Abstract: FPGA-GPP heterogeneous systems combine software flexibility with the performance and energy efficiency of reconfigurable hardware. However, determining which application tasks should execute on the GPP or FPGA requires extensive exp",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-8hyyew",
+      "title": "SK Hynix chipping away at AI memory wall from several angles",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-25T11:33:00.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7,
+      "tags": [
+        "sk hynix",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-y7dlam",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
+      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-24T16:27:04.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1mjoay1",
+      "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
+      "url": "https://semiengineering.com/hybrid-hbm-hbf-architecture-in-llm-inference-university-of-oxford/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at the University of Oxford published a technical paper titled “Hardware-Managed Heterogeneous High-Bandwidth Memory and Flash in LLM Inference Systems.” Abstract Excerpt: “ High-Bandwidth Flash (HBF) offers a denser alternative, providing 16x more capacity per stack ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-08-30T07:06:37.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 6.9,
+      "tags": [
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-15yshtc",
+      "title": "NVIDIA MediaTek Partnership Deepens With $3.5 Billion Investment, NVLink Fusion XPUs, and RTX Spark PCs",
+      "url": "https://www.storagereview.com/news/nvidia-mediatek-partnership-deepens-with-3-5-billion-investment-nvlink-fusion-xpus-and-rtx-spark-pcs",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and MediaTek announced a significant expansion of their strategic collaboration, covering enterprise AI infrastructure, edge computing, client PCs, and automotive platforms. Backing the initiative, NVIDIA has invested $3.5 billion in MediaTek-issued convertible bonds. The ",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T20:58:16.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1i38tf9",
+      "title": "QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU",
+      "url": "https://www.storagereview.com/review/qnap-high-availability-tested-sub-minute-failover-on-a-pair-of-ts-h765eu",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "High availability has moved from a data center luxury to a line item in ordinary resiliency planning. Small businesses and edge sites now run point-of-sale, surveillance, and shared storage that cost money every minute they are down, yet the classic answer, a dual-controller ente",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-08-31T19:51:29.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 6.5,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1k1lo5v",
+      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "url": "https://jobs.ashbyhq.com/workweave",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T18:15:26Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dkdakl",
+      "title": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
+      "url": "https://semiengineering.com/workload-driven-hbf-substrate-for-capacity-scalable-llm-inference-huawei-eth-zurich-hust/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at Huawei, ETH Zürich, and HUST published a technical paper titled “FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration.” Abstract: “LLM inference is increasingly constrained by accelerator memory capacity rather than co",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T17:25:59.000Z",
+      "fetchedAt": "2026-08-31T21:01:18.315Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -121,86 +346,6 @@
       ]
     },
     {
-      "id": "sig-8d6l7l",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "249 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T07:49:18Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.8,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-16pl10w",
-      "title": "Trust, But Verify",
-      "url": "https://semiengineering.com/trust-but-verify/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T07:03:35.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1brquki",
-      "title": "Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems",
-      "url": "https://arxiv.org/abs/2608.27502",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2608.27502v1 Announce Type: new Abstract: Ensuring the reliability of deep learning-based image retrieval systems is a software engineering challenge. This paper presents a dual contribution: (1) a literature review of augmentation and generation techniques which resulted i",
-      "whyItMatters": "Touches software engineering, reliability — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.7,
-      "tags": [
-        "software engineering",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1brqxzh",
-      "title": "Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers",
-      "url": "https://arxiv.org/abs/2608.27927",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.27927v1 Announce Type: new Abstract: AI-assisted qualitative data analysis (QDA) offers unprecedented opportunities to streamline software engineering (SE) research, yet uncritical use risks compromising analytical rigor and flooding the field with accelerated producti",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1brrj37",
-      "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
-      "url": "https://arxiv.org/abs/2608.28160",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.28160v1 Announce Type: new Abstract: FPGA-GPP heterogeneous systems combine software flexibility with the performance and energy efficiency of reconfigurable hardware. However, determining which application tasks should execute on the GPP or FPGA requires extensive exp",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-1nu18su",
       "title": "Claude Session URL appended to commit messages and PR descriptions by default",
       "url": "https://github.com/anthropics/claude-code/issues/66504",
@@ -214,22 +359,6 @@
       "tags": [
         "claude",
         "github"
-      ]
-    },
-    {
-      "id": "sig-1mjoay1",
-      "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
-      "url": "https://semiengineering.com/hybrid-hbm-hbf-architecture-in-llm-inference-university-of-oxford/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the University of Oxford published a technical paper titled “Hardware-Managed Heterogeneous High-Bandwidth Memory and Flash in LLM Inference Systems.” Abstract Excerpt: “ High-Bandwidth Flash (HBF) offers a denser alternative, providing 16x more capacity per stack ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-30T07:06:37.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7.1,
-      "tags": [
-        "llm",
-        "hbm"
       ]
     },
     {
@@ -264,57 +393,6 @@
         "claude code",
         "claude",
         "python"
-      ]
-    },
-    {
-      "id": "sig-8hyyew",
-      "title": "SK Hynix chipping away at AI memory wall from several angles",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7,
-      "tags": [
-        "sk hynix",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-y7dlam",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
-      "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-24T16:27:04.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-08-31T15:30:15.837Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
       ]
     },
     {
@@ -2202,89 +2280,6 @@
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1veq0bv",
-      "title": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
-      "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "At Hot Chips 2026, d-Matrix showed off its Raptor 3D-DRAM accelerator for AI breaking free of using HBM for memory by stacking DRAM and logic The post d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-23T22:14:59.000Z",
-      "fetchedAt": "2026-08-24T19:35:50.808Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "dram",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-rl1d9f",
-      "title": "SK hynix HBM Packaging at Hot Chips 2026",
-      "url": "https://www.servethehome.com/sk-hynix-hbm-packaging-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At Hot Chips 2026 SK hynix presented some of the challenges around HBM and packaging the memory for AI accelerators The post SK hynix HBM Packaging at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-08-23T20:40:15.000Z",
-      "fetchedAt": "2026-08-24T19:02:22.627Z",
-      "score": 9.9,
-      "tags": [
-        "sk hynix",
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-16ccf50",
-      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
-      "url": "https://ericpardee.github.io/fire-hd-ownership/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://ericpardee.github.io/fire-hd-ownership/ Comments URL: https://news.ycombinator.com/item?id=49409073 Points: 3 # Comments: 0",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-23T14:23:09.000Z",
-      "fetchedAt": "2026-08-24T19:02:22.627Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1vs946d",
-      "title": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
-      "url": "https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At Hot Chips 2026, Micron discussed how memory architectures are evolving for AI and some of the current packaging opportunities The post Micron Evolving Memory Architectures for AI at Hot Chips 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Touches micron, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-23T17:55:32.000Z",
-      "fetchedAt": "2026-08-24T18:16:18.508Z",
-      "score": 8.3,
-      "tags": [
-        "micron",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-xi0ca0",
-      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-      "url": "https://twitter.com/argofowl/status/2091150597374537729",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://twitter.com/argofowl/status/2091150597374537729 Comments URL: https://news.ycombinator.com/item?id=49401549 Points: 196 # Comments: 175",
-      "whyItMatters": "Touches claude code, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-22T16:58:49.000Z",
-      "fetchedAt": "2026-08-24T18:16:18.508Z",
-      "score": 7.6,
-      "tags": [
-        "claude code",
-        "claude",
-        "anthropic"
       ]
     }
   ]
