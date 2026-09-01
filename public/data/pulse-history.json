@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T10:22:34.934Z",
+  "updatedAt": "2026-09-01T15:07:01.099Z",
   "signals": [
     {
       "id": "sig-100t8xp",
@@ -10,8 +10,8 @@
       "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-31T20:20:44.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 9.6,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 9.5,
       "tags": [
         "pcie",
         "gen5",
@@ -29,7 +29,7 @@
       "summary": "Kioxia and Sandisk outlined a joint capital investment plan totaling over $31 billion (approximately 5 trillion yen) through 2032 to expand advanced 3D NAND flash memory production in Japan. The planned deployment of capital is contingent on Japanese government subsidies and buil",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T16:02:14.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -65,8 +65,8 @@
       "summary": "arXiv:2608.28708v1 Announce Type: new Abstract: Prospective silent trials provide an important bridge between retrospective validation of artificial intelligence (AI) models and their use in clinical care by evaluating model performance and operational reliability on live clinica",
       "whyItMatters": "Touches ai, performance, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "performance",
@@ -82,12 +82,44 @@
       "summary": "arXiv:2608.29204v1 Announce Type: new Abstract: Generative AI-based software engineering agents are becoming routine contributors to real-world software projects. On GitHub, developers can assign tasks to the Copilot cloud agent, which autonomously explores the repository, edits ",
       "whyItMatters": "Touches ai, software engineering, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "software engineering",
         "github"
+      ]
+    },
+    {
+      "id": "sig-1dc6i2u",
+      "title": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
+      "url": "https://www.storagereview.com/news/mlperf-storage-v3-0-877-gib-s-checkpoints-a-cloud-first-and-a-leaderboard-turned-over",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "MLCommons published the MLPerf Storage v3.0 results today, and the round changes not only what the benchmark is but also who leads it. For the first time, the only audited AI storage benchmark covers the full pipeline: training throughput, checkpointing, and two new inference wor",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-01T15:00:00.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-t7sqfo",
+      "title": "MLPerf Storage benchmark updated for modern AI",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/01/mlperf-storage-benchmark-updated-for-modern-ai/5293617",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T14:00:00.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -99,7 +131,7 @@
       "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -115,8 +147,8 @@
       "summary": "arXiv:2608.30509v1 Announce Type: new Abstract: Large language model (LLM) inference exhibits substantial variability across adaptation modes, context lengths, and request concurrency, creating challenges for maintaining high utilization, memory efficiency, and scalable performan",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -131,27 +163,11 @@
       "summary": "At VMware Explore, Broadcom introduced comprehensive security, identity, and open-source supply-chain solutions designed for enterprise AI deployments. As organizations move from static model querying to autonomous agentic architectures, workloads increasingly use emerging commun",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T15:03:07.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-8d6l7l",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/ Comments URL: https://news.ycombinator.com/item?id=49506819 Points: 370 # Comments: 116",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T07:49:18.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 7.3,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -163,11 +179,81 @@
       "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T07:03:35.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-8eulh0",
+      "title": "Nanako0129/sepia — trending new repo",
+      "url": "https://github.com/Nanako0129/sepia",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-vw7esr",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Reh",
+      "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T22:50:25.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7,
+      "tags": [
+        "coding agent",
+        "claude code",
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-yopjap",
+      "title": "hkqr/my-free-code (Python) — trending new repo",
+      "url": "https://github.com/hkqr/my-free-code",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 617",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T17:59:23Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1lv60a6",
+      "title": "damejan80/tokentab (Python) — trending new repo",
+      "url": "https://github.com/damejan80/tokentab",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 982",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-27T14:16:09Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
       ]
     },
     {
@@ -179,11 +265,73 @@
       "summary": "",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
       "score": 7,
       "tags": [
         "sk hynix",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-3f0roz",
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are ",
+      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-01T14:59:18.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 6.5,
+      "tags": [
+        "python"
+      ]
+    },
+    {
+      "id": "sig-o0ovbf",
+      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-01T12:59:00.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 6.4,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1wv6cxu",
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/ankidroid/Anki-Android/issues/21656 Comments URL: https://news.ycombinator.com/item?id=49520022 Points: 400 # Comments: 97",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-01T10:11:02.000Z",
+      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "score": 6.4,
+      "tags": [
+        "github"
       ]
     },
     {
@@ -202,23 +350,6 @@
         "openai",
         "llm",
         "python"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-09-01T10:22:34.934Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
       ]
     },
     {
@@ -325,58 +456,6 @@
       "score": 6.3,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia — trending new repo",
-      "url": "https://github.com/Nanako0129/sepia",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-yopjap",
-      "title": "hkqr/my-free-code (Python) — trending new repo",
-      "url": "https://github.com/hkqr/my-free-code",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 616",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T17:59:23Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1lv60a6",
-      "title": "damejan80/tokentab (Python) — trending new repo",
-      "url": "https://github.com/damejan80/tokentab",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 743",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-27T14:16:09Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
       ]
     },
     {
@@ -2197,36 +2276,6 @@
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-tsqzne",
-      "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
-      "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "14 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T12:33:00Z",
-      "fetchedAt": "2026-08-25T13:13:14.639Z",
-      "score": 6.5,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-yjhsfy",
-      "title": "Research Bits: Aug. 25",
-      "url": "https://semiengineering.com/research-bits-aug-25/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Bacterial transistors; forgetful antiferroelectrics; high-entropy mixing. The post Research Bits: Aug. 25 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-25T07:01:30.000Z",
-      "fetchedAt": "2026-08-25T13:13:14.639Z",
-      "score": 6.3,
-      "tags": [
-        "semiconductor"
       ]
     }
   ]
