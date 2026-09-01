@@ -1,25 +1,6 @@
 {
-  "updatedAt": "2026-09-01T15:07:01.099Z",
+  "updatedAt": "2026-09-01T18:25:03.279Z",
   "signals": [
-    {
-      "id": "sig-100t8xp",
-      "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
-      "url": "https://www.storagereview.com/review/solidigm-d7-ps1030-review-3-dwpd-gen5-that-earned-its-keep-in-the-kv-cache-tier",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-31T20:20:44.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 9.5,
-      "tags": [
-        "pcie",
-        "gen5",
-        "endurance",
-        "dwpd",
-        "solidigm"
-      ]
-    },
     {
       "id": "sig-teik8i",
       "title": "Kioxia and Sandisk Plan Over $31 Billion for Japan NAND Fabs Through 2032, With Kitakami Fab3 Targeting Fiscal 2029",
@@ -29,7 +10,7 @@
       "summary": "Kioxia and Sandisk outlined a joint capital investment plan totaling over $31 billion (approximately 5 trillion yen) through 2032 to expand advanced 3D NAND flash memory production in Japan. The planned deployment of capital is contingent on Japanese government subsidies and buil",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T16:02:14.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -48,12 +29,48 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-100t8xp",
+      "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
+      "url": "https://www.storagereview.com/review/solidigm-d7-ps1030-review-3-dwpd-gen5-that-earned-its-keep-in-the-kv-cache-tier",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-31T20:20:44.000Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 9.4,
+      "tags": [
+        "pcie",
+        "gen5",
+        "endurance",
+        "dwpd",
+        "solidigm"
+      ]
+    },
+    {
+      "id": "sig-anwxc8",
+      "title": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
+      "url": "https://www.storagereview.com/news/vast-data-crowdstrike-integration-goes-live-native-falcon-sensor-now-next-gen-siem-and-aidr-in-preview",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "VAST Data and CrowdStrike are turning the AI security partnership they announced at VAST Forward in February into a shipping product, detailing a multi-layered integration that embeds enterprise-grade cybersecurity directly into AI storage infrastructure, data pipelines, and prod",
+      "whyItMatters": "Touches ai, storage, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-01T15:37:31.000Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "storage",
+        "security"
       ]
     },
     {
@@ -65,8 +82,8 @@
       "summary": "arXiv:2608.28708v1 Announce Type: new Abstract: Prospective silent trials provide an important bridge between retrospective validation of artificial intelligence (AI) models and their use in clinical care by evaluating model performance and operational reliability on live clinica",
       "whyItMatters": "Touches ai, performance, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "performance",
@@ -82,12 +99,28 @@
       "summary": "arXiv:2608.29204v1 Announce Type: new Abstract: Generative AI-based software engineering agents are becoming routine contributors to real-world software projects. On GitHub, developers can assign tasks to the Copilot cloud agent, which autonomously explores the repository, edits ",
       "whyItMatters": "Touches ai, software engineering, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "software engineering",
         "github"
+      ]
+    },
+    {
+      "id": "sig-gy7we2",
+      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
+      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-28T19:13:57.000Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen5"
       ]
     },
     {
@@ -99,8 +132,8 @@
       "summary": "MLCommons published the MLPerf Storage v3.0 results today, and the round changes not only what the benchmark is but also who leads it. For the first time, the only audited AI storage benchmark covers the full pipeline: training throughput, checkpointing, and two new inference wor",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-01T15:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 8,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "storage"
@@ -115,27 +148,11 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T14:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 8,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-gy7we2",
-      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
-      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
       ]
     },
     {
@@ -147,8 +164,8 @@
       "summary": "arXiv:2608.30509v1 Announce Type: new Abstract: Large language model (LLM) inference exhibits substantial variability across adaptation modes, context lengths, and request concurrency, creating challenges for maintaining high utilization, memory efficiency, and scalable performan",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -163,8 +180,8 @@
       "summary": "At VMware Explore, Broadcom introduced comprehensive security, identity, and open-source supply-chain solutions designed for enterprise AI deployments. As organizations move from static model querying to autonomous agentic architectures, workloads increasingly use emerging commun",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T15:03:07.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "security"
@@ -179,8 +196,8 @@
       "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T07:03:35.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -188,19 +205,20 @@
     },
     {
       "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia — trending new repo",
+      "title": "Nanako0129/sepia (Python) — trending new repo",
       "url": "https://github.com/Nanako0129/sepia",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
       "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "ai",
         "claude code",
-        "claude"
+        "claude",
+        "python"
       ]
     },
     {
@@ -212,7 +230,7 @@
       "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Reh",
       "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-27T22:50:25.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "coding agent",
@@ -230,7 +248,7 @@
       "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 617",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-27T17:59:23Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "ai",
@@ -245,10 +263,10 @@
       "url": "https://github.com/damejan80/tokentab",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 982",
+      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 1096",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-08-27T14:16:09Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -265,7 +283,7 @@
       "summary": "",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "sk hynix",
@@ -281,12 +299,42 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
       "score": 7,
       "tags": [
         "ai",
         "github",
         "security"
+      ]
+    },
+    {
+      "id": "sig-13sa4vh",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "111 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T17:53:53Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 6.5,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1x2jmqa",
+      "title": "Quoting Tarn Adams",
+      "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T17:01:11.000Z",
+      "fetchedAt": "2026-09-01T18:25:03.279Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -2244,38 +2292,6 @@
       "score": 7.4,
       "tags": [
         "cxl"
-      ]
-    },
-    {
-      "id": "sig-1s3cjnc",
-      "title": "Anthropic tells staff to work from home due to possible security team strike",
-      "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "96 points on Hacker News",
-      "whyItMatters": "Touches anthropic, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T14:00:27Z",
-      "fetchedAt": "2026-08-25T18:14:57.150Z",
-      "score": 7.9,
-      "tags": [
-        "anthropic",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-i6zk68",
-      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "589 points on Hacker News",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T13:01:22Z",
-      "fetchedAt": "2026-08-25T17:37:44.430Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "performance"
       ]
     }
   ]
