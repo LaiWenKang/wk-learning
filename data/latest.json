@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:32:22.887Z",
+  "generatedAt": "2026-09-01T10:22:34.934Z",
   "signals": [
     {
       "id": "sig-100t8xp",
@@ -10,8 +10,8 @@
       "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-31T20:20:44.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 9.7,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 9.6,
       "tags": [
         "pcie",
         "gen5",
@@ -29,7 +29,7 @@
       "summary": "Kioxia and Sandisk outlined a joint capital investment plan totaling over $31 billion (approximately 5 trillion yen) through 2032 to expand advanced 3D NAND flash memory production in Japan. The planned deployment of capital is contingent on Japanese government subsidies and buil",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T16:02:14.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -65,8 +65,8 @@
       "summary": "arXiv:2608.28708v1 Announce Type: new Abstract: Prospective silent trials provide an important bridge between retrospective validation of artificial intelligence (AI) models and their use in clinical care by evaluating model performance and operational reliability on live clinica",
       "whyItMatters": "Touches ai, performance, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 9,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "performance",
@@ -82,28 +82,12 @@
       "summary": "arXiv:2608.29204v1 Announce Type: new Abstract: Generative AI-based software engineering agents are becoming routine contributors to real-world software projects. On GitHub, developers can assign tasks to the Copilot cloud agent, which autonomously explores the repository, edits ",
       "whyItMatters": "Touches ai, software engineering, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 9,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "software engineering",
         "github"
-      ]
-    },
-    {
-      "id": "sig-1bsavj7",
-      "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
-      "url": "https://arxiv.org/abs/2608.30509",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.30509v1 Announce Type: new Abstract: Large language model (LLM) inference exhibits substantial variability across adaptation modes, context lengths, and request concurrency, creating challenges for maintaining high utilization, memory efficiency, and scalable performan",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 8,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -115,11 +99,27 @@
       "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-1bsavj7",
+      "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
+      "url": "https://arxiv.org/abs/2608.30509",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2608.30509v1 Announce Type: new Abstract: Large language model (LLM) inference exhibits substantial variability across adaptation modes, context lengths, and request concurrency, creating challenges for maintaining high utilization, memory efficiency, and scalable performan",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T04:00:00.000Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -131,11 +131,27 @@
       "summary": "At VMware Explore, Broadcom introduced comprehensive security, identity, and open-source supply-chain solutions designed for enterprise AI deployments. As organizations move from static model querying to autonomous agentic architectures, workloads increasingly use emerging commun",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T15:03:07.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-8d6l7l",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/ Comments URL: https://news.ycombinator.com/item?id=49506819 Points: 370 # Comments: 116",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T07:49:18.000Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 7.3,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -147,81 +163,11 @@
       "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T07:03:35.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia — trending new repo",
-      "url": "https://github.com/Nanako0129/sepia",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-vw7esr",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Reh",
-      "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T22:50:25.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "coding agent",
-        "claude code",
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-yopjap",
-      "title": "hkqr/my-free-code (Python) — trending new repo",
-      "url": "https://github.com/hkqr/my-free-code",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 616",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T17:59:23Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1lv60a6",
-      "title": "damejan80/tokentab (Python) — trending new repo",
-      "url": "https://github.com/damejan80/tokentab",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 743",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-27T14:16:09Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
       ]
     },
     {
@@ -233,7 +179,7 @@
       "summary": "",
       "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 7,
       "tags": [
         "sk hynix",
@@ -249,7 +195,7 @@
       "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic pr",
       "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-24T16:27:04.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 7,
       "tags": [
         "anthropic",
@@ -267,7 +213,7 @@
       "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
       "score": 7,
       "tags": [
         "ai",
@@ -284,11 +230,41 @@
       "summary": "Researchers at the University of Oxford published a technical paper titled “Hardware-Managed Heterogeneous High-Bandwidth Memory and Flash in LLM Inference Systems.” Abstract Excerpt: “ High-Bandwidth Flash (HBF) offers a denser alternative, providing 16x more capacity per stack ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-08-30T07:06:37.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 6.7,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.6,
       "tags": [
         "llm",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-kzxm7n",
+      "title": "Research Bits: Sep. 1",
+      "url": "https://semiengineering.com/research-bits-sep-1/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Gallium nitride: High voltage; low resistance; diamond interposer. The post Research Bits: Sep. 1 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-01T07:01:15.000Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-16rkooh",
+      "title": "Chip Industry Technical Paper Roundup: Sep. 1",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sep-1/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Wafer-scale optical interconnects for LLM training; Rowhammer-based inference attacks; 3D-IC test cases; liquid cooling for 2.5D/3D packages; wafer-scale 2D semi growth; DL-based parameter extraction for 2D transistors; and chip-placement optimization. The post Chip Industry Tech",
+      "whyItMatters": "Touches llm — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-01T07:01:14.000Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -300,8 +276,8 @@
       "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.3,
       "tags": [
         "llm"
       ]
@@ -315,8 +291,8 @@
       "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein's framework of information-seeking motives, we propose that",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -330,10 +306,25 @@
       "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose combining these compleme",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T05:32:22.887Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.3,
       "tags": [
         "llm"
+      ]
+    },
+    {
+      "id": "sig-1brqtwt",
+      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+      "url": "https://arxiv.org/abs/2608.27477",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchmarks such as AndroidWorld and MobileWorld provide strong foundations for mobile a",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T04:00:00.000Z",
+      "fetchedAt": "2026-09-01T10:22:34.934Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     }
   ]
