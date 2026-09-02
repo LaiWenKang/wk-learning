@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-09-02T05:41:39.648Z",
+  "updatedAt": "2026-09-02T09:56:39.199Z",
   "signals": [
+    {
+      "id": "sig-si3tm9",
+      "title": "Sandisk and Kioxia have yen for new NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-28T14:10:00.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "kioxia",
+        "sandisk"
+      ]
+    },
     {
       "id": "sig-100t8xp",
       "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
@@ -10,14 +27,47 @@
       "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-31T20:20:44.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 9.1,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 9,
       "tags": [
         "pcie",
         "gen5",
         "endurance",
         "dwpd",
         "solidigm"
+      ]
+    },
+    {
+      "id": "sig-doi0o3",
+      "title": "When Edge AI Lies: Fault Injection and False State in Live Perception Pipelines",
+      "url": "https://semiengineering.com/fault-injection-and-false-state-in-live-perception-pipelines/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "In edge AI, the most dangerous failure may not be a system that stops working, but one that continues operating while quietly accepting the wrong version of reality. The post When Edge AI Lies: Fault Injection and False State in Live Perception Pipelines appeared first on Semicon",
+      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
+      "publishedAt": "2026-09-02T07:02:10.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 8.9,
+      "tags": [
+        "fault injection",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1lkv1jz",
+      "title": "Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough",
+      "url": "https://semiengineering.com/security-sign-off-is-coming-for-chips-but-standards-may-not-be-enough/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI, post-quantum cryptography, chiplets, and custom silicon expand the attack surface, semiconductor security is shifting from isolated safeguards to full-stack verification. The post Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough appeared first on Sem",
+      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:01:38.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "security"
       ]
     },
     {
@@ -29,12 +79,108 @@
       "summary": "VAST Data and CrowdStrike are turning the AI security partnership they announced at VAST Forward in February into a shipping product, detailing a multi-layered integration that embeds enterprise-grade cybersecurity directly into AI storage infrastructure, data pipelines, and prod",
       "whyItMatters": "Touches ai, storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-01T15:37:31.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "storage",
         "security"
+      ]
+    },
+    {
+      "id": "sig-gy7we2",
+      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
+      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-28T19:13:57.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-18kc2e",
+      "title": "EBook – Accelerate Silicon Design for Physical AI (Part 1)",
+      "url": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:04:59.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-djfdls",
+      "title": "Security In The Era Of Quantum Computing",
+      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:02:11.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.9,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-4g6tec",
+      "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
+      "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Engineering methodologies are evolving toward more integrated and intelligent approaches across three interconnected domains: optimization, automation, and AI. The post The Evolution Of Intelligent Systems: From Optimization To Automation to AI appeared first on Semiconductor Eng",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:01:59.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-lffdof",
+      "title": "Blog Review: Sept. 2",
+      "url": "https://semiengineering.com/blog-review-sept-2-3/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap. The post Blog Review: Sept. 2 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:01:39.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-jkurvr",
+      "title": "Multi-Die Design for Automotive Applications",
+      "url": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multi-die design is becoming indispensable for automotive applications, such as ADAS and IVI, addressing demands for reliability and safety. The post Multi-Die Design for Automotive Applications appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:01:17.000Z",
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.9,
+      "tags": [
+        "semiconductor",
+        "reliability"
       ]
     },
     {
@@ -46,8 +192,8 @@
       "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and th",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
@@ -62,8 +208,8 @@
       "summary": "arXiv:2609.00076v1 Announce Type: new Abstract: Clinical artificial intelligence is increasingly embedded in real-world care, yet existing safety mechanisms are poorly suited to reconstructing and learning from individual AI-related errors and near-misses. Aggregate model monitor",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "embedded"
@@ -78,8 +224,8 @@
       "summary": "arXiv:2609.00252v1 Announce Type: new Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-lev",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "software engineering"
@@ -94,8 +240,8 @@
       "summary": "arXiv:2609.00407v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable efficient scaling of large language model (LLM) inference but suffer from substantial data-movement overhead when deployed on neural processing unit (NPU)-based systems. Near-Data Processing (N",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
@@ -110,8 +256,8 @@
       "summary": "arXiv:2609.00857v1 Announce Type: new Abstract: LLM inference has become an essential service, yet it imposes unprecedented demands on memory bandwidth, computational density, and communication efficiency. While IMC is a promising solution to the memory wall issue, the heterogene",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "communication"
@@ -126,27 +272,11 @@
       "summary": "arXiv:2609.00701v1 Announce Type: cross Abstract: As modern data-centric applications such as neural inference and sensor-edge analytics expand, they increasingly encounter the von Neumann memory wall, suffering from excessive data movement overhead and stringent energy constrain",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "reliability"
-      ]
-    },
-    {
-      "id": "sig-gy7we2",
-      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
-      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
       ]
     },
     {
@@ -158,8 +288,8 @@
       "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T23:57:28.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.7,
       "tags": [
         "claude",
         "anthropic"
@@ -174,8 +304,8 @@
       "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are n",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T19:50:00.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -190,8 +320,8 @@
       "summary": "At VMware Explore 2026, we had the chance to sit down with Stuart McRae, Executive Director of Lenovo’s Enterprise Storage, Software, and Solutions Offering Group. Rather than focusing on a specific product or technology, as we often do, this conversation took a broader view. We ",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T18:28:19.000Z",
-      "fetchedAt": "2026-09-02T05:41:39.648Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-02T09:56:39.199Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "storage"
@@ -327,23 +457,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-si3tm9",
-      "title": "Sandisk and Kioxia have yen for new NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
       ]
     },
     {
@@ -2232,67 +2345,6 @@
       "tags": [
         "ssd",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1obtmda",
-      "title": "My Anti-AI Manifesto",
-      "url": "http://alessandrorosa.altervista.org/pages/my.anti.ai.manifesto.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "5 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T08:47:45Z",
-      "fetchedAt": "2026-08-26T09:50:38.068Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-aca6u2",
-      "title": "Quoting Paul Dix",
-      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because t",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T08:07:55.000Z",
-      "fetchedAt": "2026-08-26T09:50:38.068Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1brnrt6",
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "url": "https://arxiv.org/abs/2608.23568",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchma",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T09:50:38.068Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-gx8t23",
-      "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
-      "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "36 points on Hacker News",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T03:23:50Z",
-      "fetchedAt": "2026-08-26T06:19:25.340Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "claude"
       ]
     }
   ]
