@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-09-02T01:05:22.639Z",
+  "updatedAt": "2026-09-02T05:41:39.648Z",
   "signals": [
-    {
-      "id": "sig-si3tm9",
-      "title": "Sandisk and Kioxia have yen for new NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
-      ]
-    },
     {
       "id": "sig-100t8xp",
       "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
@@ -27,8 +10,8 @@
       "summary": "The Solidigm D7-PS1030 is the mid-endurance arm of the company’s first PCIe 5.0 data center family, pairing the platform it shares with the D7-PS1010 with a 3 DWPD rating and a random write ceiling of up to 800K IOPS, double the 400K of its standard-endurance sibling. The family ",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-08-31T20:20:44.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 9.2,
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 9.1,
       "tags": [
         "pcie",
         "gen5",
@@ -46,12 +29,321 @@
       "summary": "VAST Data and CrowdStrike are turning the AI security partnership they announced at VAST Forward in February into a shipping product, detailing a multi-layered integration that embeds enterprise-grade cybersecurity directly into AI storage infrastructure, data pipelines, and prod",
       "whyItMatters": "Touches ai, storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-01T15:37:31.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "storage",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1x33586",
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "url": "https://arxiv.org/abs/2609.00012",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and th",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x335ds",
+      "title": "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review",
+      "url": "https://arxiv.org/abs/2609.00076",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00076v1 Announce Type: new Abstract: Clinical artificial intelligence is increasingly embedded in real-world care, yet existing safety mechanisms are poorly suited to reconstructing and learning from individual AI-related errors and near-misses. Aggregate model monitor",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-1x3370c",
+      "title": "Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork",
+      "url": "https://arxiv.org/abs/2609.00252",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00252v1 Announce Type: new Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-lev",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1x338ke",
+      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+      "url": "https://arxiv.org/abs/2609.00407",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.00407v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable efficient scaling of large language model (LLM) inference but suffer from substantial data-movement overhead when deployed on neural processing unit (NPU)-based systems. Near-Data Processing (N",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x33c1z",
+      "title": "LLM Inference on IMC-NoC Architecture with Balanced Dataflow and Fine-Grained Parallelism",
+      "url": "https://arxiv.org/abs/2609.00857",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.00857v1 Announce Type: new Abstract: LLM inference has become an essential service, yet it imposes unprecedented demands on memory bandwidth, computational density, and communication efficiency. While IMC is a promising solution to the memory wall issue, the heterogene",
+      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-1x33b2z",
+      "title": "FALCON: Fault-Tolerant Magnetic Tunnel Junction-Based In-Memory Stochastic Architecture for Reliability-Critical Edge AI Applications",
+      "url": "https://arxiv.org/abs/2609.00701",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.00701v1 Announce Type: cross Abstract: As modern data-centric applications such as neural inference and sensor-edge analytics expand, they increasingly encounter the von Neumann memory wall, suffering from excessive data movement overhead and stringent energy constrain",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-gy7we2",
+      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
+      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-08-28T19:13:57.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-i5slnj",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T23:57:28.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7.8,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1a4kqvh",
+      "title": "Fragments: September 1",
+      "url": "https://martinfowler.com/fragments/2026-09-01.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are n",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T19:50:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-pe5wtn",
+      "title": "On the Ground at VMware Explore 2026: How Lenovo Is Partnering with VMware for Turnkey AI and Taming the Memory Crunch",
+      "url": "https://www.storagereview.com/news/on-the-ground-at-vmware-explore-2026-how-lenovo-is-partnering-with-vmware-for-turnkey-ai-and-taming-the-memory-crunch",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "At VMware Explore 2026, we had the chance to sit down with Stuart McRae, Executive Director of Lenovo’s Enterprise Storage, Software, and Solutions Offering Group. Rather than focusing on a specific product or technology, as we often do, this conversation took a broader view. We ",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T18:28:19.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1dc6i2u",
+      "title": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
+      "url": "https://www.storagereview.com/news/mlperf-storage-v3-0-877-gib-s-checkpoints-a-cloud-first-and-a-leaderboard-turned-over",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "MLCommons published the MLPerf Storage v3.0 results today, and the round changes not only what the benchmark is but also who leads it. For the first time, the only audited AI storage benchmark covers the full pipeline: training throughput, checkpointing, and two new inference wor",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-01T15:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-8eulh0",
+      "title": "Nanako0129/sepia (Python) — trending new repo",
+      "url": "https://github.com/Nanako0129/sepia",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-yopjap",
+      "title": "hkqr/my-free-code (Python) — trending new repo",
+      "url": "https://github.com/hkqr/my-free-code",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 618",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-27T17:59:23Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1lv60a6",
+      "title": "damejan80/tokentab (Python) — trending new repo",
+      "url": "https://github.com/damejan80/tokentab",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 1140",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-08-27T14:16:09Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1a0n3xs",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-13T16:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-16pl10w",
+      "title": "Trust, But Verify",
+      "url": "https://semiengineering.com/trust-but-verify/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T07:03:35.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x3357a",
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "url": "https://arxiv.org/abs/2609.00003",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00003v1 Announce Type: new Abstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation of semantically rela",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x33589",
+      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+      "url": "https://arxiv.org/abs/2609.00015",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T05:41:39.648Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-si3tm9",
+      "title": "Sandisk and Kioxia have yen for new NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-28T14:10:00.000Z",
+      "fetchedAt": "2026-09-02T01:05:22.639Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "kioxia",
+        "sandisk"
       ]
     },
     {
@@ -89,86 +381,6 @@
       ]
     },
     {
-      "id": "sig-i5slnj",
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T23:57:28.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 8,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-gy7we2",
-      "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
-      "url": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "In our ASRock Rack W890D8-2L2T review, we see how this Intel Xeon 600 hybrid server and workstation platform with lots of PCIe Gen5 performs The post ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-08-28T19:13:57.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-1a4kqvh",
-      "title": "Fragments: September 1",
-      "url": "https://martinfowler.com/fragments/2026-09-01.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are n",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T19:50:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-pe5wtn",
-      "title": "On the Ground at VMware Explore 2026: How Lenovo Is Partnering with VMware for Turnkey AI and Taming the Memory Crunch",
-      "url": "https://www.storagereview.com/news/on-the-ground-at-vmware-explore-2026-how-lenovo-is-partnering-with-vmware-for-turnkey-ai-and-taming-the-memory-crunch",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "At VMware Explore 2026, we had the chance to sit down with Stuart McRae, Executive Director of Lenovo’s Enterprise Storage, Software, and Solutions Offering Group. Rather than focusing on a specific product or technology, as we often do, this conversation took a broader view. We ",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T18:28:19.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1dc6i2u",
-      "title": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
-      "url": "https://www.storagereview.com/news/mlperf-storage-v3-0-877-gib-s-checkpoints-a-cloud-first-and-a-leaderboard-turned-over",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "MLCommons published the MLPerf Storage v3.0 results today, and the round changes not only what the benchmark is but also who leads it. For the first time, the only audited AI storage benchmark covers the full pipeline: training throughput, checkpointing, and two new inference wor",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-01T15:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-t7sqfo",
       "title": "MLPerf Storage benchmark updated for modern AI",
       "url": "https://www.blocksandfiles.com/ai-ml/2026/09/01/mlperf-storage-benchmark-updated-for-modern-ai/5293617",
@@ -201,59 +413,6 @@
       ]
     },
     {
-      "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia (Python) — trending new repo",
-      "url": "https://github.com/Nanako0129/sepia",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-yopjap",
-      "title": "hkqr/my-free-code (Python) — trending new repo",
-      "url": "https://github.com/hkqr/my-free-code",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support · ★ 617",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-27T17:59:23Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1lv60a6",
-      "title": "damejan80/tokentab (Python) — trending new repo",
-      "url": "https://github.com/damejan80/tokentab",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day. · ★ 1136",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-27T14:16:09Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
       "id": "sig-8hyyew",
       "title": "SK Hynix chipping away at AI memory wall from several angles",
       "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
@@ -267,39 +426,6 @@
       "tags": [
         "sk hynix",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1a0n3xs",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about securit",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-13T16:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-16pl10w",
-      "title": "Trust, But Verify",
-      "url": "https://semiengineering.com/trust-but-verify/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted. The post Trust, But Verify appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T07:03:35.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -2167,130 +2293,6 @@
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1brnsjl",
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "url": "https://arxiv.org/abs/2608.23622",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a syste",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T04:11:41.555Z",
-      "score": 6.5,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1brnskh",
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "url": "https://arxiv.org/abs/2608.23631",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T04:11:41.555Z",
-      "score": 6.5,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1brnsle",
-      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
-      "url": "https://arxiv.org/abs/2608.23641",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T04:11:41.555Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1brnslf",
-      "title": "AI Agents Push Humans Out of the Loop",
-      "url": "https://arxiv.org/abs/2608.23642",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI a",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T04:11:41.555Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1brn0ri",
-      "title": "Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era",
-      "url": "https://arxiv.org/abs/2608.22602",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.22602v1 Announce Type: new Abstract: The rapid evolution of machine learning workloads has fundamentally transformed GPU hardware, driving architectures toward Multi-Chip Module (MCM) topologies, asynchronous execution primitives, and persistent, multi-phase kernel beh",
-      "whyItMatters": "Touches ai, machine learning, kernel — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "machine learning",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-1brm6pu",
-      "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
-      "url": "https://arxiv.org/abs/2608.21382",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model's answer is read from generated text or from per-option lik",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1brm7gh",
-      "title": "Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities",
-      "url": "https://arxiv.org/abs/2608.21444",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2608.21444v1 Announce Type: new Abstract: Multi-drone systems are increasingly positioned for safety-critical missions such as search and rescue (SAR) and critical infrastructure monitoring. Yet, real-world adoption remains constrained not only by autonomy performance, but ",
-      "whyItMatters": "Touches ai, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1brm7do",
-      "title": "The Abstention Protocol: RCA for Clos Fabrics",
-      "url": "https://arxiv.org/abs/2608.21412",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.21412v1 Announce Type: new Abstract: Root cause analysis (RCA) in large datacenter networks is challenging because telemetry is noisy, partial, and asynchronous. Score-based approaches degrade under these conditions, often yielding unstable or incorrect attributions. W",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "fetchedAt": "2026-08-26T03:26:57.862Z",
-      "score": 6.8,
-      "tags": [
-        "telemetry"
       ]
     }
   ]
