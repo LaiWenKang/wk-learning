@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T17:55:34.587Z",
+  "updatedAt": "2026-09-02T20:56:00.103Z",
   "signals": [
     {
       "id": "sig-a82owb",
@@ -10,7 +10,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -46,8 +46,8 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "claude code",
@@ -64,8 +64,8 @@
       "summary": "VDURA has completed the deployment of its data platform at New Mexico State University (NMSU), moving the system into full production. The infrastructure is designed to serve the university’s research community with a high-durability, high-throughput storage environment tailored ",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-02T10:00:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "storage",
@@ -81,8 +81,8 @@
       "summary": "In edge AI, the most dangerous failure may not be a system that stops working, but one that continues operating while quietly accepting the wrong version of reality. The post When Edge AI Lies: Fault Injection and False State in Live Perception Pipelines appeared first on Semicon",
       "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
       "publishedAt": "2026-09-02T07:02:10.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 8.6,
       "tags": [
         "fault injection",
         "ai"
@@ -97,8 +97,8 @@
       "summary": "As AI, post-quantum cryptography, chiplets, and custom silicon expand the attack surface, semiconductor security is shifting from isolated safeguards to full-stack verification. The post Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough appeared first on Sem",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T07:01:38.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "semiconductor",
@@ -114,12 +114,220 @@
       "summary": "VAST Data and CrowdStrike are turning the AI security partnership they announced at VAST Forward in February into a shipping product, detailing a multi-layered integration that embeds enterprise-grade cybersecurity directly into AI storage infrastructure, data pipelines, and prod",
       "whyItMatters": "Touches ai, storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-01T15:37:31.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 8.3,
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "storage",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1549cet",
+      "title": "Embedded Rust RTOS vs. C RTOS",
+      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
+      "source": "Hacker News (front page)",
+      "category": "firmware",
+      "summary": "29 points on Hacker News",
+      "whyItMatters": "Touches rust, embedded — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-09-02T18:32:24Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.9,
+      "tags": [
+        "rust",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-kezvmj",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1jdu5up",
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "66 points on Hacker News",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T14:02:35Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-18kc2e",
+      "title": "EBook – Accelerate Silicon Design for Physical AI (Part 1)",
+      "url": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:04:59.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-djfdls",
+      "title": "Security In The Era Of Quantum Computing",
+      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:02:11.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-4g6tec",
+      "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
+      "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Engineering methodologies are evolving toward more integrated and intelligent approaches across three interconnected domains: optimization, automation, and AI. The post The Evolution Of Intelligent Systems: From Optimization To Automation to AI appeared first on Semiconductor Eng",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:01:59.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-lffdof",
+      "title": "Blog Review: Sept. 2",
+      "url": "https://semiengineering.com/blog-review-sept-2-3/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap. The post Blog Review: Sept. 2 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:01:39.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-jkurvr",
+      "title": "Multi-Die Design for Automotive Applications",
+      "url": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multi-die design is becoming indispensable for automotive applications, such as ADAS and IVI, addressing demands for reliability and safety. The post Multi-Die Design for Automotive Applications appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:01:17.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1189kge",
+      "title": "Extending 18A With Significant Power And Performance Gains",
+      "url": "https://semiengineering.com/extending-18a-with-significant-power-and-performance-gains/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "A dual contact architecture with ultra-low-resistance contacts increases drive current and enables higher frequencies at matched capacitance. The post Extending 18A With Significant Power And Performance Gains appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:01:16.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1x33586",
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "url": "https://arxiv.org/abs/2609.00012",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and th",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x335ds",
+      "title": "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review",
+      "url": "https://arxiv.org/abs/2609.00076",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00076v1 Announce Type: new Abstract: Clinical artificial intelligence is increasingly embedded in real-world care, yet existing safety mechanisms are poorly suited to reconstructing and learning from individual AI-related errors and near-misses. Aggregate model monitor",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-1x3370c",
+      "title": "Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork",
+      "url": "https://arxiv.org/abs/2609.00252",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.00252v1 Announce Type: new Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-lev",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1x338ke",
+      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+      "url": "https://arxiv.org/abs/2609.00407",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.00407v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable efficient scaling of large language model (LLM) inference but suffer from substantial data-movement overhead when deployed on neural processing unit (NPU)-based systems. Near-Data Processing (N",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "fetchedAt": "2026-09-02T20:56:00.103Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -139,22 +347,6 @@
       ]
     },
     {
-      "id": "sig-1jdu5up",
-      "title": "WebLLM: high-performance in-browser LLM inference engine",
-      "url": "https://github.com/mlc-ai/web-llm",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "46 points on Hacker News",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T14:02:35Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.9,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-1c07jid",
       "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
       "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
@@ -168,166 +360,6 @@
       "tags": [
         "anthropic",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-18kc2e",
-      "title": "EBook – Accelerate Silicon Design for Physical AI (Part 1)",
-      "url": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:04:59.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-djfdls",
-      "title": "Security In The Era Of Quantum Computing",
-      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:02:11.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-4g6tec",
-      "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
-      "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Engineering methodologies are evolving toward more integrated and intelligent approaches across three interconnected domains: optimization, automation, and AI. The post The Evolution Of Intelligent Systems: From Optimization To Automation to AI appeared first on Semiconductor Eng",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:01:59.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-lffdof",
-      "title": "Blog Review: Sept. 2",
-      "url": "https://semiengineering.com/blog-review-sept-2-3/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap. The post Blog Review: Sept. 2 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:39.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-jkurvr",
-      "title": "Multi-Die Design for Automotive Applications",
-      "url": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multi-die design is becoming indispensable for automotive applications, such as ADAS and IVI, addressing demands for reliability and safety. The post Multi-Die Design for Automotive Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:17.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1189kge",
-      "title": "Extending 18A With Significant Power And Performance Gains",
-      "url": "https://semiengineering.com/extending-18a-with-significant-power-and-performance-gains/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A dual contact architecture with ultra-low-resistance contacts increases drive current and enables higher frequencies at matched capacitance. The post Extending 18A With Significant Power And Performance Gains appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:16.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x33586",
-      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
-      "url": "https://arxiv.org/abs/2609.00012",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and th",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x335ds",
-      "title": "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review",
-      "url": "https://arxiv.org/abs/2609.00076",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00076v1 Announce Type: new Abstract: Clinical artificial intelligence is increasingly embedded in real-world care, yet existing safety mechanisms are poorly suited to reconstructing and learning from individual AI-related errors and near-misses. Aggregate model monitor",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1x3370c",
-      "title": "Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork",
-      "url": "https://arxiv.org/abs/2609.00252",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00252v1 Announce Type: new Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-lev",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1x338ke",
-      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
-      "url": "https://arxiv.org/abs/2609.00407",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.00407v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable efficient scaling of large language model (LLM) inference but suffer from substantial data-movement overhead when deployed on neural processing unit (NPU)-based systems. Near-Data Processing (N",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T17:55:34.587Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -2315,51 +2347,6 @@
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-26T17:40:38.000Z",
       "fetchedAt": "2026-08-26T22:15:57.534Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-tzx94b",
-      "title": "Cerebras CS-4: Three WSE-3 Turbo Wafers, 750 PFLOPS, and a Claimed 30x Over GPU Racks",
-      "url": "https://www.storagereview.com/news/cerebras-cs-4-three-wse-3-turbo-wafers-750-pflops-and-a-claimed-30x-over-gpu-racks",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Cerebras Systems has officially introduced the CS-4, the fourth generation of its wafer-scale AI supercomputing platform, designed for frontier training and high-concurrency inference workloads. The system is engineered around three newly developed Wafer Scale Engine 3 (WSE-3) Tu",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T17:24:15.000Z",
-      "fetchedAt": "2026-08-26T19:11:52.638Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-16xxwax",
-      "title": "The turbulent AI era is here",
-      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "100 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T15:55:15Z",
-      "fetchedAt": "2026-08-26T19:11:52.638Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1f9vcpj",
-      "title": "It’s so hard to finish an idea that is not yours and is just suggested by AI",
-      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "91 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-26T15:30:05Z",
-      "fetchedAt": "2026-08-26T19:11:52.638Z",
       "score": 6.4,
       "tags": [
         "ai"
