@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T20:54:29.255Z",
+  "updatedAt": "2026-09-03T23:11:52.706Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -65,7 +65,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 8.6,
       "tags": [
         "ai",
@@ -82,7 +82,7 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 8.6,
       "tags": [
         "ai",
@@ -99,7 +99,7 @@
       "summary": "arXiv:2609.01861v1 Announce Type: new Abstract: The performance of an LLM agent depends on the scaffold around a frozen model. A common way to improve that scaffold is to use a coding agent as an optimizer: it reads current scores and traces and iteratively edits the source, prod",
       "whyItMatters": "Touches coding agent, llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 8.5,
       "tags": [
         "coding agent",
@@ -116,7 +116,7 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 8.1,
       "tags": [
         "ai",
@@ -134,7 +134,7 @@
       "summary": "VDURA has completed the deployment of its data platform at New Mexico State University (NMSU), moving the system into full production. The infrastructure is designed to serve the university’s research community with a high-durability, high-throughput storage environment tailored ",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-02T10:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 8,
       "tags": [
         "ai",
@@ -143,15 +143,47 @@
       ]
     },
     {
+      "id": "sig-tlbba3",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
+      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T21:03:02.000Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
+      "score": 7.9,
+      "tags": [
+        "openai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1ey3gq1",
+      "title": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "https://thenewstack.io/openai-gpt6-astra-benchmarks/ , image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot... https://venturebeat.com/technology/welcome-to-the-agi-era-op... https://www.theverge.com/ai-artificial-intelligence/988334/o... https://twitter.com/OpenAI",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T18:18:22.000Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
       "id": "sig-nv7in1",
       "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
       "url": "https://news.ycombinator.com/item?id=49551096",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "273 points on Hacker News",
+      "summary": "310 points on Hacker News",
       "whyItMatters": "Touches claude, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T15:07:01Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.8,
       "tags": [
         "claude",
@@ -167,7 +199,7 @@
       "summary": "A methodology for transforming engineering decisions from educated guesses into data-driven choices. The post Intelligent Engineering: From Optimization To AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:08:39.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -183,7 +215,7 @@
       "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:03:07.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.6,
       "tags": [
         "semiconductor",
@@ -199,7 +231,7 @@
       "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:02:30.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.6,
       "tags": [
         "machine learning",
@@ -215,7 +247,7 @@
       "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:01:33.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -231,7 +263,7 @@
       "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applicat",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -247,7 +279,7 @@
       "summary": "arXiv:2609.01769v1 Announce Type: new Abstract: Automated program repair (APR) research has been constrained to design time. Current techniques localize and fix bugs in RTL or HLS designs before a chip reaches production. Once a hardware vulnerability surfaces post-silicon, the p",
       "whyItMatters": "Touches firmware, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.5,
       "tags": [
         "firmware",
@@ -263,7 +295,7 @@
       "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7.3,
       "tags": [
         "ai",
@@ -279,8 +311,8 @@
       "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "github"
@@ -292,10 +324,10 @@
       "url": "https://github.com/2akouwu/reverify",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI. · ★ 737",
+      "summary": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI. · ★ 748",
       "whyItMatters": "Touches ai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-08-31T01:02:18Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
+      "fetchedAt": "2026-09-03T23:11:52.706Z",
       "score": 7,
       "tags": [
         "ai",
