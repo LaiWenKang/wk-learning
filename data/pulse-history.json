@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-09-03T14:36:29.562Z",
+  "updatedAt": "2026-09-03T18:00:20.404Z",
   "signals": [
+    {
+      "id": "sig-1lbrvhw",
+      "title": "Micron 6600 ION 245TB: Swap the Hard Drives, Power an NVL72 for Free",
+      "url": "https://www.storagereview.com/review/micron-6600-ion-245tb-swap-the-hard-drives-power-an-nvl72-for-free",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
+      "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-03T17:00:39.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "micron",
+        "ai",
+        "storage",
+        "performance"
+      ]
+    },
     {
       "id": "sig-a82owb",
       "title": "KIOXIA CM9-R 15.36TB Review: BiCS8 Flash Hits Full Speed at Low Queue Depths",
@@ -10,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +48,29 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-1onxh3y",
+      "title": "Building Trust Into Physical AI Systems",
+      "url": "https://semiengineering.com/building-trust-into-physical-ai-systems/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:03:52.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 8.7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "security"
       ]
     },
     {
@@ -46,8 +82,8 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -63,8 +99,8 @@
       "summary": "arXiv:2609.01861v1 Announce Type: new Abstract: The performance of an LLM agent depends on the scaffold around a frozen model. A common way to improve that scaffold is to use a coding agent as an optimizer: it reads current scores and traces and iteratively edits the source, prod",
       "whyItMatters": "Touches coding agent, llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 8.6,
       "tags": [
         "coding agent",
         "llm",
@@ -80,8 +116,8 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 8.3,
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "claude code",
@@ -98,12 +134,28 @@
       "summary": "VDURA has completed the deployment of its data platform at New Mexico State University (NMSU), moving the system into full production. The infrastructure is designed to serve the university’s research community with a high-durability, high-throughput storage environment tailored ",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-02T10:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-nv7in1",
+      "title": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?",
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "162 points on Hacker News",
+      "whyItMatters": "Touches claude, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T15:07:01Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.9,
+      "tags": [
+        "claude",
+        "openai"
       ]
     },
     {
@@ -115,11 +167,172 @@
       "summary": "A methodology for transforming engineering decisions from educated guesses into data-driven choices. The post Intelligent Engineering: From Optimization To AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:08:39.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-hiu6p8",
+      "title": "Humanoid Compute, Security More Complex Than AVs",
+      "url": "https://semiengineering.com/humanoid-compute-security-more-complex-than-avs/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-03T07:03:07.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.7,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1witsin",
+      "title": "How Many Design Experiments Does A Machine Learning Predictor Actually Need?",
+      "url": "https://semiengineering.com/how-many-design-experiments-does-a-machine-learning-predictor-actually-need/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:02:30.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.7,
+      "tags": [
+        "machine learning",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1j0qfs9",
+      "title": "What Can Go Wrong In 800VDC AI Data Centers",
+      "url": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:01:33.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x343qb",
+      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
+      "url": "https://arxiv.org/abs/2609.01834",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applicat",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T04:00:00.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x342yy",
+      "title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
+      "url": "https://arxiv.org/abs/2609.01769",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.01769v1 Announce Type: new Abstract: Automated program repair (APR) research has been constrained to design time. Current techniques localize and fix bugs in RTL or HLS designs before a chip reaches production. Once a hardware vulnerability surfaces post-silicon, the p",
+      "whyItMatters": "Touches firmware, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-03T04:00:00.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.6,
+      "tags": [
+        "firmware",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1xmj4fl",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T21:00:00.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kezvmj",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-18kc2e",
+      "title": "EBook – Accelerate Silicon Design for Physical AI (Part 1)",
+      "url": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T07:04:59.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-djfdls",
+      "title": "Security In The Era Of Quantum Computing",
+      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-02T07:02:11.000Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-18hq8ns",
+      "title": "2akouwu/reverify (Python) — trending new repo",
+      "url": "https://github.com/2akouwu/reverify",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI. · ★ 719",
+      "whyItMatters": "Touches ai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-31T01:02:18Z",
+      "fetchedAt": "2026-09-03T18:00:20.404Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "python"
       ]
     },
     {
@@ -139,86 +352,6 @@
       ]
     },
     {
-      "id": "sig-hiu6p8",
-      "title": "Humanoid Compute, Security More Complex Than AVs",
-      "url": "https://semiengineering.com/humanoid-compute-security-more-complex-than-avs/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-03T07:03:07.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.8,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1witsin",
-      "title": "How Many Design Experiments Does A Machine Learning Predictor Actually Need?",
-      "url": "https://semiengineering.com/how-many-design-experiments-does-a-machine-learning-predictor-actually-need/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T07:02:30.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.8,
-      "tags": [
-        "machine learning",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1j0qfs9",
-      "title": "What Can Go Wrong In 800VDC AI Data Centers",
-      "url": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T07:01:33.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x343qb",
-      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
-      "url": "https://arxiv.org/abs/2609.01834",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applicat",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1x342yy",
-      "title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
-      "url": "https://arxiv.org/abs/2609.01769",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.01769v1 Announce Type: new Abstract: Automated program repair (APR) research has been constrained to design time. Current techniques localize and fix bugs in RTL or HLS designs before a chip reaches production. Once a hardware vulnerability surfaces post-silicon, the p",
-      "whyItMatters": "Touches firmware, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.7,
-      "tags": [
-        "firmware",
-        "security"
-      ]
-    },
-    {
       "id": "sig-anwxc8",
       "title": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
       "url": "https://www.storagereview.com/news/vast-data-crowdstrike-integration-goes-live-native-falcon-sensor-now-next-gen-siem-and-aidr-in-preview",
@@ -232,70 +365,6 @@
       "tags": [
         "ai",
         "storage",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1xmj4fl",
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-kezvmj",
-      "title": "How we make AI coding more cost efficient without sacrificing task quality",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-18kc2e",
-      "title": "EBook – Accelerate Silicon Design for Physical AI (Part 1)",
-      "url": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:04:59.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-djfdls",
-      "title": "Security In The Era Of Quantum Computing",
-      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:02:11.000Z",
-      "fetchedAt": "2026-09-03T14:36:29.562Z",
-      "score": 7.1,
-      "tags": [
-        "semiconductor",
         "security"
       ]
     },
