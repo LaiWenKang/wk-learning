@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T05:51:39.687Z",
+  "generatedAt": "2026-09-03T10:08:41.771Z",
   "signals": [
     {
       "id": "sig-a82owb",
@@ -10,7 +10,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +18,40 @@
         "enterprise ssd",
         "e3.s",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-si3tm9",
+      "title": "Sandisk and Kioxia have yen for new NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-28T14:10:00.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "kioxia",
+        "sandisk"
+      ]
+    },
+    {
+      "id": "sig-1uj5fqd",
+      "title": "AI Is Forcing Data Centers To Rethink Trust",
+      "url": "https://semiengineering.com/ai-is-forcing-data-centers-to-rethink-trust/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-03T07:02:45.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "firmware"
       ]
     },
     {
@@ -29,8 +63,8 @@
       "summary": "arXiv:2609.01861v1 Announce Type: new Abstract: The performance of an LLM agent depends on the scaffold around a frozen model. A common way to improve that scaffold is to use a coding agent as an optimizer: it reads current scores and traces and iteratively edits the source, prod",
       "whyItMatters": "Touches coding agent, llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 8.8,
       "tags": [
         "coding agent",
         "llm",
@@ -46,8 +80,8 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "claude code",
@@ -64,8 +98,8 @@
       "summary": "VDURA has completed the deployment of its data platform at New Mexico State University (NMSU), moving the system into full production. The infrastructure is designed to serve the university’s research community with a high-durability, high-throughput storage environment tailored ",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-02T10:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "storage",
@@ -81,28 +115,75 @@
       "summary": "In edge AI, the most dangerous failure may not be a system that stops working, but one that continues operating while quietly accepting the wrong version of reality. The post When Edge AI Lies: Fault Injection and False State in Live Perception Pipelines appeared first on Semicon",
       "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
       "publishedAt": "2026-09-02T07:02:10.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 8.2,
       "tags": [
         "fault injection",
         "ai"
       ]
     },
     {
-      "id": "sig-1lkv1jz",
-      "title": "Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough",
-      "url": "https://semiengineering.com/security-sign-off-is-coming-for-chips-but-standards-may-not-be-enough/",
+      "id": "sig-1kgtoef",
+      "title": "Intelligent Engineering: From Optimization To AI",
+      "url": "https://semiengineering.com/intelligent-engineering-from-optimization-to-ai/",
       "source": "Semiconductor Engineering",
       "category": "ai",
-      "summary": "As AI, post-quantum cryptography, chiplets, and custom silicon expand the attack surface, semiconductor security is shifting from isolated safeguards to full-stack verification. The post Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough appeared first on Sem",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:01:38.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.4,
+      "summary": "A methodology for transforming engineering decisions from educated guesses into data-driven choices. The post Intelligent Engineering: From Optimization To AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:08:39.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.9,
       "tags": [
         "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-hiu6p8",
+      "title": "Humanoid Compute, Security More Complex Than AVs",
+      "url": "https://semiengineering.com/humanoid-compute-security-more-complex-than-avs/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-03T07:03:07.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.9,
+      "tags": [
         "semiconductor",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1witsin",
+      "title": "How Many Design Experiments Does A Machine Learning Predictor Actually Need?",
+      "url": "https://semiengineering.com/how-many-design-experiments-does-a-machine-learning-predictor-actually-need/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:02:30.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.9,
+      "tags": [
+        "machine learning",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1j0qfs9",
+      "title": "What Can Go Wrong In 800VDC AI Data Centers",
+      "url": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:01:33.000Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -114,8 +195,8 @@
       "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applicat",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
@@ -130,8 +211,8 @@
       "summary": "arXiv:2609.01769v1 Announce Type: new Abstract: Automated program repair (APR) research has been constrained to design time. Current techniques localize and fix bugs in RTL or HLS designs before a chip reaches production. Once a hardware vulnerability surfaces post-silicon, the p",
       "whyItMatters": "Touches firmware, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-03T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.8,
       "tags": [
         "firmware",
         "security"
@@ -146,8 +227,8 @@
       "summary": "VAST Data and CrowdStrike are turning the AI security partnership they announced at VAST Forward in February into a shipping product, detailing a multi-layered integration that embeds enterprise-grade cybersecurity directly into AI storage infrastructure, data pipelines, and prod",
       "whyItMatters": "Touches ai, storage, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-01T15:37:31.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage",
@@ -163,8 +244,8 @@
       "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "github"
@@ -179,27 +260,11 @@
       "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "github"
-      ]
-    },
-    {
-      "id": "sig-1jdu5up",
-      "title": "WebLLM: high-performance in-browser LLM inference engine",
-      "url": "https://github.com/mlc-ai/web-llm",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "102 points on Hacker News",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T14:02:35Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "performance"
       ]
     },
     {
@@ -211,8 +276,8 @@
       "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T07:04:59.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -227,75 +292,11 @@
       "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-02T07:02:11.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.2,
       "tags": [
         "semiconductor",
         "security"
-      ]
-    },
-    {
-      "id": "sig-4g6tec",
-      "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
-      "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Engineering methodologies are evolving toward more integrated and intelligent approaches across three interconnected domains: optimization, automation, and AI. The post The Evolution Of Intelligent Systems: From Optimization To Automation to AI appeared first on Semiconductor Eng",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:01:59.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-lffdof",
-      "title": "Blog Review: Sept. 2",
-      "url": "https://semiengineering.com/blog-review-sept-2-3/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap. The post Blog Review: Sept. 2 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:39.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-jkurvr",
-      "title": "Multi-Die Design for Automotive Applications",
-      "url": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multi-die design is becoming indispensable for automotive applications, such as ADAS and IVI, addressing demands for reliability and safety. The post Multi-Die Design for Automotive Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:17.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1189kge",
-      "title": "Extending 18A With Significant Power And Performance Gains",
-      "url": "https://semiengineering.com/extending-18a-with-significant-power-and-performance-gains/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A dual contact architecture with ultra-low-resistance contacts increases drive current and enables higher frequencies at matched capacitance. The post Extending 18A With Significant Power And Performance Gains appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:16.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "performance"
       ]
     },
     {
@@ -307,27 +308,29 @@
       "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-01T23:57:28.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7.1,
       "tags": [
         "claude",
         "anthropic"
       ]
     },
     {
-      "id": "sig-1a4kqvh",
-      "title": "Fragments: September 1",
-      "url": "https://martinfowler.com/fragments/2026-09-01.html",
-      "source": "martinfowler.com",
+      "id": "sig-8eulh0",
+      "title": "Nanako0129/sepia (Python) — trending new repo",
+      "url": "https://github.com/Nanako0129/sepia",
+      "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are n",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T19:50:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.1,
+      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "fetchedAt": "2026-09-03T10:08:41.771Z",
+      "score": 7,
       "tags": [
         "ai",
-        "llm"
+        "claude code",
+        "claude",
+        "python"
       ]
     }
   ]
