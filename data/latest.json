@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T05:50:55.547Z",
+  "generatedAt": "2026-09-04T09:59:21.740Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -57,20 +57,19 @@
       ]
     },
     {
-      "id": "sig-nv7in1",
-      "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
-      "url": "https://news.ycombinator.com/item?id=49551096",
-      "source": "Hacker News Best",
+      "id": "sig-12of9d6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
+      "source": "Semiconductor Engineering",
       "category": "ai",
-      "summary": "https://status.openai.com https://status.claude.com https://status.x.ai ChatGPT outage – Resolved - https://news.ycombinator.com/item?id=49550614 (315 comments) Claude outage – Resolved - https://news.ycombinator.com/item?id=49549676 (146 comments) Grok outage - https://news.ycom",
-      "whyItMatters": "Touches ai, claude, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T15:07:01.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 8.6,
+      "summary": "India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek, NVLink Fusion deal; state of the industry report; AI for fabs; 2D Tunnel FET; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs for 22nm, 40nm; Gain-Cell RAM; MIPS edge AI developer platfor",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-04T07:01:21.000Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 8.9,
       "tags": [
-        "ai",
-        "claude",
-        "openai"
+        "pcie",
+        "ai"
       ]
     },
     {
@@ -82,8 +81,8 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "semiconductor",
@@ -99,8 +98,8 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "semiconductor",
@@ -116,8 +115,8 @@
       "summary": "arXiv:2609.03156v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used in software engineering pipelines for code generation, where production prompts often combine multiple constraints. This paper presents a full-factorial empirical study of how outpu",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-04T04:00:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "software engineering"
@@ -132,8 +131,8 @@
       "summary": "arXiv:2609.03456v1 Announce Type: new Abstract: Artificial intelligence (AI) is increasingly used to augment software engineering (SE) workflows. While code generation remains the main use case, organizations are actively seeking AI integration in other practices such as test cas",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-04T04:00:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "software engineering"
@@ -148,29 +147,13 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "claude code",
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-tlbba3",
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
-      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T21:03:02.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.8,
-      "tags": [
-        "openai",
-        "security"
       ]
     },
     {
@@ -182,8 +165,8 @@
       "summary": "VDURA has completed the deployment of its data platform at New Mexico State University (NMSU), moving the system into full production. The infrastructure is designed to serve the university’s research community with a high-durability, high-throughput storage environment tailored ",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-02T10:00:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "storage",
@@ -191,19 +174,19 @@
       ]
     },
     {
-      "id": "sig-1ey3gq1",
-      "title": "OpenAI begins rolling out GPT-6 Astra",
-      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
-      "source": "Hacker News Best",
+      "id": "sig-tlbba3",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "source": "Cloudflare Blog",
       "category": "ai",
-      "summary": "https://thenewstack.io/openai-gpt6-astra-benchmarks/ , image: https://cdn.thenewstack.io/media/2026/09/358eb84a-screenshot... https://venturebeat.com/technology/welcome-to-the-agi-era-op... https://www.theverge.com/ai-artificial-intelligence/988334/o... https://twitter.com/OpenAI",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T18:18:22.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.7,
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
+      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T21:03:02.000Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.6,
       "tags": [
-        "ai",
-        "openai"
+        "openai",
+        "security"
       ]
     },
     {
@@ -215,8 +198,8 @@
       "summary": "A methodology for transforming engineering decisions from educated guesses into data-driven choices. The post Intelligent Engineering: From Optimization To AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:08:39.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
@@ -231,8 +214,8 @@
       "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:03:07.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.3,
       "tags": [
         "semiconductor",
         "security"
@@ -247,8 +230,8 @@
       "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:02:30.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.3,
       "tags": [
         "machine learning",
         "semiconductor"
@@ -263,8 +246,8 @@
       "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:01:33.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
@@ -279,8 +262,8 @@
       "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 7,
       "tags": [
         "ai",
         "github"
@@ -295,8 +278,8 @@
       "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 7,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 6.9,
       "tags": [
         "ai",
         "github"
@@ -311,27 +294,42 @@
       "summary": "A complete path from AI model, to trusted silicon, to deployable system. The post EBook – Accelerate Silicon Design for Physical AI (Part 1) appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T07:04:59.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 6.7,
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 6.6,
       "tags": [
         "ai",
         "semiconductor"
       ]
     },
     {
-      "id": "sig-djfdls",
-      "title": "Security In The Era Of Quantum Computing",
-      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:02:11.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 6.7,
+      "id": "sig-tv3pnk",
+      "title": "August newsletter is out",
+      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-04T05:54:40.000Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 6.4,
       "tags": [
-        "semiconductor",
-        "security"
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-i5slnj",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand ne",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-01T23:57:28.000Z",
+      "fetchedAt": "2026-09-04T09:59:21.740Z",
+      "score": 6.4,
+      "tags": [
+        "claude",
+        "anthropic"
       ]
     }
   ]
