@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:04:09.442Z",
+  "updatedAt": "2026-09-05T21:07:16.777Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,23 +18,6 @@
         "ai",
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-12of9d6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
-      "score": 9.5,
-      "tags": [
-        "pcie",
-        "ai",
-        "hbm"
       ]
     },
     {
@@ -46,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -65,12 +48,29 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-12of9d6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-04T07:01:21.000Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
+      "score": 9.4,
+      "tags": [
+        "pcie",
+        "ai",
+        "hbm"
       ]
     },
     {
@@ -82,7 +82,7 @@
       "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -98,8 +98,8 @@
       "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
       "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "firmware"
@@ -109,32 +109,32 @@
       "id": "sig-10tvu4b",
       "title": "Portal by Spotify cut my Claude Code token usage by 90%",
       "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "228 points on Hacker News",
+      "summary": "Article URL: https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90 Comments URL: https://news.ycombinator.com/item?id=49571465 Points: 239 # Comments: 146",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-04T23:38:50Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
-      "score": 7.5,
+      "publishedAt": "2026-09-04T23:38:50.000Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
+      "score": 7.4,
       "tags": [
         "claude code",
         "claude"
       ]
     },
     {
-      "id": "sig-1wwmge7",
-      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
-      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-04T17:54:45.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "id": "sig-jrbwkr",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://openrouter.ai/openai/gpt-6-astra Comments URL: https://news.ycombinator.com/item?id=49570545 Points: 295 # Comments: 219",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-04T21:39:19.000Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 7.3,
       "tags": [
         "ai",
-        "storage"
+        "openai"
       ]
     },
     {
@@ -146,7 +146,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 7.3,
       "tags": [
         "ai",
@@ -163,12 +163,28 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 7.3,
       "tags": [
         "ai",
         "semiconductor",
         "firmware"
+      ]
+    },
+    {
+      "id": "sig-1wwmge7",
+      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
+      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-04T17:54:45.000Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -180,7 +196,7 @@
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as we",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-02T14:16:42.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 7,
       "tags": [
         "ai",
@@ -198,7 +214,7 @@
       "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
       "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T21:03:02.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.7,
       "tags": [
         "openai",
@@ -211,11 +227,11 @@
       "url": "https://github.com/Albert-Weasker/niubigeo",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Open-source AI brand visibility and competitor reports · ★ 456",
+      "summary": "Open-source AI brand visibility and competitor reports · ★ 457",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T15:55:54Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
-      "score": 6.6,
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
+      "score": 6.5,
       "tags": [
         "ai",
         "typescript"
@@ -230,7 +246,7 @@
       "summary": "VMware Explore kicked off Monday morning, though the schedule felt unusual compared to past VMworld Explore events, as Broadcom moved the traditional opening keynote to the afternoon. That was not necessarily a bad thing, as it gave us time to catch a few breakout sessions and ca",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T17:10:28.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -242,10 +258,10 @@
       "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "24 points on Hacker News",
+      "summary": "82 points on Hacker News",
       "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-05T13:31:05Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.3,
       "tags": [
         "rust"
@@ -260,7 +276,7 @@
       "summary": "A methodology for transforming engineering decisions from educated guesses into data-driven choices. The post Intelligent Engineering: From Optimization To AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:08:39.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.3,
       "tags": [
         "ai",
@@ -276,7 +292,7 @@
       "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. The post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:03:07.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.3,
       "tags": [
         "semiconductor",
@@ -292,7 +308,7 @@
       "summary": "Required dataset size and achievable accuracy track how smooth the response is, not model size or number of design variables. The post How Many Design Experiments Does A Machine Learning Predictor Actually Need? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches machine learning, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:02:30.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.3,
       "tags": [
         "machine learning",
@@ -308,7 +324,7 @@
       "summary": "Sparks and fires caused by higher electrical currents can cause costly outages and put people in danger. Hot chips also cause problems. The post What Can Go Wrong In 800VDC AI Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:01:33.000Z",
-      "fetchedAt": "2026-09-05T19:04:09.442Z",
+      "fetchedAt": "2026-09-05T21:07:16.777Z",
       "score": 6.3,
       "tags": [
         "ai",
@@ -2196,52 +2212,6 @@
       "tags": [
         "semiconductor",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-g251t3",
-      "title": "The growing divide between AI hype and software engineering reality",
-      "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "42 points on Hacker News",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-29T16:16:32Z",
-      "fetchedAt": "2026-08-29T19:59:58.549Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1ad2uhx",
-      "title": "Warp builds self-improving agents on Claude",
-      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "24 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-29T19:09:33Z",
-      "fetchedAt": "2026-08-29T19:59:58.549Z",
-      "score": 6.5,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-g9tdji",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 762 # Comments: 467",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-29T01:47:53.000Z",
-      "fetchedAt": "2026-08-29T19:59:58.549Z",
-      "score": 6,
-      "tags": [
-        "openai"
       ]
     }
   ]
