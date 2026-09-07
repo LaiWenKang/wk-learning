@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T19:12:19.741Z",
+  "generatedAt": "2026-09-07T22:03:12.637Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -65,8 +65,8 @@
       "summary": "arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates la",
       "whyItMatters": "Touches machine learning, reliability, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 8.5,
       "tags": [
         "machine learning",
         "reliability",
@@ -82,8 +82,8 @@
       "summary": "arXiv:2609.04208v1 Announce Type: new Abstract: Context. The increasing adoption of Generative AI coding agents in software engineering is transforming how developers implement and maintain code. While these systems provide short-term productivity benefits, their long-term impact",
       "whyItMatters": "Touches ai, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "software engineering",
@@ -99,12 +99,28 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-12vfm4h",
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T18:29:07.000Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -116,8 +132,8 @@
       "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-sca",
       "whyItMatters": "Touches finance, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "finance",
         "performance"
@@ -132,8 +148,8 @@
       "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains br",
       "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "language model"
@@ -148,8 +164,8 @@
       "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark ",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "storage",
         "performance"
@@ -164,8 +180,8 @@
       "summary": "arXiv:2609.04210v1 Announce Type: new Abstract: This paper presents an AI-driven cloud-native enterprise reliability framework designed to improve predictive analytics, intelligent DevOps automation, and system resilience in modern distributed infrastructures. The proposed framew",
       "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "reliability"
@@ -180,8 +196,8 @@
       "summary": "arXiv:2609.04214v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software development workflows, yet their effects are often discussed without distinguishing between task types, developer seniority, and verification demands. This paper",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "software engineering"
@@ -196,8 +212,8 @@
       "summary": "arXiv:2609.04238v1 Announce Type: new Abstract: Autoregressive decoding on cheap hardware is bound not by FLOPs but by the bytes each generated token must move across the slowest populated tier of a memory hierarchy. We treat bytes-per-token as a first-class design axis, organize",
       "whyItMatters": "Touches llm, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "storage"
@@ -212,7 +228,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 7,
       "tags": [
         "ai",
@@ -229,12 +245,27 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
         "firmware"
+      ]
+    },
+    {
+      "id": "sig-1mx75wk",
+      "title": "The smallest edge AI device for local LLMs",
+      "url": "https://tiiny.ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "4 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T21:09:12Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -246,26 +277,11 @@
       "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 6.6,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 6.5,
       "tags": [
         "ai",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-15snmck",
-      "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
-      "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "71 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T18:24:32Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -274,10 +290,10 @@
       "url": "https://github.com/vinzdg/codenotch",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 902",
+      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 919",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T14:55:35Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
       "score": 6.5,
       "tags": [
         "claude code",
@@ -290,29 +306,14 @@
       "url": "https://github.com/pierrenade/short-video-generator-AI",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1157",
+      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1163",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T11:55:18Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 6.4,
       "tags": [
         "ai",
         "python"
-      ]
-    },
-    {
-      "id": "sig-oeyi6p",
-      "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
-      "url": "https://news.ycombinator.com/item?id=49600233",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "103 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T16:40:32Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 6.4,
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -324,8 +325,8 @@
       "summary": "",
       "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T16:06:00.000Z",
-      "fetchedAt": "2026-09-07T19:12:19.741Z",
-      "score": 6.4,
+      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "score": 6.3,
       "tags": [
         "storage"
       ]
