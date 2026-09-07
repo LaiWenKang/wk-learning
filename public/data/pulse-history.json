@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T04:20:34.811Z",
+  "updatedAt": "2026-09-07T09:27:25.877Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -37,6 +37,23 @@
         "enterprise ssd",
         "e3.s",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-si3tm9",
+      "title": "Sandisk and Kioxia have yen for new NAND fabs",
+      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-08-28T14:10:00.000Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "kioxia",
+        "sandisk"
       ]
     },
     {
@@ -48,8 +65,8 @@
       "summary": "arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates la",
       "whyItMatters": "Touches machine learning, reliability, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 9,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 8.8,
       "tags": [
         "machine learning",
         "reliability",
@@ -65,8 +82,8 @@
       "summary": "arXiv:2609.04208v1 Announce Type: new Abstract: Context. The increasing adoption of Generative AI coding agents in software engineering is transforming how developers implement and maintain code. While these systems provide short-term productivity benefits, their long-term impact",
       "whyItMatters": "Touches ai, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 9,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "software engineering",
@@ -82,8 +99,8 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 8.5,
       "tags": [
         "pcie",
         "ai",
@@ -99,8 +116,8 @@
       "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-sca",
       "whyItMatters": "Touches finance, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "finance",
         "performance"
@@ -115,8 +132,8 @@
       "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains br",
       "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "language model"
@@ -131,8 +148,8 @@
       "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark ",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "storage",
         "performance"
@@ -147,8 +164,8 @@
       "summary": "arXiv:2609.04210v1 Announce Type: new Abstract: This paper presents an AI-driven cloud-native enterprise reliability framework designed to improve predictive analytics, intelligent DevOps automation, and system resilience in modern distributed infrastructures. The proposed framew",
       "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "reliability"
@@ -163,8 +180,8 @@
       "summary": "arXiv:2609.04214v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software development workflows, yet their effects are often discussed without distinguishing between task types, developer seniority, and verification demands. This paper",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "software engineering"
@@ -179,43 +196,11 @@
       "summary": "arXiv:2609.04238v1 Announce Type: new Abstract: Autoregressive decoding on cheap hardware is bound not by FLOPs but by the bytes each generated token must move across the slowest populated tier of a memory hierarchy. We treat bytes-per-token as a first-class design axis, organize",
       "whyItMatters": "Touches llm, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 8,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1bo2d5g",
-      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
-      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1mllqsn",
-      "title": "vinzdg/codenotch (Swift) — trending new repo",
-      "url": "https://github.com/vinzdg/codenotch",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 732",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T14:55:35Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -227,7 +212,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
       "score": 7,
       "tags": [
         "ai",
@@ -244,7 +229,7 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
       "score": 7,
       "tags": [
         "ai",
@@ -253,19 +238,66 @@
       ]
     },
     {
+      "id": "sig-1bo2d5g",
+      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
+      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T17:09:34.000Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1mllqsn",
+      "title": "vinzdg/codenotch (Swift) — trending new repo",
+      "url": "https://github.com/vinzdg/codenotch",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 780",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.8,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
       "id": "sig-181lb5o",
       "title": "pierrenade/short-video-generator-AI (Python) — trending new repo",
       "url": "https://github.com/pierrenade/short-video-generator-AI",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 983",
+      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1131",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T11:55:18Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 6.9,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "python"
+      ]
+    },
+    {
+      "id": "sig-1lgoj3i",
+      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "url": "https://github.com/timgordontg/engrim",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "32 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T04:49:36Z",
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -277,8 +309,8 @@
       "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
       "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 6.6,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.4,
       "tags": [
         "ai",
         "firmware"
@@ -293,8 +325,8 @@
       "summary": "arXiv:2609.04286v1 Announce Type: new Abstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T04:20:34.811Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-07T09:27:25.877Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -327,23 +359,6 @@
       "score": 6.5,
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "sig-si3tm9",
-      "title": "Sandisk and Kioxia have yen for new NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-06T23:58:03.562Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
       ]
     },
     {
@@ -2107,52 +2122,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-431flz",
-      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
-      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "3 points on Hacker News",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T07:23:47Z",
-      "fetchedAt": "2026-08-31T07:42:07.443Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-13ukt2o",
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "100 points on Hacker News",
-      "whyItMatters": "Touches silicon motion — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-30T18:49:08Z",
-      "fetchedAt": "2026-08-31T07:42:07.443Z",
-      "score": 7.1,
-      "tags": [
-        "silicon motion"
-      ]
-    },
-    {
-      "id": "sig-1g5qdi8",
-      "title": "Photonics Forces A Chiplet Rethink",
-      "url": "https://semiengineering.com/photonics-forces-a-chiplet-rethink/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Thermal drift, stress, electromagnetic coupling, and verification gaps are turning optical integration into a full-system co-design problem rather than a plug-in bandwidth upgrade. The post Photonics Forces A Chiplet Rethink appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-08-31T07:01:38.000Z",
-      "fetchedAt": "2026-08-31T07:42:07.443Z",
-      "score": 6.5,
-      "tags": [
-        "semiconductor"
       ]
     }
   ]
