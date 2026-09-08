@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T13:39:55.298Z",
+  "updatedAt": "2026-09-08T17:32:56.846Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +18,303 @@
         "ai",
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-12of9d6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-04T07:01:21.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 8.5,
+      "tags": [
+        "pcie",
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-uhz1ij",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 8",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-8-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-09-08T07:01:25.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-qip12t",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7.5,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1kgrjof",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "source": "Simon Willison's Weblog",
+      "category": "systems",
+      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7.5,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-12vfm4h",
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T18:29:07.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7.4,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1onxh3y",
+      "title": "Building Trust Into Physical AI Systems",
+      "url": "https://semiengineering.com/building-trust-into-physical-ai-systems/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T07:03:52.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1uj5fqd",
+      "title": "AI Is Forcing Data Centers To Rethink Trust",
+      "url": "https://semiengineering.com/ai-is-forcing-data-centers-to-rethink-trust/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-03T07:02:45.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-bvekn1",
+      "title": "Qualcomm and Amazon Sign Multi-Generation Deal for Custom AI Inference Silicon and 1.6T Optical Interconnects",
+      "url": "https://www.storagereview.com/news/qualcomm-and-amazon-sign-multi-generation-deal-for-custom-ai-inference-silicon-and-1-6t-optical-interconnects",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Qualcomm Technologies and Amazon have entered into a multi-generation collaboration to deliver customized silicon at scale for AWS’s AI data centers, with AI inference as the primary target. The agreement pairs Qualcomm’s power-efficient processing, silicon design, and system-lev",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T17:17:46.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1yksset",
+      "title": "Show HN: LLM Attention Visualization",
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "12 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T16:59:41Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1enoeb8",
+      "title": "Fragments: September 8",
+      "url": "https://martinfowler.com/fragments/2026-09-08.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "Christian Catalini says we’re in a situation where we are vastly reducing the cost of generating things, but not the cost of verifying them: . This explains why the first major AI products appeared in chat, image generation, and code assistance. Not because these were the hardest",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T15:22:00.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-bpy1d6",
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://manualdousuario.net/en/libreoffice-download-record-no-ai/ Comments URL: https://news.ycombinator.com/item?id=49610538 Points: 521 # Comments: 162",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T14:05:57.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dg6wfo",
+      "title": "We Must Return to the Office to Use AI in Person",
+      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person Comments URL: https://news.ycombinator.com/item?id=49610229 Points: 309 # Comments: 44",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T13:41:25.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1vu21o8",
+      "title": "Smart Outlier Detection",
+      "url": "https://semiengineering.com/smart-outlier-detection/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Just because a chip is deemed good doesn't mean it will work as expected. The post Smart Outlier Detection appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-08T07:15:48.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.2,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-og91pp",
+      "title": "Research Bits: Sept. 8",
+      "url": "https://semiengineering.com/research-bits-sept-8-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Carbon insulator for interconnects; high-temperature SiC JFETs; VCT dielectric. The post Research Bits: Sept. 8 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-08T07:01:53.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.2,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1hkany0",
+      "title": "Mistral raises €3B",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/ Comments URL: https://news.ycombinator.com/item?id=49605767 Points: 712 # Comments: 514",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T05:06:23.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-z3b61g",
+      "title": "We have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://jyn.dev/a-year-to-fix-security/ Comments URL: https://news.ycombinator.com/item?id=49605691 Points: 288 # Comments: 318",
+      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-08T04:48:10.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6.1,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "sig-a489kc",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T22:26:25.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1bo2d5g",
+      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
+      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T17:09:34.000Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1mllqsn",
+      "title": "vinzdg/codenotch (Swift) — trending new repo",
+      "url": "https://github.com/vinzdg/codenotch",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 1057",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "fetchedAt": "2026-09-08T17:32:56.846Z",
+      "score": 6,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -56,39 +353,6 @@
       ]
     },
     {
-      "id": "sig-12of9d6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 8.5,
-      "tags": [
-        "pcie",
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-uhz1ij",
-      "title": "Chip Industry Technical Paper Roundup: Sept. 8",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-8-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "hbm"
-      ]
-    },
-    {
       "id": "sig-jo1xhg",
       "title": "Understanding Computer Memory Architecture and SSD Internals",
       "url": "https://codingpirate.com/understanding-computer-memory-architecture-ac9320110787",
@@ -120,88 +384,6 @@
       ]
     },
     {
-      "id": "sig-qip12t",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7.6,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1kgrjof",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-      "source": "Simon Willison's Weblog",
-      "category": "systems",
-      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7.6,
-      "tags": [
-        "linux",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-12vfm4h",
-      "title": "Video compressor",
-      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7.5,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1onxh3y",
-      "title": "Building Trust Into Physical AI Systems",
-      "url": "https://semiengineering.com/building-trust-into-physical-ai-systems/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1uj5fqd",
-      "title": "AI Is Forcing Data Centers To Rethink Trust",
-      "url": "https://semiengineering.com/ai-is-forcing-data-centers-to-rethink-trust/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "firmware"
-      ]
-    },
-    {
       "id": "sig-1603x18",
       "title": "PISA 2025 Students' reading and mathematics performance declined across the OECD",
       "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
@@ -214,36 +396,6 @@
       "score": 6.4,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1vu21o8",
-      "title": "Smart Outlier Detection",
-      "url": "https://semiengineering.com/smart-outlier-detection/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Just because a chip is deemed good doesn't mean it will work as expected. The post Smart Outlier Detection appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-08T07:15:48.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 6.3,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-og91pp",
-      "title": "Research Bits: Sept. 8",
-      "url": "https://semiengineering.com/research-bits-sept-8-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Carbon insulator for interconnects; high-temperature SiC JFETs; VCT dielectric. The post Research Bits: Sept. 8 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-08T07:01:53.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 6.3,
-      "tags": [
-        "semiconductor"
       ]
     },
     {
@@ -277,21 +429,6 @@
       ]
     },
     {
-      "id": "sig-z3b61g",
-      "title": "We have a year to fix security everywhere",
-      "url": "https://jyn.dev/a-year-to-fix-security/",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://jyn.dev/a-year-to-fix-security/ Comments URL: https://news.ycombinator.com/item?id=49605691 Points: 272 # Comments: 270",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-08T04:48:10.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 6.3,
-      "tags": [
-        "security"
-      ]
-    },
-    {
       "id": "sig-1no2a0j",
       "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
       "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
@@ -302,21 +439,6 @@
       "publishedAt": "2026-09-08T04:06:20Z",
       "fetchedAt": "2026-09-08T13:39:55.298Z",
       "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-a489kc",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T22:26:25.000Z",
-      "fetchedAt": "2026-09-08T13:39:55.298Z",
-      "score": 6.1,
       "tags": [
         "ai"
       ]
@@ -366,38 +488,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1bo2d5g",
-      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
-      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.3,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1mllqsn",
-      "title": "vinzdg/codenotch (Swift) — trending new repo",
-      "url": "https://github.com/vinzdg/codenotch",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 956",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T14:55:35Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.3,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -2085,51 +2175,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-3f0roz",
-      "title": "Python 3.15.0 candidate 2 is here!",
-      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are ",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-01T14:59:18.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 6.5,
-      "tags": [
-        "python"
-      ]
-    },
-    {
-      "id": "sig-o0ovbf",
-      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-      "url": "https://blog.cloudflare.com/cache-transcoding/",
-      "source": "Cloudflare Blog",
-      "category": "systems",
-      "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-01T12:59:00.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 6.4,
-      "tags": [
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1wv6cxu",
-      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/ankidroid/Anki-Android/issues/21656 Comments URL: https://news.ycombinator.com/item?id=49520022 Points: 400 # Comments: 97",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-01T10:11:02.000Z",
-      "fetchedAt": "2026-09-01T15:07:01.099Z",
-      "score": 6.4,
-      "tags": [
-        "github"
       ]
     }
   ]
