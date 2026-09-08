@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:03:12.637Z",
+  "updatedAt": "2026-09-08T00:10:36.546Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -48,12 +48,29 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-12of9d6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-04T07:01:21.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 8.5,
+      "tags": [
+        "pcie",
+        "ai",
+        "hbm"
       ]
     },
     {
@@ -65,8 +82,8 @@
       "summary": "arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates la",
       "whyItMatters": "Touches machine learning, reliability, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 8.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 8.4,
       "tags": [
         "machine learning",
         "reliability",
@@ -82,8 +99,8 @@
       "summary": "arXiv:2609.04208v1 Announce Type: new Abstract: Context. The increasing adoption of Generative AI coding agents in software engineering is transforming how developers implement and maintain code. While these systems provide short-term productivity benefits, their long-term impact",
       "whyItMatters": "Touches ai, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 8.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "software engineering",
@@ -91,20 +108,19 @@
       ]
     },
     {
-      "id": "sig-12of9d6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 8.5,
+      "id": "sig-1kgrjof",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "source": "Simon Willison's Weblog",
+      "category": "systems",
+      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 8,
       "tags": [
-        "pcie",
-        "ai",
-        "hbm"
+        "linux",
+        "kernel"
       ]
     },
     {
@@ -116,8 +132,8 @@
       "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -132,8 +148,8 @@
       "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-sca",
       "whyItMatters": "Touches finance, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "finance",
         "performance"
@@ -148,8 +164,8 @@
       "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains br",
       "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "language model"
@@ -164,8 +180,8 @@
       "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark ",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "storage",
         "performance"
@@ -180,8 +196,8 @@
       "summary": "arXiv:2609.04210v1 Announce Type: new Abstract: This paper presents an AI-driven cloud-native enterprise reliability framework designed to improve predictive analytics, intelligent DevOps automation, and system resilience in modern distributed infrastructures. The proposed framew",
       "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "reliability"
@@ -196,8 +212,8 @@
       "summary": "arXiv:2609.04214v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software development workflows, yet their effects are often discussed without distinguishing between task types, developer seniority, and verification demands. This paper",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "software engineering"
@@ -212,8 +228,8 @@
       "summary": "arXiv:2609.04238v1 Announce Type: new Abstract: Autoregressive decoding on cheap hardware is bound not by FLOPs but by the bytes each generated token must move across the slowest populated tier of a memory hierarchy. We treat bytes-per-token as a first-class design axis, organize",
       "whyItMatters": "Touches llm, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "storage"
@@ -228,7 +244,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
       "score": 7,
       "tags": [
         "ai",
@@ -245,11 +261,73 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-a489kc",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T22:26:25.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1bo2d5g",
+      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
+      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T17:09:34.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 6.5,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1lzq2om",
+      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/07/a-new-era-emerges-a-review-of-storage-supplier-revenue-from-2020-to-2026/5294796",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T16:06:00.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 6.3,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-n1ne40",
+      "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
+      "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
+      "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T00:25:04.000Z",
+      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "score": 6,
+      "tags": [
+        "ai",
         "firmware"
       ]
     },
@@ -266,22 +344,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1bo2d5g",
-      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
-      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "openai"
       ]
     },
     {
@@ -317,21 +379,6 @@
       ]
     },
     {
-      "id": "sig-1lzq2om",
-      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/07/a-new-era-emerges-a-review-of-storage-supplier-revenue-from-2020-to-2026/5294796",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T16:06:00.000Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 6.3,
-      "tags": [
-        "storage"
-      ]
-    },
-    {
       "id": "sig-15snmck",
       "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
       "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
@@ -359,22 +406,6 @@
       "score": 6.4,
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "id": "sig-n1ne40",
-      "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
-      "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
-      "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-07T15:10:04.611Z",
-      "score": 6.3,
-      "tags": [
-        "ai",
-        "firmware"
       ]
     },
     {
