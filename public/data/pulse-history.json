@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T00:10:36.546Z",
+  "updatedAt": "2026-09-08T04:43:13.808Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -48,12 +48,279 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-qip12t",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.9,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1kgrjof",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "source": "Simon Willison's Weblog",
+      "category": "systems",
+      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.8,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-12vfm4h",
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T18:29:07.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.7,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1no2a0j",
+      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "5 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T04:06:20Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-16wb8ou",
+      "title": "AI cancer cures slowed by chip shortage, says Arm boss",
+      "url": "https://www.bbc.com/news/articles/c0m39g7xzevo",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "6 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T02:12:13Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-a489kc",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T22:26:25.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1bo2d5g",
+      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
+      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T17:09:34.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1mllqsn",
+      "title": "vinzdg/codenotch (Swift) — trending new repo",
+      "url": "https://github.com/vinzdg/codenotch",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 956",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-181lb5o",
+      "title": "pierrenade/short-video-generator-AI (Python) — trending new repo",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1185",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T11:55:18Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.2,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1lzq2om",
+      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/07/a-new-era-emerges-a-review-of-storage-supplier-revenue-from-2020-to-2026/5294796",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T16:06:00.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.1,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-m4q6hz",
+      "title": "bzip3",
+      "url": "https://github.com/iczelia/bzip3",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 393 # Comments: 111",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-07T13:35:13.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.1,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-n1ne40",
+      "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
+      "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
+      "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T00:25:04.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-1wwmge7",
+      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
+      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-04T17:54:45.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-tlbba3",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
+      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T21:03:02.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "openai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1r19k2x",
+      "title": "Albert-Weasker/niubigeo (TypeScript) — trending new repo",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source AI brand visibility and competitor reports · ★ 679",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T15:55:54Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1xmj4fl",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T21:00:00.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kezvmj",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
       ]
     },
     {
@@ -105,38 +372,6 @@
         "ai",
         "software engineering",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-1kgrjof",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-      "source": "Simon Willison's Weblog",
-      "category": "systems",
-      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 8,
-      "tags": [
-        "linux",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-12vfm4h",
-      "title": "Video compressor",
-      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.8,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -270,68 +505,6 @@
       ]
     },
     {
-      "id": "sig-a489kc",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T22:26:25.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1bo2d5g",
-      "title": "OpenAI GPT-6 Astra Hits GA in Microsoft Foundry: Computer Use, Agentic Execution, and $10 to $75 per Million Tokens",
-      "url": "https://www.storagereview.com/news/openai-gpt-6-astra-launches-in-microsoft-foundry-with-agentic-execution-and-computer-use",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1lzq2om",
-      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/07/a-new-era-emerges-a-review-of-storage-supplier-revenue-from-2020-to-2026/5294796",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T16:06:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.3,
-      "tags": [
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-n1ne40",
-      "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
-      "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
-      "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "firmware"
-      ]
-    },
-    {
       "id": "sig-1mx75wk",
       "title": "The smallest edge AI device for local LLMs",
       "url": "https://tiiny.ai/",
@@ -344,38 +517,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1mllqsn",
-      "title": "vinzdg/codenotch (Swift) — trending new repo",
-      "url": "https://github.com/vinzdg/codenotch",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 919",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T14:55:35Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 6.5,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-181lb5o",
-      "title": "pierrenade/short-video-generator-AI (Python) — trending new repo",
-      "url": "https://github.com/pierrenade/short-video-generator-AI",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1163",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T11:55:18Z",
-      "fetchedAt": "2026-09-07T22:03:12.637Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "python"
       ]
     },
     {
@@ -484,22 +625,6 @@
       ]
     },
     {
-      "id": "sig-1wwmge7",
-      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
-      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-04T17:54:45.000Z",
-      "fetchedAt": "2026-09-06T23:58:03.562Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-1q204i5",
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -542,38 +667,6 @@
       "score": 6.1,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-tlbba3",
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
-      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T21:03:02.000Z",
-      "fetchedAt": "2026-09-06T23:58:03.562Z",
-      "score": 6,
-      "tags": [
-        "openai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1r19k2x",
-      "title": "Albert-Weasker/niubigeo (TypeScript) — trending new repo",
-      "url": "https://github.com/Albert-Weasker/niubigeo",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source AI brand visibility and competitor reports · ★ 607",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T15:55:54Z",
-      "fetchedAt": "2026-09-06T23:58:03.562Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
       ]
     },
     {
@@ -716,38 +809,6 @@
       "score": 6.1,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1xmj4fl",
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-06T13:04:07.683Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-kezvmj",
-      "title": "How we make AI coding more cost efficient without sacrificing task quality",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-06T13:04:07.683Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
       ]
     },
     {
@@ -2025,104 +2086,6 @@
       "score": 6.3,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1brqvgk",
-      "title": "Predicting LLM Performance from Prompt Linguistic Features: An Empirical Study in Requirements Engineering",
-      "url": "https://arxiv.org/abs/2608.27621",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.27621v1 Announce Type: new Abstract: Background. LLM outputs are highly sensitive to prompt formulation: small wording changes can substantially affect output quality. This matters in software engineering, where prompts guide requirements analysis, code generation, and",
-      "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "software engineering",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1brqw91",
-      "title": "Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering",
-      "url": "https://arxiv.org/abs/2608.27703",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.27703v1 Announce Type: new Abstract: Integrating Large Language Models (LLMs) into the Software Development Life Cycle (SDLC) can improve developer productivity, but it also introduces security, privacy, and compliance risks during model selection. Regulations and fram",
-      "whyItMatters": "Touches llm, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "software engineering",
-        "productivity",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1brquki",
-      "title": "Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems",
-      "url": "https://arxiv.org/abs/2608.27502",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2608.27502v1 Announce Type: new Abstract: Ensuring the reliability of deep learning-based image retrieval systems is a software engineering challenge. This paper presents a dual contribution: (1) a literature review of augmentation and generation techniques which resulted i",
-      "whyItMatters": "Touches software engineering, reliability — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 7.4,
-      "tags": [
-        "software engineering",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1brqxzh",
-      "title": "Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers",
-      "url": "https://arxiv.org/abs/2608.27927",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.27927v1 Announce Type: new Abstract: AI-assisted qualitative data analysis (QDA) offers unprecedented opportunities to streamline software engineering (SE) research, yet uncritical use risks compromising analytical rigor and flooding the field with accelerated producti",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1brrj37",
-      "title": "Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems",
-      "url": "https://arxiv.org/abs/2608.28160",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.28160v1 Announce Type: new Abstract: FPGA-GPP heterogeneous systems combine software flexibility with the performance and energy efficiency of reconfigurable hardware. However, determining which application tasks should execute on the GPP or FPGA requires extensive exp",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-z66a7z",
-      "title": "Introducing wrapture",
-      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) ",
-      "whyItMatters": "Touches python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-31T23:59:36.000Z",
-      "fetchedAt": "2026-09-01T00:32:03.110Z",
-      "score": 6.5,
-      "tags": [
-        "python"
       ]
     }
   ]

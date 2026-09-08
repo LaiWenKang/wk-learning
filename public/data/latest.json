@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T00:10:36.546Z",
+  "generatedAt": "2026-09-08T04:43:13.808Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "The KIOXIA CM9-R is the first enterprise SSD family built on eighth-generation BiCS FLASH, and the 15.36TB E3.S model in our lab is the volume sweet spot of the range: 3,400K random read IOPS and 14,800 MB/s of sequential read from a drive with a 25W typical active rating. Gen5 e",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-02T16:13:32.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -48,7 +48,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -57,54 +57,19 @@
       ]
     },
     {
-      "id": "sig-12of9d6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 8.5,
-      "tags": [
-        "pcie",
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1x36amy",
-      "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
-      "url": "https://arxiv.org/abs/2609.04300",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-qip12t",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "source": "Simon Willison's Weblog",
       "category": "ai",
-      "summary": "arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates la",
-      "whyItMatters": "Touches machine learning, reliability, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 8.4,
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.9,
       "tags": [
-        "machine learning",
-        "reliability",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x369sx",
-      "title": "AI Writes Code, Humans Pay the Debt. An Empirical Study on the Sustainability and Evolution of Agent-Generated Code",
-      "url": "https://arxiv.org/abs/2609.04208",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.04208v1 Announce Type: new Abstract: Context. The increasing adoption of Generative AI coding agents in software engineering is transforming how developers implement and maintain code. While these systems provide short-term productivity benefits, their long-term impact",
-      "whyItMatters": "Touches ai, software engineering, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "software engineering",
-        "productivity"
+        "openai",
+        "llm"
       ]
     },
     {
@@ -116,8 +81,8 @@
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 8,
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.8,
       "tags": [
         "linux",
         "kernel"
@@ -132,141 +97,41 @@
       "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 7.7,
       "tags": [
         "claude code",
         "claude"
       ]
     },
     {
-      "id": "sig-1x369vp",
-      "title": "EXAONE Forecast for Finance",
-      "url": "https://arxiv.org/abs/2609.04239",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-sca",
-      "whyItMatters": "Touches finance, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
-      "tags": [
-        "finance",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x36atk",
-      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-      "url": "https://arxiv.org/abs/2609.04377",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-1no2a0j",
+      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+      "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains br",
-      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
+      "summary": "5 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T04:06:20Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.5,
       "tags": [
-        "ai",
-        "language model"
+        "ai"
       ]
     },
     {
-      "id": "sig-1x36bns",
-      "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
-      "url": "https://arxiv.org/abs/2609.04476",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark ",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x369tm",
-      "title": "SH-PDOPS: AI-Driven Cloud Native Enterprise Reliability Framework for Predictive Analytics and Intelligent DevOps Automation",
-      "url": "https://arxiv.org/abs/2609.04210",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.04210v1 Announce Type: new Abstract: This paper presents an AI-driven cloud-native enterprise reliability framework designed to improve predictive analytics, intelligent DevOps automation, and system resilience in modern distributed infrastructures. The proposed framew",
-      "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x369tq",
-      "title": "A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows",
-      "url": "https://arxiv.org/abs/2609.04214",
-      "source": "arXiv cs.SE (new submissions)",
+      "id": "sig-16wb8ou",
+      "title": "AI cancer cures slowed by chip shortage, says Arm boss",
+      "url": "https://www.bbc.com/news/articles/c0m39g7xzevo",
+      "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "arXiv:2609.04214v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into software development workflows, yet their effects are often discussed without distinguishing between task types, developer seniority, and verification demands. This paper",
-      "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
+      "summary": "6 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-08T02:12:13Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.4,
       "tags": [
-        "llm",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-1x369vo",
-      "title": "Budgeting Bytes: A Windowed Storage Roofline and Dual-Budget Architecture Ablations for Storage-Bound LLM Decoding",
-      "url": "https://arxiv.org/abs/2609.04238",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.04238v1 Announce Type: new Abstract: Autoregressive decoding on cheap hardware is bound not by FLOPs but by the bytes each generated token must move across the slowest populated tier of a memory hierarchy. We treat bytes-per-token as a first-class design axis, organize",
-      "whyItMatters": "Touches llm, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1onxh3y",
-      "title": "Building Trust Into Physical AI Systems",
-      "url": "https://semiengineering.com/building-trust-into-physical-ai-systems/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1uj5fqd",
-      "title": "AI Is Forcing Data Centers To Rethink Trust",
-      "url": "https://semiengineering.com/ai-is-forcing-data-centers-to-rethink-trust/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "firmware"
+        "ai"
       ]
     },
     {
@@ -278,8 +143,8 @@
       "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real ti",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T22:26:25.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -293,11 +158,43 @@
       "summary": "Microsoft announced the general availability of GPT-6 Astra within Microsoft Foundry on Azure. The frontier model is engineered to transition enterprise generative AI from interactive chat interfaces toward autonomous agentic workflows, providing multi-step planning, deliberate d",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T17:09:34.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
       "tags": [
         "ai",
         "openai"
+      ]
+    },
+    {
+      "id": "sig-1mllqsn",
+      "title": "vinzdg/codenotch (Swift) — trending new repo",
+      "url": "https://github.com/vinzdg/codenotch",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge. · ★ 956",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.3,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-181lb5o",
+      "title": "pierrenade/short-video-generator-AI (Python) — trending new repo",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1185",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-05T11:55:18Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.2,
+      "tags": [
+        "ai",
+        "python"
       ]
     },
     {
@@ -309,10 +206,25 @@
       "summary": "",
       "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T16:06:00.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
-      "score": 6.3,
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.1,
       "tags": [
         "storage"
+      ]
+    },
+    {
+      "id": "sig-m4q6hz",
+      "title": "bzip3",
+      "url": "https://github.com/iczelia/bzip3",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 393 # Comments: 111",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-07T13:35:13.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6.1,
+      "tags": [
+        "github"
       ]
     },
     {
@@ -324,11 +236,91 @@
       "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
       "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-08T00:10:36.546Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
       "score": 6,
       "tags": [
         "ai",
         "firmware"
+      ]
+    },
+    {
+      "id": "sig-1wwmge7",
+      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
+      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-04T17:54:45.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-tlbba3",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
+      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T21:03:02.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "openai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1r19k2x",
+      "title": "Albert-Weasker/niubigeo (TypeScript) — trending new repo",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source AI brand visibility and competitor reports · ★ 679",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-03T15:55:54Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1xmj4fl",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T21:00:00.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-kezvmj",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-02T18:00:00.000Z",
+      "fetchedAt": "2026-09-08T04:43:13.808Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
       ]
     }
   ]
