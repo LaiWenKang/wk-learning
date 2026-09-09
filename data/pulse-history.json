@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T00:40:50.525Z",
+  "updatedAt": "2026-09-09T05:20:32.017Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,22 +18,6 @@
         "ai",
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1hrpeby",
-      "title": "SK hynix on Solidigm pre-IPO rumors: 'No matters have been determined'",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/08/sk-hynix-on-solidigm-pre-ipo-rumors-no-matters-have-been-determined/5294842",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 9.6,
-      "tags": [
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -45,12 +29,92 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-1x3742q",
+      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
+      "url": "https://arxiv.org/abs/2609.05514",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3743q",
+      "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
+      "url": "https://arxiv.org/abs/2609.05527",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05527v1 Announce Type: new Abstract: Wherever a coding agent works under engineer supervision, or a clinical model assists a radiologist, the deployment question is whether to keep the human-AI workflow or replace it with the human alone or the agent alone. The human-A",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1x3742m",
+      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
+      "url": "https://arxiv.org/abs/2609.05510",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05510v1 Announce Type: new Abstract: LLM coding agents are crossing from task-scale to project-scale: single assisted efforts that run for months, across repeated context compactions, on codebases far larger than any context window. We report operational experience fro",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3747a",
+      "title": "Look Before You Prompt, and After: Scaffolding Human-AI Collaboration in Software Tutorial Creation",
+      "url": "https://arxiv.org/abs/2609.05563",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05563v1 Announce Type: new Abstract: With LLMs, creating software tutorials now involves steering the model's output and shaping it into a coherent, accurate learning resource, yet existing LLM tools offer writers little support for this work. By analyzing interviews w",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x375vt",
+      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+      "url": "https://arxiv.org/abs/2609.05764",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.05764v1 Announce Type: new Abstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-v",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -62,8 +126,8 @@
       "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "hbm"
@@ -78,8 +142,8 @@
       "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.2,
       "tags": [
         "openai",
         "llm"
@@ -94,8 +158,8 @@
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.2,
       "tags": [
         "linux",
         "kernel"
@@ -110,8 +174,8 @@
       "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7,
       "tags": [
         "claude code",
         "claude"
@@ -126,7 +190,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 7,
       "tags": [
         "ai",
@@ -143,12 +207,133 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
         "firmware"
+      ]
+    },
+    {
+      "id": "sig-1x373ae",
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.05437",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognitio",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x373b5",
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2609.05441",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. ",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x373et",
+      "title": "RAPID: Reliability-Aware Pair Importance Distillation",
+      "url": "https://arxiv.org/abs/2609.05481",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05481v1 Announce Type: new Abstract: Inter example relational distillation transfers a teacher's representation geometry by matching relations among examples within a mini batch. Computing all pairs has quadratic complexity in the batch size, whereas uniform subsamplin",
+      "whyItMatters": "Touches reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3741u",
+      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
+      "url": "https://arxiv.org/abs/2609.05505",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05505v1 Announce Type: new Abstract: Systematic reviews require sustained human judgment across thousands of records, yet existing evaluations of large language models (LLMs) typically examine review stages in isolation. We introduce SciLitBench, a multi-stage benchmar",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3742o",
+      "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
+      "url": "https://arxiv.org/abs/2609.05512",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05512v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) impose substantial energy costs during deployment, yet current compression methods apply uniform quantization across all components, risking damage to critical reasoning circuits. We present a reasoning",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3751n",
+      "title": "The Impact of GenAI on the Future of Requirements Engineering",
+      "url": "https://arxiv.org/abs/2609.05667",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05667v1 Announce Type: new Abstract: Recent advances in artificial intelligence (AI), particularly large language models (LLMs), are transforming how we design and build systems by increasing access to domain knowledge and by providing automation support to software en",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x37549",
+      "title": "Regret Dominates Surprise: Design-Time Requirements Engineering for Agentic-AI Safety",
+      "url": "https://arxiv.org/abs/2609.05692",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05692v1 Announce Type: new Abstract: Requirements engineers for agentic-AI domains face challenges in evaluating, specifying, and operationalizing safe autonomy. Mainstream frameworks, such as Goal-Oriented Requirements Engineering (GORE), lack mechanisms to systematic",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1hrpeby",
+      "title": "SK hynix on Solidigm pre-IPO rumors: 'No matters have been determined'",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/08/sk-hynix-on-solidigm-pre-ipo-rumors-no-matters-have-been-determined/5294842",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-08T11:22:38.000Z",
+      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "score": 9.6,
+      "tags": [
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -2040,118 +2225,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1brrnzf",
-      "title": "STEP: A Modular Silent Trial Engine for Operational Evaluation of Digital Pathology AI in Routine Workflow",
-      "url": "https://arxiv.org/abs/2608.28708",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.28708v1 Announce Type: new Abstract: Prospective silent trials provide an important bridge between retrospective validation of artificial intelligence (AI) models and their use in clinical care by evaluating model performance and operational reliability on live clinica",
-      "whyItMatters": "Touches ai, performance, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "performance",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1brsbib",
-      "title": "AgentLogs: A Dataset for Opening the Black Box of GitHub's Cloud Agent",
-      "url": "https://arxiv.org/abs/2608.29204",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2608.29204v1 Announce Type: new Abstract: Generative AI-based software engineering agents are becoming routine contributors to real-world software projects. On GitHub, developers can assign tasks to the Copilot cloud agent, which autonomously explores the repository, edits ",
-      "whyItMatters": "Touches ai, software engineering, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "software engineering",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-t7sqfo",
-      "title": "MLPerf Storage benchmark updated for modern AI",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/01/mlperf-storage-benchmark-updated-for-modern-ai/5293617",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T14:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1bsavj7",
-      "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
-      "url": "https://arxiv.org/abs/2608.30509",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2608.30509v1 Announce Type: new Abstract: Large language model (LLM) inference exhibits substantial variability across adaptation modes, context lengths, and request concurrency, creating challenges for maintaining high utilization, memory efficiency, and scalable performan",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-8hyyew",
-      "title": "SK Hynix chipping away at AI memory wall from several angles",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/25/sk-hynix-chipping-away-at-ai-memory-wall-from-several-angles/5292113",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-25T11:33:00.000Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 7,
-      "tags": [
-        "sk hynix",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1aem1dj",
-      "title": "The efficient frontier of LLM inference",
-      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "25 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T23:48:05Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 6.5,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1tt84xx",
-      "title": "Improving our alignment and security efforts",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "11 points on Hacker News",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-01T23:12:45Z",
-      "fetchedAt": "2026-09-02T01:05:22.639Z",
-      "score": 6.4,
-      "tags": [
-        "security"
       ]
     }
   ]
