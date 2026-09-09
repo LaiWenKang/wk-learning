@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T00:40:50.525Z",
+  "generatedAt": "2026-09-09T05:20:32.017Z",
   "signals": [
     {
       "id": "sig-1lbrvhw",
@@ -10,7 +10,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,22 +18,6 @@
         "ai",
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1hrpeby",
-      "title": "SK hynix on Solidigm pre-IPO rumors: 'No matters have been determined'",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/08/sk-hynix-on-solidigm-pre-ipo-rumors-no-matters-have-been-determined/5294842",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 9.6,
-      "tags": [
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -45,12 +29,92 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-1x3742q",
+      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
+      "url": "https://arxiv.org/abs/2609.05514",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3743q",
+      "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
+      "url": "https://arxiv.org/abs/2609.05527",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05527v1 Announce Type: new Abstract: Wherever a coding agent works under engineer supervision, or a clinical model assists a radiologist, the deployment question is whether to keep the human-AI workflow or replace it with the human alone or the agent alone. The human-A",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1x3742m",
+      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
+      "url": "https://arxiv.org/abs/2609.05510",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05510v1 Announce Type: new Abstract: LLM coding agents are crossing from task-scale to project-scale: single assisted efforts that run for months, across repeated context compactions, on codebases far larger than any context window. We report operational experience fro",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3747a",
+      "title": "Look Before You Prompt, and After: Scaffolding Human-AI Collaboration in Software Tutorial Creation",
+      "url": "https://arxiv.org/abs/2609.05563",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05563v1 Announce Type: new Abstract: With LLMs, creating software tutorials now involves steering the model's output and shaping it into a coherent, accurate learning resource, yet existing LLM tools offer writers little support for this work. By analyzing interviews w",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x375vt",
+      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+      "url": "https://arxiv.org/abs/2609.05764",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.05764v1 Announce Type: new Abstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-v",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -62,8 +126,8 @@
       "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "hbm"
@@ -78,8 +142,8 @@
       "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.2,
       "tags": [
         "openai",
         "llm"
@@ -94,8 +158,8 @@
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7.2,
       "tags": [
         "linux",
         "kernel"
@@ -110,8 +174,8 @@
       "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 7,
       "tags": [
         "claude code",
         "claude"
@@ -126,7 +190,7 @@
       "summary": "Security and safety are inseparable in the physical world. The post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-03T07:03:52.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 7,
       "tags": [
         "ai",
@@ -143,7 +207,7 @@
       "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness. The post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, firmware — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-03T07:02:45.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
       "score": 7,
       "tags": [
         "ai",
@@ -152,168 +216,108 @@
       ]
     },
     {
-      "id": "sig-bw030m",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-1x373ae",
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.05437",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T22:46:33.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.4,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1bgwqwh",
-      "title": "Tao: Open math problems being non-renewably mined by AI",
-      "url": "https://mathstodon.xyz/@tao/117237320796901560",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "97 points on Hacker News",
+      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognitio",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T21:00:52Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.4,
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-wcc5ma",
-      "title": "AI agents can use Quill to talk direct to enterprise SQL databases",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/08/ai-agents-can-use-quill-to-talk-direct-to-enterprise-sql-databases/5295049",
-      "source": "Blocks & Files",
+      "id": "sig-1x373b5",
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2609.05441",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T20:26:55.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1p8srjo",
-      "title": "Muse – Meta’s personal AI agent",
-      "url": "https://ai.meta.com/muse/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "252 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T19:25:00Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-99lvy8",
-      "title": "ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://openai.com/index/introducing-chatgpt-images-2-5/ Comments URL: https://news.ycombinator.com/item?id=49614720 Points: 263 # Comments: 349",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T18:37:51.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.3,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-bvekn1",
-      "title": "Qualcomm and Amazon Sign Multi-Generation Deal for Custom AI Inference Silicon and 1.6T Optical Interconnects",
-      "url": "https://www.storagereview.com/news/qualcomm-and-amazon-sign-multi-generation-deal-for-custom-ai-inference-silicon-and-1-6t-optical-interconnects",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Qualcomm Technologies and Amazon have entered into a multi-generation collaboration to deliver customized silicon at scale for AWS’s AI data centers, with AI inference as the primary target. The agreement pairs Qualcomm’s power-efficient processing, silicon design, and system-lev",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T17:17:46.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1yksset",
-      "title": "Show HN: LLM Attention Visualization",
-      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "112 points on Hacker News",
+      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. ",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T16:59:41Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.3,
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
       "tags": [
         "llm"
       ]
     },
     {
-      "id": "sig-1enoeb8",
-      "title": "Fragments: September 8",
-      "url": "https://martinfowler.com/fragments/2026-09-08.html",
-      "source": "martinfowler.com",
+      "id": "sig-1x373et",
+      "title": "RAPID: Reliability-Aware Pair Importance Distillation",
+      "url": "https://arxiv.org/abs/2609.05481",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Christian Catalini says we’re in a situation where we are vastly reducing the cost of generating things, but not the cost of verifying them: . This explains why the first major AI products appeared in chat, image generation, and code assistance. Not because these were the hardest",
+      "summary": "arXiv:2609.05481v1 Announce Type: new Abstract: Inter example relational distillation transfers a teacher's representation geometry by matching relations among examples within a mini batch. Computing all pairs has quadratic complexity in the batch size, whereas uniform subsamplin",
+      "whyItMatters": "Touches reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3741u",
+      "title": "SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
+      "url": "https://arxiv.org/abs/2609.05505",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05505v1 Announce Type: new Abstract: Systematic reviews require sustained human judgment across thousands of records, yet existing evaluations of large language models (LLMs) typically examine review stages in isolation. We introduce SciLitBench, a multi-stage benchmar",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3742o",
+      "title": "Reasoning-Aware Compression: Identifying and Protecting Vulnerable Reasoning Circuits for Energy-Efficient LLM Deployment",
+      "url": "https://arxiv.org/abs/2609.05512",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05512v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) impose substantial energy costs during deployment, yet current compression methods apply uniform quantization across all components, risking damage to critical reasoning circuits. We present a reasoning",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3751n",
+      "title": "The Impact of GenAI on the Future of Requirements Engineering",
+      "url": "https://arxiv.org/abs/2609.05667",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.05667v1 Announce Type: new Abstract: Recent advances in artificial intelligence (AI), particularly large language models (LLMs), are transforming how we design and build systems by increasing access to domain knowledge and by providing automation support to software en",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T15:22:00.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.2,
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-bpy1d6",
-      "title": "LibreOffice breaks download records after declaring it has no AI features",
-      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
-      "source": "Hacker News Best",
+      "id": "sig-1x37549",
+      "title": "Regret Dominates Surprise: Design-Time Requirements Engineering for Agentic-AI Safety",
+      "url": "https://arxiv.org/abs/2609.05692",
+      "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "Article URL: https://manualdousuario.net/en/libreoffice-download-record-no-ai/ Comments URL: https://news.ycombinator.com/item?id=49610538 Points: 643 # Comments: 217",
+      "summary": "arXiv:2609.05692v1 Announce Type: new Abstract: Requirements engineers for agentic-AI domains face challenges in evaluating, specifying, and operationalizing safe autonomy. Mainstream frameworks, such as Goal-Oriented Requirements Engineering (GORE), lack mechanisms to systematic",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T14:05:57.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.2,
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "fetchedAt": "2026-09-09T05:20:32.017Z",
+      "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-dg6wfo",
-      "title": "We Must Return to the Office to Use AI in Person",
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person Comments URL: https://news.ycombinator.com/item?id=49610229 Points: 364 # Comments: 62",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T13:41:25.000Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-2cbb60",
-      "title": "openai/NavierStokesAndEuler (Lean) — trending new repo",
-      "url": "https://github.com/openai/NavierStokesAndEuler",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Lean certificates accompanying Navier-Stokes and Euler results · ★ 788",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T10:53:38Z",
-      "fetchedAt": "2026-09-09T00:40:50.525Z",
-      "score": 6.1,
-      "tags": [
-        "openai"
       ]
     }
   ]
