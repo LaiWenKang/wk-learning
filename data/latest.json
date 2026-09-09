@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-09T14:22:54.682Z",
+  "generatedAt": "2026-09-09T17:56:18.070Z",
   "signals": [
+    {
+      "id": "sig-1k1g6y2",
+      "title": "QNAP TVS-hx77AX Brings NFS over RDMA and U.2 NVMe to Desktop ZFS NAS",
+      "url": "https://www.storagereview.com/news/qnap-tvs-hx77ax-brings-nfs-over-rdma-and-u-2-nvme-to-desktop-zfs-nas",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-09-09T17:18:09.000Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 10,
+      "tags": [
+        "nvme",
+        "u.2",
+        "storage"
+      ]
+    },
     {
       "id": "sig-1lbrvhw",
       "title": "Micron 6600 ION 245TB: Swap the Hard Drives, Power an NVL72 for Free",
@@ -10,7 +27,7 @@
       "summary": "For two decades, the SSD-versus-HDD conversation ended the same way: flash wins on performance, disk wins on price per terabyte, and the size of that price gap settled the argument in favor of bulk storage. As storage technology has matured and AI has taken over, that framing is ",
       "whyItMatters": "Touches ssd, micron, ai — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-03T17:00:39.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,11 +46,27 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
       "score": 9.2,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1chsfg6",
+      "title": "Panmnesia and Meta take single chip, CXL-based view of AI datacenters",
+      "url": "https://www.blocksandfiles.com/architecture/2026/09/09/panmnesia-and-meta-take-single-chip-cxl-based-view-of-ai-datacenters/5295213",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-09-09T15:31:00.000Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 8.9,
+      "tags": [
+        "cxl",
+        "ai"
       ]
     },
     {
@@ -45,8 +78,8 @@
       "summary": "Google, Amazon, and now OpenAI have competitive offerings and are gaining share. The post Can GPUs Continue To Dominate AI Compute? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, openai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:01:53.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "openai",
@@ -62,7 +95,7 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
       "score": 8.5,
       "tags": [
         "pcie",
@@ -79,8 +112,8 @@
       "summary": "How natural language processing will fundamentally change the way humans interface with machines. The post The Intersection Of AI And Voice At The Edge appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:15:07.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -95,8 +128,8 @@
       "summary": "Security controls are increasingly implemented in ways that can limit access to information required for an investigation. The post When Digital Forensics Reaches The Hardware Layer appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-09T07:03:23.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.7,
       "tags": [
         "semiconductor",
         "security"
@@ -111,8 +144,8 @@
       "summary": "Compute vs. energy scaling; adapting to AI; fab digital twin; mobile VLM. The post Blog Review: Sept. 9 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:01:07.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -127,8 +160,8 @@
       "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -143,8 +176,8 @@
       "summary": "arXiv:2609.05527v1 Announce Type: new Abstract: Wherever a coding agent works under engineer supervision, or a clinical model assists a radiologist, the deployment question is whether to keep the human-AI workflow or replace it with the human alone or the agent alone. The human-A",
       "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "coding agent"
@@ -159,8 +192,8 @@
       "summary": "arXiv:2609.05510v1 Announce Type: new Abstract: LLM coding agents are crossing from task-scale to project-scale: single assisted efforts that run for months, across repeated context compactions, on codebases far larger than any context window. We report operational experience fro",
       "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "reliability"
@@ -175,8 +208,8 @@
       "summary": "arXiv:2609.05563v1 Announce Type: new Abstract: With LLMs, creating software tutorials now involves steering the model's output and shaping it into a coherent, accurate learning resource, yet existing LLM tools offer writers little support for this work. By analyzing interviews w",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -191,11 +224,26 @@
       "summary": "arXiv:2609.05764v1 Announce Type: new Abstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-v",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-4tzsn3",
+      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
+      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-09T17:10:12.000Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7.5,
+      "tags": [
+        "pcie"
       ]
     },
     {
@@ -207,8 +255,8 @@
       "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 7,
       "tags": [
         "llm",
         "hbm"
@@ -223,8 +271,8 @@
       "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.9,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 6.8,
       "tags": [
         "openai",
         "llm"
@@ -239,8 +287,8 @@
       "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.9,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 6.8,
       "tags": [
         "linux",
         "kernel"
@@ -255,71 +303,26 @@
       "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.8,
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
+      "score": 6.7,
       "tags": [
         "claude code",
         "claude"
       ]
     },
     {
-      "id": "sig-6gfvni",
-      "title": "Spectra Logic adds AI-powered video content discovery",
-      "url": "https://www.blocksandfiles.com/data-management/2026/09/09/spectra-logic-adds-ai-powered-video-content-discovery/5295244",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T13:38:51.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
+      "id": "sig-1y7vs6z",
+      "title": "HPE Alletra Storage MP B10000 10.6.0 Arrives With Six-Node Scale-Out and Agentic Support Automation",
+      "url": "https://www.storagereview.com/news/hpe-alletra-storage-mp-b10000-10-6-0-arrives-with-six-node-scale-out-and-agentic-support-automation",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "HPE has made the 10.6.0 software release for the Alletra Storage MP B10000 generally available, landing inside the Q3 2026 window the company set when it previewed the release in May. HPE is also calling it Release 6 in its channel materials. The update takes the B10000’s disaggr",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-09T16:17:13.000Z",
+      "fetchedAt": "2026-09-09T17:56:18.070Z",
       "score": 6.5,
       "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-14slvw0",
-      "title": "Do people prefer stories written by AI?",
-      "url": "https://www.cambridge.org/gb/universitypress/about-us/news-and-blogs/do-people-prefer-stories-written-by-ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "11 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T13:38:14Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1pfnpcq",
-      "title": "How An AI math breakthrough ignited a controversy",
-      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "164 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T10:25:41Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-fr6ww1",
-      "title": "Claude, change the \"Add to Cart\" button to blue",
-      "url": "https://opusfived.dev/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "241 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T09:39:46Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.4,
-      "tags": [
-        "claude"
+        "storage"
       ]
     }
   ]
