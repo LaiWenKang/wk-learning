@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:04:31.403Z",
+  "updatedAt": "2026-09-10T22:27:42.491Z",
   "signals": [
     {
       "id": "sig-1x3a9hg",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2609.09800v1 Announce Type: new Abstract: Serving a large language model (LLM) is limited by memory capacity. High-Bandwidth Flash (HBF) stacks NAND flash inside the accelerator package, one tier below high-bandwidth memory (HBM); the specification was published on August 3",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 10,
       "tags": [
         "nand",
@@ -28,7 +28,7 @@
       "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-09T17:18:09.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -45,12 +45,29 @@
       "summary": "Samsung Electronics made two moves in two days that both point at the same problem: keeping its memory and foundry lines on the leading edge as AI demand outruns conventional scaling. On September 8, Samsung and ASML announced an expanded partnership under which Samsung will put ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-09T18:23:20.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 9.8,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 9.7,
       "tags": [
         "samsung electronics",
         "ai",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-10vz78p",
+      "title": "Backblaze B2 and WEKA NeuralMesh Validated as a Two-Tier AI Storage Pipeline, With Snap-to-Object Checkpoints in B2",
+      "url": "https://www.storagereview.com/news/backblaze-b2-and-weka-neuralmesh-validated-as-a-two-tier-ai-storage-pipeline-with-snap-to-object-checkpoints-landing-in-b2",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Backblaze and WEKA have validated their two platforms together for AI pipelines, pairing WEKA NeuralMesh as the performance tier that feeds GPUs with Backblaze B2 Cloud Storage as the capacity tier that holds everything else. The integration, sizing, tuning, and testing are alrea",
+      "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-10T20:40:57.000Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -62,7 +79,7 @@
       "summary": "Passing ATE no longer guarantees success in the field as sustained, high-power workloads push thermal and electrical limits. The post System-Level Test In The AI Era: Validating Reliability At Scale appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T07:03:56.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 8.6,
       "tags": [
         "ai",
@@ -79,8 +96,8 @@
       "summary": "arXiv:2609.09560v1 Announce Type: new Abstract: This study evaluates Vibe Coding, an emerging AI-led conversational programming paradigm that enables developers to generate software through natural-language interaction with large language models. Using a mixed-methods design, the",
       "whyItMatters": "Touches ai, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "software engineering",
@@ -96,7 +113,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 8.4,
       "tags": [
         "solidigm",
@@ -112,8 +129,8 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 8.1,
       "tags": [
         "cxl",
         "ai"
@@ -128,7 +145,7 @@
       "summary": "Kilowatt-class AI accelerators are forcing engineers to rethink what counts as adequate coverage across workload, thermal behavior, test hardware, and time. The post Validation Gets Tested At 1kW appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T07:11:34.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -144,7 +161,7 @@
       "summary": "Semiconductor manufacturing generates enormous volumes of data, yet only a fraction of it is analyzed. The post A Highly Scalable Architecture For AI-First Semiconductor Operations appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T07:01:41.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -160,8 +177,8 @@
       "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -176,8 +193,8 @@
       "summary": "arXiv:2609.09769v1 Announce Type: new Abstract: Agentic AI has enabled capabilities in leveraging Large Language Models (LLMs) to autonomously resolve repository-level GitHub issues. However, due to the reliance on limited static description of issues, existing agentic approaches",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "github"
@@ -189,11 +206,11 @@
       "url": "https://github.com/Vincentwei1021/anything2explainer",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. · ★ 667",
+      "summary": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. · ★ 684",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-08T17:19:54Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 7.5,
       "tags": [
         "claude code",
         "claude",
@@ -209,8 +226,8 @@
       "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-10T02:05:17.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 7.4,
       "tags": [
         "github",
         "performance"
@@ -225,10 +242,85 @@
       "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-09T17:10:12.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 6.8,
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.7,
       "tags": [
         "pcie"
+      ]
+    },
+    {
+      "id": "sig-9kug6q",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The Gi",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-10T21:31:19.000Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.5,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-58w43k",
+      "title": "Palantir and NVIDIA Deploy a Sovereign Nemotron Supply Chain Stack, Starting With the 1.3 Million Parts in Every Vera Rubin Rack",
+      "url": "https://www.storagereview.com/news/palantir-and-nvidia-deploy-a-sovereign-nemotron-supply-chain-stack-starting-with-the-1-3-million-parts-in-every-vera-rubin-rack",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Palantir and NVIDIA have built a sovereign AI stack for supply chain operations and are running it first inside NVIDIA’s own supply chain, the one that has to line up 1.3 million parts for every Vera Rubin rack. The stack brings NVIDIA Nemotron open models into Palantir Foundry a",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T20:56:11.000Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-4hrobb",
+      "title": "Scality Maestro 1.1 Manages ARTESCA Fleets From One Console With No VPN Into Customer Sites",
+      "url": "https://www.storagereview.com/news/scality-maestro-1-1-manages-artesca-fleets-from-one-console-with-no-vpn-into-customer-sites",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Scality has made Maestro 1.1 generally available, a fleet management platform for service providers running large numbers of Scality ARTESCA object storage deployments on behalf of their customers. The target is the backup-as-a-service business that starts as a handful of ARTESCA",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-10T20:17:01.000Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.4,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1lhu98v",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "44 points on Hacker News",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T19:43:22Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.4,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1r9t3ph",
+      "title": "Eaton HDXL Rack PDU Review: 81kW From a Single Zero-U PDU for AI Racks",
+      "url": "https://www.storagereview.com/review/eaton-hdxl-rack-pdu-review-81kw-from-a-single-zero-u-pdu-for-ai-racks",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Eaton is getting ready to ship the kind of PDU that didn’t need to exist five years ago. The HDXL Rack PDU G4, arriving in the fourth quarter of 2026, delivers 56-81kW from a single zero-U unit, with 24 outlets, 21 branch breakers, and a 100A corded or 140A terminal-block input. ",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T19:23:54.000Z",
+      "fetchedAt": "2026-09-10T22:27:42.491Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -245,21 +337,6 @@
       "tags": [
         "python",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1r9t3ph",
-      "title": "Eaton HDXL Rack PDU Review: 81kW From a Single Zero-U PDU for AI Racks",
-      "url": "https://www.storagereview.com/review/eaton-hdxl-rack-pdu-review-81kw-from-a-single-zero-u-pdu-for-ai-racks",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Eaton is getting ready to ship the kind of PDU that didn’t need to exist five years ago. The HDXL Rack PDU G4, arriving in the fourth quarter of 2026, delivers 56-81kW from a single zero-U unit, with 24 outlets, 21 branch breakers, and a 100A corded or 140A terminal-block input. ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-10T19:23:54.000Z",
-      "fetchedAt": "2026-09-10T20:04:31.403Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -2424,24 +2501,6 @@
       "tags": [
         "ai",
         "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-8eulh0",
-      "title": "Nanako0129/sepia (Python) — trending new repo",
-      "url": "https://github.com/Nanako0129/sepia",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.0313",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-08-28T05:56:49Z",
-      "fetchedAt": "2026-09-03T20:54:29.255Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
         "python"
       ]
     }
