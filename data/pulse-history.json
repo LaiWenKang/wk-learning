@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-10T00:38:16.740Z",
+  "updatedAt": "2026-09-10T05:21:06.491Z",
   "signals": [
+    {
+      "id": "sig-1x3a9hg",
+      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+      "url": "https://arxiv.org/abs/2609.09800",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.09800v1 Announce Type: new Abstract: Serving a large language model (LLM) is limited by memory capacity. High-Bandwidth Flash (HBF) stacks NAND flash inside the accelerator package, one tier below high-bandwidth memory (HBM); the specification was published on August 3",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "llm",
+        "language model",
+        "hbm"
+      ]
+    },
     {
       "id": "sig-1vftjxh",
       "title": "Samsung High NA EUV DRAM Set for 2028, With 12-Inch Photomasks and a Mistral AI Series D Lead",
@@ -10,7 +28,7 @@
       "summary": "Samsung Electronics made two moves in two days that both point at the same problem: keeping its memory and foundry lines on the leading edge as AI demand outruns conventional scaling. On September 8, Samsung and ASML announced an expanded partnership under which Samsung will put ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-09T18:23:20.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 10,
       "tags": [
         "samsung electronics",
@@ -27,12 +45,29 @@
       "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-09T17:18:09.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 10,
       "tags": [
         "nvme",
         "u.2",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1x3a747",
+      "title": "The Vibe Shift in Software Engineering: Evaluating AI-Led Conversational Programming for Performance, Cognition, and Responsible Adoption",
+      "url": "https://arxiv.org/abs/2609.09560",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09560v1 Announce Type: new Abstract: This study evaluates Vibe Coding, an emerging AI-led conversational programming paradigm that enables developers to generate software through natural-language interaction with large language models. Using a mixed-methods design, the",
+      "whyItMatters": "Touches ai, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "software engineering",
+        "performance"
       ]
     },
     {
@@ -44,8 +79,8 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 9,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.8,
       "tags": [
         "solidigm",
         "sk hynix"
@@ -60,28 +95,11 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.6,
       "tags": [
         "cxl",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-inczgz",
-      "title": "Can GPUs Continue To Dominate AI Compute?",
-      "url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Google, Amazon, and now OpenAI have competitive offerings and are gaining share. The post Can GPUs Continue To Dominate AI Compute? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, openai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T07:01:53.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 8.5,
-      "tags": [
-        "ai",
-        "openai",
-        "semiconductor"
       ]
     },
     {
@@ -93,12 +111,77 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-inczgz",
+      "title": "Can GPUs Continue To Dominate AI Compute?",
+      "url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Google, Amazon, and now OpenAI have competitive offerings and are gaining share. The post Can GPUs Continue To Dominate AI Compute? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, openai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T07:01:53.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.4,
+      "tags": [
+        "ai",
+        "openai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x3a74c",
+      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "url": "https://arxiv.org/abs/2609.09565",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a8sy",
+      "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
+      "url": "https://arxiv.org/abs/2609.09769",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09769v1 Announce Type: new Abstract: Agentic AI has enabled capabilities in leveraging Large Language Models (LLMs) to autonomously resolve repository-level GitHub issues. However, due to the reliance on limited static description of issues, existing agentic approaches",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-112au06",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-10T02:05:17.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.9,
+      "tags": [
+        "github",
+        "performance"
       ]
     },
     {
@@ -110,8 +193,8 @@
       "summary": "How natural language processing will fundamentally change the way humans interface with machines. The post The Intersection Of AI And Voice At The Edge appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:15:07.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -126,8 +209,8 @@
       "summary": "Security controls are increasingly implemented in ways that can limit access to information required for an investigation. The post When Digital Forensics Reaches The Hardware Layer appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-09T07:03:23.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -142,11 +225,102 @@
       "summary": "Compute vs. energy scaling; adapting to AI; fab digital twin; mobile VLM. The post Blog Review: Sept. 9 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:01:07.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-4tzsn3",
+      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
+      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-09T17:10:12.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.2,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-uhz1ij",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 8",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-8-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-09-08T07:01:25.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.7,
+      "tags": [
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-1x3a4g1",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3a4is",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a65l",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain lar",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3a66i",
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "url": "https://arxiv.org/abs/2609.09428",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability betwee",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -227,37 +401,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-4tzsn3",
-      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
-      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-09T17:10:12.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.3,
-      "tags": [
-        "pcie"
-      ]
-    },
-    {
-      "id": "sig-uhz1ij",
-      "title": "Chip Industry Technical Paper Roundup: Sept. 8",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-8-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.8,
-      "tags": [
-        "llm",
-        "hbm"
       ]
     },
     {
@@ -2183,70 +2326,6 @@
       "tags": [
         "ai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1549cet",
-      "title": "Embedded Rust RTOS vs. C RTOS",
-      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
-      "source": "Hacker News (front page)",
-      "category": "firmware",
-      "summary": "54 points on Hacker News",
-      "whyItMatters": "Touches rust, embedded — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-09-02T18:32:24Z",
-      "fetchedAt": "2026-09-03T01:08:29.881Z",
-      "score": 7.8,
-      "tags": [
-        "rust",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1x33586",
-      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
-      "url": "https://arxiv.org/abs/2609.00012",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and th",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T01:08:29.881Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x335ds",
-      "title": "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review",
-      "url": "https://arxiv.org/abs/2609.00076",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00076v1 Announce Type: new Abstract: Clinical artificial intelligence is increasingly embedded in real-world care, yet existing safety mechanisms are poorly suited to reconstructing and learning from individual AI-related errors and near-misses. Aggregate model monitor",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T01:08:29.881Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1x3370c",
-      "title": "Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork",
-      "url": "https://arxiv.org/abs/2609.00252",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.00252v1 Announce Type: new Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-lev",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T04:00:00.000Z",
-      "fetchedAt": "2026-09-03T01:08:29.881Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "software engineering"
       ]
     }
   ]
