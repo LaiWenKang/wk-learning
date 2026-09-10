@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T05:21:06.491Z",
+  "updatedAt": "2026-09-10T09:50:26.409Z",
   "signals": [
     {
       "id": "sig-1x3a9hg",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2609.09800v1 Announce Type: new Abstract: Serving a large language model (LLM) is limited by memory capacity. High-Bandwidth Flash (HBF) stacks NAND flash inside the accelerator package, one tier below high-bandwidth memory (HBM); the specification was published on August 3",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
       "score": 10,
       "tags": [
         "nand",
@@ -28,7 +28,7 @@
       "summary": "Samsung Electronics made two moves in two days that both point at the same problem: keeping its memory and foundry lines on the leading edge as AI demand outruns conventional scaling. On September 8, Samsung and ASML announced an expanded partnership under which Samsung will put ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-09T18:23:20.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
       "score": 10,
       "tags": [
         "samsung electronics",
@@ -45,12 +45,29 @@
       "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-09T17:18:09.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
       "score": 10,
       "tags": [
         "nvme",
         "u.2",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-103rxhj",
+      "title": "System-Level Test In The AI Era: Validating Reliability At Scale",
+      "url": "https://semiengineering.com/system-level-test-in-the-ai-era-validating-reliability-at-scale/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Passing ATE no longer guarantees success in the field as sustained, high-power workloads push thermal and electrical limits. The post System-Level Test In The AI Era: Validating Reliability At Scale appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T07:03:56.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "reliability"
       ]
     },
     {
@@ -62,8 +79,8 @@
       "summary": "arXiv:2609.09560v1 Announce Type: new Abstract: This study evaluates Vibe Coding, an emerging AI-led conversational programming paradigm that enables developers to generate software through natural-language interaction with large language models. Using a mixed-methods design, the",
       "whyItMatters": "Touches ai, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 9,
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "software engineering",
@@ -79,8 +96,8 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 8.7,
       "tags": [
         "solidigm",
         "sk hynix"
@@ -95,11 +112,213 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 8.5,
       "tags": [
         "cxl",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-ot1ro7",
+      "title": "Validation Gets Tested At 1kW",
+      "url": "https://semiengineering.com/validation-gets-tested-at-1kw/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Kilowatt-class AI accelerators are forcing engineers to rethink what counts as adequate coverage across workload, thermal behavior, test hardware, and time. The post Validation Gets Tested At 1kW appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T07:11:34.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1g0zoag",
+      "title": "A Highly Scalable Architecture For AI-First Semiconductor Operations",
+      "url": "https://semiengineering.com/a-highly-scalable-architecture-for-ai-first-semiconductor-operations/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Semiconductor manufacturing generates enormous volumes of data, yet only a fraction of it is analyzed. The post A Highly Scalable Architecture For AI-First Semiconductor Operations appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T07:01:41.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x3a74c",
+      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "url": "https://arxiv.org/abs/2609.09565",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a8sy",
+      "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
+      "url": "https://arxiv.org/abs/2609.09769",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09769v1 Announce Type: new Abstract: Agentic AI has enabled capabilities in leveraging Large Language Models (LLMs) to autonomously resolve repository-level GitHub issues. However, due to the reliance on limited static description of issues, existing agentic approaches",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-112au06",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-10T02:05:17.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7.8,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-4tzsn3",
+      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
+      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-09T17:10:12.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 7,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-1exce92",
+      "title": "Redefining Processes At Sub-2nm",
+      "url": "https://semiengineering.com/redefining-processes-at-sub-2nm/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Discrete steps are being merged with others as dimensions shrink into the angstrom range. The post Redefining Processes At Sub-2nm appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-10T07:13:52.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1wwtjum",
+      "title": "Silent Data Errors Redefine Test Coverage And Fleet Maintenance Strategies",
+      "url": "https://semiengineering.com/silent-data-errors-redefine-test-coverage-and-fleet-maintenance-strategies/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Through better manufacturing screening, DFT for systems and fleet monitors, this major scourge on data center hardware is gradually being tamed. The post Silent Data Errors Redefine Test Coverage And Fleet Maintenance Strategies appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-10T07:12:39.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1ica6xx",
+      "title": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
+      "url": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Improve visibility into deposition variation by combining thickness metrology with simultaneous reflectivity measurements. The post Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-10T07:09:47.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-171uvtc",
+      "title": "Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight",
+      "url": "https://semiengineering.com/beyond-conventional-ring-oscillators-purpose-built-process-detectors-for-deeper-silicon-insight/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "How design-aware monitor analytics connects production measurements with device behavior and pre-silicon expectations. The post Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-10T07:08:40.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-8ksus",
+      "title": "From Silicon To Systems: Redefining Competitive Advantage, Part 2",
+      "url": "https://semiengineering.com/from-silicon-to-systems-redefining-competitive-advantage-part-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "How supply chain interdependencies and strategic alliances are reshaping the semiconductor landscape. The post From Silicon To Systems: Redefining Competitive Advantage, Part 2 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-10T07:02:24.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qip12t",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1kgrjof",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "source": "Simon Willison's Weblog",
+      "category": "systems",
+      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "fetchedAt": "2026-09-10T09:50:26.409Z",
+      "score": 6.4,
+      "tags": [
+        "linux",
+        "kernel"
       ]
     },
     {
@@ -134,54 +353,6 @@
         "ai",
         "openai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x3a74c",
-      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
-      "url": "https://arxiv.org/abs/2609.09565",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 8,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3a8sy",
-      "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
-      "url": "https://arxiv.org/abs/2609.09769",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.09769v1 Announce Type: new Abstract: Agentic AI has enabled capabilities in leveraging Large Language Models (LLMs) to autonomously resolve repository-level GitHub issues. However, due to the reliance on limited static description of issues, existing agentic approaches",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-112au06",
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-10T02:05:17.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 7.9,
-      "tags": [
-        "github",
-        "performance"
       ]
     },
     {
@@ -230,21 +401,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-4tzsn3",
-      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
-      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-09T17:10:12.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 7.2,
-      "tags": [
-        "pcie"
       ]
     },
     {
@@ -401,38 +557,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-qip12t",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.6,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1kgrjof",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-      "source": "Simon Willison's Weblog",
-      "category": "systems",
-      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.6,
-      "tags": [
-        "linux",
-        "kernel"
       ]
     },
     {
@@ -2213,119 +2337,6 @@
       "tags": [
         "fault injection",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1lkv1jz",
-      "title": "Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough",
-      "url": "https://semiengineering.com/security-sign-off-is-coming-for-chips-but-standards-may-not-be-enough/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI, post-quantum cryptography, chiplets, and custom silicon expand the attack surface, semiconductor security is shifting from isolated safeguards to full-stack verification. The post Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough appeared first on Sem",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:01:38.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1jdu5up",
-      "title": "WebLLM: high-performance in-browser LLM inference engine",
-      "url": "https://github.com/mlc-ai/web-llm",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "102 points on Hacker News",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T14:02:35Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-4g6tec",
-      "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
-      "url": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Engineering methodologies are evolving toward more integrated and intelligent approaches across three interconnected domains: optimization, automation, and AI. The post The Evolution Of Intelligent Systems: From Optimization To Automation to AI appeared first on Semiconductor Eng",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T07:01:59.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-lffdof",
-      "title": "Blog Review: Sept. 2",
-      "url": "https://semiengineering.com/blog-review-sept-2-3/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap. The post Blog Review: Sept. 2 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:39.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-jkurvr",
-      "title": "Multi-Die Design for Automotive Applications",
-      "url": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multi-die design is becoming indispensable for automotive applications, such as ADAS and IVI, addressing demands for reliability and safety. The post Multi-Die Design for Automotive Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:17.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1189kge",
-      "title": "Extending 18A With Significant Power And Performance Gains",
-      "url": "https://semiengineering.com/extending-18a-with-significant-power-and-performance-gains/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A dual contact architecture with ultra-low-resistance contacts increases drive current and enables higher frequencies at matched capacitance. The post Extending 18A With Significant Power And Performance Gains appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:01:16.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1a4kqvh",
-      "title": "Fragments: September 1",
-      "url": "https://martinfowler.com/fragments/2026-09-01.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of signs of AI writing . That page points out that: Humans are n",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-01T19:50:00.000Z",
-      "fetchedAt": "2026-09-03T05:51:39.687Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "llm"
       ]
     }
   ]
