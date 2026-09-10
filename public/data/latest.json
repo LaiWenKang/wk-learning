@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-10T00:38:16.740Z",
+  "generatedAt": "2026-09-10T05:21:06.491Z",
   "signals": [
+    {
+      "id": "sig-1x3a9hg",
+      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+      "url": "https://arxiv.org/abs/2609.09800",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.09800v1 Announce Type: new Abstract: Serving a large language model (LLM) is limited by memory capacity. High-Bandwidth Flash (HBF) stacks NAND flash inside the accelerator package, one tier below high-bandwidth memory (HBM); the specification was published on August 3",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "llm",
+        "language model",
+        "hbm"
+      ]
+    },
     {
       "id": "sig-1vftjxh",
       "title": "Samsung High NA EUV DRAM Set for 2028, With 12-Inch Photomasks and a Mistral AI Series D Lead",
@@ -10,7 +28,7 @@
       "summary": "Samsung Electronics made two moves in two days that both point at the same problem: keeping its memory and foundry lines on the leading edge as AI demand outruns conventional scaling. On September 8, Samsung and ASML announced an expanded partnership under which Samsung will put ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-09T18:23:20.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 10,
       "tags": [
         "samsung electronics",
@@ -27,12 +45,29 @@
       "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-09T17:18:09.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 10,
       "tags": [
         "nvme",
         "u.2",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1x3a747",
+      "title": "The Vibe Shift in Software Engineering: Evaluating AI-Led Conversational Programming for Performance, Cognition, and Responsible Adoption",
+      "url": "https://arxiv.org/abs/2609.09560",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09560v1 Announce Type: new Abstract: This study evaluates Vibe Coding, an emerging AI-led conversational programming paradigm that enables developers to generate software through natural-language interaction with large language models. Using a mixed-methods design, the",
+      "whyItMatters": "Touches ai, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "software engineering",
+        "performance"
       ]
     },
     {
@@ -44,8 +79,8 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 9,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.8,
       "tags": [
         "solidigm",
         "sk hynix"
@@ -60,28 +95,11 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.6,
       "tags": [
         "cxl",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-inczgz",
-      "title": "Can GPUs Continue To Dominate AI Compute?",
-      "url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Google, Amazon, and now OpenAI have competitive offerings and are gaining share. The post Can GPUs Continue To Dominate AI Compute? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, openai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T07:01:53.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 8.5,
-      "tags": [
-        "ai",
-        "openai",
-        "semiconductor"
       ]
     },
     {
@@ -93,12 +111,77 @@
       "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 8.5,
       "tags": [
         "pcie",
         "ai",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-inczgz",
+      "title": "Can GPUs Continue To Dominate AI Compute?",
+      "url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Google, Amazon, and now OpenAI have competitive offerings and are gaining share. The post Can GPUs Continue To Dominate AI Compute? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, openai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-09T07:01:53.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8.4,
+      "tags": [
+        "ai",
+        "openai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x3a74c",
+      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "url": "https://arxiv.org/abs/2609.09565",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a8sy",
+      "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
+      "url": "https://arxiv.org/abs/2609.09769",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09769v1 Announce Type: new Abstract: Agentic AI has enabled capabilities in leveraging Large Language Models (LLMs) to autonomously resolve repository-level GitHub issues. However, due to the reliance on limited static description of issues, existing agentic approaches",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-112au06",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-10T02:05:17.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.9,
+      "tags": [
+        "github",
+        "performance"
       ]
     },
     {
@@ -110,8 +193,8 @@
       "summary": "How natural language processing will fundamentally change the way humans interface with machines. The post The Intersection Of AI And Voice At The Edge appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:15:07.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -126,8 +209,8 @@
       "summary": "Security controls are increasingly implemented in ways that can limit access to information required for an investigation. The post When Digital Forensics Reaches The Hardware Layer appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-09T07:03:23.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -142,91 +225,11 @@
       "summary": "Compute vs. energy scaling; adapting to AI; fab digital twin; mobile VLM. The post Blog Review: Sept. 9 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-09T07:01:07.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x3742q",
-      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
-      "url": "https://arxiv.org/abs/2609.05514",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05514v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used as proxies for human participants in social science research, yet it remains unclear whether they can faithfully simulate diverse and conflicting human value systems. We ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3743q",
-      "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
-      "url": "https://arxiv.org/abs/2609.05527",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05527v1 Announce Type: new Abstract: Wherever a coding agent works under engineer supervision, or a clinical model assists a radiologist, the deployment question is whether to keep the human-AI workflow or replace it with the human alone or the agent alone. The human-A",
-      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-1x3742m",
-      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
-      "url": "https://arxiv.org/abs/2609.05510",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05510v1 Announce Type: new Abstract: LLM coding agents are crossing from task-scale to project-scale: single assisted efforts that run for months, across repeated context compactions, on codebases far larger than any context window. We report operational experience fro",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3747a",
-      "title": "Look Before You Prompt, and After: Scaffolding Human-AI Collaboration in Software Tutorial Creation",
-      "url": "https://arxiv.org/abs/2609.05563",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05563v1 Announce Type: new Abstract: With LLMs, creating software tutorials now involves steering the model's output and shaping it into a coherent, accurate learning resource, yet existing LLM tools offer writers little support for this work. By analyzing interviews w",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1x375vt",
-      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
-      "url": "https://arxiv.org/abs/2609.05764",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.05764v1 Announce Type: new Abstract: The key-value (KV) cache is the dominant memory bottleneck in long-context large language model (LLM) decoding: every step reads it entirely, so decoding is memory-bandwidth bound. Holding a quantized KV cache in dense on-chip non-v",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -238,8 +241,8 @@
       "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-09T17:10:12.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 7.2,
       "tags": [
         "pcie"
       ]
@@ -253,74 +256,71 @@
       "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC. The post Chip Industry Technical Paper Roundup: Sept. 8 a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-08T07:01:25.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.8,
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.7,
       "tags": [
         "llm",
         "hbm"
       ]
     },
     {
-      "id": "sig-qip12t",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-1x3a4g1",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T23:54:54.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.6,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1kgrjof",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-      "source": "Simon Willison's Weblog",
-      "category": "systems",
-      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T23:08:58.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
-      "score": 6.6,
-      "tags": [
-        "linux",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-1e2cf5f",
-      "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
-      "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "18 points on Hacker News",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T23:57:29Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 6.5,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-12vfm4h",
-      "title": "Video compressor",
-      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-1x3a4is",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMP",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-07T18:29:07.000Z",
-      "fetchedAt": "2026-09-10T00:38:16.740Z",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
       "score": 6.5,
       "tags": [
-        "claude code",
-        "claude"
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a65l",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain lar",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3a66i",
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "url": "https://arxiv.org/abs/2609.09428",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability betwee",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "fetchedAt": "2026-09-10T05:21:06.491Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     }
   ]
