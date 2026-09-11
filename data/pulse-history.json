@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T05:05:12.432Z",
+  "updatedAt": "2026-09-11T09:33:08.941Z",
   "signals": [
     {
       "id": "sig-1k1g6y2",
@@ -10,7 +10,7 @@
       "summary": "QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U.2 NVMe storage, and NFS over RDMA support. The family includes the 16-bay TVS-h1677AX, 12-bay TVS-h1277AX, and 8-bay TVS-h877AX, and QNA",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-09T17:18:09.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -27,8 +27,8 @@
       "summary": "Samsung Electronics made two moves in two days that both point at the same problem: keeping its memory and foundry lines on the leading edge as AI demand outruns conventional scaling. On September 8, Samsung and ASML announced an expanded partnership under which Samsung will put ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-09T18:23:20.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 9.5,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 9.4,
       "tags": [
         "samsung electronics",
         "ai",
@@ -44,8 +44,8 @@
       "summary": "Backblaze and WEKA have validated their two platforms together for AI pipelines, pairing WEKA NeuralMesh as the performance tier that feeds GPUs with Backblaze B2 Cloud Storage as the capacity tier that holds everything else. The integration, sizing, tuning, and testing are alrea",
       "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-10T20:40:57.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "storage",
@@ -61,8 +61,8 @@
       "summary": "Passing ATE no longer guarantees success in the field as sustained, high-power workloads push thermal and electrical limits. The post System-Level Test In The AI Era: Validating Reliability At Scale appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T07:03:56.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "semiconductor",
@@ -78,11 +78,27 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-08T11:22:38.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 8.1,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-12of9e3",
+      "title": "Chip Industry Week in Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-155/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "12-inch high-NA EUV masks; Arm's edge AI push; Amkor's expansion; 3D memory; FeRAM startup makes waves; Qualcomm-AWS $60B custom silicon deal; Ayar Labs' scale-up deal; new iPhone chip and format; rogue OpenAI agents in Germany; fab factory; fine-pitch RDL tech for advanced packa",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T07:01:29.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "openai"
       ]
     },
     {
@@ -94,8 +110,8 @@
       "summary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
@@ -110,8 +126,8 @@
       "summary": "arXiv:2609.10548v1 Announce Type: new Abstract: LLM-based agents for automated code repair have received significant attention in recent years from both research and software engineering practice perspectives. However, limited attention has been paid to patches that pass syntacti",
       "whyItMatters": "Touches llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "software engineering"
@@ -126,8 +142,8 @@
       "summary": "arXiv:2609.10550v1 Announce Type: new Abstract: AI deployment performance is shaped not by model architecture alone, but by interactions among compression, compiler transformations, and serving policies. Published benchmarks often report latency and throughput under incomparable ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "performance"
@@ -142,8 +158,8 @@
       "summary": "arXiv:2609.10610v1 Announce Type: new Abstract: Context: Computational notebooks are the standard environment for machine learning (ML) development. Within the ML community, model performance is often the primary considered metric, and code quality is treated as a secondary conce",
       "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "machine learning",
         "performance"
@@ -158,8 +174,8 @@
       "summary": "arXiv:2609.10648v1 Announce Type: new Abstract: AI-native software engineering increasingly combines human judgment, historical analogy, parametric estimation, and AI-generated forecasts inside the same prioritization decision. The resulting problem is not merely how to rank cand",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "software engineering"
@@ -174,8 +190,8 @@
       "summary": "arXiv:2609.10861v1 Announce Type: new Abstract: High-Bandwidth Memory (HBM) cost motivates stronger controller protection that can support a wider range of device error rates. Long-span error-correcting codes provide stronger protection at a comparable code rate, but a direct imp",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "hbm"
@@ -190,8 +206,8 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.8,
       "tags": [
         "cxl",
         "ai"
@@ -203,11 +219,11 @@
       "url": "https://system76.com/workstations/thelio-mira-ai",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "67 points on Hacker News",
+      "summary": "103 points on Hacker News",
       "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T23:10:06Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "linux"
@@ -222,11 +238,87 @@
       "summary": "Kilowatt-class AI accelerators are forcing engineers to rethink what counts as adequate coverage across workload, thermal behavior, test hardware, and time. The post Validation Gets Tested At 1kW appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-10T07:11:34.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-112au06",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-10T02:05:17.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 7.1,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-4tzsn3",
+      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
+      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-09T17:10:12.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 6.4,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-1x3a4g1",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3a4is",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 6.3,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3a65l",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain lar",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "fetchedAt": "2026-09-11T09:33:08.941Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -246,22 +338,6 @@
       ]
     },
     {
-      "id": "sig-112au06",
-      "title": "GitHub availability report: August 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-10T02:05:17.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 7.3,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-1fyu262",
       "title": "Vincentwei1021/anything2explainer (TypeScript) — trending new repo",
       "url": "https://github.com/Vincentwei1021/anything2explainer",
@@ -276,51 +352,6 @@
         "claude code",
         "claude",
         "typescript"
-      ]
-    },
-    {
-      "id": "sig-1x3a4g1",
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "url": "https://arxiv.org/abs/2609.09203",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scienti",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x3a4is",
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "url": "https://arxiv.org/abs/2609.09233",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-f",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 6.5,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3a65l",
-      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "url": "https://arxiv.org/abs/2609.09418",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain lar",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "fetchedAt": "2026-09-11T05:05:12.432Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -372,21 +403,6 @@
       "tags": [
         "ai",
         "github"
-      ]
-    },
-    {
-      "id": "sig-4tzsn3",
-      "title": "Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs",
-      "url": "https://www.servethehome.com/arm-neoverse-css-n4-launched-for-next-gen-cpus-and-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Arm Neoverse CSS N4 IP is out so companies can quickly build next-generation power-efficient PCIe Gen7 CPUs The post Arm Neoverse CSS N4 Launched for Next-Gen CPUs and DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-09T17:10:12.000Z",
-      "fetchedAt": "2026-09-11T00:27:05.399Z",
-      "score": 6.6,
-      "tags": [
-        "pcie"
       ]
     },
     {
@@ -706,23 +722,6 @@
       "tags": [
         "linux",
         "kernel"
-      ]
-    },
-    {
-      "id": "sig-12of9d6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools; heterogeneous HBM; safe AI in SDVs. The post Chi",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-04T07:01:21.000Z",
-      "fetchedAt": "2026-09-10T05:21:06.491Z",
-      "score": 8.5,
-      "tags": [
-        "pcie",
-        "ai",
-        "hbm"
       ]
     },
     {
@@ -2546,22 +2545,6 @@
       "tags": [
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-djfdls",
-      "title": "Security In The Era Of Quantum Computing",
-      "url": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Enable robust cryptographic mechanisms that remain resilient even against quantum-based computational attacks. The post Security In The Era Of Quantum Computing appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-02T07:02:11.000Z",
-      "fetchedAt": "2026-09-04T05:50:55.547Z",
-      "score": 6.7,
-      "tags": [
-        "semiconductor",
-        "security"
       ]
     }
   ]
