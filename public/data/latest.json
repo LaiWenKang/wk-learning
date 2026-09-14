@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T18:39:44.464Z",
+  "generatedAt": "2026-09-14T22:05:56.552Z",
   "signals": [
     {
       "id": "sig-pq3fc0",
@@ -10,31 +10,12 @@
       "summary": "Lightbits Labs, the company that invented NVMe over TCP, is moving into inference software with Inferra, a KV cache orchestration engine that makes its public debut tomorrow, September 15, at the AI Infra Summit in Santa Clara. The software virtualizes GPU memory across DRAM and ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-14T16:23:21.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
       "score": 10,
       "tags": [
         "nvme",
         "ai",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-1ca0c0p",
-      "title": "Chip Industry Technical Paper Roundup: Sept. 14",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-14/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Heterogeneous memory chiplets for multi-request LLM inference; long-span ECC for HBM AI inference; quasi phase-only EUV masks; advanced packaging underfill cure and thermal-endurance modeling; HW information-flow tracking for pre-silicon security testing; charge characterization ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-14T07:01:44.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 10,
-      "tags": [
-        "endurance",
-        "ai",
-        "llm",
-        "hbm",
-        "security"
       ]
     },
     {
@@ -46,8 +27,8 @@
       "summary": "",
       "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 8.8,
       "tags": [
         "seagate",
         "ai"
@@ -62,8 +43,8 @@
       "summary": "arXiv:2604.04750v4 Announce Type: replace Abstract: Advances in hybrid bonding and packaging have driven growing interest in 3D DRAM-stacked AI accelerators. As large language models (LLMs) scale to hundreds of billions or trillions of parameters, distributed inference across mul",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-14T04:00:00.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "llm",
@@ -79,26 +60,10 @@
       "summary": "Today we are taking a look at Dell's 16-inch laptop for mainstream business segment, the AMD-based Dell Pro 5 16. The pro laptop hits all the high notes, pairing an AMD Ryzen AI 9 HX PRO 470 processor with great modularity and a good balance between size, weight, and performance ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T16:25:36.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 7.8,
       "tags": [
         "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1eo0w6s",
-      "title": "Advanced Packaging Changes The Rules For Semiconductor Health And Performance Management",
-      "url": "https://semiengineering.com/advanced-packaging-changes-the-rules-for-semiconductor-health-and-performance-management/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "How to understand every chiplet inside the system-in-package. The post Advanced Packaging Changes The Rules For Semiconductor Health And Performance Management appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-14T07:04:02.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
         "performance"
       ]
     },
@@ -111,8 +76,8 @@
       "summary": "arXiv:2609.12286v1 Announce Type: new Abstract: Integrating evolutionary computation and large language models (LLMs) requires control of population diversity as well as generative capability. Among LLM outputs, those with explicit structure, such as a description paired with cod",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T04:00:00.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "llm"
@@ -127,8 +92,8 @@
       "summary": "arXiv:2609.12190v1 Announce Type: new Abstract: Large language models have become central to modern coding assistants, but state-of-the-art systems such as Claude Code or Codex rely on very large, cloud-hosted models with significant computational cost and data-privacy implicatio",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T04:00:00.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 7.5,
       "tags": [
         "claude code",
         "claude"
@@ -143,8 +108,8 @@
       "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publi",
       "whyItMatters": "Touches coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T00:28:10.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 7.4,
       "tags": [
         "coding agent",
         "security"
@@ -159,42 +124,10 @@
       "summary": "",
       "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-14T13:15:16.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
       "score": 7.3,
       "tags": [
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1my0dk3",
-      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
-      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://twitter.com/DavidSacks/status/2098973625252708460 Comments URL: https://news.ycombinator.com/item?id=49685991 Points: 317 # Comments: 245",
-      "whyItMatters": "Touches anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-13T16:52:33.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.3,
-      "tags": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1t3n0qe",
-      "title": "Modeling Predicts Cure And Thermal Endurance Of Advanced Packaging Underfill (NIST, UCSD et al.)",
-      "url": "https://semiengineering.com/modeling-predicts-cure-and-thermal-endurance-of-advanced-packaging-underfill-nist-ucsd-et-al/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at the NIST, UCSD et al. published a technical paper titled “Predicting Cure Evolution and Thermal Endurance of a Highly Filled Epoxy Underfill for Advanced Packaging.” Abstract Excerpt: “Epoxy underfill materials are critical to advanced semiconductor packaging by en",
-      "whyItMatters": "Touches endurance, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-11T20:54:59.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7.1,
-      "tags": [
-        "endurance",
-        "semiconductor"
       ]
     },
     {
@@ -203,33 +136,16 @@
       "url": "https://github.com/kruzovic7/ai-data-extractor",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 635",
+      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 724",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
       "score": 7,
       "tags": [
         "ai",
         "claude code",
         "claude",
         "python"
-      ]
-    },
-    {
-      "id": "sig-10vz78p",
-      "title": "Backblaze B2 and WEKA NeuralMesh Validated as a Two-Tier AI Storage Pipeline, With Snap-to-Object Checkpoints in B2",
-      "url": "https://www.storagereview.com/news/backblaze-b2-and-weka-neuralmesh-validated-as-a-two-tier-ai-storage-pipeline-with-snap-to-object-checkpoints-landing-in-b2",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Backblaze and WEKA have validated their two platforms together for AI pipelines, pairing WEKA NeuralMesh as the performance tier that feeds GPUs with Backblaze B2 Cloud Storage as the capacity tier that holds everything else. The integration, sizing, tuning, and testing are alrea",
-      "whyItMatters": "Touches ai, storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-10T20:40:57.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage",
-        "performance"
       ]
     },
     {
@@ -241,7 +157,7 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
       "score": 7,
       "tags": [
         "cxl",
@@ -254,15 +170,30 @@
       "url": "https://github.com/Vincentwei1021/anything2explainer",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. · ★ 1306",
+      "summary": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. · ★ 1315",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-08T17:19:54Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
       "score": 7,
       "tags": [
         "claude code",
         "claude",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-5j9u0a",
+      "title": "What blog posts influenced your thinking the most?",
+      "url": "https://simonwillison.net/2026/Sep/14/influences/",
+      "source": "Simon Willison's Weblog",
+      "category": "career",
+      "summary": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers un",
+      "whyItMatters": "Touches career — relevant to growing professionally.",
+      "publishedAt": "2026-09-14T20:21:48.000Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.5,
+      "tags": [
+        "career"
       ]
     },
     {
@@ -274,8 +205,8 @@
       "summary": "Fujitsu is bringing its 2nm FUJITSU-MONAKA processor to AI infrastructure with a new server family designed to run AI inference in air-cooled data centers without requiring specialized liquid cooling. The MONAKA Server is designed, developed, and manufactured in Japan, with compo",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T18:03:44.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -289,8 +220,8 @@
       "summary": "FS has organized its AI optics into a two-part portfolio: Scale-Out transceivers at 400G, 800G, and 1.6T for the links inside a GPU cluster, and Scale-Across coherent modules at 400G and 800G for stitching clusters together across sites at distances up to 500 km. The Scale-Out si",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T17:34:25.000Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -301,28 +232,88 @@
       "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "49 points on Hacker News",
+      "summary": "89 points on Hacker News",
       "whyItMatters": "Touches machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T16:32:23Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 6.4,
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.3,
       "tags": [
         "machine learning"
       ]
     },
     {
-      "id": "sig-95k3mo",
-      "title": "When LLM judges agree, should we believe them?",
-      "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+      "id": "sig-171xf7d",
+      "title": "BeeGFS runs on Huawai OceanDisk storage servers",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/14/beegfs-runs-on-huawai-oceandisk-storage-servers/5296296",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-14T14:52:11.000Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.3,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-mszpuz",
+      "title": "Scaleout Software’s in-memory digital twins for generative AI",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/14/scaleout-softwares-in-memory-digital-twins-for-generative-ai/5296263",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T14:33:46.000Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-bzoub5",
+      "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
+      "url": "https://spectrum.ieee.org/adversarial-fashion",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "24 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T16:29:30Z",
-      "fetchedAt": "2026-09-14T18:39:44.464Z",
-      "score": 6.4,
+      "summary": "85 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T14:04:53Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.3,
       "tags": [
-        "llm"
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-m1glak",
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "312 points on Hacker News",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T12:40:57Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6.2,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1x3tjrh",
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "url": "https://arxiv.org/abs/2609.11987",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners ass",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "fetchedAt": "2026-09-14T22:05:56.552Z",
+      "score": 6,
+      "tags": [
+        "language model"
       ]
     }
   ]
