@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:30:49.942Z",
+  "updatedAt": "2026-09-15T05:12:19.693Z",
   "signals": [
     {
       "id": "sig-pq3fc0",
@@ -10,12 +10,46 @@
       "summary": "Lightbits Labs, the company that invented NVMe over TCP, is moving into inference software with Inferra, a KV cache orchestration engine that makes its public debut tomorrow, September 15, at the AI Infra Summit in Santa Clara. The software virtualizes GPU memory across DRAM and ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-14T16:23:21.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
       "score": 10,
       "tags": [
         "nvme",
         "ai",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-1x3uyv3",
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "url": "https://arxiv.org/abs/2609.13422",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
+      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3uyw4",
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "url": "https://arxiv.org/abs/2609.13436",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 9,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
       ]
     },
     {
@@ -27,11 +61,262 @@
       "summary": "",
       "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8.6,
       "tags": [
         "seagate",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3uyys",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "url": "https://arxiv.org/abs/2609.13463",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3uz1h",
+      "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
+      "url": "https://arxiv.org/abs/2609.13491",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1x3uyyq",
+      "title": "Rethinking Software Development as a Self-Adaptive Socio-Technical System",
+      "url": "https://arxiv.org/abs/2609.13461",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13461v1 Announce Type: new Abstract: Agentic AI is expanding across various software engineering activities, yet human-agent organization is typically treated as fixed, which is problematic because development configurations may become suboptimal as development context",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1x3v1e0",
+      "title": "TyPatch: Transforming Patches into Typestate Rules for Kernel Bug Detection",
+      "url": "https://arxiv.org/abs/2609.13728",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.13728v1 Announce Type: new Abstract: Historical Linux kernel patches capture defect knowledge that applies beyond their original repair sites. Recent work has shown that large language models (LLMs) can generate static-analysis checkers from historical patches and use ",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-1x3uwfz",
+      "title": "PDD: Unleashing Economical and Flexible Heterogeneous LLM Inference via Cross-Datacenter Prefill-Decode Disaggregation",
+      "url": "https://arxiv.org/abs/2609.13161",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.13161v1 Announce Type: new Abstract: Interconnecting geographically dispersed clusters over wide-area Ethernet provides a scalable and cost-effective alternative to dedicated intra-datacenter heterogeneous clusters for Large Language Model (LLM) inference. However, thi",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-hirnn1",
+      "title": "Dell Pro 5 16 (AMD) Laptop Review",
+      "url": "https://www.servethehome.com/dell-pro-5-16-amd-laptop-review/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "Today we are taking a look at Dell's 16-inch laptop for mainstream business segment, the AMD-based Dell Pro 5 16. The pro laptop hits all the high notes, pairing an AMD Ryzen AI 9 HX PRO 470 processor with great modularity and a good balance between size, weight, and performance ",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T16:25:36.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-mdmkp4",
+      "title": "commit-rewriter 0.1",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publi",
+      "whyItMatters": "Touches coding agent, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T00:28:10.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 7.2,
+      "tags": [
+        "coding agent",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-w6ponb",
+      "title": "US Listing? Me too says Kioxia",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/14/us-listing-me-too-says-kioxia/5296100",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-14T13:15:16.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 7.1,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-f6wq3w",
+      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 813",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T18:12:58Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1chsfg6",
+      "title": "Panmnesia and Meta take single chip, CXL-based view of AI datacenters",
+      "url": "https://www.blocksandfiles.com/architecture/2026/09/09/panmnesia-and-meta-take-single-chip-cxl-based-view-of-ai-datacenters/5295213",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-09-09T15:31:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 7,
+      "tags": [
+        "cxl",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3uyw5",
+      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+      "url": "https://arxiv.org/abs/2609.13437",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of la",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3uyyv",
+      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+      "url": "https://arxiv.org/abs/2609.13466",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which org",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3uyzm",
+      "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+      "url": "https://arxiv.org/abs/2609.13470",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challenges for deployment in agentic pipelines, including latency, privacy, connectivity",
+      "whyItMatters": "Touches language model — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3uyzr",
+      "title": "Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports",
+      "url": "https://arxiv.org/abs/2609.13475",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13475v1 Announce Type: new Abstract: Existing pipelines for clinical timeline extraction from case reports are evaluated using an expert reference and are limited by imperfect reference annotations and imprecise event alignment. We developed GAVEL, an LLM judge protoco",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3uzqc",
+      "title": "From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements",
+      "url": "https://arxiv.org/abs/2609.13535",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13535v1 Announce Type: new Abstract: The EU AI Act introduces mandatory requirements for high-risk AI systems with the explicit goal of ensuring the development and operation of trustworthy AI. At the same time, AI risk management practices rely on structured risk taxo",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x3uzr7",
+      "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+      "url": "https://arxiv.org/abs/2609.13543",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13543v1 Announce Type: new Abstract: LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deployments run for hours under contention, surfacing a different class of failures. We use the Clinical Environment Simulator (CES), in which an ",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T04:00:00.000Z",
+      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -49,22 +334,6 @@
         "ai",
         "llm",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-hirnn1",
-      "title": "Dell Pro 5 16 (AMD) Laptop Review",
-      "url": "https://www.servethehome.com/dell-pro-5-16-amd-laptop-review/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "Today we are taking a look at Dell's 16-inch laptop for mainstream business segment, the AMD-based Dell Pro 5 16. The pro laptop hits all the high notes, pairing an AMD Ryzen AI 9 HX PRO 470 processor with great modularity and a good balance between size, weight, and performance ",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T16:25:36.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "performance"
       ]
     },
     {
@@ -97,71 +366,6 @@
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-mdmkp4",
-      "title": "commit-rewriter 0.1",
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publi",
-      "whyItMatters": "Touches coding agent, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T00:28:10.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 7.3,
-      "tags": [
-        "coding agent",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-w6ponb",
-      "title": "US Listing? Me too says Kioxia",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/14/us-listing-me-too-says-kioxia/5296100",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-14T13:15:16.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 7.2,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-f6wq3w",
-      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
-      "url": "https://github.com/kruzovic7/ai-data-extractor",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 809",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1chsfg6",
-      "title": "Panmnesia and Meta take single chip, CXL-based view of AI datacenters",
-      "url": "https://www.blocksandfiles.com/architecture/2026/09/09/panmnesia-and-meta-take-single-chip-cxl-based-view-of-ai-datacenters/5295213",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-15T00:30:49.942Z",
-      "score": 7,
-      "tags": [
-        "cxl",
-        "ai"
       ]
     },
     {
@@ -2886,163 +3090,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-16wb8ou",
-      "title": "AI cancer cures slowed by chip shortage, says Arm boss",
-      "url": "https://www.bbc.com/news/articles/c0m39g7xzevo",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "6 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T02:12:13Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-181lb5o",
-      "title": "pierrenade/short-video-generator-AI (Python) — trending new repo",
-      "url": "https://github.com/pierrenade/short-video-generator-AI",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. · ★ 1185",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T11:55:18Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.2,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1lzq2om",
-      "title": "A new era emerges: A review of storage supplier revenue from 2020 to 2026",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/07/a-new-era-emerges-a-review-of-storage-supplier-revenue-from-2020-to-2026/5294796",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-07T16:06:00.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.1,
-      "tags": [
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-m4q6hz",
-      "title": "bzip3",
-      "url": "https://github.com/iczelia/bzip3",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 393 # Comments: 111",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-07T13:35:13.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6.1,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-n1ne40",
-      "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
-      "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA used IFA in Berlin to put Windows at the center of its local AI story. The company’s September 3 post covers a new Windows Agent framework for agents that run in the background under OS control, one-click Windows setups for OpenClaw and Nous Research’s Hermes Agent, a beta",
-      "whyItMatters": "Touches ai, firmware — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-05T00:25:04.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "firmware"
-      ]
-    },
-    {
-      "id": "sig-1wwmge7",
-      "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
-      "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, networking, storage, de",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-04T17:54:45.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-tlbba3",
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats fi",
-      "whyItMatters": "Touches openai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T21:03:02.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "openai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1r19k2x",
-      "title": "Albert-Weasker/niubigeo (TypeScript) — trending new repo",
-      "url": "https://github.com/Albert-Weasker/niubigeo",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source AI brand visibility and competitor reports · ★ 679",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-03T15:55:54Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1xmj4fl",
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T21:00:00.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-kezvmj",
-      "title": "How we make AI coding more cost efficient without sacrificing task quality",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-02T18:00:00.000Z",
-      "fetchedAt": "2026-09-08T04:43:13.808Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "github"
       ]
     }
   ]
