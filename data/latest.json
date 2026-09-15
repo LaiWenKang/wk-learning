@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-15T10:07:28.967Z",
+  "generatedAt": "2026-09-15T15:03:13.392Z",
   "signals": [
+    {
+      "id": "sig-hpd3k0",
+      "title": "Scaling AI Infrastructure With PCIe Switches And Retimers",
+      "url": "https://semiengineering.com/scaling-ai-infrastructure-with-pcie-switches-and-retimers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Build configurable PCIe subsystems spanning local expansion, shared resource domains, and longer-reach topologies. The post Scaling AI Infrastructure With PCIe Switches And Retimers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-15T07:06:12.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1ca0c0p",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 14",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-14/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Heterogeneous memory chiplets for multi-request LLM inference; long-span ECC for HBM AI inference; quasi phase-only EUV masks; advanced packaging underfill cure and thermal-endurance modeling; HW information-flow tracking for pre-silicon security testing; charge characterization ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-09-14T07:01:44.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 10,
+      "tags": [
+        "endurance",
+        "ai",
+        "llm",
+        "hbm",
+        "security"
+      ]
+    },
     {
       "id": "sig-pq3fc0",
       "title": "Lightbits Inferra KV Cache Engine Claims 16x Session Density and 10M-Token Contexts",
@@ -10,12 +46,28 @@
       "summary": "Lightbits Labs, the company that invented NVMe over TCP, is moving into inference software with Inferra, a KV cache orchestration engine that makes its public debut tomorrow, September 15, at the AI Infra Summit in Santa Clara. The software virtualizes GPU memory across DRAM and ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-14T16:23:21.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 10,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 9.9,
       "tags": [
         "nvme",
         "ai",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-1hixu3g",
+      "title": "Validating PCIe 6.0 Connectivity In A 3D Multi-Die Test Chip",
+      "url": "https://semiengineering.com/validating-pcie-6-0-connectivity-in-a-3d-multi-die-test-chip/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Implementing 64.0 GT/s PCIe connectivity in a stacked-die, face-to-face 3D architecture. The post Validating PCIe 6.0 Connectivity In A 3D Multi-Die Test Chip appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-15T07:02:24.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 8.8,
+      "tags": [
+        "pcie",
+        "semiconductor"
       ]
     },
     {
@@ -27,8 +79,8 @@
       "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
       "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "llm",
@@ -44,8 +96,8 @@
       "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "llm",
@@ -61,27 +113,75 @@
       "summary": "",
       "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 8.3,
       "tags": [
         "seagate",
         "ai"
       ]
     },
     {
-      "id": "sig-1yohh0z",
-      "title": "High-performance garbage collection for C++",
-      "url": "https://v8.dev/blog/high-performance-cpp-gc",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "41 points on Hacker News",
-      "whyItMatters": "Touches garbage collection, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-14T11:55:44Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 8.4,
+      "id": "sig-1lse6fq",
+      "title": "AI Data Centers Have A Power Hoarding Problem",
+      "url": "https://semiengineering.com/ai-data-centers-have-a-power-hoarding-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Redundant feeds protect uptime, but they also strand capacity that could support more hardware. The post AI Data Centers Have A Power Hoarding Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:13:41.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.8,
       "tags": [
-        "garbage collection",
-        "performance"
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-u7gctq",
+      "title": "Hardware-Software Co-Design In The AI Era",
+      "url": "https://semiengineering.com/hardware-software-co-design-in-the-ai-era/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Even though the benefits are accepted, a combined hardware/software development flow is hampered by a lot of challenges. The post Hardware-Software Co-Design In The AI Era appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:12:38.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-p103el",
+      "title": "AMBA Over UCIe: Building Coherent Multi-Die Systems",
+      "url": "https://semiengineering.com/amba-over-ucie-building-coherent-multi-die-systems/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Transforming established SoC design paradigms into system-level fabrics capable of supporting next-generation AI, HPC, and data center workloads. The post AMBA Over UCIe: Building Coherent Multi-Die Systems appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:04:57.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12aup2n",
+      "title": "Compressing An 11B VLM To 2.7-bit Weights For Mobile CPUs",
+      "url": "https://semiengineering.com/compressing-an-11b-vlm-to-2-7-bit-weights-for-mobile-cpus/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Combining a novel weight format for efficient decoding with quantization-aware training to reduce model size while retaining accuracy for multimodal AI. The post Compressing An 11B VLM To 2.7-bit Weights For Mobile CPUs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:03:29.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -93,8 +193,8 @@
       "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "reliability"
@@ -109,8 +209,8 @@
       "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "performance"
@@ -125,8 +225,8 @@
       "summary": "arXiv:2609.13461v1 Announce Type: new Abstract: Agentic AI is expanding across various software engineering activities, yet human-agent organization is typically treated as fixed, which is problematic because development configurations may become suboptimal as development context",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "software engineering"
@@ -141,8 +241,8 @@
       "summary": "arXiv:2609.13728v1 Announce Type: new Abstract: Historical Linux kernel patches capture defect knowledge that applies beyond their original repair sites. Recent work has shown that large language models (LLMs) can generate static-analysis checkers from historical patches and use ",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.7,
       "tags": [
         "linux",
         "kernel"
@@ -157,8 +257,8 @@
       "summary": "arXiv:2609.13161v1 Announce Type: new Abstract: Interconnecting geographically dispersed clusters over wide-area Ethernet provides a scalable and cost-effective alternative to dedicated intra-datacenter heterogeneous clusters for Large Language Model (LLM) inference. However, thi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -173,8 +273,8 @@
       "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic amon",
       "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T21:18:13.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "anthropic"
@@ -189,136 +289,45 @@
       "summary": "Today we are taking a look at Dell's 16-inch laptop for mainstream business segment, the AMD-based Dell Pro 5 16. The pro laptop hits all the high notes, pairing an AMD Ryzen AI 9 HX PRO 470 processor with great modularity and a good balance between size, weight, and performance ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T16:25:36.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "performance"
       ]
     },
     {
-      "id": "sig-mdmkp4",
-      "title": "commit-rewriter 0.1",
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publi",
-      "whyItMatters": "Touches coding agent, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T00:28:10.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "id": "sig-1eo0w6s",
+      "title": "Advanced Packaging Changes The Rules For Semiconductor Health And Performance Management",
+      "url": "https://semiengineering.com/advanced-packaging-changes-the-rules-for-semiconductor-health-and-performance-management/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "How to understand every chiplet inside the system-in-package. The post Advanced Packaging Changes The Rules For Semiconductor Health And Performance Management appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-14T07:04:02.000Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
       "score": 7.1,
       "tags": [
-        "coding agent",
-        "security"
+        "semiconductor",
+        "performance"
       ]
     },
     {
-      "id": "sig-f6wq3w",
-      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
-      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "id": "sig-1fz9q4k",
+      "title": "agentverse-os/AgentVerse-OS (Rust) — trending new repo",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 813",
+      "summary": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only ",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7,
+      "publishedAt": "2026-09-12T18:20:00Z",
+      "fetchedAt": "2026-09-15T15:03:13.392Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "claude code",
         "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1chsfg6",
-      "title": "Panmnesia and Meta take single chip, CXL-based view of AI datacenters",
-      "url": "https://www.blocksandfiles.com/architecture/2026/09/09/panmnesia-and-meta-take-single-chip-cxl-based-view-of-ai-datacenters/5295213",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7,
-      "tags": [
-        "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-w6ponb",
-      "title": "US Listing? Me too says Kioxia",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/14/us-listing-me-too-says-kioxia/5296100",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-14T13:15:16.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 6.9,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-13pou1z",
-      "title": "How Everpure plans to stop AI from starving without data",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T08:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1g8lipg",
-      "title": "Linux from Scratch",
-      "url": "https://www.linuxfromscratch.org/",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "185 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-15T04:15:23Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 6.3,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1x3uyw5",
-      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-      "url": "https://arxiv.org/abs/2609.13437",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of la",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x3uyyv",
-      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
-      "url": "https://arxiv.org/abs/2609.13466",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which org",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
+        "rust"
       ]
     }
   ]
