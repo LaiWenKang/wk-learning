@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:12:19.693Z",
+  "updatedAt": "2026-09-15T10:07:28.967Z",
   "signals": [
     {
       "id": "sig-pq3fc0",
@@ -10,7 +10,7 @@
       "summary": "Lightbits Labs, the company that invented NVMe over TCP, is moving into inference software with Inferra, a KV cache orchestration engine that makes its public debut tomorrow, September 15, at the AI Infra Summit in Santa Clara. The software virtualizes GPU memory across DRAM and ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-14T16:23:21.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -27,8 +27,8 @@
       "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
       "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 9,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "llm",
@@ -44,8 +44,8 @@
       "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 9,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "llm",
@@ -61,11 +61,27 @@
       "summary": "",
       "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 8.4,
       "tags": [
         "seagate",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1yohh0z",
+      "title": "High-performance garbage collection for C++",
+      "url": "https://v8.dev/blog/high-performance-cpp-gc",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "41 points on Hacker News",
+      "whyItMatters": "Touches garbage collection, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-14T11:55:44Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 8.4,
+      "tags": [
+        "garbage collection",
+        "performance"
       ]
     },
     {
@@ -77,8 +93,8 @@
       "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "reliability"
@@ -93,8 +109,8 @@
       "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "performance"
@@ -109,8 +125,8 @@
       "summary": "arXiv:2609.13461v1 Announce Type: new Abstract: Agentic AI is expanding across various software engineering activities, yet human-agent organization is typically treated as fixed, which is problematic because development configurations may become suboptimal as development context",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "software engineering"
@@ -125,8 +141,8 @@
       "summary": "arXiv:2609.13728v1 Announce Type: new Abstract: Historical Linux kernel patches capture defect knowledge that applies beyond their original repair sites. Recent work has shown that large language models (LLMs) can generate static-analysis checkers from historical patches and use ",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.8,
       "tags": [
         "linux",
         "kernel"
@@ -141,11 +157,27 @@
       "summary": "arXiv:2609.13161v1 Announce Type: new Abstract: Interconnecting geographically dispersed clusters over wide-area Ethernet provides a scalable and cost-effective alternative to dedicated intra-datacenter heterogeneous clusters for Large Language Model (LLM) inference. However, thi",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 8,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
+      ]
+    },
+    {
+      "id": "sig-10x5qe3",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic amon",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T21:18:13.000Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "anthropic"
       ]
     },
     {
@@ -157,8 +189,8 @@
       "summary": "Today we are taking a look at Dell's 16-inch laptop for mainstream business segment, the AMD-based Dell Pro 5 16. The pro laptop hits all the high notes, pairing an AMD Ryzen AI 9 HX PRO 470 processor with great modularity and a good balance between size, weight, and performance ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T16:25:36.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "performance"
@@ -173,26 +205,11 @@
       "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publi",
       "whyItMatters": "Touches coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T00:28:10.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 7.1,
       "tags": [
         "coding agent",
         "security"
-      ]
-    },
-    {
-      "id": "sig-w6ponb",
-      "title": "US Listing? Me too says Kioxia",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/14/us-listing-me-too-says-kioxia/5296100",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-14T13:15:16.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 7.1,
-      "tags": [
-        "kioxia"
       ]
     },
     {
@@ -204,7 +221,7 @@
       "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 813",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
       "score": 7,
       "tags": [
         "ai",
@@ -222,11 +239,56 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-09-09T15:31:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
       "score": 7,
       "tags": [
         "cxl",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-w6ponb",
+      "title": "US Listing? Me too says Kioxia",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/14/us-listing-me-too-says-kioxia/5296100",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-14T13:15:16.000Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 6.9,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-13pou1z",
+      "title": "How Everpure plans to stop AI from starving without data",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T08:00:00.000Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1g8lipg",
+      "title": "Linux from Scratch",
+      "url": "https://www.linuxfromscratch.org/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "185 points on Hacker News",
+      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-15T04:15:23Z",
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 6.3,
+      "tags": [
+        "linux"
       ]
     },
     {
@@ -238,8 +300,8 @@
       "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of la",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -253,8 +315,8 @@
       "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which org",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T04:00:00.000Z",
-      "fetchedAt": "2026-09-15T05:12:19.693Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-15T10:07:28.967Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -3056,38 +3118,6 @@
       "publishedAt": "2026-09-08T04:06:20Z",
       "fetchedAt": "2026-09-08T13:39:55.298Z",
       "score": 6.2,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-si3tm9",
-      "title": "Sandisk and Kioxia have yen for new NAND fabs",
-      "url": "https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-08-28T14:10:00.000Z",
-      "fetchedAt": "2026-09-08T09:07:54.776Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
-      ]
-    },
-    {
-      "id": "sig-1jepvkf",
-      "title": "UAE-based Falcon AI NSFW classifier among top global open-source models (2025)",
-      "url": "https://www.middleeastainews.com/p/uae-ai-model-tops-50-million-monthly",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "17 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-08T06:39:20Z",
-      "fetchedAt": "2026-09-08T09:07:54.776Z",
-      "score": 6.4,
       "tags": [
         "ai"
       ]
