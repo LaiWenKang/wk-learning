@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T09:49:26.489Z",
+  "updatedAt": "2026-09-16T14:22:39.379Z",
   "signals": [
     {
       "id": "sig-1x3x6n1",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2609.16003v1 Announce Type: new Abstract: The rapid proliferation of cloud and AI-driven workloads has led to increasingly complex requirements for modern storage subsystems. To meet these demands, SSD controller architectures have evolved into a fragmented landscape, offer",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,12 +28,305 @@
       "summary": "Seagate and WD published separate AI storage studies within days of each other; the headline numbers: Seagate says 99% of enterprises expect AI to increase their storage requirements over the next three years, while WD’s IDC research puts the comparable figure at 74%. Read the fi",
       "whyItMatters": "Touches seagate, ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T17:23:54.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 10,
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 9.9,
       "tags": [
         "seagate",
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1x3uyv3",
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "url": "https://arxiv.org/abs/2609.13422",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
+      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 8.7,
+      "tags": [
+        "ai",
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3uyw4",
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "url": "https://arxiv.org/abs/2609.13436",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 8.7,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-6fe0qy",
+      "title": "Moving Test Data Faster",
+      "url": "https://semiengineering.com/moving-test-data-faster/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Options and workarounds for improving reliability in chips. The post Moving Test Data Faster appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-16T07:15:46.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.8,
+      "tags": [
+        "semiconductor",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-gg7ki",
+      "title": "Why SoC Interconnects Have Outgrown the Bus",
+      "url": "https://semiengineering.com/why-soc-interconnects-have-outgrown-the-bus/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "How advanced NoC architectures and coherent subsystem IP can address the industry's next-gen scalability, safety, and performance challenges. The post Why SoC Interconnects Have Outgrown the Bus appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-16T07:05:15.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.8,
+      "tags": [
+        "semiconductor",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1h2c5gp",
+      "title": "Enabling Efficient Edge AI Inferencing Through Ecosystem Collaboration",
+      "url": "https://semiengineering.com/enabling-efficient-edge-ai-inferencing-through-ecosystem-collaboration/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "A scalable LPDDR-based memory platform optimized for edge AI inferencing. The post Enabling Efficient Edge AI Inferencing Through Ecosystem Collaboration appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T07:02:43.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x3uyys",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "url": "https://arxiv.org/abs/2609.13463",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x3uz1h",
+      "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
+      "url": "https://arxiv.org/abs/2609.13491",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1x3x7l3",
+      "title": "Docker Containers vs. Virtual Machines: A Comparative Study of Architecture, Performance, Configuration, and Security",
+      "url": "https://arxiv.org/abs/2609.16148",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.16148v1 Announce Type: new Abstract: Modern application platforms must isolate workloads while preserving deployment speed, portability, resource efficiency, and security. Virtual machines (VMs) and Docker containers address this requirement at different abstraction la",
+      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x3xa5h",
+      "title": "Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails",
+      "url": "https://arxiv.org/abs/2609.16461",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.16461v1 Announce Type: new Abstract: Agentic large language model (LLM) systems rely on long interaction histories to preserve instructions, tool states, intermediate decisions, and unresolved dependencies, but unrestricted context growth increases computational cost a",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x3xa8d",
+      "title": "AI Policies: Help or Hindrance? A Software Developer's Perspective",
+      "url": "https://arxiv.org/abs/2609.16496",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.16496v1 Announce Type: new Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software develope",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x3x9ba",
+      "title": "FSNIC: A Low-Latency Flow-Based Intrusion Detection Architecture for FPGA SmartNICs",
+      "url": "https://arxiv.org/abs/2609.16363",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2609.16363v1 Announce Type: new Abstract: Modern data centres require high-performance networking alongside effective real-time security. Traditional Intrusion Detection Systems (IDS) commonly rely on general-purpose processors and often struggle to inspect high-speed traff",
+      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1dh55i6",
+      "title": "Seagate bigging up disk drives as strategic AI data stores",
+      "url": "https://www.blocksandfiles.com/disk/2026/09/14/seagate-bigging-up-disk-drives-as-strategic-ai-data-stores/5296114",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T14:16:40.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.7,
+      "tags": [
+        "seagate",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1lse6fq",
+      "title": "AI Data Centers Have A Stranded Power Problem",
+      "url": "https://semiengineering.com/ai-data-centers-have-a-power-hoarding-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Redundant feeds protect uptime, but they also strand capacity that could support more hardware. The post AI Data Centers Have A Stranded Power Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:13:41.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-u7gctq",
+      "title": "Hardware-Software Co-Design In The AI Era",
+      "url": "https://semiengineering.com/hardware-software-co-design-in-the-ai-era/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Even though the benefits are accepted, a combined hardware/software development flow is hampered by a lot of challenges. The post Hardware-Software Co-Design In The AI Era appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T07:12:38.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-2mmw4k",
+      "title": "Micron Shows off 512GB DDR5 RDIMM: 12TB per Dual-Socket Server at 9,200 MT/s, Volume Production in 2H 2027",
+      "url": "https://www.storagereview.com/news/micron-shows-a-512gb-ddr5-rdimm-12tb-per-dual-socket-server-at-9200-mt-s-volume-production-in-2h-2027",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Micron has demonstrated a 512GB DDR5 RDIMM running on multiple server platforms, which it calls the world’s first module at that capacity, and says AMD and Intel are both validating it for their next-generation server platforms. The module is rated for speeds up to 9,200 MT/s, an",
+      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-15T20:18:17.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7,
+      "tags": [
+        "micron"
+      ]
+    },
+    {
+      "id": "sig-1fz9q4k",
+      "title": "agentverse-os/AgentVerse-OS (Rust) — trending new repo",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only ",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-12T18:20:00Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-f6wq3w",
+      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 825",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-11T18:12:58Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-10x5qe3",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic amon",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-14T21:18:13.000Z",
+      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "anthropic"
       ]
     },
     {
@@ -52,281 +345,6 @@
         "gen6",
         "cxl",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1x3uyv3",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "url": "https://arxiv.org/abs/2609.13422",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
-      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 8.8,
-      "tags": [
-        "ai",
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3uyw4",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "url": "https://arxiv.org/abs/2609.13436",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 8.8,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-6fe0qy",
-      "title": "Moving Test Data Faster",
-      "url": "https://semiengineering.com/moving-test-data-faster/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Options and workarounds for improving reliability in chips. The post Moving Test Data Faster appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-16T07:15:46.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.9,
-      "tags": [
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-gg7ki",
-      "title": "Why SoC Interconnects Have Outgrown the Bus",
-      "url": "https://semiengineering.com/why-soc-interconnects-have-outgrown-the-bus/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "How advanced NoC architectures and coherent subsystem IP can address the industry's next-gen scalability, safety, and performance challenges. The post Why SoC Interconnects Have Outgrown the Bus appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-16T07:05:15.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.9,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1h2c5gp",
-      "title": "Enabling Efficient Edge AI Inferencing Through Ecosystem Collaboration",
-      "url": "https://semiengineering.com/enabling-efficient-edge-ai-inferencing-through-ecosystem-collaboration/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "A scalable LPDDR-based memory platform optimized for edge AI inferencing. The post Enabling Efficient Edge AI Inferencing Through Ecosystem Collaboration appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T07:02:43.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x3uyys",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "url": "https://arxiv.org/abs/2609.13463",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3uz1h",
-      "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
-      "url": "https://arxiv.org/abs/2609.13491",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x3x7l3",
-      "title": "Docker Containers vs. Virtual Machines: A Comparative Study of Architecture, Performance, Configuration, and Security",
-      "url": "https://arxiv.org/abs/2609.16148",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.16148v1 Announce Type: new Abstract: Modern application platforms must isolate workloads while preserving deployment speed, portability, resource efficiency, and security. Virtual machines (VMs) and Docker containers address this requirement at different abstraction la",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x3xa5h",
-      "title": "Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails",
-      "url": "https://arxiv.org/abs/2609.16461",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.16461v1 Announce Type: new Abstract: Agentic large language model (LLM) systems rely on long interaction histories to preserve instructions, tool states, intermediate decisions, and unresolved dependencies, but unrestricted context growth increases computational cost a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3xa8d",
-      "title": "AI Policies: Help or Hindrance? A Software Developer's Perspective",
-      "url": "https://arxiv.org/abs/2609.16496",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.16496v1 Announce Type: new Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software develope",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1x3x9ba",
-      "title": "FSNIC: A Low-Latency Flow-Based Intrusion Detection Architecture for FPGA SmartNICs",
-      "url": "https://arxiv.org/abs/2609.16363",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "systems",
-      "summary": "arXiv:2609.16363v1 Announce Type: new Abstract: Modern data centres require high-performance networking alongside effective real-time security. Traditional Intrusion Detection Systems (IDS) commonly rely on general-purpose processors and often struggle to inspect high-speed traff",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1dh55i6",
-      "title": "Seagate bigging up disk drives as strategic AI data stores",
-      "url": "https://www.blocksandfiles.com/disk/2026/09/14/seagate-bigging-up-disk-drives-as-strategic-ai-data-stores/5296114",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.8,
-      "tags": [
-        "seagate",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1lse6fq",
-      "title": "AI Data Centers Have A Stranded Power Problem",
-      "url": "https://semiengineering.com/ai-data-centers-have-a-power-hoarding-problem/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Redundant feeds protect uptime, but they also strand capacity that could support more hardware. The post AI Data Centers Have A Stranded Power Problem appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T07:13:41.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-u7gctq",
-      "title": "Hardware-Software Co-Design In The AI Era",
-      "url": "https://semiengineering.com/hardware-software-co-design-in-the-ai-era/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Even though the benefits are accepted, a combined hardware/software development flow is hampered by a lot of challenges. The post Hardware-Software Co-Design In The AI Era appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T07:12:38.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-2mmw4k",
-      "title": "Micron Shows off 512GB DDR5 RDIMM: 12TB per Dual-Socket Server at 9,200 MT/s, Volume Production in 2H 2027",
-      "url": "https://www.storagereview.com/news/micron-shows-a-512gb-ddr5-rdimm-12tb-per-dual-socket-server-at-9200-mt-s-volume-production-in-2h-2027",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Micron has demonstrated a 512GB DDR5 RDIMM running on multiple server platforms, which it calls the world’s first module at that capacity, and says AMD and Intel are both validating it for their next-generation server platforms. The module is rated for speeds up to 9,200 MT/s, an",
-      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-15T20:18:17.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7.1,
-      "tags": [
-        "micron"
-      ]
-    },
-    {
-      "id": "sig-10x5qe3",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic amon",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T21:18:13.000Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1fz9q4k",
-      "title": "agentverse-os/AgentVerse-OS (Rust) — trending new repo",
-      "url": "https://github.com/agentverse-os/AgentVerse-OS",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only ",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-12T18:20:00Z",
-      "fetchedAt": "2026-09-16T09:49:26.489Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "rust"
       ]
     },
     {
@@ -572,24 +590,6 @@
       "tags": [
         "coding agent",
         "security"
-      ]
-    },
-    {
-      "id": "sig-f6wq3w",
-      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
-      "url": "https://github.com/kruzovic7/ai-data-extractor",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 813",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-15T10:07:28.967Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
       ]
     },
     {
@@ -2835,127 +2835,6 @@
       "score": 6.5,
       "tags": [
         "storage"
-      ]
-    },
-    {
-      "id": "sig-6gfvni",
-      "title": "Spectra Logic adds AI-powered video content discovery",
-      "url": "https://www.blocksandfiles.com/data-management/2026/09/09/spectra-logic-adds-ai-powered-video-content-discovery/5295244",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T13:38:51.000Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-14slvw0",
-      "title": "Do people prefer stories written by AI?",
-      "url": "https://www.cambridge.org/gb/universitypress/about-us/news-and-blogs/do-people-prefer-stories-written-by-ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "11 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T13:38:14Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1pfnpcq",
-      "title": "How An AI math breakthrough ignited a controversy",
-      "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "164 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T10:25:41Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-fr6ww1",
-      "title": "Claude, change the \"Add to Cart\" button to blue",
-      "url": "https://opusfived.dev/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "241 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T09:39:46Z",
-      "fetchedAt": "2026-09-09T14:22:54.682Z",
-      "score": 6.4,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1cavs6",
-      "title": "Gambling with our lives: AI researcher quits Anthropic with warning about safety",
-      "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "25 points on Hacker News",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T08:43:27Z",
-      "fetchedAt": "2026-09-09T09:52:28.496Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-i9b8fl",
-      "title": "Token Costs Are Becoming The New EDA Budget Battle",
-      "url": "https://semiengineering.com/token-costs-are-becoming-the-new-eda-budget-battle/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Cost per token is causing EDA design budgets to balloon; what comes next isn't entirely clear yet. The post Token Costs Are Becoming The New EDA Budget Battle appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-09T07:01:25.000Z",
-      "fetchedAt": "2026-09-09T09:52:28.496Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x373ae",
-      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "url": "https://arxiv.org/abs/2609.05437",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognitio",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T09:52:28.496Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x373b5",
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "url": "https://arxiv.org/abs/2609.05441",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "fetchedAt": "2026-09-09T09:52:28.496Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
       ]
     }
   ]
