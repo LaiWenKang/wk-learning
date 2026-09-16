@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:22:39.379Z",
+  "generatedAt": "2026-09-16T18:22:05.176Z",
   "signals": [
     {
       "id": "sig-1x3x6n1",
@@ -10,13 +10,31 @@
       "summary": "arXiv:2609.16003v1 Announce Type: new Abstract: The rapid proliferation of cloud and AI-driven workloads has led to increasingly complex requirements for modern storage subsystems. To meet these demands, SSD controller architectures have evolved into a fragmented landscape, offer",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
       "score": 10,
       "tags": [
         "ssd",
         "ssd controller",
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1gxriy1",
+      "title": "Astera Labs Releases Leo 2 CXL Memory Controllers and Leo X Controller for Rackscale Fabric-Attached Memory",
+      "url": "https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-15T17:00:48.000Z",
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "gen6",
+        "cxl",
+        "ai"
       ]
     },
     {
@@ -28,8 +46,8 @@
       "summary": "Seagate and WD published separate AI storage studies within days of each other; the headline numbers: Seagate says 99% of enterprises expect AI to increase their storage requirements over the next three years, while WD’s IDC research puts the comparable figure at 74%. Read the fi",
       "whyItMatters": "Touches seagate, ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T17:23:54.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 9.9,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 9.8,
       "tags": [
         "seagate",
         "ai",
@@ -45,8 +63,8 @@
       "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
       "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -62,8 +80,8 @@
       "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -79,8 +97,8 @@
       "summary": "Options and workarounds for improving reliability in chips. The post Moving Test Data Faster appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-16T07:15:46.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.7,
       "tags": [
         "semiconductor",
         "reliability"
@@ -95,8 +113,8 @@
       "summary": "How advanced NoC architectures and coherent subsystem IP can address the industry's next-gen scalability, safety, and performance challenges. The post Why SoC Interconnects Have Outgrown the Bus appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-16T07:05:15.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.7,
       "tags": [
         "semiconductor",
         "performance"
@@ -111,8 +129,8 @@
       "summary": "A scalable LPDDR-based memory platform optimized for edge AI inferencing. The post Enabling Efficient Edge AI Inferencing Through Ecosystem Collaboration appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T07:02:43.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -127,8 +145,8 @@
       "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "reliability"
@@ -143,8 +161,8 @@
       "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -159,8 +177,8 @@
       "summary": "arXiv:2609.16148v1 Announce Type: new Abstract: Modern application platforms must isolate workloads while preserving deployment speed, portability, resource efficiency, and security. Virtual machines (VMs) and Docker containers address this requirement at different abstraction la",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "performance",
         "security"
@@ -175,8 +193,8 @@
       "summary": "arXiv:2609.16461v1 Announce Type: new Abstract: Agentic large language model (LLM) systems rely on long interaction histories to preserve instructions, tool states, intermediate decisions, and unresolved dependencies, but unrestricted context growth increases computational cost a",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -191,8 +209,8 @@
       "summary": "arXiv:2609.16496v1 Announce Type: new Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software develope",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -207,8 +225,8 @@
       "summary": "arXiv:2609.16363v1 Announce Type: new Abstract: Modern data centres require high-performance networking alongside effective real-time security. Traditional Intrusion Detection Systems (IDS) commonly rely on general-purpose processors and often struggle to inspect high-speed traff",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "performance",
         "security"
@@ -223,11 +241,27 @@
       "summary": "",
       "whyItMatters": "Touches seagate, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-14T14:16:40.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.6,
       "tags": [
         "seagate",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-ws2i44",
+      "title": "We got admin access to Baseten's production GitHub",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 316 # Comments: 176",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-15T18:11:24.000Z",
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "github"
       ]
     },
     {
@@ -239,8 +273,8 @@
       "summary": "Redundant feeds protect uptime, but they also strand capacity that could support more hardware. The post AI Data Centers Have A Stranded Power Problem appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T07:13:41.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -255,26 +289,11 @@
       "summary": "Even though the benefits are accepted, a combined hardware/software development flow is hampered by a lot of challenges. The post Hardware-Software Co-Design In The AI Era appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-15T07:12:38.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-2mmw4k",
-      "title": "Micron Shows off 512GB DDR5 RDIMM: 12TB per Dual-Socket Server at 9,200 MT/s, Volume Production in 2H 2027",
-      "url": "https://www.storagereview.com/news/micron-shows-a-512gb-ddr5-rdimm-12tb-per-dual-socket-server-at-9200-mt-s-volume-production-in-2h-2027",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Micron has demonstrated a 512GB DDR5 RDIMM running on multiple server platforms, which it calls the world’s first module at that capacity, and says AMD and Intel are both validating it for their next-generation server platforms. The module is rated for speeds up to 9,200 MT/s, an",
-      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-15T20:18:17.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 7,
-      "tags": [
-        "micron"
       ]
     },
     {
@@ -286,7 +305,7 @@
       "summary": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only ",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-12T18:20:00Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
       "score": 7,
       "tags": [
         "ai",
@@ -304,29 +323,13 @@
       "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 825",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
+      "fetchedAt": "2026-09-16T18:22:05.176Z",
       "score": 7,
       "tags": [
         "ai",
         "claude code",
         "claude",
         "python"
-      ]
-    },
-    {
-      "id": "sig-10x5qe3",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic amon",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-14T21:18:13.000Z",
-      "fetchedAt": "2026-09-16T14:22:39.379Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "anthropic"
       ]
     }
   ]
