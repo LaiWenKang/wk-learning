@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-18T17:37:32.684Z",
+  "generatedAt": "2026-09-18T19:59:12.777Z",
   "signals": [
     {
-      "id": "sig-1dcuzek",
-      "title": "SK Hynix considering US Solidigm fab",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
-      "source": "Blocks & Files",
+      "id": "sig-1itzf7a",
+      "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
+      "url": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
+      "source": "StorageReview",
       "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-09-18T18:49:53.000Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 10,
       "tags": [
-        "solidigm",
-        "sk hynix"
+        "nvme",
+        "u.2"
       ]
     },
     {
@@ -26,13 +26,29 @@
       "summary": "How thinner dies, taller stacks, and hybrid bonding are carrying NAND into the AI era. The post AI’s Storage Problem Is a Packaging Problem appeared first on Semiconductor Engineering .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-17T07:05:40.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 10,
       "tags": [
         "nand",
         "ai",
         "semiconductor",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1dcuzek",
+      "title": "SK Hynix considering US Solidigm fab",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-18T15:59:50.000Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 9.9,
+      "tags": [
+        "solidigm",
+        "sk hynix"
       ]
     },
     {
@@ -44,7 +60,7 @@
       "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -62,29 +78,12 @@
       "summary": "arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist and pass arguments no schema declares. Existing defenses either pick the right too",
       "whyItMatters": "Touches llm, language model, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 8.6,
       "tags": [
         "llm",
         "language model",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1eebpd2",
-      "title": "Seagate and WD AI Storage Research Finds Enterprises Rank Storage Above Compute as the AI Bottleneck",
-      "url": "https://www.storagereview.com/news/seagate-and-wd-ai-storage-research-finds-enterprises-rank-storage-above-compute-as-the-ai-bottleneck",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Seagate and WD published separate AI storage studies within days of each other; the headline numbers: Seagate says 99% of enterprises expect AI to increase their storage requirements over the next three years, while WD’s IDC research puts the comparable figure at 74%. Read the fi",
-      "whyItMatters": "Touches seagate, ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T17:23:54.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 8.5,
-      "tags": [
-        "seagate",
-        "ai",
-        "storage"
       ]
     },
     {
@@ -96,8 +95,8 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 8.3,
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 8.2,
       "tags": [
         "nvme",
         "storage"
@@ -112,12 +111,44 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 8.2,
       "tags": [
         "ai",
         "llm",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-10i8m40",
+      "title": "Quoting Thariq Shihipar",
+      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is ",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-18T19:09:27.000Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 8,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1x34vic",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "13 points on Hacker News",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-18T19:00:06Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "security"
       ]
     },
     {
@@ -129,7 +160,7 @@
       "summary": "As AI systems scale, advanced power delivery innovations are becoming critical to performance, efficiency and reliability. The post Driving Power Delivery Innovations For The AI Data Center appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T07:04:55.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 8,
       "tags": [
         "ai",
@@ -147,29 +178,12 @@
       "summary": "Design space exploration must become a core capability for advanced packaging and chiplet-based systems. The post From Silicon To Systems: Heterogeneous Integration As The Engine Of AI Performance appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T07:02:44.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 8,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-14qtyub",
-      "title": "tamaratran/fast-jev-compaction (TypeScript) — trending new repo",
-      "url": "https://github.com/tamaratran/fast-jev-compaction",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 2806",
-      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 8,
-      "tags": [
-        "claude code",
-        "claude",
-        "typescript"
       ]
     },
     {
@@ -181,7 +195,7 @@
       "summary": "HPE Alletra Storage MP X10000 Release 4 is now generally available, and it delivers the scale-out HPE previewed at its GreenLake update in May: a single cluster now runs up to 16 nodes and 16 JBOFs, roughly twice the performance and twice the capacity of the prior release, and sc",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-18T15:44:21.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.9,
       "tags": [
         "storage",
@@ -197,11 +211,28 @@
       "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-18T15:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.9,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-14qtyub",
+      "title": "tamaratran/fast-jev-compaction (TypeScript) — trending new repo",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 2958",
+      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-17T05:57:20Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude",
+        "typescript"
       ]
     },
     {
@@ -213,8 +244,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T13:16:40.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
@@ -226,11 +257,11 @@
       "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://tokenstead.ai/guides/zcode-silent-git-history-upload Comments URL: https://news.ycombinator.com/item?id=49752422 Points: 252 # Comments: 64",
+      "summary": "Article URL: https://tokenstead.ai/guides/zcode-silent-git-history-upload Comments URL: https://news.ycombinator.com/item?id=49752422 Points: 256 # Comments: 13",
       "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T10:35:28.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "coding agent"
@@ -245,7 +276,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.7,
       "tags": [
         "machine learning",
@@ -262,7 +293,7 @@
       "summary": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LL",
       "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.6,
       "tags": [
         "llm",
@@ -278,7 +309,7 @@
       "summary": "arXiv:2609.19513v1 Announce Type: new Abstract: High-quality pre-training data is a critical bottleneck for educational and STEM-specific language models targeting edge AI and on-device deployment where token budgets are tightly constrained. While major organizations train ever-l",
       "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -294,42 +325,11 @@
       "summary": "arXiv:2609.19515v1 Announce Type: new Abstract: Verifier-based selection improves LLM performance by generating multiple candidate solutions and using a verifier to select the most promising one. However, existing methods typically treat verification only as a ranking step and di",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
+      "fetchedAt": "2026-09-18T19:59:12.777Z",
       "score": 7.6,
       "tags": [
         "llm",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1x3znqd",
-      "title": "A Closed-Loop Control Architecture for Reliable Constraint Satisfaction in LLM Text Generation",
-      "url": "https://arxiv.org/abs/2609.19710",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.19710v1 Announce Type: new Abstract: Software systems increasingly embed a large language model in features that must satisfy a numeric output constraint, that is, a requirement expressible as a number or an interval and checkable by code, such as a target word count o",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-6uvx7s",
-      "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
-      "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "18 points on Hacker News",
-      "whyItMatters": "Directly your craft — worth comparing against how your own test farm finds (or misses) this class of bug.",
-      "publishedAt": "2026-09-18T16:54:18Z",
-      "fetchedAt": "2026-09-18T17:37:32.684Z",
-      "score": 7.5,
-      "tags": [
-        "fault injection"
       ]
     }
   ]
