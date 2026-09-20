@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:09:06.282Z",
+  "generatedAt": "2026-09-20T14:42:47.763Z",
   "signals": [
     {
       "id": "sig-f38mob",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -45,8 +45,8 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 8.8,
       "tags": [
         "nvme",
         "u.2"
@@ -61,8 +61,8 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 8.7,
       "tags": [
         "solidigm",
         "sk hynix"
@@ -77,8 +77,8 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 7,
       "tags": [
         "nvme",
         "storage"
@@ -93,8 +93,8 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 7.1,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 7,
       "tags": [
         "ai",
         "llm",
@@ -107,10 +107,10 @@
       "url": "https://github.com/tamaratran/fast-jev-compaction",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 4594",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 4772",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -127,28 +127,12 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 7,
       "tags": [
         "machine learning",
         "javascript",
         "security"
-      ]
-    },
-    {
-      "id": "sig-11o9q5h",
-      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://code.claude.com/docs/en/changelog Comments URL: https://news.ycombinator.com/item?id=49760187 Points: 720 # Comments: 271",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T21:00:32.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.9,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -160,8 +144,8 @@
       "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is ",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T19:09:27.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.9,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6.8,
       "tags": [
         "claude code",
         "claude"
@@ -176,8 +160,8 @@
       "summary": "HPE Alletra Storage MP X10000 Release 4 is now generally available, and it delivers the scale-out HPE previewed at its GreenLake update in May: a single cluster now runs up to 16 nodes and 16 JBOFs, roughly twice the performance and twice the capacity of the prior release, and sc",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-18T15:44:21.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.8,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6.7,
       "tags": [
         "storage",
         "performance"
@@ -192,8 +176,8 @@
       "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-18T15:00:00.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.8,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "github"
@@ -208,38 +192,23 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T13:16:40.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.7,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6.6,
       "tags": [
         "ai",
         "storage"
       ]
     },
     {
-      "id": "sig-1rahizx",
-      "title": "Microsoft agentically ports Copilot runtime to Rust for $120K",
-      "url": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "21 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-20T09:08:52Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.4,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-18zlc5l",
-      "title": "Show HN: AI Facial Attractiveness Model Aligned with Human Preferences",
-      "url": "https://faceanalysisai.com/",
-      "source": "Hacker News (front page)",
+      "id": "sig-5zj3mj",
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "8 points on Hacker News",
+      "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 177 # Comments: 162",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T08:48:35Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "publishedAt": "2026-09-20T10:07:51.000Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -254,8 +223,8 @@
       "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order",
       "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T23:59:19.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.4,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6.3,
       "tags": [
         "rust",
         "security"
@@ -270,8 +239,8 @@
       "summary": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by fo",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-19T20:01:40.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.1,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6,
       "tags": [
         "ai"
       ]
@@ -285,40 +254,74 @@
       "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at th",
       "whyItMatters": "Touches github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-19T19:52:02.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
-      "score": 6.1,
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6,
       "tags": [
         "github"
       ]
     },
     {
-      "id": "sig-oln863",
-      "title": "Chiplet Co-Design Framework Reduces Energy and Design Costs for AI Accelerators (University of Michigan)",
-      "url": "https://semiengineering.com/chiplet-co-design-framework-reduces-energy-and-design-costs-for-ai-accelerators-university-of-michigan/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the University of Michigan published a technical paper titled “Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign.” Abstract Excerpt: “This paper introduces Fengshui, a chiplet ecosystem and accelerator co-design framework that",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-19T18:44:42.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "id": "sig-76hcb3",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-17T00:26:43.000Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 6,
       "tags": [
-        "ai"
+        "rust",
+        "github"
       ]
     },
     {
-      "id": "sig-ffvyh0",
-      "title": "Open Benchmark Evaluates AI Thermal Models for 2.5D and 3D ICs (UTS, TU Munich, ShanghaiTech)",
-      "url": "https://semiengineering.com/open-benchmark-evaluates-ai-thermal-models-for-2-5d-and-3d-ics-uts-tu-munich-shanghaitech/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-c8eos3",
+      "title": "onsemi Embedded Power Platform Announced",
+      "url": "https://www.servethehome.com/onsemi-embedded-power-platform-announced/",
+      "source": "ServeTheHome",
       "category": "ai",
-      "summary": "Researchers at the University of Technology Sydney, ShanghaiTech University, and Technical University of Munich published a technical paper titled “IC-ThermBench: An Open, Progressive Benchmark for Generalizable 2.5D/3D-IC Thermal Learning.” Abstract Excerpt: “We introduce IC-The",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-19T18:37:45.000Z",
-      "fetchedAt": "2026-09-20T11:09:06.282Z",
+      "summary": "At its investor day, onsemi announced its new Embedded Power Platform for AI racks, automotive, and industrial applications The post onsemi Embedded Power Platform Announced appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T22:07:08.000Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
       "score": 6,
       "tags": [
-        "ai"
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-1uk2bt3",
+      "title": "jarrodwatts/jev-trader (TypeScript) — trending new repo",
+      "url": "https://github.com/jarrodwatts/jev-trader",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "One AI trade decision every Monad block. Jev on Kuru MON-USDC. · ★ 1437",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T21:36:20Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-txqhig",
+      "title": "korcarc/text-humanizer (Python) — trending new repo",
+      "url": "https://github.com/korcarc/text-humanizer",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "text-humanizer is an open-source project designed to convert text generated by AI to its \"humanized\" version. Bypasses the most of AI detectors such as Turnitin or GPTZero · ★ 733",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T13:21:56Z",
+      "fetchedAt": "2026-09-20T14:42:47.763Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "python"
       ]
     }
   ]
