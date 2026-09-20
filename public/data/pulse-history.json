@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T17:41:47.245Z",
+  "updatedAt": "2026-09-20T19:48:15.383Z",
   "signals": [
     {
       "id": "sig-f38mob",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -45,8 +45,8 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 8.6,
       "tags": [
         "nvme",
         "u.2"
@@ -61,7 +61,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 8.6,
       "tags": [
         "solidigm",
@@ -77,27 +77,11 @@
       "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-l",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-19T18:21:30.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-fq8onw",
-      "title": "What Zig felt like, coming from Rust",
-      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 251 # Comments: 304",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-19T13:55:18.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 7.2,
-      "tags": [
-        "rust",
-        "github"
       ]
     },
     {
@@ -109,7 +93,7 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -125,7 +109,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 7,
       "tags": [
         "ai",
@@ -139,10 +123,10 @@
       "url": "https://github.com/tamaratran/fast-jev-compaction",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 4935",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5006",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -159,7 +143,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -176,8 +160,8 @@
       "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is ",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T19:09:27.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 6.7,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 6.6,
       "tags": [
         "claude code",
         "claude"
@@ -192,7 +176,7 @@
       "summary": "HPE Alletra Storage MP X10000 Release 4 is now generally available, and it delivers the scale-out HPE previewed at its GreenLake update in May: a single cluster now runs up to 16 nodes and 16 JBOFs, roughly twice the performance and twice the capacity of the prior release, and sc",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-18T15:44:21.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6.6,
       "tags": [
         "storage",
@@ -208,8 +192,8 @@
       "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-18T15:00:00.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 6.6,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 6.5,
       "tags": [
         "ai",
         "github"
@@ -224,11 +208,26 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-18T13:16:40.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6.5,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1v8m9ge",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "source": "Hacker News (front page)",
+      "category": "semiconductor",
+      "summary": "135 points on Hacker News",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-09-20T17:38:50Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 6.4,
+      "tags": [
+        "dram"
       ]
     },
     {
@@ -237,10 +236,10 @@
       "url": "https://pirateface.co/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "164 points on Hacker News",
+      "summary": "290 points on Hacker News",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T15:16:07Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6.4,
       "tags": [
         "llm"
@@ -252,11 +251,11 @@
       "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 211 # Comments: 240",
+      "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 213 # Comments: 253",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T10:07:51.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 6.3,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -270,8 +269,8 @@
       "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order",
       "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T23:59:19.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
-      "score": 6.2,
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
+      "score": 6.1,
       "tags": [
         "rust",
         "security"
@@ -286,7 +285,7 @@
       "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
       "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T00:26:43.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6,
       "tags": [
         "rust",
@@ -302,7 +301,7 @@
       "summary": "At its investor day, onsemi announced its new Embedded Power Platform for AI racks, automotive, and industrial applications The post onsemi Embedded Power Platform Announced appeared first on ServeTheHome .",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T22:07:08.000Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6,
       "tags": [
         "ai",
@@ -315,14 +314,30 @@
       "url": "https://github.com/jarrodwatts/jev-trader",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "One AI trade decision every Monad block. Jev on Kuru MON-USDC. · ★ 1466",
+      "summary": "One AI trade decision every Monad block. Jev on Kuru MON-USDC. · ★ 1485",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T21:36:20Z",
-      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "fetchedAt": "2026-09-20T19:48:15.383Z",
       "score": 6,
       "tags": [
         "ai",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-fq8onw",
+      "title": "What Zig felt like, coming from Rust",
+      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 251 # Comments: 304",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-19T13:55:18.000Z",
+      "fetchedAt": "2026-09-20T17:41:47.245Z",
+      "score": 7.2,
+      "tags": [
+        "rust",
+        "github"
       ]
     },
     {
@@ -2366,51 +2381,6 @@
       "score": 6,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1xky48l",
-      "title": "You delete a file on Linux while a program has it open. What happens? (quiz)",
-      "url": "https://textlog.cc/post/3662?hn",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "6 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-13T18:28:17Z",
-      "fetchedAt": "2026-09-13T18:44:54.646Z",
-      "score": 6.5,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-19rnnez",
-      "title": "Everyone should slow down AI development except for me",
-      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 698 # Comments: 408",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-13T00:30:44.000Z",
-      "fetchedAt": "2026-09-13T18:44:54.646Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-73d5bo",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded v",
-      "whyItMatters": "Touches embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-12T23:56:42.000Z",
-      "fetchedAt": "2026-09-13T18:44:54.646Z",
-      "score": 6,
-      "tags": [
-        "embedded"
       ]
     }
   ]
