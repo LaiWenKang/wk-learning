@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-21T10:13:43.323Z",
+  "generatedAt": "2026-09-21T16:29:08.688Z",
   "signals": [
+    {
+      "id": "sig-1kuspkw",
+      "title": "A look at DapuStor’s combined SLC and QLC SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/21/a-look-at-dapustors-combined-slc-and-qlc-ssd/5297708",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
+      "publishedAt": "2026-09-21T13:00:31.000Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "qlc"
+      ]
+    },
     {
       "id": "sig-f38mob",
       "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
@@ -10,8 +26,8 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 10,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 9.8,
       "tags": [
         "nand",
         "cxl",
@@ -27,7 +43,7 @@
       "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -42,11 +58,11 @@
       "url": "https://github.com/zai-org/ZCode",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 4729",
+      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 5345",
       "whyItMatters": "Touches ai, coding agent, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T12:01:16Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "coding agent",
@@ -62,11 +78,27 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 8.1,
       "tags": [
         "nvme",
         "u.2"
+      ]
+    },
+    {
+      "id": "sig-17j734x",
+      "title": "IDC External Storage Tracker: $10.3 Billion in Q2 2026 as Server Market Tops $166 Billion on AI Demand",
+      "url": "https://www.storagereview.com/news/idc-external-storage-tracker-q2-2026-10-3-billion-as-server-market-tops-166-billion",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "IDC’s Worldwide Quarterly Enterprise Storage Systems Tracker shows the external OEM enterprise storage systems (ESS) market reached $10.3 billion in vendor revenue during the second quarter of 2026, up 33.6% year over year. It’s the second-highest quarterly total in the tracker’s",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T15:00:25.000Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -78,11 +110,27 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 8,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1cdd4yz",
+      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "75 points on Hacker News",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T14:10:49Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -94,8 +142,8 @@
       "summary": "Behind the scenes, advanced equipment control and robotics are enabling higher levels of repeatability, tool uptime, and yield. The post How Robotics And Intelligent Equipment Control Drive Next-Gen Fab Productivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-21T07:01:36.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.7,
       "tags": [
         "semiconductor",
         "productivity"
@@ -110,8 +158,8 @@
       "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compa",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -126,8 +174,8 @@
       "summary": "arXiv:2609.20977v1 Announce Type: new Abstract: AI-enabled software development tools (AI-devtools) are being industrially adopted under strong expectations of productivity gains, yet developers' experiences of such roll-outs are underexplored. Organizations commit budgets, evalu",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "productivity"
@@ -142,8 +190,8 @@
       "summary": "arXiv:2609.21843v1 Announce Type: new Abstract: This study examines tool-augmented Large Language Model (LLM) systems for supporting Root Cause Analysis (RCA) of nightly test failures at Westermo Network Technologies AB. Nightly test executions produce heterogeneous test data and",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -158,8 +206,8 @@
       "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as m",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T21:06:43.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 7.5,
       "tags": [
         "claude code",
         "claude"
@@ -174,7 +222,7 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -190,7 +238,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
       "score": 7,
       "tags": [
         "ai",
@@ -204,10 +252,10 @@
       "url": "https://github.com/tamaratran/fast-jev-compaction",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5731",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5858",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -224,7 +272,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -233,91 +281,46 @@
       ]
     },
     {
-      "id": "sig-3etve8",
-      "title": "How 60 GHz Radar Improves Low-Power Presence Sensing In IoT Devices",
-      "url": "https://semiengineering.com/how-60-ghz-radar-improves-low-power-presence-sensing-in-iot-devices/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-x0uaqb",
+      "title": "FCIA’s FC-SP-3: A Standard Ready for the Quantum-Computing World",
+      "url": "https://www.storagereview.com/review/fcias-fc-sp-3-a-standard-ready-for-the-quantum-computing-world",
+      "source": "StorageReview",
       "category": "semiconductor",
-      "summary": "Track occupancy and motion continuously without keeping the full sensing and processing chain active. The post How 60 GHz Radar Improves Low-Power Presence Sensing In IoT Devices appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-21T07:01:47.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.4,
+      "summary": "In enterprise IT, most security upgrades typically occur in response to breaches or other significant incidents. The recently developed INCITS FC-SP-3 standard, however, represents a proactive response to regulatory and cryptographic deadlines that are already influencing infrast",
+      "whyItMatters": "Touches security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-21T15:14:40.000Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 6.5,
       "tags": [
-        "semiconductor"
+        "security"
       ]
     },
     {
-      "id": "sig-jk5bnh",
-      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
-      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "id": "sig-vdaoh2",
+      "title": "The Claude Delusion",
+      "url": "https://pluralistic.net/2026/09/21/sunsetting/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "108 points on Hacker News",
+      "summary": "67 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T14:30:24Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 6.4,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-18rhelx",
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "96 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:28:44Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4i72e",
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4irz7",
-      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
-      "url": "https://arxiv.org/abs/2609.21139",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framewo",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4is04",
-      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
-      "url": "https://arxiv.org/abs/2609.21149",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4is3k",
-      "title": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
-      "url": "https://arxiv.org/abs/2609.21181",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21181v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended underlying rule or reliance on shortc",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
+      "publishedAt": "2026-09-21T13:53:27Z",
+      "fetchedAt": "2026-09-21T16:29:08.688Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
