@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T00:05:36.904Z",
+  "generatedAt": "2026-09-21T04:46:16.086Z",
   "signals": [
     {
       "id": "sig-f38mob",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -45,8 +45,8 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 8.5,
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 8.4,
       "tags": [
         "nvme",
         "u.2"
@@ -61,11 +61,59 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 8.4,
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 8.3,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1x4is0z",
+      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "url": "https://arxiv.org/abs/2609.21157",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compa",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4i72k",
+      "title": "Helpful but Fallible: Developer Experiences of AI Tools Under a Coordinated Industrial Roll-out",
+      "url": "https://arxiv.org/abs/2609.20977",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.20977v1 Announce Type: new Abstract: AI-enabled software development tools (AI-devtools) are being industrially adopted under strong expectations of productivity gains, yet developers' experiences of such roll-outs are underexplored. Organizations commit budgets, evalu",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1x4ixvp",
+      "title": "Supporting Industrial Test-Failure Analysis with LLM-Based Systems: An Experience Report",
+      "url": "https://arxiv.org/abs/2609.21843",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.21843v1 Announce Type: new Abstract: This study examines tool-augmented Large Language Model (LLM) systems for supporting Root Cause Analysis (RCA) of nightly test failures at Westermo Network Technologies AB. Nightly test executions produce heterogeneous test data and",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -77,8 +125,8 @@
       "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as m",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T21:06:43.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -93,7 +141,7 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -109,29 +157,12 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 7,
       "tags": [
         "ai",
         "llm",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-14qtyub",
-      "title": "tamaratran/fast-jev-compaction (TypeScript) — trending new repo",
-      "url": "https://github.com/tamaratran/fast-jev-compaction",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5147",
-      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "typescript"
       ]
     },
     {
@@ -143,7 +174,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -152,175 +183,138 @@
       ]
     },
     {
-      "id": "sig-10i8m40",
-      "title": "Quoting Thariq Shihipar",
-      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-1x4i72e",
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is ",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T19:09:27.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
       "score": 6.5,
       "tags": [
-        "claude code",
-        "claude"
+        "language model"
       ]
     },
     {
-      "id": "sig-9kptsk",
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-1x4irz7",
+      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "url": "https://arxiv.org/abs/2609.21139",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to config",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T19:22:19.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
+      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framewo",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
       "tags": [
-        "llm"
+        "language model"
       ]
     },
     {
-      "id": "sig-gco7vz",
-      "title": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
-      "url": "https://www.storagereview.com/news/hpe-alletra-storage-mp-x10000-release-4-is-ga-doubling-to-16-nodes-and-23pb-raw-and-adding-native-nfs-beside-object",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "HPE Alletra Storage MP X10000 Release 4 is now generally available, and it delivers the scale-out HPE previewed at its GreenLake update in May: a single cluster now runs up to 16 nodes and 16 JBOFs, roughly twice the performance and twice the capacity of the prior release, and sc",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-18T15:44:21.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1dn6oyw",
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-18T15:00:00.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-ckfb5z",
-      "title": "Huawei’s OceanStor KV cache storage for hyper-scale AI data centers",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/huaweis-oceanstor-kv-cache-storage-for-hyper-scale-ai-data-centers/5297405",
-      "source": "Blocks & Files",
+      "id": "sig-1x4is04",
+      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "url": "https://arxiv.org/abs/2609.21149",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T13:16:40.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1v8m9ge",
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "source": "Hacker News (front page)",
-      "category": "semiconductor",
-      "summary": "322 points on Hacker News",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-20T17:38:50Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.3,
-      "tags": [
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-1iowrir",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
-      "url": "https://pirateface.co/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "414 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T15:16:07Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-5zj3mj",
-      "title": "AI and the Destruction of the Creative Commons",
-      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 220 # Comments: 263",
+      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T10:07:51.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.1,
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-1qa92hl",
-      "title": "Be alert: targeted attacks on prominent Rustaceans",
-      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order",
-      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T23:59:19.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
-      "tags": [
-        "rust",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-76hcb3",
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T00:26:43.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
-      "tags": [
-        "rust",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-c8eos3",
-      "title": "onsemi Embedded Power Platform Announced",
-      "url": "https://www.servethehome.com/onsemi-embedded-power-platform-announced/",
-      "source": "ServeTheHome",
+      "id": "sig-1x4is3k",
+      "title": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
+      "url": "https://arxiv.org/abs/2609.21181",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "At its investor day, onsemi announced its new Embedded Power Platform for AI racks, automotive, and industrial applications The post onsemi Embedded Power Platform Announced appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T22:07:08.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
+      "summary": "arXiv:2609.21181v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended underlying rule or reliance on shortc",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
       "tags": [
-        "ai",
-        "embedded"
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x4is4i",
+      "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+      "url": "https://arxiv.org/abs/2609.21192",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.21192v1 Announce Type: new Abstract: Organizations deploying agentic artificial intelligence must determine more than whether a model is trustworthy; they must establish what to validate, control, and observe for a use case to deliver its intended outcome while meeting",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x4isqo",
+      "title": "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
+      "url": "https://arxiv.org/abs/2609.21208",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.21208v1 Announce Type: new Abstract: Self-play methods that co-train a single language model as both coder and test author promise to move code-generation RL beyond fixed test suites, but they suffer from two coupled pathologies: permissiveness collapse, where pass-rat",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4isrh",
+      "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+      "url": "https://arxiv.org/abs/2609.21214",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.21214v1 Announce Type: new Abstract: Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. A",
+      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1x4itoe",
+      "title": "What Stops a Small Language Model From Driving a Database Agent",
+      "url": "https://arxiv.org/abs/2609.21341",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.21341v1 Announce Type: new Abstract: Small open-weight language models are assumed to fail at agentic database work because they lack the reasoning capacity for it. We test that against a production system. Over eleven days we drove the agent mode of an open-source SQL",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4jiw4",
+      "title": "How Researchers Use and Verify AI Coding Assistants: Tasks and Validation Practices in Scientific Programming",
+      "url": "https://arxiv.org/abs/2609.22049",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.22049v1 Announce Type: new Abstract: Generative AI has entered research programming, yet there is little evidence about which tasks researchers hand to it or how they decide whether its code is correct. We draw on 527 free-text responses to a 2025 survey of researchers",
+      "whyItMatters": "Touches ai — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "fetchedAt": "2026-09-21T04:46:16.086Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     }
   ]
