@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T20:30:46.751Z",
+  "generatedAt": "2026-09-21T23:30:58.353Z",
   "signals": [
     {
       "id": "sig-1kuspkw",
@@ -10,7 +10,7 @@
       "summary": "",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,12 +26,60 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 9.7,
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 9.6,
       "tags": [
         "nand",
         "cxl",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1s1r7p0",
+      "title": "Concurrent HBM And Host Memory Access Improves LLM Inference Throughput (Georgia Tech, Nvidia, Stanford)",
+      "url": "https://semiengineering.com/concurrent-hbm-and-host-memory-access-improves-llm-inference-throughput-georgia-tech-nvidia-stanford/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at Georgia Tech, Nvidia Research, and Stanford University published a technical paper titled “BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference.” Abstract Excerpt: “This paper presents BOOST, the first runtime system that provides concurrent ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-09-21T23:13:37.000Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-1m4rnhd",
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts ",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T23:09:20.000Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-cvok2r",
+      "title": "Can Agents Design Better Chips When Operating At A Higher Level Of Abstraction Using HLS (UCLA)",
+      "url": "https://semiengineering.com/can-agents-design-better-chips-when-operating-at-a-higher-level-of-abstraction-using-hls-ucla/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at UCLA published a technical paper titled “Can Agents Design Better Chips with a Higher Level Abstraction?” Abstract Excerpt: “Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-21T22:59:48.000Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -40,11 +88,11 @@
       "url": "https://github.com/zai-org/ZCode",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 5498",
+      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 5550",
       "whyItMatters": "Touches ai, coding agent, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T12:01:16Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 8.1,
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 8,
       "tags": [
         "ai",
         "coding agent",
@@ -60,7 +108,7 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 8,
       "tags": [
         "nvme",
@@ -76,7 +124,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 8,
       "tags": [
         "solidigm",
@@ -92,23 +140,7 @@
       "summary": "IDC’s Worldwide Quarterly Enterprise Storage Systems Tracker shows the external OEM enterprise storage systems (ESS) market reached $10.3 billion in vendor revenue during the second quarter of 2026, up 33.6% year over year. It’s the second-highest quarterly total in the tracker’s",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T15:00:25.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1cdd4yz",
-      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "165 points on Hacker News",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T14:10:49Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7.8,
       "tags": [
         "ai",
@@ -124,8 +156,8 @@
       "summary": "Behind the scenes, advanced equipment control and robotics are enabling higher levels of repeatability, tool uptime, and yield. The post How Robotics And Intelligent Equipment Control Drive Next-Gen Fab Productivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-21T07:01:36.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 7.5,
       "tags": [
         "semiconductor",
         "productivity"
@@ -140,7 +172,7 @@
       "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compa",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7.5,
       "tags": [
         "llm",
@@ -156,7 +188,7 @@
       "summary": "arXiv:2609.20977v1 Announce Type: new Abstract: AI-enabled software development tools (AI-devtools) are being industrially adopted under strong expectations of productivity gains, yet developers' experiences of such roll-outs are underexplored. Organizations commit budgets, evalu",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -172,7 +204,7 @@
       "summary": "arXiv:2609.21843v1 Announce Type: new Abstract: This study examines tool-augmented Large Language Model (LLM) systems for supporting Root Cause Analysis (RCA) of nightly test failures at Westermo Network Technologies AB. Nightly test executions produce heterogeneous test data and",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7.5,
       "tags": [
         "llm",
@@ -188,8 +220,24 @@
       "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as m",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T21:06:43.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7.3,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1ykgotu",
+      "title": "MCP was always a bad idea?",
+      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "My comment on MCP was always a bad idea? &mdash; Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered inte",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-20T20:24:41.000Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
+      "score": 7.2,
       "tags": [
         "claude code",
         "claude"
@@ -204,7 +252,7 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -220,7 +268,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7,
       "tags": [
         "ai",
@@ -234,10 +282,10 @@
       "url": "https://github.com/tamaratran/fast-jev-compaction",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5914",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 5944",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-17T05:57:20Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -254,7 +302,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -263,61 +311,16 @@
       ]
     },
     {
-      "id": "sig-1l0tmao",
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "id": "sig-lcafoc",
+      "title": "Do not fear AI. Fear AI companies",
+      "url": "https://df7sc6o35ljoz.cloudfront.net/posts/do-not-fear-ai-rev-2.html",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "31 points on Hacker News",
+      "summary": "10 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T19:23:33Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
+      "publishedAt": "2026-09-21T22:40:31Z",
+      "fetchedAt": "2026-09-21T23:30:58.353Z",
       "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-hka5a1",
-      "title": "Frontier AI on Your Own Hardware",
-      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "13 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T18:53:01Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-owqreo",
-      "title": "Avoiding the babbling-idiot failure in a time-triggered communication system",
-      "url": "https://ieeexplore.ieee.org/document/689473",
-      "source": "Hacker News (front page)",
-      "category": "communication",
-      "summary": "17 points on Hacker News",
-      "whyItMatters": "Touches communication — relevant to communicating with more impact.",
-      "publishedAt": "2026-09-21T18:14:56Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 6.4,
-      "tags": [
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-1akc08y",
-      "title": "ABB Infinitus Brings a Source-to-Rack 800 VDC Portfolio to AI Data Centers, Targeting 1 MW Racks and 5% Efficiency Gains",
-      "url": "https://www.storagereview.com/news/abb-infinitus-brings-a-source-to-rack-800-vdc-portfolio-to-ai-data-centers",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "ABB has introduced Infinitus, a portfolio of direct current power technologies for AI data centers built around 800 VDC distribution and rack power demands the company expects to reach 1 MW and beyond. ABB says today’s AI racks draw close to 200 kW, and the next chip generations ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T17:03:03.000Z",
-      "fetchedAt": "2026-09-21T20:30:46.751Z",
-      "score": 6.4,
       "tags": [
         "ai"
       ]
