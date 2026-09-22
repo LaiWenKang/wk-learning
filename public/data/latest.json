@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:54:39.370Z",
+  "generatedAt": "2026-09-22T22:52:17.661Z",
   "signals": [
     {
       "id": "sig-1kuspkw",
@@ -10,7 +10,7 @@
       "summary": "",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,7 +26,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -43,7 +43,7 @@
       "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
       "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 8.1,
       "tags": [
         "ai",
@@ -60,7 +60,7 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 8,
       "tags": [
         "nvme",
@@ -76,7 +76,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 8,
       "tags": [
         "solidigm",
@@ -89,11 +89,11 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "133 points on Hacker News",
+      "summary": "201 points on Hacker News",
       "whyItMatters": "Touches claude, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T16:51:31Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.8,
       "tags": [
         "claude",
         "performance"
@@ -108,8 +108,8 @@
       "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T15:54:16.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
@@ -124,7 +124,7 @@
       "summary": "While compression reduces test data volume, efficient distribution of test data remains equally important. The post From Test Compression To Hierarchical Connectivity: Scaling SoC Test For AI And HPC Devices appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T07:01:51.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -140,7 +140,7 @@
       "summary": "AI thermal modeling for 2.5D/3D ICs; chiplet and AI accelerator co-design; BEOL thermal conductivity; agentic DRC repair; RL for dense-layout routing; LLM orchestration for digital EDA; chiplet interconnects for neuromorphic computing. The post Chip Industry Technical Paper Round",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T07:01:29.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 7.6,
       "tags": [
         "ai",
@@ -156,8 +156,8 @@
       "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compa",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T04:00:00.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -172,8 +172,8 @@
       "summary": "arXiv:2609.22476v1 Announce Type: new Abstract: Transmission system operators face rising complexity from renewable integration, reduced inertia, and tighter security margins. Large language models offer natural-language decision support, but their hallucinations, uncontrolled to",
       "whyItMatters": "Touches language model, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T04:00:00.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.5,
       "tags": [
         "language model",
         "security"
@@ -188,11 +188,28 @@
       "summary": "arXiv:2609.22511v1 Announce Type: new Abstract: Identity cues are irrelevant to a fixed programming specification, but raw counterfactual differences can arise from unequal samples and prompt wording. We audit 30.73 million executed Python generations from seven checkpoints on Hu",
       "whyItMatters": "Touches llm, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-22T04:00:00.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "python"
+      ]
+    },
+    {
+      "id": "sig-1u7wfak",
+      "title": "zai-org/ZCode (TypeScript) — trending new repo",
+      "url": "https://github.com/zai-org/ZCode",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 6275",
+      "whyItMatters": "Touches ai, coding agent, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "coding agent",
+        "typescript"
       ]
     },
     {
@@ -204,8 +221,8 @@
       "summary": "Researchers at Georgia Tech, Nvidia Research, and Stanford University published a technical paper titled “BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference.” Abstract Excerpt: “This paper presents BOOST, the first runtime system that provides concurrent ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-21T23:13:37.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "hbm"
@@ -220,8 +237,8 @@
       "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts ",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T23:09:20.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "llm"
@@ -236,28 +253,11 @@
       "summary": "Researchers at UCLA published a technical paper titled “Can Agents Design Better Chips with a Higher Level Abstraction?” Abstract Excerpt: “Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T22:59:48.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-1u7wfak",
-      "title": "zai-org/ZCode (TypeScript) — trending new repo",
-      "url": "https://github.com/zai-org/ZCode",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 6252",
-      "whyItMatters": "Touches ai, coding agent, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T12:01:16Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "coding agent",
-        "typescript"
       ]
     },
     {
@@ -269,27 +269,11 @@
       "summary": "IDC’s Worldwide Quarterly Enterprise Storage Systems Tracker shows the external OEM enterprise storage systems (ESS) market reached $10.3 billion in vendor revenue during the second quarter of 2026, up 33.6% year over year. It’s the second-highest quarterly total in the tracker’s",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-21T15:00:25.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7.2,
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-18gcop2",
-      "title": "How Robotics And Intelligent Equipment Control Drive Next-Gen Fab Productivity",
-      "url": "https://semiengineering.com/how-robotics-and-intelligent-equipment-control-drive-next-gen-fab-productivity/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Behind the scenes, advanced equipment control and robotics are enabling higher levels of repeatability, tool uptime, and yield. The post How Robotics And Intelligent Equipment Control Drive Next-Gen Fab Productivity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, productivity — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-21T07:01:36.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
-      "score": 7,
-      "tags": [
-        "semiconductor",
-        "productivity"
       ]
     },
     {
@@ -301,7 +285,7 @@
       "summary": "TrueNAS has released a native Proxmox VE storage plugin that lets Proxmox provision and manage VM disks directly on TrueNAS systems. A disk requested in Proxmox becomes an OpenZFS zvol on TrueNAS 25.10 or later, published as an iSCSI LUN or an NVMe/TCP namespace, and the plugin h",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-17T16:19:04.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -317,12 +301,29 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-22T19:54:39.370Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
       "score": 7,
       "tags": [
         "ai",
         "llm",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-14qtyub",
+      "title": "tamaratran/fast-jev-compaction (TypeScript) — trending new repo",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim. · ★ 6300",
+      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-17T05:57:20Z",
+      "fetchedAt": "2026-09-22T22:52:17.661Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "typescript"
       ]
     }
   ]
