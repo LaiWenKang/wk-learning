@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T19:50:44.370Z",
+  "updatedAt": "2026-09-23T22:28:33.126Z",
   "signals": [
     {
       "id": "sig-2yhcfs",
@@ -7,10 +7,10 @@
       "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "404 points on Hacker News",
+      "summary": "432 points on Hacker News",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T12:15:33Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2609.26551v1 Announce Type: new Abstract: Programmable RISC-V soft cores are becoming more widespread in data-center scenarios, making it crucial to design efficient systems that deploy them on FPGA chips with HBM memory. Toki, released as open source, is the first hardware",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -44,8 +44,8 @@
       "summary": "",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 10,
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "qlc"
@@ -60,7 +60,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -77,8 +77,8 @@
       "summary": "arXiv:2609.25782v1 Announce Type: new Abstract: Large language model (LLM) serving is increasingly agentic, with multi-turn sessions that idle between actions yet must retain their full context. Limited GPU memory capacity forces inactive KV states to be evicted, so resuming a se",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "language model",
@@ -94,7 +94,7 @@
       "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
       "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
       "score": 8.4,
       "tags": [
         "claude",
@@ -111,11 +111,220 @@
       "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T17:14:55.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 8.3,
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 8.2,
       "tags": [
         "claude",
         "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1itzf7a",
+      "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
+      "url": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-09-18T18:49:53.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 8,
+      "tags": [
+        "nvme",
+        "u.2"
+      ]
+    },
+    {
+      "id": "sig-1dcuzek",
+      "title": "SK Hynix considering US Solidigm fab",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-18T15:59:50.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 8,
+      "tags": [
+        "solidigm",
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-dpdq03",
+      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
+      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told u",
+      "whyItMatters": "Touches github, communication — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.7,
+      "tags": [
+        "github",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-87tfdz",
+      "title": "Build Secure SoCs From The Start",
+      "url": "https://semiengineering.com/build-secure-socs-from-the-start/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-23T07:01:52.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1efhsdc",
+      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
+      "url": "https://semiengineering.com/building-a-connected-contextual-data-backbone-for-ai-driven-semiconductor-design/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-23T07:01:44.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1odtdnu",
+      "title": "Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Simulation",
+      "url": "https://semiengineering.com/make-your-interface-work-for-your-ai-soc-a-10-step-program-verification-with-simulation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T07:01:33.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1vv7j2q",
+      "title": "Blog Review: Sept. 23",
+      "url": "https://semiengineering.com/blog-review-sept-23-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Digital twins and thermal sensors; agentic AI workflows; physical AI needs new silicon; RF design changes. The post Blog Review: Sept. 23 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T07:01:28.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1x4lwhs",
+      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "url": "https://arxiv.org/abs/2609.25303",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1x4luv2",
+      "title": "TRACTOR Benchmark for Evaluating C to Rust Translators",
+      "url": "https://arxiv.org/abs/2609.25121",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.25121v1 Announce Type: new Abstract: Memory-safety vulnerabilities remain a persistent source of security risk in critical software, much of which is implemented in memory-unsafe languages such as C and C++. Recent advances in programming languages, program analysis, a",
+      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.5,
+      "tags": [
+        "rust",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4ly7a",
+      "title": "The Vocabulary of Flaky Tests in Swift",
+      "url": "https://arxiv.org/abs/2609.25516",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.25516v1 Announce Type: new Abstract: Flaky tests produce non-deterministic outcomes without code change, eroding CI confidence and delaying deliveries. While vocabulary-based machine learning prediction has proven effective for Java and JavaScript, no study has evaluat",
+      "whyItMatters": "Touches machine learning, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.5,
+      "tags": [
+        "machine learning",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1x4lz2e",
+      "title": "Accelerating the Mitigation of LLM Inference Nondeterminism Across GPU Architectures",
+      "url": "https://arxiv.org/abs/2609.25624",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.25624v1 Announce Type: new Abstract: Large language model (LLM) outputs are expected to be reproducible under greedy decoding, yet in practice the same model, prompt, and software stack produce different outputs on different GPUs. The root cause is floating-point non-a",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1kb7ndr",
+      "title": "Python Workers are now generally available",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
+      "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "python",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1ms45nm",
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assist",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T18:48:37.000Z",
+      "fetchedAt": "2026-09-23T22:28:33.126Z",
+      "score": 7.2,
+      "tags": [
+        "openai",
         "llm"
       ]
     },
@@ -150,215 +359,6 @@
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1itzf7a",
-      "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
-      "url": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 8,
-      "tags": [
-        "nvme",
-        "u.2"
-      ]
-    },
-    {
-      "id": "sig-1dcuzek",
-      "title": "SK Hynix considering US Solidigm fab",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 8,
-      "tags": [
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-dpdq03",
-      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
-      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told u",
-      "whyItMatters": "Touches github, communication — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.8,
-      "tags": [
-        "github",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-87tfdz",
-      "title": "Build Secure SoCs From The Start",
-      "url": "https://semiengineering.com/build-secure-socs-from-the-start/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:52.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1efhsdc",
-      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
-      "url": "https://semiengineering.com/building-a-connected-contextual-data-backbone-for-ai-driven-semiconductor-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:44.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1odtdnu",
-      "title": "Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Simulation",
-      "url": "https://semiengineering.com/make-your-interface-work-for-your-ai-soc-a-10-step-program-verification-with-simulation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:33.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1vv7j2q",
-      "title": "Blog Review: Sept. 23",
-      "url": "https://semiengineering.com/blog-review-sept-23-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Digital twins and thermal sensors; agentic AI workflows; physical AI needs new silicon; RF design changes. The post Blog Review: Sept. 23 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:28.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x4lwhs",
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "url": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1x4luv2",
-      "title": "TRACTOR Benchmark for Evaluating C to Rust Translators",
-      "url": "https://arxiv.org/abs/2609.25121",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25121v1 Announce Type: new Abstract: Memory-safety vulnerabilities remain a persistent source of security risk in critical software, much of which is implemented in memory-unsafe languages such as C and C++. Recent advances in programming languages, program analysis, a",
-      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "rust",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4ly7a",
-      "title": "The Vocabulary of Flaky Tests in Swift",
-      "url": "https://arxiv.org/abs/2609.25516",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25516v1 Announce Type: new Abstract: Flaky tests produce non-deterministic outcomes without code change, eroding CI confidence and delaying deliveries. While vocabulary-based machine learning prediction has proven effective for Java and JavaScript, no study has evaluat",
-      "whyItMatters": "Touches machine learning, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "machine learning",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1x4lz2e",
-      "title": "Accelerating the Mitigation of LLM Inference Nondeterminism Across GPU Architectures",
-      "url": "https://arxiv.org/abs/2609.25624",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.25624v1 Announce Type: new Abstract: Large language model (LLM) outputs are expected to be reproducible under greedy decoding, yet in practice the same model, prompt, and software stack produce different outputs on different GPUs. The root cause is floating-point non-a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-23T19:50:44.370Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1kb7ndr",
-      "title": "Python Workers are now generally available",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "source": "Cloudflare Blog",
-      "category": "programming",
-      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
-      "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-23T16:44:05.852Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "python",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1ms45nm",
-      "title": "llm 0.36",
-      "url": "https://simonwillison.net/2026/Sep/22/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assist",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T18:48:37.000Z",
-      "fetchedAt": "2026-09-23T16:44:05.852Z",
-      "score": 7.4,
-      "tags": [
-        "openai",
-        "llm"
       ]
     },
     {
