@@ -1,21 +1,332 @@
 {
-  "updatedAt": "2026-09-24T00:48:56.171Z",
+  "updatedAt": "2026-09-24T05:30:39.927Z",
   "signals": [
+    {
+      "id": "sig-1x4msh9",
+      "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management",
+      "url": "https://arxiv.org/abs/2609.26828",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2609.26828v1 Announce Type: new Abstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs ",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "cxl",
+        "llm",
+        "dram",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1x4ngve",
+      "title": "Mamba-Family State-Space Model Kernels on a Programmable CGLA",
+      "url": "https://arxiv.org/abs/2609.27437",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "firmware",
+      "summary": "arXiv:2609.27437v1 Announce Type: new Abstract: Edge and embedded inference is constrained by power and data movement. Mamba-family state-space models replace attention with sequence-linear recurrence, but their inference path combines dense projections, short-reduction SSD kerne",
+      "whyItMatters": "Touches ssd, embedded — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "embedded"
+      ]
+    },
     {
       "id": "sig-2yhcfs",
       "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
       "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "445 points on Hacker News",
+      "summary": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 462 # Comments: 262",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T12:15:33Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
+      "publishedAt": "2026-09-23T12:15:33.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
       "score": 10,
       "tags": [
         "telemetry",
         "claude code",
         "claude"
+      ]
+    },
+    {
+      "id": "sig-f38mob",
+      "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
+      "url": "https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown/",
+      "source": "ServeTheHome",
+      "category": "semiconductor",
+      "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-19T04:07:18.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 9.5,
+      "tags": [
+        "nand",
+        "cxl",
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1x4ndk9",
+      "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+      "url": "https://arxiv.org/abs/2609.27058",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
+      "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "javascript",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-c5jxo4",
+      "title": "SewCabinSpout/cleanupper (JavaScript) — trending new repo",
+      "url": "https://github.com/SewCabinSpout/cleanupper",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "🧹 Free, open-source macOS disk cleanup CLI. Scan & safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. · ★ 724",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T17:19:45Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8.7,
+      "tags": [
+        "telemetry",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1sr0e9o",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
+      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T23:46:41.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8.2,
+      "tags": [
+        "claude",
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1x4lwhs",
+      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "url": "https://arxiv.org/abs/2609.25303",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1x4msj2",
+      "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
+      "url": "https://arxiv.org/abs/2609.26847",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1x4ndi7",
+      "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
+      "url": "https://arxiv.org/abs/2609.27030",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
+      "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "reliability",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4nf7v",
+      "title": "From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes",
+      "url": "https://arxiv.org/abs/2609.27249",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x4nf9j",
+      "title": "Specifying and Maintaining Agentic Workflows: An Empirical Study of GitHub Agentic Workflows",
+      "url": "https://arxiv.org/abs/2609.27263",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.27263v1 Announce Type: new Abstract: Agentic workflows shift software development from prompting AI agents for individual tasks to defining recurring work that agents execute automatically. GitHub Agentic Workflows (gh-aw) enables this approach through Markdown files t",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1x4ngx4",
+      "title": "Implementation and Evaluation of BitNet Inference on a CGLA by Signed-Int4 Instructions",
+      "url": "https://arxiv.org/abs/2609.27453",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.27453v1 Announce Type: new Abstract: Large language model (LLM) inference transfers model weights and activations for every generated token, making memory traffic and its energy cost part of the decode path. BitNet b1.58 represents its low-bit weights by ternary values",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-12kgsd3",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1itzf7a",
+      "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
+      "url": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-09-18T18:49:53.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "nvme",
+        "u.2"
+      ]
+    },
+    {
+      "id": "sig-dpdq03",
+      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
+      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told u",
+      "whyItMatters": "Touches github, communication — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.5,
+      "tags": [
+        "github",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-1xklxb",
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 639 # Comments: 200",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T07:26:23.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-87tfdz",
+      "title": "Build Secure SoCs From The Start",
+      "url": "https://semiengineering.com/build-secure-socs-from-the-start/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-23T07:01:52.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1efhsdc",
+      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
+      "url": "https://semiengineering.com/building-a-connected-contextual-data-backbone-for-ai-driven-semiconductor-design/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-23T07:01:44.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1odtdnu",
+      "title": "Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Simulation",
+      "url": "https://semiengineering.com/make-your-interface-work-for-your-ai-soc-a-10-step-program-verification-with-simulation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T07:01:33.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "productivity"
       ]
     },
     {
@@ -52,39 +363,6 @@
       ]
     },
     {
-      "id": "sig-f38mob",
-      "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
-      "url": "https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "cxl",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-c5jxo4",
-      "title": "SewCabinSpout/cleanupper (JavaScript) — trending new repo",
-      "url": "https://github.com/SewCabinSpout/cleanupper",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "🧹 Free, open-source macOS disk cleanup CLI. Scan & safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. · ★ 723",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T17:19:45Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.8,
-      "tags": [
-        "telemetry",
-        "javascript"
-      ]
-    },
-    {
       "id": "sig-1x4m023",
       "title": "Hot-Cold Tiering of HBM and High Bandwidth Flash for Agentic LLM Serving",
       "url": "https://arxiv.org/abs/2609.25782",
@@ -99,56 +377,6 @@
         "llm",
         "language model",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-1sr0e9o",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
-      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.3,
-      "tags": [
-        "claude",
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-12kgsd3",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T17:14:55.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.1,
-      "tags": [
-        "claude",
-        "anthropic",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1itzf7a",
-      "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
-      "url": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8,
-      "tags": [
-        "nvme",
-        "u.2"
       ]
     },
     {
@@ -168,86 +396,6 @@
       ]
     },
     {
-      "id": "sig-dpdq03",
-      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
-      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told u",
-      "whyItMatters": "Touches github, communication — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.7,
-      "tags": [
-        "github",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-1xklxb",
-      "title": "Jev in 25 Lines of Python",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 628 # Comments: 197",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:26:23.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-87tfdz",
-      "title": "Build Secure SoCs From The Start",
-      "url": "https://semiengineering.com/build-secure-socs-from-the-start/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:52.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1efhsdc",
-      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
-      "url": "https://semiengineering.com/building-a-connected-contextual-data-backbone-for-ai-driven-semiconductor-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:44.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1odtdnu",
-      "title": "Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Simulation",
-      "url": "https://semiengineering.com/make-your-interface-work-for-your-ai-soc-a-10-step-program-verification-with-simulation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:33.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
       "id": "sig-1vv7j2q",
       "title": "Blog Review: Sept. 23",
       "url": "https://semiengineering.com/blog-review-sept-23-3/",
@@ -261,22 +409,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x4lwhs",
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "url": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "machine learning"
       ]
     },
     {
@@ -2063,170 +2195,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x3x6n1",
-      "title": "DT-RAID: A Software-Defined Tiered RAID Architecture for Heterogeneous SSDs",
-      "url": "https://arxiv.org/abs/2609.16003",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "systems",
-      "summary": "arXiv:2609.16003v1 Announce Type: new Abstract: The rapid proliferation of cloud and AI-driven workloads has led to increasingly complex requirements for modern storage subsystems. To meet these demands, SSD controller architectures have evolved into a fragmented landscape, offer",
-      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "ssd controller",
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1x3uyv3",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "url": "https://arxiv.org/abs/2609.13422",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed ",
-      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3uyw4",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "url": "https://arxiv.org/abs/2609.13436",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make conseque",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3uyys",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "url": "https://arxiv.org/abs/2609.13463",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. T",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3uz1h",
-      "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
-      "url": "https://arxiv.org/abs/2609.13491",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.13491v1 Announce Type: new Abstract: The strong performance of AI Agents across an impressive variety of tasks is driving an unprecedented investment in agentic infrastructures, however the cost of processing tokens is fast increasing. Web agents automate the execution",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x3x7l3",
-      "title": "Docker Containers vs. Virtual Machines: A Comparative Study of Architecture, Performance, Configuration, and Security",
-      "url": "https://arxiv.org/abs/2609.16148",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.16148v1 Announce Type: new Abstract: Modern application platforms must isolate workloads while preserving deployment speed, portability, resource efficiency, and security. Virtual machines (VMs) and Docker containers address this requirement at different abstraction la",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x3xa5h",
-      "title": "Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails",
-      "url": "https://arxiv.org/abs/2609.16461",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.16461v1 Announce Type: new Abstract: Agentic large language model (LLM) systems rely on long interaction histories to preserve instructions, tool states, intermediate decisions, and unresolved dependencies, but unrestricted context growth increases computational cost a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3xa8d",
-      "title": "AI Policies: Help or Hindrance? A Software Developer's Perspective",
-      "url": "https://arxiv.org/abs/2609.16496",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.16496v1 Announce Type: new Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software develope",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1x3x9ba",
-      "title": "FSNIC: A Low-Latency Flow-Based Intrusion Detection Architecture for FPGA SmartNICs",
-      "url": "https://arxiv.org/abs/2609.16363",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "systems",
-      "summary": "arXiv:2609.16363v1 Announce Type: new Abstract: Modern data centres require high-performance networking alongside effective real-time security. Traditional Intrusion Detection Systems (IDS) commonly rely on general-purpose processors and often struggle to inspect high-speed traff",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.4,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-ws2i44",
-      "title": "We got admin access to Baseten's production GitHub",
-      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 321 # Comments: 184",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-15T18:11:24.000Z",
-      "fetchedAt": "2026-09-17T01:44:22.778Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "github"
       ]
     }
   ]

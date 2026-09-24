@@ -1,54 +1,56 @@
 {
-  "generatedAt": "2026-09-24T00:48:56.171Z",
+  "generatedAt": "2026-09-24T05:30:39.927Z",
   "signals": [
+    {
+      "id": "sig-1x4msh9",
+      "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management",
+      "url": "https://arxiv.org/abs/2609.26828",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2609.26828v1 Announce Type: new Abstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs ",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "cxl",
+        "llm",
+        "dram",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1x4ngve",
+      "title": "Mamba-Family State-Space Model Kernels on a Programmable CGLA",
+      "url": "https://arxiv.org/abs/2609.27437",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "firmware",
+      "summary": "arXiv:2609.27437v1 Announce Type: new Abstract: Edge and embedded inference is constrained by power and data movement. Mamba-family state-space models replace attention with sequence-linear recurrence, but their inference path combines dense projections, short-reduction SSD kerne",
+      "whyItMatters": "Touches ssd, embedded — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "embedded"
+      ]
+    },
     {
       "id": "sig-2yhcfs",
       "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
       "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "445 points on Hacker News",
+      "summary": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 462 # Comments: 262",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T12:15:33Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
+      "publishedAt": "2026-09-23T12:15:33.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
       "score": 10,
       "tags": [
         "telemetry",
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1x4mq12",
-      "title": "Toki: Profiling HBM Performance on FPGA Systems with RISC-V Soft Cores and PCIe Host DMA Traffic",
-      "url": "https://arxiv.org/abs/2609.26551",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2609.26551v1 Announce Type: new Abstract: Programmable RISC-V soft cores are becoming more widespread in data-center scenarios, making it crucial to design efficient systems that deploy them on FPGA chips with HBM memory. Toki, released as open source, is the first hardware",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 9.9,
-      "tags": [
-        "pcie",
-        "hbm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1kuspkw",
-      "title": "A look at DapuStor’s combined SLC and QLC SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/21/a-look-at-dapustors-combined-slc-and-qlc-ssd/5297708",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 9.8,
-      "tags": [
-        "ssd",
-        "qlc"
       ]
     },
     {
@@ -60,7 +62,7 @@
       "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -69,36 +71,36 @@
       ]
     },
     {
+      "id": "sig-1x4ndk9",
+      "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+      "url": "https://arxiv.org/abs/2609.27058",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
+      "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "javascript",
+        "security"
+      ]
+    },
+    {
       "id": "sig-c5jxo4",
       "title": "SewCabinSpout/cleanupper (JavaScript) — trending new repo",
       "url": "https://github.com/SewCabinSpout/cleanupper",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "🧹 Free, open-source macOS disk cleanup CLI. Scan & safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. · ★ 723",
+      "summary": "🧹 Free, open-source macOS disk cleanup CLI. Scan & safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. · ★ 724",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T17:19:45Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.8,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8.7,
       "tags": [
         "telemetry",
         "javascript"
-      ]
-    },
-    {
-      "id": "sig-1x4m023",
-      "title": "Hot-Cold Tiering of HBM and High Bandwidth Flash for Agentic LLM Serving",
-      "url": "https://arxiv.org/abs/2609.25782",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.25782v1 Announce Type: new Abstract: Large language model (LLM) serving is increasingly agentic, with multi-turn sessions that idle between actions yet must retain their full context. Limited GPU memory capacity forces inactive KV states to be evicted, so resuming a se",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "hbm"
       ]
     },
     {
@@ -110,12 +112,108 @@
       "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
       "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.3,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8.2,
       "tags": [
         "claude",
         "anthropic",
         "openai"
+      ]
+    },
+    {
+      "id": "sig-1x4lwhs",
+      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "url": "https://arxiv.org/abs/2609.25303",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1x4msj2",
+      "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
+      "url": "https://arxiv.org/abs/2609.26847",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1x4ndi7",
+      "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
+      "url": "https://arxiv.org/abs/2609.27030",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
+      "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "reliability",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4nf7v",
+      "title": "From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes",
+      "url": "https://arxiv.org/abs/2609.27249",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x4nf9j",
+      "title": "Specifying and Maintaining Agentic Workflows: An Empirical Study of GitHub Agentic Workflows",
+      "url": "https://arxiv.org/abs/2609.27263",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.27263v1 Announce Type: new Abstract: Agentic workflows shift software development from prompting AI agents for individual tasks to defining recurring work that agents execute automatically. GitHub Agentic Workflows (gh-aw) enables this approach through Markdown files t",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1x4ngx4",
+      "title": "Implementation and Evaluation of BitNet Inference on a CGLA by Signed-Int4 Instructions",
+      "url": "https://arxiv.org/abs/2609.27453",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.27453v1 Announce Type: new Abstract: Large language model (LLM) inference transfers model weights and activations for every generated token, making memory traffic and its energy cost part of the decode path. BitNet b1.58 represents its low-bit weights by ternary values",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -127,8 +225,8 @@
       "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
       "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T17:14:55.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.1,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 8,
       "tags": [
         "claude",
         "anthropic",
@@ -144,27 +242,11 @@
       "summary": "QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.2 NVMe bays and puts dual Thunderbolt 4 ports, 10GbE, and 2.5GbE on the back of a tower that QNAP says is 36% smaller than its previous HDD-based 6-bay Thunderbolt 4 NAS",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-18T18:49:53.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
       "score": 8,
       "tags": [
         "nvme",
         "u.2"
-      ]
-    },
-    {
-      "id": "sig-1dcuzek",
-      "title": "SK Hynix considering US Solidigm fab",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8,
-      "tags": [
-        "solidigm",
-        "sk hynix"
       ]
     },
     {
@@ -176,8 +258,8 @@
       "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told u",
       "whyItMatters": "Touches github, communication — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-23T13:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.5,
       "tags": [
         "github",
         "communication"
@@ -189,11 +271,11 @@
       "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 628 # Comments: 197",
+      "summary": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 639 # Comments: 200",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-23T07:26:23.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "python"
@@ -208,8 +290,8 @@
       "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-23T07:01:52.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -224,8 +306,8 @@
       "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-23T07:01:44.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -240,91 +322,11 @@
       "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
       "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-23T07:01:33.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-24T05:30:39.927Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-1vv7j2q",
-      "title": "Blog Review: Sept. 23",
-      "url": "https://semiengineering.com/blog-review-sept-23-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Digital twins and thermal sensors; agentic AI workflows; physical AI needs new silicon; RF design changes. The post Blog Review: Sept. 23 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:28.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x4lwhs",
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "url": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1x4luv2",
-      "title": "TRACTOR Benchmark for Evaluating C to Rust Translators",
-      "url": "https://arxiv.org/abs/2609.25121",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25121v1 Announce Type: new Abstract: Memory-safety vulnerabilities remain a persistent source of security risk in critical software, much of which is implemented in memory-unsafe languages such as C and C++. Recent advances in programming languages, program analysis, a",
-      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "rust",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4ly7a",
-      "title": "The Vocabulary of Flaky Tests in Swift",
-      "url": "https://arxiv.org/abs/2609.25516",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25516v1 Announce Type: new Abstract: Flaky tests produce non-deterministic outcomes without code change, eroding CI confidence and delaying deliveries. While vocabulary-based machine learning prediction has proven effective for Java and JavaScript, no study has evaluat",
-      "whyItMatters": "Touches machine learning, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "machine learning",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1x4lz2e",
-      "title": "Accelerating the Mitigation of LLM Inference Nondeterminism Across GPU Architectures",
-      "url": "https://arxiv.org/abs/2609.25624",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.25624v1 Announce Type: new Abstract: Large language model (LLM) outputs are expected to be reproducible under greedy decoding, yet in practice the same model, prompt, and software stack produce different outputs on different GPUs. The root cause is floating-point non-a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
       ]
     }
   ]
