@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T22:40:42.254Z",
+  "updatedAt": "2026-09-25T00:54:03.842Z",
   "signals": [
     {
       "id": "sig-1x4msh9",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2609.26828v1 Announce Type: new Abstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,8 +29,8 @@
       "summary": "arXiv:2609.27437v1 Announce Type: new Abstract: Edge and embedded inference is constrained by power and data movement. Mamba-family state-space models replace attention with sequence-linear recurrence, but their inference path combines dense projections, short-reduction SSD kerne",
       "whyItMatters": "Touches ssd, embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 10,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "embedded"
@@ -45,8 +45,8 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.9,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.8,
       "tags": [
         "qlc",
         "e3.s",
@@ -62,8 +62,8 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.9,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "gen5"
@@ -78,11 +78,255 @@
       "summary": "",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "qlc"
+      ]
+    },
+    {
+      "id": "sig-1vhk2vp",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T18:26:12.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4ndk9",
+      "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+      "url": "https://arxiv.org/abs/2609.27058",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
+      "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8.4,
+      "tags": [
+        "llm",
+        "javascript",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1nyvmc3",
+      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 877",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8,
+      "tags": [
+        "telemetry",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1dcuzek",
+      "title": "SK Hynix considering US Solidigm fab",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-18T15:59:50.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8,
+      "tags": [
+        "solidigm",
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-h8z9ow",
+      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
+      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T19:47:03.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1sr0e9o",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
+      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T23:46:41.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.6,
+      "tags": [
+        "claude",
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-ijzkuq",
+      "title": "When AI Agents Cross Chip Design Silos",
+      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-24T07:03:42.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-scfvqt",
+      "title": "EDA’s Future Is Evidence-Driven Automation",
+      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:50.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1iq2w4x",
+      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
+      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:21.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-zwa6du",
+      "title": "3D Chips Push EDA Into New Territory",
+      "url": "https://semiengineering.com/3d-chips-push-eda-into-new-territory/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI chips move to stacked, chiplet-based architectures, EDA vendors are reworking mature tools for cross-domain analysis, faster exploration, and agentic AI assistance. The post 3D Chips Push EDA Into New Territory appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:01:12.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12kgsd3",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x4lwhs",
+      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+      "url": "https://arxiv.org/abs/2609.25303",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
+      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1x4msj2",
+      "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
+      "url": "https://arxiv.org/abs/2609.26847",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1x4ndi7",
+      "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
+      "url": "https://arxiv.org/abs/2609.27030",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
+      "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
+      "tags": [
+        "reliability",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4nf7v",
+      "title": "From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes",
+      "url": "https://arxiv.org/abs/2609.27249",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -100,233 +344,6 @@
         "nand",
         "cxl",
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1vhk2vp",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4ndk9",
-      "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
-      "url": "https://arxiv.org/abs/2609.27058",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
-      "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.5,
-      "tags": [
-        "llm",
-        "javascript",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1nyvmc3",
-      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
-      "url": "https://github.com/mikehasa/golive-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 847",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.1,
-      "tags": [
-        "telemetry",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1dcuzek",
-      "title": "SK Hynix considering US Solidigm fab",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8,
-      "tags": [
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-h8z9ow",
-      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
-      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1sr0e9o",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
-      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.7,
-      "tags": [
-        "claude",
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-ijzkuq",
-      "title": "When AI Agents Cross Chip Design Silos",
-      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-24T07:03:42.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-scfvqt",
-      "title": "EDA’s Future Is Evidence-Driven Automation",
-      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:02:50.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1iq2w4x",
-      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
-      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:02:21.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-zwa6du",
-      "title": "3D Chips Push EDA Into New Territory",
-      "url": "https://semiengineering.com/3d-chips-push-eda-into-new-territory/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI chips move to stacked, chiplet-based architectures, EDA vendors are reworking mature tools for cross-domain analysis, faster exploration, and agentic AI assistance. The post 3D Chips Push EDA Into New Territory appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:01:12.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x4lwhs",
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "url": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1x4msj2",
-      "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
-      "url": "https://arxiv.org/abs/2609.26847",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
-      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-1x4ndi7",
-      "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
-      "url": "https://arxiv.org/abs/2609.27030",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
-      "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
-      "tags": [
-        "reliability",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4nf7v",
-      "title": "From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes",
-      "url": "https://arxiv.org/abs/2609.27249",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "llm"
       ]
     },
     {
@@ -359,23 +376,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-12kgsd3",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T17:14:55.000Z",
-      "fetchedAt": "2026-09-24T15:26:44.700Z",
-      "score": 7.7,
-      "tags": [
-        "claude",
-        "anthropic",
-        "llm"
       ]
     },
     {
@@ -2099,138 +2099,6 @@
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1x3y3n6",
-      "title": "A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents",
-      "url": "https://arxiv.org/abs/2609.17698",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.17698v1 Announce Type: new Abstract: Large language model (LLM)-based agents are increasingly used across software engineering, web automation, research, and productivity applications. Their integration of planning, memory, tool use, code execution, and external intera",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model",
-        "software engineering",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1x3y3hi",
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-      "url": "https://arxiv.org/abs/2609.17632",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ab",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3y3n3",
-      "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
-      "url": "https://arxiv.org/abs/2609.17695",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.17695v1 Announce Type: new Abstract: A large language model (LLM) agent can follow more graph paths without acquiring more independent evidence. GraphEcho tests whether agents mistake these repeated encounters for additional corroboration. The benchmark varies path cou",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x3ys0f",
-      "title": "A Study of the Reliability of Agentic AI-Generated Programs",
-      "url": "https://arxiv.org/abs/2609.18298",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.18298v1 Announce Type: new Abstract: Agentic-AI based software development offers the promise of faster completion of the software, greater programmer efficiency, and more reliable code. The question is how can we verify these claims in an objective way? In this projec",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x3ysn5",
-      "title": "A Study on the Impact of Natural Language Differences in Prompts on Automatic Code Generation Using LLMs",
-      "url": "https://arxiv.org/abs/2609.18311",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.18311v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated remarkable performance in automatic code generation tasks, thereby encouraging new research in this area. Although numerous studies have explored LLM-based code generation, the impact o",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x3y2p7",
-      "title": "WARD: Runtime Workload-Adaptive Vision TRansformer Framework for Dependable Edge AI",
-      "url": "https://arxiv.org/abs/2609.17556",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.17556v1 Announce Type: new Abstract: Edge-deployed AI operate under dynamically changing power budgets, reliability requirements, and input distributions, requiring continuous adaptation. Such conditions arise in long-running edge AI applications, including autonomous ",
-      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "fetchedAt": "2026-09-18T00:49:45.597Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-f6wq3w",
-      "title": "kruzovic7/ai-data-extractor (Python) — trending new repo",
-      "url": "https://github.com/kruzovic7/ai-data-extractor",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. · ★ 834",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-11T18:12:58Z",
-      "fetchedAt": "2026-09-17T22:52:03.819Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-2rhz3u",
-      "title": "How to Write with an LLM",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "12 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T21:48:38Z",
-      "fetchedAt": "2026-09-17T22:52:03.819Z",
-      "score": 6.5,
-      "tags": [
-        "llm"
       ]
     }
   ]

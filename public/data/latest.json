@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:40:42.254Z",
+  "generatedAt": "2026-09-25T00:54:03.842Z",
   "signals": [
     {
       "id": "sig-1x4msh9",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2609.26828v1 Announce Type: new Abstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 10,
       "tags": [
         "nand",
@@ -29,8 +29,8 @@
       "summary": "arXiv:2609.27437v1 Announce Type: new Abstract: Edge and embedded inference is constrained by power and data movement. Mamba-family state-space models replace attention with sequence-linear recurrence, but their inference path combines dense projections, short-reduction SSD kerne",
       "whyItMatters": "Touches ssd, embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 10,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "embedded"
@@ -45,8 +45,8 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.9,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.8,
       "tags": [
         "qlc",
         "e3.s",
@@ -62,8 +62,8 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.9,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "gen5"
@@ -78,28 +78,11 @@
       "summary": "",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "qlc"
-      ]
-    },
-    {
-      "id": "sig-f38mob",
-      "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
-      "url": "https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "cxl",
-        "kioxia"
       ]
     },
     {
@@ -111,8 +94,8 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "github",
@@ -128,8 +111,8 @@
       "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
       "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.5,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8.4,
       "tags": [
         "llm",
         "javascript",
@@ -142,11 +125,11 @@
       "url": "https://github.com/mikehasa/golive-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 847",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 877",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 8.1,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 8,
       "tags": [
         "telemetry",
         "typescript"
@@ -161,7 +144,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 8,
       "tags": [
         "solidigm",
@@ -177,7 +160,7 @@
       "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
       "score": 7.9,
       "tags": [
         "ai",
@@ -193,8 +176,8 @@
       "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
       "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.6,
       "tags": [
         "claude",
         "anthropic",
@@ -210,8 +193,8 @@
       "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-24T07:03:42.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -226,8 +209,8 @@
       "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T07:02:50.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -242,8 +225,8 @@
       "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T07:02:21.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -258,11 +241,28 @@
       "summary": "As AI chips move to stacked, chiplet-based architectures, EDA vendors are reworking mature tools for cross-domain analysis, faster exploration, and agentic AI assistance. The post 3D Chips Push EDA Into New Territory appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T07:01:12.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.6,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12kgsd3",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.5,
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
       ]
     },
     {
@@ -274,8 +274,8 @@
       "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
       "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "machine learning"
@@ -290,8 +290,8 @@
       "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
       "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "coding agent"
@@ -306,8 +306,8 @@
       "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
       "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
       "tags": [
         "reliability",
         "security"
@@ -322,8 +322,8 @@
       "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-25T00:54:03.842Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
