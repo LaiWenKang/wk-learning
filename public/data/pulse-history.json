@@ -1,6 +1,330 @@
 {
-  "updatedAt": "2026-09-25T00:54:03.842Z",
+  "updatedAt": "2026-09-25T06:03:10.575Z",
   "signals": [
+    {
+      "id": "sig-1x4oyoa",
+      "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
+      "url": "https://arxiv.org/abs/2609.29246",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2609.29246v1 Announce Type: new Abstract: High-bandwidth flash (HBF) is introduced to address the memory wall, which can co-package a dense NAND stack with the GPU, targeting the performance gap between near-accelerator bandwidth and flash density. HBF, however, is neither ",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-16br6w9",
+      "title": "Solidigm D5-P5430 30.72TB E3.S Review: Gen4 QLC for Mixed Workloads",
+      "url": "https://www.storagereview.com/review/solidigm-d5-p5430-30-72tb-review",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
+      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
+      "publishedAt": "2026-09-24T18:10:51.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 9.7,
+      "tags": [
+        "qlc",
+        "e3.s",
+        "solidigm"
+      ]
+    },
+    {
+      "id": "sig-1hsoqdr",
+      "title": "NVIDIA RTX PRO 4500 Edge Review: 2.7x the L4 Inside an HPE ProLiant DL145 Gen11",
+      "url": "https://www.storagereview.com/review/nvidia-rtx-pro-4500-edge-review-hpe-proliant-dl145-gen11-l4",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-24T17:37:40.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 9.7,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-1kuspkw",
+      "title": "A look at DapuStor’s combined SLC and QLC SSD",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/21/a-look-at-dapustors-combined-slc-and-qlc-ssd/5297708",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
+      "publishedAt": "2026-09-21T13:00:31.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "qlc"
+      ]
+    },
+    {
+      "id": "sig-1vhk2vp",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T18:26:12.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 8.7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1dcuzek",
+      "title": "SK Hynix considering US Solidigm fab",
+      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-18T15:59:50.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 8,
+      "tags": [
+        "solidigm",
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1x4oafi",
+      "title": "Driving Epidemic Models with AI Agents: the Epydemix Agent Framework",
+      "url": "https://arxiv.org/abs/2609.28692",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.28692v1 Announce Type: new Abstract: Artificial Intelligence agents based on large language models provide convenient natural language interfaces to scientific software, but reliability is not automatic. Here we introduce the Epydemix Agent Framework, an additive layer",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x4oafj",
+      "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+      "url": "https://arxiv.org/abs/2609.28693",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.28693v1 Announce Type: new Abstract: Large Language Model (LLM) agents struggle to scale safely when exposed to vast enterprise toolsets. Providing an agent with access to every internal tool leads to oversized context windows, degraded tool selection, and severe gover",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4o8q9",
+      "title": "IaC-Guard-V: A Verification Framework for LLM-Generated Infrastructure-as-Code Repairs",
+      "url": "https://arxiv.org/abs/2609.28488",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.28488v1 Announce Type: new Abstract: Infrastructure-as-Code (IaC) misconfigurations are a leading cause of cloud security incidents, and Large Language Models (LLMs) are increasingly proposed as automated repair agents. Yet the trustworthiness of LLM-generated IaC repa",
+      "whyItMatters": "Touches llm, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x4o9io",
+      "title": "Pretraining and adapting a language model on a dependency-free stack: GPT-2 124M from random weights, reproduced against llm.c, and a clinical adapter for Qwen3-0.6B",
+      "url": "https://arxiv.org/abs/2609.28568",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.28568v1 Announce Type: new Abstract: Almost every language model in service was trained by one family of software. That concentration makes a question hard to settle: how much of what is known about training a language model describes language models, and how much desc",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4ox1h",
+      "title": "Human-AI Collaboration for Multi-Line Task Adjustment Using Local Large Language Models and a Digital Twin",
+      "url": "https://arxiv.org/abs/2609.29061",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.29061v1 Announce Type: new Abstract: Automation systems must adapt to changing tasks, equipment states, and staffing conditions while providing evidence for human review. This study presents a multi-line task-adjustment system integrating a local large language model, ",
+      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x4ox1o",
+      "title": "Design, development, and preliminary validity and reliability evidence of the Software Engineering Self-Efficacy Scale (SESES)",
+      "url": "https://arxiv.org/abs/2609.29068",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2609.29068v1 Announce Type: new Abstract: The purpose of this research is to design, develop, implement, and provide preliminary validity and reliability evidence of the Software Engineering Self-Efficacy Scale (SESES). Framed by a conceptual framework using guidance in sof",
+      "whyItMatters": "Touches software engineering, reliability — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "software engineering",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1nyvmc3",
+      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 899",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.9,
+      "tags": [
+        "telemetry",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-h8z9ow",
+      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
+      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T19:47:03.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1sr0e9o",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
+      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T23:46:41.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.5,
+      "tags": [
+        "claude",
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-ijzkuq",
+      "title": "When AI Agents Cross Chip Design Silos",
+      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-24T07:03:42.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-scfvqt",
+      "title": "EDA’s Future Is Evidence-Driven Automation",
+      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:50.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1iq2w4x",
+      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
+      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:21.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-zwa6du",
+      "title": "3D Chips Push EDA Into New Territory",
+      "url": "https://semiengineering.com/3d-chips-push-eda-into-new-territory/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "As AI chips move to stacked, chiplet-based architectures, EDA vendors are reworking mature tools for cross-domain analysis, faster exploration, and agentic AI assistance. The post 3D Chips Push EDA Into New Territory appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:01:12.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12kgsd3",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "fetchedAt": "2026-09-25T06:03:10.575Z",
+      "score": 7.3,
+      "tags": [
+        "claude",
+        "anthropic",
+        "llm"
+      ]
+    },
     {
       "id": "sig-1x4msh9",
       "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management",
@@ -37,72 +361,6 @@
       ]
     },
     {
-      "id": "sig-16br6w9",
-      "title": "Solidigm D5-P5430 30.72TB E3.S Review: Gen4 QLC for Mixed Workloads",
-      "url": "https://www.storagereview.com/review/solidigm-d5-p5430-30-72tb-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 9.8,
-      "tags": [
-        "qlc",
-        "e3.s",
-        "solidigm"
-      ]
-    },
-    {
-      "id": "sig-1hsoqdr",
-      "title": "NVIDIA RTX PRO 4500 Edge Review: 2.7x the L4 Inside an HPE ProLiant DL145 Gen11",
-      "url": "https://www.storagereview.com/review/nvidia-rtx-pro-4500-edge-review-hpe-proliant-dl145-gen11-l4",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 9.8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-1kuspkw",
-      "title": "A look at DapuStor’s combined SLC and QLC SSD",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/21/a-look-at-dapustors-combined-slc-and-qlc-ssd/5297708",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-09-21T13:00:31.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "qlc"
-      ]
-    },
-    {
-      "id": "sig-1vhk2vp",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 8.8,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
       "id": "sig-1x4ndk9",
       "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
       "url": "https://arxiv.org/abs/2609.27058",
@@ -117,152 +375,6 @@
         "llm",
         "javascript",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1nyvmc3",
-      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
-      "url": "https://github.com/mikehasa/golive-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 877",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 8,
-      "tags": [
-        "telemetry",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1dcuzek",
-      "title": "SK Hynix considering US Solidigm fab",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-18T15:59:50.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 8,
-      "tags": [
-        "solidigm",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-h8z9ow",
-      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
-      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1sr0e9o",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
-      "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.6,
-      "tags": [
-        "claude",
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-ijzkuq",
-      "title": "When AI Agents Cross Chip Design Silos",
-      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-24T07:03:42.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-scfvqt",
-      "title": "EDA’s Future Is Evidence-Driven Automation",
-      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:02:50.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1iq2w4x",
-      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
-      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:02:21.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-zwa6du",
-      "title": "3D Chips Push EDA Into New Territory",
-      "url": "https://semiengineering.com/3d-chips-push-eda-into-new-territory/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "As AI chips move to stacked, chiplet-based architectures, EDA vendors are reworking mature tools for cross-domain analysis, faster exploration, and agentic AI assistance. The post 3D Chips Push EDA Into New Territory appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:01:12.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-12kgsd3",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-22T17:14:55.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.5,
-      "tags": [
-        "claude",
-        "anthropic",
-        "llm"
       ]
     },
     {
@@ -2083,22 +2195,6 @@
         "claude code",
         "claude",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-1q5seot",
-      "title": "Claude Cowork and chat are now one Claude",
-      "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noo",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T18:09:49.000Z",
-      "fetchedAt": "2026-09-18T05:17:17.539Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     }
   ]
