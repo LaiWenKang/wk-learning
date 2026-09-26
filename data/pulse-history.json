@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:13:19.146Z",
+  "updatedAt": "2026-09-26T01:37:21.152Z",
   "signals": [
     {
       "id": "sig-1x4oyoa",
@@ -10,8 +10,8 @@
       "summary": "arXiv:2609.29246v1 Announce Type: new Abstract: High-bandwidth flash (HBF) is introduced to address the memory wall, which can co-package a dense NAND stack with the GPU, targeting the performance gap between near-accelerator bandwidth and flash density. HBF, however, is neither ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 10,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 9.9,
       "tags": [
         "nand",
         "performance"
@@ -26,8 +26,8 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 9.2,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 9.1,
       "tags": [
         "qlc",
         "e3.s",
@@ -43,8 +43,8 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 9.2,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 9.1,
       "tags": [
         "pcie",
         "gen5"
@@ -59,8 +59,8 @@
       "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
       "whyItMatters": "Touches ai, coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T13:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 8.7,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "coding agent",
@@ -76,8 +76,8 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 8.2,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "github",
@@ -93,8 +93,8 @@
       "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-25T15:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.7,
       "tags": [
         "github",
         "performance"
@@ -109,8 +109,8 @@
       "summary": "arXiv:2609.28692v1 Announce Type: new Abstract: Artificial Intelligence agents based on large language models provide convenient natural language interfaces to scientific software, but reliability is not automatic. Here we introduce the Epydemix Agent Framework, an additive layer",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "reliability"
@@ -125,8 +125,8 @@
       "summary": "arXiv:2609.28693v1 Announce Type: new Abstract: Large Language Model (LLM) agents struggle to scale safely when exposed to vast enterprise toolsets. Providing an agent with access to every internal tool leads to oversized context windows, degraded tool selection, and severe gover",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -141,8 +141,8 @@
       "summary": "arXiv:2609.28488v1 Announce Type: new Abstract: Infrastructure-as-Code (IaC) misconfigurations are a leading cause of cloud security incidents, and Large Language Models (LLMs) are increasingly proposed as automated repair agents. Yet the trustworthiness of LLM-generated IaC repa",
       "whyItMatters": "Touches llm, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "security"
@@ -157,8 +157,8 @@
       "summary": "arXiv:2609.28568v1 Announce Type: new Abstract: Almost every language model in service was trained by one family of software. That concentration makes a question hard to settle: how much of what is known about training a language model describes language models, and how much desc",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -173,8 +173,8 @@
       "summary": "arXiv:2609.29061v1 Announce Type: new Abstract: Automation systems must adapt to changing tasks, equipment states, and staffing conditions while providing evidence for human review. This study presents a multi-line task-adjustment system integrating a local large language model, ",
       "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "language model"
@@ -189,27 +189,11 @@
       "summary": "arXiv:2609.29068v1 Announce Type: new Abstract: The purpose of this research is to design, develop, implement, and provide preliminary validity and reliability evidence of the Software Engineering Self-Efficacy Scale (SESES). Framed by a conceptual framework using guidance in sof",
       "whyItMatters": "Touches software engineering, reliability — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-25T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.4,
       "tags": [
         "software engineering",
         "reliability"
-      ]
-    },
-    {
-      "id": "sig-1nyvmc3",
-      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
-      "url": "https://github.com/mikehasa/golive-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 949",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
-      "score": 7.4,
-      "tags": [
-        "telemetry",
-        "typescript"
       ]
     },
     {
@@ -221,11 +205,27 @@
       "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T23:31:08.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7.3,
       "tags": [
         "ai",
         "software engineering"
+      ]
+    },
+    {
+      "id": "sig-1nyvmc3",
+      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 950",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
+      "score": 7.3,
+      "tags": [
+        "telemetry",
+        "typescript"
       ]
     },
     {
@@ -237,7 +237,7 @@
       "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7.2,
       "tags": [
         "ai",
@@ -253,7 +253,7 @@
       "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
       "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7,
       "tags": [
         "claude",
@@ -270,7 +270,7 @@
       "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
       "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7,
       "tags": [
         "ai",
@@ -284,10 +284,10 @@
       "url": "https://github.com/zai-org/ZCode",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 6770",
+      "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible. · ★ 6773",
       "whyItMatters": "Touches ai, coding agent, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-20T12:01:16Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7,
       "tags": [
         "ai",
@@ -304,7 +304,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7,
       "tags": [
         "ai",
@@ -321,7 +321,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-25T23:13:19.146Z",
+      "fetchedAt": "2026-09-26T01:37:21.152Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -2112,55 +2112,6 @@
       "tags": [
         "llm",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1x3zl8o",
-      "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.19425",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist and pass arguments no schema declares. Existing defenses either pick the right too",
-      "whyItMatters": "Touches llm, language model, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-19T00:31:59.861Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x3zkkq",
-      "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
-      "url": "https://arxiv.org/abs/2609.19391",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LL",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-19T00:31:59.861Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x3zm1y",
-      "title": "QVAC Genesis III: A Large-Scale, High-Quality Open Synthetic STEM Corpus for Efficient Language Model Pre-Training",
-      "url": "https://arxiv.org/abs/2609.19513",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.19513v1 Announce Type: new Abstract: High-quality pre-training data is a critical bottleneck for educational and STEM-specific language models targeting edge AI and on-device deployment where token budgets are tightly constrained. While major organizations train ever-l",
-      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "fetchedAt": "2026-09-19T00:31:59.861Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "language model"
       ]
     }
   ]
