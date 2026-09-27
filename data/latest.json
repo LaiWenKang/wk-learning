@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:56:47.358Z",
+  "generatedAt": "2026-09-27T21:15:03.120Z",
   "signals": [
     {
       "id": "sig-16br6w9",
@@ -10,7 +10,7 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 8,
       "tags": [
         "qlc",
@@ -27,27 +27,11 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
-      ]
-    },
-    {
-      "id": "sig-1x4lu0t",
-      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-      "url": "https://arxiv.org/abs/2609.25021",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "92 points on Hacker News",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T10:26:25Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -59,8 +43,8 @@
       "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
       "whyItMatters": "Touches ai, coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T13:00:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "coding agent",
@@ -76,7 +60,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "ai",
@@ -90,10 +74,10 @@
       "url": "https://github.com/mikehasa/golive-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1006",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1010",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "telemetry",
@@ -109,7 +93,7 @@
       "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my ",
       "whyItMatters": "Touches claude, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-22T23:46:41.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "claude",
@@ -126,7 +110,7 @@
       "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
       "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "ai",
@@ -143,7 +127,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "ai",
@@ -160,7 +144,7 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -169,34 +153,18 @@
       ]
     },
     {
-      "id": "sig-14lgxn0",
-      "title": "Improving site performance by shipping more CSS",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-25T15:00:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.6,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-10mi3f7",
-      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
-      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-      "source": "Hacker News (front page)",
+      "id": "sig-8f3yq4",
+      "title": "ASUS AI Tech 2026 Seoul South Korea",
+      "url": "https://www.servethehome.com/asus-ai-tech-2026-seoul-south-korea/",
+      "source": "ServeTheHome",
       "category": "ai",
-      "summary": "15 points on Hacker News",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T17:32:02Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.5,
+      "summary": "At the ASUS AI Tech 2026 day in Seoul, South Korea, the company brought together its partners, customers, and suppliers and I hosted a panel The post ASUS AI Tech 2026 Seoul South Korea appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T17:00:26.000Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.4,
       "tags": [
-        "anthropic"
+        "ai"
       ]
     },
     {
@@ -208,23 +176,38 @@
       "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-27T17:00:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.5,
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.4,
       "tags": [
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1jiucac",
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "61 points on Hacker News",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-27T16:50:58Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.4,
+      "tags": [
+        "github"
       ]
     },
     {
       "id": "sig-thtbu1",
       "title": "There are no \"rogue\" AI agents",
       "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "112 points on Hacker News",
+      "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 287 # Comments: 213",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T16:19:46Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.5,
+      "publishedAt": "2026-09-27T16:19:46.000Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -235,10 +218,10 @@
       "url": "https://tinyaiarena.com/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "39 points on Hacker News",
+      "summary": "80 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-27T15:51:28Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 6.4,
       "tags": [
         "ai"
@@ -248,13 +231,13 @@
       "id": "sig-mkoxub",
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "source": "Hacker News (front page)",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "567 points on Hacker News",
+      "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 585 # Comments: 556",
       "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T06:19:33Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.2,
+      "publishedAt": "2026-09-27T06:19:33.000Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.1,
       "tags": [
         "openai"
       ]
@@ -268,8 +251,8 @@
       "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T23:31:08.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.2,
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6.1,
       "tags": [
         "ai",
         "software engineering"
@@ -284,8 +267,8 @@
       "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.1,
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6,
       "tags": [
         "ai",
         "storage"
@@ -300,7 +283,7 @@
       "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-24T07:03:42.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 6,
       "tags": [
         "ai",
@@ -316,7 +299,23 @@
       "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T07:02:50.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1iq2w4x",
+      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
+      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures. The post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:21.000Z",
+      "fetchedAt": "2026-09-27T21:15:03.120Z",
       "score": 6,
       "tags": [
         "ai",
