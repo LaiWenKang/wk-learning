@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T23:49:32.796Z",
+  "updatedAt": "2026-09-28T02:00:31.467Z",
   "signals": [
     {
       "id": "sig-16br6w9",
@@ -10,7 +10,7 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
       "score": 8,
       "tags": [
         "qlc",
@@ -27,7 +27,7 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -43,8 +43,8 @@
       "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
       "whyItMatters": "Touches ai, coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T13:00:00.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 7.4,
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "coding agent",
@@ -60,7 +60,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
       "score": 7,
       "tags": [
         "ai",
@@ -69,19 +69,257 @@
       ]
     },
     {
+      "id": "sig-16j5h5t",
+      "title": "asokurasu/text-humanizer (Python) — trending new repo",
+      "url": "https://github.com/asokurasu/text-humanizer",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline.  · ★ 739",
+      "whyItMatters": "Touches ai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-23T17:32:37Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "python"
+      ]
+    },
+    {
       "id": "sig-1nyvmc3",
       "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
       "url": "https://github.com/mikehasa/golive-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1012",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1014",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
       "score": 7,
       "tags": [
         "telemetry",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-1kb7ndr",
+      "title": "Python Workers are now generally available",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
+      "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-21T13:00:00.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1g7l6k9",
+      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
+      "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-16T20:06:17.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 7,
+      "tags": [
+        "machine learning",
+        "javascript",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-14lgxn0",
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-25T15:00:00.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.4,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-10mi3f7",
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls Comments URL: https://news.ycombinator.com/item?id=49868831 Points: 175 # Comments: 88",
+      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T17:32:02.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.3,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-8f3yq4",
+      "title": "ASUS AI Tech 2026 Seoul South Korea",
+      "url": "https://www.servethehome.com/asus-ai-tech-2026-seoul-south-korea/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At the ASUS AI Tech 2026 day in Seoul, South Korea, the company brought together its partners, customers, and suppliers and I hosted a panel The post ASUS AI Tech 2026 Seoul South Korea appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T17:00:26.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-x1wuol",
+      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T17:00:00.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1jiucac",
+      "title": "Don't couple your Go code to GitHub",
+      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "148 points on Hacker News",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-27T16:50:58Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.2,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-thtbu1",
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 333 # Comments: 244",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T16:19:46.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-mkoxub",
+      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 601 # Comments: 579",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-27T06:19:33.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1ve6k5x",
+      "title": "Note on 24th September 2026",
+      "url": "https://simonwillison.net/2026/Sep/24/harder/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T23:31:08.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-h8z9ow",
+      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
+      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T19:47:03.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-ijzkuq",
+      "title": "When AI Agents Cross Chip Design Silos",
+      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-24T07:03:42.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-scfvqt",
+      "title": "EDA’s Future Is Evidence-Driven Automation",
+      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T07:02:50.000Z",
+      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -102,132 +340,6 @@
       ]
     },
     {
-      "id": "sig-1kb7ndr",
-      "title": "Python Workers are now generally available",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "source": "Cloudflare Blog",
-      "category": "programming",
-      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
-      "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1g7l6k9",
-      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
-      "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 7,
-      "tags": [
-        "machine learning",
-        "javascript",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-10mi3f7",
-      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
-      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls Comments URL: https://news.ycombinator.com/item?id=49868831 Points: 173 # Comments: 85",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T17:32:02.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6.3,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-8f3yq4",
-      "title": "ASUS AI Tech 2026 Seoul South Korea",
-      "url": "https://www.servethehome.com/asus-ai-tech-2026-seoul-south-korea/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At the ASUS AI Tech 2026 day in Seoul, South Korea, the company brought together its partners, customers, and suppliers and I hosted a panel The post ASUS AI Tech 2026 Seoul South Korea appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T17:00:26.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-x1wuol",
-      "title": "Cloudflare’s 2026 Annual Founders’ Letter",
-      "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T17:00:00.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1jiucac",
-      "title": "Don't couple your Go code to GitHub",
-      "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "118 points on Hacker News",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-27T16:50:58Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6.3,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-thtbu1",
-      "title": "There are no \"rogue\" AI agents",
-      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 320 # Comments: 235",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T16:19:46.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "id": "sig-mi5ydd",
       "title": "Show HN: TinyAIArena watch AI agents battle it out",
       "url": "https://tinyaiarena.com/",
@@ -240,85 +352,6 @@
       "score": 6.3,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-mkoxub",
-      "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 596 # Comments: 574",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-27T06:19:33.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1ve6k5x",
-      "title": "Note on 24th September 2026",
-      "url": "https://simonwillison.net/2026/Sep/24/harder/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T23:31:08.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-h8z9ow",
-      "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
-      "url": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "TerraMaster has launched the 725 Series, four Intel Xeon D rackmount NAS systems aimed at enterprise file storage, backup, virtualization, media production, and AI dataset storage: the U8-725, U12-725, U12-725 Plus, and U16-725 Plus. Every model ships with 16GB of ECC memory, fou",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T19:47:03.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-ijzkuq",
-      "title": "When AI Agents Cross Chip Design Silos",
-      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging. The post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-24T07:03:42.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-scfvqt",
-      "title": "EDA’s Future Is Evidence-Driven Automation",
-      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. The post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T07:02:50.000Z",
-      "fetchedAt": "2026-09-27T23:49:32.796Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -351,39 +384,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-14lgxn0",
-      "title": "Improving site performance by shipping more CSS",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-25T15:00:00.000Z",
-      "fetchedAt": "2026-09-27T17:56:47.358Z",
-      "score": 6.6,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-16j5h5t",
-      "title": "asokurasu/text-humanizer (Python) — trending new repo",
-      "url": "https://github.com/asokurasu/text-humanizer",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline.  · ★ 739",
-      "whyItMatters": "Touches ai, llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T17:32:37Z",
-      "fetchedAt": "2026-09-27T13:48:54.718Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "python"
       ]
     },
     {
@@ -1887,178 +1887,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-10i8m40",
-      "title": "Quoting Thariq Shihipar",
-      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is ",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T19:09:27.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.5,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-9kptsk",
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to config",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T19:22:19.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-gco7vz",
-      "title": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
-      "url": "https://www.storagereview.com/news/hpe-alletra-storage-mp-x10000-release-4-is-ga-doubling-to-16-nodes-and-23pb-raw-and-adding-native-nfs-beside-object",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "HPE Alletra Storage MP X10000 Release 4 is now generally available, and it delivers the scale-out HPE previewed at its GreenLake update in May: a single cluster now runs up to 16 nodes and 16 JBOFs, roughly twice the performance and twice the capacity of the prior release, and sc",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-18T15:44:21.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1dn6oyw",
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-18T15:00:00.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-ckfb5z",
-      "title": "Huawei’s OceanStor KV cache storage for hyper-scale AI data centers",
-      "url": "https://www.blocksandfiles.com/flash/2026/09/18/huaweis-oceanstor-kv-cache-storage-for-hyper-scale-ai-data-centers/5297405",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-18T13:16:40.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1v8m9ge",
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "source": "Hacker News (front page)",
-      "category": "semiconductor",
-      "summary": "322 points on Hacker News",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-20T17:38:50Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.3,
-      "tags": [
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-1iowrir",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
-      "url": "https://pirateface.co/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "414 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T15:16:07Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-5zj3mj",
-      "title": "AI and the Destruction of the Creative Commons",
-      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 220 # Comments: 263",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-20T10:07:51.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6.1,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1qa92hl",
-      "title": "Be alert: targeted attacks on prominent Rustaceans",
-      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order",
-      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T23:59:19.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
-      "tags": [
-        "rust",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-76hcb3",
-      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-17T00:26:43.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
-      "tags": [
-        "rust",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-c8eos3",
-      "title": "onsemi Embedded Power Platform Announced",
-      "url": "https://www.servethehome.com/onsemi-embedded-power-platform-announced/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At its investor day, onsemi announced its new Embedded Power Platform for AI racks, automotive, and industrial applications The post onsemi Embedded Power Platform Announced appeared first on ServeTheHome .",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-16T22:07:08.000Z",
-      "fetchedAt": "2026-09-21T00:05:36.904Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "embedded"
       ]
     }
   ]
