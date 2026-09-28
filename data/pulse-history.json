@@ -1,6 +1,55 @@
 {
-  "updatedAt": "2026-09-28T02:00:31.467Z",
+  "updatedAt": "2026-09-28T08:35:40.443Z",
   "signals": [
+    {
+      "id": "sig-1x57h0e",
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "url": "https://arxiv.org/abs/2609.30341",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven ",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1c0z81a",
+      "title": "Intuition and AI",
+      "url": "https://semiengineering.com/intuition-and-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe. The post Intuition and AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T07:01:56.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12y8hj",
+      "title": "One Substrate No Longer Rules Them All",
+      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs. The post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-28T07:01:09.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 8,
+      "tags": [
+        "semiconductor",
+        "embedded"
+      ]
+    },
     {
       "id": "sig-16br6w9",
       "title": "Solidigm D5-P5430 30.72TB E3.S Review: Gen4 QLC for Mixed Workloads",
@@ -10,7 +59,7 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 8,
       "tags": [
         "qlc",
@@ -27,11 +76,27 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-1x57gxp",
+      "title": "HyQDB: LLM-Assisted Debugging for Hybrid Quantum Workflows",
+      "url": "https://arxiv.org/abs/2609.30313",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.30313v1 Announce Type: new Abstract: Hybrid quantum program failures frequently occur silently, yet existing debugging tools provide limited support for detecting and repairing them. These faults dominate the failures reported by domain experts, yet existing tools eval",
+      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "debugging"
       ]
     },
     {
@@ -43,8 +108,8 @@
       "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
       "whyItMatters": "Touches ai, coding agent, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-25T13:00:00.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "coding agent",
@@ -60,7 +125,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "ai",
@@ -74,10 +139,10 @@
       "url": "https://github.com/asokurasu/text-humanizer",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline.  · ★ 739",
+      "summary": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline.  · ★ 744",
       "whyItMatters": "Touches ai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-23T17:32:37Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "ai",
@@ -91,10 +156,10 @@
       "url": "https://github.com/mikehasa/golive-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1014",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1024",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "telemetry",
@@ -110,7 +175,7 @@
       "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
       "whyItMatters": "Touches ai, python, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-21T13:00:00.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "ai",
@@ -127,7 +192,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "ai",
@@ -144,12 +209,117 @@
       "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
       "whyItMatters": "Touches machine learning, javascript, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-16T20:06:17.000Z",
-      "fetchedAt": "2026-09-28T02:00:31.467Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
       "score": 7,
       "tags": [
         "machine learning",
         "javascript",
         "security"
+      ]
+    },
+    {
+      "id": "sig-2eens6",
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "23 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T07:33:29Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.5,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-rd1a9c",
+      "title": "Quoting Muse AI Agent",
+      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't availabl",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:01:30.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x57gaq",
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "url": "https://arxiv.org/abs/2609.30291",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and sym",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x57gyo",
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2609.30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw",
+      "whyItMatters": "Touches security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x57gyr",
+      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "url": "https://arxiv.org/abs/2609.30328",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent v",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1x57h55",
+      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "url": "https://arxiv.org/abs/2609.30397",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluatio",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1x57hwp",
+      "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
+      "url": "https://arxiv.org/abs/2609.30469",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "communication",
+      "summary": "arXiv:2609.30469v1 Announce Type: new Abstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expensive human labels, ",
+      "whyItMatters": "Touches communication — relevant to communicating with more impact.",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "score": 6.4,
+      "tags": [
+        "communication"
       ]
     },
     {
@@ -1810,81 +1980,6 @@
       "publishedAt": "2026-09-21T04:00:00.000Z",
       "fetchedAt": "2026-09-21T10:13:43.323Z",
       "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4is4i",
-      "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
-      "url": "https://arxiv.org/abs/2609.21192",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21192v1 Announce Type: new Abstract: Organizations deploying agentic artificial intelligence must determine more than whether a model is trustworthy; they must establish what to validate, control, and observe for a use case to deliver its intended outcome while meeting",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T04:46:16.086Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4isqo",
-      "title": "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
-      "url": "https://arxiv.org/abs/2609.21208",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21208v1 Announce Type: new Abstract: Self-play methods that co-train a single language model as both coder and test author promise to move code-generation RL beyond fixed test suites, but they suffer from two coupled pathologies: permissiveness collapse, where pass-rat",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T04:46:16.086Z",
-      "score": 6.5,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4isrh",
-      "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
-      "url": "https://arxiv.org/abs/2609.21214",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.21214v1 Announce Type: new Abstract: Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. A",
-      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T04:46:16.086Z",
-      "score": 6.5,
-      "tags": [
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x4itoe",
-      "title": "What Stops a Small Language Model From Driving a Database Agent",
-      "url": "https://arxiv.org/abs/2609.21341",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21341v1 Announce Type: new Abstract: Small open-weight language models are assumed to fail at agentic database work because they lack the reasoning capacity for it. We test that against a production system. Over eleven days we drove the agent mode of an open-source SQL",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T04:46:16.086Z",
-      "score": 6.5,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4jiw4",
-      "title": "How Researchers Use and Verify AI Coding Assistants: Tasks and Validation Practices in Scientific Programming",
-      "url": "https://arxiv.org/abs/2609.22049",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.22049v1 Announce Type: new Abstract: Generative AI has entered research programming, yet there is little evidence about which tasks researchers hand to it or how they decide whether its code is correct. We draw on 527 free-text responses to a 2025 survey of researchers",
-      "whyItMatters": "Touches ai — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T04:46:16.086Z",
-      "score": 6.5,
       "tags": [
         "ai"
       ]
