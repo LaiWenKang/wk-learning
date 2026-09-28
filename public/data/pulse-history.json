@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T08:35:40.443Z",
+  "updatedAt": "2026-09-28T16:58:23.874Z",
   "signals": [
     {
       "id": "sig-1x57h0e",
@@ -10,8 +10,8 @@
       "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven ",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T04:00:00.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -19,35 +19,19 @@
       ]
     },
     {
-      "id": "sig-1c0z81a",
-      "title": "Intuition and AI",
-      "url": "https://semiengineering.com/intuition-and-ai/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-8ey7ue",
+      "title": "NVIDIA Open Agent Safety Platform: OpenShell on the CPU, Sentry on BlueField-4, and 100-Plus Partners From Anthropic to SpaceXAI",
+      "url": "https://www.storagereview.com/news/nvidia-open-agent-safety-platform-openshell-sentry-bluefield-4",
+      "source": "StorageReview",
       "category": "ai",
-      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe. The post Intuition and AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T07:01:56.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "summary": "NVIDIA has launched the NVIDIA Open Agent Safety Platform, an open software platform and reference system design that puts guardrails around autonomous AI agents at two layers: a secure runtime on the host CPU and an out-of-band watchdog on the DPU that the agent can’t see. NVIDI",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T15:13:48.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
       "score": 8,
       "tags": [
         "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-12y8hj",
-      "title": "One Substrate No Longer Rules Them All",
-      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs. The post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-28T07:01:09.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 8,
-      "tags": [
-        "semiconductor",
-        "embedded"
+        "anthropic"
       ]
     },
     {
@@ -59,7 +43,7 @@
       "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
       "score": 8,
       "tags": [
         "qlc",
@@ -76,11 +60,75 @@
       "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-k0gquo",
+      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+      "url": "https://blog.cloudflare.com/voidzero-update/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
+      "whyItMatters": "Touches ai, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1cuo7ez",
+      "title": "The road to the agentic browser: A Kitesurf update",
+      "url": "https://blog.cloudflare.com/kitesurf-update/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1c0z81a",
+      "title": "Intuition and AI",
+      "url": "https://semiengineering.com/intuition-and-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe. The post Intuition and AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T07:01:56.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-12y8hj",
+      "title": "One Substrate No Longer Rules Them All",
+      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs. The post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-09-28T07:01:09.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.7,
+      "tags": [
+        "semiconductor",
+        "embedded"
       ]
     },
     {
@@ -92,11 +140,183 @@
       "summary": "arXiv:2609.30313v1 Announce Type: new Abstract: Hybrid quantum program failures frequently occur silently, yet existing debugging tools provide limited support for detecting and repairing them. These faults dominate the failures reported by domain experts, yet existing tools eval",
       "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T04:00:00.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "debugging"
+      ]
+    },
+    {
+      "id": "sig-1q1rfxu",
+      "title": "Synopsys Certifies A14 EDA Flows With TSMC and Tapes Out 64G UCIe on 2nm and 3nm, With PCIe 7.0 and HBM4 IP on N2P",
+      "url": "https://www.storagereview.com/news/synopsys-tsmc-a14-certification-64g-ucie-tape-outs",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Synopsys has certified its digital and analog EDA flows on TSMC’s A14 process and completed 64G UCIe IP tape-outs on TSMC’s 2nm and 3nm nodes, the two hard milestones in a broader set of joint work the companies announced around TSMC’s Open Innovation Platform ecosystem. The rest",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-28T15:40:05.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7.5,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-1vhk2vp",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T18:26:12.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1ry22lg",
+      "title": "Niko1221/Strata (C++) — trending new repo",
+      "url": "https://github.com/Niko1221/Strata",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. · ★ 917",
+      "whyItMatters": "Touches anthropic, openai, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T16:40:20Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "openai",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-1nyvmc3",
+      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1036",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7,
+      "tags": [
+        "telemetry",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1iovluc",
+      "title": "The problem is not the AI code, but nobody knows anything anymore",
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "140 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T16:11:42Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1l0dolg",
+      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T14:51:57.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-aydz5e",
+      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+      "whyItMatters": "Touches typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-28T14:50:37.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.4,
+      "tags": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1shf0nt",
+      "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+      "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
+      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-09-28T14:43:05.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.4,
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1oj7xu9",
+      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+      "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-28T13:00:00.000Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.4,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1trcoyk",
+      "title": "What Would a Serious AI Product Look Like?",
+      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "33 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T11:02:12Z",
+      "fetchedAt": "2026-09-28T16:58:23.874Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -113,23 +333,6 @@
       "tags": [
         "ai",
         "coding agent",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vhk2vp",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
         "security"
       ]
     },
@@ -151,22 +354,6 @@
       ]
     },
     {
-      "id": "sig-1nyvmc3",
-      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
-      "url": "https://github.com/mikehasa/golive-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1024",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T13:37:26Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 7,
-      "tags": [
-        "telemetry",
-        "typescript"
-      ]
-    },
-    {
       "id": "sig-1kb7ndr",
       "title": "Python Workers are now generally available",
       "url": "https://blog.cloudflare.com/python-workers-ga/",
@@ -181,23 +368,6 @@
         "ai",
         "python",
         "javascript"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-09-28T08:35:40.443Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
       ]
     },
     {
@@ -1827,159 +1997,6 @@
       "publishedAt": "2026-09-21T17:03:03.000Z",
       "fetchedAt": "2026-09-21T20:30:46.751Z",
       "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1gxriy1",
-      "title": "Astera Labs Releases Leo 2 CXL Memory Controllers and Leo X Controller for Rackscale Fabric-Attached Memory",
-      "url": "https://www.servethehome.com/astera-labs-releases-leo-2-cxl-memory-controllers-and-leo-x-controller-for-rackscale-fabric-attached-memory/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "Astera Labs is launching a new generation of Leo smart memory controllers. The Leo 2 series adds support for CXL 3.2 and PCIe Gen6, while the ambitious Leo X brings the ability to attach memory expanders directly to the fabric networks of AI accelerators The post Astera Labs Rele",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-15T17:00:48.000Z",
-      "fetchedAt": "2026-09-21T16:29:08.688Z",
-      "score": 9.5,
-      "tags": [
-        "pcie",
-        "gen6",
-        "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-x0uaqb",
-      "title": "FCIA’s FC-SP-3: A Standard Ready for the Quantum-Computing World",
-      "url": "https://www.storagereview.com/review/fcias-fc-sp-3-a-standard-ready-for-the-quantum-computing-world",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "In enterprise IT, most security upgrades typically occur in response to breaches or other significant incidents. The recently developed INCITS FC-SP-3 standard, however, represents a proactive response to regulatory and cryptographic deadlines that are already influencing infrast",
-      "whyItMatters": "Touches security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-21T15:14:40.000Z",
-      "fetchedAt": "2026-09-21T16:29:08.688Z",
-      "score": 6.5,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-vdaoh2",
-      "title": "The Claude Delusion",
-      "url": "https://pluralistic.net/2026/09/21/sunsetting/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "67 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T14:30:24Z",
-      "fetchedAt": "2026-09-21T16:29:08.688Z",
-      "score": 6.4,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-18rhelx",
-      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
-      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "96 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T13:53:27Z",
-      "fetchedAt": "2026-09-21T16:29:08.688Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-3etve8",
-      "title": "How 60 GHz Radar Improves Low-Power Presence Sensing In IoT Devices",
-      "url": "https://semiengineering.com/how-60-ghz-radar-improves-low-power-presence-sensing-in-iot-devices/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Track occupancy and motion continuously without keeping the full sensing and processing chain active. The post How 60 GHz Radar Improves Low-Power Presence Sensing In IoT Devices appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-21T07:01:47.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-jk5bnh",
-      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
-      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "108 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:28:44Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4i72e",
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may h",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4irz7",
-      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
-      "url": "https://arxiv.org/abs/2609.21139",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framewo",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x4is04",
-      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
-      "url": "https://arxiv.org/abs/2609.21149",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1x4is3k",
-      "title": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
-      "url": "https://arxiv.org/abs/2609.21181",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.21181v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended underlying rule or reliance on shortc",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
-      "fetchedAt": "2026-09-21T10:13:43.323Z",
-      "score": 6.3,
       "tags": [
         "ai"
       ]
