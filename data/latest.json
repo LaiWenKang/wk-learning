@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:36:29.275Z",
+  "generatedAt": "2026-09-29T15:03:10.817Z",
   "signals": [
     {
       "id": "sig-1x591ca",
@@ -10,8 +10,8 @@
       "summary": "arXiv:2609.32459v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents are increasingly used for software engineering tasks, yet their performance is not determined by the base model alone. The agent harness substantially shapes how SE agents interact with reposi",
       "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-29T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8.9,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 8.7,
       "tags": [
         "llm",
         "language model",
@@ -28,11 +28,43 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8.6,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1a0cnco",
+      "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+      "url": "https://blog.cloudflare.com/ai-era-framework/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T13:00:00.000Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1e8zcyb",
+      "title": "Enforce positive security with Cloudflare Application Profiles",
+      "url": "https://blog.cloudflare.com/application-profiles/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T13:00:00.000Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
         "security"
       ]
     },
@@ -45,8 +77,8 @@
       "summary": "A7 CFET vs. A10 NSFETs; wafer-scale sub-5nm MoS₂ transistors; multi-kW power delivery for 3D HI; copper microstructure and TSV residual stress; Rowhammer attacks on GPUs; gate-level RTL Trojan localization; concurrent HBM and host-memory access for LLM inference; agent-driven chi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-09-29T07:01:34.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "hbm"
@@ -61,60 +93,11 @@
       "summary": "Moores Lab AI bets on domain expertise to speed the design process. The post Moore’s Law AI: Applying Agentic AI Across Chip Design appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-29T07:01:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-16br6w9",
-      "title": "Solidigm D5-P5430 30.72TB E3.S Review: Gen4 QLC for Mixed Workloads",
-      "url": "https://www.storagereview.com/review/solidigm-d5-p5430-30-72tb-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
-      "tags": [
-        "qlc",
-        "e3.s",
-        "solidigm"
-      ]
-    },
-    {
-      "id": "sig-1hsoqdr",
-      "title": "NVIDIA RTX PRO 4500 Edge Review: 2.7x the L4 Inside an HPE ProLiant DL145 Gen11",
-      "url": "https://www.storagereview.com/review/nvidia-rtx-pro-4500-edge-review-hpe-proliant-dl145-gen11-l4",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-sgug52",
-      "title": "Uncensored and Offensive Security AI Models Benchmark",
-      "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "3 points on Hacker News",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T06:16:04Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "security"
       ]
     },
     {
@@ -126,8 +109,8 @@
       "summary": "arXiv:2609.31906v1 Announce Type: new Abstract: Enterprise email agents must combine information retrieval, structured state changes, temporal reasoning, and multi-step coordination. Recent agent benchmarks include productivity tasks, but few center on typed email workflows in a ",
       "whyItMatters": "Touches llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-29T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "productivity"
@@ -142,8 +125,8 @@
       "summary": "arXiv:2609.31937v1 Announce Type: new Abstract: Large language model (LLM) agents built on the ReAct pattern concentrate four responsibilities in one model: selecting a strategy, choosing each action, formatting it, and judging whether the result is adequate. Nothing outside the ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-29T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -158,8 +141,8 @@
       "summary": "arXiv:2609.32414v1 Announce Type: new Abstract: Context. AI tools for software development have progressed from code completion to autonomous agents, yet evidence on their effects on DORA performance is mixed, mostly cross-sectional, and often conflates AI-generated code (AGC) wi",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-29T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.9,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "performance"
@@ -174,8 +157,8 @@
       "summary": "NVIDIA is taking on agentic AI security with the new Open Agent Safety Platform and OpenShell 0.1.0 frameworks The post NVIDIA Open Agent Safety Platform Launched appeared first on ServeTheHome .",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-29T03:00:04.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.8,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "security"
@@ -190,8 +173,24 @@
       "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycl",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T22:07:38.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.7,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.5,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-1dxlxjx",
+      "title": "Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.anthropic.com/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881850 Points: 841 # Comments: 570",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T17:58:11.000Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.4,
       "tags": [
         "claude",
         "anthropic"
@@ -206,43 +205,11 @@
       "summary": "NVIDIA has launched the NVIDIA Open Agent Safety Platform, an open software platform and reference system design that puts guardrails around autonomous AI agents at two layers: a secure runtime on the host CPU and an out-of-band watchdog on the DPU that the agent can’t see. NVIDI",
       "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T15:13:48.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.5,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-k0gquo",
-      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-      "url": "https://blog.cloudflare.com/voidzero-update/",
-      "source": "Cloudflare Blog",
-      "category": "programming",
-      "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
-      "whyItMatters": "Touches ai, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1cuo7ez",
-      "title": "The road to the agentic browser: A Kitesurf update",
-      "url": "https://blog.cloudflare.com/kitesurf-update/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "performance"
       ]
     },
     {
@@ -254,8 +221,8 @@
       "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe. The post Intuition and AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T07:01:56.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "semiconductor"
@@ -270,26 +237,11 @@
       "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs. The post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-28T07:01:09.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.3,
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7.1,
       "tags": [
         "semiconductor",
         "embedded"
-      ]
-    },
-    {
-      "id": "sig-1q1rfxu",
-      "title": "Synopsys Certifies A14 EDA Flows With TSMC and Tapes Out 64G UCIe on 2nm and 3nm, With PCIe 7.0 and HBM4 IP on N2P",
-      "url": "https://www.storagereview.com/news/synopsys-tsmc-a14-certification-64g-ucie-tape-outs",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Synopsys has certified its digital and analog EDA flows on TSMC’s A14 process and completed 64G UCIe IP tape-outs on TSMC’s 2nm and 3nm nodes, the two hard milestones in a broader set of joint work the companies announced around TSMC’s Open Innovation Platform ecosystem. The rest",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-28T15:40:05.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7,
-      "tags": [
-        "pcie"
       ]
     },
     {
@@ -301,7 +253,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
       "score": 7,
       "tags": [
         "ai",
@@ -315,15 +267,63 @@
       "url": "https://github.com/Niko1221/Strata",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. · ★ 1249",
+      "summary": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. · ★ 1458",
       "whyItMatters": "Touches anthropic, openai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T16:40:20Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
       "score": 7,
       "tags": [
         "anthropic",
         "openai",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-1nyvmc3",
+      "title": "mikehasa/golive-skill (TypeScript) — trending new repo",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. · ★ 1094",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7,
+      "tags": [
+        "telemetry",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1q1rfxu",
+      "title": "Synopsys Certifies A14 EDA Flows With TSMC and Tapes Out 64G UCIe on 2nm and 3nm, With PCIe 7.0 and HBM4 IP on N2P",
+      "url": "https://www.storagereview.com/news/synopsys-tsmc-a14-certification-64g-ucie-tape-outs",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Synopsys has certified its digital and analog EDA flows on TSMC’s A14 process and completed 64G UCIe IP tape-outs on TSMC’s 2nm and 3nm nodes, the two hard milestones in a broader set of joint work the companies announced around TSMC’s Open Innovation Platform ecosystem. The rest",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-09-28T15:40:05.000Z",
+      "fetchedAt": "2026-09-29T15:03:10.817Z",
+      "score": 6.9,
+      "tags": [
+        "pcie"
       ]
     }
   ]
