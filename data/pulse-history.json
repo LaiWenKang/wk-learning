@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T17:30:02.984Z",
+  "updatedAt": "2026-10-01T21:57:40.703Z",
   "signals": [
     {
       "id": "sig-1mo0s7u",
@@ -10,7 +10,7 @@
       "summary": "Distributed NVM supports high-endurance telemetry logging, functional safety, and time-sensitive networking where resilience is critical. The post Memory At The Edge: Non-Volatile Memory Challenges And Requirements For Humanoid Robots appeared first on Semiconductor Engineering .",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-01T07:08:12.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
       "score": 10,
       "tags": [
         "endurance",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2609.09800v3 Announce Type: replace Abstract: High-Bandwidth Flash (HBF) places high-capacity NAND beside HBM to relieve the memory-capacity bottleneck of LLM inference, yet its system-level behavior cannot be evaluated before hardware becomes available. Cycle-level GPU sim",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,11 +44,287 @@
       "summary": "When we went deep on Dell PowerStore Gen 3 earlier this year, the story was hardware, and there was plenty of it. Dell rebuilt the platform from the chassis up: 40 E3.S NVMe bays in 3U with no slots burned on cache, a 200GbE RDMA midplane between controllers that is decoupled fro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-30T16:28:46.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 9.3,
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 9.2,
       "tags": [
         "nvme",
         "e3.s"
+      ]
+    },
+    {
+      "id": "sig-1p1psyb",
+      "title": "The Hidden Challenges of Edge AI Design",
+      "url": "https://semiengineering.com/the-hidden-challenges-of-edge-ai-design/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-01T07:13:48.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 8.6,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-12atyvy",
+      "title": "Crossing Chiplet Boundaries With PCIe Over UCIe",
+      "url": "https://semiengineering.com/crossing-chiplet-boundaries-with-pcie-over-ucie/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Observe how protocol intent becomes die-to-die activity and how link-state transitions affect transaction behavior. The post Crossing Chiplet Boundaries With PCIe Over UCIe appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-01T07:03:02.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 8.6,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-huve6p",
+      "title": "LLM Performance And Acceleration: Part 1",
+      "url": "https://semiengineering.com/llm-performance-and-acceleration-part-1/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Time to first token, inter-token latency, and how they apply to the two main stages of LLM compute. The post LLM Performance And Acceleration: Part 1 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches llm, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T07:02:13.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 8.6,
+      "tags": [
+        "llm",
+        "semiconductor",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-x30a7x",
+      "title": "AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases",
+      "url": "https://www.storagereview.com/news/amd-ross-agentic-ai-assistant-embedded-design-vivado-vitis-hls-agent-skills",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
+      "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-30T19:43:53.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 8.3,
+      "tags": [
+        "ai",
+        "embedded",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-1bjojn1",
+      "title": "Touring the F5 BIG-IP Next for Kubernetes Lab to Make AI Clusters More Efficient",
+      "url": "https://www.servethehome.com/touring-the-f5-big-ip-next-for-kubernetes-lab-to-make-ai-clusters-more-efficient-nvidia-dpu/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "We checked out the F5 lab getting over 3x the performance from the same GPU cluster using F5 BIG-IP NEXT for Kubernetes The post Touring the F5 BIG-IP Next for Kubernetes Lab to Make AI Clusters More Efficient appeared first on ServeTheHome .",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T18:14:30.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-c4b5ov",
+      "title": "NetApp Novus Splits pNFS Metadata From AFF A90 Data Nodes for a 100 TB/s AI Factory Target, Orderable Now",
+      "url": "https://www.storagereview.com/news/netapp-novus-pnfs-metadata-aff-a90-data-nodes-100-tb-s-ai-factory",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NetApp used its INSIGHT 2026 conference in Las Vegas to announce NetApp Novus, a disaggregated storage architecture for AI factories that separates metadata from the data path and that the company says is designed to exceed 100 TB/s of aggregate throughput, keep hundreds of thous",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T17:48:35.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-uu66g",
+      "title": "rehan-remade/universal-modder (Python) — trending new repo",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 1500",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1lddtun",
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-01T15:07:16.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-pqlm01",
+      "title": "One year later: Sovereign AI and the fight for choice",
+      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T13:04:19.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1sldvim",
+      "title": "AI-Defined Vehicles Push Compute, Memory, And Validation Limits",
+      "url": "https://semiengineering.com/ai-defined-vehicles-push-compute-memory-and-validation-limits/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "The shift from software-defined to AI-defined vehicles raises questions about whether the hardware can keep up. The post AI-Defined Vehicles Push Compute, Memory, And Validation Limits appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T07:12:08.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1jexk9m",
+      "title": "Turning Edge AI Data Into Real-Time Action",
+      "url": "https://semiengineering.com/turning-edge-ai-data-into-real-time-action/",
+      "source": "Semiconductor Engineering",
+      "category": "systems",
+      "summary": "On-device AI can deliver faster insights, greater autonomy, and less cloud traffic — but only with the right infrastructure. The post Turning Edge AI Data Into Real-Time Action appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-01T07:11:07.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-195iq7e",
+      "title": "Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production",
+      "url": "https://semiengineering.com/open-security-foundations-are-only-the-beginning-deploying-caliptra-hardware-in-production/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Roots of trust are beginning to assume a broader role as platform security orchestrators. The post Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-01T07:07:44.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1j2x0op",
+      "title": "Mitigating Threats With Pre-Silicon Security Verification",
+      "url": "https://semiengineering.com/mitigating-threats-with-pre-silicon-security-verification/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "The types of threats that must be mitigated and a process to verify that designs are secure in real-world deployment. The post Mitigating Threats With Pre-Silicon Security Verification appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-01T07:05:59.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-tc1vjb",
+      "title": "US Executive Order On Energy Grid Supply Chain Security",
+      "url": "https://semiengineering.com/us-executive-order-on-energy-grid-supply-chain-security/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Compliance with trade restrictions is no longer about proving where a device was built, but about how the product works. The post US Executive Order On Energy Grid Supply Chain Security appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-01T07:01:39.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.6,
+      "tags": [
+        "semiconductor",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1x5dm4v",
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x5dr5d",
+      "title": "Toward Quantum Software Automation: A Quantum-Aware Harness for LLM-Guided Evolution",
+      "url": "https://arxiv.org/abs/2609.38883",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.38883v1 Announce Type: new Abstract: Quantum software is critical for improving the efficiency and reliability of scarce quantum hardware. However, its design still relies heavily on ad-hoc, handcrafted heuristics that are often suboptimal and quickly become obsolete a",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x5ecv8",
+      "title": "Characterizing High Bandwidth Flash for LLM Serving",
+      "url": "https://arxiv.org/abs/2609.39131",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.39131v1 Announce Type: cross Abstract: Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving perfo",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -66,250 +342,6 @@
         "ai",
         "anthropic",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-1p1psyb",
-      "title": "The Hidden Challenges of Edge AI Design",
-      "url": "https://semiengineering.com/the-hidden-challenges-of-edge-ai-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:13:48.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8.7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-12atyvy",
-      "title": "Crossing Chiplet Boundaries With PCIe Over UCIe",
-      "url": "https://semiengineering.com/crossing-chiplet-boundaries-with-pcie-over-ucie/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Observe how protocol intent becomes die-to-die activity and how link-state transitions affect transaction behavior. The post Crossing Chiplet Boundaries With PCIe Over UCIe appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-01T07:03:02.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8.7,
-      "tags": [
-        "pcie",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-huve6p",
-      "title": "LLM Performance And Acceleration: Part 1",
-      "url": "https://semiengineering.com/llm-performance-and-acceleration-part-1/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Time to first token, inter-token latency, and how they apply to the two main stages of LLM compute. The post LLM Performance And Acceleration: Part 1 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches llm, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T07:02:13.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8.7,
-      "tags": [
-        "llm",
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-x30a7x",
-      "title": "AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases",
-      "url": "https://www.storagereview.com/news/amd-ross-agentic-ai-assistant-embedded-design-vivado-vitis-hls-agent-skills",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
-      "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-30T19:43:53.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "embedded",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-uu66g",
-      "title": "rehan-remade/universal-modder (Python) — trending new repo",
-      "url": "https://github.com/rehan-remade/universal-modder",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 1397",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1lddtun",
-      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
-      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-01T15:07:16.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-pqlm01",
-      "title": "One year later: Sovereign AI and the fight for choice",
-      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T13:04:19.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1sldvim",
-      "title": "AI-Defined Vehicles Push Compute, Memory, And Validation Limits",
-      "url": "https://semiengineering.com/ai-defined-vehicles-push-compute-memory-and-validation-limits/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "The shift from software-defined to AI-defined vehicles raises questions about whether the hardware can keep up. The post AI-Defined Vehicles Push Compute, Memory, And Validation Limits appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T07:12:08.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1jexk9m",
-      "title": "Turning Edge AI Data Into Real-Time Action",
-      "url": "https://semiengineering.com/turning-edge-ai-data-into-real-time-action/",
-      "source": "Semiconductor Engineering",
-      "category": "systems",
-      "summary": "On-device AI can deliver faster insights, greater autonomy, and less cloud traffic — but only with the right infrastructure. The post Turning Edge AI Data Into Real-Time Action appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-01T07:11:07.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-195iq7e",
-      "title": "Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production",
-      "url": "https://semiengineering.com/open-security-foundations-are-only-the-beginning-deploying-caliptra-hardware-in-production/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Roots of trust are beginning to assume a broader role as platform security orchestrators. The post Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:07:44.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1j2x0op",
-      "title": "Mitigating Threats With Pre-Silicon Security Verification",
-      "url": "https://semiengineering.com/mitigating-threats-with-pre-silicon-security-verification/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "The types of threats that must be mitigated and a process to verify that designs are secure in real-world deployment. The post Mitigating Threats With Pre-Silicon Security Verification appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:05:59.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-tc1vjb",
-      "title": "US Executive Order On Energy Grid Supply Chain Security",
-      "url": "https://semiengineering.com/us-executive-order-on-energy-grid-supply-chain-security/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Compliance with trade restrictions is no longer about proving where a device was built, but about how the product works. The post US Executive Order On Energy Grid Supply Chain Security appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:01:39.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.7,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x5dm4v",
-      "title": "AI Agents are Vulnerable to Radicalization",
-      "url": "https://arxiv.org/abs/2609.38296",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1x5dr5d",
-      "title": "Toward Quantum Software Automation: A Quantum-Aware Harness for LLM-Guided Evolution",
-      "url": "https://arxiv.org/abs/2609.38883",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.38883v1 Announce Type: new Abstract: Quantum software is critical for improving the efficiency and reliability of scarce quantum hardware. However, its design still relies heavily on ad-hoc, handcrafted heuristics that are often suboptimal and quickly become obsolete a",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-1x5ecv8",
-      "title": "Characterizing High Bandwidth Flash for LLM Serving",
-      "url": "https://arxiv.org/abs/2609.39131",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.39131v1 Announce Type: cross Abstract: Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving perfo",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -2154,22 +2186,6 @@
         "nand",
         "cxl",
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1x4nf9j",
-      "title": "Specifying and Maintaining Agentic Workflows: An Empirical Study of GitHub Agentic Workflows",
-      "url": "https://arxiv.org/abs/2609.27263",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.27263v1 Announce Type: new Abstract: Agentic workflows shift software development from prompting AI agents for individual tasks to defining recurring work that agents execute automatically. GitHub Agentic Workflows (gh-aw) enables this approach through Markdown files t",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T19:27:02.169Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "github"
       ]
     }
   ]
