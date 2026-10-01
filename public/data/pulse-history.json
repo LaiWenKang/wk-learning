@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-09-30T23:54:27.694Z",
+  "updatedAt": "2026-10-01T05:35:56.907Z",
   "signals": [
+    {
+      "id": "sig-1x3a9hg",
+      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
+      "url": "https://arxiv.org/abs/2609.09800",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2609.09800v3 Announce Type: replace Abstract: High-Bandwidth Flash (HBF) places high-capacity NAND beside HBM to relieve the memory-capacity bottleneck of LLM inference, yet its system-level behavior cannot be evaluated before hardware becomes available. Cycle-level GPU sim",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "llm",
+        "hbm"
+      ]
+    },
     {
       "id": "sig-1pepjq6",
       "title": "Dell PowerStoreOS 5.0 Deep Dive: The Software Half of the Elite Reset",
@@ -10,8 +27,8 @@
       "summary": "When we went deep on Dell PowerStore Gen 3 earlier this year, the story was hardware, and there was plenty of it. Dell rebuilt the platform from the chassis up: 40 E3.S NVMe bays in 3U with no slots burned on cache, a 200GbE RDMA midplane between controllers that is decoupled fro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-30T16:28:46.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 9.8,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 9.6,
       "tags": [
         "nvme",
         "e3.s"
@@ -26,8 +43,8 @@
       "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
       "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T19:43:53.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "embedded",
@@ -43,8 +60,8 @@
       "summary": "Where latency, power, reliability, and data movement shape system behavior. The post Designing Physical AI Systems Under Real-World Constraints appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T07:02:34.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "semiconductor",
@@ -60,8 +77,8 @@
       "summary": "UCIe standardizes die-to-die communication within a package and allows PCIe traffic to traverse chiplet boundaries with seamless interoperability over standardized interconnects. The post PCIe 8.0 Over UCIe 3.0: Bringing A Proven Protocol Into The Chiplet Era appeared first on Se",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-09-30T07:02:19.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8.4,
       "tags": [
         "pcie",
         "communication"
@@ -73,15 +90,63 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 798",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 958",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8.3,
       "tags": [
         "claude code",
         "claude",
         "python"
+      ]
+    },
+    {
+      "id": "sig-1x5dm4v",
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1x5dr5d",
+      "title": "Toward Quantum Software Automation: A Quantum-Aware Harness for LLM-Guided Evolution",
+      "url": "https://arxiv.org/abs/2609.38883",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2609.38883v1 Announce Type: new Abstract: Quantum software is critical for improving the efficiency and reliability of scarce quantum hardware. However, its design still relies heavily on ad-hoc, handcrafted heuristics that are often suboptimal and quickly become obsolete a",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-1x5ecv8",
+      "title": "Characterizing High Bandwidth Flash for LLM Serving",
+      "url": "https://arxiv.org/abs/2609.39131",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2609.39131v1 Announce Type: cross Abstract: Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving perfo",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -93,11 +158,27 @@
       "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T13:00:00.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-1fchjmt",
+      "title": "nanaism/yomiyasu (Python) — trending new repo",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill · ★ 563",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-30T11:49:32Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "python"
       ]
     },
     {
@@ -109,8 +190,8 @@
       "summary": "Bridging the gap between open-source Root of Trust foundations and enterprise-grade security deployments. The post From Caliptra Foundation To Full Production Deployment appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-30T07:04:24.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "security"
@@ -125,8 +206,8 @@
       "summary": "Enabling silicon to operate closer to its true performance envelope without excessive guard banding. The post Data Center Energy Trends Force A Rethink Of Chip Power Delivery appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-30T07:01:54.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "performance"
@@ -141,8 +222,8 @@
       "summary": "A lifecycle-driven approach for explainable and trustworthy AI by design. The post Rethinking AI Validation appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T07:01:53.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -157,8 +238,8 @@
       "summary": "How high-speed control, precision timing, and hardware acceleration enable next-gen PSUs, IBCs, and BBUs. The post Switch Faster, Regulate Faster, Protect Faster With Performance Line Microcontrollers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-09-30T07:01:22.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.4,
       "tags": [
         "semiconductor",
         "performance"
@@ -173,12 +254,76 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "github",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1oy4wg0",
+      "title": "feder-cr/dots (Python) — trending new repo",
+      "url": "https://github.com/feder-cr/dots",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. · ★ 1945",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-11orwgu",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview ",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T22:20:28.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.1,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-16sfxto",
+      "title": "DGX Spark Shared Storage: Bringing Deskside AI Back Under Data Center Governance",
+      "url": "https://www.storagereview.com/review/dgx-spark-shared-storage-solidigm-qlc-100gbe",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Deskside AI systems built on NVIDIA’s GB10 have one job, and they do it well: put 128GB of unified memory and a petaflop of compute on a desk close enough to the person using it that iteration is instant. What they don’t have is a connection to the storage an organization already",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T19:46:46.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1218627",
+      "title": "OpenAI DevDay 2026 live blog",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agen",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-29T15:55:13.000Z",
+      "fetchedAt": "2026-10-01T05:35:56.907Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "openai"
       ]
     },
     {
@@ -195,70 +340,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-1oy4wg0",
-      "title": "feder-cr/dots (Python) — trending new repo",
-      "url": "https://github.com/feder-cr/dots",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. · ★ 1932",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T23:06:00Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-11orwgu",
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview ",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T22:20:28.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-16sfxto",
-      "title": "DGX Spark Shared Storage: Bringing Deskside AI Back Under Data Center Governance",
-      "url": "https://www.storagereview.com/review/dgx-spark-shared-storage-solidigm-qlc-100gbe",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Deskside AI systems built on NVIDIA’s GB10 have one job, and they do it well: put 128GB of unified memory and a petaflop of compute on a desk close enough to the person using it that iteration is instant. What they don’t have is a connection to the storage an organization already",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T19:46:46.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1218627",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agen",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T15:55:13.000Z",
-      "fetchedAt": "2026-09-30T23:54:27.694Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "openai"
       ]
     },
     {
@@ -1925,184 +2006,6 @@
       "tags": [
         "nvme",
         "u.2"
-      ]
-    },
-    {
-      "id": "sig-c5jxo4",
-      "title": "SewCabinSpout/cleanupper (JavaScript) — trending new repo",
-      "url": "https://github.com/SewCabinSpout/cleanupper",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "🧹 Free, open-source macOS disk cleanup CLI. Scan & safely remove caches, logs, Xcode DerivedData, npm/Homebrew/pip junk and stale node_modules from your terminal. Trash-first, zero telemetry the terminal-native CleanMyMac alternative. · ★ 724",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-09-23T17:19:45Z",
-      "fetchedAt": "2026-09-24T05:30:39.927Z",
-      "score": 8.7,
-      "tags": [
-        "telemetry",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1xklxb",
-      "title": "Jev in 25 Lines of Python",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 639 # Comments: 200",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:26:23.000Z",
-      "fetchedAt": "2026-09-24T05:30:39.927Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-87tfdz",
-      "title": "Build Secure SoCs From The Start",
-      "url": "https://semiengineering.com/build-secure-socs-from-the-start/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Practical guide to hardware security assurance in modern semiconductor design. The post Build Secure SoCs From The Start appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:52.000Z",
-      "fetchedAt": "2026-09-24T05:30:39.927Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1efhsdc",
-      "title": "Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design",
-      "url": "https://semiengineering.com/building-a-connected-contextual-data-backbone-for-ai-driven-semiconductor-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Why design teams must organize before they optimize and how to utilize a purpose-built foundation for AI-ready data management across the chip design lifecycle. The post Building A Connected, Contextual Data Backbone For AI-Driven Semiconductor Design appeared first on Semiconduc",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-23T07:01:44.000Z",
-      "fetchedAt": "2026-09-24T05:30:39.927Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1odtdnu",
-      "title": "Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Simulation",
-      "url": "https://semiengineering.com/make-your-interface-work-for-your-ai-soc-a-10-step-program-verification-with-simulation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Best practices for reducing integration risk, shortening verification schedules, and improving productivity when deploying third-party interface IP in AI and heterogeneous SoC architectures. The post Make Your Interface Work For Your AI SoC—A 10 Step Program: Verification With Si",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:33.000Z",
-      "fetchedAt": "2026-09-24T05:30:39.927Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1x4mq12",
-      "title": "Toki: Profiling HBM Performance on FPGA Systems with RISC-V Soft Cores and PCIe Host DMA Traffic",
-      "url": "https://arxiv.org/abs/2609.26551",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2609.26551v1 Announce Type: new Abstract: Programmable RISC-V soft cores are becoming more widespread in data-center scenarios, making it crucial to design efficient systems that deploy them on FPGA chips with HBM memory. Toki, released as open source, is the first hardware",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 9.9,
-      "tags": [
-        "pcie",
-        "hbm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1x4m023",
-      "title": "Hot-Cold Tiering of HBM and High Bandwidth Flash for Agentic LLM Serving",
-      "url": "https://arxiv.org/abs/2609.25782",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.25782v1 Announce Type: new Abstract: Large language model (LLM) serving is increasingly agentic, with multi-turn sessions that idle between actions yet must retain their full context. Limited GPU memory capacity forces inactive KV states to be evicted, so resuming a se",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1vv7j2q",
-      "title": "Blog Review: Sept. 23",
-      "url": "https://semiengineering.com/blog-review-sept-23-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Digital twins and thermal sensors; agentic AI workflows; physical AI needs new silicon; RF design changes. The post Blog Review: Sept. 23 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T07:01:28.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1x4luv2",
-      "title": "TRACTOR Benchmark for Evaluating C to Rust Translators",
-      "url": "https://arxiv.org/abs/2609.25121",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25121v1 Announce Type: new Abstract: Memory-safety vulnerabilities remain a persistent source of security risk in critical software, much of which is implemented in memory-unsafe languages such as C and C++. Recent advances in programming languages, program analysis, a",
-      "whyItMatters": "Touches rust, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "rust",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4ly7a",
-      "title": "The Vocabulary of Flaky Tests in Swift",
-      "url": "https://arxiv.org/abs/2609.25516",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.25516v1 Announce Type: new Abstract: Flaky tests produce non-deterministic outcomes without code change, eroding CI confidence and delaying deliveries. While vocabulary-based machine learning prediction has proven effective for Java and JavaScript, no study has evaluat",
-      "whyItMatters": "Touches machine learning, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "machine learning",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1x4lz2e",
-      "title": "Accelerating the Mitigation of LLM Inference Nondeterminism Across GPU Architectures",
-      "url": "https://arxiv.org/abs/2609.25624",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2609.25624v1 Announce Type: new Abstract: Large language model (LLM) outputs are expected to be reproducible under greedy decoding, yet in practice the same model, prompt, and software stack produce different outputs on different GPUs. The root cause is floating-point non-a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "fetchedAt": "2026-09-24T00:48:56.171Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
       ]
     }
   ]
