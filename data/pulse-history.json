@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T21:57:40.703Z",
+  "updatedAt": "2026-10-02T01:31:56.498Z",
   "signals": [
     {
       "id": "sig-1mo0s7u",
@@ -10,7 +10,7 @@
       "summary": "Distributed NVM supports high-endurance telemetry logging, functional safety, and time-sensitive networking where resilience is critical. The post Memory At The Edge: Non-Volatile Memory Challenges And Requirements For Humanoid Robots appeared first on Semiconductor Engineering .",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-01T07:08:12.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
       "score": 10,
       "tags": [
         "endurance",
@@ -27,7 +27,7 @@
       "summary": "arXiv:2609.09800v3 Announce Type: replace Abstract: High-Bandwidth Flash (HBF) places high-capacity NAND beside HBM to relieve the memory-capacity bottleneck of LLM inference, yet its system-level behavior cannot be evaluated before hardware becomes available. Cycle-level GPU sim",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,8 +44,8 @@
       "summary": "When we went deep on Dell PowerStore Gen 3 earlier this year, the story was hardware, and there was plenty of it. Dell rebuilt the platform from the chassis up: 40 E3.S NVMe bays in 3U with no slots burned on cache, a 200GbE RDMA midplane between controllers that is decoupled fro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-09-30T16:28:46.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 9.2,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 9.1,
       "tags": [
         "nvme",
         "e3.s"
@@ -60,8 +60,8 @@
       "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-01T07:13:48.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "semiconductor",
@@ -77,8 +77,8 @@
       "summary": "Observe how protocol intent becomes die-to-die activity and how link-state transitions affect transaction behavior. The post Crossing Chiplet Boundaries With PCIe Over UCIe appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-01T07:03:02.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 8.5,
       "tags": [
         "pcie",
         "semiconductor"
@@ -93,8 +93,8 @@
       "summary": "Time to first token, inter-token latency, and how they apply to the two main stages of LLM compute. The post LLM Performance And Acceleration: Part 1 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches llm, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T07:02:13.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "semiconductor",
@@ -110,12 +110,44 @@
       "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
       "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T19:43:53.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "embedded",
         "debugging"
+      ]
+    },
+    {
+      "id": "sig-1wyc7eo",
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "67 points on Hacker News",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-01T23:10:44Z",
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.9,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-1t7n1j",
+      "title": "Aweb – Communication for AI Agents",
+      "url": "https://aweb.ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "18 points on Hacker News",
+      "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T22:02:31Z",
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "communication"
       ]
     },
     {
@@ -127,8 +159,8 @@
       "summary": "We checked out the F5 lab getting over 3x the performance from the same GPU cluster using F5 BIG-IP NEXT for Kubernetes The post Touring the F5 BIG-IP Next for Kubernetes Lab to Make AI Clusters More Efficient appeared first on ServeTheHome .",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T18:14:30.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "performance"
@@ -143,8 +175,8 @@
       "summary": "NetApp used its INSIGHT 2026 conference in Las Vegas to announce NetApp Novus, a disaggregated storage architecture for AI factories that separates metadata from the data path and that the company says is designed to exceed 100 TB/s of aggregate throughput, keep hundreds of thous",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T17:48:35.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
@@ -156,11 +188,11 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 1500",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 1571",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude",
@@ -176,8 +208,8 @@
       "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-01T15:07:16.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "github"
@@ -192,8 +224,8 @@
       "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T13:04:19.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "security"
@@ -208,8 +240,8 @@
       "summary": "The shift from software-defined to AI-defined vehicles raises questions about whether the hardware can keep up. The post AI-Defined Vehicles Push Compute, Memory, And Validation Limits appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T07:12:08.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -224,8 +256,8 @@
       "summary": "On-device AI can deliver faster insights, greater autonomy, and less cloud traffic — but only with the right infrastructure. The post Turning Edge AI Data Into Real-Time Action appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-01T07:11:07.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -240,8 +272,8 @@
       "summary": "Roots of trust are beginning to assume a broader role as platform security orchestrators. The post Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-01T07:07:44.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.5,
       "tags": [
         "semiconductor",
         "security"
@@ -256,8 +288,8 @@
       "summary": "The types of threats that must be mitigated and a process to verify that designs are secure in real-world deployment. The post Mitigating Threats With Pre-Silicon Security Verification appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-01T07:05:59.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.5,
       "tags": [
         "semiconductor",
         "security"
@@ -272,8 +304,8 @@
       "summary": "Compliance with trade restrictions is no longer about proving where a device was built, but about how the product works. The post US Executive Order On Energy Grid Supply Chain Security appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-01T07:01:39.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.5,
       "tags": [
         "semiconductor",
         "security"
@@ -288,8 +320,8 @@
       "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-01T21:57:40.703Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-02T01:31:56.498Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -2053,139 +2085,6 @@
         "claude",
         "anthropic",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1x4msh9",
-      "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management",
-      "url": "https://arxiv.org/abs/2609.26828",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2609.26828v1 Announce Type: new Abstract: NAND-backed storage offers the capacity needed to scale LLM prefix caching, but its block I/O path incurs CPU cache contention and host-DRAM staging in addition to NAND latency. Our characterization shows that these interface costs ",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "cxl",
-        "llm",
-        "dram",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1x4ngve",
-      "title": "Mamba-Family State-Space Model Kernels on a Programmable CGLA",
-      "url": "https://arxiv.org/abs/2609.27437",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "firmware",
-      "summary": "arXiv:2609.27437v1 Announce Type: new Abstract: Edge and embedded inference is constrained by power and data movement. Mamba-family state-space models replace attention with sequence-linear recurrence, but their inference path combines dense projections, short-reduction SSD kerne",
-      "whyItMatters": "Touches ssd, embedded — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 9.9,
-      "tags": [
-        "ssd",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1x4ndk9",
-      "title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
-      "url": "https://arxiv.org/abs/2609.27058",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2609.27058v1 Announce Type: new Abstract: JavaScript obfuscation is widely used to protect code, but it also makes program analysis and security review substantially harder. Existing LLM-based deobfuscation methods usually treat the task as one-step translation, ignoring th",
-      "whyItMatters": "Touches llm, javascript, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "javascript",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4lwhs",
-      "title": "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
-      "url": "https://arxiv.org/abs/2609.25303",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.25303v1 Announce Type: new Abstract: Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1x4msj2",
-      "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
-      "url": "https://arxiv.org/abs/2609.26847",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.26847v1 Announce Type: new Abstract: AI coding agents now author a large share of pull requests (PRs) merged into popular open-source projects. A merged agent PR is usually considered finished work; yet, prior studies have reported issues in agent code after the merge ",
-      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-1x4ndi7",
-      "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
-      "url": "https://arxiv.org/abs/2609.27030",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2609.27030v1 Announce Type: new Abstract: Kubernetes is widely used to orchestrate cloud-native applications, yet its declarative configuration model often introduces security misconfigurations that threaten system reliability. Despite available detection tools, misconfigur",
-      "whyItMatters": "Touches reliability, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.4,
-      "tags": [
-        "reliability",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1x4nf7v",
-      "title": "From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes",
-      "url": "https://arxiv.org/abs/2609.27249",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.27249v1 Announce Type: new Abstract: Edge AI model deployment is a multi-stage engineering process involving model conversion, operator compatibility handling, runtime integration, and precision verification. While prior work has demonstrated agent-based automation for",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "fetchedAt": "2026-09-25T00:54:03.842Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-f38mob",
-      "title": "Kioxia XL1 CXL XL-FLASH NAND Device Shown",
-      "url": "https://www.servethehome.com/kioxia-xl1-cxl-xl-flash-nand-device-shown/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "The Kioxia XL1 is an XL-FLASH Generation 2 NAND device that is attached to a system as a 512GB memory expansion device via CXL The post Kioxia XL1 CXL XL-FLASH NAND Device Shown appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-09-19T04:07:18.000Z",
-      "fetchedAt": "2026-09-24T22:40:42.254Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "cxl",
-        "kioxia"
       ]
     }
   ]
