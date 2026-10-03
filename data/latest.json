@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T12:35:54.607Z",
+  "generatedAt": "2026-10-03T16:40:12.000Z",
   "signals": [
     {
       "id": "sig-13r1sws",
@@ -10,7 +10,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,8 +27,8 @@
       "summary": "Distributed NVM supports high-endurance telemetry logging, functional safety, and time-sensitive networking where resilience is critical. The post Memory At The Edge: Non-Volatile Memory Challenges And Requirements For Humanoid Robots appeared first on Semiconductor Engineering .",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-01T07:08:12.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 10,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 9.9,
       "tags": [
         "endurance",
         "telemetry",
@@ -44,11 +44,26 @@
       "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-02T13:00:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 8.2,
       "tags": [
         "telemetry",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-fukdhm",
+      "title": "FTL: A new operating system for clouds",
+      "url": "https://ftl-os.org/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "27 points on Hacker News",
+      "whyItMatters": "Touches ftl — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-03T15:02:36Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.5,
+      "tags": [
+        "ftl"
       ]
     },
     {
@@ -60,8 +75,8 @@
       "summary": "Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-02T20:15:40.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -76,8 +91,8 @@
       "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-01T07:13:48.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor",
@@ -93,8 +108,8 @@
       "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-02T15:00:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "github"
@@ -109,8 +124,8 @@
       "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-02T13:00:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "security"
@@ -125,44 +140,12 @@
       "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
       "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-30T19:43:53.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "embedded",
         "debugging"
-      ]
-    },
-    {
-      "id": "sig-12goq15",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "259 points on Hacker News",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-02T02:51:27Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7.1,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1wyc7eo",
-      "title": "Several vulnerabilities have been discovered in the Linux kernel",
-      "url": "https://lwn.net/Articles/1097401/",
-      "source": "Hacker News Best",
-      "category": "systems",
-      "summary": "Article URL: https://lwn.net/Articles/1097401/ Comments URL: https://news.ycombinator.com/item?id=49928121 Points: 562 # Comments: 402",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-01T23:10:44.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 7,
-      "tags": [
-        "linux",
-        "kernel"
       ]
     },
     {
@@ -171,10 +154,10 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 2378",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 2480",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -188,10 +171,10 @@
       "url": "https://github.com/edenfunf/reelmimic",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you. · ★ 1019",
+      "summary": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you. · ★ 1038",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:14:59Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "ai",
@@ -209,7 +192,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "ai",
@@ -223,10 +206,10 @@
       "url": "https://github.com/Louis-CFM/coucou",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. · ★ 3125",
+      "summary": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. · ★ 3154",
       "whyItMatters": "Touches claude code, claude, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-27T21:54:12Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -240,10 +223,10 @@
       "url": "https://github.com/echris6/motion-video-kit",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts · ★ 967",
+      "summary": "Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts · ★ 974",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-27T14:11:14Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "ai",
@@ -261,7 +244,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "ai",
@@ -278,12 +261,28 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
       "score": 7,
       "tags": [
         "ai",
         "llm",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-12goq15",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "286 points on Hacker News",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-02T02:51:27Z",
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 6.9,
+      "tags": [
+        "llm",
+        "security"
       ]
     },
     {
@@ -295,8 +294,8 @@
       "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-02T13:00:00.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 6.8,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 6.7,
       "tags": [
         "telemetry"
       ]
@@ -310,8 +309,8 @@
       "summary": "We checked out the F5 lab getting over 3x the performance from the same GPU cluster using F5 BIG-IP NEXT for Kubernetes The post Touring the F5 BIG-IP Next for Kubernetes Lab to Make AI Clusters More Efficient appeared first on ServeTheHome .",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T18:14:30.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 6.8,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "performance"
@@ -326,8 +325,8 @@
       "summary": "NetApp used its INSIGHT 2026 conference in Las Vegas to announce NetApp Novus, a disaggregated storage architecture for AI factories that separates metadata from the data path and that the company says is designed to exceed 100 TB/s of aggregate throughput, keep hundreds of thous",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T17:48:35.000Z",
-      "fetchedAt": "2026-10-03T12:35:54.607Z",
-      "score": 6.8,
+      "fetchedAt": "2026-10-03T16:40:12.000Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "storage"
