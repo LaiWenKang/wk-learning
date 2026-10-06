@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T20:41:21.441Z",
+  "generatedAt": "2026-10-06T01:30:57.577Z",
   "signals": [
     {
       "id": "sig-1b3u8es",
@@ -10,7 +10,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -46,11 +46,27 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 8.8,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "career",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-tmnbih",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved ",
+      "whyItMatters": "Touches anthropic, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T23:56:47.000Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 8,
+      "tags": [
+        "anthropic",
         "security"
       ]
     },
@@ -63,8 +79,8 @@
       "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-05T15:59:40.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "github"
@@ -79,11 +95,27 @@
       "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1681st0",
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/rui314/mold/releases/tag/v3.0.0 Comments URL: https://news.ycombinator.com/item?id=49963385 Points: 230 # Comments: 162",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-05T11:17:18.000Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.6,
+      "tags": [
+        "rust",
+        "github"
       ]
     },
     {
@@ -95,8 +127,8 @@
       "summary": "AI is the biggest revolution of our lives, and it will grow exponentially into the 2030s. The post The Agentic AI Super Cycle appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T07:01:51.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -111,8 +143,8 @@
       "summary": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This coupling makes action authorization and completion control difficult to enforce ind",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T04:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -127,8 +159,8 @@
       "summary": "arXiv:2610.02503v1 Announce Type: new Abstract: Deploying compound AI systems reliably and safely requires understanding failure modes that emerge at component boundaries, not within individual models. Cascading errors propagate across component boundaries, silent quality degrada",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T04:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "reliability"
@@ -143,8 +175,8 @@
       "summary": "arXiv:2610.02571v1 Announce Type: new Abstract: As AI-assisted programming becomes increasingly mainstream, the environmental impact of AI-generated software has emerged as an important consideration. This motivates evaluating LLM-generated code beyond functional correctness by c",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T04:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -159,29 +191,12 @@
       "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make an",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T17:10:31.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 7,
       "tags": [
         "ai",
         "claude",
         "python"
-      ]
-    },
-    {
-      "id": "sig-1p1psyb",
-      "title": "The Hidden Challenges of Edge AI Design",
-      "url": "https://semiengineering.com/the-hidden-challenges-of-edge-ai-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:13:48.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
       ]
     },
     {
@@ -190,30 +205,12 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 3786",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 3854",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 7,
       "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1hb76ur",
-      "title": "nykooi1/vibe-wise (Python) — trending new repo",
-      "url": "https://github.com/nykooi1/vibe-wise",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude Code plugin that helps you learn how to build while AI writes the code. · ★ 1646",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T01:29:57Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7,
-      "tags": [
-        "ai",
         "claude code",
         "claude",
         "python"
@@ -228,7 +225,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 7,
       "tags": [
         "ai",
@@ -245,7 +242,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 7,
       "tags": [
         "ai",
@@ -262,7 +259,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 7,
       "tags": [
         "ai",
@@ -271,33 +268,49 @@
       ]
     },
     {
-      "id": "sig-77hcvr",
-      "title": "GitHub Actions Has Problems",
-      "url": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
+      "id": "sig-1g9ef64",
+      "title": "AI Tutoring with Khanmigo in a Two-Year School Experiment",
+      "url": "https://edworkingpapers.com/ai26-1551",
       "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "24 points on Hacker News",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-05T20:09:12Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "category": "ai",
+      "summary": "23 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T00:00:45Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 6.5,
       "tags": [
-        "github"
+        "ai"
       ]
     },
     {
-      "id": "sig-1azqiby",
-      "title": "Row-Parallel DRAM Computing Cuts Data-Reorganization Overhead (Syracuse, FAU, TU Dresden)",
-      "url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-t6kxua",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source": "Hacker News (front page)",
       "category": "semiconductor",
-      "summary": "Researchers at Syracuse University, Friedrich-Alexander-Universität Erlangen-Nürnberg, and TU Dresden published a technical paper titled “RAPID: Row-Parallel Arithmetic Processing in DRAM.” Abstract Excerpt: “Processing-using-memory (PUM) architectures perform computation directl",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-05T18:16:28.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
+      "summary": "202 points on Hacker News",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-05T21:00:21Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
       "score": 6.4,
       "tags": [
-        "dram"
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-nub5kz",
+      "title": "ythx-101/live-panel-skill (HTML) — trending new repo",
+      "url": "https://github.com/ythx-101/live-panel-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md). · ★ 585",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-03T16:53:36Z",
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 6.4,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -309,25 +322,10 @@
       "summary": "Researchers at the University of California, Santa Cruz published a technical paper titled “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology.” Abstract Excerpt: “Clock meshes are used in high-performance VLSI designs to minimize skew and tolerate",
       "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-05T18:07:21.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 6.4,
+      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "score": 6.3,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-kz49o0",
-      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "209 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T17:53:35Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 6.4,
-      "tags": [
-        "openai"
       ]
     }
   ]
