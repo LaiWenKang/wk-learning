@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T08:02:48.937Z",
+  "updatedAt": "2026-10-06T15:00:28.173Z",
   "signals": [
     {
       "id": "sig-1b3u8es",
@@ -10,7 +10,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -46,8 +46,8 @@
       "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Pape",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-06T07:01:55.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 8.8,
       "tags": [
         "llm",
         "dram",
@@ -63,12 +63,28 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "career",
         "security"
+      ]
+    },
+    {
+      "id": "sig-10q5pjm",
+      "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "27 points on Hacker News",
+      "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-06T13:55:37Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 8,
+      "tags": [
+        "python",
+        "rust"
       ]
     },
     {
@@ -80,8 +96,8 @@
       "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "performance"
@@ -96,8 +112,8 @@
       "summary": "arXiv:2610.03969v1 Announce Type: new Abstract: Software performance optimization requires identifying bottlenecks and improvement opportunities, and empirically evaluating the effects and trade-offs across performance objectives. Autonomous AI coding agents submit performance-or",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "performance"
@@ -112,8 +128,8 @@
       "summary": "arXiv:2610.04658v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly reuse prior experience, but most approaches assume that problems and solutions are already aligned. Software histories rarely provide this alignment: a pull request (PR) may contain mul",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -128,8 +144,8 @@
       "summary": "arXiv:2610.05062v1 Announce Type: new Abstract: Vision-language-action (VLA) models translate multimodal observations into low-level robot actions. During robot operation, each control period sets an inference deadline, and overruns leave the robot acting on stale observations, r",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm"
@@ -144,8 +160,8 @@
       "summary": "arXiv:2610.06475v1 Announce Type: new Abstract: DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation, improve memory access latency and parallelism, and enhance DRAM",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.7,
       "tags": [
         "dram",
         "performance"
@@ -160,8 +176,8 @@
       "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved ",
       "whyItMatters": "Touches anthropic, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T23:56:47.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.6,
       "tags": [
         "anthropic",
         "security"
@@ -176,8 +192,8 @@
       "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-05T15:59:40.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "github"
@@ -192,27 +208,11 @@
       "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1681st0",
-      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
-      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/rui314/mold/releases/tag/v3.0.0 Comments URL: https://news.ycombinator.com/item?id=49963385 Points: 235 # Comments: 173",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-05T11:17:18.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.4,
-      "tags": [
-        "rust",
-        "github"
       ]
     },
     {
@@ -224,8 +224,8 @@
       "summary": "AI is the biggest revolution of our lives, and it will grow exponentially into the 2030s. The post The Agentic AI Super Cycle appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T07:01:51.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "semiconductor"
@@ -240,7 +240,7 @@
       "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make an",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T17:10:31.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 7,
       "tags": [
         "ai",
@@ -254,10 +254,10 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 4024",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 4322",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -274,7 +274,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 7,
       "tags": [
         "ai",
@@ -291,7 +291,7 @@
       "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 7,
       "tags": [
         "ai",
@@ -308,12 +308,43 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
       "score": 7,
       "tags": [
         "ai",
         "llm",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-eth8nc",
+      "title": "Dell upgrades AI Data Platform to serve better data, faster, to GPU AI compute",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/06/dell-upgrades-ai-data-platform-to-serve-better-data-faster-to-gpu-ai-compute/5301384",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T13:41:55.000Z",
+      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1681st0",
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/rui314/mold/releases/tag/v3.0.0 Comments URL: https://news.ycombinator.com/item?id=49963385 Points: 235 # Comments: 173",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-05T11:17:18.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.4,
+      "tags": [
+        "rust",
+        "github"
       ]
     },
     {
@@ -1965,87 +1996,6 @@
       "score": 6.9,
       "tags": [
         "pcie"
-      ]
-    },
-    {
-      "id": "sig-16br6w9",
-      "title": "Solidigm D5-P5430 30.72TB E3.S Review: Gen4 QLC for Mixed Workloads",
-      "url": "https://www.storagereview.com/review/solidigm-d5-p5430-30-72tb-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Solidigm D5-P5430 is the mainstream tier of Solidigm’s QLC data center line. It’s the drive that sits below the capacity-maximizing D5-P5336 and carries a smaller indirection unit for the mixed and small-block write workloads a 16KB-IU drive handles poorly. We reviewed the 15",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-09-24T18:10:51.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
-      "tags": [
-        "qlc",
-        "e3.s",
-        "solidigm"
-      ]
-    },
-    {
-      "id": "sig-1hsoqdr",
-      "title": "NVIDIA RTX PRO 4500 Edge Review: 2.7x the L4 Inside an HPE ProLiant DL145 Gen11",
-      "url": "https://www.storagereview.com/review/nvidia-rtx-pro-4500-edge-review-hpe-proliant-dl145-gen11-l4",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The NVIDIA RTX PRO 4500 Blackwell Server Edition is the card NVIDIA built primarily to replace the L4 in servers that live outside the data center: single-slot, PCIe Gen5, passively cooled, 165W, with 32GB of GDDR7 and the full Blackwell feature set, including FP4 Tensor Cores an",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-24T17:37:40.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-sgug52",
-      "title": "Uncensored and Offensive Security AI Models Benchmark",
-      "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "3 points on Hacker News",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T06:16:04Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-k0gquo",
-      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-      "url": "https://blog.cloudflare.com/voidzero-update/",
-      "source": "Cloudflare Blog",
-      "category": "programming",
-      "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
-      "whyItMatters": "Touches ai, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-1cuo7ez",
-      "title": "The road to the agentic browser: A Kitesurf update",
-      "url": "https://blog.cloudflare.com/kitesurf-update/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T13:00:00.000Z",
-      "fetchedAt": "2026-09-29T08:36:29.275Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "performance"
       ]
     }
   ]
