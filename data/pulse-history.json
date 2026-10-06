@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T15:00:28.173Z",
+  "updatedAt": "2026-10-06T20:08:03.843Z",
   "signals": [
     {
       "id": "sig-1b3u8es",
@@ -10,7 +10,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -46,8 +46,8 @@
       "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Pape",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-06T07:01:55.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 8.8,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 8.6,
       "tags": [
         "llm",
         "dram",
@@ -63,12 +63,28 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 8.1,
       "tags": [
         "ai",
         "career",
         "security"
+      ]
+    },
+    {
+      "id": "sig-166to1k",
+      "title": "Dell AI Data Platform Adds Semantic Layer, cuDF GPU Acceleration, and 500-Tenant PowerScale Clusters",
+      "url": "https://www.storagereview.com/news/dell-ai-data-platform-semantic-layer-cudf-500-tenant-powerscale",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Dell Technologies has expanded the Dell AI Data Platform with context orchestration layers, GPU-accelerated processing engines, and high-density multitenancy across its unstructured storage infrastructure. The architectural enhancements target the enterprise retrieval path, conne",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-06T15:12:05.000Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -77,11 +93,11 @@
       "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "27 points on Hacker News",
+      "summary": "107 points on Hacker News",
       "whyItMatters": "Touches python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-06T13:55:37Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 8,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.8,
       "tags": [
         "python",
         "rust"
@@ -96,8 +112,8 @@
       "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -112,8 +128,8 @@
       "summary": "arXiv:2610.03969v1 Announce Type: new Abstract: Software performance optimization requires identifying bottlenecks and improvement opportunities, and empirically evaluating the effects and trade-offs across performance objectives. Autonomous AI coding agents submit performance-or",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -128,8 +144,8 @@
       "summary": "arXiv:2610.04658v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly reuse prior experience, but most approaches assume that problems and solutions are already aligned. Software histories rarely provide this alignment: a pull request (PR) may contain mul",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -144,8 +160,8 @@
       "summary": "arXiv:2610.05062v1 Announce Type: new Abstract: Vision-language-action (VLA) models translate multimodal observations into low-level robot actions. During robot operation, each control period sets an inference deadline, and overruns leave the robot acting on stale observations, r",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -160,11 +176,26 @@
       "summary": "arXiv:2610.06475v1 Announce Type: new Abstract: DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation, improve memory access latency and parallelism, and enhance DRAM",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-06T04:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.6,
       "tags": [
         "dram",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-12uren5",
+      "title": "Seagate and Toshiba both want to acquire TDK's disk read/write head business",
+      "url": "https://www.blocksandfiles.com/disk/2026/10/06/seagate-and-toshiba-both-want-to-acquire-tdks-disk-read/write-head-business/5301393",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-06T15:32:08.000Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.4,
+      "tags": [
+        "seagate"
       ]
     },
     {
@@ -176,11 +207,27 @@
       "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved ",
       "whyItMatters": "Touches anthropic, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T23:56:47.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.4,
       "tags": [
         "anthropic",
         "security"
+      ]
+    },
+    {
+      "id": "sig-t6kxua",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors Comments URL: https://news.ycombinator.com/item?id=49970667 Points: 469 # Comments: 311",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T21:00:21.000Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -192,8 +239,8 @@
       "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-05T15:59:40.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "github"
@@ -208,8 +255,8 @@
       "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "security"
@@ -224,8 +271,8 @@
       "summary": "AI is the biggest revolution of our lives, and it will grow exponentially into the 2030s. The post The Agentic AI Super Cycle appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T07:01:51.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
-      "score": 7.1,
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -240,7 +287,7 @@
       "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make an",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-01T17:10:31.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
       "score": 7,
       "tags": [
         "ai",
@@ -254,10 +301,10 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 4322",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 4493",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -274,7 +321,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-06T15:00:28.173Z",
+      "fetchedAt": "2026-10-06T20:08:03.843Z",
       "score": 7,
       "tags": [
         "ai",
@@ -423,21 +470,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-t6kxua",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "source": "Hacker News (front page)",
-      "category": "semiconductor",
-      "summary": "202 points on Hacker News",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-05T21:00:21Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
       ]
     },
     {
@@ -1933,69 +1965,6 @@
       "tags": [
         "telemetry",
         "typescript"
-      ]
-    },
-    {
-      "id": "sig-1dxlxjx",
-      "title": "Sonnet 5.5",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.anthropic.com/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881850 Points: 863 # Comments: 595",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T17:58:11.000Z",
-      "fetchedAt": "2026-09-29T19:55:44.730Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1c0z81a",
-      "title": "Intuition and AI",
-      "url": "https://semiengineering.com/intuition-and-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe. The post Intuition and AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T07:01:56.000Z",
-      "fetchedAt": "2026-09-29T19:55:44.730Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-12y8hj",
-      "title": "One Substrate No Longer Rules Them All",
-      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs. The post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, embedded — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-28T07:01:09.000Z",
-      "fetchedAt": "2026-09-29T19:55:44.730Z",
-      "score": 7,
-      "tags": [
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1q1rfxu",
-      "title": "Synopsys Certifies A14 EDA Flows With TSMC and Tapes Out 64G UCIe on 2nm and 3nm, With PCIe 7.0 and HBM4 IP on N2P",
-      "url": "https://www.storagereview.com/news/synopsys-tsmc-a14-certification-64g-ucie-tape-outs",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Synopsys has certified its digital and analog EDA flows on TSMC’s A14 process and completed 64G UCIe IP tape-outs on TSMC’s 2nm and 3nm nodes, the two hard milestones in a broader set of joint work the companies announced around TSMC’s Open Innovation Platform ecosystem. The rest",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-28T15:40:05.000Z",
-      "fetchedAt": "2026-09-29T15:03:10.817Z",
-      "score": 6.9,
-      "tags": [
-        "pcie"
       ]
     }
   ]
