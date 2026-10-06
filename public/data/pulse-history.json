@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:30:57.577Z",
+  "updatedAt": "2026-10-06T08:02:48.937Z",
   "signals": [
     {
       "id": "sig-1b3u8es",
@@ -10,7 +10,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +29,29 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
       "score": 9.5,
       "tags": [
         "nand",
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-1451pck",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 6",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Pape",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-06T07:01:55.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "dram",
+        "security"
       ]
     },
     {
@@ -46,12 +63,92 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "career",
         "security"
+      ]
+    },
+    {
+      "id": "sig-dg0kzj",
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "url": "https://arxiv.org/abs/2610.03872",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely ",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg0lt2",
+      "title": "How Do Coding Agents Optimize Software and Report Performance Validation? A Large-Scale Empirical Study of Open-Source Pull Requests",
+      "url": "https://arxiv.org/abs/2610.03969",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.03969v1 Announce Type: new Abstract: Software performance optimization requires identifying bottlenecks and improvement opportunities, and empirically evaluating the effects and trade-offs across performance objectives. Autonomous AI coding agents submit performance-or",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg1azm",
+      "title": "RETRACE: From Entangled Repair Histories to Reusable Experience for CI Repair",
+      "url": "https://arxiv.org/abs/2610.04658",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.04658v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly reuse prior experience, but most approaches assume that problems and solutions are already aligned. Software histories rarely provide this alignment: a pull request (PR) may contain mul",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dg1xp4",
+      "title": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design",
+      "url": "https://arxiv.org/abs/2610.05062",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.05062v1 Announce Type: new Abstract: Vision-language-action (VLA) models translate multimodal observations into low-level robot actions. During robot operation, each control period sets an inference deadline, and overruns leave the robot acting on stale observations, r",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dg2std",
+      "title": "Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller",
+      "url": "https://arxiv.org/abs/2610.06475",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.06475v1 Announce Type: new Abstract: DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation, improve memory access latency and parallelism, and enhance DRAM",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.9,
+      "tags": [
+        "dram",
+        "performance"
       ]
     },
     {
@@ -63,8 +160,8 @@
       "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved ",
       "whyItMatters": "Touches anthropic, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T23:56:47.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 8,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.8,
       "tags": [
         "anthropic",
         "security"
@@ -79,8 +176,8 @@
       "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-05T15:59:40.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "github"
@@ -95,8 +192,8 @@
       "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "security"
@@ -108,11 +205,11 @@
       "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
       "source": "Hacker News Best",
       "category": "programming",
-      "summary": "Article URL: https://github.com/rui314/mold/releases/tag/v3.0.0 Comments URL: https://news.ycombinator.com/item?id=49963385 Points: 230 # Comments: 162",
+      "summary": "Article URL: https://github.com/rui314/mold/releases/tag/v3.0.0 Comments URL: https://news.ycombinator.com/item?id=49963385 Points: 235 # Comments: 173",
       "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-05T11:17:18.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.4,
       "tags": [
         "rust",
         "github"
@@ -127,11 +224,111 @@
       "summary": "AI is the biggest revolution of our lives, and it will grow exponentially into the 2030s. The post The Agentic AI Super Cycle appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T07:01:51.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-nty3hs",
+      "title": "pwasm 0.2a0",
+      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make an",
+      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-01T17:10:31.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-uu66g",
+      "title": "rehan-remade/universal-modder (Python) — trending new repo",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 4024",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1w08qhh",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vhk2vp",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-24T18:26:12.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1nzcy6x",
+      "title": "'Pull the plug': protesters resort to direct action against AI firms",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "5 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T07:46:22Z",
+      "fetchedAt": "2026-10-06T08:02:48.937Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -180,91 +377,6 @@
       "tags": [
         "ai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-nty3hs",
-      "title": "pwasm 0.2a0",
-      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make an",
-      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T17:10:31.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-uu66g",
-      "title": "rehan-remade/universal-modder (Python) — trending new repo",
-      "url": "https://github.com/rehan-remade/universal-modder",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. · ★ 3854",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-09-30T05:00:35Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vhk2vp",
-      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-24T18:26:12.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-06T01:30:57.577Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
       ]
     },
     {
@@ -1934,99 +2046,6 @@
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1x57h0e",
-      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-      "url": "https://arxiv.org/abs/2609.30341",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven ",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1x57gxp",
-      "title": "HyQDB: LLM-Assisted Debugging for Hybrid Quantum Workflows",
-      "url": "https://arxiv.org/abs/2609.30313",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.30313v1 Announce Type: new Abstract: Hybrid quantum program failures frequently occur silently, yet existing debugging tools provide limited support for detecting and repairing them. These faults dominate the failures reported by domain experts, yet existing tools eval",
-      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T04:00:00.000Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-qfhxwt",
-      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
-      "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "30 points on Hacker News",
-      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T21:26:41Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 6.4,
-      "tags": [
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-b8oztm",
-      "title": "It's Time to Investigate the AI Labs",
-      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "303 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:53:35Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-hdfjfa",
-      "title": "Quoting @joedaroo",
-      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardeni",
-      "whyItMatters": "Touches security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:11:42.000Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 6.3,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1p35lg",
-      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
-      "url": "https://stateofutopia.com/experiments/microllmlab/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "132 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T18:58:53Z",
-      "fetchedAt": "2026-09-29T02:13:45.896Z",
-      "score": 6.3,
-      "tags": [
-        "llm"
       ]
     }
   ]
