@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T16:39:22.673Z",
+  "generatedAt": "2026-10-07T21:37:27.666Z",
   "signals": [
     {
       "id": "sig-1r0gpa7",
@@ -10,7 +10,7 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -27,7 +27,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -55,20 +55,36 @@
       ]
     },
     {
-      "id": "sig-kcc9aq",
-      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "url": "https://penguin-mail.com/",
+      "id": "sig-qijv63",
+      "title": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "url": "https://news.ycombinator.com/item?id=49982498",
       "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 225 # Comments: 155",
-      "whyItMatters": "Touches ai, rust, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T21:59:43.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 8.5,
+      "category": "programming",
+      "summary": "I am a developer of https://www.photopea.com, a popular photo editor that runs in a web browser. Many people are asking AI models to take the Javascript code from my website, remove all ads from it, and they publish such a \"new product\" on Github for everyone to download. There e",
+      "whyItMatters": "Touches ai, javascript, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-06T18:54:01.000Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 8.3,
       "tags": [
         "ai",
-        "rust",
-        "linux"
+        "javascript",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-12sbyfi",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "170 points on Hacker News",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-07T18:49:40Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -80,8 +96,8 @@
       "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Pape",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-06T07:01:55.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 8.1,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.9,
       "tags": [
         "llm",
         "dram",
@@ -97,8 +113,8 @@
       "summary": "Increasing power density makes heat, stress, and aging harder to predict, and more critical to address earlier in the design flow. The post Thermal Complexity Grows With AI Chips And Photonics appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T07:01:34.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -113,8 +129,8 @@
       "summary": "CFETs and buried power rails; agentic AI for EDA; 6G architecture decisions; chiplet connectivity. The post Blog Review: Oct. 7 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T07:01:12.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -129,8 +145,8 @@
       "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T04:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "performance"
@@ -145,8 +161,8 @@
       "summary": "arXiv:2610.06905v1 Announce Type: new Abstract: Large language models (LLMs) progressively support embedded hardware development, but a plausible recommendation may pose safety risks when acting on the physical hardware. Because electrical safety can be different between every mi",
       "whyItMatters": "Touches language model, embedded — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-10-07T04:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.5,
       "tags": [
         "language model",
         "embedded"
@@ -161,8 +177,8 @@
       "summary": "arXiv:2610.07094v1 Announce Type: new Abstract: LLM deployment is shifting from single-turn completion to agentic trajectories in which a model plans, calls tools, reads results and reasons at test time before acting. This inverts the economics of inference hardware: chat serving",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T04:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "llm"
@@ -177,8 +193,8 @@
       "summary": "arXiv:2610.07191v1 Announce Type: new Abstract: Modern edge Systems-on-Chip (SoCs) integrate heterogeneous processing units (PUs) such as CPUs, GPUs, and NPUs, each with distinct performance and energy characteristics. Deploying AI inference workloads on them under real-time late",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T04:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "performance"
@@ -193,10 +209,26 @@
       "summary": "arXiv:2610.07443v1 Announce Type: new Abstract: Large language models (LLMs) have become the backbone of modern AI applications, but pose significant challenges for efficient inference. Their autoregressive generation divides execution into two phases: prefill, dominated by large",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-07T04:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.5,
       "tags": [
         "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-a37w21",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T23:04:13.000Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.4,
+      "tags": [
+        "openai",
         "llm"
       ]
     },
@@ -209,8 +241,8 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "career",
@@ -226,42 +258,10 @@
       "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-07T16:05:18.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.3,
       "tags": [
         "nvme"
-      ]
-    },
-    {
-      "id": "sig-a37w21",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T23:04:13.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.5,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-lrvxn7",
-      "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
-      "url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficien",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-06T20:58:05.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.5,
-      "tags": [
-        "dram",
-        "performance"
       ]
     },
     {
@@ -273,26 +273,26 @@
       "summary": "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month. The lineup is the two-socket, eight-GPU HPE ProLiant DL585a Gen13, the 1U single-socket HPE ProLiant DL525 Gen13 with up to 256 cor",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-07T13:00:00.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.3,
       "tags": [
         "ocp"
       ]
     },
     {
-      "id": "sig-qpdd2d",
-      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 252 # Comments: 148",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T18:00:34.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.4,
+      "id": "sig-lrvxn7",
+      "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
+      "url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficien",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-06T20:58:05.000Z",
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.3,
       "tags": [
-        "claude code",
-        "claude"
+        "dram",
+        "performance"
       ]
     },
     {
@@ -301,11 +301,11 @@
       "url": "https://github.com/FeSens/openTPU",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 330 # Comments: 376",
+      "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 334 # Comments: 387",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T16:23:25.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "github"
@@ -320,8 +320,8 @@
       "summary": "Dell Technologies has expanded the Dell AI Data Platform with context orchestration layers, GPU-accelerated processing engines, and high-density multitenancy across its unstructured storage infrastructure. The architectural enhancements target the enterprise retrieval path, conne",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-06T15:12:05.000Z",
-      "fetchedAt": "2026-10-07T16:39:22.673Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-07T21:37:27.666Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "storage"
