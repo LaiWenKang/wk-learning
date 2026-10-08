@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-08T14:50:58.907Z",
+  "updatedAt": "2026-10-08T20:14:05.362Z",
   "signals": [
+    {
+      "id": "sig-6v2olf",
+      "title": "KIOXIA LD4 Brings QLC to E1.L for 1U Servers, Sampling at 30.72TB With a Path to 122.88TB",
+      "url": "https://www.storagereview.com/news/kioxia-ld4-qlc-e1-l-ssd-1u-servers-30-72tb-122-88tb",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
+      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
+      "publishedAt": "2026-10-08T16:21:35.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "qlc",
+        "kioxia",
+        "storage"
+      ]
+    },
     {
       "id": "sig-1qpeh8e",
       "title": "Kioxia LD4 E1.L QLC NVMe SSD Announced",
@@ -10,7 +28,7 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +46,7 @@
       "summary": "arXiv:2610.08899v1 Announce Type: cross Abstract: CXL-SSDs promise memory-semantic access to NAND-scale capacity through a small in-device DRAM cache, but scarce hardware makes emulation central to CXL-SSD research. Cylon, a state-of-the-art emulator, runs workloads in a VM, inte",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -47,8 +65,8 @@
       "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "gen5"
@@ -63,8 +81,8 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 9.7,
       "tags": [
         "telemetry",
         "ai",
@@ -80,14 +98,237 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 9.7,
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 9.5,
       "tags": [
         "ssd",
         "nvme",
         "pcie",
         "gen5",
         "e3.s"
+      ]
+    },
+    {
+      "id": "sig-1juhsqx",
+      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
+      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T16:32:44.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-qvzo3q",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 337 # Comments: 3",
+      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T08:08:37.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.7,
+      "tags": [
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-dg4gch",
+      "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
+      "url": "https://arxiv.org/abs/2610.08923",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dg4giw",
+      "title": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
+      "url": "https://arxiv.org/abs/2610.08993",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dg4foq",
+      "title": "Psychological Safety in Software Engineering Teams: A Systematic Mapping Study of Team Processes and Performance",
+      "url": "https://arxiv.org/abs/2610.08896",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
+      "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "software engineering",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg55i7",
+      "title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2610.09605",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg581q",
+      "title": "Analysis and Visualization of the Linux Kernel's Software Evolution Using the City Metaphor",
+      "url": "https://arxiv.org/abs/2610.09910",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-dg583p",
+      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
+      "url": "https://arxiv.org/abs/2610.09935",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dg51fk",
+      "title": "Compiling Semi-Ring Dynamic Programming to Tier-Aware 3D-DRAM Processing-in-Memory",
+      "url": "https://arxiv.org/abs/2610.09156",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "programming",
+      "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.5,
+      "tags": [
+        "dram",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-2yf7rm",
+      "title": "Kioxia doubles super-fast flash drive speed",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/08/kioxia-doubles-super-fast-flash-drive-speed/5301892",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-08T15:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.4,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-62foil",
+      "title": "Micron and Netlist settle memory patent dispute",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/08/micron-and-netlist-settle-memory-patent-dispute/5301939",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-08T14:04:22.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.3,
+      "tags": [
+        "micron"
+      ]
+    },
+    {
+      "id": "sig-12sbyfi",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 363 # Comments: 379",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-07T18:49:40.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-128vdi0",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 1027 # Comments: 480",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-07T18:01:32.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7.3,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-it5n6c",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "career",
+        "security"
       ]
     },
     {
@@ -107,149 +348,6 @@
       ]
     },
     {
-      "id": "sig-dg4gch",
-      "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
-      "url": "https://arxiv.org/abs/2610.08923",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dg4giw",
-      "title": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
-      "url": "https://arxiv.org/abs/2610.08993",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dg4foq",
-      "title": "Psychological Safety in Software Engineering Teams: A Systematic Mapping Study of Team Processes and Performance",
-      "url": "https://arxiv.org/abs/2610.08896",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
-      "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "software engineering",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dg55i7",
-      "title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
-      "url": "https://arxiv.org/abs/2610.09605",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dg581q",
-      "title": "Analysis and Visualization of the Linux Kernel's Software Evolution Using the City Metaphor",
-      "url": "https://arxiv.org/abs/2610.09910",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "linux",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-dg583p",
-      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
-      "url": "https://arxiv.org/abs/2610.09935",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-dg51fk",
-      "title": "Compiling Semi-Ring Dynamic Programming to Tier-Aware 3D-DRAM Processing-in-Memory",
-      "url": "https://arxiv.org/abs/2610.09156",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "programming",
-      "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.7,
-      "tags": [
-        "dram",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-62foil",
-      "title": "Micron and Netlist settle memory patent dispute",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/08/micron-and-netlist-settle-memory-patent-dispute/5301939",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-08T14:04:22.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.5,
-      "tags": [
-        "micron"
-      ]
-    },
-    {
-      "id": "sig-12sbyfi",
-      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 355 # Comments: 360",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-07T18:49:40.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
       "id": "sig-1sj5lpf",
       "title": "pingdotgg/ts-rust (Rust) — trending new repo",
       "url": "https://github.com/pingdotgg/ts-rust",
@@ -263,23 +361,6 @@
       "tags": [
         "typescript",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
       ]
     },
     {
@@ -1950,38 +2031,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-mpnoqa",
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "146 points on Hacker News",
-      "whyItMatters": "Touches ai, anthropic, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T13:00:55Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1rx2qtm",
-      "title": "Everspin demos CXL-connected MRAM memory expansion",
-      "url": "https://www.blocksandfiles.com/architecture/2026/10/01/everspin-demos-cxl-connected-mram-memory-expansion/5300563",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-01T16:35:29.000Z",
-      "fetchedAt": "2026-10-01T17:30:02.984Z",
-      "score": 7.5,
-      "tags": [
-        "cxl"
       ]
     }
   ]
