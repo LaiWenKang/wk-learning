@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-10-08T01:20:51.582Z",
+  "updatedAt": "2026-10-08T07:31:20.043Z",
   "signals": [
+    {
+      "id": "sig-dg4fot",
+      "title": "CXDVirt: Low Latency Kernel Module Based CXL-SSD Emulation",
+      "url": "https://arxiv.org/abs/2610.08899",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.08899v1 Announce Type: cross Abstract: CXL-SSDs promise memory-semantic access to NAND-scale capacity through a small in-device DRAM cache, but scarce hardware makes emulation central to CXL-SSD research. Cylon, a state-of-the-art emulator, runs workloads in a VM, inte",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "nand",
+        "cxl",
+        "dram",
+        "kernel"
+      ]
+    },
     {
       "id": "sig-1r0gpa7",
       "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
@@ -10,7 +29,7 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -27,8 +46,8 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 10,
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 9.9,
       "tags": [
         "ssd",
         "nvme",
@@ -46,7 +65,7 @@
       "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -55,19 +74,260 @@
       ]
     },
     {
+      "id": "sig-3gzcdp",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "5 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:07:34Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 8,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-tiedrz",
+      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
+      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:01:27.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-dg4gch",
+      "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
+      "url": "https://arxiv.org/abs/2610.08923",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dg4giw",
+      "title": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
+      "url": "https://arxiv.org/abs/2610.08993",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dg4foq",
+      "title": "Psychological Safety in Software Engineering Teams: A Systematic Mapping Study of Team Processes and Performance",
+      "url": "https://arxiv.org/abs/2610.08896",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
+      "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "software engineering",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg55i7",
+      "title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2610.09605",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dg581q",
+      "title": "Analysis and Visualization of the Linux Kernel's Software Evolution Using the City Metaphor",
+      "url": "https://arxiv.org/abs/2610.09910",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-dg583p",
+      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
+      "url": "https://arxiv.org/abs/2610.09935",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dg51fk",
+      "title": "Compiling Semi-Ring Dynamic Programming to Tier-Aware 3D-DRAM Processing-in-Memory",
+      "url": "https://arxiv.org/abs/2610.09156",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "programming",
+      "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.9,
+      "tags": [
+        "dram",
+        "performance"
+      ]
+    },
+    {
       "id": "sig-1sj5lpf",
       "title": "Rust Port of TypeScript (Tsc)",
       "url": "https://github.com/pingdotgg/ts-rust",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "9 points on Hacker News",
+      "summary": "46 points on Hacker News",
       "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-08T00:46:00Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 8,
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.8,
       "tags": [
         "typescript",
         "rust"
+      ]
+    },
+    {
+      "id": "sig-it5n6c",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "career",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-c03zom",
+      "title": "Xinnor xiRAID Classic 4.4.1 Adds NVMe Discard Support and Multipath RAID Members",
+      "url": "https://www.storagereview.com/news/xinnor-xiraid-classic-4-4-1-nvme-discard-support-multipath",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-10-07T16:05:18.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.1,
+      "tags": [
+        "nvme"
+      ]
+    },
+    {
+      "id": "sig-a37w21",
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T23:04:13.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7.1,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1fh47d",
+      "title": "HPE ProLiant Gen13 Launches With the First Four AMD EPYC Venice Servers: Eight-GPU DL585a, 256-Core DL525, and OCP XD Nodes",
+      "url": "https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month. The lineup is the two-socket, eight-GPU HPE ProLiant DL585a Gen13, the 1U single-socket HPE ProLiant DL525 Gen13 with up to 256 cor",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-07T13:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-1w08qhh",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
       ]
     },
     {
@@ -216,69 +476,6 @@
       ]
     },
     {
-      "id": "sig-a37w21",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T23:04:13.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 7.3,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "career",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-c03zom",
-      "title": "Xinnor xiRAID Classic 4.4.1 Adds NVMe Discard Support and Multipath RAID Members",
-      "url": "https://www.storagereview.com/news/xinnor-xiraid-classic-4-4-1-nvme-discard-support-multipath",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-07T16:05:18.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 7.2,
-      "tags": [
-        "nvme"
-      ]
-    },
-    {
-      "id": "sig-1fh47d",
-      "title": "HPE ProLiant Gen13 Launches With the First Four AMD EPYC Venice Servers: Eight-GPU DL585a, 256-Core DL525, and OCP XD Nodes",
-      "url": "https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month. The lineup is the two-socket, eight-GPU HPE ProLiant DL585a Gen13, the 1U single-socket HPE ProLiant DL525 Gen13 with up to 256 cor",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-07T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 7.2,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
       "id": "sig-lrvxn7",
       "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
       "url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
@@ -308,23 +505,6 @@
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-08T01:20:51.582Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
       ]
     },
     {
@@ -406,23 +586,6 @@
       "score": 7,
       "tags": [
         "seagate"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-07T09:21:35.476Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
       ]
     },
     {
@@ -1802,167 +1965,6 @@
       "tags": [
         "ai",
         "python"
-      ]
-    },
-    {
-      "id": "sig-1m9er9k",
-      "title": "Designing Physical AI Systems Under Real-World Constraints",
-      "url": "https://semiengineering.com/designing-physical-ai-systems-under-real-world-constraints/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Where latency, power, reliability, and data movement shape system behavior. The post Designing Physical AI Systems Under Real-World Constraints appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-30T07:02:34.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-17p7z1v",
-      "title": "PCIe 8.0 Over UCIe 3.0: Bringing A Proven Protocol Into The Chiplet Era",
-      "url": "https://semiengineering.com/pcie-8-0-over-ucie-3-0-bringing-a-proven-rrotocol-into-the-chiplet-era/",
-      "source": "Semiconductor Engineering",
-      "category": "communication",
-      "summary": "UCIe standardizes die-to-die communication within a package and allows PCIe traffic to traverse chiplet boundaries with seamless interoperability over standardized interconnects. The post PCIe 8.0 Over UCIe 3.0: Bringing A Proven Protocol Into The Chiplet Era appeared first on Se",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-09-30T07:02:19.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 8.4,
-      "tags": [
-        "pcie",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-1srik7v",
-      "title": "From Caliptra Foundation To Full Production Deployment",
-      "url": "https://semiengineering.com/from-caliptra-foundation-to-full-production-deployment/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Bridging the gap between open-source Root of Trust foundations and enterprise-grade security deployments. The post From Caliptra Foundation To Full Production Deployment appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-30T07:04:24.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-q42ge2",
-      "title": "Data Center Energy Trends Force A Rethink Of Chip Power Delivery",
-      "url": "https://semiengineering.com/data-center-energy-trends-force-a-rethink-of-chip-power-delivery/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Enabling silicon to operate closer to its true performance envelope without excessive guard banding. The post Data Center Energy Trends Force A Rethink Of Chip Power Delivery appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-30T07:01:54.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-17nx12",
-      "title": "Rethinking AI Validation",
-      "url": "https://semiengineering.com/rethinking-ai-validation/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "A lifecycle-driven approach for explainable and trustworthy AI by design. The post Rethinking AI Validation appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-30T07:01:53.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1a3hbnv",
-      "title": "Switch Faster, Regulate Faster, Protect Faster With Performance Line Microcontrollers",
-      "url": "https://semiengineering.com/switch-faster-regulate-faster-protect-faster-with-performance-line-microcontrollers/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "How high-speed control, precision timing, and hardware acceleration enable next-gen PSUs, IBCs, and BBUs. The post Switch Faster, Regulate Faster, Protect Faster With Performance Line Microcontrollers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-09-30T07:01:22.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.4,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1oy4wg0",
-      "title": "feder-cr/dots (Python) — trending new repo",
-      "url": "https://github.com/feder-cr/dots",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. · ★ 1945",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T23:06:00Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-11orwgu",
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview ",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T22:20:28.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.1,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-16sfxto",
-      "title": "DGX Spark Shared Storage: Bringing Deskside AI Back Under Data Center Governance",
-      "url": "https://www.storagereview.com/review/dgx-spark-shared-storage-solidigm-qlc-100gbe",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Deskside AI systems built on NVIDIA’s GB10 have one job, and they do it well: put 128GB of unified memory and a petaflop of compute on a desk close enough to the person using it that iteration is instant. What they don’t have is a connection to the storage an organization already",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T19:46:46.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1218627",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agen",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T15:55:13.000Z",
-      "fetchedAt": "2026-10-01T05:35:56.907Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai"
       ]
     }
   ]
