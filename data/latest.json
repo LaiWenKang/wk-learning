@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-10-08T07:31:20.043Z",
+  "generatedAt": "2026-10-08T14:50:58.907Z",
   "signals": [
+    {
+      "id": "sig-1qpeh8e",
+      "title": "Kioxia LD4 E1.L QLC NVMe SSD Announced",
+      "url": "https://www.servethehome.com/kioxia-ld4-e1-l-qlc-nvme-ssd-announced/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-10-08T13:00:12.000Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "nvme",
+        "qlc",
+        "kioxia"
+      ]
+    },
     {
       "id": "sig-dg4fot",
       "title": "CXDVirt: Low Latency Kernel Module Based CXL-SSD Emulation",
@@ -10,7 +28,7 @@
       "summary": "arXiv:2610.08899v1 Announce Type: cross Abstract: CXL-SSDs promise memory-semantic access to NAND-scale capacity through a small in-device DRAM cache, but scarce hardware makes emulation central to CXL-SSD research. Cylon, a state-of-the-art emulator, runs workloads in a VM, inte",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +36,22 @@
         "cxl",
         "dram",
         "kernel"
+      ]
+    },
+    {
+      "id": "sig-1ekll4w",
+      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
+      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-08T13:01:14.000Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 9.9,
+      "tags": [
+        "pcie",
+        "gen5"
       ]
     },
     {
@@ -29,8 +63,8 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 10,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 9.9,
       "tags": [
         "telemetry",
         "ai",
@@ -46,47 +80,14 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 9.7,
       "tags": [
         "ssd",
         "nvme",
         "pcie",
         "gen5",
         "e3.s"
-      ]
-    },
-    {
-      "id": "sig-13r1sws",
-      "title": "This is BiCS NAND Close Up from Kioxia and Sandisk",
-      "url": "https://www.servethehome.com/this-is-bics-nand-close-up-from-kioxia-and-sandisk/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
-      ]
-    },
-    {
-      "id": "sig-3gzcdp",
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "5 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T07:07:34Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 8,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -98,8 +99,8 @@
       "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T07:01:27.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 8,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor"
@@ -114,8 +115,8 @@
       "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "llm"
@@ -130,8 +131,8 @@
       "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "machine learning"
@@ -146,8 +147,8 @@
       "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
       "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "software engineering",
         "performance"
@@ -162,8 +163,8 @@
       "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "performance"
@@ -178,8 +179,8 @@
       "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "linux",
         "kernel"
@@ -194,8 +195,8 @@
       "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -210,24 +211,55 @@
       "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.7,
       "tags": [
         "dram",
         "performance"
       ]
     },
     {
+      "id": "sig-62foil",
+      "title": "Micron and Netlist settle memory patent dispute",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/08/micron-and-netlist-settle-memory-patent-dispute/5301939",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-08T14:04:22.000Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.5,
+      "tags": [
+        "micron"
+      ]
+    },
+    {
+      "id": "sig-12sbyfi",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 355 # Comments: 360",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-07T18:49:40.000Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
       "id": "sig-1sj5lpf",
-      "title": "Rust Port of TypeScript (Tsc)",
+      "title": "pingdotgg/ts-rust (Rust) — trending new repo",
       "url": "https://github.com/pingdotgg/ts-rust",
-      "source": "Hacker News (front page)",
+      "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "46 points on Hacker News",
+      "summary": "An experimental Rust port of the TypeScript 7 compiler (tsc) · ★ 630",
       "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-08T00:46:00Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.8,
+      "publishedAt": "2026-10-07T05:17:07Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7.1,
       "tags": [
         "typescript",
         "rust"
@@ -242,58 +274,12 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 7,
       "tags": [
         "ai",
         "career",
         "security"
-      ]
-    },
-    {
-      "id": "sig-c03zom",
-      "title": "Xinnor xiRAID Classic 4.4.1 Adds NVMe Discard Support and Multipath RAID Members",
-      "url": "https://www.storagereview.com/news/xinnor-xiraid-classic-4-4-1-nvme-discard-support-multipath",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-07T16:05:18.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.1,
-      "tags": [
-        "nvme"
-      ]
-    },
-    {
-      "id": "sig-a37w21",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T23:04:13.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.1,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1fh47d",
-      "title": "HPE ProLiant Gen13 Launches With the First Four AMD EPYC Venice Servers: Eight-GPU DL585a, 256-Core DL525, and OCP XD Nodes",
-      "url": "https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month. The lineup is the two-socket, eight-GPU HPE ProLiant DL585a Gen13, the 1U single-socket HPE ProLiant DL525 Gen13 with up to 256 cor",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-07T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7,
-      "tags": [
-        "ocp"
       ]
     },
     {
@@ -305,7 +291,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
       "score": 7,
       "tags": [
         "ai",
@@ -322,12 +308,27 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
       "score": 7,
       "tags": [
         "ai",
         "llm",
         "productivity"
+      ]
+    },
+    {
+      "id": "sig-c03zom",
+      "title": "Xinnor xiRAID Classic 4.4.1 Adds NVMe Discard Support and Multipath RAID Members",
+      "url": "https://www.storagereview.com/news/xinnor-xiraid-classic-4-4-1-nvme-discard-support-multipath",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-10-07T16:05:18.000Z",
+      "fetchedAt": "2026-10-08T14:50:58.907Z",
+      "score": 6.9,
+      "tags": [
+        "nvme"
       ]
     }
   ]
