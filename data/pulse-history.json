@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T00:25:39.365Z",
+  "updatedAt": "2026-10-09T06:34:25.689Z",
   "signals": [
     {
       "id": "sig-6v2olf",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-10-08T16:21:35.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,13 +28,306 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
       "score": 10,
       "tags": [
         "ssd",
         "nvme",
         "qlc",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1ekll4w",
+      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
+      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-08T13:01:14.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 9.5,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-1b3u8es",
+      "title": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
+      "url": "https://www.servethehome.com/kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-10-05T20:31:34.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "nvme",
+        "pcie",
+        "gen5",
+        "e3.s"
+      ]
+    },
+    {
+      "id": "sig-1r0gpa7",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-10-07T16:30:36.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 9.4,
+      "tags": [
+        "telemetry",
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dgnn18",
+      "title": "TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution",
+      "url": "https://arxiv.org/abs/2610.10619",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10619v1 Announce Type: new Abstract: Large language model (LLM) agents are rapidly reshaping software engineering, accompanied by an explosion of new code benchmarks. Yet nearly all existing benchmarks still rely on the same decades-old criterion: a solution is correct",
+      "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 8.9,
+      "tags": [
+        "llm",
+        "language model",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-dgnn2w",
+      "title": "Has LLM Screening Performance Stalled in Software Engineering Systematic Reviews?",
+      "url": "https://arxiv.org/abs/2610.10633",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10633v1 Announce Type: new Abstract: Screening in systematic reviews (SRs) is manual and time-consuming. Prior work has explored large language models (LLMs) for automating this step, but LLMs are evolving rapidly, so earlier performance claims may no longer accurately",
+      "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 8.9,
+      "tags": [
+        "llm",
+        "software engineering",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dgnn10",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "url": "https://arxiv.org/abs/2610.10611",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded ",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dgnoop",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "url": "https://arxiv.org/abs/2610.10805",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely d",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dgnore",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "url": "https://arxiv.org/abs/2610.10833",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-B",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dgnpmj",
+      "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+      "url": "https://arxiv.org/abs/2610.10942",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dgo9p0",
+      "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+      "url": "https://arxiv.org/abs/2610.11007",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.11007v1 Announce Type: new Abstract: At the start of every session, LLM agents load a fixed context file, such as $\\texttt{AGENTS.md}$. Each loaded token in the file is charged again in every later round of the session, and these files can degrade performance as they g",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dgnn4w",
+      "title": "Applying Security by Design at the Point of Execution: How Governed Security Requirements Affect the Security of AI-Generated Code",
+      "url": "https://arxiv.org/abs/2610.10659",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.10659v1 Announce Type: new Abstract: Security by design asks that security requirements are defined before code is written. Secure-code benchmarks typically measure the opposite situation: the agent receives the task without requirements and is scored with security tes",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dgnmd5",
+      "title": "A Survey on LLM-Integrated Hardware Design Verification",
+      "url": "https://arxiv.org/abs/2610.10580",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.10580v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being integrated into hardware verification to automate specification interpretation, verification-artifact generation, debugging, formal reasoning, and tool orchestration. This survey p",
+      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-19n9i9",
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html Comments URL: https://news.ycombinator.com/item?id=50008187 Points: 376 # Comments: 248",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T16:45:58.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1juhsqx",
+      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
+      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T16:32:44.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-qvzo3q",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 338 # Comments: 3",
+      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T08:08:37.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.4,
+      "tags": [
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-tiedrz",
+      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
+      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:01:27.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-2yf7rm",
+      "title": "Kioxia doubles super-fast flash drive speed",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/08/kioxia-doubles-super-fast-flash-drive-speed/5301892",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-08T15:00:00.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.1,
+      "tags": [
+        "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1xlctun",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back t",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-07T20:56:21.000Z",
+      "fetchedAt": "2026-10-09T06:34:25.689Z",
+      "score": 7.1,
+      "tags": [
+        "claude",
+        "anthropic"
       ]
     },
     {
@@ -57,90 +350,6 @@
       ]
     },
     {
-      "id": "sig-1ekll4w",
-      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
-      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 9.7,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-1r0gpa7",
-      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-      "url": "https://blog.cloudflare.com/agentic-security-operations/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 9.6,
-      "tags": [
-        "telemetry",
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1b3u8es",
-      "title": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
-      "url": "https://www.servethehome.com/kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "nvme",
-        "pcie",
-        "gen5",
-        "e3.s"
-      ]
-    },
-    {
-      "id": "sig-19n9i9",
-      "title": "OpenAI annualised revenues $20B less than previously signalled",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html Comments URL: https://news.ycombinator.com/item?id=50008187 Points: 346 # Comments: 241",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T16:45:58.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-1juhsqx",
-      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
-      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T16:32:44.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-iiugx1",
       "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
       "url": "https://github.com/LosaLosSantos/aurelio-finance",
@@ -158,22 +367,6 @@
       ]
     },
     {
-      "id": "sig-qvzo3q",
-      "title": "OpenAI Withdraws 3 Math Papers",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 338 # Comments: 3",
-      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T08:08:37.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.5,
-      "tags": [
-        "openai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-1q5edne",
       "title": "OpenAI withdraws three mathematical results",
       "url": "https://twitter.com/danintheory/status/2108065033070789090",
@@ -187,22 +380,6 @@
       "tags": [
         "openai",
         "github"
-      ]
-    },
-    {
-      "id": "sig-tiedrz",
-      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
-      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T07:01:27.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -318,21 +495,6 @@
       ]
     },
     {
-      "id": "sig-2yf7rm",
-      "title": "Kioxia doubles super-fast flash drive speed",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/08/kioxia-doubles-super-fast-flash-drive-speed/5301892",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-08T15:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.2,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
       "id": "sig-62foil",
       "title": "Micron and Netlist settle memory patent dispute",
       "url": "https://www.blocksandfiles.com/flash/2026/10/08/micron-and-netlist-settle-memory-patent-dispute/5301939",
@@ -361,22 +523,6 @@
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-128vdi0",
-      "title": "Claude Haiku 5.5",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 1027 # Comments: 480",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-07T18:01:32.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -1999,55 +2145,6 @@
       "tags": [
         "semiconductor",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1x3a9hg",
-      "title": "HBFSim: Fast and Faithful Simulation of High-Bandwidth Flash Under Real GPU Execution",
-      "url": "https://arxiv.org/abs/2609.09800",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2609.09800v3 Announce Type: replace Abstract: High-Bandwidth Flash (HBF) places high-capacity NAND beside HBM to relieve the memory-capacity bottleneck of LLM inference, yet its system-level behavior cannot be evaluated before hardware becomes available. Cycle-level GPU sim",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-02T01:31:56.498Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "llm",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1t7n1j",
-      "title": "Aweb – Communication for AI Agents",
-      "url": "https://aweb.ai",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "18 points on Hacker News",
-      "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T22:02:31Z",
-      "fetchedAt": "2026-10-02T01:31:56.498Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-1x5dm4v",
-      "title": "AI Agents are Vulnerable to Radicalization",
-      "url": "https://arxiv.org/abs/2609.38296",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T04:00:00.000Z",
-      "fetchedAt": "2026-10-02T01:31:56.498Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
       ]
     }
   ]
