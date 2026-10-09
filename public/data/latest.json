@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:14:05.362Z",
+  "generatedAt": "2026-10-09T00:25:39.365Z",
   "signals": [
     {
       "id": "sig-6v2olf",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-10-08T16:21:35.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "arXiv:2610.08899v1 Announce Type: cross Abstract: CXL-SSDs promise memory-semantic access to NAND-scale capacity through a small in-device DRAM cache, but scarce hardware makes emulation central to CXL-SSD research. Cylon, a state-of-the-art emulator, runs workloads in a VM, inte",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -65,8 +65,8 @@
       "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 9.8,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 9.7,
       "tags": [
         "pcie",
         "gen5"
@@ -81,8 +81,8 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 9.7,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 9.6,
       "tags": [
         "telemetry",
         "ai",
@@ -98,7 +98,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -106,6 +106,22 @@
         "pcie",
         "gen5",
         "e3.s"
+      ]
+    },
+    {
+      "id": "sig-19n9i9",
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html Comments URL: https://news.ycombinator.com/item?id=50008187 Points: 346 # Comments: 241",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T16:45:58.000Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "openai"
       ]
     },
     {
@@ -117,11 +133,28 @@
       "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-08T16:32:44.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-iiugx1",
+      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance",
+      "source": "GitHub trending new repos (search API)",
+      "category": "finance",
+      "summary": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React. · ★ 699",
+      "whyItMatters": "Touches ai, python, finance — relevant to long-term personal finance thinking.",
+      "publishedAt": "2026-10-06T20:14:19Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "python",
+        "finance"
       ]
     },
     {
@@ -130,14 +163,46 @@
       "url": "https://github.com/openai/math/blob/main/history.md",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 337 # Comments: 3",
+      "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 338 # Comments: 3",
       "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T08:08:37.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.5,
       "tags": [
         "openai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-1q5edne",
+      "title": "OpenAI withdraws three mathematical results",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50002650 Points: 242 # Comments: 541",
+      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:05:40.000Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.5,
+      "tags": [
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-tiedrz",
+      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
+      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:01:27.000Z",
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -149,8 +214,8 @@
       "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -165,8 +230,8 @@
       "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "machine learning"
@@ -181,8 +246,8 @@
       "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
       "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "software engineering",
         "performance"
@@ -197,8 +262,8 @@
       "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "performance"
@@ -213,8 +278,8 @@
       "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "linux",
         "kernel"
@@ -229,8 +294,8 @@
       "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -245,8 +310,8 @@
       "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.4,
       "tags": [
         "dram",
         "performance"
@@ -261,74 +326,10 @@
       "summary": "",
       "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-08T15:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-09T00:25:39.365Z",
+      "score": 7.2,
       "tags": [
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-62foil",
-      "title": "Micron and Netlist settle memory patent dispute",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/08/micron-and-netlist-settle-memory-patent-dispute/5301939",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches micron — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-08T14:04:22.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.3,
-      "tags": [
-        "micron"
-      ]
-    },
-    {
-      "id": "sig-12sbyfi",
-      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 363 # Comments: 379",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-07T18:49:40.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-128vdi0",
-      "title": "Claude Haiku 5.5",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 1027 # Comments: 480",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-07T18:01:32.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T20:14:05.362Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
       ]
     }
   ]
