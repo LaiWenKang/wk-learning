@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T15:12:45.981Z",
+  "updatedAt": "2026-10-10T19:18:32.549Z",
   "signals": [
     {
       "id": "sig-6v2olf",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-10-08T16:21:35.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,7 +28,7 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "We test the Kioxia CM9-R at 15.36TB capacity. This is a fast drive that is a top-tier option for x86 and Arm PCIe Gen5 servers The post Kioxia CM9-R 15.36TB E3.S NVMe SSD Review appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-05T20:31:34.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -65,8 +65,8 @@
       "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 8.5,
       "tags": [
         "pcie",
         "gen5"
@@ -81,12 +81,28 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
       "score": 8.5,
       "tags": [
         "telemetry",
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-l9fa8s",
+      "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+      "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "37 points on Hacker News",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-10T18:10:54Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "anthropic"
       ]
     },
     {
@@ -98,8 +114,8 @@
       "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded ",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -114,8 +130,8 @@
       "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely d",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "machine learning"
@@ -130,8 +146,8 @@
       "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-B",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -146,8 +162,8 @@
       "summary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -162,11 +178,156 @@
       "summary": "arXiv:2610.11007v1 Announce Type: new Abstract: At the start of every session, LLM agents load a fixed context file, such as $\\texttt{AGENTS.md}$. Each loaded token in the file is charged again in every later round of the session, and these files can degrade performance as they g",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-cnmu9b",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 Points: 199 # Comments: 143",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T22:00:35.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-iiugx1",
+      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2092",
+      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T20:14:19Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "finance"
+      ]
+    },
+    {
+      "id": "sig-it5n6c",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "career",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1w08qhh",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-qv8fyo",
+      "title": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
+      "url": "https://www.storagereview.com/news/seagate-toshiba-reportedly-pursue-tdk-hdd-head-business",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Seagate and Toshiba have each held preliminary talks to acquire TDK’s hard disk drive recording head business in a potential multibillion-dollar deal, Bloomberg reported this week. The report describes TDK as the only independent HDD head supplier, selling to all three nearline d",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-09T15:33:30.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 6.7,
+      "tags": [
+        "seagate"
+      ]
+    },
+    {
+      "id": "sig-1juhsqx",
+      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
+      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T16:32:44.000Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 6.6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-je6e41",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "10 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-10T18:48:35Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1j2b0yf",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "187 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-10T10:52:09Z",
+      "fetchedAt": "2026-10-10T19:18:32.549Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -186,105 +347,6 @@
       ]
     },
     {
-      "id": "sig-iiugx1",
-      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
-      "url": "https://github.com/LosaLosSantos/aurelio-finance",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 1821",
-      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T20:14:19Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-qv8fyo",
-      "title": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
-      "url": "https://www.storagereview.com/news/seagate-toshiba-reportedly-pursue-tdk-hdd-head-business",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Seagate and Toshiba have each held preliminary talks to acquire TDK’s hard disk drive recording head business in a potential multibillion-dollar deal, Bloomberg reported this week. The report describes TDK as the only independent HDD head supplier, selling to all three nearline d",
-      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-09T15:33:30.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 6.8,
-      "tags": [
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-1juhsqx",
-      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
-      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T16:32:44.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 6.7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-1ufi3vi",
       "title": "My personal AI agent posted my bank details on company Slack",
       "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
@@ -295,21 +357,6 @@
       "publishedAt": "2026-10-10T14:46:16Z",
       "fetchedAt": "2026-10-10T15:12:45.981Z",
       "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1j2b0yf",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "url": "https://github.com/rociiu/talorys",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "106 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T10:52:09Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -394,22 +441,6 @@
         "llm",
         "software engineering",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-cnmu9b",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "72 points on Hacker News",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T22:00:35Z",
-      "fetchedAt": "2026-10-10T02:23:01.127Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "anthropic"
       ]
     },
     {
@@ -2012,23 +2043,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-x30a7x",
-      "title": "AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases",
-      "url": "https://www.storagereview.com/news/amd-ross-agentic-ai-assistant-embedded-design-vivado-vitis-hls-agent-skills",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD introduced AMD Ross, an agentic AI assistant built to run alongside the tools embedded developers already use, from system architecture and schematic review through FPGA and algorithm design, embedded software, AI inference, debugging, and deployment. The assistant targets th",
-      "whyItMatters": "Touches ai, embedded, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-30T19:43:53.000Z",
-      "fetchedAt": "2026-10-03T16:40:12.000Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "embedded",
-        "debugging"
       ]
     }
   ]
