@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T01:18:48.335Z",
+  "updatedAt": "2026-10-11T07:17:06.806Z",
   "signals": [
     {
       "id": "sig-6v2olf",
@@ -10,7 +10,7 @@
       "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-10-08T16:21:35.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -28,8 +28,8 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 9.8,
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 9.7,
       "tags": [
         "ssd",
         "nvme",
@@ -46,7 +46,7 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
       "score": 8.5,
       "tags": [
         "telemetry",
@@ -63,11 +63,267 @@
       "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 8.2,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-1c4vly0",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-10T23:58:04.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7.8,
+      "tags": [
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1na175u",
+      "title": "SPECviewperf 15.0.1 Linux Edition Released: Linux’s Key Graphics Benchmark Adds Arm Support",
+      "url": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "SPEC has released version 15.0.1 of SPECviewperf Linux Edition, bringing a slew of upgrades and official Arm support to Linux's key workstation graphics benchmark suite. We are taking a look at those changes, and what performance is like on some modern systems The post SPECviewpe",
+      "whyItMatters": "Touches linux, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-10T21:00:43.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7.7,
+      "tags": [
+        "linux",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-cnmu9b",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 Points: 208 # Comments: 154",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-09T22:00:35.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-iiugx1",
+      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2096",
+      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T20:14:19Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "finance"
+      ]
+    },
+    {
+      "id": "sig-it5n6c",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "career",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1w08qhh",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-lyyxfr",
+      "title": "AI agents in a stand-up call",
+      "url": "https://atoll92.github.io/agent-standup/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "27 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-11T03:42:47Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1imhdu9",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "75 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-11T02:02:38Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-qv8fyo",
+      "title": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
+      "url": "https://www.storagereview.com/news/seagate-toshiba-reportedly-pursue-tdk-hdd-head-business",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Seagate and Toshiba have each held preliminary talks to acquire TDK’s hard disk drive recording head business in a potential multibillion-dollar deal, Bloomberg reported this week. The report describes TDK as the only independent HDD head supplier, selling to all three nearline d",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-09T15:33:30.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6.4,
+      "tags": [
+        "seagate"
+      ]
+    },
+    {
+      "id": "sig-1juhsqx",
+      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
+      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-08T16:32:44.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-je6e41",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "156 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-10T18:48:35Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-tiedrz",
+      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
+      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-08T07:01:27.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1yt4wc2",
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
+      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-05T15:59:40.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-p3c8i6",
+      "title": "Everything we launched during Birthday Week 2026",
+      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-3rt1w1",
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "fetchedAt": "2026-10-11T07:17:06.806Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
       ]
     },
     {
@@ -84,38 +340,6 @@
       "tags": [
         "rust",
         "github"
-      ]
-    },
-    {
-      "id": "sig-1c4vly0",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-10T23:58:04.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 8,
-      "tags": [
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1na175u",
-      "title": "SPECviewperf 15.0.1 Linux Edition Released: Linux’s Key Graphics Benchmark Adds Arm Support",
-      "url": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "SPEC has released version 15.0.1 of SPECviewperf Linux Edition, bringing a slew of upgrades and official Arm support to Linux's key workstation graphics benchmark suite. We are taking a look at those changes, and what performance is like on some modern systems The post SPECviewpe",
-      "whyItMatters": "Touches linux, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-10T21:00:43.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.9,
-      "tags": [
-        "linux",
-        "performance"
       ]
     },
     {
@@ -196,136 +420,6 @@
       "tags": [
         "llm",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-cnmu9b",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
-      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 Points: 207 # Comments: 152",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T22:00:35.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-iiugx1",
-      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
-      "url": "https://github.com/LosaLosSantos/aurelio-finance",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2094",
-      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T20:14:19Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-qv8fyo",
-      "title": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
-      "url": "https://www.storagereview.com/news/seagate-toshiba-reportedly-pursue-tdk-hdd-head-business",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Seagate and Toshiba have each held preliminary talks to acquire TDK’s hard disk drive recording head business in a potential multibillion-dollar deal, Bloomberg reported this week. The report describes TDK as the only independent HDD head supplier, selling to all three nearline d",
-      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-09T15:33:30.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 6.6,
-      "tags": [
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-1juhsqx",
-      "title": "Scality AI Inference Factory Serves KV Cache From Object Storage Over RDMA, 14x Faster Than Recompute",
-      "url": "https://www.storagereview.com/news/scality-ai-inference-factory-kv-cache-object-storage-rdma",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Scality today launched Scality AI Inference Factory, an open-code software stack for running open-weight models on infrastructure the customer owns. Scality validates, ships, and maintains the whole stack, which places its AI Data Infrastructure (ADI) object storage under the inf",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T16:32:44.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-je6e41",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "115 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T18:48:35Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -422,22 +516,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-tiedrz",
-      "title": "Perspectives On Test: System Level Test For AI & Data Centers",
-      "url": "https://semiengineering.com/perspectives-on-test-system-level-test-for-ai-data-centers/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Testing every device under real-world conditions has never been more important. The post Perspectives On Test: System Level Test For AI & Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T07:01:27.000Z",
-      "fetchedAt": "2026-10-10T15:12:45.981Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -1117,22 +1195,6 @@
       ]
     },
     {
-      "id": "sig-1yt4wc2",
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub ",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-05T15:59:40.000Z",
-      "fetchedAt": "2026-10-07T09:21:35.476Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-dg0lt2",
       "title": "How Do Coding Agents Optimize Software and Report Performance Validation? A Large-Scale Empirical Study of Open-Source Pull Requests",
       "url": "https://arxiv.org/abs/2610.03969",
@@ -1194,22 +1256,6 @@
       "tags": [
         "dram",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-p3c8i6",
-      "title": "Everything we launched during Birthday Week 2026",
-      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-07T02:44:05.688Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "security"
       ]
     },
     {
@@ -1794,22 +1840,6 @@
       ]
     },
     {
-      "id": "sig-3rt1w1",
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "fetchedAt": "2026-10-05T00:06:17.956Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-nop8n5",
       "title": "Follow the thread: a new dashboard to investigate account abuse",
       "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
@@ -2008,38 +2038,6 @@
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-c4b5ov",
-      "title": "NetApp Novus Splits pNFS Metadata From AFF A90 Data Nodes for a 100 TB/s AI Factory Target, Orderable Now",
-      "url": "https://www.storagereview.com/news/netapp-novus-pnfs-metadata-aff-a90-data-nodes-100-tb-s-ai-factory",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NetApp used its INSIGHT 2026 conference in Las Vegas to announce NetApp Novus, a disaggregated storage architecture for AI factories that separates metadata from the data path and that the company says is designed to exceed 100 TB/s of aggregate throughput, keep hundreds of thous",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-01T17:48:35.000Z",
-      "fetchedAt": "2026-10-04T01:56:23.488Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1lddtun",
-      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
-      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-01T15:07:16.000Z",
-      "fetchedAt": "2026-10-04T01:56:23.488Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "github"
       ]
     }
   ]
