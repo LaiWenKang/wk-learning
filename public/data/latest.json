@@ -1,22 +1,21 @@
 {
-  "generatedAt": "2026-10-12T08:04:00.272Z",
+  "generatedAt": "2026-10-12T17:44:55.148Z",
   "signals": [
     {
-      "id": "sig-6v2olf",
-      "title": "KIOXIA LD4 Brings QLC to E1.L for 1U Servers, Sampling at 30.72TB With a Path to 122.88TB",
-      "url": "https://www.storagereview.com/news/kioxia-ld4-qlc-e1-l-ssd-1u-servers-30-72tb-122-88tb",
+      "id": "sig-9igeel",
+      "title": "KIOXIA CM9-DLC Brings Direct Liquid Cooling to Dual-Port E3.S SSDs up to 30.72TB",
+      "url": "https://www.storagereview.com/news/kioxia-cm9-dlc-direct-liquid-cooling-e3s-ssd-30-72tb",
       "source": "StorageReview",
-      "category": "systems",
-      "summary": "KIOXIA America announced the LD4 Series today, its first E1.L SSD built with BiCS FLASH generation 8 QLC flash. The drive targets read-intensive storage in high-density 1U servers and is sampling to select customers now at 15.36TB and 30.72TB, on an architecture KIOXIA says it ha",
-      "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
-      "publishedAt": "2026-10-08T16:21:35.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 10,
+      "category": "semiconductor",
+      "summary": "KIOXIA America announced the CM9-DLC today, a set of direct liquid cooling (DLC) models in its CM9 Series of PCIe 5.0 enterprise SSDs. The E3.S drives mount adjacent to cold plates in liquid-cooled servers and also run just fine in air-cooled systems. Capacities reach 30.72TB in ",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-12T15:01:33.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 9.9,
       "tags": [
-        "ssd",
-        "qlc",
-        "kioxia",
-        "storage"
+        "pcie",
+        "e3.s",
+        "kioxia"
       ]
     },
     {
@@ -28,13 +27,45 @@
       "summary": "The Kioxia LD4 is a higher-capacity E1.L NVMe SSD designed to cram a lot of sorage while taking a minimal amount of faceplate area The post Kioxia LD4 E1.L QLC NVMe SSD Announced appeared first on ServeTheHome .",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-08T13:00:12.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "nvme",
         "qlc",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-n0q8tl",
+      "title": "NVIDIA and Cisco USFP Optics Target 400Gb/s per Lane, With MGX 1.2 and DSX OS Updates at OCP 2026",
+      "url": "https://www.storagereview.com/news/nvidia-cisco-usfp-optics-400gbps-per-lane-ocp-2026",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and Cisco announced plans today for Ultra-Dense Small Form Factor Pluggable (USFP), an optical module format built for 400Gb/s-per-lane Ethernet in AI fabrics. The first planned transceivers put 16 full-duplex lanes in a footprint about the size of an OSFP module, which wo",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-12T15:38:13.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 8.9,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-gb5izf",
+      "title": "AMD Helion Agentic AI Rack Packs Up to 32,768 EPYC Cores in an Open OCP Blueprint",
+      "url": "https://www.storagereview.com/news/amd-helion-agentic-ai-rack-32768-epyc-cores",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "AMD introduced Helion today, an open rack reference design for agentic AI that builds on its Helios rack-scale platform. Helion comes in two versions: a CPU-only rack for hyperscalers with up to 32,768 Zen 6 cores from 6th Gen EPYC 9006 Series processors, and an all-in-one enterp",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-12T15:14:28.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 8.9,
+      "tags": [
+        "ocp",
+        "ai"
       ]
     },
     {
@@ -46,7 +77,7 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 8.5,
       "tags": [
         "telemetry",
@@ -63,7 +94,7 @@
       "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -79,8 +110,8 @@
       "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over th",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "machine learning"
@@ -95,8 +126,8 @@
       "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging",
       "whyItMatters": "Touches software engineering, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 7.6,
       "tags": [
         "software engineering",
         "debugging"
@@ -111,8 +142,8 @@
       "summary": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, a",
       "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "security"
@@ -127,43 +158,26 @@
       "summary": "arXiv:2610.12849v1 Announce Type: new Abstract: Current software engineering agents are evaluated predominantly inside isolated sandboxes against synchronous local tests. However, deploying features in collaborative repositories requires modifying continuous integration (CI/CD) p",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "software engineering"
       ]
     },
     {
-      "id": "sig-1c4vly0",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-10T23:58:04.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7.1,
-      "tags": [
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1na175u",
-      "title": "SPECviewperf 15.0.1 Linux Edition Released: Linux’s Key Graphics Benchmark Adds Arm Support",
-      "url": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
+      "id": "sig-bxtnac",
+      "title": "Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders",
+      "url": "https://www.servethehome.com/marvell-structera-x-3406-and-3506-cxl-3-2-memory-expanders/",
       "source": "ServeTheHome",
       "category": "systems",
-      "summary": "SPEC has released version 15.0.1 of SPECviewperf Linux Edition, bringing a slew of upgrades and official Arm support to Linux's key workstation graphics benchmark suite. We are taking a look at those changes, and what performance is like on some modern systems The post SPECviewpe",
-      "whyItMatters": "Touches linux, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-10T21:00:43.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 7,
+      "summary": "The new Structera X 3406 and Structera X 3506 offer six channels and up to 18 DIMMs per controller for CXL 3.2 memory expansion The post Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders appeared first on ServeTheHome .",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-12T16:58:48.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 7.5,
       "tags": [
-        "linux",
-        "performance"
+        "cxl"
       ]
     },
     {
@@ -172,10 +186,10 @@
       "url": "https://github.com/LosaLosSantos/aurelio-finance",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2477",
+      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2723",
       "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-06T20:14:19Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 7,
       "tags": [
         "ai",
@@ -192,7 +206,7 @@
       "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
       "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 7,
       "tags": [
         "ai",
@@ -209,7 +223,7 @@
       "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
       "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 7,
       "tags": [
         "ai",
@@ -226,7 +240,7 @@
       "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
       "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
       "score": 7,
       "tags": [
         "ai",
@@ -235,93 +249,80 @@
       ]
     },
     {
-      "id": "sig-7t7d2f",
-      "title": "Startup Funding: Q3 2026",
-      "url": "https://semiengineering.com/startup-funding-q3-2026/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "80 startups raised $8.5B in Q3, with big hauls by companies tackling data movement and memory. The post Startup Funding: Q3 2026 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-12T07:01:27.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.5,
+      "id": "sig-1c4vly0",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-10T23:58:04.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 6.8,
       "tags": [
-        "semiconductor"
+        "python",
+        "github"
       ]
     },
     {
-      "id": "sig-xusy6e",
-      "title": "Postgres isn't slow, your storage is",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "source": "Hacker News (front page)",
+      "id": "sig-1na175u",
+      "title": "SPECviewperf 15.0.1 Linux Edition Released: Linux’s Key Graphics Benchmark Adds Arm Support",
+      "url": "https://www.servethehome.com/specviewperf-15-0-1-linux-edition-released-linuxs-key-graphics-benchmark-adds-arm-support/",
+      "source": "ServeTheHome",
       "category": "systems",
-      "summary": "16 points on Hacker News",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-12T06:36:53Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.5,
+      "summary": "SPEC has released version 15.0.1 of SPECviewperf Linux Edition, bringing a slew of upgrades and official Arm support to Linux's key workstation graphics benchmark suite. We are taking a look at those changes, and what performance is like on some modern systems The post SPECviewpe",
+      "whyItMatters": "Touches linux, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-10T21:00:43.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 6.8,
       "tags": [
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1alm79f",
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "19 points on Hacker News",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T05:03:47Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.4,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-mre5f5",
-      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
-      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "112 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-12T04:54:00Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.4,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-dgp5uq",
-      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "url": "https://arxiv.org/abs/2610.12596",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowle",
-      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.4,
-      "tags": [
+        "linux",
         "performance"
       ]
     },
     {
-      "id": "sig-dgp6la",
-      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
-      "url": "https://arxiv.org/abs/2610.12655",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T08:04:00.272Z",
-      "score": 6.4,
+      "id": "sig-1iyg1to",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-12T17:43:59.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 6.5,
       "tags": [
-        "llm"
+        "github"
+      ]
+    },
+    {
+      "id": "sig-15prh62",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "8 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T17:14:01Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-x223ap",
+      "title": "Podcast #154: Oregon State’s Chris Sullivan on 122TB SSDs at Sea, Spotted Owls, and AI as a Data Problem",
+      "url": "https://www.storagereview.com/podcast/podcast-154-oregon-state-chris-sullivan-edge-ai-data-problem-yotta-2026",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Brian sat down with Chris Sullivan, Director of Research and Academic Computing in Oregon State University’s College of Earth, Ocean, and Atmospheric Sciences, for a live podcast at Yotta 2026 in Las Vegas. This is an audio-only episode, recorded on the show floor. Chris has been",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T16:45:15.000Z",
+      "fetchedAt": "2026-10-12T17:44:55.148Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     }
   ]
