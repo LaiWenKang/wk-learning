@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-10-12T17:44:55.148Z",
+  "updatedAt": "2026-10-12T23:46:59.577Z",
   "signals": [
+    {
+      "id": "sig-eyt8il",
+      "title": "Intel GPU D-Series Packs 480GB LPDDR5X and 1.3 PFLOPS FP8 into a 350W PCIe Card",
+      "url": "https://www.storagereview.com/news/intel-gpu-d-series-480gb-lpddr5x-1-3-pflops-fp8-350w-pcie-card",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Intel today gave Crescent Island its product name at the OCP Global Summit. The Intel GPU D-series is built on the Xe3P architecture and pairs up to 480GB of LPDDR5X with 1.5TB/s of memory bandwidth and 1.3 petaflops of FP8 compute, all inside a 350W air-cooled PCIe card. The 480",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-12T19:25:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 9.9,
+      "tags": [
+        "pcie",
+        "ocp"
+      ]
+    },
     {
       "id": "sig-9igeel",
       "title": "KIOXIA CM9-DLC Brings Direct Liquid Cooling to Dual-Port E3.S SSDs up to 30.72TB",
@@ -10,12 +26,303 @@
       "summary": "KIOXIA America announced the CM9-DLC today, a set of direct liquid cooling (DLC) models in its CM9 Series of PCIe 5.0 enterprise SSDs. The E3.S drives mount adjacent to cold plates in liquid-cooled servers and also run just fine in air-cooled systems. Capacities reach 30.72TB in ",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-12T15:01:33.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "e3.s",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-n0q8tl",
+      "title": "NVIDIA and Cisco USFP Optics Target 400Gb/s per Lane, With MGX 1.2 and DSX OS Updates at OCP 2026",
+      "url": "https://www.storagereview.com/news/nvidia-cisco-usfp-optics-400gbps-per-lane-ocp-2026",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "NVIDIA and Cisco announced plans today for Ultra-Dense Small Form Factor Pluggable (USFP), an optical module format built for 400Gb/s-per-lane Ethernet in AI fabrics. The first planned transceivers put 16 full-duplex lanes in a footprint about the size of an OSFP module, which wo",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-12T15:38:13.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 8.8,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-gb5izf",
+      "title": "AMD Helion Agentic AI Rack Packs Up to 32,768 EPYC Cores in an Open OCP Blueprint",
+      "url": "https://www.storagereview.com/news/amd-helion-agentic-ai-rack-32768-epyc-cores",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "AMD introduced Helion today, an open rack reference design for agentic AI that builds on its Helios rack-scale platform. Helion comes in two versions: a CPU-only rack for hyperscalers with up to 32,768 Zen 6 cores from 6th Gen EPYC 9006 Series processors, and an all-in-one enterp",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-12T15:14:28.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 8.8,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1r0gpa7",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-10-07T16:30:36.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 8.5,
+      "tags": [
+        "telemetry",
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1bi02lc",
+      "title": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
+      "url": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DN",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T22:34:47.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1ekll4w",
+      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
+      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-08T13:01:14.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-3bjfvo",
+      "title": "Intel’s Crescent Island AI Server GPU Gets a Name and Specs: Meet the Intel GPU D-Series",
+      "url": "https://www.servethehome.com/intels-crescent-island-ai-server-gpu-gets-a-name-and-specs-meet-the-intel-gpu-d-series/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "Intel today has unveiled its official performance specifications and branding for its upcoming \"Crescent Island\" data center AI inference cards. Going under the name Intel GPU D-Series, the D270 will offer 1.3 PLFOPs of dense FP8 and 1.5TB/second of memory bandwidth The post Inte",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T19:25:28.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-4v2xug",
+      "title": "Airrived Agentic OS Named a Gartner Cool Vendor in Agentic AI Security, With Air-Gapped Deployment",
+      "url": "https://www.storagereview.com/news/airrived-agentic-os-gartner-cool-vendor-agentic-ai-security",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Airrived has been named a Cool Vendor in Gartner’s Coolest Vendor Innovations in Agentic AI Security report, published October 2. The Dublin, California firm sells what it calls an Agentic OS, a platform for building, orchestrating, and governing autonomous AI agents across cyber",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T18:00:17.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dgp50e",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over th",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dgp5us",
+      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+      "url": "https://arxiv.org/abs/2610.12598",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging",
+      "whyItMatters": "Touches software engineering, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.5,
+      "tags": [
+        "software engineering",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-dgp862",
+      "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+      "url": "https://arxiv.org/abs/2610.12813",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, a",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dgp88z",
+      "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
+      "url": "https://arxiv.org/abs/2610.12849",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.12849v1 Announce Type: new Abstract: Current software engineering agents are evaluated predominantly inside isolated sandboxes against synchronous local tests. However, deploying features in collaborative repositories requires modifying continuous integration (CI/CD) p",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-8oomno",
+      "title": "Microsoft Maia 300 Puts 288GB of HBM4 at 18TB/s on an N2P Chiplet and 96 Accelerators in a 167kW Rack",
+      "url": "https://www.storagereview.com/news/microsoft-maia-300-hbm4-n2p-chiplet-96-accelerator-rack",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Microsoft unveiled Azure Maia 300 today at the OCP Global Summit, the third generation of its in-house inference accelerator and the first built as a multi-chiplet part. Each accelerator pairs a TSMC N2P compute die with eight HBM4 stacks for 288GB of memory at 18TB/s inside a 95",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-12T19:45:29.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.4,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-bxtnac",
+      "title": "Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders",
+      "url": "https://www.servethehome.com/marvell-structera-x-3406-and-3506-cxl-3-2-memory-expanders/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "The new Structera X 3406 and Structera X 3506 offer six channels and up to 18 DIMMs per controller for CXL 3.2 memory expansion The post Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders appeared first on ServeTheHome .",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-12T16:58:48.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7.3,
+      "tags": [
+        "cxl"
+      ]
+    },
+    {
+      "id": "sig-iiugx1",
+      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2844",
+      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-06T20:14:19Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "finance"
+      ]
+    },
+    {
+      "id": "sig-it5n6c",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "career",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1w08qhh",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
+      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1vh9k9e",
+      "title": "I don't like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "martinfowler.com",
+      "category": "ai",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
+      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-09-17T13:50:00.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1c4vly0",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
+      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-10T23:58:04.000Z",
+      "fetchedAt": "2026-10-12T23:46:59.577Z",
+      "score": 6.7,
+      "tags": [
+        "python",
+        "github"
       ]
     },
     {
@@ -34,234 +341,6 @@
         "nvme",
         "qlc",
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-n0q8tl",
-      "title": "NVIDIA and Cisco USFP Optics Target 400Gb/s per Lane, With MGX 1.2 and DSX OS Updates at OCP 2026",
-      "url": "https://www.storagereview.com/news/nvidia-cisco-usfp-optics-400gbps-per-lane-ocp-2026",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA and Cisco announced plans today for Ultra-Dense Small Form Factor Pluggable (USFP), an optical module format built for 400Gb/s-per-lane Ethernet in AI fabrics. The first planned transceivers put 16 full-duplex lanes in a footprint about the size of an OSFP module, which wo",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-12T15:38:13.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 8.9,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-gb5izf",
-      "title": "AMD Helion Agentic AI Rack Packs Up to 32,768 EPYC Cores in an Open OCP Blueprint",
-      "url": "https://www.storagereview.com/news/amd-helion-agentic-ai-rack-32768-epyc-cores",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD introduced Helion today, an open rack reference design for agentic AI that builds on its Helios rack-scale platform. Helion comes in two versions: a CPU-only rack for hyperscalers with up to 32,768 Zen 6 cores from 6th Gen EPYC 9006 Series processors, and an all-in-one enterp",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-12T15:14:28.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 8.9,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1r0gpa7",
-      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-      "url": "https://blog.cloudflare.com/agentic-security-operations/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 8.5,
-      "tags": [
-        "telemetry",
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1ekll4w",
-      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
-      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-dgp50e",
-      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "url": "https://arxiv.org/abs/2610.12493",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over th",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dgp5us",
-      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
-      "url": "https://arxiv.org/abs/2610.12598",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging",
-      "whyItMatters": "Touches software engineering, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7.6,
-      "tags": [
-        "software engineering",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-dgp862",
-      "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
-      "url": "https://arxiv.org/abs/2610.12813",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.12813v1 Announce Type: new Abstract: LLM agents increasingly operate over sensitive resources, such as private documents and mutable system states, which can create serious safety and security risks. Runtime guardrails should therefore make inspectable, reproducible, a",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-dgp88z",
-      "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
-      "url": "https://arxiv.org/abs/2610.12849",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.12849v1 Announce Type: new Abstract: Current software engineering agents are evaluated predominantly inside isolated sandboxes against synchronous local tests. However, deploying features in collaborative repositories requires modifying continuous integration (CI/CD) p",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-bxtnac",
-      "title": "Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders",
-      "url": "https://www.servethehome.com/marvell-structera-x-3406-and-3506-cxl-3-2-memory-expanders/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Structera X 3406 and Structera X 3506 offer six channels and up to 18 DIMMs per controller for CXL 3.2 memory expansion The post Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders appeared first on ServeTheHome .",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-12T16:58:48.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7.5,
-      "tags": [
-        "cxl"
-      ]
-    },
-    {
-      "id": "sig-iiugx1",
-      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
-      "url": "https://github.com/LosaLosSantos/aurelio-finance",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2723",
-      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T20:14:19Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1c4vly0",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-10T23:58:04.000Z",
-      "fetchedAt": "2026-10-12T17:44:55.148Z",
-      "score": 6.8,
-      "tags": [
-        "python",
-        "github"
       ]
     },
     {
@@ -1896,86 +1975,6 @@
       "score": 6.3,
       "tags": [
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1p1psyb",
-      "title": "The Hidden Challenges of Edge AI Design",
-      "url": "https://semiengineering.com/the-hidden-challenges-of-edge-ai-design/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "As models evolve faster than silicon cycles, chip architects must balance flexible compute, data movement, and defense-in-depth security. The post The Hidden Challenges of Edge AI Design appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-01T07:13:48.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1hb76ur",
-      "title": "nykooi1/vibe-wise (Python) — trending new repo",
-      "url": "https://github.com/nykooi1/vibe-wise",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude Code plugin that helps you learn how to build while AI writes the code. · ★ 1646",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-29T01:29:57Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-77hcvr",
-      "title": "GitHub Actions Has Problems",
-      "url": "https://www.githubstatus.com/incidents/3q1yb5m7ltvb",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "24 points on Hacker News",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-05T20:09:12Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 6.5,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1azqiby",
-      "title": "Row-Parallel DRAM Computing Cuts Data-Reorganization Overhead (Syracuse, FAU, TU Dresden)",
-      "url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at Syracuse University, Friedrich-Alexander-Universität Erlangen-Nürnberg, and TU Dresden published a technical paper titled “RAPID: Row-Parallel Arithmetic Processing in DRAM.” Abstract Excerpt: “Processing-using-memory (PUM) architectures perform computation directl",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-05T18:16:28.000Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 6.4,
-      "tags": [
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-kz49o0",
-      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "209 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T17:53:35Z",
-      "fetchedAt": "2026-10-05T20:41:21.441Z",
-      "score": 6.4,
-      "tags": [
-        "openai"
       ]
     }
   ]
