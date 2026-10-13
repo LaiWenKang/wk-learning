@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:31:25.434Z",
+  "generatedAt": "2026-10-13T23:03:07.364Z",
   "signals": [
     {
       "id": "sig-1prw3gt",
@@ -10,8 +10,8 @@
       "summary": "Marvell announced its second-generation Structera X CXL memory expanders at the OCP Global Summit, moving the line to six memory channels, four-host sharing, and a PCIe 6.0 x16 host link. The Structera X 3406 drives 18 DDR4 RDIMM slots for up to 9TB behind one controller, and the",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-13T14:20:10.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "cxl",
@@ -27,8 +27,8 @@
       "summary": "Intel today gave Crescent Island its product name at the OCP Global Summit. The Intel GPU D-series is built on the Xe3P architecture and pairs up to 480GB of LPDDR5X with 1.5TB/s of memory bandwidth and 1.3 petaflops of FP8 compute, all inside a 350W air-cooled PCIe card. The 480",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-12T19:25:00.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 9.4,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 9.2,
       "tags": [
         "pcie",
         "ocp"
@@ -43,8 +43,8 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 8.8,
       "tags": [
         "cxl",
         "ai"
@@ -59,8 +59,8 @@
       "summary": "M3D mem-TFT neuromorphic computing; 2D semiconductor nucleation; ultrathin high-κ dielectrics; hyper-NA EUV litho; bit-flip attack detection in AI accelerators; programmable DRAM controllers; foundry-compatible photonic bends. The post Chip Industry Technical Paper Roundup: Oct. ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-13T07:01:36.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "semiconductor",
@@ -76,7 +76,7 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
       "score": 8.5,
       "tags": [
         "telemetry",
@@ -85,35 +85,50 @@
       ]
     },
     {
-      "id": "sig-n0q8tl",
-      "title": "NVIDIA and Cisco USFP Optics Target 400Gb/s per Lane, With MGX 1.2 and DSX OS Updates at OCP 2026",
-      "url": "https://www.storagereview.com/news/nvidia-cisco-usfp-optics-400gbps-per-lane-ocp-2026",
-      "source": "StorageReview",
+      "id": "sig-eht50m",
+      "title": "Agentic AI Automates RTL Waveform Analysis And Debugging (Columbia, Google)",
+      "url": "https://semiengineering.com/agentic-ai-automates-rtl-waveform-analysis-and-debugging-columbia-google/",
+      "source": "Semiconductor Engineering",
       "category": "ai",
-      "summary": "NVIDIA and Cisco announced plans today for Ultra-Dense Small Form Factor Pluggable (USFP), an optical module format built for 400Gb/s-per-lane Ethernet in AI fabrics. The first planned transceivers put 16 full-duplex lanes in a footprint about the size of an OSFP module, which wo",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-12T15:38:13.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 8.3,
+      "summary": "Researchers at Columbia University, Google DeepMind, and Google published a technical paper titled “Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification.” Abstract “The unprecedented computational scale of modern artificial intelligenc",
+      "whyItMatters": "Touches ai, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-13T20:20:40.000Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.9,
       "tags": [
-        "ocp",
-        "ai"
+        "ai",
+        "debugging"
       ]
     },
     {
-      "id": "sig-gb5izf",
-      "title": "AMD Helion Agentic AI Rack Packs Up to 32,768 EPYC Cores in an Open OCP Blueprint",
-      "url": "https://www.storagereview.com/news/amd-helion-agentic-ai-rack-32768-epyc-cores",
+      "id": "sig-vn44mu",
+      "title": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
+      "url": "https://www.storagereview.com/news/msi-ocp-2026-liquid-cooled-cg681-s6093-mgx-rack-32-rtx-pro-6000",
       "source": "StorageReview",
-      "category": "ai",
-      "summary": "AMD introduced Helion today, an open rack reference design for agentic AI that builds on its Helios rack-scale platform. Helion comes in two versions: a CPU-only rack for hyperscalers with up to 32,768 Zen 6 cores from 6th Gen EPYC 9006 Series processors, and an all-in-one enterp",
+      "category": "semiconductor",
+      "summary": "MSI is showing a 48RU NVIDIA MGX rack at the OCP Global Summit in San Jose this week, built from four liquid-cooled CG681-S6093 servers stacked under an NVIDIA Spectrum-4 SN5600 switch and an SN2201 out-of-band switch. Each 6U server takes up to eight NVIDIA RTX PRO 6000 Blackwel",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-12T15:14:28.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 8.2,
+      "publishedAt": "2026-10-13T20:39:13.000Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.4,
       "tags": [
-        "ocp",
-        "ai"
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-ua2f9m",
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T23:58:46.000Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -125,8 +140,8 @@
       "summary": "",
       "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-13T14:37:27.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.3,
       "tags": [
         "kioxia"
       ]
@@ -140,8 +155,8 @@
       "summary": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DN",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T22:34:47.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "performance"
@@ -156,11 +171,43 @@
       "summary": "Intel today has unveiled its official performance specifications and branding for its upcoming \"Crescent Island\" data center AI inference cards. Going under the name Intel GPU D-Series, the D270 will offer 1.3 PLFOPs of dense FP8 and 1.5TB/second of memory bandwidth The post Inte",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T19:25:28.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-16gd5w2",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 597 # Comments: 291",
+      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T18:29:04.000Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.2,
+      "tags": [
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1pstfdu",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "https://gist.github.com/svieira/619d60dea942a8d4498cba3bb6b1... Comments URL: https://news.ycombinator.com/item?id=50060269 Points: 301 # Comments: 175",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-12T18:00:25.000Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "github"
       ]
     },
     {
@@ -172,8 +219,8 @@
       "summary": "Airrived has been named a Cool Vendor in Gartner’s Coolest Vendor Innovations in Agentic AI Security report, published October 2. The Dublin, California firm sells what it calls an Agentic OS, a platform for building, orchestrating, and governing autonomous AI agents across cyber",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T18:00:17.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "security"
@@ -188,8 +235,8 @@
       "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-12T15:54:36.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 7.1,
       "tags": [
         "llm",
         "python"
@@ -204,8 +251,8 @@
       "summary": "Microsoft unveiled Azure Maia 300 today at the OCP Global Summit, the third generation of its in-house inference accelerator and the first built as a multi-chiplet part. Each accelerator pairs a TSMC N2P compute die with eight HBM4 stacks for 288GB of memory at 18TB/s inside a 95",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-12T19:45:29.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 6.9,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 6.7,
       "tags": [
         "ocp"
       ]
@@ -219,97 +266,51 @@
       "summary": "The new Structera X 3406 and Structera X 3506 offer six channels and up to 18 DIMMs per controller for CXL 3.2 memory expansion The post Marvell Structera X 3406 and 3506 CXL 3.2 Memory Expanders appeared first on ServeTheHome .",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-12T16:58:48.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 6.8,
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
+      "score": 6.7,
       "tags": [
         "cxl"
       ]
     },
     {
-      "id": "sig-161wbmb",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-13T17:56:33.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 6.5,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-e1oogs",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "id": "sig-10oejxj",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "126 points on Hacker News",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T15:49:56Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 6.4,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1024xw1",
-      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-      "url": "https://news.ycombinator.com/item?id=50073471",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "25 points on Hacker News",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T15:41:00Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1t1vwmq",
-      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "119 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T15:25:50Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
+      "publishedAt": "2026-10-13T21:01:12Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
       "score": 6.4,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-b6bbnl",
-      "title": "Lightwell Has Fixed 400 Previously Unknown Java Vulnerabilities as IBM and Red Hat Open Clearinghouse for Priority Patches",
-      "url": "https://www.storagereview.com/news/lightwell-400-java-vulnerabilities-clearinghouse-generally-available",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "IBM and Red Hat said on October 6 that Lightwell, the open-source security program the two companies funded with $5 billion in May, has found, fixed, and backported patches for more than 400 previously unknown vulnerabilities in widely used Java libraries. The same announcement m",
-      "whyItMatters": "Touches security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-13T14:48:31.000Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
+      "id": "sig-dzwnav",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "236 points on Hacker News",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-13T20:23:55Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
       "score": 6.4,
       "tags": [
-        "security"
+        "openai"
       ]
     },
     {
-      "id": "sig-18ll79l",
-      "title": "How to engineer an AI harness for game development",
-      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "id": "sig-1668tap",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "45 points on Hacker News",
+      "summary": "23 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T14:14:23Z",
-      "fetchedAt": "2026-10-13T18:31:25.434Z",
+      "publishedAt": "2026-10-13T19:50:31Z",
+      "fetchedAt": "2026-10-13T23:03:07.364Z",
       "score": 6.4,
       "tags": [
         "ai"
