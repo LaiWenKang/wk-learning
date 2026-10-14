@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T06:43:51.777Z",
+  "generatedAt": "2026-10-14T12:26:37.198Z",
   "signals": [
     {
       "id": "sig-1prw3gt",
@@ -10,12 +10,29 @@
       "summary": "Marvell announced its second-generation Structera X CXL memory expanders at the OCP Global Summit, moving the line to six memory channels, four-host sharing, and a PCIe 6.0 x16 host link. The Structera X 3406 drives 18 DDR4 RDIMM slots for up to 9TB behind one controller, and the",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-13T14:20:10.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 9.5,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 9.4,
       "tags": [
         "pcie",
         "cxl",
         "ocp"
+      ]
+    },
+    {
+      "id": "sig-1i5667g",
+      "title": "How To Define CPU And Software Stack Performance For Agentic AI",
+      "url": "https://semiengineering.com/how-to-define-cpu-and-software-stack-performance-for-agentic-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Measuring the performance demands of agentic AI; assessing CPU bottlenecks, SW stack efficiency, and system-level tradeoffs. The post How To Define CPU And Software Stack Performance For Agentic AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-14T07:04:19.000Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "performance"
       ]
     },
     {
@@ -27,8 +44,8 @@
       "summary": "Intel today gave Crescent Island its product name at the OCP Global Summit. The Intel GPU D-series is built on the Xe3P architecture and pairs up to 480GB of LPDDR5X with 1.5TB/s of memory bandwidth and 1.3 petaflops of FP8 compute, all inside a 350W air-cooled PCIe card. The 480",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-12T19:25:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.9,
       "tags": [
         "pcie",
         "ocp"
@@ -43,28 +60,12 @@
       "summary": "arXiv:2610.15205v1 Announce Type: new Abstract: Efficient task scheduling in heterogeneous computing systems remains a fundamental challenge in embedded and high-level synthesis flows. This paper presents MoSAIC (Motif-aware Scheduling with AI-driven Cognition), a learning-based ",
       "whyItMatters": "Touches ai, llm, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "llm",
         "embedded"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8.6,
-      "tags": [
-        "cxl",
-        "ai"
       ]
     },
     {
@@ -76,12 +77,28 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
       "score": 8.5,
       "tags": [
         "telemetry",
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.4,
+      "tags": [
+        "cxl",
+        "ai"
       ]
     },
     {
@@ -93,8 +110,8 @@
       "summary": "M3D mem-TFT neuromorphic computing; 2D semiconductor nucleation; ultrathin high-κ dielectrics; hyper-NA EUV litho; bit-flip attack detection in AI accelerators; programmable DRAM controllers; foundry-compatible photonic bends. The post Chip Industry Technical Paper Roundup: Oct. ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-13T07:01:36.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "semiconductor",
@@ -107,11 +124,11 @@
       "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 1023",
+      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 1120",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-13T03:09:42Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8.2,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8.1,
       "tags": [
         "claude code",
         "claude",
@@ -127,8 +144,8 @@
       "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
       "whyItMatters": "Touches claude, python, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-13T01:40:05.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8.2,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 8,
       "tags": [
         "claude",
         "python",
@@ -136,19 +153,35 @@
       ]
     },
     {
-      "id": "sig-a0ocpj",
-      "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-      "source": "Hacker News (front page)",
+      "id": "sig-1ni6gkr",
+      "title": "Generative AI On A General-Purpose Neural Processor (GPNPU)",
+      "url": "https://semiengineering.com/generative-ai-on-a-general-purpose-neural-processor-gpnpu/",
+      "source": "Semiconductor Engineering",
       "category": "ai",
-      "summary": "36 points on Hacker News",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-14T05:53:36Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8,
+      "summary": "A single processor architecture that unifies scalar, vector, and matrix execution in one ISA and one C++ programming model. The post Generative AI On A General-Purpose Neural Processor (GPNPU) appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-14T07:03:02.000Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.9,
       "tags": [
         "ai",
-        "anthropic"
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-16kz2b1",
+      "title": "Accelerating Advanced IC Package Design: A Methodology for Early and Iterative Optimization of Chiplet Integration",
+      "url": "https://semiengineering.com/accelerating-advanced-ic-package-design-a-methodology-for-early-and-iterative-optimization-of-chiplet-integration/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Optimizing chiplet integration, power integrity, and performance through early-stage IC package design and analysis. The post Accelerating Advanced IC Package Design: A Methodology for Early and Iterative Optimization of Chiplet Integration appeared first on Semiconductor Enginee",
+      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-14T07:02:00.000Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
+      "tags": [
+        "semiconductor",
+        "performance"
       ]
     },
     {
@@ -160,8 +193,8 @@
       "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
@@ -176,8 +209,8 @@
       "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "communication"
@@ -192,8 +225,8 @@
       "summary": "arXiv:2610.14216v1 Announce Type: new Abstract: Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call these files",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -208,8 +241,8 @@
       "summary": "arXiv:2610.14244v1 Announce Type: new Abstract: We perform the first comprehensive experimental characterization of power consumed by real HBM2 DRAM chips. Our extensive characterization yields 1) the empirical basis for developing new, accurate HBM power models or validating exi",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
       "tags": [
         "dram",
         "hbm"
@@ -224,8 +257,8 @@
       "summary": "arXiv:2610.14280v1 Announce Type: new Abstract: Emerging dataflow accelerators offer exceptional energy efficiency and throughput for machine learning workloads, yet remain largely opaque to developers for performance analysis. Unlike CPUs and GPUs, where instrumentation framewor",
       "whyItMatters": "Touches machine learning, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-14T04:00:00.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.8,
       "tags": [
         "machine learning",
         "performance"
@@ -240,11 +273,27 @@
       "summary": "Researchers at Columbia University, Google DeepMind, and Google published a technical paper titled “Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification.” Abstract “The unprecedented computational scale of modern artificial intelligenc",
       "whyItMatters": "Touches ai, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-13T20:20:40.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "debugging"
+      ]
+    },
+    {
+      "id": "sig-1f03d85",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "source": "Hacker News Best",
+      "category": "programming",
+      "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250 Comments URL: https://news.ycombinator.com/item?id=50069499 Points: 723 # Comments: 409",
+      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-13T10:27:00.000Z",
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.3,
+      "tags": [
+        "rust",
+        "github"
       ]
     },
     {
@@ -253,11 +302,11 @@
       "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. · ★ 1760",
+      "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. · ★ 1941",
       "whyItMatters": "Touches ai, openai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-11T19:10:25Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "openai",
@@ -273,57 +322,10 @@
       "summary": "MSI is showing a 48RU NVIDIA MGX rack at the OCP Global Summit in San Jose this week, built from four liquid-cooled CG681-S6093 servers stacked under an NVIDIA Spectrum-4 SN5600 switch and an SN2201 out-of-band switch. Each 6U server takes up to eight NVIDIA RTX PRO 6000 Blackwel",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-13T20:39:13.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-14T12:26:37.198Z",
+      "score": 7.1,
       "tags": [
         "ocp"
-      ]
-    },
-    {
-      "id": "sig-1dsl19q",
-      "title": "Kioxia adds liquid-cooling to CM9 SSDs for hot rack environments",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/13/kioxia-adds-liquid-cooling-to-cm9-ssds-for-hot-rack-environments/5302663",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-13T14:37:27.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-ua2f9m",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T23:58:46.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1bi02lc",
-      "title": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
-      "url": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DN",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T22:34:47.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "performance"
       ]
     }
   ]
