@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-10-15T12:41:04.811Z",
+  "updatedAt": "2026-10-15T17:23:21.260Z",
   "signals": [
+    {
+      "id": "sig-1rvenzi",
+      "title": "Samsung CXL Memory Pooling Demo With AMD at OCP 2026 Claims 38 Percent Lower TTFT and 3.3x Goodput for Agentic AI",
+      "url": "https://www.storagereview.com/news/samsung-cxl-memory-pooling-amd-ocp-2026-cmm-d-agentic-ai",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-15T16:56:10.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 10,
+      "tags": [
+        "cxl",
+        "ocp",
+        "ai"
+      ]
+    },
     {
       "id": "sig-1a8jctj",
       "title": "SK hynix disaggregating SSD controller cores",
@@ -10,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,11 +44,44 @@
       "summary": "Supermicro announced an expanded line of Open Compute Project Accepted systems, racks, and rear door heat exchangers, all delivered through its Data Center Building Block Solutions (DCBBS) program and on display at booth B4 at the OCP Global Summit in San Jose through October 15.",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-14T15:26:03.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 9.4,
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 9.3,
       "tags": [
         "ocp",
         "open compute"
+      ]
+    },
+    {
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.7,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ab5y22",
+      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
+      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-15T07:06:02.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.7,
+      "tags": [
+        "semiconductor",
+        "performance",
+        "reliability"
       ]
     },
     {
@@ -43,8 +93,8 @@
       "summary": "arXiv:2610.18891v1 Announce Type: new Abstract: The semiconductor workforce shortage has renewed interest in making chip design accessible to students without conventional very-large-scale integration (VLSI) training. We present the AI Hardware Design League (AI-HDL), an internat",
       "whyItMatters": "Touches ai, llm, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 8.8,
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -60,12 +110,29 @@
       "summary": "Marvell announced its second-generation Structera X CXL memory expanders at the OCP Global Summit, moving the line to six memory channels, four-host sharing, and a PCIe 6.0 x16 host link. The Structera X 3406 drives 18 DDR4 RDIMM slots for up to 9TB behind one controller, and the",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-13T14:20:10.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.6,
       "tags": [
         "pcie",
         "cxl",
         "ocp"
+      ]
+    },
+    {
+      "id": "sig-1j2b0yf",
+      "title": "rociiu/talorys (TypeScript) — trending new repo",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1095",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-10-10T09:46:56Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.5,
+      "tags": [
+        "telemetry",
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -77,28 +144,187 @@
       "summary": "Published October 14, 2026. Five PCIe accelerators ranked on one vLLM container and one model set, with the H100 NVL in Also Tested; the H200 NVL carries a power note explained below. Every accelerator ranked on this page has been through the StorageReview lab as a single PCIe ca",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-14T21:19:15.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 8.4,
       "tags": [
         "pcie",
         "ai"
       ]
     },
     {
-      "id": "sig-1j2b0yf",
-      "title": "rociiu/talorys (TypeScript) — trending new repo",
-      "url": "https://github.com/rociiu/talorys",
-      "source": "GitHub trending new repos (search API)",
+      "id": "sig-1ejf34g",
+      "title": "Cloudflare and OpenAI: making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "source": "Cloudflare Blog",
       "category": "ai",
-      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1042",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-10T09:46:56Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 8.5,
+      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.9,
       "tags": [
-        "telemetry",
         "ai",
-        "typescript"
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1k98ki",
+      "title": "IBM Storage Ceph accelerates cluster performance",
+      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-15T09:35:51.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.8,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-rkqif0",
+      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
+      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:03:05.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1qptntw",
+      "title": "Why Open-Weight AI Matters",
+      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:02:13.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1i68z3h",
+      "title": "Agentic AI Alters The CPU-GPU Balance",
+      "url": "https://semiengineering.com/agentic-ai-alters-the-cpu-gpu-balance/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Agentic workloads increase CPU demand, while reasoning models, MoE architectures, and reservoir computing fuel AI acceleration. The post Agentic AI Alters The CPU-GPU Balance appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:01:24.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1vm8dy3",
+      "title": "How Close Are We To Fully Autonomous Chip Design?",
+      "url": "https://semiengineering.com/how-close-are-we-to-fully-autonomous-chip-design/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Synopsys CEO Sassine Ghazi talks about AI agents, the limits of autonomous engineering, digital twins, and the challenges facing 3D-ICs. The post How Close Are We To Fully Autonomous Chip Design? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-15T07:01:10.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-4nhjx6",
+      "title": "Thermal Co-Simulation Testing Of Co-Packaged Optics",
+      "url": "https://semiengineering.com/thermal-co-simulation-testing-of-co-packaged-optics/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Ensuring optical engines can operate reliably alongside high-power AI processors in multi-chip packages. The post Thermal Co-Simulation Testing Of Co-Packaged Optics appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-15T07:01:01.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-dgqkvp",
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "url": "https://arxiv.org/abs/2610.14005",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dgqmqo",
+      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+      "url": "https://arxiv.org/abs/2610.14277",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
+      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.6,
+      "tags": [
+        "llm",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-dgui7a",
+      "title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
+      "url": "https://arxiv.org/abs/2610.19368",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.19368v1 Announce Type: new Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they p",
+      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.6,
+      "tags": [
+        "software engineering",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-15T17:23:21.260Z",
+      "score": 7.6,
+      "tags": [
+        "cxl",
+        "ai"
       ]
     },
     {
@@ -116,86 +342,6 @@
         "telemetry",
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1k98ki",
-      "title": "IBM Storage Ceph accelerates cluster performance",
-      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 7.9,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dgqkvp",
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "url": "https://arxiv.org/abs/2610.14005",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dgqmqo",
-      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
-      "url": "https://arxiv.org/abs/2610.14277",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
-      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-dgui7a",
-      "title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
-      "url": "https://arxiv.org/abs/2610.19368",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2610.19368v1 Announce Type: new Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they p",
-      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 7.8,
-      "tags": [
-        "software engineering",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-15T12:41:04.811Z",
-      "score": 7.7,
-      "tags": [
-        "cxl",
-        "ai"
       ]
     },
     {
@@ -343,22 +489,6 @@
         "ai",
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-4nhjx6",
-      "title": "Thermal Co-Simulation Testing Of Co-Packaged Optics",
-      "url": "https://semiengineering.com/thermal-co-simulation-testing-of-co-packaged-optics/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Ensuring optical engines can operate reliably alongside high-power AI processors in multi-chip packages. The post Thermal Co-Simulation Testing Of Co-Packaged Optics appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-15T07:01:01.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -2162,37 +2292,6 @@
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1sj5lpf",
-      "title": "pingdotgg/ts-rust (Rust) — trending new repo",
-      "url": "https://github.com/pingdotgg/ts-rust",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "An experimental Rust port of the TypeScript 7 compiler (tsc) · ★ 630",
-      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-07T05:17:07Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 7.1,
-      "tags": [
-        "typescript",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-c03zom",
-      "title": "Xinnor xiRAID Classic 4.4.1 Adds NVMe Discard Support and Multipath RAID Members",
-      "url": "https://www.storagereview.com/news/xinnor-xiraid-classic-4-4-1-nvme-discard-support-multipath",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Xinnor released xiRAID Classic 4.4.1 on October 7 with discard support, so the file system’s notice that a block is free now passes through the RAID layer to the NVMe drives underneath. The target is read-intensive NVMe SSDs, which ship with less spare capacity than mixed-use or ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-07T16:05:18.000Z",
-      "fetchedAt": "2026-10-08T14:50:58.907Z",
-      "score": 6.9,
-      "tags": [
-        "nvme"
       ]
     }
   ]
