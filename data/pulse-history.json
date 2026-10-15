@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-10-15T07:17:26.625Z",
+  "updatedAt": "2026-10-15T12:41:04.811Z",
   "signals": [
+    {
+      "id": "sig-1a8jctj",
+      "title": "SK hynix disaggregating SSD controller cores",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/15/sk-hynix-disaggregating-ssd-controller-cores/5303240",
+      "source": "Blocks & Files",
+      "category": "firmware",
+      "summary": "",
+      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
+      "publishedAt": "2026-10-15T11:11:00.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "ssd controller",
+        "sk hynix"
+      ]
+    },
     {
       "id": "sig-1qrzhiw",
       "title": "Supermicro OCP Accepted Portfolio Adds 48V Busbar ORv3 Racks, a 250 kW In-Rack CDU, and a 102.4 Tbps CPO Switch",
@@ -10,8 +27,8 @@
       "summary": "Supermicro announced an expanded line of Open Compute Project Accepted systems, racks, and rear door heat exchangers, all delivered through its Data Center Building Block Solutions (DCBBS) program and on display at booth B4 at the OCP Global Summit in San Jose through October 15.",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-14T15:26:03.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 9.6,
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 9.4,
       "tags": [
         "ocp",
         "open compute"
@@ -26,8 +43,8 @@
       "summary": "arXiv:2610.18891v1 Announce Type: new Abstract: The semiconductor workforce shortage has renewed interest in making chip design accessible to students without conventional very-large-scale integration (VLSI) training. We present the AI Hardware Design League (AI-HDL), an internat",
       "whyItMatters": "Touches ai, llm, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "llm",
@@ -43,8 +60,8 @@
       "summary": "Marvell announced its second-generation Structera X CXL memory expanders at the OCP Global Summit, moving the line to six memory channels, four-host sharing, and a PCIe 6.0 x16 host link. The Structera X 3406 drives 18 DDR4 RDIMM slots for up to 9TB behind one controller, and the",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-13T14:20:10.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 8.7,
       "tags": [
         "pcie",
         "cxl",
@@ -60,8 +77,8 @@
       "summary": "Published October 14, 2026. Five PCIe accelerators ranked on one vLLM container and one model set, with the H100 NVL in Also Tested; the H200 NVL carries a power note explained below. Every accelerator ranked on this page has been through the StorageReview lab as a single PCIe ca",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-14T21:19:15.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 8.6,
       "tags": [
         "pcie",
         "ai"
@@ -73,10 +90,10 @@
       "url": "https://github.com/rociiu/talorys",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1010",
+      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1042",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-10T09:46:56Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
       "score": 8.5,
       "tags": [
         "telemetry",
@@ -93,12 +110,222 @@
       "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-07T16:30:36.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
       "score": 8.5,
       "tags": [
         "telemetry",
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1k98ki",
+      "title": "IBM Storage Ceph accelerates cluster performance",
+      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-15T09:35:51.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.9,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dgqkvp",
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "url": "https://arxiv.org/abs/2610.14005",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dgqmqo",
+      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+      "url": "https://arxiv.org/abs/2610.14277",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
+      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-dgui7a",
+      "title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
+      "url": "https://arxiv.org/abs/2610.19368",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.19368v1 Announce Type: new Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they p",
+      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.8,
+      "tags": [
+        "software engineering",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.7,
+      "tags": [
+        "cxl",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1hpx61f",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-14T21:23:01.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.6,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1q6izec",
+      "title": "GitHub availability report: September 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-14T20:01:35.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.5,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-113huhm",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 1754",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-13T03:09:42Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.4,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-dnu5v0",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
+      "whyItMatters": "Touches claude, python, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-13T01:40:05.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7.4,
+      "tags": [
+        "claude",
+        "python",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1u8r355",
+      "title": "zhuyansen/new-term-radar (Python) — trending new repo",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1006",
+      "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-12T07:11:01Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1k5o110",
+      "title": "YeonwooSung/my-claude-code-mods (TypeScript) — trending new repo",
+      "url": "https://github.com/YeonwooSung/my-claude-code-mods",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Custom Claude Code Mods that I need · ★ 812",
+      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-09T13:09:11Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-557b2g",
+      "title": "Astera Labs Orion Scales 8 to 160 Accelerators on a 320-Lane PCIe Fabric With Any GPU, as Aries 7 Brings PCIe 7 Retimers and Optics",
+      "url": "https://www.storagereview.com/news/astera-labs-orion-rack-reference-design-160-accelerators-pcie-fabric-aries-7-pcie-7",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Astera Labs has announced Orion, a rack-scale reference design that lets a neocloud or enterprise pick its GPUs and CPUs after the rack is built. Accelerators arrive as PCIe plug-in cards, and a 320-lane PCIe switch fabric scales a pod from 8 to 160 of them, so an operator can de",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-14T15:32:43.000Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 6.9,
+      "tags": [
+        "pcie"
+      ]
+    },
+    {
+      "id": "sig-153uvcz",
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "15 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:20:39Z",
+      "fetchedAt": "2026-10-15T12:41:04.811Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -135,102 +362,6 @@
       ]
     },
     {
-      "id": "sig-dgqkvp",
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "url": "https://arxiv.org/abs/2610.14005",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dgqmqo",
-      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
-      "url": "https://arxiv.org/abs/2610.14277",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
-      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.9,
-      "tags": [
-        "llm",
-        "communication"
-      ]
-    },
-    {
-      "id": "sig-dgui7a",
-      "title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
-      "url": "https://arxiv.org/abs/2610.19368",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2610.19368v1 Announce Type: new Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they p",
-      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.9,
-      "tags": [
-        "software engineering",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.9,
-      "tags": [
-        "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1hpx61f",
-      "title": "Tree Appreciator",
-      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-14T21:23:01.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.7,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1q6izec",
-      "title": "GitHub availability report: September 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-14T20:01:35.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.7,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
       "id": "sig-1o0ban8",
       "title": "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
       "url": "https://semiengineering.com/characterization-of-hbm-power-consumption-eth-zurich-nyu/",
@@ -244,40 +375,6 @@
       "tags": [
         "dram",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-113huhm",
-      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 1534",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-13T03:09:42Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.6,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-dnu5v0",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "whyItMatters": "Touches claude, python, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T01:40:05.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.5,
-      "tags": [
-        "claude",
-        "python",
-        "performance"
       ]
     },
     {
@@ -310,21 +407,6 @@
       "tags": [
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-557b2g",
-      "title": "Astera Labs Orion Scales 8 to 160 Accelerators on a 320-Lane PCIe Fabric With Any GPU, as Aries 7 Brings PCIe 7 Retimers and Optics",
-      "url": "https://www.storagereview.com/news/astera-labs-orion-rack-reference-design-160-accelerators-pcie-fabric-aries-7-pcie-7",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Astera Labs has announced Orion, a rack-scale reference design that lets a neocloud or enterprise pick its GPUs and CPUs after the rack is built. Accelerators arrive as PCIe plug-in cards, and a 320-lane PCIe switch fabric scales a pod from 8 to 160 of them, so an operator can de",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-14T15:32:43.000Z",
-      "fetchedAt": "2026-10-15T07:17:26.625Z",
-      "score": 7.1,
-      "tags": [
-        "pcie"
       ]
     },
     {
@@ -2111,54 +2193,6 @@
       "score": 6.9,
       "tags": [
         "nvme"
-      ]
-    },
-    {
-      "id": "sig-13r1sws",
-      "title": "This is BiCS NAND Close Up from Kioxia and Sandisk",
-      "url": "https://www.servethehome.com/this-is-bics-nand-close-up-from-kioxia-and-sandisk/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "We saw BiCS NAND under the microscope at FMS 2026, and thought our readers might like to see close-ups of the packages The post This is BiCS NAND Close Up from Kioxia and Sandisk appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-02T19:55:22.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 9.5,
-      "tags": [
-        "nand",
-        "kioxia",
-        "sandisk"
-      ]
-    },
-    {
-      "id": "sig-a37w21",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-d",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T23:04:13.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7.1,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1fh47d",
-      "title": "HPE ProLiant Gen13 Launches With the First Four AMD EPYC Venice Servers: Eight-GPU DL585a, 256-Core DL525, and OCP XD Nodes",
-      "url": "https://www.storagereview.com/news/hpe-proliant-gen13-first-four-amd-epyc-venice-servers",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "HPE has announced the first four ProLiant Gen13 servers, and all of them run on 6th Gen AMD EPYC, the SP7-socket Venice parts AMD listed last month. The lineup is the two-socket, eight-GPU HPE ProLiant DL585a Gen13, the 1U single-socket HPE ProLiant DL525 Gen13 with up to 256 cor",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-07T13:00:00.000Z",
-      "fetchedAt": "2026-10-08T07:31:20.043Z",
-      "score": 7,
-      "tags": [
-        "ocp"
       ]
     }
   ]
