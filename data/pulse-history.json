@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T23:13:17.460Z",
+  "updatedAt": "2026-10-16T01:24:58.505Z",
   "signals": [
     {
       "id": "sig-1m9pbs1",
@@ -10,7 +10,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,12 +29,29 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 10,
       "tags": [
         "cxl",
         "ocp",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1a8jctj",
+      "title": "SK hynix disaggregating SSD controller cores",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/15/sk-hynix-disaggregating-ssd-controller-cores/5303240",
+      "source": "Blocks & Files",
+      "category": "firmware",
+      "summary": "",
+      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
+      "publishedAt": "2026-10-15T11:11:00.000Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "ssd controller",
+        "sk hynix"
       ]
     },
     {
@@ -46,7 +63,7 @@
       "summary": "Supermicro announced an expanded line of Open Compute Project Accepted systems, racks, and rear door heat exchangers, all delivered through its Data Center Building Block Solutions (DCBBS) program and on display at booth B4 at the OCP Global Summit in San Jose through October 15.",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-14T15:26:03.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 9.1,
       "tags": [
         "ocp",
@@ -62,8 +79,8 @@
       "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 8.5,
       "tags": [
         "pcie",
         "semiconductor"
@@ -78,12 +95,29 @@
       "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 8.5,
       "tags": [
         "semiconductor",
         "performance",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-1j2b0yf",
+      "title": "rociiu/talorys (TypeScript) — trending new repo",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1156",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-10-10T09:46:56Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 8.5,
+      "tags": [
+        "telemetry",
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -95,29 +129,12 @@
       "summary": "arXiv:2610.18891v1 Announce Type: new Abstract: The semiconductor workforce shortage has renewed interest in making chip design accessible to students without conventional very-large-scale integration (VLSI) training. We present the AI Hardware Design League (AI-HDL), an internat",
       "whyItMatters": "Touches ai, llm, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "llm",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1j2b0yf",
-      "title": "rociiu/talorys (TypeScript) — trending new repo",
-      "url": "https://github.com/rociiu/talorys",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1131",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-10T09:46:56Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 8.5,
-      "tags": [
-        "telemetry",
-        "ai",
-        "typescript"
       ]
     },
     {
@@ -129,8 +146,8 @@
       "summary": "Published October 14, 2026. Five PCIe accelerators ranked on one vLLM container and one model set, with the H100 NVL in Also Tested; the H200 NVL carries a power note explained below. Every accelerator ranked on this page has been through the StorageReview lab as a single PCIe ca",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-14T21:19:15.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 8.2,
       "tags": [
         "pcie",
         "ai"
@@ -145,8 +162,8 @@
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T19:39:27.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "github"
@@ -161,11 +178,27 @@
       "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T13:00:00.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 7.7,
       "tags": [
         "ai",
         "openai"
+      ]
+    },
+    {
+      "id": "sig-1k98ki",
+      "title": "IBM Storage Ceph accelerates cluster performance",
+      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-15T09:35:51.000Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.6,
+      "tags": [
+        "storage",
+        "performance"
       ]
     },
     {
@@ -177,8 +210,8 @@
       "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:03:05.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -193,8 +226,8 @@
       "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:02:13.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -209,8 +242,8 @@
       "summary": "Agentic workloads increase CPU demand, while reasoning models, MoE architectures, and reservoir computing fuel AI acceleration. The post Agentic AI Alters The CPU-GPU Balance appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:01:24.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "semiconductor"
@@ -225,7 +258,7 @@
       "summary": "Synopsys CEO Sassine Ghazi talks about AI agents, the limits of autonomous engineering, digital twins, and the challenges facing 3D-ICs. The post How Close Are We To Fully Autonomous Chip Design? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:01:10.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -241,7 +274,7 @@
       "summary": "Ensuring optical engines can operate reliably alongside high-power AI processors in multi-chip packages. The post Thermal Co-Simulation Testing Of Co-Packaged Optics appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:01:01.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
       "score": 7.5,
       "tags": [
         "ai",
@@ -257,8 +290,8 @@
       "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than th",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "llm"
@@ -273,8 +306,8 @@
       "summary": "arXiv:2610.14277v1 Announce Type: new Abstract: Tensor parallelism ends every layer with an all-reduce that sits between two dependent matrix multiplications, so its cost cannot be hidden and grows as compute outpaces interconnect bandwidth. Sending 4-bit instead of 16-bit values",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "communication"
@@ -289,8 +322,8 @@
       "summary": "arXiv:2610.19368v1 Announce Type: new Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they p",
       "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-15T04:00:00.000Z",
-      "fetchedAt": "2026-10-15T23:13:17.460Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-16T01:24:58.505Z",
+      "score": 7.4,
       "tags": [
         "software engineering",
         "github"
@@ -325,39 +358,6 @@
       "score": 7.3,
       "tags": [
         "ocp"
-      ]
-    },
-    {
-      "id": "sig-1a8jctj",
-      "title": "SK hynix disaggregating SSD controller cores",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/15/sk-hynix-disaggregating-ssd-controller-cores/5303240",
-      "source": "Blocks & Files",
-      "category": "firmware",
-      "summary": "",
-      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
-      "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-15T20:29:20.359Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "ssd controller",
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-1k98ki",
-      "title": "IBM Storage Ceph accelerates cluster performance",
-      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-15T20:29:20.359Z",
-      "score": 7.7,
-      "tags": [
-        "storage",
-        "performance"
       ]
     },
     {
@@ -2180,153 +2180,6 @@
       "tags": [
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-dg4fot",
-      "title": "CXDVirt: Low Latency Kernel Module Based CXL-SSD Emulation",
-      "url": "https://arxiv.org/abs/2610.08899",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.08899v1 Announce Type: cross Abstract: CXL-SSDs promise memory-semantic access to NAND-scale capacity through a small in-device DRAM cache, but scarce hardware makes emulation central to CXL-SSD research. Cylon, a state-of-the-art emulator, runs workloads in a VM, inte",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "nand",
-        "cxl",
-        "dram",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-1q5edne",
-      "title": "OpenAI withdraws three mathematical results",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50002650 Points: 242 # Comments: 541",
-      "whyItMatters": "Touches openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T07:05:40.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.5,
-      "tags": [
-        "openai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-dg4gch",
-      "title": "AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails",
-      "url": "https://arxiv.org/abs/2610.08923",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.08923v1 Announce Type: new Abstract: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying o",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dg4giw",
-      "title": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
-      "url": "https://arxiv.org/abs/2610.08993",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.08993v1 Announce Type: new Abstract: As large language models become more powerful, self-evolving agents are able to tackle challenging tasks including AI for machine learning (AI4ML). In AI4ML, while empirical verification is available, it often requires computational",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dg4foq",
-      "title": "Psychological Safety in Software Engineering Teams: A Systematic Mapping Study of Team Processes and Performance",
-      "url": "https://arxiv.org/abs/2610.08896",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.08896v1 Announce Type: new Abstract: Context: Psychological safety is an important human and behavioral factor in software development teams, supporting collaboration, knowledge sharing, interpersonal risk-taking, and learning. However, evidence in software engineering",
-      "whyItMatters": "Touches software engineering, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "software engineering",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dg55i7",
-      "title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
-      "url": "https://arxiv.org/abs/2610.09605",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.09605v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely applied to software vulnerability detection. However, their performance is often limited by insufficient use of control-flow and data-flow information. In this paper, we propose GRAML, a",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dg581q",
-      "title": "Analysis and Visualization of the Linux Kernel's Software Evolution Using the City Metaphor",
-      "url": "https://arxiv.org/abs/2610.09910",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.09910v1 Announce Type: new Abstract: The Linux kernel is one of the largest and longest-maintained open source projects in existence. With more than 40 million lines of code, understanding the kernel's internal structure and assessing its software evolution is a great ",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "linux",
-        "kernel"
-      ]
-    },
-    {
-      "id": "sig-dg583p",
-      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
-      "url": "https://arxiv.org/abs/2610.09935",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.09935v1 Announce Type: new Abstract: Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-dg51fk",
-      "title": "Compiling Semi-Ring Dynamic Programming to Tier-Aware 3D-DRAM Processing-in-Memory",
-      "url": "https://arxiv.org/abs/2610.09156",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "programming",
-      "summary": "arXiv:2610.09156v1 Announce Type: new Abstract: Processing-in-Memory (PIM) on monolithic 3D (M3D) DRAM is a promising answer to the memory wall for data-intensive dynamic programming (DP), yet extracting its performance today demands hand-written kernels: the programmer must pick",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "fetchedAt": "2026-10-09T00:25:39.365Z",
-      "score": 7.4,
-      "tags": [
-        "dram",
-        "performance"
       ]
     }
   ]
