@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T06:17:25.066Z",
+  "updatedAt": "2026-10-16T11:30:17.771Z",
   "signals": [
     {
       "id": "sig-1m9pbs1",
@@ -10,7 +10,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
       "score": 10,
       "tags": [
         "cxl",
@@ -46,7 +46,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -63,8 +63,8 @@
       "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 9,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 8.8,
       "tags": [
         "ocp",
         "ai"
@@ -79,8 +79,8 @@
       "summary": "Supermicro announced an expanded line of Open Compute Project Accepted systems, racks, and rear door heat exchangers, all delivered through its Data Center Building Block Solutions (DCBBS) program and on display at booth B4 at the OCP Global Summit in San Jose through October 15.",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-14T15:26:03.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 8.8,
       "tags": [
         "ocp",
         "open compute"
@@ -92,10 +92,10 @@
       "url": "https://github.com/rociiu/talorys",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1197",
+      "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. · ★ 1223",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-10T09:46:56Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
       "score": 8.5,
       "tags": [
         "telemetry",
@@ -112,8 +112,8 @@
       "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 8.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 8.2,
       "tags": [
         "pcie",
         "semiconductor"
@@ -128,8 +128,8 @@
       "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 8.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 8.2,
       "tags": [
         "semiconductor",
         "performance",
@@ -145,8 +145,8 @@
       "summary": "Published October 14, 2026. Five PCIe accelerators ranked on one vLLM container and one model set, with the H100 NVL in Also Tested; the H200 NVL carries a power note explained below. Every accelerator ranked on this page has been through the StorageReview lab as a single PCIe ca",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-14T21:19:15.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 8.1,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.9,
       "tags": [
         "pcie",
         "ai"
@@ -161,8 +161,8 @@
       "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-16T04:00:00.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
@@ -177,8 +177,8 @@
       "summary": "arXiv:2610.20618v1 Announce Type: new Abstract: AI-powered integrated development environments (IDEs) are increasingly positioned as practical tools for software development, integrating AI assistance into everyday activities such as editing, refactoring, and debugging. However, ",
       "whyItMatters": "Touches ai, debugging — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-16T04:00:00.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "debugging"
@@ -193,8 +193,8 @@
       "summary": "arXiv:2610.20677v1 Announce Type: new Abstract: Programmable receivers allow an optimal performance in the variable conditions of the wireless channel. An extensive analysis of their noise-power trade-off enables the development of a main receiver with embedded wake-up circuitry.",
       "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-10-16T04:00:00.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.8,
       "tags": [
         "embedded",
         "performance"
@@ -209,11 +209,26 @@
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T19:39:27.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "github"
+      ]
+    },
+    {
+      "id": "sig-12ofa3r",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T07:01:05.000Z",
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.4,
+      "tags": [
+        "ocp"
       ]
     },
     {
@@ -225,8 +240,8 @@
       "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T13:00:00.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "openai"
@@ -241,8 +256,8 @@
       "summary": "",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.3,
       "tags": [
         "storage",
         "performance"
@@ -257,8 +272,8 @@
       "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:03:05.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -273,8 +288,8 @@
       "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:02:13.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -289,8 +304,8 @@
       "summary": "Agentic workloads increase CPU demand, while reasoning models, MoE architectures, and reservoir computing fuel AI acceleration. The post Agentic AI Alters The CPU-GPU Balance appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T07:01:24.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -305,8 +320,8 @@
       "summary": "Synopsys CEO Sassine Ghazi talks about AI agents, the limits of autonomous engineering, digital twins, and the challenges facing 3D-ICs. The post How Close Are We To Fully Autonomous Chip Design? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:01:10.000Z",
-      "fetchedAt": "2026-10-16T06:17:25.066Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-16T11:30:17.771Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -2213,37 +2228,6 @@
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-2yf7rm",
-      "title": "Kioxia doubles super-fast flash drive speed",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/08/kioxia-doubles-super-fast-flash-drive-speed/5301892",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-08T15:00:00.000Z",
-      "fetchedAt": "2026-10-09T06:34:25.689Z",
-      "score": 7.1,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-1xlctun",
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back t",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-07T20:56:21.000Z",
-      "fetchedAt": "2026-10-09T06:34:25.689Z",
-      "score": 7.1,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     }
   ]
