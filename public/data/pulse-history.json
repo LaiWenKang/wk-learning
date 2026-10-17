@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T00:16:44.243Z",
+  "updatedAt": "2026-10-17T04:33:56.382Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
       "score": 10,
       "tags": [
         "cxl",
@@ -45,7 +45,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,7 +64,7 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
       "score": 10,
       "tags": [
         "cxl",
@@ -81,7 +81,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -98,11 +98,27 @@
       "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 8.3,
       "tags": [
         "ocp",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-dhd27y",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -111,11 +127,11 @@
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "206 points on Hacker News",
+      "summary": "276 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-16T19:04:47Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7.7,
       "tags": [
         "claude code",
         "claude"
@@ -130,8 +146,8 @@
       "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7.7,
       "tags": [
         "pcie",
         "semiconductor"
@@ -146,8 +162,8 @@
       "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7.7,
       "tags": [
         "semiconductor",
         "performance",
@@ -155,19 +171,165 @@
       ]
     },
     {
-      "id": "sig-dhd27y",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-af0ll",
+      "title": "The next developer interface is ambient intelligence",
+      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "source": "GitHub Blog",
       "category": "ai",
-      "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7.4,
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T19:39:27.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7.1,
       "tags": [
-        "llm",
-        "language model"
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7,
+      "tags": [
+        "cxl",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-113huhm",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2549",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-13T03:09:42Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-dnu5v0",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
+      "whyItMatters": "Touches claude, python, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-13T01:40:05.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7,
+      "tags": [
+        "claude",
+        "python",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1u8r355",
+      "title": "zhuyansen/new-term-radar (Python) — trending new repo",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1067",
+      "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-12T07:11:01Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-12ofa3r",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T07:01:05.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 6.9,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-1ejf34g",
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1k98ki",
+      "title": "IBM Storage Ceph accelerates cluster performance",
+      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-15T09:35:51.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 6.8,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-rkqif0",
+      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
+      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:03:05.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1qptntw",
+      "title": "Why Open-Weight AI Matters",
+      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:02:13.000Z",
+      "fetchedAt": "2026-10-17T04:33:56.382Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -199,136 +361,6 @@
       "score": 7.4,
       "tags": [
         "embedded",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-af0ll",
-      "title": "The next developer interface is ambient intelligence",
-      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T19:39:27.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-12ofa3r",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T07:01:05.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-1ejf34g",
-      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-113huhm",
-      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2514",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-13T03:09:42Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-dnu5v0",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "whyItMatters": "Touches claude, python, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T01:40:05.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "claude",
-        "python",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1u8r355",
-      "title": "zhuyansen/new-term-radar (Python) — trending new repo",
-      "url": "https://github.com/zhuyansen/new-term-radar",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1065",
-      "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-12T07:11:01Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1k98ki",
-      "title": "IBM Storage Ceph accelerates cluster performance",
-      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-17T00:16:44.243Z",
-      "score": 6.9,
-      "tags": [
-        "storage",
         "performance"
       ]
     },
@@ -378,38 +410,6 @@
       "score": 7.4,
       "tags": [
         "flash memory"
-      ]
-    },
-    {
-      "id": "sig-rkqif0",
-      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
-      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T07:03:05.000Z",
-      "fetchedAt": "2026-10-16T18:56:51.090Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1qptntw",
-      "title": "Why Open-Weight AI Matters",
-      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T07:02:13.000Z",
-      "fetchedAt": "2026-10-16T18:56:51.090Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -2180,72 +2180,6 @@
       "tags": [
         "ai",
         "openai"
-      ]
-    },
-    {
-      "id": "sig-dgnn18",
-      "title": "TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution",
-      "url": "https://arxiv.org/abs/2610.10619",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10619v1 Announce Type: new Abstract: Large language model (LLM) agents are rapidly reshaping software engineering, accompanied by an explosion of new code benchmarks. Yet nearly all existing benchmarks still rely on the same decades-old criterion: a solution is correct",
-      "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T02:23:01.127Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-dgnn2w",
-      "title": "Has LLM Screening Performance Stalled in Software Engineering Systematic Reviews?",
-      "url": "https://arxiv.org/abs/2610.10633",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10633v1 Announce Type: new Abstract: Screening in systematic reviews (SRs) is manual and time-consuming. Prior work has explored large language models (LLMs) for automating this step, but LLMs are evolving rapidly, so earlier performance claims may no longer accurately",
-      "whyItMatters": "Touches llm, software engineering, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T02:23:01.127Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "software engineering",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dgnn4w",
-      "title": "Applying Security by Design at the Point of Execution: How Governed Security Requirements Affect the Security of AI-Generated Code",
-      "url": "https://arxiv.org/abs/2610.10659",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10659v1 Announce Type: new Abstract: Security by design asks that security requirements are defined before code is written. Secure-code benchmarks typically measure the opposite situation: the agent receives the task without requirements and is scored with security tes",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T02:23:01.127Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-dgnmd5",
-      "title": "A Survey on LLM-Integrated Hardware Design Verification",
-      "url": "https://arxiv.org/abs/2610.10580",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.10580v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being integrated into hardware verification to automate specification interpretation, verification-artifact generation, debugging, formal reasoning, and tool orchestration. This survey p",
-      "whyItMatters": "Touches llm, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "fetchedAt": "2026-10-10T02:23:01.127Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "debugging"
       ]
     }
   ]
