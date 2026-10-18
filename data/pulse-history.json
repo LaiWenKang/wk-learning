@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:20:26.304Z",
+  "updatedAt": "2026-10-18T16:35:44.091Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 10,
       "tags": [
         "cxl",
@@ -45,7 +45,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,8 +64,8 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 9.6,
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 9.5,
       "tags": [
         "cxl",
         "ocp",
@@ -81,12 +81,28 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "ssd controller",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1ksk4i5",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "84 points on Hacker News",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-18T14:30:27Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "anthropic"
       ]
     },
     {
@@ -98,8 +114,8 @@
       "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 7.3,
       "tags": [
         "ocp",
         "ai"
@@ -111,11 +127,11 @@
       "url": "https://github.com/Gathin23/tv-vibehack",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code. · ★ 912",
+      "summary": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code. · ★ 1285",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-17T08:12:35Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 7.1,
       "tags": [
         "claude code",
         "claude"
@@ -130,7 +146,7 @@
       "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 7,
       "tags": [
         "pcie",
@@ -146,7 +162,7 @@
       "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 7,
       "tags": [
         "semiconductor",
@@ -163,7 +179,7 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 7,
       "tags": [
         "cxl",
@@ -176,10 +192,10 @@
       "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2701",
+      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2720",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-13T03:09:42Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -193,10 +209,10 @@
       "url": "https://github.com/zhuyansen/new-term-radar",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1097",
+      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1104",
       "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-12T07:11:01Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 7,
       "tags": [
         "ai",
@@ -205,16 +221,61 @@
       ]
     },
     {
+      "id": "sig-4hrxsf",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "73 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-18T14:58:10Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1cqah3t",
+      "title": "High performance policy routed IPsec mesh SD-WAN",
+      "url": "https://ranet3.com/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "5 points on Hacker News",
+      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-18T14:31:52Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 6.4,
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-1fh785q",
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "25 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-18T12:22:58Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
       "id": "sig-1g3l7ff",
       "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
       "url": "https://sphinx-six-theta.vercel.app/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "172 points on Hacker News",
+      "summary": "207 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-18T04:33:49Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 6.3,
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -228,26 +289,11 @@
       "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T19:39:27.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 6.2,
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
+      "score": 6.1,
       "tags": [
         "ai",
         "github"
-      ]
-    },
-    {
-      "id": "sig-12ofa3r",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T07:01:05.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
-      "score": 6,
-      "tags": [
-        "ocp"
       ]
     },
     {
@@ -259,7 +305,7 @@
       "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
       "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-15T13:00:00.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 6,
       "tags": [
         "ai",
@@ -275,11 +321,26 @@
       "summary": "",
       "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "fetchedAt": "2026-10-18T16:35:44.091Z",
       "score": 6,
       "tags": [
         "storage",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-12ofa3r",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T07:01:05.000Z",
+      "fetchedAt": "2026-10-18T13:20:26.304Z",
+      "score": 6,
+      "tags": [
+        "ocp"
       ]
     },
     {
