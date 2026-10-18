@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T00:13:47.971Z",
+  "updatedAt": "2026-10-18T04:39:44.314Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
       "score": 10,
       "tags": [
         "cxl",
@@ -45,7 +45,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,8 +64,8 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 10,
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 9.8,
       "tags": [
         "cxl",
         "ocp",
@@ -81,12 +81,252 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 9.8,
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 9.7,
       "tags": [
         "ssd",
         "ssd controller",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1669z7y",
+      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T04:49:49.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7.7,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7.1,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ab5y22",
+      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
+      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-15T07:06:02.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7.1,
+      "tags": [
+        "semiconductor",
+        "performance",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7,
+      "tags": [
+        "cxl",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-113huhm",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2661",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-13T03:09:42Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1u8r355",
+      "title": "zhuyansen/new-term-radar (Python) — trending new repo",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1086",
+      "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-12T07:11:01Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-af0ll",
+      "title": "The next developer interface is ambient intelligence",
+      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T19:39:27.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.4,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1kcgiyp",
+      "title": "NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows",
+      "url": "https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "This week NVIDIA launched their high-end RTX Spark N1X platform. Bringing their powerful GB10 SoC to Windows for the first time, the company is seeking to remake the Windows laptop market with their powerful, AI-focused SoC The post NVIDIA RTX Spark N1X Launch Overview: NVIDIA Ar",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-17T17:00:47.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-12ofa3r",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T07:01:05.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.2,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-1ejf34g",
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.2,
+      "tags": [
+        "ai",
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-wa2g8e",
+      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "url": "https://github.com/mikroverk/esp32sim",
+      "source": "Hacker News (front page)",
+      "category": "firmware",
+      "summary": "141 points on Hacker News",
+      "whyItMatters": "Touches firmware — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-10-17T13:51:08Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.1,
+      "tags": [
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-1k98ki",
+      "title": "IBM Storage Ceph accelerates cluster performance",
+      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-15T09:35:51.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.1,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-rkqif0",
+      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
+      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:03:05.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1qptntw",
+      "title": "Why Open-Weight AI Matters",
+      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:02:13.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1i68z3h",
+      "title": "Agentic AI Alters The CPU-GPU Balance",
+      "url": "https://semiengineering.com/agentic-ai-alters-the-cpu-gpu-balance/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Agentic workloads increase CPU demand, while reasoning models, MoE architectures, and reservoir computing fuel AI acceleration. The post Agentic AI Alters The CPU-GPU Balance appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T07:01:24.000Z",
+      "fetchedAt": "2026-10-18T04:39:44.314Z",
+      "score": 6.1,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -107,22 +347,6 @@
       ]
     },
     {
-      "id": "sig-1669z7y",
-      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7.8,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
       "id": "sig-dhd27y",
       "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
       "url": "https://arxiv.org/abs/2610.20665",
@@ -136,72 +360,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-jtb4lk",
-      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
-      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7.2,
-      "tags": [
-        "pcie",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ab5y22",
-      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
-      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7.2,
-      "tags": [
-        "semiconductor",
-        "performance",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7,
-      "tags": [
-        "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-113huhm",
-      "title": "Arekejoker/qwen21-nsfw-pose-skill (Python) — trending new repo",
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw · ★ 2634",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-13T03:09:42Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
       ]
     },
     {
@@ -219,70 +377,6 @@
         "claude",
         "python",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1u8r355",
-      "title": "zhuyansen/new-term-radar (Python) — trending new repo",
-      "url": "https://github.com/zhuyansen/new-term-radar",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. · ★ 1080",
-      "whyItMatters": "Touches ai, python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-12T07:11:01Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-af0ll",
-      "title": "The next developer interface is ambient intelligence",
-      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T19:39:27.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-12ofa3r",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances. The post Chip Industry Week In Review appe",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T07:01:05.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 6.4,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-1ejf34g",
-      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-      "whyItMatters": "Touches ai, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "openai"
       ]
     },
     {
@@ -313,36 +407,6 @@
       "score": 6.3,
       "tags": [
         "kernel"
-      ]
-    },
-    {
-      "id": "sig-1kcgiyp",
-      "title": "NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows",
-      "url": "https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "This week NVIDIA launched their high-end RTX Spark N1X platform. Bringing their powerful GB10 SoC to Windows for the first time, the company is seeking to remake the Windows laptop market with their powerful, AI-focused SoC The post NVIDIA RTX Spark N1X Launch Overview: NVIDIA Ar",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-17T17:00:47.000Z",
-      "fetchedAt": "2026-10-18T00:13:47.971Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-wa2g8e",
-      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
-      "url": "https://github.com/mikroverk/esp32sim",
-      "source": "Hacker News (front page)",
-      "category": "firmware",
-      "summary": "100 points on Hacker News",
-      "whyItMatters": "Touches firmware — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-10-17T13:51:08Z",
-      "fetchedAt": "2026-10-17T22:34:33.780Z",
-      "score": 6.3,
-      "tags": [
-        "firmware"
       ]
     },
     {
@@ -393,38 +457,6 @@
       ]
     },
     {
-      "id": "sig-1k98ki",
-      "title": "IBM Storage Ceph accelerates cluster performance",
-      "url": "https://www.blocksandfiles.com/object/2026/10/15/ibm-storage-ceph-accelerates-cluster-performance/5303199",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-15T09:35:51.000Z",
-      "fetchedAt": "2026-10-17T15:51:52.603Z",
-      "score": 6.5,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-rkqif0",
-      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
-      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system. The post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T07:03:05.000Z",
-      "fetchedAt": "2026-10-17T15:51:52.603Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-3jzcfv",
       "title": "A story of WiFi secrets, UART lockdowns and a damaged flash memory chip",
       "url": "https://adepts.of0x.cc/eufy-homestation2-firmware/",
@@ -437,38 +469,6 @@
       "score": 6.9,
       "tags": [
         "flash memory"
-      ]
-    },
-    {
-      "id": "sig-1qptntw",
-      "title": "Why Open-Weight AI Matters",
-      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI. The post Why Open-Weight AI Matters appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T07:02:13.000Z",
-      "fetchedAt": "2026-10-17T08:45:15.190Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1i68z3h",
-      "title": "Agentic AI Alters The CPU-GPU Balance",
-      "url": "https://semiengineering.com/agentic-ai-alters-the-cpu-gpu-balance/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Agentic workloads increase CPU demand, while reasoning models, MoE architectures, and reservoir computing fuel AI acceleration. The post Agentic AI Alters The CPU-GPU Balance appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T07:01:24.000Z",
-      "fetchedAt": "2026-10-17T08:45:15.190Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -2079,102 +2079,6 @@
       "score": 6.2,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1zt3hy",
-      "title": "A minimal Rust TUI for managing GitHub repos and branches",
-      "url": "https://github.com/jorgeandrecastro/github-workflow",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "4 points on Hacker News",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-11T00:17:30Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 8,
-      "tags": [
-        "rust",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-dgnn10",
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "url": "https://arxiv.org/abs/2610.10611",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded ",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dgnoop",
-      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-      "url": "https://arxiv.org/abs/2610.10805",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely d",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dgnore",
-      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-      "url": "https://arxiv.org/abs/2610.10833",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-B",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dgnpmj",
-      "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
-      "url": "https://arxiv.org/abs/2610.10942",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-dgo9p0",
-      "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
-      "url": "https://arxiv.org/abs/2610.11007",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.11007v1 Announce Type: new Abstract: At the start of every session, LLM agents load a fixed context file, such as $\\texttt{AGENTS.md}$. Each loaded token in the file is charged again in every later round of the session, and these files can degrade performance as they g",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
-      "fetchedAt": "2026-10-11T01:18:48.335Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
       ]
     }
   ]
