@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:12:36.149Z",
+  "generatedAt": "2026-10-19T22:55:09.097Z",
   "signals": [
     {
       "id": "sig-dhfcew",
@@ -10,28 +10,11 @@
       "summary": "arXiv:2610.23503v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND fou",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 10,
       "tags": [
         "nand",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-ifmvvd",
-      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
-      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 10,
-      "tags": [
-        "samsung electronics",
-        "dram",
-        "embedded"
       ]
     },
     {
@@ -43,7 +26,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -60,7 +43,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -68,6 +51,23 @@
         "gen5",
         "dwpd",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-ifmvvd",
+      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-18T23:28:31.000Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 9.8,
+      "tags": [
+        "samsung electronics",
+        "dram",
+        "embedded"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 9.5,
       "tags": [
         "cxl",
@@ -97,7 +97,7 @@
       "summary": "Samsung is showing a CXL memory pool validated with AMD at the OCP Global Summit in San Jose this week, built on its CMM-D CXL memory modules and aimed at agentic AI inference. The companies worked together to validate CXL memory as a way to scale memory capacity and bandwidth al",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-15T16:56:10.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 9.5,
       "tags": [
         "cxl",
@@ -114,7 +114,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -131,8 +131,8 @@
       "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "semiconductor",
@@ -148,8 +148,8 @@
       "summary": "arXiv:2610.22579v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While",
       "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "language model",
@@ -165,8 +165,8 @@
       "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-19T07:01:53.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -181,8 +181,8 @@
       "summary": "arXiv:2610.22528v1 Announce Type: new Abstract: Modernizing mature scientific software from Fortran to Python can improve accessibility and integration with modern computing tools, but manual rewriting is expensive. Large language models (LLMs) make translation more practical, ye",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "python"
@@ -197,8 +197,8 @@
       "summary": "arXiv:2610.22544v1 Announce Type: new Abstract: Software engineering research increasingly relies on large, richly annotated corpora of real-world code. Still, researchers typically assemble these with ad-hoc scripts or static, pre-built datasets that offer no control over corpus",
       "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "software engineering",
         "github"
@@ -213,8 +213,8 @@
       "summary": "arXiv:2610.22952v1 Announce Type: new Abstract: Debloating shared libraries has been an active research topic for years. Tools for shared library debloating rely on either static or dynamic analysis techniques to discover which parts of the shared library is used. Once these part",
       "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "performance",
         "security"
@@ -229,8 +229,8 @@
       "summary": "arXiv:2610.23035v1 Announce Type: new Abstract: Static Application Security Testing (SAST) reports flag operations whose safety depends on project-specific context, and maintainers must decide which reports describe real defects. Large language models (LLMs) can interpret this co",
       "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "security"
@@ -245,8 +245,8 @@
       "summary": "arXiv:2610.22877v1 Announce Type: new Abstract: As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference ",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "performance"
@@ -261,8 +261,8 @@
       "summary": "arXiv:2610.23724v1 Announce Type: new Abstract: The design space of modern AI/HPC systems has expanded rapidly across compute architectures, including GPUs, dataflow processors, and RISC-V accelerators; memory tech- nologies, including HBM, GDDR, and SRAM; and interconnects such ",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "hbm"
@@ -277,8 +277,8 @@
       "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Point",
       "whyItMatters": "Touches llm, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-18T20:48:14.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "github"
@@ -293,8 +293,8 @@
       "summary": "arXiv:2610.22716v1 Announce Type: new Abstract: CXL Memory Module - Memory Pooling (CMM-MP) introduces a novel memory pooling architecture to meet the unique requirements of emerging memory-intensive workloads. This industry-first, purpose-built memory-pooling device combines the",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7.1,
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "score": 7,
       "tags": [
         "cxl"
       ]
@@ -308,7 +308,7 @@
       "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 7,
       "tags": [
         "ocp",
@@ -316,21 +316,19 @@
       ]
     },
     {
-      "id": "sig-ntrz2q",
-      "title": "LiCinCan/blender-ai-mcp-addon (Python) — trending new repo",
-      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. · ★ 941",
-      "whyItMatters": "Touches ai, claude, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T22:30:47Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-19T22:55:09.097Z",
       "score": 7,
       "tags": [
-        "ai",
-        "claude",
-        "openai",
-        "python"
+        "pcie",
+        "semiconductor"
       ]
     }
   ]
