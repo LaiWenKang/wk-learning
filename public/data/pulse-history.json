@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T12:16:17.162Z",
+  "updatedAt": "2026-10-20T17:13:56.553Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,12 +10,322 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
       "score": 10,
       "tags": [
         "ssd",
         "gen5",
         "coding agent"
+      ]
+    },
+    {
+      "id": "sig-1j6mp60",
+      "title": "XCENA MX1 CXL Computational Memory Shares a KV Cache Across Inference Servers and Powers SK hynix CXL Hybrid Memory at OCP 2026",
+      "url": "https://www.storagereview.com/news/xcena-mx1-cxl-computational-memory-kv-cache-sk-hynix-ocp-2026",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-16T15:01:34.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 9.5,
+      "tags": [
+        "cxl",
+        "ocp",
+        "sk hynix",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1a8jctj",
+      "title": "SK hynix disaggregating SSD controller cores",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/15/sk-hynix-disaggregating-ssd-controller-cores/5303240",
+      "source": "Blocks & Files",
+      "category": "firmware",
+      "summary": "",
+      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
+      "publishedAt": "2026-10-15T11:11:00.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 9.5,
+      "tags": [
+        "ssd",
+        "ssd controller",
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-ifmvvd",
+      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-18T23:28:31.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 9.3,
+      "tags": [
+        "samsung electronics",
+        "dram",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-15i4zt8",
+      "title": "HPE Spaceborne Computer-4 Will Run AI Inference on the Moon Aboard Astrolab’s FLIP Rover",
+      "url": "https://www.storagereview.com/news/hpe-spaceborne-computer-4-ai-inference-moon-astrolab-flip-rover",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
+      "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T14:00:23.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8.9,
+      "tags": [
+        "kioxia",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-mrcygy",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-20T07:01:46.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8.7,
+      "tags": [
+        "ai",
+        "hbm",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-dhg065",
+      "title": "Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution",
+      "url": "https://arxiv.org/abs/2610.24093",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.24093v1 Announce Type: new Abstract: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering tasks, yet the effects of this shift remain insufficiently understood. We present an ",
+      "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8.6,
+      "tags": [
+        "ai",
+        "llm",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-dhhjlq",
+      "title": "MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration",
+      "url": "https://arxiv.org/abs/2610.26083",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.26083v1 Announce Type: new Abstract: Block-scaled quantization formats such as OCP Microscaling (MX) and NVFP4 have been widely adopted as efficient data formats for LLM inference. However, the design space of these formats spanned by shared scale, weight, and activati",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8.6,
+      "tags": [
+        "ocp",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1graggb",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T07:03:19.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8.1,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-5wyudk",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 8,
+      "tags": [
+        "github",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-10otfo9",
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "21 points on Hacker News",
+      "whyItMatters": "Touches ai, rust — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T15:09:29Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1wabitu",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "152 points on Hacker News",
+      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T13:18:07Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.9,
+      "tags": [
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1j190z4",
+      "title": "Meta's Prometheus using object storage for massive AI training jobs",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T12:20:00.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-dhffxd",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "url": "https://arxiv.org/abs/2610.23962",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.6,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-jjmx0h",
+      "title": "simbasjungles/free-my-tv (Java) — trending new repo",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. · ★ 1256",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T19:29:01Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.4,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-qxh1mb",
+      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
+      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-20T03:53:34.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7.1,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-1azwl97",
+      "title": "Why Physical AI Is So Hard To Engineer",
+      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-19T07:01:53.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1669z7y",
+      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T04:49:49.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-3kn84a",
+      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-13T15:29:17.000Z",
+      "fetchedAt": "2026-10-20T17:13:56.553Z",
+      "score": 7,
+      "tags": [
+        "cxl",
+        "ai"
       ]
     },
     {
@@ -35,187 +345,6 @@
         "gen5",
         "dwpd",
         "enterprise ssd"
-      ]
-    },
-    {
-      "id": "sig-ifmvvd",
-      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
-      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 9.5,
-      "tags": [
-        "samsung electronics",
-        "dram",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1j6mp60",
-      "title": "XCENA MX1 CXL Computational Memory Shares a KV Cache Across Inference Servers and Powers SK hynix CXL Hybrid Memory at OCP 2026",
-      "url": "https://www.storagereview.com/news/xcena-mx1-cxl-computational-memory-kv-cache-sk-hynix-ocp-2026",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 9.5,
-      "tags": [
-        "cxl",
-        "ocp",
-        "sk hynix",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-mrcygy",
-      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "hbm",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-dhg065",
-      "title": "Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution",
-      "url": "https://arxiv.org/abs/2610.24093",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.24093v1 Announce Type: new Abstract: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering tasks, yet the effects of this shift remain insufficiently understood. We present an ",
-      "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 8.8,
-      "tags": [
-        "ai",
-        "llm",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-dhhjlq",
-      "title": "MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration",
-      "url": "https://arxiv.org/abs/2610.26083",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.26083v1 Announce Type: new Abstract: Block-scaled quantization formats such as OCP Microscaling (MX) and NVFP4 have been widely adopted as efficient data formats for LLM inference. However, the design space of these formats spanned by shared scale, weight, and activati",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 8.8,
-      "tags": [
-        "ocp",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 8.2,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-dhffxd",
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qxh1mb",
-      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
-      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-20T03:53:34.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 7.3,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-1azwl97",
-      "title": "Why Physical AI Is So Hard To Engineer",
-      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-19T07:01:53.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1669z7y",
-      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 7,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-jtb4lk",
-      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
-      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-20T12:16:17.162Z",
-      "score": 7,
-      "tags": [
-        "pcie",
-        "semiconductor"
       ]
     },
     {
@@ -325,23 +454,6 @@
       ]
     },
     {
-      "id": "sig-1a8jctj",
-      "title": "SK hynix disaggregating SSD controller cores",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/15/sk-hynix-disaggregating-ssd-controller-cores/5303240",
-      "source": "Blocks & Files",
-      "category": "firmware",
-      "summary": "",
-      "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
-      "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "ssd controller",
-        "sk hynix"
-      ]
-    },
-    {
       "id": "sig-ab5y22",
       "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
       "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
@@ -356,22 +468,6 @@
         "semiconductor",
         "performance",
         "reliability"
-      ]
-    },
-    {
-      "id": "sig-3kn84a",
-      "title": "Marvell boosts CXL-connected memory capacity and speed with AI in mind",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/13/marvell-boosts-cxl-connected-memory-capacity-and-speed-with-ai-in-mind/5302832",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7,
-      "tags": [
-        "cxl",
-        "ai"
       ]
     },
     {
