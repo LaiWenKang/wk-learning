@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-10-19T22:55:09.097Z",
+  "updatedAt": "2026-10-20T01:40:36.594Z",
   "signals": [
-    {
-      "id": "sig-dhfcew",
-      "title": "HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs",
-      "url": "https://arxiv.org/abs/2610.23503",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.23503v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND fou",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "hbm"
-      ]
-    },
     {
       "id": "sig-upoqr3",
       "title": "HP OmniBook Ultra 16 Review: RTX Spark With 128GB Tops Our Local Coding Agent Test",
@@ -26,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -43,7 +27,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -51,6 +35,22 @@
         "gen5",
         "dwpd",
         "enterprise ssd"
+      ]
+    },
+    {
+      "id": "sig-dhfcew",
+      "title": "HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs",
+      "url": "https://arxiv.org/abs/2610.23503",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.23503v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND fou",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 9.9,
+      "tags": [
+        "nand",
+        "hbm"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
       "score": 9.8,
       "tags": [
         "samsung electronics",
@@ -79,13 +79,257 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
       "score": 9.5,
       "tags": [
         "cxl",
         "ocp",
         "sk hynix",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1graggb",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T07:03:19.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 8.5,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-dhekv8",
+      "title": "MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches",
+      "url": "https://arxiv.org/abs/2610.22579",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.22579v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While",
+      "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 8.4,
+      "tags": [
+        "llm",
+        "language model",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1azwl97",
+      "title": "Why Physical AI Is So Hard To Engineer",
+      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-19T07:01:53.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-dhekqm",
+      "title": "ForTress: Bringing Assurance and Determinism for LLM-Driven Fortran-to-Python Translation",
+      "url": "https://arxiv.org/abs/2610.22528",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.22528v1 Announce Type: new Abstract: Modernizing mature scientific software from Fortran to Python can improve accessibility and integration with modern computing tools, but manual rewriting is expensive. Large language models (LLMs) make translation more practical, ye",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-dheksc",
+      "title": "SIEVE: A Parameterized GitHub Corpus Builder for Software Engineering Research",
+      "url": "https://arxiv.org/abs/2610.22544",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.22544v1 Announce Type: new Abstract: Software engineering research increasingly relies on large, richly annotated corpora of real-world code. Still, researchers typically assemble these with ad-hoc scripts or static, pre-built datasets that offer no control over corpus",
+      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "software engineering",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-dheo67",
+      "title": "MergeShuffle: Reconstruct Shared Libraries for Improved Performance and Security",
+      "url": "https://arxiv.org/abs/2610.22952",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2610.22952v1 Announce Type: new Abstract: Debloating shared libraries has been an active research topic for years. Tools for shared library debloating rely on either static or dynamic analysis techniques to discover which parts of the shared library is used. Once these part",
+      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dhf8ag",
+      "title": "VulnSAGE: Adjudicating SAST Reports by Connecting LLM Reasoning to Program Structure",
+      "url": "https://arxiv.org/abs/2610.23035",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.23035v1 Announce Type: new Abstract: Static Application Security Testing (SAST) reports flag operations whose safety depends on project-specific context, and maintainers must decide which reports describe real defects. Large language models (LLMs) can interpret this co",
+      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-dhendx",
+      "title": "BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration",
+      "url": "https://arxiv.org/abs/2610.22877",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.22877v1 Announce Type: new Abstract: As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference ",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dhfe59",
+      "title": "Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains",
+      "url": "https://arxiv.org/abs/2610.23724",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.23724v1 Announce Type: new Abstract: The design space of modern AI/HPC systems has expanded rapidly across compute architectures, including GPUs, dataflow processors, and RISC-V accelerators; memory tech- nologies, including HBM, GDDR, and SRAM; and interconnects such ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-jffr8h",
+      "title": "alchaincyf/huashu-motion (JavaScript) — trending new repo",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. · ★ 937",
+      "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-18T12:19:27Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7,
+      "tags": [
+        "coding agent",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1669z7y",
+      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T04:49:49.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-ntrz2q",
+      "title": "LiCinCan/blender-ai-mcp-addon (Python) — trending new repo",
+      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. · ★ 921",
+      "whyItMatters": "Touches ai, claude, openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-15T22:30:47Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "openai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ab5y22",
+      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
+      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-15T07:06:02.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 7,
+      "tags": [
+        "semiconductor",
+        "performance",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-dheme5",
+      "title": "CMM-MP: A Novel Memory Pooling Architecture using Purpose-built Memory Device with CXL and Ethernet",
+      "url": "https://arxiv.org/abs/2610.22716",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.22716v1 Announce Type: new Abstract: CXL Memory Module - Memory Pooling (CMM-MP) introduces a novel memory pooling architecture to meet the unique requirements of emerging memory-intensive workloads. This industry-first, purpose-built memory-pooling device combines the",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T01:40:36.594Z",
+      "score": 6.9,
+      "tags": [
+        "cxl"
       ]
     },
     {
@@ -123,152 +367,6 @@
       ]
     },
     {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 8.6,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-dhekv8",
-      "title": "MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches",
-      "url": "https://arxiv.org/abs/2610.22579",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.22579v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While",
-      "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 8.5,
-      "tags": [
-        "llm",
-        "language model",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1azwl97",
-      "title": "Why Physical AI Is So Hard To Engineer",
-      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-19T07:01:53.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-dhekqm",
-      "title": "ForTress: Bringing Assurance and Determinism for LLM-Driven Fortran-to-Python Translation",
-      "url": "https://arxiv.org/abs/2610.22528",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.22528v1 Announce Type: new Abstract: Modernizing mature scientific software from Fortran to Python can improve accessibility and integration with modern computing tools, but manual rewriting is expensive. Large language models (LLMs) make translation more practical, ye",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-dheksc",
-      "title": "SIEVE: A Parameterized GitHub Corpus Builder for Software Engineering Research",
-      "url": "https://arxiv.org/abs/2610.22544",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2610.22544v1 Announce Type: new Abstract: Software engineering research increasingly relies on large, richly annotated corpora of real-world code. Still, researchers typically assemble these with ad-hoc scripts or static, pre-built datasets that offer no control over corpus",
-      "whyItMatters": "Touches software engineering, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "software engineering",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-dheo67",
-      "title": "MergeShuffle: Reconstruct Shared Libraries for Improved Performance and Security",
-      "url": "https://arxiv.org/abs/2610.22952",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2610.22952v1 Announce Type: new Abstract: Debloating shared libraries has been an active research topic for years. Tools for shared library debloating rely on either static or dynamic analysis techniques to discover which parts of the shared library is used. Once these part",
-      "whyItMatters": "Touches performance, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-dhf8ag",
-      "title": "VulnSAGE: Adjudicating SAST Reports by Connecting LLM Reasoning to Program Structure",
-      "url": "https://arxiv.org/abs/2610.23035",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.23035v1 Announce Type: new Abstract: Static Application Security Testing (SAST) reports flag operations whose safety depends on project-specific context, and maintainers must decide which reports describe real defects. Large language models (LLMs) can interpret this co",
-      "whyItMatters": "Touches llm, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-dhendx",
-      "title": "BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration",
-      "url": "https://arxiv.org/abs/2610.22877",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.22877v1 Announce Type: new Abstract: As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhfe59",
-      "title": "Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains",
-      "url": "https://arxiv.org/abs/2610.23724",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.23724v1 Announce Type: new Abstract: The design space of modern AI/HPC systems has expanded rapidly across compute architectures, including GPUs, dataflow processors, and RISC-V accelerators; memory tech- nologies, including HBM, GDDR, and SRAM; and interconnects such ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
       "id": "sig-dgtuo3",
       "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
       "url": "https://arxiv.org/abs/2610.18861",
@@ -282,71 +380,6 @@
       "tags": [
         "llm",
         "github"
-      ]
-    },
-    {
-      "id": "sig-dheme5",
-      "title": "CMM-MP: A Novel Memory Pooling Architecture using Purpose-built Memory Device with CXL and Ethernet",
-      "url": "https://arxiv.org/abs/2610.22716",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.22716v1 Announce Type: new Abstract: CXL Memory Module - Memory Pooling (CMM-MP) introduces a novel memory pooling architecture to meet the unique requirements of emerging memory-intensive workloads. This industry-first, purpose-built memory-pooling device combines the",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7,
-      "tags": [
-        "cxl"
-      ]
-    },
-    {
-      "id": "sig-1669z7y",
-      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-jtb4lk",
-      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
-      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-19T22:55:09.097Z",
-      "score": 7,
-      "tags": [
-        "pcie",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ntrz2q",
-      "title": "LiCinCan/blender-ai-mcp-addon (Python) — trending new repo",
-      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. · ★ 941",
-      "whyItMatters": "Touches ai, claude, openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-15T22:30:47Z",
-      "fetchedAt": "2026-10-19T19:12:36.149Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "openai",
-        "python"
       ]
     },
     {
@@ -379,23 +412,6 @@
       "tags": [
         "ai",
         "coding agent"
-      ]
-    },
-    {
-      "id": "sig-ab5y22",
-      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
-      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Short-resilient via insertion improves reliability and performance. The post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, performance, reliability — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-15T07:06:02.000Z",
-      "fetchedAt": "2026-10-19T05:58:11.413Z",
-      "score": 7,
-      "tags": [
-        "semiconductor",
-        "performance",
-        "reliability"
       ]
     },
     {
@@ -2024,39 +2040,6 @@
       "tags": [
         "ai",
         "software engineering"
-      ]
-    },
-    {
-      "id": "sig-iiugx1",
-      "title": "LosaLosSantos/aurelio-finance (Python) — trending new repo",
-      "url": "https://github.com/LosaLosSantos/aurelio-finance",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer. · ★ 2844",
-      "whyItMatters": "Touches ai, python, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-06T20:14:19Z",
-      "fetchedAt": "2026-10-12T23:46:59.577Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-1c4vly0",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me ",
-      "whyItMatters": "Touches python, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-10T23:58:04.000Z",
-      "fetchedAt": "2026-10-12T23:46:59.577Z",
-      "score": 6.7,
-      "tags": [
-        "python",
-        "github"
       ]
     }
   ]
