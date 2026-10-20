@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T06:40:16.345Z",
+  "updatedAt": "2026-10-20T12:16:17.162Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "SP Industrial introduced six enterprise SSDs, spanning E1.S, U.2, M.2 2280, and 2.5-inch SATA form factors, aimed at AI and data center storage as well as enterprise boot drives. Every model in the lineup pairs 3D eTLC flash with DRAM and power failure protection (PFP), and the d",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T20:42:37.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,8 +46,8 @@
       "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 9.6,
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 9.5,
       "tags": [
         "samsung electronics",
         "dram",
@@ -63,12 +63,264 @@
       "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
       "score": 9.5,
       "tags": [
         "cxl",
         "ocp",
         "sk hynix",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-mrcygy",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-20T07:01:46.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "hbm",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-dhg065",
+      "title": "Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution",
+      "url": "https://arxiv.org/abs/2610.24093",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.24093v1 Announce Type: new Abstract: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering tasks, yet the effects of this shift remain insufficiently understood. We present an ",
+      "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "llm",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-dhhjlq",
+      "title": "MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration",
+      "url": "https://arxiv.org/abs/2610.26083",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.26083v1 Announce Type: new Abstract: Block-scaled quantization formats such as OCP Microscaling (MX) and NVFP4 have been widely adopted as efficient data formats for LLM inference. However, the design space of these formats spanned by shared scale, weight, and activati",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 8.8,
+      "tags": [
+        "ocp",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1graggb",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T07:03:19.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 8.2,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-dhffxd",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "url": "https://arxiv.org/abs/2610.23962",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-qxh1mb",
+      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
+      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-20T03:53:34.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 7.3,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-1azwl97",
+      "title": "Why Physical AI Is So Hard To Engineer",
+      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-19T07:01:53.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1669z7y",
+      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T04:49:49.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 7,
+      "tags": [
+        "ocp",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-jtb4lk",
+      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
+      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-10-15T07:07:45.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 7,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-jffr8h",
+      "title": "alchaincyf/huashu-motion (JavaScript) — trending new repo",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. · ★ 1083",
+      "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-18T12:19:27Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.7,
+      "tags": [
+        "coding agent",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-zf2oca",
+      "title": "There is no official XScreenSaver GitHub repository",
+      "url": "https://github.com/xscreensaver-official/xscreensaver",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "58 points on Hacker News",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T08:51:31Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.4,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-18h4ejp",
+      "title": "Neo4j Context Engine Gives AI Agents a Shared Knowledge Layer, 6-Layer Business Ontology, and Graph-Native Memory",
+      "url": "https://www.storagereview.com/news/neo4j-context-engine-ai-agents-knowledge-layer-ontology-graph-native-memory",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Neo4j announced the Neo4j Context Engine today, a product built to give AI agents a shared, reusable knowledge layer for reasoning over enterprise data. The problem it targets is one most agent deployments hit early: an agent does not know what “customer,” “account,” “supplier,” ",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dhff38",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.3,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dhffto",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "url": "https://arxiv.org/abs/2610.23921",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about w",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dhfzxz",
+      "title": "What Social Media Teaches Us About Accumulative AI Risks",
+      "url": "https://arxiv.org/abs/2610.24006",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.24006v1 Announce Type: new Abstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that ari",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dhfzyq",
+      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+      "url": "https://arxiv.org/abs/2610.24010",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.24010v1 Announce Type: new Abstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, h",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "fetchedAt": "2026-10-20T12:16:17.162Z",
+      "score": 6.3,
+      "tags": [
         "ai"
       ]
     },
@@ -87,135 +339,6 @@
         "ssd",
         "ssd controller",
         "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-dhg065",
-      "title": "Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution",
-      "url": "https://arxiv.org/abs/2610.24093",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.24093v1 Announce Type: new Abstract: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering tasks, yet the effects of this shift remain insufficiently understood. We present an ",
-      "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 8.9,
-      "tags": [
-        "ai",
-        "llm",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-dhhjlq",
-      "title": "MX-Like Tensor Core for LLM Inference with NPU Integration via Hardware-Software Co-Design Exploration",
-      "url": "https://arxiv.org/abs/2610.26083",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.26083v1 Announce Type: new Abstract: Block-scaled quantization formats such as OCP Microscaling (MX) and NVFP4 have been widely adopted as efficient data formats for LLM inference. However, the design space of these formats spanned by shared scale, weight, and activati",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 8.9,
-      "tags": [
-        "ocp",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-dhffxd",
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7.9,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-qxh1mb",
-      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
-      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-20T03:53:34.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7.4,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-1azwl97",
-      "title": "Why Physical AI Is So Hard To Engineer",
-      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-19T07:01:53.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1669z7y",
-      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7,
-      "tags": [
-        "ocp",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-jtb4lk",
-      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
-      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 7,
-      "tags": [
-        "pcie",
-        "semiconductor"
       ]
     },
     {
@@ -248,82 +371,6 @@
       "score": 7,
       "tags": [
         "cxl",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-jffr8h",
-      "title": "alchaincyf/huashu-motion (JavaScript) — trending new repo",
-      "url": "https://github.com/alchaincyf/huashu-motion",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. · ★ 1012",
-      "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-18T12:19:27Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 6.8,
-      "tags": [
-        "coding agent",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-dhff38",
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "url": "https://arxiv.org/abs/2610.23866",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dhffto",
-      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-      "url": "https://arxiv.org/abs/2610.23921",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about w",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-dhfzxz",
-      "title": "What Social Media Teaches Us About Accumulative AI Risks",
-      "url": "https://arxiv.org/abs/2610.24006",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.24006v1 Announce Type: new Abstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that ari",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-dhfzyq",
-      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-      "url": "https://arxiv.org/abs/2610.24010",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.24010v1 Announce Type: new Abstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, h",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T06:40:16.345Z",
-      "score": 6.4,
-      "tags": [
         "ai"
       ]
     },
@@ -1986,120 +2033,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-9igeel",
-      "title": "KIOXIA CM9-DLC Brings Direct Liquid Cooling to Dual-Port E3.S SSDs up to 30.72TB",
-      "url": "https://www.storagereview.com/news/kioxia-cm9-dlc-direct-liquid-cooling-e3s-ssd-30-72tb",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "KIOXIA America announced the CM9-DLC today, a set of direct liquid cooling (DLC) models in its CM9 Series of PCIe 5.0 enterprise SSDs. The E3.S drives mount adjacent to cold plates in liquid-cooled servers and also run just fine in air-cooled systems. Capacities reach 30.72TB in ",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-12T15:01:33.000Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 9.4,
-      "tags": [
-        "pcie",
-        "e3.s",
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-y30mu8",
-      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "url": "https://github.com/prabanta-dev/janas",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "161 points on Hacker News",
-      "whyItMatters": "Touches ssd — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-12T22:05:43Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 8.6,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-1ekll4w",
-      "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
-      "url": "https://www.servethehome.com/xsight-labs-e1l-dpu-for-lower-power-200gbps-dpus/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "The new Xsight Labs E1L DPU brings lower core counts (8-22 Arm Neoverse N2 cores), plenty of PCIe Gen5 and 200Gbps networking into a lower power form factor The post Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-10-08T13:01:14.000Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-it5n6c",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-      "whyItMatters": "Touches ai, career, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-05T13:00:00.000Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "career",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1w08qhh",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Bl",
-      "whyItMatters": "Touches ai, github, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vh9k9e",
-      "title": "I don't like LLMs",
-      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "martinfowler.com",
-      "category": "ai",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other hand, I’m fearful of the damage AI might cause: agent swarms tak",
-      "whyItMatters": "Touches ai, llm, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-09-17T13:50:00.000Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "llm",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1qejh8p",
-      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
-      "url": "https://pdftomp3.com/connect-ai/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "27 points on Hacker News",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-13T10:08:34Z",
-      "fetchedAt": "2026-10-13T11:38:36.382Z",
-      "score": 6.5,
-      "tags": [
-        "openai"
       ]
     }
   ]
