@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T23:26:29.444Z",
+  "generatedAt": "2026-10-21T01:55:09.950Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,30 +10,12 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 10,
       "tags": [
         "ssd",
         "gen5",
         "coding agent"
-      ]
-    },
-    {
-      "id": "sig-1j6mp60",
-      "title": "XCENA MX1 CXL Computational Memory Shares a KV Cache Across Inference Servers and Powers SK hynix CXL Hybrid Memory at OCP 2026",
-      "url": "https://www.storagereview.com/news/xcena-mx1-cxl-computational-memory-kv-cache-sk-hynix-ocp-2026",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "XCENA showed two AI inference demonstrations built on its MX1 CXL computational memory at the OCP Global Summit 2026 in San Jose: a KV cache shared across inference servers through a CXL memory pool, and vector search for retrieval-augmented generation (RAG) run inside the memory",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-10-16T15:01:34.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 9.5,
-      "tags": [
-        "cxl",
-        "ocp",
-        "sk hynix",
-        "ai"
       ]
     },
     {
@@ -45,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -62,8 +44,8 @@
       "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 9.2,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 9.1,
       "tags": [
         "samsung electronics",
         "dram",
@@ -79,7 +61,7 @@
       "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
       "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T14:00:23.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 8.7,
       "tags": [
         "kioxia",
@@ -95,7 +77,7 @@
       "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 8.5,
       "tags": [
         "ai",
@@ -112,8 +94,8 @@
       "summary": "arXiv:2610.24093v1 Announce Type: new Abstract: AI-assisted software development is evolving from interactive LLM assistance toward agentic systems that autonomously perform software engineering tasks, yet the effects of this shift remain insufficiently understood. We present an ",
       "whyItMatters": "Touches ai, llm, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "llm",
@@ -129,8 +111,8 @@
       "summary": "arXiv:2610.26083v1 Announce Type: new Abstract: Block-scaled quantization formats such as OCP Microscaling (MX) and NVFP4 have been widely adopted as efficient data formats for LLM inference. However, the design space of these formats spanned by shared scale, weight, and activati",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 8.4,
       "tags": [
         "ocp",
         "llm"
@@ -145,8 +127,8 @@
       "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor",
@@ -162,8 +144,8 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-20T16:05:03.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.7,
       "tags": [
         "github",
         "productivity"
@@ -175,11 +157,11 @@
       "url": "https://news.ycombinator.com/item?id=50167583",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "38 points on Hacker News",
+      "summary": "45 points on Hacker News",
       "whyItMatters": "Touches ai, rust — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T15:09:29Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "rust"
@@ -191,11 +173,11 @@
       "url": "https://blog.cloudflare.com/typescript-rust-port/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "329 points on Hacker News",
+      "summary": "344 points on Hacker News",
       "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-20T13:18:07Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.6,
       "tags": [
         "typescript",
         "rust"
@@ -210,11 +192,26 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T12:20:00.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1rteat1",
+      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
+      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
+      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-20T23:38:53.000Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.4,
+      "tags": [
+        "e3.s"
       ]
     },
     {
@@ -226,8 +223,8 @@
       "summary": "arXiv:2610.23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T04:00:00.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -239,10 +236,10 @@
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 708 # Comments: 205",
+      "summary": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 714 # Comments: 208",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T23:22:18.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 7.3,
       "tags": [
         "ai",
@@ -255,29 +252,14 @@
       "url": "https://github.com/simbasjungles/free-my-tv",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. · ★ 1750",
+      "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. · ★ 1853",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T19:29:01Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 7.2,
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-qxh1mb",
-      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
-      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-20T03:53:34.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
-      "score": 7,
-      "tags": [
-        "ocp"
       ]
     },
     {
@@ -289,7 +271,7 @@
       "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 7,
       "tags": [
         "ocp",
@@ -305,7 +287,7 @@
       "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself. The post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-15T07:07:45.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 7,
       "tags": [
         "pcie",
@@ -321,11 +303,26 @@
       "summary": "",
       "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
       "publishedAt": "2026-10-13T15:29:17.000Z",
-      "fetchedAt": "2026-10-20T23:26:29.444Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
       "score": 7,
       "tags": [
         "cxl",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-qxh1mb",
+      "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
+      "url": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At OCP 2026, we saw the NVIDIA BlueField-4 STX server for context memory (CMX) a single NVIDIA Vera platform The post NVIDIA BlueField-4 STX Server for CMX at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-20T03:53:34.000Z",
+      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "score": 6.9,
+      "tags": [
+        "ocp"
       ]
     }
   ]
