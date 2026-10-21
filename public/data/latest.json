@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-21T18:05:40.605Z",
+  "generatedAt": "2026-10-21T21:34:14.091Z",
   "signals": [
+    {
+      "id": "sig-1lnhpbr",
+      "title": "Podcast #155: Micron’s 245TB SSD and What Extreme Density Enables at Scale",
+      "url": "https://www.storagereview.com/podcast/podcast-155-micron-245tb-ssd-extreme-density-bill-bollengier",
+      "source": "StorageReview",
+      "category": "career",
+      "summary": "Brian hosted Bill Bollengier, Senior Director of Product Management at Micron, for a live podcast on LinkedIn on October 15, with Bill calling in from the floor of the OCP Global Summit. The subject was the Micron 6600 ION 245TB SSD and what a quarter petabyte per drive bay does ",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-21T21:21:34.000Z",
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "ocp",
+        "micron"
+      ]
+    },
     {
       "id": "sig-180o61o",
       "title": "DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe",
@@ -10,7 +27,7 @@
       "summary": "VAST Data announced that DeepL is deploying the VAST AI Operating System as the data foundation for the research environments behind its written and real-time voice translation. Based on current deployment plans, DeepL expects roughly three times the storage capacity of the NVMe ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-21T16:25:08.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -27,7 +44,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -44,8 +61,8 @@
       "summary": "arXiv:2610.27032v1 Announce Type: new Abstract: Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments without prior training. A key limit",
       "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 8.5,
       "tags": [
         "llm",
         "language model",
@@ -61,8 +78,8 @@
       "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
       "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T14:00:23.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 8.2,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 8.1,
       "tags": [
         "kioxia",
         "ai"
@@ -77,27 +94,11 @@
       "summary": "NVIDIA’s GTC Berlin announcements today span containerized Vera Rubin infrastructure, a 2.5x expansion of its substrate supply, and software for AI factory power management and agent security, along with telecom, autonomous vehicle, robotics, and healthcare programs. The headline",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T18:04:42.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 8,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1irkl4p",
-      "title": "Rust off Rails: The opinionated web stack for the AI era",
-      "url": "https://rustoffrails.org/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "48 points on Hacker News",
-      "whyItMatters": "Touches ai, rust — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T16:34:16Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "rust"
       ]
     },
     {
@@ -109,8 +110,8 @@
       "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 8,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "hbm",
@@ -126,8 +127,8 @@
       "summary": "One size does not fit all. The post Scaling Data Movement For Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T07:15:31.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -142,8 +143,8 @@
       "summary": "From server to rack; AMBA CXS; digital twins; edge AI development loop; satellite power; global talent challenges. The post Blog Review: Oct. 21 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T07:01:51.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -158,8 +159,8 @@
       "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-docum",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -174,8 +175,8 @@
       "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their a",
       "whyItMatters": "Touches language model, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "language model",
         "machine learning"
@@ -190,8 +191,8 @@
       "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical const",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "llm"
@@ -206,8 +207,8 @@
       "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not on",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "performance"
@@ -222,8 +223,8 @@
       "summary": "arXiv:2610.27325v1 Announce Type: new Abstract: Rust is increasingly used in Linux to improve memory safety, but its guarantees do not prevent logical races: individually synchronized operations can still interleave in ways that violate higher-level invariants. Detecting such bug",
       "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "rust",
         "linux"
@@ -238,8 +239,8 @@
       "summary": "arXiv:2610.27371v1 Announce Type: new Abstract: Normalizing Flows (NFs) have shown strong results in generative modeling, recently reaching state-of-the-art image generation performance. However, their repetitive, sequential operations limit the computational and memory efficienc",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "dram",
         "performance"
@@ -254,8 +255,8 @@
       "summary": "arXiv:2610.27431v1 Announce Type: new Abstract: Privacy-preserving machine learning (PPML) offers a promising path toward bringing powerful AI services to the edge without exposing sensitive user data. However, its practical deployment remains constrained by the high communicatio",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "machine learning"
@@ -270,8 +271,8 @@
       "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor",
@@ -287,8 +288,8 @@
       "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-20T16:05:03.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.3,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.2,
       "tags": [
         "github",
         "productivity"
@@ -303,8 +304,8 @@
       "summary": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
       "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-20T13:00:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.1,
       "tags": [
         "typescript",
         "rust"
@@ -319,8 +320,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T12:20:00.000Z",
-      "fetchedAt": "2026-10-21T18:05:40.605Z",
-      "score": 7.2,
+      "fetchedAt": "2026-10-21T21:34:14.091Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "storage"
