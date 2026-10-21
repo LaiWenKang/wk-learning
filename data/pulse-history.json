@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T01:55:09.950Z",
+  "updatedAt": "2026-10-21T07:25:48.866Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,12 +27,29 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "ssd controller",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-dhib7d",
+      "title": "M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement",
+      "url": "https://arxiv.org/abs/2610.27032",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.27032v1 Announce Type: new Abstract: Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments without prior training. A key limit",
+      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 8.9,
+      "tags": [
+        "llm",
+        "language model",
+        "performance"
       ]
     },
     {
@@ -44,8 +61,8 @@
       "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random a",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-18T23:28:31.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 9.1,
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 8.9,
       "tags": [
         "samsung electronics",
         "dram",
@@ -61,8 +78,8 @@
       "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
       "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-20T14:00:23.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 8.5,
       "tags": [
         "kioxia",
         "ai"
@@ -77,12 +94,236 @@
       "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 8.5,
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "hbm",
         "debugging"
+      ]
+    },
+    {
+      "id": "sig-hsu36r",
+      "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
+      "url": "https://github.com/xamrayev/nexus-cli",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "10 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:37:18Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-dhhqbu",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-docum",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dhhqct",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "url": "https://arxiv.org/abs/2610.26899",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their a",
+      "whyItMatters": "Touches language model, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "language model",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dhhr29",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical const",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dhib6l",
+      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+      "url": "https://arxiv.org/abs/2610.27027",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not on",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dhidpa",
+      "title": "XRust: Detecting Logical Races in Rust Linux Drivers",
+      "url": "https://arxiv.org/abs/2610.27325",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.27325v1 Announce Type: new Abstract: Rust is increasingly used in Linux to improve memory safety, but its guarantees do not prevent logical races: individually synchronized operations can still interleave in ways that violate higher-level invariants. Detecting such bug",
+      "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "rust",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-dhidtr",
+      "title": "M3D-FLOW: A Monolithic 3-D-Stackable Processing-Near-DRAM Architecture for Generative Normalizing Flow Applications",
+      "url": "https://arxiv.org/abs/2610.27371",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.27371v1 Announce Type: new Abstract: Normalizing Flows (NFs) have shown strong results in generative modeling, recently reaching state-of-the-art image generation performance. However, their repetitive, sequential operations limit the computational and memory efficienc",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "dram",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dhiekc",
+      "title": "Interflow: Breaking the Offline-Online Barrier for Private AI at the Edge",
+      "url": "https://arxiv.org/abs/2610.27431",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.27431v1 Announce Type: new Abstract: Privacy-preserving machine learning (PPML) offers a promising path toward bringing powerful AI services to the edge without exposing sensitive user data. However, its practical deployment remains constrained by the high communicatio",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1graggb",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T07:03:19.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-5wyudk",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.6,
+      "tags": [
+        "github",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1wabitu",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "390 points on Hacker News",
+      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T13:18:07Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.5,
+      "tags": [
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1j190z4",
+      "title": "Meta's Prometheus using object storage for massive AI training jobs",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T12:20:00.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1rteat1",
+      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
+      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
+      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-20T23:38:53.000Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7.3,
+      "tags": [
+        "e3.s"
+      ]
+    },
+    {
+      "id": "sig-jjmx0h",
+      "title": "simbasjungles/free-my-tv (Java) — trending new repo",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. · ★ 2089",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T19:29:01Z",
+      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -119,39 +360,6 @@
       ]
     },
     {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-5wyudk",
-      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-20T16:05:03.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.7,
-      "tags": [
-        "github",
-        "productivity"
-      ]
-    },
-    {
       "id": "sig-10otfo9",
       "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
       "url": "https://news.ycombinator.com/item?id=50167583",
@@ -165,53 +373,6 @@
       "tags": [
         "ai",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-1wabitu",
-      "title": "Tsrs: A Port of TypeScript to Rust",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "344 points on Hacker News",
-      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-20T13:18:07Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.6,
-      "tags": [
-        "typescript",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1j190z4",
-      "title": "Meta's Prometheus using object storage for massive AI training jobs",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T12:20:00.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1rteat1",
-      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
-      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
-      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-20T23:38:53.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.4,
-      "tags": [
-        "e3.s"
       ]
     },
     {
@@ -244,22 +405,6 @@
       "tags": [
         "ai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-jjmx0h",
-      "title": "simbasjungles/free-my-tv (Java) — trending new repo",
-      "url": "https://github.com/simbasjungles/free-my-tv",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo. · ★ 1853",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T19:29:01Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7.2,
-      "tags": [
-        "claude code",
-        "claude"
       ]
     },
     {
@@ -1791,69 +1936,6 @@
       "score": 7.1,
       "tags": [
         "ocp"
-      ]
-    },
-    {
-      "id": "sig-a0ocpj",
-      "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "36 points on Hacker News",
-      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-14T05:53:36Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-1dsl19q",
-      "title": "Kioxia adds liquid-cooling to CM9 SSDs for hot rack environments",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/13/kioxia-adds-liquid-cooling-to-cm9-ssds-for-hot-rack-environments/5302663",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-13T14:37:27.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "kioxia"
-      ]
-    },
-    {
-      "id": "sig-ua2f9m",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin f",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T23:58:46.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1bi02lc",
-      "title": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
-      "url": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DN",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-12T22:34:47.000Z",
-      "fetchedAt": "2026-10-14T06:43:51.777Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "performance"
       ]
     }
   ]
