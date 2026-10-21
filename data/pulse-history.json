@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T07:25:48.866Z",
+  "updatedAt": "2026-10-21T13:07:54.998Z",
   "signals": [
     {
       "id": "sig-upoqr3",
@@ -10,7 +10,7 @@
       "summary": "The HP OmniBook Ultra 16 is HP’s 16-inch NVIDIA RTX Spark notebook, a 0.62-inch-thick laptop built around NVIDIA’s N1X superchip and a 3K OLED display. We tested two units side by side: one with the full 20-core N1X, 128GB of LPDDR5X, and a 2TB Gen5 SSD, and one with the same chi",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-16T20:53:58.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Controller architecture shifts change firmware constraints (cores, DRAM, power) — and every constraint change spawns new failure modes to hunt.",
       "publishedAt": "2026-10-15T11:11:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -44,12 +44,285 @@
       "summary": "arXiv:2610.27032v1 Announce Type: new Abstract: Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments without prior training. A key limit",
       "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 8.7,
       "tags": [
         "llm",
         "language model",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-15i4zt8",
+      "title": "HPE Spaceborne Computer-4 Will Run AI Inference on the Moon Aboard Astrolab’s FLIP Rover",
+      "url": "https://www.storagereview.com/news/hpe-spaceborne-computer-4-ai-inference-moon-astrolab-flip-rover",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
+      "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T14:00:23.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 8.4,
+      "tags": [
+        "kioxia",
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-mrcygy",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-20T07:01:46.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 8.2,
+      "tags": [
+        "ai",
+        "hbm",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-1qtm6bt",
+      "title": "Scaling Data Movement For Physical AI",
+      "url": "https://semiengineering.com/scaling-data-movement-for-physical-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "One size does not fit all. The post Scaling Data Movement For Physical AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T07:15:31.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-dpl0vu",
+      "title": "Blog Review: Oct. 21",
+      "url": "https://semiengineering.com/blog-review-oct-21-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "From server to rack; AMBA CXS; digital twins; edge AI development loop; satellite power; global talent challenges. The post Blog Review: Oct. 21 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T07:01:51.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-dhhqbu",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-docum",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-dhhqct",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "url": "https://arxiv.org/abs/2610.26899",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their a",
+      "whyItMatters": "Touches language model, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "language model",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-dhhr29",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical const",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-dhib6l",
+      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+      "url": "https://arxiv.org/abs/2610.27027",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not on",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dhidpa",
+      "title": "XRust: Detecting Logical Races in Rust Linux Drivers",
+      "url": "https://arxiv.org/abs/2610.27325",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.27325v1 Announce Type: new Abstract: Rust is increasingly used in Linux to improve memory safety, but its guarantees do not prevent logical races: individually synchronized operations can still interleave in ways that violate higher-level invariants. Detecting such bug",
+      "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "rust",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-dhidtr",
+      "title": "M3D-FLOW: A Monolithic 3-D-Stackable Processing-Near-DRAM Architecture for Generative Normalizing Flow Applications",
+      "url": "https://arxiv.org/abs/2610.27371",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.27371v1 Announce Type: new Abstract: Normalizing Flows (NFs) have shown strong results in generative modeling, recently reaching state-of-the-art image generation performance. However, their repetitive, sequential operations limit the computational and memory efficienc",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "dram",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dhiekc",
+      "title": "Interflow: Breaking the Offline-Online Barrier for Private AI at the Edge",
+      "url": "https://arxiv.org/abs/2610.27431",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.27431v1 Announce Type: new Abstract: Privacy-preserving machine learning (PPML) offers a promising path toward bringing powerful AI services to the edge without exposing sensitive user data. However, its practical deployment remains constrained by the high communicatio",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-1graggb",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-19T07:03:19.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-5wyudk",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.4,
+      "tags": [
+        "github",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-1wabitu",
+      "title": "Introducing tsrs: A port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "Cloudflare Blog",
+      "category": "programming",
+      "summary": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-20T13:00:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.3,
+      "tags": [
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1j190z4",
+      "title": "Meta's Prometheus using object storage for massive AI training jobs",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-20T12:20:00.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1rteat1",
+      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
+      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
+      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-20T23:38:53.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7.1,
+      "tags": [
+        "e3.s"
+      ]
+    },
+    {
+      "id": "sig-1669z7y",
+      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "ai",
+      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-16T04:49:49.000Z",
+      "fetchedAt": "2026-10-21T13:07:54.998Z",
+      "score": 7,
+      "tags": [
+        "ocp",
+        "ai"
       ]
     },
     {
@@ -70,39 +343,6 @@
       ]
     },
     {
-      "id": "sig-15i4zt8",
-      "title": "HPE Spaceborne Computer-4 Will Run AI Inference on the Moon Aboard Astrolab’s FLIP Rover",
-      "url": "https://www.storagereview.com/news/hpe-spaceborne-computer-4-ai-inference-moon-astrolab-flip-rover",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
-      "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T14:00:23.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 8.5,
-      "tags": [
-        "kioxia",
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-mrcygy",
-      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "hbm",
-        "debugging"
-      ]
-    },
-    {
       "id": "sig-hsu36r",
       "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
       "url": "https://github.com/xamrayev/nexus-cli",
@@ -116,198 +356,6 @@
       "tags": [
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-dhhqbu",
-      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
-      "url": "https://arxiv.org/abs/2610.26887",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-docum",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-dhhqct",
-      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-      "url": "https://arxiv.org/abs/2610.26899",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their a",
-      "whyItMatters": "Touches language model, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "language model",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dhhr29",
-      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
-      "url": "https://arxiv.org/abs/2610.26941",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical const",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dhib6l",
-      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
-      "url": "https://arxiv.org/abs/2610.27027",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not on",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhidpa",
-      "title": "XRust: Detecting Logical Races in Rust Linux Drivers",
-      "url": "https://arxiv.org/abs/2610.27325",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2610.27325v1 Announce Type: new Abstract: Rust is increasingly used in Linux to improve memory safety, but its guarantees do not prevent logical races: individually synchronized operations can still interleave in ways that violate higher-level invariants. Detecting such bug",
-      "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "rust",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-dhidtr",
-      "title": "M3D-FLOW: A Monolithic 3-D-Stackable Processing-Near-DRAM Architecture for Generative Normalizing Flow Applications",
-      "url": "https://arxiv.org/abs/2610.27371",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.27371v1 Announce Type: new Abstract: Normalizing Flows (NFs) have shown strong results in generative modeling, recently reaching state-of-the-art image generation performance. However, their repetitive, sequential operations limit the computational and memory efficienc",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "dram",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhiekc",
-      "title": "Interflow: Breaking the Offline-Online Barrier for Private AI at the Edge",
-      "url": "https://arxiv.org/abs/2610.27431",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.27431v1 Announce Type: new Abstract: Privacy-preserving machine learning (PPML) offers a promising path toward bringing powerful AI services to the edge without exposing sensitive user data. However, its practical deployment remains constrained by the high communicatio",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-5wyudk",
-      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, productivity — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-20T16:05:03.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.6,
-      "tags": [
-        "github",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-1wabitu",
-      "title": "Tsrs: A Port of TypeScript to Rust",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "390 points on Hacker News",
-      "whyItMatters": "Touches typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-20T13:18:07Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.5,
-      "tags": [
-        "typescript",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1j190z4",
-      "title": "Meta's Prometheus using object storage for massive AI training jobs",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T12:20:00.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1rteat1",
-      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
-      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
-      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-20T23:38:53.000Z",
-      "fetchedAt": "2026-10-21T07:25:48.866Z",
-      "score": 7.3,
-      "tags": [
-        "e3.s"
       ]
     },
     {
@@ -405,22 +453,6 @@
       "tags": [
         "ai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1669z7y",
-      "title": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-      "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-      "source": "ServeTheHome",
-      "category": "ai",
-      "summary": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-16T04:49:49.000Z",
-      "fetchedAt": "2026-10-21T01:55:09.950Z",
-      "score": 7,
-      "tags": [
-        "ocp",
-        "ai"
       ]
     },
     {
@@ -1888,54 +1920,6 @@
       "tags": [
         "ai",
         "debugging"
-      ]
-    },
-    {
-      "id": "sig-1f03d85",
-      "title": "11 year old unsoundness bugs found in Rust borrow checker",
-      "url": "https://github.com/rust-lang/rust/issues/164250",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250 Comments URL: https://news.ycombinator.com/item?id=50069499 Points: 723 # Comments: 409",
-      "whyItMatters": "Touches rust, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-13T10:27:00.000Z",
-      "fetchedAt": "2026-10-14T12:26:37.198Z",
-      "score": 7.3,
-      "tags": [
-        "rust",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-vr4y0n",
-      "title": "onehumanbeing/esp32-iphone-agent (Python) — trending new repo",
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. · ★ 1941",
-      "whyItMatters": "Touches ai, openai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-11T19:10:25Z",
-      "fetchedAt": "2026-10-14T12:26:37.198Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "openai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-vn44mu",
-      "title": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
-      "url": "https://www.storagereview.com/news/msi-ocp-2026-liquid-cooled-cg681-s6093-mgx-rack-32-rtx-pro-6000",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "MSI is showing a 48RU NVIDIA MGX rack at the OCP Global Summit in San Jose this week, built from four liquid-cooled CG681-S6093 servers stacked under an NVIDIA Spectrum-4 SN5600 switch and an SN2201 out-of-band switch. Each 6U server takes up to eight NVIDIA RTX PRO 6000 Blackwel",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-13T20:39:13.000Z",
-      "fetchedAt": "2026-10-14T12:26:37.198Z",
-      "score": 7.1,
-      "tags": [
-        "ocp"
       ]
     }
   ]
