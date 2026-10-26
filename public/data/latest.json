@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T01:37:29.256Z",
+  "generatedAt": "2026-10-26T07:01:54.983Z",
   "signals": [
     {
       "id": "sig-unpndl",
@@ -10,7 +10,7 @@
       "summary": "We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-24T18:55:55.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "CHIPS Act $389M to power chips, vertical GaN, materials; Micron's memory roadmap; Nvidia expands supply chain capacity; Tenstorrent raises $1.5B; China NAND fabs; 800V power for AI data centers; Intel advances Arizona fab; China orders +$35B in Nvidia GPUs. The post Chip Industry",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-23T07:01:23.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 10,
       "tags": [
         "nand",
@@ -44,7 +44,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-22T14:48:53.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -60,7 +60,7 @@
       "summary": "Brian hosted Bill Bollengier, Senior Director of Product Management at Micron, for a live podcast on LinkedIn on October 15, with Bill calling in from the floor of the OCP Global Summit. The subject was the Micron 6600 ION 245TB SSD and what a quarter petabyte per drive bay does ",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-21T21:21:34.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -69,16 +69,84 @@
       ]
     },
     {
+      "id": "sig-di3aqp",
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "url": "https://arxiv.org/abs/2610.31882",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-desi",
+      "whyItMatters": "Touches coding agent, claude, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.9,
+      "tags": [
+        "coding agent",
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-di39pb",
+      "title": "Mining the Design Space of Multi-Agent Workflows",
+      "url": "https://arxiv.org/abs/2610.31709",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31709v1 Announce Type: new Abstract: Designing large language model (LLM) multi-agent systems (MAS) still relies on trial and error and informal \"folk wisdom.\" Manual studies test only a few communication structures or topologies (e.g., sequential, parallel, shared-mem",
+      "whyItMatters": "Touches llm, language model, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.9,
+      "tags": [
+        "llm",
+        "language model",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-di39q0",
+      "title": "MBABench-2.0: Evaluating AI Agents on Constructing Financial Spreadsheets Beyond Simple Verifiability",
+      "url": "https://arxiv.org/abs/2610.31711",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31711v1 Announce Type: new Abstract: Spreadsheets are the lingua franca of modern finance, driving valuation, forecast, audit, and many other core workflows of the industry. As LLM agents advance to automate knowledge work, spreadsheet construction is a natural and per",
+      "whyItMatters": "Touches ai, llm, finance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "llm",
+        "finance"
+      ]
+    },
+    {
+      "id": "sig-dhk1hk",
+      "title": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
+      "url": "https://arxiv.org/abs/2610.29873",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.29873v2 Announce Type: replace Abstract: Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels o",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ]
+    },
+    {
       "id": "sig-atspo8",
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
       "url": "https://minimaxir.com/2026/10/cheap-llms/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "138 points on Hacker News",
+      "summary": "249 points on Hacker News",
       "whyItMatters": "Touches anthropic, openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-25T21:11:31Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 8.9,
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.7,
       "tags": [
         "anthropic",
         "openai",
@@ -94,7 +162,7 @@
       "summary": "VAST Data announced that DeepL is deploying the VAST AI Operating System as the data foundation for the research environments behind its written and real-time voice translation. Based on current deployment plans, DeepL expects roughly three times the storage capacity of the NVMe ",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-21T16:25:08.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 8.5,
       "tags": [
         "nvme",
@@ -111,11 +179,123 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-23T11:52:40.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 8.3,
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 8.1,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-di39wn",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding",
+      "whyItMatters": "Touches language model, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "language model",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-di3ben",
+      "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+      "url": "https://arxiv.org/abs/2610.31916",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from langua",
+      "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-di3bk0",
+      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
+      "url": "https://arxiv.org/abs/2610.31971",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-ag",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-di393a",
+      "title": "Understanding Tool-Mediated Interaction Failures in Agentic GUI Software: An Empirical Study",
+      "url": "https://arxiv.org/abs/2610.31698",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31698v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly complete tasks through live graphical user interfaces (GUIs). Because the model cannot directly operate the GUI, these systems often rely on tools to capture screenshots or UI trees, tr",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-di39q4",
+      "title": "What Open-Source Projects Tell Their Coding Agents: A Census of AGENTS.md and CLAUDE.md",
+      "url": "https://arxiv.org/abs/2610.31715",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.31715v1 Announce Type: new Abstract: Coding agents can be guided with instruction files in a repository. We examine this emerging practice through a census of popular, active GitHub repositories in thirteen languages, treating each repository's root AGENTS.md and CLAUD",
+      "whyItMatters": "Touches claude, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "claude",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-di3zz9",
+      "title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+      "url": "https://arxiv.org/abs/2610.32597",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2610.32597v1 Announce Type: new Abstract: Functional verification of Register-Transfer Level(RTL) designs has become a critical bottleneck in modern semiconductor development, often consuming the majority of project resources. Debugging, in particular, remains an especially",
+      "whyItMatters": "Touches semiconductor, debugging — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "semiconductor",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-di42cb",
+      "title": "Embodied Emissions of 2.5D and 3D Scaling in Chipletized GPUs for Low-Carbon AI",
+      "url": "https://arxiv.org/abs/2610.32830",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.32830v1 Announce Type: new Abstract: GPU compute resources are scaling to support growing AI workloads, leading to further rises in the climate change impact of hyperscale data centers that rely on high-performance GPUs. To model how packaging decisions impact the carb",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "performance"
       ]
     },
     {
@@ -127,8 +307,8 @@
       "summary": "We check out the range of Aivres NVIDIA Vera, Vera Rubin, and Blackwell Ultra platforms at OCP Summit 2026 The post Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-10-25T21:51:55.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
+      "score": 7.2,
       "tags": [
         "ocp"
       ]
@@ -142,184 +322,11 @@
       "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founde",
       "whyItMatters": "Touches ai, anthropic, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-22T18:09:56.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
+      "fetchedAt": "2026-10-26T07:01:54.983Z",
       "score": 7,
       "tags": [
         "ai",
         "anthropic",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1xbzrul",
-      "title": "rddmwmddr/android-ad-cleaner (Python) — trending new repo",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 · ★ 849",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-24T05:35:47Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1f5qy1r",
-      "title": "Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland)",
-      "url": "https://semiengineering.com/security-aware-layer-mapping-reduces-fault-vulnerability-in-3d-compute-in-memory-asu-u-of-maryland/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at Arizona State University and University of Maryland published “SEAL: Multitenant Security-Aware Layer Mapping for Heterogeneous 3-D CiM Accelerators.” Abstract: “Heterogeneous 3-D compute-in-memory architectures can combine different memory technologies across stac",
-      "whyItMatters": "Touches security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-25T20:30:42.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6.4,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1o6o4wr",
-      "title": "UTS #39: Unicode Security Mechanisms",
-      "url": "https://unicode.org/reports/tr39/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "33 points on Hacker News",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-25T16:40:37Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6.3,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1vuq4do",
-      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-      "url": "https://github.com/ihhub/fheroes2",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/ihhub/fheroes2 Comments URL: https://news.ycombinator.com/item?id=50230384 Points: 201 # Comments: 71",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-25T11:09:12.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6.1,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-6e72rd",
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog",
-      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-22T17:21:30.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-ywafyp",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-22T15:34:13.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-xxvxyf",
-      "title": "Beyond The EPE Budget: Building The Next Generation Of Computational Lithography",
-      "url": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Why better models, richer metrology, explainable AI, and cross-industry collaboration must come together to extend semiconductor scaling. The post Beyond The EPE Budget: Building The Next Generation Of Computational Lithography appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-22T07:08:02.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ba5ttr",
-      "title": "Chip Scaling Moves Beyond The Transistor",
-      "url": "https://semiengineering.com/chip-scaling-moves-beyond-the-transistor/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "SEMICON West 2026: Advanced packaging, photonics, test, and AI are increasingly intertwined; very different conversations ahead. The post Chip Scaling Moves Beyond The Transistor appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-22T07:05:16.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-jwge0y",
-      "title": "How Self-Aligned CFET Technology Could Extend CMOS Scaling Beyond 10 Å",
-      "url": "https://semiengineering.com/how-self-aligned-cfet-technology-could-extend-cmos-scaling-beyond-10-a/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A process sequence for SRAM and logic that delivers higher performance through larger effective channel width and improved electrostatics at smaller nodes. The post How Self-Aligned CFET Technology Could Extend CMOS Scaling Beyond 10 Å appeared first on Semiconductor Engineering ",
-      "whyItMatters": "Touches semiconductor, performance — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-22T07:05:02.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-geaoz",
-      "title": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
-      "url": "https://www.storagereview.com/news/nvidia-gtc-berlin-2026-dsx-pod-14-day-ai-factory-substrate-openshell-ai-ran",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "NVIDIA’s GTC Berlin announcements today span containerized Vera Rubin infrastructure, a 2.5x expansion of its substrate supply, and software for AI factory power management and agent security, along with telecom, autonomous vehicle, robotics, and healthcare programs. The headline",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T18:04:42.000Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1wsxsx0",
-      "title": "xevrion/hatchzip (Rust) — trending new repo",
-      "url": "https://github.com/xevrion/hatchzip",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI. · ★ 1943",
-      "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-21T17:29:28Z",
-      "fetchedAt": "2026-10-26T01:37:29.256Z",
-      "score": 6,
-      "tags": [
-        "rust",
         "linux"
       ]
     }
