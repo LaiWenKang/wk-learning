@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-10-27T14:19:45.003Z",
+  "generatedAt": "2026-10-27T19:28:41.216Z",
   "signals": [
+    {
+      "id": "sig-1n6h2ep",
+      "title": "Micron’s Next NAND Is G11, Not G10: 400-Plus Layers, 2x Density, and a 512TB SSD Ceiling on a 2H 2027 Ramp",
+      "url": "https://www.storagereview.com/news/micron-g11-nand-400-layers-2x-density-512tb-ssd-2h-2027",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Micron’s next NAND node is G11, with no G10 between it and the G9 flash in its SSDs today. The density chart in the deck for Micron’s October 21 technology webinar runs G7, G8, G9, G11, and Scott DeBoer, the company’s president and chief technology and products officer, framed th",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-27T17:43:20.000Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "nand",
+        "micron"
+      ]
+    },
     {
       "id": "sig-8dgdj7",
       "title": "DapuStor's KV Cache NVMe SSD offload explainer",
@@ -10,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,7 +43,7 @@
       "summary": "NVIDIA announced Minerva at GTC Berlin, an AIOps platform that pulls telemetry from GPUs, networking, storage, schedulers, and the AI workloads running on them, then applies machine learning to find a degrading component before it slows a training job. Dell Technologies, Lenovo, ",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-26T15:06:57.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -44,8 +61,8 @@
       "summary": "We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-24T18:55:55.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 9.6,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
@@ -61,27 +78,10 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-22T14:48:53.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
       "score": 9.5,
       "tags": [
         "nand",
-        "micron"
-      ]
-    },
-    {
-      "id": "sig-1lnhpbr",
-      "title": "Podcast #155: Micron’s 245TB SSD and What Extreme Density Enables at Scale",
-      "url": "https://www.storagereview.com/podcast/podcast-155-micron-245tb-ssd-extreme-density-bill-bollengier",
-      "source": "StorageReview",
-      "category": "career",
-      "summary": "Brian hosted Bill Bollengier, Senior Director of Product Management at Micron, for a live podcast on LinkedIn on October 15, with Bill calling in from the floor of the OCP Global Summit. The subject was the Micron 6600 ION 245TB SSD and what a quarter petabyte per drive bay does ",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-21T21:21:34.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "ocp",
         "micron"
       ]
     },
@@ -94,29 +94,12 @@
       "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-desi",
       "whyItMatters": "Touches coding agent, claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 8.6,
       "tags": [
         "coding agent",
         "claude",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-180o61o",
-      "title": "DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe",
-      "url": "https://www.storagereview.com/news/deepl-vast-ai-operating-system-3x-nvme-capacity-syncengine",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "VAST Data announced that DeepL is deploying the VAST AI Operating System as the data foundation for the research environments behind its written and real-time voice translation. Based on current deployment plans, DeepL expects roughly three times the storage capacity of the NVMe ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-21T16:25:08.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 8.5,
-      "tags": [
-        "nvme",
-        "ai",
-        "storage"
       ]
     },
     {
@@ -128,11 +111,27 @@
       "summary": "",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 8.4,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 8.2,
       "tags": [
         "jedec",
         "hbm"
+      ]
+    },
+    {
+      "id": "sig-ksk1vv",
+      "title": "Why Micron Is Suddenly Ditching 4F² DRAM as Rivals Double Down",
+      "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
+      "source": "Hacker News (front page)",
+      "category": "semiconductor",
+      "summary": "91 points on Hacker News",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-26T15:05:04Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 8.2,
+      "tags": [
+        "micron",
+        "dram"
       ]
     },
     {
@@ -144,11 +143,59 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-23T11:52:40.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
       "score": 8,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-1lhuhja",
+      "title": "Dell Ships Quantum-Safe Fibre Channel Encryption on PowerStore in November, Adds Identity Recovery and AI Factory Hardening to PowerProtect",
+      "url": "https://www.storagereview.com/news/dell-powerstore-quantum-safe-fibre-channel-encryption-november-powerprotect-identity-recovery-ai-factory",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Dell Technologies today expanded its cyber resilience portfolio across AI environments, identity systems, and storage infrastructure. The piece that matters most for storage buyers is now a date: the next Dell PowerStore software release, due in November, adds quantum-safe encryp",
+      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-10-27T16:05:05.000Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-5rvn31",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "225 points on Hacker News",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T15:28:26Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.9,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-80ip5m",
+      "title": "The imec Report: Scaling Optical Interconnects For The AI Era",
+      "url": "https://semiengineering.com/the-imec-report-scaling-optical-interconnects-for-the-ai-era/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Unprecedented demand for bandwidth calls for bringing optics closer to silicon through a fundamental rethinking of the optical interconnect roadmap. The post The imec Report: Scaling Optical Interconnects For The AI Era appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T07:01:34.000Z",
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -160,8 +207,8 @@
       "summary": "3D DRAM-on-GPU thermal design; multi-tier CFET self-heating and parasitics; 200G/λ silicon photonics; dry-deposited EUV and e-beam resists; neural-network-based SPICE modeling for 3nm; security-aware 3D CiM mapping; Pt-W absorbers for high-NA EUV masks. The post Chip Industry Tec",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-27T07:01:16.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.7,
       "tags": [
         "dram",
         "security"
@@ -176,8 +223,8 @@
       "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding",
       "whyItMatters": "Touches language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.6,
       "tags": [
         "language model",
         "performance"
@@ -192,8 +239,8 @@
       "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from langua",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "reliability"
@@ -208,8 +255,8 @@
       "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-ag",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -224,8 +271,8 @@
       "summary": "arXiv:2610.33253v1 Announce Type: new Abstract: Regulated industries such as finance and healthcare face critical governance challenges that hamper the adoption of AI-assisted software development and hinder the transition from experimental pilots to production work. This paper p",
       "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "finance"
@@ -240,8 +287,8 @@
       "summary": "arXiv:2610.33300v1 Announce Type: new Abstract: AI training and inference workloads make GPU power swing repeatedly between compute and communication phases. As a result, the cascaded converters in a datacenter rack keep moving between operating points with different efficiencies",
       "whyItMatters": "Touches ai, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "communication"
@@ -256,8 +303,8 @@
       "summary": "Researchers at imec published “Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration.” Summary: Researchers evaluated a 3D memory architecture that rotates DRAM dies vertically above a GPU and places cooling cavities between them as an alternative t",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-26T07:02:36.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.1,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7,
       "tags": [
         "dram",
         "hbm"
@@ -272,61 +319,11 @@
       "summary": "Expert panel sees a compelling productivity case, but the entire photomask ecosystem must be ready together. The post Large-Format Masks Move From Aspiration To Industry Roadmap appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-26T07:02:08.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7.1,
+      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "score": 7,
       "tags": [
         "semiconductor",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-3rrvzq",
-      "title": "Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP",
-      "url": "https://www.storagereview.com/news/cisco-iq-general-availability-partners-model-foundry-live-protect-wifi-7",
-      "source": "StorageReview",
-      "category": "programming",
-      "summary": "Cisco today made Cisco IQ generally available to partners at Cisco Partner Summit in Vancouver, opening the support platform’s telemetry and automation to partner workflows through a Cisco IQ MCP Server, expanded API access, and role-based access control that lets a customer gran",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-26T20:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "telemetry"
-      ]
-    },
-    {
-      "id": "sig-1pdtxdw",
-      "title": "t3dotgg/tstack (Python) — trending new repo",
-      "url": "https://github.com/t3dotgg/tstack",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "The agent skills I use every day. Works with Claude Code and Codex. · ★ 1825",
-      "whyItMatters": "Touches claude code, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-24T05:00:20Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-2bwb2d",
-      "title": "morganlinton/BeautifulRust (Python) — trending new repo",
-      "url": "https://github.com/morganlinton/BeautifulRust",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI. · ★ 1276",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-23T03:01:11Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python",
-        "rust"
       ]
     }
   ]
