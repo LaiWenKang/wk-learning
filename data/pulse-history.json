@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:28:41.216Z",
+  "updatedAt": "2026-10-27T23:05:02.178Z",
   "signals": [
     {
       "id": "sig-1n6h2ep",
@@ -10,7 +10,7 @@
       "summary": "Micron’s next NAND node is G11, with no G10 between it and the G9 flash in its SSDs today. The density chart in the deck for Micron’s October 21 technology webinar runs G7, G8, G9, G11, and Scott DeBoer, the company’s president and chief technology and products officer, framed th",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-27T17:43:20.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -43,7 +43,7 @@
       "summary": "NVIDIA announced Minerva at GTC Berlin, an AIOps platform that pulls telemetry from GPUs, networking, storage, schedulers, and the AI workloads running on them, then applies machine learning to find a degrading component before it slows a training job. Dell Technologies, Lenovo, ",
       "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
       "publishedAt": "2026-10-26T15:06:57.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 10,
       "tags": [
         "telemetry",
@@ -61,7 +61,7 @@
       "summary": "We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-24T18:55:55.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -78,7 +78,7 @@
       "summary": "",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-22T14:48:53.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 9.5,
       "tags": [
         "nand",
@@ -94,8 +94,8 @@
       "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-desi",
       "whyItMatters": "Touches coding agent, claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 8.6,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 8.5,
       "tags": [
         "coding agent",
         "claude",
@@ -111,8 +111,8 @@
       "summary": "",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 8.2,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 8.1,
       "tags": [
         "jedec",
         "hbm"
@@ -124,11 +124,11 @@
       "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
       "source": "Hacker News (front page)",
       "category": "semiconductor",
-      "summary": "91 points on Hacker News",
+      "summary": "127 points on Hacker News",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-26T15:05:04Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 8.2,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 8.1,
       "tags": [
         "micron",
         "dram"
@@ -143,11 +143,43 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-23T11:52:40.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
       "score": 8,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-rc4hvb",
+      "title": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
+      "url": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at IBM Research Europe published “Superposed analog memory for vector storage in neural networks.” Summary: Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition, increasing effective storage density with ",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T20:37:31.000Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-auecrc",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "120 points on Hacker News",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T19:55:06Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
       ]
     },
     {
@@ -159,8 +191,8 @@
       "summary": "Dell Technologies today expanded its cyber resilience portfolio across AI environments, identity systems, and storage infrastructure. The piece that matters most for storage buyers is now a date: the next Dell PowerStore software release, due in November, adds quantum-safe encryp",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-10-27T16:05:05.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "storage"
@@ -172,11 +204,11 @@
       "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "225 points on Hacker News",
+      "summary": "400 points on Hacker News",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T15:28:26Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.8,
       "tags": [
         "claude",
         "anthropic"
@@ -191,8 +223,8 @@
       "summary": "Unprecedented demand for bandwidth calls for bringing optics closer to silicon through a fundamental rethinking of the optical interconnect roadmap. The post The imec Report: Scaling Optical Interconnects For The AI Era appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T07:01:34.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -207,11 +239,26 @@
       "summary": "3D DRAM-on-GPU thermal design; multi-tier CFET self-heating and parasitics; 200G/λ silicon photonics; dry-deposited EUV and e-beam resists; neural-network-based SPICE modeling for 3nm; security-aware 3D CiM mapping; Pt-W absorbers for high-NA EUV masks. The post Chip Industry Tec",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-10-27T07:01:16.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.7,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.6,
       "tags": [
         "dram",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1sf7cs",
+      "title": "Microsoft Maia 300 Shown at OCP 2026",
+      "url": "https://www.servethehome.com/microsoft-maia-300-shown-at-ocp-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At OCP Summit 2026, we saw the new Microsoft Maia 300 platform with four 288GB HBM4 950W accelerators per tray The post Microsoft Maia 300 Shown at OCP 2026 appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-27T21:28:01.000Z",
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.5,
+      "tags": [
+        "ocp"
       ]
     },
     {
@@ -223,8 +270,8 @@
       "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding",
       "whyItMatters": "Touches language model, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.5,
       "tags": [
         "language model",
         "performance"
@@ -239,8 +286,8 @@
       "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from langua",
       "whyItMatters": "Touches ai, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "reliability"
@@ -255,8 +302,8 @@
       "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-ag",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -271,8 +318,8 @@
       "summary": "arXiv:2610.33253v1 Announce Type: new Abstract: Regulated industries such as finance and healthcare face critical governance challenges that hamper the adoption of AI-assisted software development and hinder the transition from experimental pilots to production work. This paper p",
       "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-27T04:00:00.000Z",
-      "fetchedAt": "2026-10-27T19:28:41.216Z",
-      "score": 7.6,
+      "fetchedAt": "2026-10-27T23:05:02.178Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "finance"
@@ -1980,22 +2027,6 @@
         "ocp",
         "sk hynix",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1azwl97",
-      "title": "Why Physical AI Is So Hard To Engineer",
-      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design. The post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-19T07:01:53.000Z",
-      "fetchedAt": "2026-10-20T20:38:37.503Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     }
   ]
