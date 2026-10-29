@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T05:32:55.931Z",
+  "updatedAt": "2026-10-29T11:41:22.733Z",
   "signals": [
     {
       "id": "sig-mz4jc6",
@@ -10,7 +10,7 @@
       "summary": "Oracle announced a second round of Oracle Acceleron capabilities at Oracle AI World in Las Vegas, a year after the networking suite first bundled dedicated fabrics, multiplanar networking, SmartNICs, and direct data paths for Oracle Cloud Infrastructure. The new pieces are RDMA o",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-28T14:55:26.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -28,7 +28,7 @@
       "summary": "Micron’s next NAND node is G11, with no G10 between it and the G9 flash in its SSDs today. The density chart in the deck for Micron’s October 21 technology webinar runs G7, G8, G9, G11, and Scott DeBoer, the company’s president and chief technology and products officer, framed th",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-27T17:43:20.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,8 +45,8 @@
       "summary": "",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 9.8,
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 9.6,
       "tags": [
         "ssd",
         "nvme"
@@ -61,7 +61,7 @@
       "summary": "We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-24T18:55:55.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -78,8 +78,8 @@
       "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evo",
       "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-29T04:00:00.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 9,
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 8.8,
       "tags": [
         "llm",
         "language model",
@@ -95,8 +95,8 @@
       "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-28T18:23:54.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 8.7,
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 8.5,
       "tags": [
         "ssd"
       ]
@@ -110,7 +110,7 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-23T11:52:40.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
       "score": 8,
       "tags": [
         "solidigm",
@@ -118,16 +118,32 @@
       ]
     },
     {
+      "id": "sig-5r9m4",
+      "title": "AI Raises The Bar For Tomorrow’s Engineers",
+      "url": "https://semiengineering.com/ai-raises-the-bar-for-tomorrows-engineers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Universities are redesigning curricula and assessments around judgment, validation, and technical depth. The post AI Raises The Bar For Tomorrow’s Engineers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T07:11:29.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
       "id": "sig-15kmfjr",
-      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "158 points on Hacker News",
+      "summary": "418 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-29T03:33:42Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.9,
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7.8,
       "tags": [
         "claude code",
         "claude"
@@ -142,11 +158,176 @@
       "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T23:23:21.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.8,
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-ae6ta4",
+      "title": "Nvidia sidesteps JEDEC HBM standard",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-26T15:06:32.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7.1,
+      "tags": [
+        "jedec",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-zzd8wp",
+      "title": "Seagate Exos M HAMR SMR Drives Join Broadcom’s eHBA 9600 Approved Vendor List After Azure Qualification",
+      "url": "https://www.storagereview.com/news/seagate-exos-m-hamr-smr-broadcom-ehba-9600-approved-vendor-list-azure",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Seagate announced that its Mozaic hard drives built on heat-assisted magnetic recording (HAMR) and configured for shingled magnetic recording (SMR) have been added to Broadcom’s approved vendor list for its host bus adapters, which Seagate calls the first and only SMR drives on t",
+      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-28T19:12:31.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "seagate"
+      ]
+    },
+    {
+      "id": "sig-b0h819",
+      "title": "Motionsites-AI/claude-skill (Python) — trending new repo",
+      "url": "https://github.com/Motionsites-AI/claude-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. · ★ 1025",
+      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T06:58:45Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-y2fva6",
+      "title": "andyhuo520/digital-human-koubo (TypeScript) — trending new repo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … · ★ 1405",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:34:09Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-j99bby",
+      "title": "DenisSergeevitch/ex-ussr-kinship-research (Python) — trending new repo",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. · ★ 1220",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-25T10:05:56Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-1pdtxdw",
+      "title": "t3dotgg/tstack (Python) — trending new repo",
+      "url": "https://github.com/t3dotgg/tstack",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "The agent skills I use every day. Works with Claude Code and Codex. · ★ 2320",
+      "whyItMatters": "Touches claude code, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-24T05:00:20Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-2bwb2d",
+      "title": "morganlinton/BeautifulRust (Python) — trending new repo",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI. · ★ 1387",
+      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-23T03:01:11Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-pe6pbd",
+      "title": "SK Hynix: What shall we do with all the cash?",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/28/sk-hynix-what-shall-we-do-with-all-the-cash/5306038",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-28T15:15:56.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 6.9,
+      "tags": [
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-5ixart",
+      "title": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
+      "url": "https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Vertiv announced SmartIT, a pre-engineered rack architecture that packages the rack, DC power conversion and distribution, direct-to-chip liquid cooling, in-rack coolant distribution, and monitoring into a factory-validated unit for NVIDIA MGX and OCP ORV3 systems. The supported ",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-28T15:11:21.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 6.9,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-moggy9",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 324 # Comments: 337",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T20:50:42.000Z",
+      "fetchedAt": "2026-10-29T11:41:22.733Z",
+      "score": 6.9,
+      "tags": [
+        "claude",
+        "anthropic"
       ]
     },
     {
@@ -227,83 +408,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ae6ta4",
-      "title": "Nvidia sidesteps JEDEC HBM standard",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.3,
-      "tags": [
-        "jedec",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-zzd8wp",
-      "title": "Seagate Exos M HAMR SMR Drives Join Broadcom’s eHBA 9600 Approved Vendor List After Azure Qualification",
-      "url": "https://www.storagereview.com/news/seagate-exos-m-hamr-smr-broadcom-ehba-9600-approved-vendor-list-azure",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Seagate announced that its Mozaic hard drives built on heat-assisted magnetic recording (HAMR) and configured for shingled magnetic recording (SMR) have been added to Broadcom’s approved vendor list for its host bus adapters, which Seagate calls the first and only SMR drives on t",
-      "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-28T19:12:31.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.2,
-      "tags": [
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-pe6pbd",
-      "title": "SK Hynix: What shall we do with all the cash?",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/28/sk-hynix-what-shall-we-do-with-all-the-cash/5306038",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-28T15:15:56.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.1,
-      "tags": [
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-5ixart",
-      "title": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
-      "url": "https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Vertiv announced SmartIT, a pre-engineered rack architecture that packages the rack, DC power conversion and distribution, direct-to-chip liquid cooling, in-rack coolant distribution, and monitoring into a factory-validated unit for NVIDIA MGX and OCP ORV3 systems. The supported ",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-28T15:11:21.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.1,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-moggy9",
-      "title": "Early progress on accelerating drug development with Claude",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 322 # Comments: 336",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-27T20:50:42.000Z",
-      "fetchedAt": "2026-10-29T05:32:55.931Z",
-      "score": 7.1,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     },
     {
@@ -450,24 +554,6 @@
       "tags": [
         "micron",
         "dram"
-      ]
-    },
-    {
-      "id": "sig-y2fva6",
-      "title": "andyhuo520/digital-human-koubo (TypeScript) — trending new repo",
-      "url": "https://github.com/andyhuo520/digital-human-koubo",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … · ★ 1189",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-26T04:34:09Z",
-      "fetchedAt": "2026-10-28T08:20:01.645Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "typescript"
       ]
     },
     {
@@ -709,41 +795,6 @@
       "score": 7,
       "tags": [
         "telemetry"
-      ]
-    },
-    {
-      "id": "sig-1pdtxdw",
-      "title": "t3dotgg/tstack (Python) — trending new repo",
-      "url": "https://github.com/t3dotgg/tstack",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "The agent skills I use every day. Works with Claude Code and Codex. · ★ 1825",
-      "whyItMatters": "Touches claude code, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-24T05:00:20Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-2bwb2d",
-      "title": "morganlinton/BeautifulRust (Python) — trending new repo",
-      "url": "https://github.com/morganlinton/BeautifulRust",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI. · ★ 1276",
-      "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-23T03:01:11Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "python",
-        "rust"
       ]
     },
     {
@@ -1846,38 +1897,6 @@
       "tags": [
         "typescript",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-rgfkpw",
-      "title": "Achieving AI-style reasoning without an LLM",
-      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "9 points on Hacker News",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-22T08:46:58Z",
-      "fetchedAt": "2026-10-22T09:59:57.516Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-15i4zt8",
-      "title": "HPE Spaceborne Computer-4 Will Run AI Inference on the Moon Aboard Astrolab’s FLIP Rover",
-      "url": "https://www.storagereview.com/news/hpe-spaceborne-computer-4-ai-inference-moon-astrolab-flip-rover",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "HPE announced HPE Spaceborne Computer-4, a compute module that will run AI inference and what HPE says will be the first HPC benchmarks on the Moon. Loaded with KIOXIA SSDs, the module will fly as a payload on Astrolab’s FLIP rover, which Voyager Technologies’ Griffin-1 lander wi",
-      "whyItMatters": "Touches kioxia, ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T14:00:23.000Z",
-      "fetchedAt": "2026-10-22T09:59:57.516Z",
-      "score": 7.8,
-      "tags": [
-        "kioxia",
-        "ai"
       ]
     }
   ]
