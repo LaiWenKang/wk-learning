@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:03:12.262Z",
+  "updatedAt": "2026-10-29T05:32:55.931Z",
   "signals": [
     {
       "id": "sig-mz4jc6",
@@ -10,7 +10,7 @@
       "summary": "Oracle announced a second round of Oracle Acceleron capabilities at Oracle AI World in Las Vegas, a year after the networking suite first bundled dedicated fabrics, multiplanar networking, SmartNICs, and direct data paths for Oracle Cloud Infrastructure. The new pieces are RDMA o",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-28T14:55:26.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -28,7 +28,7 @@
       "summary": "Micron’s next NAND node is G11, with no G10 between it and the G9 flash in its SSDs today. The density chart in the deck for Micron’s October 21 technology webinar runs G7, G8, G9, G11, and Scott DeBoer, the company’s president and chief technology and products officer, framed th",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-27T17:43:20.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,8 +45,8 @@
       "summary": "",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 9.9,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 9.8,
       "tags": [
         "ssd",
         "nvme"
@@ -61,12 +61,29 @@
       "summary": "We test the cheap ADT R27A-BK3 card to see what the U.2 SSD to PCIe card slot adapter offers, and how the cooling works The post ADT R27A-BK3 U.2 to PCIe Adapter Review appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-10-24T18:55:55.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "pcie",
         "u.2"
+      ]
+    },
+    {
+      "id": "sig-di6zid",
+      "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+      "url": "https://arxiv.org/abs/2610.36188",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evo",
+      "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T04:00:00.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 9,
+      "tags": [
+        "llm",
+        "language model",
+        "software engineering"
       ]
     },
     {
@@ -78,43 +95,10 @@
       "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-28T18:23:54.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 8.8,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 8.7,
       "tags": [
         "ssd"
-      ]
-    },
-    {
-      "id": "sig-di6zid",
-      "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
-      "url": "https://arxiv.org/abs/2610.36188",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evo",
-      "whyItMatters": "Touches llm, language model, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-xqgi7v",
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-28T23:23:21.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 8,
-      "tags": [
-        "llm",
-        "performance"
       ]
     },
     {
@@ -126,11 +110,43 @@
       "summary": "",
       "whyItMatters": "Touches solidigm, sk hynix — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-23T11:52:40.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
       "score": 8,
       "tags": [
         "solidigm",
         "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-15kmfjr",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "158 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-xqgi7v",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-28T23:23:21.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "performance"
       ]
     },
     {
@@ -142,8 +158,8 @@
       "summary": "Make every layer of your hardware PDN-aware and reach your maximum compute density. The post Foundations of Power Management in the Age of AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T07:03:10.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -158,8 +174,8 @@
       "summary": "The growing role of AI in analog and mixed-signal design, where complexity is rising, schedules are tightening, and the cost of mistakes is higher than ever. The post Using AI for Analog Design appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T07:02:07.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -174,8 +190,8 @@
       "summary": "How a single, integrated Foundation IP platform reduces re-spin risk and integration delays and helps lower TCO. The post Foundation IP For The AI Era: Why Execution Saves You Millions On HPC And Edge AI SoCs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T07:01:06.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -190,8 +206,8 @@
       "summary": "Agentic solutions for RF design. The post Planning Your AI Design Journey In RF EDA appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T07:01:05.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -206,11 +222,27 @@
       "summary": "Large-format/curvilinear masks; STCO for heterogeneous design; physical AI interactions; signing off AI-generated designs; workload profile analysis. The post Blog Review: Oct. 28 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-28T07:01:03.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.5,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ae6ta4",
+      "title": "Nvidia sidesteps JEDEC HBM standard",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-26T15:06:32.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.3,
+      "tags": [
+        "jedec",
+        "hbm"
       ]
     },
     {
@@ -222,10 +254,72 @@
       "summary": "Seagate announced that its Mozaic hard drives built on heat-assisted magnetic recording (HAMR) and configured for shingled magnetic recording (SMR) have been added to Broadcom’s approved vendor list for its host bus adapters, which Seagate calls the first and only SMR drives on t",
       "whyItMatters": "Touches seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-28T19:12:31.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.4,
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.2,
       "tags": [
         "seagate"
+      ]
+    },
+    {
+      "id": "sig-pe6pbd",
+      "title": "SK Hynix: What shall we do with all the cash?",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/28/sk-hynix-what-shall-we-do-with-all-the-cash/5306038",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-28T15:15:56.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.1,
+      "tags": [
+        "sk hynix"
+      ]
+    },
+    {
+      "id": "sig-5ixart",
+      "title": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
+      "url": "https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Vertiv announced SmartIT, a pre-engineered rack architecture that packages the rack, DC power conversion and distribution, direct-to-chip liquid cooling, in-rack coolant distribution, and monitoring into a factory-validated unit for NVIDIA MGX and OCP ORV3 systems. The supported ",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-10-28T15:11:21.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.1,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-moggy9",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 322 # Comments: 336",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T20:50:42.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.1,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-rc4hvb",
+      "title": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
+      "url": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at IBM Research Europe published “Superposed analog memory for vector storage in neural networks.” Summary: Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition, increasing effective storage density with ",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T20:37:31.000Z",
+      "fetchedAt": "2026-10-29T05:32:55.931Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -274,68 +368,6 @@
       "tags": [
         "kernel",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-ae6ta4",
-      "title": "Nvidia sidesteps JEDEC HBM standard",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.4,
-      "tags": [
-        "jedec",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-pe6pbd",
-      "title": "SK Hynix: What shall we do with all the cash?",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/28/sk-hynix-what-shall-we-do-with-all-the-cash/5306038",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sk hynix — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-28T15:15:56.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.3,
-      "tags": [
-        "sk hynix"
-      ]
-    },
-    {
-      "id": "sig-5ixart",
-      "title": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
-      "url": "https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Vertiv announced SmartIT, a pre-engineered rack architecture that packages the rack, DC power conversion and distribution, direct-to-chip liquid cooling, in-rack coolant distribution, and monitoring into a factory-validated unit for NVIDIA MGX and OCP ORV3 systems. The supported ",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-28T15:11:21.000Z",
-      "fetchedAt": "2026-10-29T00:03:12.262Z",
-      "score": 7.3,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-rc4hvb",
-      "title": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
-      "url": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at IBM Research Europe published “Superposed analog memory for vector storage in neural networks.” Summary: Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition, increasing effective storage density with ",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-27T20:37:31.000Z",
-      "fetchedAt": "2026-10-28T20:19:26.703Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "storage"
       ]
     },
     {
@@ -1846,200 +1878,6 @@
       "tags": [
         "kioxia",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-mrcygy",
-      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles. The post C",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-20T07:01:46.000Z",
-      "fetchedAt": "2026-10-22T04:55:33.149Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "hbm",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-1graggb",
-      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
-      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia. The post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-19T07:03:19.000Z",
-      "fetchedAt": "2026-10-22T04:55:33.149Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1j190z4",
-      "title": "Meta's Prometheus using object storage for massive AI training jobs",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/20/metas-prometheus-using-object-storage-for-massive-ai-training-jobs/5304117",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-20T12:20:00.000Z",
-      "fetchedAt": "2026-10-22T04:55:33.149Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1rteat1",
-      "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
-      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Dell Pro Precision 9 T2 is the Xeon version of the single-GPU tower we reviewed a year ago as the Dell Pro Max Tower T2, and it arrives with two changes at once: a new name, as Dell moves its workstations back under the Precision brand, and a new platform, with Intel’s Xeon 6",
-      "whyItMatters": "Touches e3.s — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-20T23:38:53.000Z",
-      "fetchedAt": "2026-10-22T04:55:33.149Z",
-      "score": 6.7,
-      "tags": [
-        "e3.s"
-      ]
-    },
-    {
-      "id": "sig-dhib7d",
-      "title": "M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement",
-      "url": "https://arxiv.org/abs/2610.27032",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.27032v1 Announce Type: new Abstract: Large language model (LLM)-based agents have recently demonstrated outstanding performance in single-turn tasks, yet they continue to struggle with long-horizon tasks, particularly in environments without prior training. A key limit",
-      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhhqbu",
-      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
-      "url": "https://arxiv.org/abs/2610.26887",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-docum",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-dhhqct",
-      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-      "url": "https://arxiv.org/abs/2610.26899",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their a",
-      "whyItMatters": "Touches language model, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "language model",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-dhhr29",
-      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
-      "url": "https://arxiv.org/abs/2610.26941",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical const",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-dhib6l",
-      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
-      "url": "https://arxiv.org/abs/2610.27027",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2610.27027v1 Announce Type: new Abstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not on",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhidpa",
-      "title": "XRust: Detecting Logical Races in Rust Linux Drivers",
-      "url": "https://arxiv.org/abs/2610.27325",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2610.27325v1 Announce Type: new Abstract: Rust is increasingly used in Linux to improve memory safety, but its guarantees do not prevent logical races: individually synchronized operations can still interleave in ways that violate higher-level invariants. Detecting such bug",
-      "whyItMatters": "Touches rust, linux — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "rust",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-dhidtr",
-      "title": "M3D-FLOW: A Monolithic 3-D-Stackable Processing-Near-DRAM Architecture for Generative Normalizing Flow Applications",
-      "url": "https://arxiv.org/abs/2610.27371",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2610.27371v1 Announce Type: new Abstract: Normalizing Flows (NFs) have shown strong results in generative modeling, recently reaching state-of-the-art image generation performance. However, their repetitive, sequential operations limit the computational and memory efficienc",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "dram",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dhiekc",
-      "title": "Interflow: Breaking the Offline-Online Barrier for Private AI at the Edge",
-      "url": "https://arxiv.org/abs/2610.27431",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2610.27431v1 Announce Type: new Abstract: Privacy-preserving machine learning (PPML) offers a promising path toward bringing powerful AI services to the edge without exposing sensitive user data. However, its practical deployment remains constrained by the high communicatio",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "fetchedAt": "2026-10-22T00:08:43.481Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
       ]
     }
   ]
