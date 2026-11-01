@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T14:20:58.374Z",
+  "updatedAt": "2026-11-01T18:59:34.348Z",
   "signals": [
     {
       "id": "sig-8dgdj7",
@@ -10,7 +10,7 @@
       "summary": "",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -26,8 +26,8 @@
       "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-30T22:43:29.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 9.4,
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 9.3,
       "tags": [
         "nand",
         "dram"
@@ -39,11 +39,11 @@
       "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "161 points on Hacker News",
+      "summary": "227 points on Hacker News",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-01T06:06:19Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "javascript"
@@ -55,13 +55,270 @@
       "url": "https://github.com/patch-gg/pixelfx",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 2174",
+      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 2427",
       "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-30T06:43:25Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7.3,
       "tags": [
         "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1ywxbns",
+      "title": "deepseek-ai/dsh-superagent-prototype (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Towards a More Autonomous Agent System · ★ 6736",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-3rznhu",
+      "title": "heydamir/unslop (JavaScript) — trending new repo",
+      "url": "https://github.com/heydamir/unslop",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 4650",
+      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-169aevx",
+      "title": "paipiange/nvzhuang (Go) — trending new repo",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 1859",
+      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1ufdhxz",
+      "title": "Samsung Portable SSD P9 Review: 4,000MB/s USB4 Reads in a Metal Shell That Peaks at 40C",
+      "url": "https://www.storagereview.com/review/samsung-portable-ssd-p9-review",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-28T18:23:54.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "ssd"
+      ]
+    },
+    {
+      "id": "sig-ae6ta4",
+      "title": "Nvidia sidesteps JEDEC HBM standard",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-26T15:06:32.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "jedec",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-b0h819",
+      "title": "Motionsites-AI/claude-skill (Python) — trending new repo",
+      "url": "https://github.com/Motionsites-AI/claude-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. · ★ 1386",
+      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T06:58:45Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-y2fva6",
+      "title": "andyhuo520/digital-human-koubo (TypeScript) — trending new repo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … · ★ 1632",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-26T04:34:09Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1tpbaus",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "49 points on Hacker News",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-01T13:02:30Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6.3,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-12ofa5l",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-162/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking metho",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-10-30T07:01:27.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-zupdnb",
+      "title": "Sandisk’s flash revenue rocket accelerates some more",
+      "url": "https://www.blocksandfiles.com/flash/2026/10/30/sandisks-flash-revenue-rocket-accelerates-some-more/5306734",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches sandisk — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-30T17:24:44.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6.1,
+      "tags": [
+        "sandisk"
+      ]
+    },
+    {
+      "id": "sig-1vhqyga",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are dis",
+      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-31T23:15:22.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "sig-1gciojx",
+      "title": "HPE puts storage to work on AI’s expensive memory problem",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/29/partner-content-hpe-puts-storage-to-work-on-ais-expensive-memory-problem/5305788",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-5r9m4",
+      "title": "AI Raises The Bar For Tomorrow’s Engineers",
+      "url": "https://semiengineering.com/ai-raises-the-bar-for-tomorrows-engineers/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Universities are redesigning curricula and assessments around judgment, validation, and technical depth. The post AI Raises The Bar For Tomorrow’s Engineers appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T07:11:29.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-xqgi7v",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-28T23:23:21.000Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-ncdv27",
+      "title": "anhao/ai-pose-gallery-zh (TypeScript) — trending new repo",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 · ★ 5112",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T12:24:37Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1ro6bo9",
+      "title": "haydenschmitty/floorplan (JavaScript) — trending new repo",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex. · ★ 1435",
+      "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-27T12:03:01Z",
+      "fetchedAt": "2026-11-01T18:59:34.348Z",
+      "score": 6,
+      "tags": [
         "claude",
         "javascript"
       ]
@@ -83,122 +340,6 @@
       ]
     },
     {
-      "id": "sig-1ywxbns",
-      "title": "deepseek-ai/dsh-superagent-prototype (TypeScript) — trending new repo",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Towards a More Autonomous Agent System · ★ 5808",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-31T09:32:46Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-3rznhu",
-      "title": "heydamir/unslop (JavaScript) — trending new repo",
-      "url": "https://github.com/heydamir/unslop",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 4281",
-      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T15:41:21Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-169aevx",
-      "title": "paipiange/nvzhuang (Go) — trending new repo",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 1840",
-      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T06:08:00Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1ufdhxz",
-      "title": "Samsung Portable SSD P9 Review: 4,000MB/s USB4 Reads in a Metal Shell That Peaks at 40C",
-      "url": "https://www.storagereview.com/review/samsung-portable-ssd-p9-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-28T18:23:54.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-ae6ta4",
-      "title": "Nvidia sidesteps JEDEC HBM standard",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "jedec",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-b0h819",
-      "title": "Motionsites-AI/claude-skill (Python) — trending new repo",
-      "url": "https://github.com/Motionsites-AI/claude-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites. · ★ 1357",
-      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-26T06:58:45Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-y2fva6",
-      "title": "andyhuo520/digital-human-koubo (TypeScript) — trending new repo",
-      "url": "https://github.com/andyhuo520/digital-human-koubo",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … · ★ 1617",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-26T04:34:09Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "typescript"
-      ]
-    },
-    {
       "id": "sig-ccjifh",
       "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
@@ -211,52 +352,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-12ofa5l",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-162/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking metho",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-30T07:01:27.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-zupdnb",
-      "title": "Sandisk’s flash revenue rocket accelerates some more",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/30/sandisks-flash-revenue-rocket-accelerates-some-more/5306734",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches sandisk — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-30T17:24:44.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 6.3,
-      "tags": [
-        "sandisk"
-      ]
-    },
-    {
-      "id": "sig-1vhqyga",
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are dis",
-      "whyItMatters": "Touches openai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-31T23:15:22.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 6.1,
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -306,22 +401,6 @@
       ]
     },
     {
-      "id": "sig-1gciojx",
-      "title": "HPE puts storage to work on AI’s expensive memory problem",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/29/partner-content-hpe-puts-storage-to-work-on-ais-expensive-memory-problem/5305788",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "fetchedAt": "2026-11-01T14:20:58.374Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-ag2tnx",
       "title": "Malware uses LLMs to rank victims by how much they're worth",
       "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
@@ -349,38 +428,6 @@
       "score": 6,
       "tags": [
         "language model"
-      ]
-    },
-    {
-      "id": "sig-5r9m4",
-      "title": "AI Raises The Bar For Tomorrow’s Engineers",
-      "url": "https://semiengineering.com/ai-raises-the-bar-for-tomorrows-engineers/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Universities are redesigning curricula and assessments around judgment, validation, and technical depth. The post AI Raises The Bar For Tomorrow’s Engineers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T07:11:29.000Z",
-      "fetchedAt": "2026-11-01T07:19:54.061Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-xqgi7v",
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-28T23:23:21.000Z",
-      "fetchedAt": "2026-11-01T07:19:54.061Z",
-      "score": 6,
-      "tags": [
-        "llm",
-        "performance"
       ]
     },
     {
@@ -1823,21 +1870,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ukfhm6",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "451 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-24T23:11:54Z",
-      "fetchedAt": "2026-10-25T16:43:13.251Z",
-      "score": 6,
-      "tags": [
-        "ai"
       ]
     }
   ]
