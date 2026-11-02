@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-11-02T01:52:10.721Z",
+  "generatedAt": "2026-11-02T09:18:03.482Z",
   "signals": [
     {
-      "id": "sig-8dgdj7",
-      "title": "DapuStor's KV Cache NVMe SSD offload explainer",
-      "url": "https://www.blocksandfiles.com/flash/2026/10/26/dapustors-kv-cache-nvme-ssd-offload-explainer/5305417",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-26T15:09:06.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 9.5,
+      "id": "sig-disjy4",
+      "title": "Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot",
+      "url": "https://arxiv.org/abs/2610.41192",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.41192v1 Announce Type: new Abstract: AI coding assistants are commonly used for daily software development tasks. While prior research has examined their impact on productivity and code quality, less is understood about how these tools support diverse ways of thinking.",
+      "whyItMatters": "Touches ai, github, productivity — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8.9,
       "tags": [
-        "ssd",
-        "nvme"
+        "ai",
+        "github",
+        "productivity"
       ]
     },
     {
@@ -26,11 +27,106 @@
       "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-10-30T22:43:29.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 9.1,
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8.9,
       "tags": [
         "nand",
         "dram"
+      ]
+    },
+    {
+      "id": "sig-1s3flvl",
+      "title": "Putting AI To The Test",
+      "url": "https://semiengineering.com/putting-ai-to-the-test/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Who verifies the verifier? This is the age-old question for anyone involved in the verification of semiconductor systems. Who verifies AI? The post Putting AI To The Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T08:01:18.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-diry3k",
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capab",
+      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-disjul",
+      "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
+      "url": "https://arxiv.org/abs/2610.41157",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.41157v1 Announce Type: new Abstract: Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dismbe",
+      "title": "What Does a Repair Agent Gain from Remembering Its Failure? An Exploratory Study on Real Python Bugs",
+      "url": "https://arxiv.org/abs/2610.41433",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.41433v1 Announce Type: new Abstract: When a coding agent fails a repair task, it is often retried with a record of the failure: the transcript, a self-written lesson, or extracted test signals. We ask what such failure memory changes in the retry. On 75 BugsInPy bugs, ",
+      "whyItMatters": "Touches coding agent, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "coding agent",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-disqgz",
+      "title": "Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads",
+      "url": "https://arxiv.org/abs/2610.41919",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.41919v1 Announce Type: cross Abstract: We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\\cite{llama3}, and six production HPC codes. The",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-lms7tw",
+      "title": "Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth",
+      "url": "https://www.servethehome.com/liquid-cooled-nvidia-servers-at-the-asrock-rack-ocp-2026-booth/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We checked out the ASRock Rack booth at OCP 2026 and saw servers ranging from fully integrated NVIDIA NVL72 racks to liquid-cooled switches The post Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-02T04:00:03.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.4,
+      "tags": [
+        "ocp"
       ]
     },
     {
@@ -39,11 +135,11 @@
       "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "298 points on Hacker News",
+      "summary": "366 points on Hacker News",
       "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-01T06:06:19Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "javascript"
@@ -55,11 +151,11 @@
       "url": "https://github.com/patch-gg/pixelfx",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 2637",
+      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 3083",
       "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-10-30T06:43:25Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7.1,
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7,
       "tags": [
         "claude code",
         "claude",
@@ -72,10 +168,10 @@
       "url": "https://github.com/heydamir/unslop",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 4912",
+      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 5287",
       "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-29T15:41:21Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
       "score": 7,
       "tags": [
         "ai",
@@ -89,10 +185,10 @@
       "url": "https://github.com/paipiange/nvzhuang",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 1875",
+      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 2007",
       "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-29T06:08:00Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
       "score": 7,
       "tags": [
         "ai",
@@ -109,26 +205,10 @@
       "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-10-28T18:23:54.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
       "score": 7,
       "tags": [
         "ssd"
-      ]
-    },
-    {
-      "id": "sig-ae6ta4",
-      "title": "Nvidia sidesteps JEDEC HBM standard",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-26T15:06:32.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7,
-      "tags": [
-        "jedec",
-        "hbm"
       ]
     },
     {
@@ -137,186 +217,104 @@
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Towards a More Autonomous Agent System · ★ 7831",
+      "summary": "Towards a More Autonomous Agent System · ★ 10557",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-10-31T09:32:46Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "typescript"
       ]
     },
     {
-      "id": "sig-14wimyz",
-      "title": "If in doubt, delete the uv.lock file",
-      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library ",
-      "whyItMatters": "Touches python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-01T23:24:22.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6.4,
+      "id": "sig-1a4xbmv",
+      "title": "Shift Left Is Becoming A System-Level Problem",
+      "url": "https://semiengineering.com/shift-left-is-becoming-a-system-level-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Rise in complexity is pushing engineers to validate hardware, software, and physical constraints earlier in the design flow, but fragmented workflows make that difficult. The post Shift Left Is Becoming A System-Level Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-02T08:01:30.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.5,
       "tags": [
-        "python"
+        "semiconductor"
       ]
     },
     {
-      "id": "sig-1xrg9yk",
-      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "id": "sig-1k7ii0j",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "162 points on Hacker News",
+      "summary": "19 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-01T22:10:45Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
+      "publishedAt": "2026-11-02T07:27:28Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
       "score": 6.4,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-94xl5r",
-      "title": "Game Off 2026: The theme is SHIFT",
-      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-01T21:36:00.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
+      "id": "sig-dirxy3",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
       "score": 6.4,
       "tags": [
-        "github"
+        "ai"
       ]
     },
     {
-      "id": "sig-1tpbaus",
-      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-      "url": "https://github.com/ivankovic/omnidiff",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "159 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-01T13:02:30Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6.1,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-12ofa5l",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-162/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking metho",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-10-30T07:01:27.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6.1,
-      "tags": [
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1gciojx",
-      "title": "HPE puts storage to work on AI’s expensive memory problem",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/29/partner-content-hpe-puts-storage-to-work-on-ais-expensive-memory-problem/5305788",
-      "source": "Blocks & Files",
+      "id": "sig-diryrl",
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "url": "https://arxiv.org/abs/2610.40927",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
+      "summary": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
       "tags": [
-        "ai",
-        "storage"
+        "language model"
       ]
     },
     {
-      "id": "sig-5r9m4",
-      "title": "AI Raises The Bar For Tomorrow’s Engineers",
-      "url": "https://semiengineering.com/ai-raises-the-bar-for-tomorrows-engineers/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-diryvz",
+      "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+      "url": "https://arxiv.org/abs/2610.40970",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "Universities are redesigning curricula and assessments around judgment, validation, and technical depth. The post AI Raises The Bar For Tomorrow’s Engineers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T07:11:29.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
+      "summary": "arXiv:2610.40970v1 Announce Type: new Abstract: Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of supporting a transition toward sleep. Direc",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
       "tags": [
-        "ai",
-        "semiconductor"
+        "ai"
       ]
     },
     {
-      "id": "sig-xqgi7v",
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-disj3x",
+      "title": "AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems",
+      "url": "https://arxiv.org/abs/2610.41094",
+      "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-28T23:23:21.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
+      "summary": "arXiv:2610.41094v1 Announce Type: new Abstract: AI-based software systems remain difficult to debug because their failures can involve interactions among code, models, data, dependencies, hardware, and execution environments. Existing benchmarks cover specific classes of AI syste",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
       "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-ncdv27",
-      "title": "anhao/ai-pose-gallery-zh (TypeScript) — trending new repo",
-      "url": "https://github.com/anhao/ai-pose-gallery-zh",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 · ★ 5155",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-27T12:24:37Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-1ro6bo9",
-      "title": "haydenschmitty/floorplan (JavaScript) — trending new repo",
-      "url": "https://github.com/haydenschmitty/floorplan",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex. · ★ 1810",
-      "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-27T12:03:01Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
-      "tags": [
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-6e72rd",
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog",
-      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-22T17:21:30.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6,
-      "tags": [
-        "github",
-        "security"
+        "ai"
       ]
     }
   ]
