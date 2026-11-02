@@ -1,6 +1,322 @@
 {
-  "updatedAt": "2026-11-02T01:52:10.721Z",
+  "updatedAt": "2026-11-02T09:18:03.482Z",
   "signals": [
+    {
+      "id": "sig-disjy4",
+      "title": "Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot",
+      "url": "https://arxiv.org/abs/2610.41192",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2610.41192v1 Announce Type: new Abstract: AI coding assistants are commonly used for daily software development tasks. While prior research has examined their impact on productivity and code quality, less is understood about how these tools support diverse ways of thinking.",
+      "whyItMatters": "Touches ai, github, productivity — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "github",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-z3z01m",
+      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
+      "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
+      "source": "ServeTheHome",
+      "category": "semiconductor",
+      "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-30T22:43:29.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8.9,
+      "tags": [
+        "nand",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-1s3flvl",
+      "title": "Putting AI To The Test",
+      "url": "https://semiengineering.com/putting-ai-to-the-test/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Who verifies the verifier? This is the age-old question for anyone involved in the verification of semiconductor systems. Who verifies AI? The post Putting AI To The Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T08:01:18.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-diry3k",
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capab",
+      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-disjul",
+      "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
+      "url": "https://arxiv.org/abs/2610.41157",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.41157v1 Announce Type: new Abstract: Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dismbe",
+      "title": "What Does a Repair Agent Gain from Remembering Its Failure? An Exploratory Study on Real Python Bugs",
+      "url": "https://arxiv.org/abs/2610.41433",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.41433v1 Announce Type: new Abstract: When a coding agent fails a repair task, it is often retried with a record of the failure: the transcript, a self-written lesson, or extracted test signals. We ask what such failure memory changes in the retry. On 75 BugsInPy bugs, ",
+      "whyItMatters": "Touches coding agent, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "coding agent",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-disqgz",
+      "title": "Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads",
+      "url": "https://arxiv.org/abs/2610.41919",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2610.41919v1 Announce Type: cross Abstract: We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\\cite{llama3}, and six production HPC codes. The",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-lms7tw",
+      "title": "Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth",
+      "url": "https://www.servethehome.com/liquid-cooled-nvidia-servers-at-the-asrock-rack-ocp-2026-booth/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We checked out the ASRock Rack booth at OCP 2026 and saw servers ranging from fully integrated NVIDIA NVL72 racks to liquid-cooled switches The post Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-02T04:00:03.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.4,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-vlsnff",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "366 points on Hacker News",
+      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-01T06:06:19Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7.2,
+      "tags": [
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-11qrd1l",
+      "title": "patch-gg/pixelfx (JavaScript) — trending new repo",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 3083",
+      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-3rznhu",
+      "title": "heydamir/unslop (JavaScript) — trending new repo",
+      "url": "https://github.com/heydamir/unslop",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 5287",
+      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-169aevx",
+      "title": "paipiange/nvzhuang (Go) — trending new repo",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 2007",
+      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1ufdhxz",
+      "title": "Samsung Portable SSD P9 Review: 4,000MB/s USB4 Reads in a Metal Shell That Peaks at 40C",
+      "url": "https://www.storagereview.com/review/samsung-portable-ssd-p9-review",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-10-28T18:23:54.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 7,
+      "tags": [
+        "ssd"
+      ]
+    },
+    {
+      "id": "sig-1ywxbns",
+      "title": "deepseek-ai/dsh-superagent-prototype (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Towards a More Autonomous Agent System · ★ 10557",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1a4xbmv",
+      "title": "Shift Left Is Becoming A System-Level Problem",
+      "url": "https://semiengineering.com/shift-left-is-becoming-a-system-level-problem/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Rise in complexity is pushing engineers to validate hardware, software, and physical constraints earlier in the design flow, but fragmented workflows make that difficult. The post Shift Left Is Becoming A System-Level Problem appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-02T08:01:30.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.5,
+      "tags": [
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1k7ii0j",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "19 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T07:27:28Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-dirxy3",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-diryrl",
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "url": "https://arxiv.org/abs/2610.40927",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks",
+      "whyItMatters": "Touches language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
+      "tags": [
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-diryvz",
+      "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+      "url": "https://arxiv.org/abs/2610.40970",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.40970v1 Announce Type: new Abstract: Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of supporting a transition toward sleep. Direc",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-disj3x",
+      "title": "AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems",
+      "url": "https://arxiv.org/abs/2610.41094",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2610.41094v1 Announce Type: new Abstract: AI-based software systems remain difficult to debug because their failures can involve interactions among code, models, data, dependencies, hardware, and execution environments. Existing benchmarks cover specific classes of AI syste",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "fetchedAt": "2026-11-02T09:18:03.482Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
     {
       "id": "sig-8dgdj7",
       "title": "DapuStor's KV Cache NVMe SSD offload explainer",
@@ -18,104 +334,6 @@
       ]
     },
     {
-      "id": "sig-z3z01m",
-      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
-      "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-30T22:43:29.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 9.1,
-      "tags": [
-        "nand",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-vlsnff",
-      "title": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "298 points on Hacker News",
-      "whyItMatters": "Touches ai, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-01T06:06:19Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-11qrd1l",
-      "title": "patch-gg/pixelfx (JavaScript) — trending new repo",
-      "url": "https://github.com/patch-gg/pixelfx",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 2637",
-      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-30T06:43:25Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7.1,
-      "tags": [
-        "claude code",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-3rznhu",
-      "title": "heydamir/unslop (JavaScript) — trending new repo",
-      "url": "https://github.com/heydamir/unslop",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 4912",
-      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T15:41:21Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-169aevx",
-      "title": "paipiange/nvzhuang (Go) — trending new repo",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 1875",
-      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T06:08:00Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1ufdhxz",
-      "title": "Samsung Portable SSD P9 Review: 4,000MB/s USB4 Reads in a Metal Shell That Peaks at 40C",
-      "url": "https://www.storagereview.com/review/samsung-portable-ssd-p9-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Samsung Portable SSD P9 is the company’s first USB4 portable drive, rated at 4,000MB/s read and 3,800MB/s write. That’s double the T9 it sits above. It ships in 1TB, 2TB, 4TB, and 8TB capacities; the 8TB is Samsung’s first USB4 portable SSD at that size, and the 2TB unit we t",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-10-28T18:23:54.000Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 7,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
       "id": "sig-ae6ta4",
       "title": "Nvidia sidesteps JEDEC HBM standard",
       "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
@@ -129,22 +347,6 @@
       "tags": [
         "jedec",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-1ywxbns",
-      "title": "deepseek-ai/dsh-superagent-prototype (TypeScript) — trending new repo",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Towards a More Autonomous Agent System · ★ 7831",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-31T09:32:46Z",
-      "fetchedAt": "2026-11-02T01:52:10.721Z",
-      "score": 6.9,
-      "tags": [
-        "ai",
-        "typescript"
       ]
     },
     {
@@ -1604,38 +1806,6 @@
       "score": 7.4,
       "tags": [
         "cxl"
-      ]
-    },
-    {
-      "id": "sig-5gtp29",
-      "title": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit",
-      "url": "https://www.servethehome.com/aivres-nvidia-vera-rubin-and-hgx-b300-at-ocp-summit-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We check out the range of Aivres NVIDIA Vera, Vera Rubin, and Blackwell Ultra platforms at OCP Summit 2026 The post Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-25T21:51:55.000Z",
-      "fetchedAt": "2026-10-26T07:01:54.983Z",
-      "score": 7.2,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-8v1tka",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founde",
-      "whyItMatters": "Touches ai, anthropic, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-22T18:09:56.000Z",
-      "fetchedAt": "2026-10-26T07:01:54.983Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "anthropic",
-        "linux"
       ]
     }
   ]
