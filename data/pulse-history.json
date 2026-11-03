@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T08:36:26.487Z",
+  "updatedAt": "2026-11-03T16:29:19.445Z",
   "signals": [
     {
       "id": "sig-l7zdr3",
@@ -10,11 +10,317 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-02T12:38:35.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
       "score": 10,
       "tags": [
         "ssd",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-1aehxe1",
+      "title": "Same fab, different paths: Kioxia and Sandisk diverge on HBF",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/03/same-fab-different-paths-kioxia-and-sandisk-diverge-on-hbf/5307156",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-03T14:21:00.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 9.9,
+      "tags": [
+        "kioxia",
+        "sandisk"
+      ]
+    },
+    {
+      "id": "sig-nw57p7",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
+      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T23:49:30.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 8.5,
+      "tags": [
+        "openai",
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-z3z01m",
+      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
+      "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
+      "source": "ServeTheHome",
+      "category": "semiconductor",
+      "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-10-30T22:43:29.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 8.5,
+      "tags": [
+        "nand",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-174ier4",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 340 # Comments: 263",
+      "whyItMatters": "Touches ai, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T16:40:29.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 8.3,
+      "tags": [
+        "ai",
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-d3acpc",
+      "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+      "url": "https://github.com/Muvon/octomind",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "31 points on Hacker News",
+      "whyItMatters": "Touches ai, rust — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T15:02:58Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-13q9gf2",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 3",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Meter-scale quantum interconnects; 2.5D/3D GPU integration and embodied emissions; secure memory-dependent prefetching; routing-aware analog placement; AI-enhanced flip-chip defect detection; superposed PCM for neural-network vector storage. The post Chip Industry Technical Paper",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T08:01:14.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-ysurqx",
+      "title": "Taurus: LLM-in-the-Loop CT Annotation Matches Coding Agents at Half the Cost",
+      "url": "https://arxiv.org/abs/2611.00247",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.00247v1 Announce Type: new Abstract: Dense labels of the aorta in CT are slow to draw, and the public aortic CT datasets that could stand in for them each label different structures under their own conventions. Large language model (LLM) agents can now write code and r",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ysuqye",
+      "title": "Claude for Excel is Transformative for Basic Spreadsheet Modeling and Analysis",
+      "url": "https://arxiv.org/abs/2611.00163",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.00163v1 Announce Type: new Abstract: We used the Claude Excel plug-in to build and analyze spreadsheet models for five semi structured problem statements (including a test-piece teaching case with data in multiple exhibits) and evaluated performance on modeling (what i",
+      "whyItMatters": "Touches claude, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.7,
+      "tags": [
+        "claude",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-u4uwro",
+      "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
+      "url": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at Materials Center Leoben, PVA TePla, and Advanced Semiconductor Engineering (ASE) published “AI-Based Image Enhancement Improves Detection of Interconnect Defects in Microelectronic Packaging.” Abstract Excerpt: “Traditional failure-analysis (FA) methods face growin",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-02T21:08:45.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1rlzehe",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "source": "Cloudflare Blog",
+      "category": "systems",
+      "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-11-03T14:00:00.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.4,
+      "tags": [
+        "telemetry"
+      ]
+    },
+    {
+      "id": "sig-3jg2ic",
+      "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server",
+      "url": "https://www.storagereview.com/news/cloudcasa-dr-dell-powerstore-kubernetes-failover-mcp-server",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "CloudCasa by Catalogic has added Dell PowerStore to the storage arrays CloudCasa Disaster Recovery can drive for Kubernetes failover, alongside HPE Alletra and SUSE Storage. The same feature update adds a read-only Model Context Protocol (MCP) server that lets AI assistants check",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T15:55:57.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1s3flvl",
+      "title": "Putting AI To The Test",
+      "url": "https://semiengineering.com/putting-ai-to-the-test/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Who verifies the verifier? This is the age-old question for anyone involved in the verification of semiconductor systems. Who verifies AI? The post Putting AI To The Test appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-02T08:01:18.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7.1,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1dxdopl",
+      "title": "elvarofficial/teardown (JavaScript) — trending new repo",
+      "url": "https://github.com/elvarofficial/teardown",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "A Claude Code skill that turns any machine into a 3D simulator you can take apart · ★ 1541",
+      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-30T09:29:01Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-11qrd1l",
+      "title": "patch-gg/pixelfx (JavaScript) — trending new repo",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 3993",
+      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-3rznhu",
+      "title": "heydamir/unslop (JavaScript) — trending new repo",
+      "url": "https://github.com/heydamir/unslop",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 7167",
+      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-169aevx",
+      "title": "paipiange/nvzhuang (Go) — trending new repo",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 2113",
+      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "openai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-o3hgr8",
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-03T16:00:00.000Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 6.5,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-35qfbi",
+      "title": "Quili AI",
+      "url": "https://www.quili.ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "55 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T15:49:02Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-89fj3z",
+      "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+      "url": "https://concepts.laxmena.com/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "10 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-03T15:48:35Z",
+      "fetchedAt": "2026-11-03T16:29:19.445Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
       ]
     },
     {
@@ -34,104 +340,6 @@
       ]
     },
     {
-      "id": "sig-nw57p7",
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
-      "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-02T23:49:30.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 8.8,
-      "tags": [
-        "openai",
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-174ier4",
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 318 # Comments: 248",
-      "whyItMatters": "Touches ai, claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-02T16:40:29.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 8.6,
-      "tags": [
-        "ai",
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-z3z01m",
-      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
-      "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
-      "source": "ServeTheHome",
-      "category": "semiconductor",
-      "summary": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-10-30T22:43:29.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 8.5,
-      "tags": [
-        "nand",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-13q9gf2",
-      "title": "Chip Industry Technical Paper Roundup: Nov. 3",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Meter-scale quantum interconnects; 2.5D/3D GPU integration and embodied emissions; secure memory-dependent prefetching; routing-aware analog placement; AI-enhanced flip-chip defect detection; superposed PCM for neural-network vector storage. The post Chip Industry Technical Paper",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-03T08:01:14.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-u4uwro",
-      "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
-      "url": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at Materials Center Leoben, PVA TePla, and Advanced Semiconductor Engineering (ASE) published “AI-Based Image Enhancement Improves Detection of Interconnect Defects in Microelectronic Packaging.” Abstract Excerpt: “Traditional failure-analysis (FA) methods face growin",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-02T21:08:45.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-3jg2ic",
-      "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server",
-      "url": "https://www.storagereview.com/news/cloudcasa-dr-dell-powerstore-kubernetes-failover-mcp-server",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "CloudCasa by Catalogic has added Dell PowerStore to the storage arrays CloudCasa Disaster Recovery can drive for Kubernetes failover, alongside HPE Alletra and SUSE Storage. The same feature update adds a read-only Model Context Protocol (MCP) server that lets AI assistants check",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-02T15:55:57.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-1nj4eyr",
       "title": "Show HN: I've updated my Linux System Call website and API",
       "url": "https://syscall.sh/",
@@ -145,90 +353,6 @@
       "tags": [
         "linux",
         "kernel"
-      ]
-    },
-    {
-      "id": "sig-1s3flvl",
-      "title": "Putting AI To The Test",
-      "url": "https://semiengineering.com/putting-ai-to-the-test/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Who verifies the verifier? This is the age-old question for anyone involved in the verification of semiconductor systems. Who verifies AI? The post Putting AI To The Test appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-02T08:01:18.000Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1dxdopl",
-      "title": "elvarofficial/teardown (JavaScript) — trending new repo",
-      "url": "https://github.com/elvarofficial/teardown",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "A Claude Code skill that turns any machine into a 3D simulator you can take apart · ★ 1406",
-      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-30T09:29:01Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-11qrd1l",
-      "title": "patch-gg/pixelfx (JavaScript) — trending new repo",
-      "url": "https://github.com/patch-gg/pixelfx",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own. · ★ 3738",
-      "whyItMatters": "Touches claude code, claude, javascript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-10-30T06:43:25Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7,
-      "tags": [
-        "claude code",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-3rznhu",
-      "title": "heydamir/unslop (JavaScript) — trending new repo",
-      "url": "https://github.com/heydamir/unslop",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 6690",
-      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T15:41:21Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-169aevx",
-      "title": "paipiange/nvzhuang (Go) — trending new repo",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 2080",
-      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T06:08:00Z",
-      "fetchedAt": "2026-11-03T08:36:26.487Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai",
-        "github"
       ]
     },
     {
@@ -1907,55 +2031,6 @@
       "tags": [
         "semiconductor",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-1lnhpbr",
-      "title": "Podcast #155: Micron’s 245TB SSD and What Extreme Density Enables at Scale",
-      "url": "https://www.storagereview.com/podcast/podcast-155-micron-245tb-ssd-extreme-density-bill-bollengier",
-      "source": "StorageReview",
-      "category": "career",
-      "summary": "Brian hosted Bill Bollengier, Senior Director of Product Management at Micron, for a live podcast on LinkedIn on October 15, with Bill calling in from the floor of the OCP Global Summit. The subject was the Micron 6600 ION 245TB SSD and what a quarter petabyte per drive bay does ",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-10-21T21:21:34.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 9.5,
-      "tags": [
-        "ssd",
-        "ocp",
-        "micron"
-      ]
-    },
-    {
-      "id": "sig-180o61o",
-      "title": "DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe",
-      "url": "https://www.storagereview.com/news/deepl-vast-ai-operating-system-3x-nvme-capacity-syncengine",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "VAST Data announced that DeepL is deploying the VAST AI Operating System as the data foundation for the research environments behind its written and real-time voice translation. Based on current deployment plans, DeepL expects roughly three times the storage capacity of the NVMe ",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-10-21T16:25:08.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 8.5,
-      "tags": [
-        "nvme",
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-3rrvzq",
-      "title": "Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP",
-      "url": "https://www.storagereview.com/news/cisco-iq-general-availability-partners-model-foundry-live-protect-wifi-7",
-      "source": "StorageReview",
-      "category": "programming",
-      "summary": "Cisco today made Cisco IQ generally available to partners at Cisco Partner Summit in Vancouver, opening the support platform’s telemetry and automation to partner workflows through a Cisco IQ MCP Server, expanded API access, and role-based access control that lets a customer gran",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-10-26T20:00:00.000Z",
-      "fetchedAt": "2026-10-27T14:19:45.003Z",
-      "score": 7,
-      "tags": [
-        "telemetry"
       ]
     }
   ]
