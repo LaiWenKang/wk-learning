@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-06T03:20:35.413Z",
+  "generatedAt": "2026-11-06T11:08:14.882Z",
   "signals": [
+    {
+      "id": "sig-12ofa6i",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-163/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM smuggling routes into China; Nvidia H200s held in Hong Kong; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal draws scrutin",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-06T08:01:01.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 10,
+      "tags": [
+        "micron",
+        "ai",
+        "hbm"
+      ]
+    },
     {
       "id": "sig-l7zdr3",
       "title": "Kioxia's SSD revenues explode",
@@ -10,11 +27,28 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-02T12:38:35.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-yt08ee",
+      "title": "OpenRDMA: A GPU-Native Multi-Path Reliable RDMA Transport Architecture",
+      "url": "https://arxiv.org/abs/2611.07559",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2611.07559v1 Announce Type: new Abstract: As the computing power density of large-scale AI clusters rises, network communication increasingly limits system performance. GPU-initiated communication requires low-overhead request submission to overlap communication with comput",
+      "whyItMatters": "Touches ai, communication, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "communication",
+        "performance"
       ]
     },
     {
@@ -26,29 +60,12 @@
       "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:06:45.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "semiconductor",
         "security"
-      ]
-    },
-    {
-      "id": "sig-ysyo3i",
-      "title": "Agentic Behavior Engineering: A Design-by-Contract Methodology for Specifying, Verifying, and Governing Enterprise AI Agents",
-      "url": "https://arxiv.org/abs/2611.05454",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05454v1 Announce Type: new Abstract: Enterprise teams that deploy large language model (LLM) agents inherit a maintenance problem that traditional testing does not address. The model is non-deterministic, but the larger risk is that most of what changes an agent's beha",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
       ]
     },
     {
@@ -60,11 +77,75 @@
       "summary": "",
       "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-03T14:21:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 8.3,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 8.1,
       "tags": [
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-yszk3w",
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "url": "https://arxiv.org/abs/2611.06989",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU",
+      "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "finance"
+      ]
+    },
+    {
+      "id": "sig-yt04yh",
+      "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
+      "url": "https://arxiv.org/abs/2611.07123",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.07123v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as automated judges for evaluating the behavior of chatbots and other AI systems. In deployment, however, their agreement with the intended human evaluation policy may degrade as us",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-yszk1u",
+      "title": "Operationalizing Responsible AI in MLOps and ML Production: A Systematic Literature Review",
+      "url": "https://arxiv.org/abs/2611.06961",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.06961v1 Announce Type: new Abstract: Artificial intelligence (AI)-enabled systems are increasingly deployed in operational environments where machine learning (ML) models interact with changing data, users, infrastructure, and organizational processes. While Responsibl",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-yt0xpk",
+      "title": "Should You Split Decode? Disaggregation Across Future Models and Accelerators",
+      "url": "https://arxiv.org/abs/2611.08299",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.08299v1 Announce Type: new Abstract: For large language model (LLM) inference, prefill/decode disaggregation (P/D) is deployed in production to isolate phases with different resource demands. Attention/feed-forward network disaggregation (AFD) splits decode again, but ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -73,11 +154,11 @@
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "626 points on Hacker News",
+      "summary": "1188 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T22:17:15Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.6,
       "tags": [
         "claude code",
         "claude"
@@ -92,8 +173,8 @@
       "summary": "Brian hosted Patrick Osborne, Senior Vice President of Hybrid Cloud Technology Acceleration at HPE, for a live podcast on LinkedIn on October 26. The subject was whether enterprise storage is ready for AI, and the answer ran through the Alletra Storage MP architecture decision HP",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-05T20:50:26.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "storage"
@@ -108,45 +189,57 @@
       "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, storage — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-05T20:23:21.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.6,
       "tags": [
         "github",
         "storage"
       ]
     },
     {
-      "id": "sig-yhpxny",
-      "title": "Adding Network Security to AI, HPC and Data Centers",
-      "url": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-1vmjjkp",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "source": "Hacker News Best",
       "category": "systems",
-      "summary": "How data center operators can protect critical data and communications without compromising the performance demanded by distributed AI and HPC workloads. The post Adding Network Security to AI, HPC and Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-04T08:04:45.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.8,
+      "summary": "Article URL: https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ Comments URL: https://news.ycombinator.com/item?id=50379704 Points: 622 # Comments: 2",
+      "whyItMatters": "Touches linux, security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-05T14:44:20.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.4,
       "tags": [
-        "ai",
-        "semiconductor",
-        "performance",
+        "linux",
         "security"
       ]
     },
     {
-      "id": "sig-1vmjjkp",
-      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
-      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "602 points on Hacker News",
-      "whyItMatters": "Touches linux, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-05T14:44:20Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.6,
+      "id": "sig-yt089q",
+      "title": "Memory Fit: Architectural Support for Page Placement by Learning Models of Good Behavior",
+      "url": "https://arxiv.org/abs/2611.07506",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2611.07506v1 Announce Type: cross Abstract: Server main memory is increasingly heterogeneous, incorporating technologies such as zswap, CXL memory expanders, and emerging phase-change memories (PCM). To decide where to place pages, operating systems have to choose between e",
+      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.3,
       "tags": [
-        "linux",
-        "security"
+        "cxl"
+      ]
+    },
+    {
+      "id": "sig-yhv53i",
+      "title": "Dell Pro 5 Micro Review: Panther Lake vPro, SO-DIMMs, and a 4 Xe Core GPU in 1.17 Liters",
+      "url": "https://www.storagereview.com/review/dell-pro-5-micro-review",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "The Dell Pro 5 Micro is Dell’s mainstream commercial mini PC for the Panther Lake generation, a 1.17-liter box that fits behind a monitor and ships with vPro, two SO-DIMM slots, two M.2 SSD slots, and a rear module bay for whatever legacy port a fleet still needs. Our review unit",
+      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-03T21:47:59.000Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.3,
+      "tags": [
+        "ssd"
       ]
     },
     {
@@ -158,8 +251,8 @@
       "summary": "Compression can shrink AI models, but efficient edge deployment starts with matching the architecture to the workload and hardware limits. The post Fitting AI Models To Edge Applications appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:04:08.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
@@ -174,8 +267,8 @@
       "summary": "Eliminating the need for a separate bias regulator dedicated to the gate driver for a more streamlined power architecture. The post Why Integrated Gate Drive Regulation Matters For High Reliability Space GaN Designs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-05T08:01:35.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.2,
       "tags": [
         "semiconductor",
         "reliability"
@@ -190,74 +283,11 @@
       "summary": "Computer science majors may be in an awkward space; EE grads are fine for now. The post College Grads And AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:01:03.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-yhv53i",
-      "title": "Dell Pro 5 Micro Review: Panther Lake vPro, SO-DIMMs, and a 4 Xe Core GPU in 1.17 Liters",
-      "url": "https://www.storagereview.com/review/dell-pro-5-micro-review",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "The Dell Pro 5 Micro is Dell’s mainstream commercial mini PC for the Panther Lake generation, a 1.17-liter box that fits behind a monitor and ships with vPro, two SO-DIMM slots, two M.2 SSD slots, and a rear module bay for whatever legacy port a fleet still needs. Our review unit",
-      "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-03T21:47:59.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.5,
-      "tags": [
-        "ssd"
-      ]
-    },
-    {
-      "id": "sig-ysyncx",
-      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
-      "url": "https://arxiv.org/abs/2611.05394",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private se",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ysyoxt",
-      "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via Item-Response Theory",
-      "url": "https://arxiv.org/abs/2611.05556",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05556v1 Announce Type: new Abstract: LLM-as-a-judge is a common substitute for costly human evaluation, and aggregating several judges is the standard remedy for any single judge's bias. Judge pools mix judges of very different reliability, while the human-labeled sets",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-ysyqm6",
-      "title": "Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs",
-      "url": "https://arxiv.org/abs/2611.05751",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.05751v1 Announce Type: new Abstract: Large language models (LLM) have been the key focus of recent machine learning breakthroughs. As the model size grows exponentially, the computation needed for training is astronomical. A GPU can do a huge amount of arithmetic. Howe",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "machine learning"
       ]
     },
     {
@@ -269,8 +299,8 @@
       "summary": "The AMD Instinct MI350P is AMD’s first new PCIe Instinct GPU in four years, following the MI210 in 2022. It brings the company’s CDNA 4 architecture to a conventional add-in card, with up to 4.6 PFLOPS of MXFP4 performance, 144GB of HBM3E, and 4TB/s of memory bandwidth. All of th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-03T17:07:17.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
+      "score": 7.2,
       "tags": [
         "pcie",
         "performance"
@@ -285,45 +315,12 @@
       "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
       "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-02T23:49:30.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
+      "fetchedAt": "2026-11-06T11:08:14.882Z",
       "score": 7,
       "tags": [
         "openai",
         "llm",
         "python"
-      ]
-    },
-    {
-      "id": "sig-1tzb4ju",
-      "title": "UncensoredLabs/uncensored-ai-api (JavaScript) — trending new repo",
-      "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides. · ★ 874",
-      "whyItMatters": "Touches ai, python, typescript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-01T20:53:34Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "typescript",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-ysyncu",
-      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2611.05391",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, ",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 6.9,
-      "tags": [
-        "telemetry"
       ]
     }
   ]
