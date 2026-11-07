@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T02:39:19.006Z",
+  "generatedAt": "2026-11-07T09:17:17.902Z",
   "signals": [
     {
       "id": "sig-12ofa6i",
@@ -10,8 +10,8 @@
       "summary": "HBM smuggling routes into China; Nvidia H200s held in Hong Kong; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal draws scrutin",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-06T08:01:01.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 10,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 9.8,
       "tags": [
         "micron",
         "ai",
@@ -27,45 +27,11 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-02T12:38:35.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "kioxia"
-      ]
-    },
-    {
-      "id": "sig-yt08ee",
-      "title": "OpenRDMA: A GPU-Native Multi-Path Reliable RDMA Transport Architecture",
-      "url": "https://arxiv.org/abs/2611.07559",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "systems",
-      "summary": "arXiv:2611.07559v1 Announce Type: new Abstract: As the computing power density of large-scale AI clusters rises, network communication increasingly limits system performance. GPU-initiated communication requires low-overhead request submission to overlap communication with comput",
-      "whyItMatters": "Touches ai, communication, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "communication",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1hceqtg",
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1554 # Comments: 493",
-      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-05T22:17:15.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 8.2,
-      "tags": [
-        "claude code",
-        "claude",
-        "github"
       ]
     },
     {
@@ -77,7 +43,7 @@
       "summary": "",
       "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-03T14:21:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
       "score": 8,
       "tags": [
         "kioxia",
@@ -90,11 +56,11 @@
       "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "72 points on Hacker News",
+      "summary": "138 points on Hacker News",
       "whyItMatters": "Touches github, storage — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-06T19:24:21Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 7.6,
       "tags": [
         "github",
         "storage"
@@ -109,8 +75,8 @@
       "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:06:45.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor",
@@ -126,75 +92,11 @@
       "summary": "Dell Technologies and CrowdStrike have announced an integrated security offering for the Dell AI Factory with NVIDIA that puts three CrowdStrike Falcon products on the same order as the servers. Through Dell’s AI Ecosystem Program, customers can buy Dell AI infrastructure and Cro",
       "whyItMatters": "Touches ai, security — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-06T16:23:55.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "security"
-      ]
-    },
-    {
-      "id": "sig-yszk3w",
-      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-      "url": "https://arxiv.org/abs/2611.06989",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU",
-      "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-yt04yh",
-      "title": "PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems",
-      "url": "https://arxiv.org/abs/2611.07123",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.07123v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as automated judges for evaluating the behavior of chatbots and other AI systems. In deployment, however, their agreement with the intended human evaluation policy may degrade as us",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-yszk1u",
-      "title": "Operationalizing Responsible AI in MLOps and ML Production: A Systematic Literature Review",
-      "url": "https://arxiv.org/abs/2611.06961",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.06961v1 Announce Type: new Abstract: Artificial intelligence (AI)-enabled systems are increasingly deployed in operational environments where machine learning (ML) models interact with changing data, users, infrastructure, and organizational processes. While Responsibl",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-yt0xpk",
-      "title": "Should You Split Decode? Disaggregation Across Future Models and Accelerators",
-      "url": "https://arxiv.org/abs/2611.08299",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.08299v1 Announce Type: new Abstract: For large language model (LLM) inference, prefill/decode disaggregation (P/D) is deployed in production to isolate phases with different resource demands. Attention/feed-forward network disaggregation (AFD) splits decode again, but ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -203,11 +105,11 @@
       "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 495 # Comments: 222",
+      "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 506 # Comments: 224",
       "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T23:09:57.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "finance"
@@ -222,8 +124,8 @@
       "summary": "Brian hosted Patrick Osborne, Senior Vice President of Hybrid Cloud Technology Acceleration at HPE, for a live podcast on LinkedIn on October 26. The subject was whether enterprise storage is ready for AI, and the answer ran through the Alletra Storage MP architecture decision HP",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-05T20:50:26.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 7,
       "tags": [
         "ai",
         "storage"
@@ -238,7 +140,7 @@
       "summary": "The Dell Pro 5 Micro is Dell’s mainstream commercial mini PC for the Panther Lake generation, a 1.17-liter box that fits behind a monitor and ships with vPro, two SO-DIMM slots, two M.2 SSD slots, and a rear module bay for whatever legacy port a fleet still needs. Our review unit",
       "whyItMatters": "Touches ssd — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-03T21:47:59.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
       "score": 7,
       "tags": [
         "ssd"
@@ -253,7 +155,7 @@
       "summary": "The AMD Instinct MI350P is AMD’s first new PCIe Instinct GPU in four years, following the MI210 in 2022. It brings the company’s CDNA 4 architecture to a conventional add-in card, with up to 4.6 PFLOPS of MXFP4 performance, 144GB of HBM3E, and 4TB/s of memory bandwidth. All of th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-03T17:07:17.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
       "score": 7,
       "tags": [
         "pcie",
@@ -269,27 +171,12 @@
       "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure ",
       "whyItMatters": "Touches openai, llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-02T23:49:30.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
       "score": 7,
       "tags": [
         "openai",
         "llm",
         "python"
-      ]
-    },
-    {
-      "id": "sig-yt089q",
-      "title": "Memory Fit: Architectural Support for Page Placement by Learning Models of Good Behavior",
-      "url": "https://arxiv.org/abs/2611.07506",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2611.07506v1 Announce Type: cross Abstract: Server main memory is increasingly heterogeneous, incorporating technologies such as zswap, CXL memory expanders, and emerging phase-change memories (PCM). To decide where to place pages, operating systems have to choose between e",
-      "whyItMatters": "CXL keeps redrawing the memory–storage boundary; where it lands decides which workloads stay on NVMe drives at all.",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 6.9,
-      "tags": [
-        "cxl"
       ]
     },
     {
@@ -301,8 +188,8 @@
       "summary": "Compression can shrink AI models, but efficient edge deployment starts with matching the architecture to the workload and hardware limits. The post Fitting AI Models To Edge Applications appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:04:08.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 6.8,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -317,11 +204,118 @@
       "summary": "Eliminating the need for a separate bias regulator dedicated to the gate driver for a more streamlined power architecture. The post Why Integrated Gate Drive Regulation Matters For High Reliability Space GaN Designs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, reliability — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-05T08:01:35.000Z",
-      "fetchedAt": "2026-11-07T02:39:19.006Z",
-      "score": 6.8,
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.6,
       "tags": [
         "semiconductor",
         "reliability"
+      ]
+    },
+    {
+      "id": "sig-np7io4",
+      "title": "College Grads And AI",
+      "url": "https://semiengineering.com/college-grads-and-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Computer science majors may be in an awkward space; EE grads are fine for now. The post College Grads And AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-05T08:01:03.000Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1bzpg4m",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "158 points on Hacker News",
+      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-07T05:20:18Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.4,
+      "tags": [
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-a4gsd8",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appear",
+      "whyItMatters": "Touches github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-06T22:15:59.000Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.2,
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "sig-tjjdew",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "297 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T20:27:23Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.1,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-h57fh6",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyo",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-06T17:13:12.000Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6.1,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1dotlcl",
+      "title": "Storage news ticker - 6 November",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/06/storage-news-ticker-6-november/5308146",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-06T15:16:25.000Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6,
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-8y5mns",
+      "title": "AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter",
+      "url": "https://www.servethehome.com/amd-q3-2026-earnings-data-center-growth/",
+      "source": "ServeTheHome",
+      "category": "firmware",
+      "summary": "AMD Q3 2026 earnings were massive with the data center and embedded segments seeing big uplift with the clear Venice x86 leadership looming The post AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter appeared first on ServeTheHome .",
+      "whyItMatters": "Touches embedded, leadership — relevant to staying close to low-level engineering.",
+      "publishedAt": "2026-11-04T05:24:08.000Z",
+      "fetchedAt": "2026-11-07T09:17:17.902Z",
+      "score": 6,
+      "tags": [
+        "embedded",
+        "leadership"
       ]
     }
   ]
