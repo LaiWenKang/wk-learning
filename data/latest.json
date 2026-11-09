@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T03:01:37.867Z",
+  "generatedAt": "2026-11-09T11:16:46.660Z",
   "signals": [
     {
       "id": "sig-l7zdr3",
@@ -10,11 +10,79 @@
       "summary": "",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-02T12:38:35.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "kioxia"
+      ]
+    },
+    {
+      "id": "sig-nev1gz",
+      "title": "The Optical Super Highway For AI",
+      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Super Highway For AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T08:01:28.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-yt11t2",
+      "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
+      "url": "https://arxiv.org/abs/2611.08756",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.08756v1 Announce Type: new Abstract: Knowledge attacks on Large Language Models, such as manipulating fact-checking judgments, pose significant risks to AI reliability. Existing approaches -- adversarial suffix/template injection and single-agent self-reflection -- lac",
+      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-yt103k",
+      "title": "SAFTAC: Simulation-Augmented Fine-Tuning of Open-Source LLMs for Analog Circuit Design",
+      "url": "https://arxiv.org/abs/2611.08543",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.08543v1 Announce Type: new Abstract: Circuit design for analog integrated circuits (ICs) is challenging because circuit topology, device sizing, and circuit performance are tightly coupled. Existing large language model (LLM)-based methods either rely on inference-time",
+      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.8,
+      "tags": [
+        "llm",
+        "language model",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-yt1pc0",
+      "title": "TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows",
+      "url": "https://arxiv.org/abs/2611.09254",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.09254v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) services interleave large language model (LLM) generation with external tool execution, and increasingly rely on search-based workflows that repeatedly revisit shared reasoning states and computa",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
       ]
     },
     {
@@ -26,8 +94,8 @@
       "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 9,
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.8,
       "tags": [
         "pcie",
         "gen6"
@@ -39,32 +107,15 @@
       "url": "https://semiengineering.com/chip-industry-week-in-review-163/",
       "source": "Semiconductor Engineering",
       "category": "semiconductor",
-      "summary": "HBM smuggling routes into China; Nvidia H200s held in Hong Kong; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal draws scrutin",
+      "summary": "Updated 11/8: Nvidia CEO under investigation; HBM smuggling routes into China; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-06T08:01:01.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 8.5,
       "tags": [
         "micron",
         "ai",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-nla7xb",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "594 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-07T20:45:32Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 8.2,
-      "tags": [
-        "claude code",
-        "claude",
-        "github"
       ]
     },
     {
@@ -76,11 +127,75 @@
       "summary": "",
       "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-03T14:21:00.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 8,
       "tags": [
         "kioxia",
         "sandisk"
+      ]
+    },
+    {
+      "id": "sig-sb72du",
+      "title": "Memory In Physical AI",
+      "url": "https://semiengineering.com/memory-in-physical-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "LPDDR6 becomes an essential ingredient as intelligence moves into autonomous and mobile edge systems. The post Memory In Physical AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T08:15:21.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-yt10xu",
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational hist",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-yt1p8a",
+      "title": "On the Limits of Execution Traces for Repairing Assertion Failures in LLM-Generated Code",
+      "url": "https://arxiv.org/abs/2611.09212",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.09212v1 Announce Type: new Abstract: Iterative repair returns a failed program's error to a large language model (LLM) and asks it to fix it. After iterative repair, the remaining failures are mostly assertion failures: with four Qwen2.5 models, they make up 79% of res",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-188azj2",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished res",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.8,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -92,8 +207,8 @@
       "summary": "Dropbox is buying Tigris Data, a globally distributed S3-compatible object storage provider founded by former Uber engineers, for about $350 million in cash, and is using the deal to launch DBX Agent Cloud, a storage and data infrastructure service for AI applications and agents.",
       "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-08T18:58:34.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "storage"
@@ -105,30 +220,29 @@
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "632 points on Hacker News",
+      "summary": "790 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-08T18:16:07Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.5,
       "tags": [
         "claude code",
         "claude"
       ]
     },
     {
-      "id": "sig-1aemlr1",
-      "title": "OpenAI raises $11B at a $1.25T valuation",
-      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/ Comments URL: https://news.ycombinator.com/item?id=50413822 Points: 181 # Comments: 202",
-      "whyItMatters": "Touches openai, investing — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T14:49:23.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 7.7,
+      "id": "sig-yt101t",
+      "title": "RoadBlock: Rethinking GPU Tensor Core Microarchitecture for Emerging Microscaling Format Support",
+      "url": "https://arxiv.org/abs/2611.08526",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "semiconductor",
+      "summary": "arXiv:2611.08526v1 Announce Type: new Abstract: While multiple recent custom Microscaling (MX) format proposals preserve higher model quality over OCP MX, their hardware evaluations remain confined to standalone MAC-unit prototypes, ignoring the system-level integration overheads",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
+      "score": 7.3,
       "tags": [
-        "openai",
-        "investing"
+        "ocp"
       ]
     },
     {
@@ -140,7 +254,7 @@
       "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-05T08:06:45.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 7,
       "tags": [
         "ai",
@@ -154,10 +268,10 @@
       "url": "https://github.com/sarpstar/cinecode",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4. · ★ 1620",
+      "summary": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4. · ★ 1786",
       "whyItMatters": "Touches ai, coding agent, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-03T10:08:16Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 7,
       "tags": [
         "ai",
@@ -171,10 +285,10 @@
       "url": "https://github.com/shanselman/gputaskman",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA). · ★ 1086",
+      "summary": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA). · ★ 1297",
       "whyItMatters": "Touches llm, python, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-03T00:49:34Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 7,
       "tags": [
         "llm",
@@ -183,139 +297,33 @@
       ]
     },
     {
-      "id": "sig-zqutqd",
-      "title": "I'm Not Convinced the AI Bubble Exists",
-      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "id": "sig-1rl9wok",
+      "title": "370 Books in 20 months: South African author defends her use of AI",
+      "url": "https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "65 points on Hacker News",
+      "summary": "16 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T23:44:36Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "publishedAt": "2026-11-09T07:21:33Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 6.4,
       "tags": [
         "ai"
       ]
     },
     {
-      "id": "sig-1yscpln",
-      "title": "Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server",
-      "url": "https://www.servethehome.com/dell-poweredge-r770ap-review-one-fast-intel-xeon-6-server/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "Today we are taking a look at Dell's PowerEdge R770AP. The 2U server goes all-in on performance with a dual-socket Xeon 6 setup and 24 channels of DDR5 memory The post Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server appeared first on ServeTheHome .",
-      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T23:00:11.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1keppxt",
-      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "url": "https://ketchup3d.github.io/app/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "247 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-08T22:35:35Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-5qjy5p",
-      "title": "parse_number() as a SQLite extension: C vs Rust",
-      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that co",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-08T22:26:00.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1lu99zr",
-      "title": "Dell and CrowdStrike Bundle Falcon Guardian, Cloud Security, and Next-Gen SIEM Into the Dell AI Factory With NVIDIA",
-      "url": "https://www.storagereview.com/news/dell-crowdstrike-falcon-guardian-openshell-dell-ai-factory-nvidia-security",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Dell Technologies and CrowdStrike have announced an integrated security offering for the Dell AI Factory with NVIDIA that puts three CrowdStrike Falcon products on the same order as the servers. Through Dell’s AI Ecosystem Program, customers can buy Dell AI infrastructure and Cro",
-      "whyItMatters": "Touches ai, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-06T16:23:55.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-zswpdz",
-      "title": "How I Fight AI Brain Fry",
-      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "source": "Hacker News (front page)",
+      "id": "sig-yt10w2",
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "url": "https://arxiv.org/abs/2611.08626",
+      "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "165 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T19:37:42Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
+      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annu",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "fetchedAt": "2026-11-09T11:16:46.660Z",
       "score": 6.3,
       "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-gc9jkk",
-      "title": "Smartbird Adds Supermicro DCBBS Racks to Its Managed Single-Tenant AI Clusters, Two Weeks After WEKA",
-      "url": "https://www.storagereview.com/news/smartbird-supermicro-dcbbs-managed-single-tenant-ai-clusters",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Smartbird, the managed AI infrastructure company that launched in June and trades on Nasdaq as BIRD, has added Supermicro to its partner network. The two will deliver dedicated, single-tenant AI clusters built from Supermicro’s Data Center Building Block Solutions and rack-scale ",
-      "whyItMatters": "Touches ai — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T19:07:39.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1kio9g8",
-      "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
-      "url": "https://kevinboone.me/cpmzork.html",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "30 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T18:33:50Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.3,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1nez30a",
-      "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
-      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
-      "source": "Hacker News Best",
-      "category": "systems",
-      "summary": "Article URL: https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/ Comments URL: https://news.ycombinator.com/item?id=50415172 Points: 216 # Comments: 102",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T17:20:29.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.2,
-      "tags": [
-        "linux"
+        "llm"
       ]
     }
   ]
