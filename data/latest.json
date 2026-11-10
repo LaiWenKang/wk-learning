@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-10T11:49:30.398Z",
+  "generatedAt": "2026-11-10T18:53:23.559Z",
   "signals": [
+    {
+      "id": "sig-1j0uwy9",
+      "title": "Seagate combines dynamically cached SSD and HDD in single volume desktop drive",
+      "url": "https://www.blocksandfiles.com/disk/2026/11/10/seagate-combines-dynamically-cached-ssd-and-hdd-in-single-volume-desktop-drive/5308782",
+      "source": "Blocks & Files",
+      "category": "semiconductor",
+      "summary": "",
+      "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-10T14:18:07.000Z",
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "seagate"
+      ]
+    },
     {
       "id": "sig-ytkwtz",
       "title": "When Is High-Bandwidth Flash Cost-Effective for LLM Inference?",
@@ -10,7 +26,7 @@
       "summary": "arXiv:2611.11036v1 Announce Type: new Abstract: Can high-bandwidth flash (HBF) make LLM inference cheaper than adding GPUs? By storing weights closer to the GPU than SSD, HBF may reduce the number of GPUs needed for model capacity. However, this integration is only justified if i",
       "whyItMatters": "Touches ssd, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,8 +42,8 @@
       "summary": "QNAP has a new flagship for its Enterprise ZFS NAS line, the ES2486AFdc, a 2U dual-controller all-flash array that swaps the SAS bays of the earlier ES2486dc for 24 dual-port U.2/U.3 NVMe slots. QNAP rates it at more than 616,000 iSCSI 4K random read IOPS and up to 15GB/s of thro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T02:28:23.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 9.7,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 9.5,
       "tags": [
         "nvme",
         "u.2"
@@ -42,8 +58,8 @@
       "summary": "Changing test strategies put a premium on how closely the design ecosystem and the test ecosystem line up. The post Streaming Scan Network Test Over PCIe appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-10T08:01:27.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 8.9,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8.7,
       "tags": [
         "pcie",
         "semiconductor"
@@ -58,11 +74,43 @@
       "summary": "NVIDIA used AI Day Seoul to lay out physical AI work with three Korean manufacturers: Samsung Electronics on chip simulation, Kakao Mobility on a Level 4 autonomous driving system, and LG Electronics on factory robots. The headline figure belongs to Samsung, which cut one chip-sc",
       "whyItMatters": "Touches samsung electronics, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T16:09:45.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8.3,
       "tags": [
         "samsung electronics",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-19iruc6",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "25 points on Hacker News",
+      "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T18:01:15Z",
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8,
+      "tags": [
+        "coding agent",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-1dhujvt",
+      "title": "Git security vulnerabilities announced",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8,
+      "tags": [
+        "github",
+        "security"
       ]
     },
     {
@@ -74,8 +122,8 @@
       "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T08:01:28.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 8.2,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8,
       "tags": [
         "ai",
         "semiconductor",
@@ -91,27 +139,11 @@
       "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 8,
       "tags": [
         "pcie",
         "gen6"
-      ]
-    },
-    {
-      "id": "sig-1aehxe1",
-      "title": "Same fab, different paths: Kioxia and Sandisk diverge on HBF",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/03/same-fab-different-paths-kioxia-and-sandisk-diverge-on-hbf/5307156",
-      "source": "Blocks & Files",
-      "category": "semiconductor",
-      "summary": "",
-      "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-03T14:21:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 8,
-      "tags": [
-        "kioxia",
-        "sandisk"
       ]
     },
     {
@@ -123,8 +155,8 @@
       "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T08:07:24.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -139,8 +171,8 @@
       "summary": "AI is reshaping the tools, data, and collaboration models used to design, manufacture, and test silicon. The post AI’s Efficiency Challenge For The Semiconductor Industry appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:03:58.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -155,8 +187,8 @@
       "summary": "How connected inspection, metrology and software can help manufacturers move SiPh and CPO toward high-volume production. The post Overcoming Silicon Photonics Process Control Challenges in the AI Era appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:01:10.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -171,27 +203,11 @@
       "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-1e5ddbj",
-      "title": "Fireworks AI security breach impacts Notion and their customers",
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "64 points on Hacker News",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T07:19:38Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "security"
       ]
     },
     {
@@ -203,8 +219,8 @@
       "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "claude",
         "anthropic"
@@ -219,8 +235,8 @@
       "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked syco",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "llm"
@@ -235,8 +251,8 @@
       "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-sever",
       "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "reliability"
@@ -251,8 +267,8 @@
       "summary": "arXiv:2611.10176v1 Announce Type: new Abstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on commun",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "communication"
@@ -267,8 +283,8 @@
       "summary": "arXiv:2611.09895v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are defined by explicit workflows, agents, tools, tool-access rules, and delegation paths. Most evaluations, however, report end-to-end task success rather than whether a test suite can",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -283,8 +299,8 @@
       "summary": "arXiv:2611.10022v1 Announce Type: new Abstract: Reusable skills guide large language model (LLM) agents through recurring requests, but each invocation still requires the model to interpret the skill and reconstruct its orchestration. Can agents automatically compile this orchest",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -299,27 +315,11 @@
       "summary": "arXiv:2611.10316v1 Announce Type: new Abstract: Embedded AI is moving from perception to prediction. Robots now use world models$\\unicode{x2014}$learned simulators that predict the outcome of candidate actions in a compressed latent space before any is executed. Every predicted s",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "embedded"
-      ]
-    },
-    {
-      "id": "sig-ytkcnt",
-      "title": "Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies",
-      "url": "https://arxiv.org/abs/2611.10930",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2611.10930v1 Announce Type: new Abstract: Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM. We present the",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T11:49:30.398Z",
-      "score": 7.8,
-      "tags": [
-        "dram",
-        "hbm"
       ]
     }
   ]
