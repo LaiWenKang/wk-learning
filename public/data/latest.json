@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-10T03:45:19.396Z",
+  "generatedAt": "2026-11-10T11:49:30.398Z",
   "signals": [
+    {
+      "id": "sig-ytkwtz",
+      "title": "When Is High-Bandwidth Flash Cost-Effective for LLM Inference?",
+      "url": "https://arxiv.org/abs/2611.11036",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.11036v1 Announce Type: new Abstract: Can high-bandwidth flash (HBF) make LLM inference cheaper than adding GPUs? By storing weights closer to the GPU than SSD, HBF may reduce the number of GPUs needed for model capacity. However, this integration is only justified if i",
+      "whyItMatters": "Touches ssd, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "llm"
+      ]
+    },
     {
       "id": "sig-1yapb7g",
       "title": "QNAP ES2486AFdc Puts 24 Gen4 NVMe Bays Behind Dual Active-Active Controllers, Rated at 616K IOPS and 15GB/s",
@@ -10,28 +26,27 @@
       "summary": "QNAP has a new flagship for its Enterprise ZFS NAS line, the ES2486AFdc, a 2U dual-controller all-flash array that swaps the SAS bays of the earlier ES2486dc for 24 dual-port U.2/U.3 NVMe slots. QNAP rates it at more than 616,000 iSCSI 4K random read IOPS and up to 15GB/s of thro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T02:28:23.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 10,
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 9.7,
       "tags": [
         "nvme",
         "u.2"
       ]
     },
     {
-      "id": "sig-12fzjiv",
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 ",
-      "whyItMatters": "Touches claude, anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T23:58:46.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
+      "id": "sig-x4dtij",
+      "title": "Streaming Scan Network Test Over PCIe",
+      "url": "https://semiengineering.com/streaming-scan-network-test-over-pcie/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Changing test strategies put a premium on how closely the design ecosystem and the test ecosystem line up. The post Streaming Scan Network Test Over PCIe appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-10T08:01:27.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
       "score": 8.9,
       "tags": [
-        "claude",
-        "anthropic",
-        "llm"
+        "pcie",
+        "semiconductor"
       ]
     },
     {
@@ -43,8 +58,8 @@
       "summary": "NVIDIA used AI Day Seoul to lay out physical AI work with three Korean manufacturers: Samsung Electronics on chip simulation, Kakao Mobility on a Level 4 autonomous driving system, and LG Electronics on factory robots. The headline figure belongs to Samsung, which cut one chip-sc",
       "whyItMatters": "Touches samsung electronics, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T16:09:45.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.7,
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 8.5,
       "tags": [
         "samsung electronics",
         "ai"
@@ -59,80 +74,12 @@
       "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T08:01:28.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-12ofa6i",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-163/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Updated 11/8: Nvidia CEO under investigation; HBM smuggling routes into China; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-06T08:01:01.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.5,
-      "tags": [
-        "micron",
-        "ai",
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-yt11t2",
-      "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
-      "url": "https://arxiv.org/abs/2611.08756",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.08756v1 Announce Type: new Abstract: Knowledge attacks on Large Language Models, such as manipulating fact-checking judgments, pose significant risks to AI reliability. Existing approaches -- adversarial suffix/template injection and single-agent self-reflection -- lac",
-      "whyItMatters": "Touches ai, llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-yt103k",
-      "title": "SAFTAC: Simulation-Augmented Fine-Tuning of Open-Source LLMs for Analog Circuit Design",
-      "url": "https://arxiv.org/abs/2611.08543",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.08543v1 Announce Type: new Abstract: Circuit design for analog integrated circuits (ICs) is challenging because circuit topology, device sizing, and circuit performance are tightly coupled. Existing large language model (LLM)-based methods either rely on inference-time",
-      "whyItMatters": "Touches llm, language model, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-yt1pc0",
-      "title": "TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows",
-      "url": "https://arxiv.org/abs/2611.09254",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.09254v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) services interleave large language model (LLM) generation with external tool execution, and increasingly rely on search-based workflows that repeatedly revisit shared reasoning states and computa",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
       ]
     },
     {
@@ -144,8 +91,8 @@
       "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 8.3,
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 8.1,
       "tags": [
         "pcie",
         "gen6"
@@ -160,7 +107,7 @@
       "summary": "",
       "whyItMatters": "Touches kioxia, sandisk — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-03T14:21:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
       "score": 8,
       "tags": [
         "kioxia",
@@ -168,160 +115,211 @@
       ]
     },
     {
-      "id": "sig-sb72du",
-      "title": "Memory In Physical AI",
-      "url": "https://semiengineering.com/memory-in-physical-ai/",
+      "id": "sig-bp2fs9",
+      "title": "Test Struggles To Keep Pace With AI",
+      "url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
       "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "LPDDR6 becomes an essential ingredient as intelligence moves into autonomous and mobile edge systems. The post Memory In Physical AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T08:15:21.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7.5,
+      "category": "semiconductor",
+      "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-10T08:07:24.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.9,
       "tags": [
         "ai",
         "semiconductor"
       ]
     },
     {
-      "id": "sig-yt10xu",
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "url": "https://arxiv.org/abs/2611.08644",
+      "id": "sig-1co9ty8",
+      "title": "AI’s Efficiency Challenge For The Semiconductor Industry",
+      "url": "https://semiengineering.com/ais-efficiency-challenge-for-the-semiconductor-industry/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI is reshaping the tools, data, and collaboration models used to design, manufacture, and test silicon. The post AI’s Efficiency Challenge For The Semiconductor Industry appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T08:03:58.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1pqp2pm",
+      "title": "Overcoming Silicon Photonics Process Control Challenges in the AI Era",
+      "url": "https://semiengineering.com/overcoming-silicon-photonics-process-control-challenges-in-the-ai-era/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "How connected inspection, metrology and software can help manufacturers move SiPh and CPO toward high-volume production. The post Overcoming Silicon Photonics Process Control Challenges in the AI Era appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T08:01:10.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-evc1nb",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1e5ddbj",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "64 points on Hacker News",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T07:19:38Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1v475h7",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-ytk54m",
+      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "url": "https://arxiv.org/abs/2611.10045",
       "source": "arXiv cs.AI (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational hist",
+      "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked syco",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7.4,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "llm"
       ]
     },
     {
-      "id": "sig-yt1p8a",
-      "title": "On the Limits of Execution Traces for Repairing Assertion Failures in LLM-Generated Code",
-      "url": "https://arxiv.org/abs/2611.09212",
+      "id": "sig-ytk54p",
+      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+      "url": "https://arxiv.org/abs/2611.10048",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-sever",
+      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-ytk61n",
+      "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
+      "url": "https://arxiv.org/abs/2611.10176",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.10176v1 Announce Type: new Abstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on commun",
+      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "communication"
+      ]
+    },
+    {
+      "id": "sig-yt1uh7",
+      "title": "Mutation Testing for Multi-Agent Workflows",
+      "url": "https://arxiv.org/abs/2611.09895",
       "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "arXiv:2611.09212v1 Announce Type: new Abstract: Iterative repair returns a failed program's error to a large language model (LLM) and asks it to fix it. After iterative repair, the remaining failures are mostly assertion failures: with four Qwen2.5 models, they make up 79% of res",
+      "summary": "arXiv:2611.09895v1 Announce Type: new Abstract: Multi-agent large language model (LLM) systems are defined by explicit workflows, agents, tools, tool-access rules, and delegation paths. Most evaluations, however, report end-to-end task success rather than whether a test suite can",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7.4,
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
       "tags": [
         "llm",
         "language model"
       ]
     },
     {
-      "id": "sig-188azj2",
-      "title": "Hide your slop PR descriptions behind",
-      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-ytk52p",
+      "title": "How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use",
+      "url": "https://arxiv.org/abs/2611.10022",
+      "source": "arXiv cs.SE (new submissions)",
       "category": "ai",
-      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished res",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T04:25:05.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7.4,
+      "summary": "arXiv:2611.10022v1 Announce Type: new Abstract: Reusable skills guide large language model (LLM) agents through recurring requests, but each invocation still requires the model to interpret the skill and reconstruct its orchestration. Can agents automatically compile this orchest",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
       "tags": [
-        "claude code",
-        "claude"
+        "llm",
+        "language model"
       ]
     },
     {
-      "id": "sig-fswvxl",
-      "title": "Dropbox Buys Tigris Data for About $350M and Launches DBX Agent Cloud, S3-Compatible Object Storage for AI Agents",
-      "url": "https://www.storagereview.com/news/dropbox-tigris-data-acquisition-350m-dbx-agent-cloud",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Dropbox is buying Tigris Data, a globally distributed S3-compatible object storage provider founded by former Uber engineers, for about $350 million in cash, and is using the deal to launch DBX Agent Cloud, a storage and data infrastructure service for AI applications and agents.",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T18:58:34.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7.1,
+      "id": "sig-ytk7kn",
+      "title": "The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics",
+      "url": "https://arxiv.org/abs/2611.10316",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.10316v1 Announce Type: new Abstract: Embedded AI is moving from perception to prediction. Robots now use world models$\\unicode{x2014}$learned simulators that predict the outcome of candidate actions in a compressed latent space before any is executed. Every predicted s",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
       "tags": [
         "ai",
-        "storage"
+        "embedded"
       ]
     },
     {
-      "id": "sig-1lq2dzh",
-      "title": "Adding Network Security To AI, HPC, And Data Centers",
-      "url": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers-2/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "The location of security functions such as MACsec or IPsec has become a key architectural decision. The post Adding Network Security To AI, HPC, And Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T08:06:45.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-yt101t",
-      "title": "RoadBlock: Rethinking GPU Tensor Core Microarchitecture for Emerging Microscaling Format Support",
-      "url": "https://arxiv.org/abs/2611.08526",
+      "id": "sig-ytkcnt",
+      "title": "Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies",
+      "url": "https://arxiv.org/abs/2611.10930",
       "source": "arXiv cs.AR (hardware architecture)",
       "category": "semiconductor",
-      "summary": "arXiv:2611.08526v1 Announce Type: new Abstract: While multiple recent custom Microscaling (MX) format proposals preserve higher model quality over OCP MX, their hardware evaluations remain confined to standalone MAC-unit prototypes, ignoring the system-level integration overheads",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 6.9,
+      "summary": "arXiv:2611.10930v1 Announce Type: new Abstract: Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM. We present the",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-10T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T11:49:30.398Z",
+      "score": 7.8,
       "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-ydi6y0",
-      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "6 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T03:20:06Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1c30ce4",
-      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "303 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T20:04:55Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 6.3,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-13sa4vi",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "268 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T18:01:10Z",
-      "fetchedAt": "2026-11-10T03:45:19.396Z",
-      "score": 6.2,
-      "tags": [
-        "claude"
+        "dram",
+        "hbm"
       ]
     }
   ]
