@@ -1,6 +1,43 @@
 {
-  "updatedAt": "2026-11-10T18:53:23.559Z",
+  "updatedAt": "2026-11-10T23:58:23.919Z",
   "signals": [
+    {
+      "id": "sig-13k3qv8",
+      "title": "DapuStor J5101 M.2 Boot SSD Idles at 2W With PLP and Up to 1.92TB",
+      "url": "https://www.storagereview.com/news/dapustor-j5101-enterprise-nvme-m-2-boot-ssd",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "DapuStor announced the J5101, an enterprise NVMe M.2 boot SSD for AI, HPC, virtualization, and cloud servers. The drive uses a PCIe Gen4 interface in the M.2 2280 form factor, comes in 480GB, 960GB, and 1.92TB capacities, and carries power loss protection and a 1 DWPD endurance r",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-10T19:39:57.000Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 10,
+      "tags": [
+        "ssd",
+        "nvme",
+        "pcie",
+        "endurance",
+        "dwpd"
+      ]
+    },
+    {
+      "id": "sig-1g1dc54",
+      "title": "AMD EPYC Embedded 9006 Brings 256 Zen 6 Cores and PCIe Gen 6 to Test, Storage, and Firewall Systems",
+      "url": "https://www.storagereview.com/news/amd-epyc-embedded-9006-series-256-cores-pcie-gen-6",
+      "source": "StorageReview",
+      "category": "firmware",
+      "summary": "AMD announced the EPYC Embedded 9006 Series today, bringing the Zen 6 cores of its 6th Gen EPYC server processors to the SP7 socket for embedded systems, with up to 256 cores and 512 threads, up to 96 lanes of PCIe Gen 6, CXL 3.1, and a seven-year product longevity commitment. Th",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-10T19:15:53.000Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "cxl",
+        "storage",
+        "embedded"
+      ]
+    },
     {
       "id": "sig-1j0uwy9",
       "title": "Seagate combines dynamically cached SSD and HDD in single volume desktop drive",
@@ -10,7 +47,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -26,7 +63,7 @@
       "summary": "arXiv:2611.11036v1 Announce Type: new Abstract: Can high-bandwidth flash (HBF) make LLM inference cheaper than adding GPUs? By storing weights closer to the GPU than SSD, HBF may reduce the number of GPUs needed for model capacity. However, this integration is only justified if i",
       "whyItMatters": "Touches ssd, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -42,8 +79,8 @@
       "summary": "QNAP has a new flagship for its Enterprise ZFS NAS line, the ES2486AFdc, a 2U dual-controller all-flash array that swaps the SAS bays of the earlier ES2486dc for 24 dual-port U.2/U.3 NVMe slots. QNAP rates it at more than 616,000 iSCSI 4K random read IOPS and up to 15GB/s of thro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T02:28:23.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 9.5,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 9.4,
       "tags": [
         "nvme",
         "u.2"
@@ -58,8 +95,8 @@
       "summary": "Changing test strategies put a premium on how closely the design ecosystem and the test ecosystem line up. The post Streaming Scan Network Test Over PCIe appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-10T08:01:27.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8.7,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 8.6,
       "tags": [
         "pcie",
         "semiconductor"
@@ -74,11 +111,60 @@
       "summary": "NVIDIA used AI Day Seoul to lay out physical AI work with three Korean manufacturers: Samsung Electronics on chip simulation, Kakao Mobility on a Level 4 autonomous driving system, and LG Electronics on factory robots. The headline figure belongs to Samsung, which cut one chip-sc",
       "whyItMatters": "Touches samsung electronics, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T16:09:45.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8.3,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 8.1,
       "tags": [
         "samsung electronics",
         "ai"
+      ]
+    },
+    {
+      "id": "sig-1qs7rk",
+      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
+      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-07T16:00:55.000Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen6"
+      ]
+    },
+    {
+      "id": "sig-14uva5s",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
+      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.9,
+      "tags": [
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-nev1gz",
+      "title": "The Optical Superhighway For AI",
+      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T08:01:28.000Z",
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "performance"
       ]
     },
     {
@@ -87,11 +173,11 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "25 points on Hacker News",
+      "summary": "228 points on Hacker News",
       "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T18:01:15Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.8,
       "tags": [
         "coding agent",
         "javascript"
@@ -106,44 +192,11 @@
       "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-10T18:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.8,
       "tags": [
         "github",
         "security"
-      ]
-    },
-    {
-      "id": "sig-nev1gz",
-      "title": "The Optical Superhighway For AI",
-      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T08:01:28.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1qs7rk",
-      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
-      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen6"
       ]
     },
     {
@@ -155,8 +208,8 @@
       "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T08:07:24.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -171,8 +224,8 @@
       "summary": "AI is reshaping the tools, data, and collaboration models used to design, manufacture, and test silicon. The post AI’s Efficiency Challenge For The Semiconductor Industry appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:03:58.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -187,8 +240,8 @@
       "summary": "How connected inspection, metrology and software can help manufacturers move SiPh and CPO toward high-volume production. The post Overcoming Silicon Photonics Process Control Challenges in the AI Era appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:01:10.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "semiconductor"
@@ -203,8 +256,8 @@
       "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "claude"
@@ -219,8 +272,8 @@
       "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.5,
       "tags": [
         "claude",
         "anthropic"
@@ -235,8 +288,8 @@
       "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked syco",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "llm"
@@ -251,8 +304,8 @@
       "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-sever",
       "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "reliability"
@@ -267,8 +320,8 @@
       "summary": "arXiv:2611.10176v1 Announce Type: new Abstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on commun",
       "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:53:23.559Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "communication"
