@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:58:23.919Z",
+  "generatedAt": "2026-11-11T05:53:45.514Z",
   "signals": [
     {
       "id": "sig-13k3qv8",
@@ -10,7 +10,7 @@
       "summary": "DapuStor announced the J5101, an enterprise NVMe M.2 boot SSD for AI, HPC, virtualization, and cloud servers. The drive uses a PCIe Gen4 interface in the M.2 2280 form factor, comes in 480GB, 960GB, and 1.92TB capacities, and carries power loss protection and a 1 DWPD endurance r",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T19:39:57.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "AMD announced the EPYC Embedded 9006 Series today, bringing the Zen 6 cores of its 6th Gen EPYC server processors to the SP7 socket for embedded systems, with up to 256 cores and 512 threads, up to 96 lanes of PCIe Gen 6, CXL 3.1, and a seven-year product longevity commitment. Th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-10T19:15:53.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -47,27 +47,11 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
       "score": 10,
       "tags": [
         "ssd",
         "seagate"
-      ]
-    },
-    {
-      "id": "sig-ytkwtz",
-      "title": "When Is High-Bandwidth Flash Cost-Effective for LLM Inference?",
-      "url": "https://arxiv.org/abs/2611.11036",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.11036v1 Announce Type: new Abstract: Can high-bandwidth flash (HBF) make LLM inference cheaper than adding GPUs? By storing weights closer to the GPU than SSD, HBF may reduce the number of GPUs needed for model capacity. However, this integration is only justified if i",
-      "whyItMatters": "Touches ssd, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "llm"
       ]
     },
     {
@@ -79,8 +63,8 @@
       "summary": "QNAP has a new flagship for its Enterprise ZFS NAS line, the ES2486AFdc, a 2U dual-controller all-flash array that swaps the SAS bays of the earlier ES2486dc for 24 dual-port U.2/U.3 NVMe slots. QNAP rates it at more than 616,000 iSCSI 4K random read IOPS and up to 15GB/s of thro",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T02:28:23.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 9.4,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 9.2,
       "tags": [
         "nvme",
         "u.2"
@@ -95,11 +79,59 @@
       "summary": "Changing test strategies put a premium on how closely the design ecosystem and the test ecosystem line up. The post Streaming Scan Network Test Over PCIe appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-10T08:01:27.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 8.4,
       "tags": [
         "pcie",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ytlw8y",
+      "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design",
+      "url": "https://arxiv.org/abs/2611.12982",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.12982v1 Announce Type: new Abstract: Large language model (LLM) agents are being explored for circuit design, but their ability to produce high-quality custom layouts has not been extensively evaluated. ICLayout-Bench is a benchmark in which agents use electronic desig",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytmlcu",
+      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+      "url": "https://arxiv.org/abs/2611.13644",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.13644v1 Announce Type: new Abstract: Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytmm8v",
+      "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling",
+      "url": "https://arxiv.org/abs/2611.13762",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.13762v1 Announce Type: new Abstract: GPUs have become essential to many fields, including AI and scientific computing. As GPUs grow more complex, the design space of their hardware configurations becomes increasingly large, yet cycle-level simulators remain too slow to",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "performance"
       ]
     },
     {
@@ -111,8 +143,8 @@
       "summary": "NVIDIA used AI Day Seoul to lay out physical AI work with three Korean manufacturers: Samsung Electronics on chip simulation, Kakao Mobility on a Level 4 autonomous driving system, and LG Electronics on factory robots. The headline figure belongs to Samsung, which cut one chip-sc",
       "whyItMatters": "Touches samsung electronics, ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T16:09:45.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 8,
       "tags": [
         "samsung electronics",
         "ai"
@@ -127,7 +159,7 @@
       "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -143,28 +175,11 @@
       "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
       "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T20:09:44.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.7,
       "tags": [
         "claude",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-nev1gz",
-      "title": "The Optical Superhighway For AI",
-      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T08:01:28.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance"
       ]
     },
     {
@@ -173,11 +188,11 @@
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "228 points on Hacker News",
+      "summary": "321 points on Hacker News",
       "whyItMatters": "Touches coding agent, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T18:01:15Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.7,
       "tags": [
         "coding agent",
         "javascript"
@@ -192,11 +207,28 @@
       "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-10T18:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.7,
       "tags": [
         "github",
         "security"
+      ]
+    },
+    {
+      "id": "sig-nev1gz",
+      "title": "The Optical Superhighway For AI",
+      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T08:01:28.000Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "performance"
       ]
     },
     {
@@ -208,8 +240,8 @@
       "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T08:07:24.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -224,8 +256,8 @@
       "summary": "AI is reshaping the tools, data, and collaboration models used to design, manufacture, and test silicon. The post AI’s Efficiency Challenge For The Semiconductor Industry appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:03:58.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -240,8 +272,8 @@
       "summary": "How connected inspection, metrology and software can help manufacturers move SiPh and CPO toward high-volume production. The post Overcoming Silicon Photonics Process Control Challenges in the AI Era appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T08:01:10.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -256,8 +288,8 @@
       "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "claude"
@@ -272,59 +304,27 @@
       "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
       "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.3,
       "tags": [
         "claude",
         "anthropic"
       ]
     },
     {
-      "id": "sig-ytk54m",
-      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
-      "url": "https://arxiv.org/abs/2611.10045",
-      "source": "arXiv cs.AI (new submissions)",
+      "id": "sig-12fzjiv",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
       "category": "ai",
-      "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked syco",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
+      "whyItMatters": "Touches anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T23:58:46.000Z",
+      "fetchedAt": "2026-11-11T05:53:45.514Z",
+      "score": 7.2,
       "tags": [
-        "ai",
+        "anthropic",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-ytk54p",
-      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
-      "url": "https://arxiv.org/abs/2611.10048",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-sever",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-ytk61n",
-      "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
-      "url": "https://arxiv.org/abs/2611.10176",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.10176v1 Announce Type: new Abstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on commun",
-      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "communication"
       ]
     }
   ]
