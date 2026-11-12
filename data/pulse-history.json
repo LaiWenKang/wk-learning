@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T21:13:04.938Z",
+  "updatedAt": "2026-11-12T02:17:17.128Z",
   "signals": [
     {
       "id": "sig-adzf54",
@@ -10,7 +10,7 @@
       "summary": "Sandisk has introduced the iNAND CL EM181, an e.MMC 5.1A embedded flash drive built on 112-layer 3D TLC NAND in 64GB, 128GB, and 256GB capacities. Announced at electronica 2026 in Munich, it is aimed at products that stay in production for years and still use e.MMC, including set",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-11T17:36:50.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
       "score": 10,
       "tags": [
         "nand",
@@ -28,7 +28,7 @@
       "summary": "Nexsan has introduced the Unity NV12000, a 2U dual-controller unified storage array that takes 24 122.88TB QLC NVMe SSDs for nearly 3PB of raw flash in the head unit. Four of the company’s new U2F226 NVMe expansion enclosures, at 26 bays each, bring an all-flash system to 15.72PB",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-11T17:29:56.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -45,7 +45,7 @@
       "summary": "DapuStor announced the J5101, an enterprise NVMe M.2 boot SSD for AI, HPC, virtualization, and cloud servers. The drive uses a PCIe Gen4 interface in the M.2 2280 form factor, comes in 480GB, 960GB, and 1.92TB capacities, and carries power loss protection and a 1 DWPD endurance r",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T19:39:57.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -64,7 +64,7 @@
       "summary": "AMD announced the EPYC Embedded 9006 Series today, bringing the Zen 6 cores of its 6th Gen EPYC server processors to the SP7 socket for embedded systems, with up to 256 cores and 512 threads, up to 96 lanes of PCIe Gen 6, CXL 3.1, and a seven-year product longevity commitment. Th",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-10T19:15:53.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -82,7 +82,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -98,12 +98,235 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 8.9,
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 8.8,
       "tags": [
         "openai",
         "llm",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1awbqd1",
+      "title": "Hardware-Based Location Checks Target AI Chip Smuggling (Texas A&M)",
+      "url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at Texas A&M University published “5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices.” Abstract: “Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measureme",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-12T00:59:35.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-eosq91",
+      "title": "Embedded ECC Protects AI Weights Against Bit-Flip Attacks (University of Florida)",
+      "url": "https://semiengineering.com/embedded-ecc-protects-ai-weights-against-bit-flip-attacks-university-of-florida/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at the University of Florida published “SANAI: Secure ECC Distributed Keyed Parity Embedded in Weights for Protecting Neural Networks against Bit-Flip Attacks.” Abstract Excerpt: “We propose SANAI, a sensitivity-guided, bit-plane-selective scheme that protects critica",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T00:42:18.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-1qs7rk",
+      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
+      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-07T16:00:55.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen6"
+      ]
+    },
+    {
+      "id": "sig-tdschy",
+      "title": "Blog Review: Nov. 11",
+      "url": "https://semiengineering.com/blog-review-nov-11-3/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Interconnects key in AI infrastructure; floating nets; mitigating Control Flow attacks; PNT trends; SEMI Market Symposium. The post Blog Review: Nov. 11 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T08:01:21.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ytlw8y",
+      "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design",
+      "url": "https://arxiv.org/abs/2611.12982",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.12982v1 Announce Type: new Abstract: Large language model (LLM) agents are being explored for circuit design, but their ability to produce high-quality custom layouts has not been extensively evaluated. ICLayout-Bench is a benchmark in which agents use electronic desig",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytmlcu",
+      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+      "url": "https://arxiv.org/abs/2611.13644",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.13644v1 Announce Type: new Abstract: Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytmm8v",
+      "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling",
+      "url": "https://arxiv.org/abs/2611.13762",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.13762v1 Announce Type: new Abstract: GPUs have become essential to many fields, including AI and scientific computing. As GPUs grow more complex, the design space of their hardware configurations becomes increasingly large, yet cycle-level simulators remain too slow to",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-14uva5s",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
+      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.2,
+      "tags": [
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1dhujvt",
+      "title": "Git security vulnerabilities announced",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 7.1,
+      "tags": [
+        "github",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-bp2fs9",
+      "title": "Test Struggles To Keep Pace With AI",
+      "url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-10T08:07:24.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-evc1nb",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1v475h7",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplic",
+      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 6.8,
+      "tags": [
+        "claude",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-12fzjiv",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
+      "whyItMatters": "Touches anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T23:58:46.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 6.6,
+      "tags": [
+        "anthropic",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-2ewa2l",
+      "title": "Optimized E-Beam Evaporation Reduces Metal-Semiconductor Contact Degradation (RWTH Aachen)",
+      "url": "https://semiengineering.com/optimized-e-beam-evaporation-reduces-metal-semiconductor-contact-degradation-rwth-aachen/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at RWTH Aachen University published “Mitigating the degradation of metal–semiconductor contacts with optimized electron beam evaporation.” Abstract “An optimized electron beam evaporation (EBE) setup is presented that allows the suppression of charged particle bombard",
+      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-11T23:00:41.000Z",
+      "fetchedAt": "2026-11-12T02:17:17.128Z",
+      "score": 6.4,
+      "tags": [
+        "semiconductor"
       ]
     },
     {
@@ -120,22 +343,6 @@
       "tags": [
         "pcie",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1qs7rk",
-      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
-      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen6"
       ]
     },
     {
@@ -170,86 +377,6 @@
       ]
     },
     {
-      "id": "sig-tdschy",
-      "title": "Blog Review: Nov. 11",
-      "url": "https://semiengineering.com/blog-review-nov-11-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Interconnects key in AI infrastructure; floating nets; mitigating Control Flow attacks; PNT trends; SEMI Market Symposium. The post Blog Review: Nov. 11 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T08:01:21.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ytlw8y",
-      "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design",
-      "url": "https://arxiv.org/abs/2611.12982",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.12982v1 Announce Type: new Abstract: Large language model (LLM) agents are being explored for circuit design, but their ability to produce high-quality custom layouts has not been extensively evaluated. ICLayout-Bench is a benchmark in which agents use electronic desig",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytmlcu",
-      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
-      "url": "https://arxiv.org/abs/2611.13644",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.13644v1 Announce Type: new Abstract: Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytmm8v",
-      "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling",
-      "url": "https://arxiv.org/abs/2611.13762",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.13762v1 Announce Type: new Abstract: GPUs have become essential to many fields, including AI and scientific computing. As GPUs grow more complex, the design space of their hardware configurations becomes increasingly large, yet cycle-level simulators remain too slow to",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-14uva5s",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
-      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T20:09:44.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.3,
-      "tags": [
-        "claude",
-        "llm"
-      ]
-    },
-    {
       "id": "sig-19iruc6",
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "url": "https://github.com/GoogleChrome/modern-web-guidance",
@@ -266,38 +393,6 @@
       ]
     },
     {
-      "id": "sig-1dhujvt",
-      "title": "Git security vulnerabilities announced",
-      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-10T18:00:00.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7.2,
-      "tags": [
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-bp2fs9",
-      "title": "Test Struggles To Keep Pace With AI",
-      "url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-10T08:07:24.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-1co9ty8",
       "title": "AI’s Efficiency Challenge For The Semiconductor Industry",
       "url": "https://semiengineering.com/ais-efficiency-challenge-for-the-semiconductor-industry/",
@@ -311,22 +406,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-evc1nb",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-11T21:13:04.938Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude"
       ]
     },
     {
@@ -359,38 +438,6 @@
       "tags": [
         "samsung electronics",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1v475h7",
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure,",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-11T13:59:40.070Z",
-      "score": 7.1,
-      "tags": [
-        "claude",
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-12fzjiv",
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
-      "whyItMatters": "Touches anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T23:58:46.000Z",
-      "fetchedAt": "2026-11-11T13:59:40.070Z",
-      "score": 6.9,
-      "tags": [
-        "anthropic",
-        "llm"
       ]
     },
     {
@@ -2045,40 +2092,6 @@
       "tags": [
         "ai",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-3rznhu",
-      "title": "heydamir/unslop (JavaScript) — trending new repo",
-      "url": "https://github.com/heydamir/unslop",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface · ★ 8599",
-      "whyItMatters": "Touches ai, claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T15:41:21Z",
-      "fetchedAt": "2026-11-04T22:30:34.271Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-169aevx",
-      "title": "paipiange/nvzhuang (HTML) — trending new repo",
-      "url": "https://github.com/paipiange/nvzhuang",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang · ★ 2192",
-      "whyItMatters": "Touches ai, openai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-10-29T06:08:00Z",
-      "fetchedAt": "2026-11-04T22:30:34.271Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "openai",
-        "github"
       ]
     }
   ]
