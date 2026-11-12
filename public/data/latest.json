@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T09:53:43.318Z",
+  "generatedAt": "2026-11-12T18:06:53.346Z",
   "signals": [
     {
       "id": "sig-adzf54",
@@ -10,7 +10,7 @@
       "summary": "Sandisk has introduced the iNAND CL EM181, an e.MMC 5.1A embedded flash drive built on 112-layer 3D TLC NAND in 64GB, 128GB, and 256GB capacities. Announced at electronica 2026 in Munich, it is aimed at products that stay in production for years and still use e.MMC, including set",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-11T17:36:50.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
       "score": 10,
       "tags": [
         "nand",
@@ -28,7 +28,7 @@
       "summary": "Nexsan has introduced the Unity NV12000, a 2U dual-controller unified storage array that takes 24 122.88TB QLC NVMe SSDs for nearly 3PB of raw flash in the head unit. Four of the company’s new U2F226 NVMe expansion enclosures, at 26 bays each, bring an all-flash system to 15.72PB",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-11T17:29:56.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -45,7 +45,7 @@
       "summary": "DapuStor announced the J5101, an enterprise NVMe M.2 boot SSD for AI, HPC, virtualization, and cloud servers. The drive uses a PCIe Gen4 interface in the M.2 2280 form factor, comes in 480GB, 960GB, and 1.92TB capacities, and carries power loss protection and a 1 DWPD endurance r",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-10T19:39:57.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -53,24 +53,6 @@
         "pcie",
         "endurance",
         "dwpd"
-      ]
-    },
-    {
-      "id": "sig-1g1dc54",
-      "title": "AMD EPYC Embedded 9006 Brings 256 Zen 6 Cores and PCIe Gen 6 to Test, Storage, and Firewall Systems",
-      "url": "https://www.storagereview.com/news/amd-epyc-embedded-9006-series-256-cores-pcie-gen-6",
-      "source": "StorageReview",
-      "category": "firmware",
-      "summary": "AMD announced the EPYC Embedded 9006 Series today, bringing the Zen 6 cores of its 6th Gen EPYC server processors to the SP7 socket for embedded systems, with up to 256 cores and 512 threads, up to 96 lanes of PCIe Gen 6, CXL 3.1, and a seven-year product longevity commitment. Th",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-10T19:15:53.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 10,
-      "tags": [
-        "pcie",
-        "cxl",
-        "storage",
-        "embedded"
       ]
     },
     {
@@ -82,11 +64,43 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
       "score": 10,
       "tags": [
         "ssd",
         "seagate"
+      ]
+    },
+    {
+      "id": "sig-11nxn5k",
+      "title": "KIOXIA LC9 245.76TB SSDs Put 157PB of Dell ObjectScale Flash in a Single 42U Rack",
+      "url": "https://www.storagereview.com/news/kioxia-lc9-dell-objectscale-157pb-42u-rack",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "KIOXIA America and Dell Technologies have put 157PB of raw flash in a single 42U rack, using 640 KIOXIA LC9 Series 245.76TB SSDs across 16 Dell PowerEdge R7725xd servers running software-defined Dell ObjectScale. KIOXIA calls it the first 157PB object storage configuration in an ",
+      "whyItMatters": "Touches kioxia, storage — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-12T16:37:08.000Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 9,
+      "tags": [
+        "kioxia",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1q3u7kx",
+      "title": "Fitting Four 32 GB Resizable Bars Behind a PCIe Switch on Linux",
+      "url": "https://doug.sh/posts/gpu-bars-behind-a-pcie-switch/",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "41 points on Hacker News",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-12T15:14:52Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8.9,
+      "tags": [
+        "pcie",
+        "linux"
       ]
     },
     {
@@ -98,8 +112,8 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 9,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -115,8 +129,8 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 8.9,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -132,12 +146,76 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8.3,
       "tags": [
         "openai",
         "llm",
         "security"
+      ]
+    },
+    {
+      "id": "sig-1ke1fzc",
+      "title": "AI Models Know What Women, Peace and Security Is. They Just Don't Bring It Up",
+      "url": "https://blog.cip.org/p/ai-models-know-what-women-peace-and",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "10 points on Hacker News",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T17:32:49Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-10gx8dk",
+      "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
+      "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "87 points on Hacker News",
+      "whyItMatters": "Touches github, firmware — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-12T16:29:13Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8,
+      "tags": [
+        "github",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-1qs7rk",
+      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
+      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-07T16:00:55.000Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 8,
+      "tags": [
+        "pcie",
+        "gen6"
+      ]
+    },
+    {
+      "id": "sig-dj04qx",
+      "title": "The Semiconductor Singularity",
+      "url": "https://semiengineering.com/the-semiconductor-singularity/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T15:57:50.000Z",
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -149,8 +227,8 @@
       "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 8,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -165,27 +243,11 @@
       "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:06:49.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 8,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1qs7rk",
-      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
-      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen6"
       ]
     },
     {
@@ -197,8 +259,8 @@
       "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:04:39.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -213,8 +275,8 @@
       "summary": "Custom instructions promise flexibility, but experts question whether RISC-V belongs at the heart of AI acceleration. The post RISC-V For AI: Breakthrough Or Bad Idea? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:01:26.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -229,24 +291,8 @@
       "summary": "How an integrated foundation IP strategy can reduce execution risk, enable faster tape-out, and lower TCO. The post Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:01:23.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1awbqd1",
-      "title": "Hardware-Based Location Checks Target AI Chip Smuggling (Texas A&M)",
-      "url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at Texas A&M University published “5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices.” Abstract: “Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measureme",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-12T00:59:35.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -261,8 +307,8 @@
       "summary": "At OCP Summit 2026, Meta showed off its MetaRoCE adapter designed to scale to million-GPU training clusters The post This is the Meta MetaRoCE Network Adapter appeared first on ServeTheHome .",
       "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
       "publishedAt": "2026-11-12T04:51:39.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 7.1,
       "tags": [
         "ocp"
       ]
@@ -276,59 +322,11 @@
       "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
       "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T20:09:44.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 7,
+      "fetchedAt": "2026-11-12T18:06:53.346Z",
+      "score": 6.7,
       "tags": [
         "claude",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1dhujvt",
-      "title": "Git security vulnerabilities announced",
-      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-10T18:00:00.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 6.9,
-      "tags": [
-        "github",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-evc1nb",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat ",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1v475h7",
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Claude Fable 5.2 pays close attention to who owns the code it works on. In Anthropic’s testing on small coding tasks, the model tended to add to the existing structure when the prompt said nothing about ownership or presented the code base as someone else’s, even when that duplic",
-      "whyItMatters": "Touches claude, anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-12T09:53:43.318Z",
-      "score": 6.5,
-      "tags": [
-        "claude",
-        "anthropic"
       ]
     }
   ]
