@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:27:04.962Z",
+  "generatedAt": "2026-11-13T18:41:53.103Z",
   "signals": [
     {
       "id": "sig-ytne05",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2611.14776v1 Announce Type: new Abstract: Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides up to 16x the capacity at comparable rea",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
       "score": 10,
       "tags": [
         "nand",
@@ -18,41 +18,6 @@
         "language model",
         "dram",
         "hbm"
-      ]
-    },
-    {
-      "id": "sig-adzf54",
-      "title": "Sandisk iNAND CL EM181 Brings 112-Layer TLC to e.MMC 5.1 at Up to 256GB and 300MB/s",
-      "url": "https://www.storagereview.com/news/sandisk-inand-cl-em181-emmc-112-layer-tlc-256gb",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Sandisk has introduced the iNAND CL EM181, an e.MMC 5.1A embedded flash drive built on 112-layer 3D TLC NAND in 64GB, 128GB, and 256GB capacities. Announced at electronica 2026 in Munich, it is aimed at products that stay in production for years and still use e.MMC, including set",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-11-11T17:36:50.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "tlc",
-        "sandisk",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1ie6ipb",
-      "title": "Nexsan Unity NV12000 Puts 15.72PB of NVMe Flash in 10U With 122.88TB QLC SSDs",
-      "url": "https://www.storagereview.com/news/nexsan-unity-nv12000-15pb-nvme-flash-10u",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Nexsan has introduced the Unity NV12000, a 2U dual-controller unified storage array that takes 24 122.88TB QLC NVMe SSDs for nearly 3PB of raw flash in the head unit. Four of the company’s new U2F226 NVMe expansion enclosures, at 26 bays each, bring an all-flash system to 15.72PB",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-11T17:29:56.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 10,
-      "tags": [
-        "nvme",
-        "qlc",
-        "storage"
       ]
     },
     {
@@ -64,8 +29,8 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 9.6,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 9.5,
       "tags": [
         "ssd",
         "seagate"
@@ -77,11 +42,11 @@
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "184 points on Hacker News",
+      "summary": "456 points on Hacker News",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T10:18:13Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 9,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "claude code",
@@ -97,8 +62,8 @@
       "summary": "arXiv:2611.14581v1 Announce Type: new Abstract: Agentic workflows, in which a large language model (LLM) calls tools to read and write data, are evaluated in two ways. Benchmarks compare the final state against a gold answer. Deployed services have none; an LLM judge reads the tr",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8.8,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -114,8 +79,8 @@
       "summary": "arXiv:2611.14946v1 Announce Type: new Abstract: Documenting stripped binary functions for security analysis requires recovering function interfaces and user-defined type (UDT) layouts from machine code. Existing large language model (LLM)-based methods face two limitations: they ",
       "whyItMatters": "Touches llm, language model, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8.8,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8.6,
       "tags": [
         "llm",
         "language model",
@@ -131,8 +96,8 @@
       "summary": "KIOXIA America and Dell Technologies have put 157PB of raw flash in a single 42U rack, using 640 KIOXIA LC9 Series 245.76TB SSDs across 16 Dell PowerEdge R7725xd servers running software-defined Dell ObjectScale. KIOXIA calls it the first 157PB object storage configuration in an ",
       "whyItMatters": "Touches kioxia, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-12T16:37:08.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8.3,
       "tags": [
         "kioxia",
         "storage"
@@ -147,8 +112,8 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8.2,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8,
       "tags": [
         "ai",
         "semiconductor",
@@ -164,28 +129,12 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8.2,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 8,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-1qs7rk",
-      "title": "ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids",
-      "url": "https://www.servethehome.com/asrock-rack-dmrd16-2l-plus-diamond-rapids-ocp-summit-2026/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 8,
-      "tags": [
-        "pcie",
-        "gen6"
       ]
     },
     {
@@ -197,8 +146,8 @@
       "summary": "arXiv:2611.14940v1 Announce Type: new Abstract: Curated datasets of real-world software bugs support empirical research in software testing, debugging, and automated program repair. However, exploring heterogeneous bug collections, comparing fault characteristics across projects,",
       "whyItMatters": "Touches typescript, debugging — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7.6,
       "tags": [
         "typescript",
         "debugging"
@@ -213,8 +162,8 @@
       "summary": "arXiv:2611.15231v1 Announce Type: new Abstract: Autoregressive large language model (LLM) inference is often limited by external-memory bandwidth, while existing ultra-low-bit trellis quantization reconstructs floating-point weights and leaves runtime Hadamard-transform and decod",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -229,8 +178,8 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7.6,
       "tags": [
         "openai",
         "llm",
@@ -246,27 +195,11 @@
       "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-13T00:20:16.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.7,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-10gx8dk",
-      "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
-      "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
-      "source": "Hacker News Best",
-      "category": "programming",
-      "summary": "Article URL: https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep Comments URL: https://news.ycombinator.com/item?id=50469994 Points: 309 # Comments: 242",
-      "whyItMatters": "Touches github, firmware — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-12T16:29:13.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
       "score": 7.5,
       "tags": [
         "github",
-        "firmware"
+        "performance"
       ]
     },
     {
@@ -278,8 +211,8 @@
       "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T15:57:50.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
@@ -294,8 +227,8 @@
       "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -310,8 +243,8 @@
       "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:06:49.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
@@ -326,11 +259,76 @@
       "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:04:39.000Z",
-      "fetchedAt": "2026-11-13T11:27:04.962Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-2cwcw8",
+      "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+      "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Custom instructions promise flexibility, but experts question whether RISC-V belongs at the heart of AI acceleration. The post RISC-V For AI: Breakthrough Or Bad Idea? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:01:26.000Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1u5m7g7",
+      "title": "alexeyw/lot-map (TypeScript) — trending new repo",
+      "url": "https://github.com/alexeyw/lot-map",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. · ★ 708",
+      "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-09T19:13:52Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
+      "tags": [
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-ri505i",
+      "title": "agentes-chat/agentes-chat (TypeScript) — trending new repo",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Com",
+      "whyItMatters": "Touches ai, claude, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T00:50:28Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-aa2dmo",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "113 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-13T17:30:10Z",
+      "fetchedAt": "2026-11-13T18:41:53.103Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     }
   ]
