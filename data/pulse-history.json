@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T23:31:01.782Z",
+  "updatedAt": "2026-11-13T03:31:51.485Z",
   "signals": [
     {
       "id": "sig-adzf54",
@@ -10,7 +10,7 @@
       "summary": "Sandisk has introduced the iNAND CL EM181, an e.MMC 5.1A embedded flash drive built on 112-layer 3D TLC NAND in 64GB, 128GB, and 256GB capacities. Announced at electronica 2026 in Munich, it is aimed at products that stay in production for years and still use e.MMC, including set",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-11T17:36:50.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
       "score": 10,
       "tags": [
         "nand",
@@ -28,7 +28,7 @@
       "summary": "Nexsan has introduced the Unity NV12000, a 2U dual-controller unified storage array that takes 24 122.88TB QLC NVMe SSDs for nearly 3PB of raw flash in the head unit. Four of the company’s new U2F226 NVMe expansion enclosures, at 26 bays each, bring an all-flash system to 15.72PB",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-11T17:29:56.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
       "score": 10,
       "tags": [
         "nvme",
@@ -45,8 +45,8 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 9.9,
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 9.8,
       "tags": [
         "ssd",
         "seagate"
@@ -61,8 +61,8 @@
       "summary": "KIOXIA America and Dell Technologies have put 157PB of raw flash in a single 42U rack, using 640 KIOXIA LC9 Series 245.76TB SSDs across 16 Dell PowerEdge R7725xd servers running software-defined Dell ObjectScale. KIOXIA calls it the first 157PB object storage configuration in an ",
       "whyItMatters": "Touches kioxia, storage — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-12T16:37:08.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 8.8,
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 8.7,
       "tags": [
         "kioxia",
         "storage"
@@ -77,8 +77,8 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "semiconductor",
@@ -94,8 +94,8 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "semiconductor",
@@ -111,8 +111,8 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 8.2,
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 8,
       "tags": [
         "openai",
         "llm",
@@ -128,11 +128,202 @@
       "summary": "We check out the ASRock Rack DMRD16-2L+ which is a 16-channel Intel Diamond Rapids Xeon motherboard with 128x PCIe Gen6 lanes over MCIO The post ASRock Rack DMRD16-2L+ Spotted with 16 DDR5 Slots for Diamond Rapids appeared first on ServeTheHome .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-07T16:00:55.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen6"
+      ]
+    },
+    {
+      "id": "sig-1tcg1y3",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-13T00:20:16.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.9,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dj04qx",
+      "title": "The Semiconductor Singularity",
+      "url": "https://semiengineering.com/the-semiconductor-singularity/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T15:57:50.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1ddtnzm",
+      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+      "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:08:39.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-4f8wpy",
+      "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
+      "url": "https://semiengineering.com/the-semiconductor-singularity-when-ai-starts-accelerating-the-silicon-that-accelerates-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:06:49.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1czqrim",
+      "title": "The Memory Challenge Of Physical AI",
+      "url": "https://semiengineering.com/the-memory-challenge-of-physical-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:04:39.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-2cwcw8",
+      "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+      "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Custom instructions promise flexibility, but experts question whether RISC-V belongs at the heart of AI acceleration. The post RISC-V For AI: Breakthrough Or Bad Idea? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:01:26.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1fjxkm6",
+      "title": "Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook",
+      "url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "How an integrated foundation IP strategy can reduce execution risk, enable faster tape-out, and lower TCO. The post Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:01:23.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ri505i",
+      "title": "agentes-chat/agentes-chat (TypeScript) — trending new repo",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Com",
+      "whyItMatters": "Touches ai, claude, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-09T00:50:28Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-gwhg6a",
+      "title": "This is the Meta MetaRoCE Network Adapter",
+      "url": "https://www.servethehome.com/this-is-the-meta-metaroce-network-adapter/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "At OCP Summit 2026, Meta showed off its MetaRoCE adapter designed to scale to million-GPU training clusters The post This is the Meta MetaRoCE Network Adapter appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-12T04:51:39.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 6.9,
+      "tags": [
+        "ocp"
+      ]
+    },
+    {
+      "id": "sig-14uva5s",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
+      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 6.5,
+      "tags": [
+        "claude",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-fh8vxv",
+      "title": "FrigadeHQ/yogurt (TypeScript) — trending new repo",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Private AI meeting notes. Free and open source. · ★ 986",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:01:01Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 6.5,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-g4yp07",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "86 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T23:06:17Z",
+      "fetchedAt": "2026-11-13T03:31:51.485Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -149,133 +340,6 @@
       "tags": [
         "github",
         "firmware"
-      ]
-    },
-    {
-      "id": "sig-dj04qx",
-      "title": "The Semiconductor Singularity",
-      "url": "https://semiengineering.com/the-semiconductor-singularity/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T15:57:50.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1ddtnzm",
-      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
-      "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-4f8wpy",
-      "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
-      "url": "https://semiengineering.com/the-semiconductor-singularity-when-ai-starts-accelerating-the-silicon-that-accelerates-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:06:49.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1czqrim",
-      "title": "The Memory Challenge Of Physical AI",
-      "url": "https://semiengineering.com/the-memory-challenge-of-physical-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:04:39.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-2cwcw8",
-      "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
-      "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Custom instructions promise flexibility, but experts question whether RISC-V belongs at the heart of AI acceleration. The post RISC-V For AI: Breakthrough Or Bad Idea? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:01:26.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1fjxkm6",
-      "title": "Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook",
-      "url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "How an integrated foundation IP strategy can reduce execution risk, enable faster tape-out, and lower TCO. The post Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:01:23.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-gwhg6a",
-      "title": "This is the Meta MetaRoCE Network Adapter",
-      "url": "https://www.servethehome.com/this-is-the-meta-metaroce-network-adapter/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At OCP Summit 2026, Meta showed off its MetaRoCE adapter designed to scale to million-GPU training clusters The post This is the Meta MetaRoCE Network Adapter appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-11-12T04:51:39.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 7,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-14uva5s",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5",
-      "whyItMatters": "Touches claude, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T20:09:44.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 6.6,
-      "tags": [
-        "claude",
-        "llm"
       ]
     },
     {
@@ -1957,122 +2021,6 @@
       "tags": [
         "linux",
         "security"
-      ]
-    },
-    {
-      "id": "sig-ysyo3i",
-      "title": "Agentic Behavior Engineering: A Design-by-Contract Methodology for Specifying, Verifying, and Governing Enterprise AI Agents",
-      "url": "https://arxiv.org/abs/2611.05454",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05454v1 Announce Type: new Abstract: Enterprise teams that deploy large language model (LLM) agents inherit a maintenance problem that traditional testing does not address. The model is non-deterministic, but the larger risk is that most of what changes an agent's beha",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yhpxny",
-      "title": "Adding Network Security to AI, HPC and Data Centers",
-      "url": "https://semiengineering.com/adding-network-security-to-ai-hpc-and-data-centers/",
-      "source": "Semiconductor Engineering",
-      "category": "systems",
-      "summary": "How data center operators can protect critical data and communications without compromising the performance demanded by distributed AI and HPC workloads. The post Adding Network Security to AI, HPC and Data Centers appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-04T08:04:45.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-ysyncx",
-      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
-      "url": "https://arxiv.org/abs/2611.05394",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private se",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ysyoxt",
-      "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via Item-Response Theory",
-      "url": "https://arxiv.org/abs/2611.05556",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05556v1 Announce Type: new Abstract: LLM-as-a-judge is a common substitute for costly human evaluation, and aggregating several judges is the standard remedy for any single judge's bias. Judge pools mix judges of very different reliability, while the human-labeled sets",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-ysyqm6",
-      "title": "Scheduling Data to Compute: Hierarchical Data Pipelining for LLM Training on AMD GPUs",
-      "url": "https://arxiv.org/abs/2611.05751",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.05751v1 Announce Type: new Abstract: Large language models (LLM) have been the key focus of recent machine learning breakthroughs. As the model size grows exponentially, the computation needed for training is astronomical. A GPU can do a huge amount of arithmetic. Howe",
-      "whyItMatters": "Touches llm, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-1tzb4ju",
-      "title": "UncensoredLabs/uncensored-ai-api (JavaScript) — trending new repo",
-      "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides. · ★ 874",
-      "whyItMatters": "Touches ai, python, typescript — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-01T20:53:34Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "python",
-        "typescript",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-ysyncu",
-      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2611.05391",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, ",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-06T03:20:35.413Z",
-      "score": 6.9,
-      "tags": [
-        "telemetry"
       ]
     }
   ]
