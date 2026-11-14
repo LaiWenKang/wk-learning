@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-11-13T23:55:15.228Z",
+  "generatedAt": "2026-11-14T06:03:14.297Z",
   "signals": [
-    {
-      "id": "sig-ytne05",
-      "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
-      "url": "https://arxiv.org/abs/2611.14776",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "semiconductor",
-      "summary": "arXiv:2611.14776v1 Announce Type: new Abstract: Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides up to 16x the capacity at comparable rea",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 10,
-      "tags": [
-        "nand",
-        "llm",
-        "language model",
-        "dram",
-        "hbm"
-      ]
-    },
     {
       "id": "sig-1j0uwy9",
       "title": "Seagate combines dynamically cached SSD and HDD in single volume desktop drive",
@@ -29,7 +10,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -42,49 +23,15 @@
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "source": "Hacker News Best",
       "category": "ai",
-      "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 482 # Comments: 382",
+      "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 488 # Comments: 383",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T10:18:13.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "claude code",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-ytnccf",
-      "title": "When Evaluators of AI Agents Disagree: An Empirical Study of Native Scoring, LLM Judges, and Commit-Boundary Checks on tau2-bench",
-      "url": "https://arxiv.org/abs/2611.14581",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.14581v1 Announce Type: new Abstract: Agentic workflows, in which a large language model (LLM) calls tools to read and write data, are evaluated in two ways. Benchmarks compare the final state against a gold answer. Deployed services have none; an LLM judge reads the tr",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 8.5,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytnflw",
-      "title": "LOHRE: Execution-Grounded Type Recovery via LLM-Orchestrated Hybrid Analysis",
-      "url": "https://arxiv.org/abs/2611.14946",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.14946v1 Announce Type: new Abstract: Documenting stripped binary functions for security analysis requires recovering function interfaces and user-defined type (UDT) layouts from machine code. Existing large language model (LLM)-based methods face two limitations: they ",
-      "whyItMatters": "Touches llm, language model, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 8.5,
-      "tags": [
-        "llm",
-        "language model",
-        "security"
       ]
     },
     {
@@ -96,8 +43,8 @@
       "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T19:26:07.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "security"
@@ -112,8 +59,8 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -129,44 +76,12 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-ytnflq",
-      "title": "TSBugs Explorer: Exploring and Benchmarking TypeScript Bugs",
-      "url": "https://arxiv.org/abs/2611.14940",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.14940v1 Announce Type: new Abstract: Curated datasets of real-world software bugs support empirical research in software testing, debugging, and automated program repair. However, exploring heterogeneous bug collections, comparing fault characteristics across projects,",
-      "whyItMatters": "Touches typescript, debugging — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.5,
-      "tags": [
-        "typescript",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-yto1fc",
-      "title": "TQIR: Trellis Quantization with Integer Reconstruction for Bandwidth-Efficient Edge LLM Acceleration",
-      "url": "https://arxiv.org/abs/2611.15231",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.15231v1 Announce Type: new Abstract: Autoregressive large language model (LLM) inference is often limited by external-memory bandwidth, while existing ultra-low-bit trellis quantization reconstructs floating-point weights and leaves runtime Hadamard-transform and decod",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "language model"
       ]
     },
     {
@@ -178,8 +93,8 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7.3,
       "tags": [
         "openai",
         "llm",
@@ -195,27 +110,28 @@
       "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-13T00:20:16.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7.2,
       "tags": [
         "github",
         "performance"
       ]
     },
     {
-      "id": "sig-dj04qx",
-      "title": "The Semiconductor Singularity",
-      "url": "https://semiengineering.com/the-semiconductor-singularity/",
-      "source": "Semiconductor Engineering",
+      "id": "sig-fh8vxv",
+      "title": "FrigadeHQ/yogurt (TypeScript) — trending new repo",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T15:57:50.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 7.1,
+      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1320",
+      "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:01:01Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 7,
       "tags": [
         "ai",
-        "semiconductor"
+        "typescript",
+        "linux"
       ]
     },
     {
@@ -224,10 +140,10 @@
       "url": "https://github.com/alexeyw/lot-map",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. · ★ 728",
+      "summary": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. · ★ 750",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-09T19:13:52Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -244,12 +160,28 @@
       "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Com",
       "whyItMatters": "Touches ai, claude, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T00:50:28Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
       "score": 7,
       "tags": [
         "ai",
         "claude",
         "typescript"
+      ]
+    },
+    {
+      "id": "sig-dj04qx",
+      "title": "The Semiconductor Singularity",
+      "url": "https://semiengineering.com/the-semiconductor-singularity/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T15:57:50.000Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -261,11 +193,27 @@
       "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1dbt80d",
+      "title": "deepseek-ai/chat-demo (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Chat Demo · ★ 1100",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:08:19Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -277,8 +225,8 @@
       "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:06:49.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -293,26 +241,41 @@
       "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:04:39.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "semiconductor"
       ]
     },
     {
-      "id": "sig-1ppqskh",
-      "title": "Claude Meetings",
-      "url": "https://claude.com/resources/articles/claude-meetings",
+      "id": "sig-ztky16",
+      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "58 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T22:39:15Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 6.5,
+      "summary": "247 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-14T02:52:59Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.4,
       "tags": [
-        "claude"
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-2u7fac",
+      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "52 points on Hacker News",
+      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-14T02:15:41Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.4,
+      "tags": [
+        "security"
       ]
     },
     {
@@ -324,8 +287,37 @@
       "summary": "The Dell Pro Precision 9 T4 is the single-socket tower at the top of Dell’s Pro Precision line, and our review unit is configured for local AI at a scale most workstations can’t reach. It pairs Intel’s 86-core Xeon 698X with 256GB of DDR5-6400 ECC memory, two 300W NVIDIA RTX PRO ",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T22:08:22.000Z",
-      "fetchedAt": "2026-11-13T23:55:15.228Z",
-      "score": 6.5,
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1pez8x5",
+      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+      "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: “Recent generations of high bandwidth memory (HBM), such as HBM",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-13T21:53:30.000Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.3,
+      "tags": [
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-15nfiso",
+      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+      "url": "https://atg.science/careers",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-13T21:01:11Z",
+      "fetchedAt": "2026-11-14T06:03:14.297Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
