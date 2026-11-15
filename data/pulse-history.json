@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:31:00.628Z",
+  "updatedAt": "2026-11-15T21:10:53.325Z",
   "signals": [
     {
       "id": "sig-1j0uwy9",
@@ -10,11 +10,27 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "seagate"
+      ]
+    },
+    {
+      "id": "sig-jbbbi2",
+      "title": "Corsair FlexPrime V20C Review: A 24-Core Linux Workstation Built Around a 32GB Arc Pro B70",
+      "url": "https://www.storagereview.com/review/corsair-flexprime-v20c-review",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
+      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T18:43:44.000Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "linux"
       ]
     },
     {
@@ -26,8 +42,8 @@
       "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T23:59:28.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 7.4,
       "tags": [
         "openai",
         "llm"
@@ -42,8 +58,8 @@
       "summary": "With its new Zen 6 \"Venice\" silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedde",
       "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-11-14T19:00:44.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 7.3,
       "tags": [
         "embedded",
         "performance"
@@ -58,7 +74,7 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "ai",
@@ -75,7 +91,7 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "ai",
@@ -92,7 +108,7 @@
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API",
       "whyItMatters": "Touches openai, llm, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "openai",
@@ -106,10 +122,10 @@
       "url": "https://github.com/FrigadeHQ/yogurt",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1593",
+      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1621",
       "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T20:01:01Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "ai",
@@ -123,10 +139,10 @@
       "url": "https://github.com/alexeyw/lot-map",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. · ★ 860",
+      "summary": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. · ★ 882",
       "whyItMatters": "Touches claude code, claude, typescript — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-09T19:13:52Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "claude code",
@@ -143,7 +159,7 @@
       "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Com",
       "whyItMatters": "Touches ai, claude, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-09T00:50:28Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 7,
       "tags": [
         "ai",
@@ -157,11 +173,11 @@
       "url": "https://github.com/duwqijlk/muse-protocol",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 892",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 974",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T01:24:58Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "python"
@@ -176,11 +192,26 @@
       "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-13T19:26:07.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.7,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 6.6,
       "tags": [
         "ai",
         "security"
+      ]
+    },
+    {
+      "id": "sig-sjmkem",
+      "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "43 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T19:39:46Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -189,11 +220,11 @@
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "250 points on Hacker News",
+      "summary": "930 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-15T14:46:58Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.5,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -207,26 +238,11 @@
       "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
       "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-13T00:20:16.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.2,
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "score": 6.1,
       "tags": [
         "github",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-fckbo5",
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "source": "Hacker News (front page)",
-      "category": "semiconductor",
-      "summary": "366 points on Hacker News",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-15T01:18:36Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.1,
-      "tags": [
-        "dram"
       ]
     },
     {
@@ -238,7 +254,7 @@
       "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T15:57:50.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 6,
       "tags": [
         "ai",
@@ -254,7 +270,7 @@
       "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 6,
       "tags": [
         "ai",
@@ -267,10 +283,10 @@
       "url": "https://github.com/deepseek-ai/chat-demo",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Chat Demo · ★ 2567",
+      "summary": "Chat Demo · ★ 2841",
       "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:08:19Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 6,
       "tags": [
         "ai",
@@ -286,7 +302,7 @@
       "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware. The post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:06:49.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 6,
       "tags": [
         "ai",
@@ -302,11 +318,26 @@
       "summary": "Right-size the memory hierarchy around the device's data streams, reuse patterns, latency requirements, and operating constraints. The post The Memory Challenge Of Physical AI appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:04:39.000Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "fetchedAt": "2026-11-15T21:10:53.325Z",
       "score": 6,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-fckbo5",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "source": "Hacker News (front page)",
+      "category": "semiconductor",
+      "summary": "366 points on Hacker News",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-15T01:18:36Z",
+      "fetchedAt": "2026-11-15T16:31:00.628Z",
+      "score": 6.1,
+      "tags": [
+        "dram"
       ]
     },
     {
@@ -1960,52 +1991,6 @@
       "tags": [
         "github",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-19bt8ol",
-      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
-      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "51 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T18:43:07Z",
-      "fetchedAt": "2026-11-08T20:22:06.324Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1wdhu7y",
-      "title": "Goodbye Claude, hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "620 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T03:11:48Z",
-      "fetchedAt": "2026-11-08T20:22:06.324Z",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-f894jb",
-      "title": "Fitting AI Models To Edge Applications",
-      "url": "https://semiengineering.com/fitting-ai-models-to-edge-applications/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Compression can shrink AI models, but efficient edge deployment starts with matching the architecture to the workload and hardware limits. The post Fitting AI Models To Edge Applications appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-05T08:04:08.000Z",
-      "fetchedAt": "2026-11-08T20:22:06.324Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     }
   ]
