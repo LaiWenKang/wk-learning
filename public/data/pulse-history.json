@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-15T21:10:53.325Z",
+  "updatedAt": "2026-11-16T01:05:04.032Z",
   "signals": [
+    {
+      "id": "sig-fckbo5",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 488 # Comments: 216",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-15T01:18:36.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 9.8,
+      "tags": [
+        "micron",
+        "ai",
+        "dram"
+      ]
+    },
     {
       "id": "sig-1j0uwy9",
       "title": "Seagate combines dynamically cached SSD and HDD in single volume desktop drive",
@@ -10,7 +27,7 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -26,11 +43,27 @@
       "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
       "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-15T18:43:44.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-1cc3hze",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
+      "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T04:02:45.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7.4,
+      "tags": [
+        "claude",
+        "javascript"
       ]
     },
     {
@@ -42,8 +75,8 @@
       "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T23:59:28.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7.3,
       "tags": [
         "openai",
         "llm"
@@ -58,11 +91,28 @@
       "summary": "With its new Zen 6 \"Venice\" silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedde",
       "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-11-14T19:00:44.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7.2,
       "tags": [
         "embedded",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-syhlha",
+      "title": "hitkeeen/blender-ai-mcp-addon — trending new repo",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 1167",
+      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T14:32:15Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude",
+        "python"
       ]
     },
     {
@@ -74,7 +124,7 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
       "score": 7,
       "tags": [
         "ai",
@@ -91,12 +141,186 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-fh8vxv",
+      "title": "FrigadeHQ/yogurt (TypeScript) — trending new repo",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1651",
+      "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-10T20:01:01Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "typescript",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-1pg3zia",
+      "title": "duwqijlk/muse-protocol (Python) — trending new repo",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 1030",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-14T01:24:58Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-ig15m1",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this ",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T23:20:27.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6.5,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1k979xk",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison's Weblog",
+      "category": "systems",
+      "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /&lt;route&gt;.db by actors who were denied acc",
+      "whyItMatters": "Touches security — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-15T23:18:17.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6.5,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "sig-12npjmm",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "source": "Cloudflare Blog",
+      "category": "ai",
+      "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-13T19:26:07.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6.5,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-1k01be8",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "1072 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T14:46:58Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1tcg1y3",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-13T00:20:16.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6,
+      "tags": [
+        "github",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-dj04qx",
+      "title": "The Semiconductor Singularity",
+      "url": "https://semiengineering.com/the-semiconductor-singularity/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T15:57:50.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-ha341g",
+      "title": "ZiChuanLan/freebie-radar (TypeScript) — trending new repo",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送 · ★ 810",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T09:08:11Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-1ddtnzm",
+      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+      "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:08:39.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1dbt80d",
+      "title": "deepseek-ai/chat-demo (TypeScript) — trending new repo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Chat Demo · ★ 2998",
+      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-12T08:08:19Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "typescript"
       ]
     },
     {
@@ -114,23 +338,6 @@
         "openai",
         "llm",
         "security"
-      ]
-    },
-    {
-      "id": "sig-fh8vxv",
-      "title": "FrigadeHQ/yogurt (TypeScript) — trending new repo",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1621",
-      "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T20:01:01Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "typescript",
-        "linux"
       ]
     },
     {
@@ -168,38 +375,6 @@
       ]
     },
     {
-      "id": "sig-1pg3zia",
-      "title": "duwqijlk/muse-protocol (Python) — trending new repo",
-      "url": "https://github.com/duwqijlk/muse-protocol",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 974",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-14T01:24:58Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-12npjmm",
-      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
-      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T19:26:07.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6.6,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
       "id": "sig-sjmkem",
       "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
       "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
@@ -212,85 +387,6 @@
       "score": 6.5,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1k01be8",
-      "title": "All AI-generated code should be Open Source",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "930 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-15T14:46:58Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1tcg1y3",
-      "title": "GitHub availability report: October 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, performance — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-13T00:20:16.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6.1,
-      "tags": [
-        "github",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-dj04qx",
-      "title": "The Semiconductor Singularity",
-      "url": "https://semiengineering.com/the-semiconductor-singularity/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Accelerating IC innovation with AI. The post The Semiconductor Singularity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T15:57:50.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1ddtnzm",
-      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
-      "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. The post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:08:39.000Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1dbt80d",
-      "title": "deepseek-ai/chat-demo (TypeScript) — trending new repo",
-      "url": "https://github.com/deepseek-ai/chat-demo",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Chat Demo · ★ 2841",
-      "whyItMatters": "Touches ai, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:08:19Z",
-      "fetchedAt": "2026-11-15T21:10:53.325Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "typescript"
       ]
     },
     {
@@ -323,21 +419,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-fckbo5",
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "source": "Hacker News (front page)",
-      "category": "semiconductor",
-      "summary": "366 points on Hacker News",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-15T01:18:36Z",
-      "fetchedAt": "2026-11-15T16:31:00.628Z",
-      "score": 6.1,
-      "tags": [
-        "dram"
       ]
     },
     {
@@ -1944,53 +2025,6 @@
       "score": 6.2,
       "tags": [
         "linux"
-      ]
-    },
-    {
-      "id": "sig-bst42n",
-      "title": "I'm not a fan of Deno's security model (2024)",
-      "url": "https://goldstein.lol/posts/deno-security/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "80 points on Hacker News",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-08T14:42:38Z",
-      "fetchedAt": "2026-11-08T23:48:59.779Z",
-      "score": 6.2,
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "id": "sig-1mimli5",
-      "title": "Podcast #156: HPE’s Patrick Osborne on AI-Ready Storage, Block’s Second Life, and Cyber Resilience in the Array",
-      "url": "https://www.storagereview.com/podcast/podcast-156-hpe-patrick-osborne-ai-ready-storage-alletra-storage-mp",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Brian hosted Patrick Osborne, Senior Vice President of Hybrid Cloud Technology Acceleration at HPE, for a live podcast on LinkedIn on October 26. The subject was whether enterprise storage is ready for AI, and the answer ran through the Alletra Storage MP architecture decision HP",
-      "whyItMatters": "Touches ai, storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-05T20:50:26.000Z",
-      "fetchedAt": "2026-11-08T23:48:59.779Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1470pvg",
-      "title": "Inside GitHub’s new Git storage architecture",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches github, storage — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-05T20:23:21.000Z",
-      "fetchedAt": "2026-11-08T23:48:59.779Z",
-      "score": 6,
-      "tags": [
-        "github",
-        "storage"
       ]
     }
   ]
