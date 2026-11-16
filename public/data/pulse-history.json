@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-11-16T01:05:04.032Z",
+  "updatedAt": "2026-11-16T07:52:34.356Z",
   "signals": [
-    {
-      "id": "sig-fckbo5",
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 488 # Comments: 216",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-15T01:18:36.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 9.8,
-      "tags": [
-        "micron",
-        "ai",
-        "dram"
-      ]
-    },
     {
       "id": "sig-1j0uwy9",
       "title": "Seagate combines dynamically cached SSD and HDD in single volume desktop drive",
@@ -27,11 +10,91 @@
       "summary": "",
       "whyItMatters": "Touches ssd, seagate — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-10T14:18:07.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
       "score": 9.5,
       "tags": [
         "ssd",
         "seagate"
+      ]
+    },
+    {
+      "id": "sig-ytpluo",
+      "title": "ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects",
+      "url": "https://arxiv.org/abs/2611.17381",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.17381v1 Announce Type: new Abstract: AI-assisted development environments turn natural-language requests into working applications, yet the projects they produce often fail on their first deployment for operational reasons: credentials in source files, missing security",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-ytpnj6",
+      "title": "Beyond Source Code: Evaluating Natural Language Specifications for LLM-Based C-to-Rust Translation",
+      "url": "https://arxiv.org/abs/2611.17581",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2611.17581v1 Announce Type: new Abstract: Large language models (LLMs) have shown promising results for C-to-Rust translation, yet existing approaches primarily rely on source code as input, leaving natural-language specifications of program behavior underexplored as an alt",
+      "whyItMatters": "Touches llm, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-ytqebk",
+      "title": "HerAgent: A Block-Level Checkpointing Harness for Coding-Agent Environment Setup",
+      "url": "https://arxiv.org/abs/2611.18443",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.18443v1 Announce Type: new Abstract: Modern coding agents rely on establishing executable software environments before they can perform software engineering tasks such as testing, debugging, and patch validation. Existing setup agents typically control progress at eith",
+      "whyItMatters": "Touches software engineering, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.9,
+      "tags": [
+        "software engineering",
+        "debugging"
+      ]
+    },
+    {
+      "id": "sig-ytqeef",
+      "title": "Evaluating Feedback-Driven Black-Box Processes via Stochastic Modeling and Simulation",
+      "url": "https://arxiv.org/abs/2611.18477",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.18477v1 Announce Type: new Abstract: We study feedback-driven black-box processes across software engineering and machine learning. These processes are inherently sequential: policies generate inputs, observe outputs/feedback from systems, and use the feedback to guide",
+      "whyItMatters": "Touches machine learning, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.9,
+      "tags": [
+        "machine learning",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-ytpqp1",
+      "title": "DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing",
+      "url": "https://arxiv.org/abs/2611.17908",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "systems",
+      "summary": "arXiv:2611.17908v1 Announce Type: new Abstract: Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential. Traditional codecs offer inadequate rate-distortion performance, motivating the exploration of diffusion codecs. Diffusion co",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.9,
+      "tags": [
+        "storage",
+        "performance"
       ]
     },
     {
@@ -43,11 +106,26 @@
       "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
       "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-15T18:43:44.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-14qrez2",
+      "title": "TE Connectivity at OCP Summit 2026 The Interview",
+      "url": "https://www.servethehome.com/te-connectivity-at-ocp-summit-2026-the-interview/",
+      "source": "ServeTheHome",
+      "category": "career",
+      "summary": "Brian Payne joins us for an interview on 800V DC power, 488G SerDes, copper and optical connectivity and more from OCP Summit 2026 The post TE Connectivity at OCP Summit 2026 The Interview appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-16T07:00:21.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.5,
+      "tags": [
+        "ocp"
       ]
     },
     {
@@ -59,8 +137,8 @@
       "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
       "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-15T04:02:45.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.2,
       "tags": [
         "claude",
         "javascript"
@@ -75,8 +153,8 @@
       "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T23:59:28.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7.1,
       "tags": [
         "openai",
         "llm"
@@ -91,8 +169,8 @@
       "summary": "With its new Zen 6 \"Venice\" silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedde",
       "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
       "publishedAt": "2026-11-14T19:00:44.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 7,
       "tags": [
         "embedded",
         "performance"
@@ -104,10 +182,10 @@
       "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 1167",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 1856",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T14:32:15Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
       "score": 7,
       "tags": [
         "ai",
@@ -124,7 +202,7 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
       "score": 7,
       "tags": [
         "ai",
@@ -141,7 +219,7 @@
       "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
       "score": 7,
       "tags": [
         "ai",
@@ -155,10 +233,10 @@
       "url": "https://github.com/FrigadeHQ/yogurt",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1651",
+      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1718",
       "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-10T20:01:01Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
       "score": 7,
       "tags": [
         "ai",
@@ -172,14 +250,91 @@
       "url": "https://github.com/duwqijlk/muse-protocol",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 1030",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现） · ★ 1212",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T01:24:58Z",
-      "fetchedAt": "2026-11-16T01:05:04.032Z",
-      "score": 6.7,
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 6.5,
       "tags": [
         "ai",
         "python"
+      ]
+    },
+    {
+      "id": "sig-ytplqa",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity interven",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-ytpmpy",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbal",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-ytpncv",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.17515v1 Announce Type: new Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcript",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 6.4,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-ytpnem",
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2611.17532v1 Announce Type: new Abstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the \"conductors\" of the \"orchestra\" that is ",
+      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "fetchedAt": "2026-11-16T07:52:34.356Z",
+      "score": 6.4,
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-fckbo5",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 488 # Comments: 216",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-15T01:18:36.000Z",
+      "fetchedAt": "2026-11-16T01:05:04.032Z",
+      "score": 9.8,
+      "tags": [
+        "micron",
+        "ai",
+        "dram"
       ]
     },
     {
@@ -1886,145 +2041,6 @@
       "score": 6.3,
       "tags": [
         "llm"
-      ]
-    },
-    {
-      "id": "sig-nla7xb",
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "594 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-07T20:45:32Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 8.2,
-      "tags": [
-        "claude code",
-        "claude",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1aemlr1",
-      "title": "OpenAI raises $11B at a $1.25T valuation",
-      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/ Comments URL: https://news.ycombinator.com/item?id=50413822 Points: 181 # Comments: 202",
-      "whyItMatters": "Touches openai, investing — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T14:49:23.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 7.7,
-      "tags": [
-        "openai",
-        "investing"
-      ]
-    },
-    {
-      "id": "sig-1yscpln",
-      "title": "Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server",
-      "url": "https://www.servethehome.com/dell-poweredge-r770ap-review-one-fast-intel-xeon-6-server/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "Today we are taking a look at Dell's PowerEdge R770AP. The 2U server goes all-in on performance with a dual-socket Xeon 6 setup and 24 channels of DDR5 memory The post Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server appeared first on ServeTheHome .",
-      "whyItMatters": "Touches performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T23:00:11.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-5qjy5p",
-      "title": "parse_number() as a SQLite extension: C vs Rust",
-      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that co",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-08T22:26:00.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1lu99zr",
-      "title": "Dell and CrowdStrike Bundle Falcon Guardian, Cloud Security, and Next-Gen SIEM Into the Dell AI Factory With NVIDIA",
-      "url": "https://www.storagereview.com/news/dell-crowdstrike-falcon-guardian-openshell-dell-ai-factory-nvidia-security",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Dell Technologies and CrowdStrike have announced an integrated security offering for the Dell AI Factory with NVIDIA that puts three CrowdStrike Falcon products on the same order as the servers. Through Dell’s AI Ecosystem Program, customers can buy Dell AI infrastructure and Cro",
-      "whyItMatters": "Touches ai, security — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-06T16:23:55.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-zswpdz",
-      "title": "How I Fight AI Brain Fry",
-      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "165 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-08T19:37:42Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-gc9jkk",
-      "title": "Smartbird Adds Supermicro DCBBS Racks to Its Managed Single-Tenant AI Clusters, Two Weeks After WEKA",
-      "url": "https://www.storagereview.com/news/smartbird-supermicro-dcbbs-managed-single-tenant-ai-clusters",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Smartbird, the managed AI infrastructure company that launched in June and trades on Nasdaq as BIRD, has added Supermicro to its partner network. The two will deliver dedicated, single-tenant AI clusters built from Supermicro’s Data Center Building Block Solutions and rack-scale ",
-      "whyItMatters": "Touches ai — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T19:07:39.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1kio9g8",
-      "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
-      "url": "https://kevinboone.me/cpmzork.html",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "30 points on Hacker News",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T18:33:50Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.3,
-      "tags": [
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1nez30a",
-      "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
-      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
-      "source": "Hacker News Best",
-      "category": "systems",
-      "summary": "Article URL: https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/ Comments URL: https://news.ycombinator.com/item?id=50415172 Points: 216 # Comments: 102",
-      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-08T17:20:29.000Z",
-      "fetchedAt": "2026-11-09T03:01:37.867Z",
-      "score": 6.2,
-      "tags": [
-        "linux"
       ]
     }
   ]
