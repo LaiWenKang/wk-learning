@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-17T01:53:28.815Z",
+  "generatedAt": "2026-11-17T10:29:57.206Z",
   "signals": [
+    {
+      "id": "sig-ytr9gl",
+      "title": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
+      "url": "https://arxiv.org/abs/2611.19861",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "language model"
+      ]
+    },
     {
       "id": "sig-tzu8xc",
       "title": "Cornelis CN6000 Doubles Omni-Path to 800G With a PCIe 6.0 SuperNIC and 48-Port Switch",
@@ -10,7 +26,7 @@
       "summary": "Cornelis has announced the CN6000 family, an 800G networking platform for AI and high-performance computing (HPC) clusters that doubles the bandwidth of the company’s CN5000 generation. The family has three parts: an Omni-Path SuperNIC, a 48-port Omni-Path switch, and an Ethernet",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-16T15:43:20.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -27,12 +43,127 @@
       "summary": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with up to 32 NVMe drives and a 1U air-cooled platform with up to 20. The",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-16T15:40:37.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
       "score": 10,
       "tags": [
         "nvme",
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-win0sz",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 17",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; ran",
+      "whyItMatters": "Touches ai, semiconductor, embedded — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-17T08:01:08.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 8.9,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-ytqf8h",
+      "title": "Towards Sustainable Large Language Model Inference: A Systematic Literature Review",
+      "url": "https://arxiv.org/abs/2611.18570",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.18570v1 Announce Type: new Abstract: Large language model (LLM) inference is becoming a significant contributor to both operational cost and environmental impact in modern AI deployments. Energy consumption during inference depends on multiple factors across the pipeli",
+      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 8.8,
+      "tags": [
+        "ai",
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytr4g8",
+      "title": "Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic",
+      "url": "https://arxiv.org/abs/2611.19279",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.19279v1 Announce Type: new Abstract: Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage",
+      "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 8.8,
+      "tags": [
+        "llm",
+        "language model",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-ytqifa",
+      "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
+      "url": "https://arxiv.org/abs/2611.18908",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.18908v1 Announce Type: new Abstract: Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature extensively documents",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-ytr2ql",
+      "title": "Large Language Models for AI Infrastructure",
+      "url": "https://arxiv.org/abs/2611.19061",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.19061v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to design, optimize, and operate the infrastructure behind AI training and serving, yet the literature remains fragmented across hardware design, machine learning systems, electroni",
+      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "sig-ytqing",
+      "title": "NEMESIS2.0: LLM-Aided Netlist-Driven Performance Equation Modeling for Accelerated Analog Circuit Sizing",
+      "url": "https://arxiv.org/abs/2611.18995",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.18995v1 Announce Type: new Abstract: This work presents NEMESIS2.0, an open-source LLM-aided framework that automatically derives equation-based performance models for analog circuits. The resulting equations provide fast, accurate surrogates for SPICE evaluation. To v",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-ytr8ip",
+      "title": "MIAO: Microscaling Intermediate Accumulation Optimization",
+      "url": "https://arxiv.org/abs/2611.19722",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.19722v1 Announce Type: new Abstract: Microscaling (MX) quantization enables lower-precision large language model (LLM) inference with limited accuracy degradation, reducing memory requirement and multiplication cost. However, despite reduced operand precision, accumula",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.8,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -44,8 +175,8 @@
       "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T23:52:56.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.7,
       "tags": [
         "llm",
         "language model"
@@ -60,8 +191,8 @@
       "summary": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory (ORNL), has debuted at No. 14 on the TOP500 list with 220.79 petaflops of measured HPL performance. HPE says the system, which was designed for AI training and inference, placed ahead",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T19:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "performance"
@@ -76,8 +207,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T14:20:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "storage"
@@ -92,122 +223,11 @@
       "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T08:01:17.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ytpluo",
-      "title": "ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects",
-      "url": "https://arxiv.org/abs/2611.17381",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.17381v1 Announce Type: new Abstract: AI-assisted development environments turn natural-language requests into working applications, yet the projects they produce often fail on their first deployment for operational reasons: credentials in source files, missing security",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-ytpnj6",
-      "title": "Beyond Source Code: Evaluating Natural Language Specifications for LLM-Based C-to-Rust Translation",
-      "url": "https://arxiv.org/abs/2611.17581",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.17581v1 Announce Type: new Abstract: Large language models (LLMs) have shown promising results for C-to-Rust translation, yet existing approaches primarily rely on source code as input, leaving natural-language specifications of program behavior underexplored as an alt",
-      "whyItMatters": "Touches llm, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-ytqebk",
-      "title": "HerAgent: A Block-Level Checkpointing Harness for Coding-Agent Environment Setup",
-      "url": "https://arxiv.org/abs/2611.18443",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.18443v1 Announce Type: new Abstract: Modern coding agents rely on establishing executable software environments before they can perform software engineering tasks such as testing, debugging, and patch validation. Existing setup agents typically control progress at eith",
-      "whyItMatters": "Touches software engineering, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.4,
-      "tags": [
-        "software engineering",
-        "debugging"
-      ]
-    },
-    {
-      "id": "sig-ytqeef",
-      "title": "Evaluating Feedback-Driven Black-Box Processes via Stochastic Modeling and Simulation",
-      "url": "https://arxiv.org/abs/2611.18477",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.18477v1 Announce Type: new Abstract: We study feedback-driven black-box processes across software engineering and machine learning. These processes are inherently sequential: policies generate inputs, observe outputs/feedback from systems, and use the feedback to guide",
-      "whyItMatters": "Touches machine learning, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.4,
-      "tags": [
-        "machine learning",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-ytpqp1",
-      "title": "DiffusionSSD: Achieving Extreme Visual Compression with Dual-stage Diffusion and Cross-level Near-Data Processing",
-      "url": "https://arxiv.org/abs/2611.17908",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "systems",
-      "summary": "arXiv:2611.17908v1 Announce Type: new Abstract: Growing visual data overwhelms storage on resource-constrained edge devices, making compression essential. Traditional codecs offer inadequate rate-distortion performance, motivating the exploration of diffusion codecs. Diffusion co",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.4,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-jbbbi2",
-      "title": "Corsair FlexPrime V20C Review: A 24-Core Linux Workstation Built Around a 32GB Arc Pro B70",
-      "url": "https://www.storagereview.com/review/corsair-flexprime-v20c-review",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
-      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-15T18:43:44.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-14qrez2",
-      "title": "TE Connectivity at OCP Summit 2026 The Interview",
-      "url": "https://www.servethehome.com/te-connectivity-at-ocp-summit-2026-the-interview/",
-      "source": "ServeTheHome",
-      "category": "career",
-      "summary": "Brian Payne joins us for an interview on 800V DC power, 488G SerDes, copper and optical connectivity and more from OCP Summit 2026 The post TE Connectivity at OCP Summit 2026 The Interview appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-11-16T07:00:21.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 7,
-      "tags": [
-        "ocp"
       ]
     },
     {
@@ -216,10 +236,10 @@
       "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2213",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2364",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T14:32:15Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
       "score": 7,
       "tags": [
         "ai",
@@ -236,12 +256,43 @@
       "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
       "score": 7,
       "tags": [
         "ai",
         "semiconductor",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-jbbbi2",
+      "title": "Corsair FlexPrime V20C Review: A 24-Core Linux Workstation Built Around a 32GB Arc Pro B70",
+      "url": "https://www.storagereview.com/review/corsair-flexprime-v20c-review",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
+      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-15T18:43:44.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-14qrez2",
+      "title": "TE Connectivity at OCP Summit 2026 The Interview",
+      "url": "https://www.servethehome.com/te-connectivity-at-ocp-summit-2026-the-interview/",
+      "source": "ServeTheHome",
+      "category": "career",
+      "summary": "Brian Payne joins us for an interview on 800V DC power, 488G SerDes, copper and optical connectivity and more from OCP Summit 2026 The post TE Connectivity at OCP Summit 2026 The Interview appeared first on ServeTheHome .",
+      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
+      "publishedAt": "2026-11-16T07:00:21.000Z",
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 6.7,
+      "tags": [
+        "ocp"
       ]
     },
     {
@@ -253,8 +304,8 @@
       "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
       "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-15T04:02:45.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 6.7,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 6.5,
       "tags": [
         "claude",
         "javascript"
@@ -269,57 +320,11 @@
       "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
       "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-14T23:59:28.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 6.6,
+      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "score": 6.4,
       "tags": [
         "openai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-fi7ukj",
-      "title": "AMD Launches EPYC Embedded 9006: Venice Gets an Early Start in Embedded",
-      "url": "https://www.servethehome.com/amd-launches-epyc-embedded-9006-venice-gets-an-early-start-in-embedded/",
-      "source": "ServeTheHome",
-      "category": "firmware",
-      "summary": "With its new Zen 6 \"Venice\" silicon in hand, AMD has launched its next-generation EPYC Embedded 9006 platform for the embedded market, aiming to bring the performance benefits of the new platform to the long term stability-focused market segment The post AMD Launches EPYC Embedde",
-      "whyItMatters": "Touches embedded, performance — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-11-14T19:00:44.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 6.5,
-      "tags": [
-        "embedded",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1o4s0og",
-      "title": "llm 0.37.3",
-      "url": "https://simonwillison.net/2026/Nov/16/llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: ",
-      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T23:57:26.000Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 6.4,
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-1hx7zqi",
-      "title": "How to Break into Security, Ptacek Edition (2012)",
-      "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "73 points on Hacker News",
-      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T22:19:23Z",
-      "fetchedAt": "2026-11-17T01:53:28.815Z",
-      "score": 6.4,
-      "tags": [
-        "security"
       ]
     }
   ]
