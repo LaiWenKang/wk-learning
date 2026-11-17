@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T10:29:57.206Z",
+  "generatedAt": "2026-11-17T19:17:27.177Z",
   "signals": [
     {
       "id": "sig-ytr9gl",
@@ -10,7 +10,7 @@
       "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
       "score": 10,
       "tags": [
         "nand",
@@ -26,8 +26,8 @@
       "summary": "Cornelis has announced the CN6000 family, an 800G networking platform for AI and high-performance computing (HPC) clusters that doubles the bandwidth of the company’s CN5000 generation. The family has three parts: an Omni-Path SuperNIC, a 48-port Omni-Path switch, and an Ethernet",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-16T15:43:20.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 10,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 9.7,
       "tags": [
         "pcie",
         "ai",
@@ -43,8 +43,8 @@
       "summary": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with up to 32 NVMe drives and a 1U air-cooled platform with up to 20. The",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-16T15:40:37.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 10,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 9.7,
       "tags": [
         "nvme",
         "ai",
@@ -60,8 +60,8 @@
       "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; ran",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-17T08:01:08.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 8.9,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -77,8 +77,8 @@
       "summary": "arXiv:2611.18570v1 Announce Type: new Abstract: Large language model (LLM) inference is becoming a significant contributor to both operational cost and environmental impact in modern AI deployments. Energy consumption during inference depends on multiple factors across the pipeli",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 8.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 8.6,
       "tags": [
         "ai",
         "llm",
@@ -94,12 +94,61 @@
       "summary": "arXiv:2611.19279v1 Announce Type: new Abstract: Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage",
       "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 8.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 8.6,
       "tags": [
         "llm",
         "language model",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 832",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 8.1,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-rto9zg",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T18:29:29.000Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1v9z21x",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "195 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T10:20:40Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.8,
+      "tags": [
+        "claude code",
+        "claude"
       ]
     },
     {
@@ -111,8 +160,8 @@
       "summary": "arXiv:2611.18908v1 Announce Type: new Abstract: Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature extensively documents",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -127,8 +176,8 @@
       "summary": "arXiv:2611.19061v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to design, optimize, and operate the infrastructure behind AI training and serving, yet the literature remains fragmented across hardware design, machine learning systems, electroni",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "machine learning"
@@ -143,8 +192,8 @@
       "summary": "arXiv:2611.18995v1 Announce Type: new Abstract: This work presents NEMESIS2.0, an open-source LLM-aided framework that automatically derives equation-based performance models for analog circuits. The resulting equations provide fast, accurate surrogates for SPICE evaluation. To v",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "performance"
@@ -159,8 +208,8 @@
       "summary": "arXiv:2611.19722v1 Announce Type: new Abstract: Microscaling (MX) quantization enables lower-precision large language model (LLM) inference with limited accuracy degradation, reducing memory requirement and multiplication cost. However, despite reduced operand precision, accumula",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "language model"
@@ -175,8 +224,8 @@
       "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T23:52:56.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -191,11 +240,27 @@
       "summary": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory (ORNL), has debuted at No. 14 on the TOP500 list with 220.79 petaflops of measured HPL performance. HPE says the system, which was designed for AI training and inference, placed ahead",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T19:00:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "performance"
+      ]
+    },
+    {
+      "id": "sig-7rkd3a",
+      "title": "sybil-solutions/inference-optimisation-skill (Python) — trending new repo",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 797",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.3,
+      "tags": [
+        "llm",
+        "python"
       ]
     },
     {
@@ -207,8 +272,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T14:20:00.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "storage"
@@ -223,108 +288,41 @@
       "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T08:01:17.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor"
       ]
     },
     {
-      "id": "sig-syhlha",
-      "title": "hitkeeen/blender-ai-mcp-addon — trending new repo",
-      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "source": "GitHub trending new repos (search API)",
+      "id": "sig-18gan9x",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "source": "Hacker News Best",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2364",
-      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T14:32:15Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-1uuw4ok",
-      "title": "Rethinking Memory For AI Inference",
-      "url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain. The post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:11:46.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-jbbbi2",
-      "title": "Corsair FlexPrime V20C Review: A 24-Core Linux Workstation Built Around a 32GB Arc Pro B70",
-      "url": "https://www.storagereview.com/review/corsair-flexprime-v20c-review",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Corsair FlexPrime V20C is a micro-ATX tower workstation built for local AI work, pairing a 24-core Intel Core Ultra 7 270K Plus with an Intel Arc Pro B70 and its 32GB of dedicated graphics memory. It ships with Ubuntu 24.04 LTS, a 360mm liquid CPU cooler, and an 850W power su",
-      "whyItMatters": "Touches ai, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-15T18:43:44.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 694 # Comments: 569",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-11-16T22:58:20.000Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
       "score": 6.9,
       "tags": [
-        "ai",
-        "linux"
+        "telemetry"
       ]
     },
     {
-      "id": "sig-14qrez2",
-      "title": "TE Connectivity at OCP Summit 2026 The Interview",
-      "url": "https://www.servethehome.com/te-connectivity-at-ocp-summit-2026-the-interview/",
-      "source": "ServeTheHome",
-      "category": "career",
-      "summary": "Brian Payne joins us for an interview on 800V DC power, 488G SerDes, copper and optical connectivity and more from OCP Summit 2026 The post TE Connectivity at OCP Summit 2026 The Interview appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-11-16T07:00:21.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 6.7,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-1cc3hze",
-      "title": "datasette-apps 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-      "source": "Simon Willison's Weblog",
+      "id": "sig-iox5sf",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "source": "GitHub Blog",
       "category": "ai",
-      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL",
-      "whyItMatters": "Touches claude, javascript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-15T04:02:45.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
+      "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T18:20:40.000Z",
+      "fetchedAt": "2026-11-17T19:17:27.177Z",
       "score": 6.5,
       "tags": [
-        "claude",
-        "javascript"
-      ]
-    },
-    {
-      "id": "sig-udcjiy",
-      "title": "datasette-llm 0.1a11",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-14T23:59:28.000Z",
-      "fetchedAt": "2026-11-17T10:29:57.206Z",
-      "score": 6.4,
-      "tags": [
-        "openai",
-        "llm"
+        "github"
       ]
     }
   ]
