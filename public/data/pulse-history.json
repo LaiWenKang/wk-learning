@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-11-18T01:37:56.533Z",
+  "updatedAt": "2026-11-18T09:13:27.001Z",
   "signals": [
     {
-      "id": "sig-ytr9gl",
-      "title": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
-      "url": "https://arxiv.org/abs/2611.19861",
-      "source": "arXiv cs.AR (hardware architecture)",
+      "id": "sig-tdxqlp",
+      "title": "Blog Review: Nov. 18",
+      "url": "https://semiengineering.com/blog-review-nov-18-3/",
+      "source": "Semiconductor Engineering",
       "category": "ai",
-      "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 9.9,
+      "summary": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends. The post Blog Review: Nov. 18 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-18T08:01:49.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 10,
       "tags": [
-        "nand",
-        "language model"
+        "pcie",
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -26,8 +27,8 @@
       "summary": "Cornelis has announced the CN6000 family, an 800G networking platform for AI and high-performance computing (HPC) clusters that doubles the bandwidth of the company’s CN5000 generation. The family has three parts: an Omni-Path SuperNIC, a 48-port Omni-Path switch, and an Ethernet",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-16T15:43:20.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 9.6,
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 9.3,
       "tags": [
         "pcie",
         "ai",
@@ -43,8 +44,8 @@
       "summary": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with up to 32 NVMe drives and a 1U air-cooled platform with up to 20. The",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-16T15:40:37.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 9.6,
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 9.3,
       "tags": [
         "nvme",
         "ai",
@@ -60,12 +61,281 @@
       "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; ran",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-17T08:01:08.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 8.3,
       "tags": [
         "ai",
         "semiconductor",
         "embedded"
+      ]
+    },
+    {
+      "id": "sig-1ceem59",
+      "title": "Can AI Agents Really Shift Chip Design Left?",
+      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-18T08:01:53.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 8,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-yuah1f",
+      "title": "Chimera: A Configurable LLM Decode Accelerator Architecture with Compute-Memory-Floorplan Co-Design for HBM-Equipped Multi-Die FPGAs",
+      "url": "https://arxiv.org/abs/2611.21677",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.21677v1 Announce Type: new Abstract: GPUs are widely used for LLM inference, but single-request decoding is memory-bound, leaving their compute underutilized while they draw substantial power. HBM-equipped FPGAs are well suited to LLM decoding: their customizable datap",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "hbm"
+      ]
+    },
+    {
+      "id": "sig-yuah1h",
+      "title": "FCP: Formal Context Protocol for Verifying LLM-Generated Artifacts",
+      "url": "https://arxiv.org/abs/2611.21679",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.21679v1 Announce Type: new Abstract: When a language model writes both an artifact and the tests meant to check it, a passing test is weak evidence: one misreading of the request yields a faulty artifact and a check that accepts it. We present the Formal Context Protoc",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1y1ht09",
+      "title": "GoGoGrandparent (YC S16) Is a Front End JavaScript / TypeScript Engineer",
+      "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/05woouL-front-end-javascript-typescript-engineer",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "whyItMatters": "Touches typescript, javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-18T03:35:47Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.8,
+      "tags": [
+        "typescript",
+        "javascript"
+      ]
+    },
+    {
+      "id": "sig-mwil9e",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.7,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-wl1ggp",
+      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.7,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 2119",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.7,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-rto9zg",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T18:29:29.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-yuagwn",
+      "title": "From AIOps Pipelines to Agentic Service Operations: A Survey of Capability, Authority, and Evidence",
+      "url": "https://arxiv.org/abs/2611.21620",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2611.21620v1 Announce Type: new Abstract: Modern service systems combine rapidly changing dependencies, heterogeneous telemetry, and operational actions whose side effects may amplify an incident. Conventional AIOps research has produced effective detectors, localizers, and",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.4,
+      "tags": [
+        "telemetry"
+      ]
+    },
+    {
+      "id": "sig-y0l2zk",
+      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+      "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T23:52:56.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 7.1,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-1a3607r",
+      "title": "HPE Lux AI Cluster Debuts at No. 14 on the TOP500 With 220.79 Petaflops on AMD Instinct MI355X GPUs",
+      "url": "https://www.storagereview.com/news/hpe-lux-ai-cluster-top500-no-14-220-79-petaflops-ornl-genesis-mission",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory (ORNL), has debuted at No. 14 on the TOP500 list with 220.79 petaflops of measured HPL performance. HPE says the system, which was designed for AI training and inference, placed ahead",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T19:00:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.9,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-7rkd3a",
+      "title": "sybil-solutions/inference-optimisation-skill (Python) — trending new repo",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 999",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.9,
+      "tags": [
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-ol7o3p",
+      "title": "Dell AI Factory news blast headlined by liquid-cooled storage",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/16/dell-ai-factory-news-blast-headlined-by-liquid-cooled-storage/5310114",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T14:20:00.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.8,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-vfoqfd",
+      "title": "Are AI Agents The New Semiconductor IP?",
+      "url": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T08:01:17.000Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-qc0vmv",
+      "title": "Talos Linux",
+      "url": "https://www.siderolabs.com/talos-linux",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "8 points on Hacker News",
+      "whyItMatters": "Touches linux — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-18T08:17:44Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.5,
+      "tags": [
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-dtupss",
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "265 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-18T06:47:26Z",
+      "fetchedAt": "2026-11-18T09:13:27.001Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-ytr9gl",
+      "title": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
+      "url": "https://arxiv.org/abs/2611.19861",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 9.9,
+      "tags": [
+        "nand",
+        "language model"
       ]
     },
     {
@@ -100,71 +370,6 @@
         "llm",
         "language model",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 1382",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 8,
-      "tags": [
-        "python",
-        "typescript",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-mwil9e",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T22:38:52.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.9,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-wl1ggp",
-      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-17T21:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.9,
-      "tags": [
-        "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-rto9zg",
-      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
-      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T18:29:29.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "github"
       ]
     },
     {
@@ -248,70 +453,6 @@
       ]
     },
     {
-      "id": "sig-y0l2zk",
-      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
-      "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T23:52:56.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-1a3607r",
-      "title": "HPE Lux AI Cluster Debuts at No. 14 on the TOP500 With 220.79 Petaflops on AMD Instinct MI355X GPUs",
-      "url": "https://www.storagereview.com/news/hpe-lux-ai-cluster-top500-no-14-220-79-petaflops-ornl-genesis-mission",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory (ORNL), has debuted at No. 14 on the TOP500 list with 220.79 petaflops of measured HPL performance. HPE says the system, which was designed for AI training and inference, placed ahead",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T19:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-7rkd3a",
-      "title": "sybil-solutions/inference-optimisation-skill (Python) — trending new repo",
-      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 932",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T18:40:04Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.1,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-ol7o3p",
-      "title": "Dell AI Factory news blast headlined by liquid-cooled storage",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/16/dell-ai-factory-news-blast-headlined-by-liquid-cooled-storage/5310114",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T14:20:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
       "id": "sig-18gan9x",
       "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
@@ -324,22 +465,6 @@
       "score": 6.8,
       "tags": [
         "telemetry"
-      ]
-    },
-    {
-      "id": "sig-vfoqfd",
-      "title": "Are AI Agents The New Semiconductor IP?",
-      "url": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging. The post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T08:01:17.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -1895,39 +2020,6 @@
       "tags": [
         "samsung electronics",
         "ai"
-      ]
-    },
-    {
-      "id": "sig-nev1gz",
-      "title": "The Optical Superhighway For AI",
-      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds. The post The Optical Superhighway For AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T08:01:28.000Z",
-      "fetchedAt": "2026-11-11T05:53:45.514Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-1pqp2pm",
-      "title": "Overcoming Silicon Photonics Process Control Challenges in the AI Era",
-      "url": "https://semiengineering.com/overcoming-silicon-photonics-process-control-challenges-in-the-ai-era/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "How connected inspection, metrology and software can help manufacturers move SiPh and CPO toward high-volume production. The post Overcoming Silicon Photonics Process Control Challenges in the AI Era appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T08:01:10.000Z",
-      "fetchedAt": "2026-11-11T05:53:45.514Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     }
   ]
