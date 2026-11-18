@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:17:27.177Z",
+  "updatedAt": "2026-11-18T01:37:56.533Z",
   "signals": [
     {
       "id": "sig-ytr9gl",
@@ -10,8 +10,8 @@
       "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 10,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 9.9,
       "tags": [
         "nand",
         "language model"
@@ -26,8 +26,8 @@
       "summary": "Cornelis has announced the CN6000 family, an 800G networking platform for AI and high-performance computing (HPC) clusters that doubles the bandwidth of the company’s CN5000 generation. The family has three parts: an Omni-Path SuperNIC, a 48-port Omni-Path switch, and an Ethernet",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-16T15:43:20.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 9.7,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 9.6,
       "tags": [
         "pcie",
         "ai",
@@ -43,8 +43,8 @@
       "summary": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with up to 32 NVMe drives and a 1U air-cooled platform with up to 20. The",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-16T15:40:37.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 9.7,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 9.6,
       "tags": [
         "nvme",
         "ai",
@@ -60,8 +60,8 @@
       "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; ran",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-17T08:01:08.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 8.7,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "semiconductor",
@@ -77,8 +77,8 @@
       "summary": "arXiv:2611.18570v1 Announce Type: new Abstract: Large language model (LLM) inference is becoming a significant contributor to both operational cost and environmental impact in modern AI deployments. Energy consumption during inference depends on multiple factors across the pipeli",
       "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 8.4,
       "tags": [
         "ai",
         "llm",
@@ -94,8 +94,8 @@
       "summary": "arXiv:2611.19279v1 Announce Type: new Abstract: Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage",
       "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 8.4,
       "tags": [
         "llm",
         "language model",
@@ -108,15 +108,47 @@
       "url": "https://github.com/erkamyaman/rust-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 832",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 1382",
       "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 8,
       "tags": [
         "python",
         "typescript",
         "rust"
+      ]
+    },
+    {
+      "id": "sig-mwil9e",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.9,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-wl1ggp",
+      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.9,
+      "tags": [
+        "storage",
+        "performance"
       ]
     },
     {
@@ -128,8 +160,8 @@
       "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
       "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T18:29:29.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 8,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "github"
@@ -141,11 +173,11 @@
       "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "195 points on Hacker News",
+      "summary": "262 points on Hacker News",
       "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T10:20:40Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.6,
       "tags": [
         "claude code",
         "claude"
@@ -160,8 +192,8 @@
       "summary": "arXiv:2611.18908v1 Announce Type: new Abstract: Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature extensively documents",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -176,8 +208,8 @@
       "summary": "arXiv:2611.19061v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to design, optimize, and operate the infrastructure behind AI training and serving, yet the literature remains fragmented across hardware design, machine learning systems, electroni",
       "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.4,
       "tags": [
         "ai",
         "machine learning"
@@ -192,8 +224,8 @@
       "summary": "arXiv:2611.18995v1 Announce Type: new Abstract: This work presents NEMESIS2.0, an open-source LLM-aided framework that automatically derives equation-based performance models for analog circuits. The resulting equations provide fast, accurate surrogates for SPICE evaluation. To v",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "performance"
@@ -208,8 +240,8 @@
       "summary": "arXiv:2611.19722v1 Announce Type: new Abstract: Microscaling (MX) quantization enables lower-precision large language model (LLM) inference with limited accuracy degradation, reducing memory requirement and multiplication cost. However, despite reduced operand precision, accumula",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.4,
       "tags": [
         "llm",
         "language model"
@@ -224,8 +256,8 @@
       "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and ",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T23:52:56.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "language model"
@@ -240,8 +272,8 @@
       "summary": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory (ORNL), has debuted at No. 14 on the TOP500 list with 220.79 petaflops of measured HPL performance. HPE says the system, which was designed for AI training and inference, placed ahead",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T19:00:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "performance"
@@ -253,11 +285,11 @@
       "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 797",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 932",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T18:40:04Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7.1,
       "tags": [
         "llm",
         "python"
@@ -272,11 +304,26 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-16T14:20:00.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 7,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-18gan9x",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 710 # Comments: 591",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-11-16T22:58:20.000Z",
+      "fetchedAt": "2026-11-18T01:37:56.533Z",
+      "score": 6.8,
+      "tags": [
+        "telemetry"
       ]
     },
     {
@@ -293,21 +340,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-18gan9x",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 694 # Comments: 569",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-11-16T22:58:20.000Z",
-      "fetchedAt": "2026-11-17T19:17:27.177Z",
-      "score": 6.9,
-      "tags": [
-        "telemetry"
       ]
     },
     {
@@ -1896,70 +1928,6 @@
       "tags": [
         "ai",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ytkwtz",
-      "title": "When Is High-Bandwidth Flash Cost-Effective for LLM Inference?",
-      "url": "https://arxiv.org/abs/2611.11036",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.11036v1 Announce Type: new Abstract: Can high-bandwidth flash (HBF) make LLM inference cheaper than adding GPUs? By storing weights closer to the GPU than SSD, HBF may reduce the number of GPUs needed for model capacity. However, this integration is only justified if i",
-      "whyItMatters": "Touches ssd, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-ytk54m",
-      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
-      "url": "https://arxiv.org/abs/2611.10045",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.10045v1 Announce Type: new Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked syco",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-ytk54p",
-      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
-      "url": "https://arxiv.org/abs/2611.10048",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.10048v1 Announce Type: new Abstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-sever",
-      "whyItMatters": "Touches llm, reliability — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-ytk61n",
-      "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
-      "url": "https://arxiv.org/abs/2611.10176",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.10176v1 Announce Type: new Abstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on commun",
-      "whyItMatters": "Touches llm, communication — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T23:58:23.919Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "communication"
       ]
     }
   ]
