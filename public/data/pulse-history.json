@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:26:17.393Z",
+  "updatedAt": "2026-11-19T07:48:51.393Z",
   "signals": [
     {
       "id": "sig-xheety",
@@ -10,7 +10,7 @@
       "summary": "Seagate has announced the launch of the Nytro 4350 NVMe SSD, with capacities ranging from 1.92 TB to 7.68 TB for data center and enterprise applications. The company rates the drive for sequential read speeds up to 6,800 MB/s and write speeds up to 4,000 MB/s. The announcement do",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:13:09.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -27,7 +27,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -62,7 +62,7 @@
       "summary": "The MSI EdgeMesa N AI+ is a 1.18-liter aluminum mini PC built on NVIDIA’s RTX Spark N1X, the 20-core Arm processor with a 6,144-core Blackwell RTX GPU that we had previously tested only in laptops. Our review unit carries 128GB of unified memory, a 4TB PCIe Gen5 SSD, 10GbE, and W",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:38.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -80,7 +80,7 @@
       "summary": "Solid State Storage Technology Corporation (SSSTC), a KIOXIA subsidiary, has announced the PQ2 series, its first industrial-grade QLC SSD. The drives pair a PCIe Gen4 x4 interface with KIOXIA’s BiCS FLASH generation 8 QLC and are rated at up to 7,000MB/s for sequential reads, in ",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-11-18T13:27:34.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -99,8 +99,8 @@
       "summary": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends. The post Blog Review: Nov. 18 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T08:01:49.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 10,
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 9.8,
       "tags": [
         "pcie",
         "ai",
@@ -116,11 +116,107 @@
       "summary": "QNAP has launched the ES1686Adc, a 3U, 16-bay dual-controller storage array in which every bay accepts either SAS 12Gb/s drives or dual-port U.3 NVMe SSDs. Two active-active controllers run QNAP’s ZFS-based QES operating system, and the company pitches the design as a way to fill",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T12:39:28.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 8.7,
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 8.5,
       "tags": [
         "nvme",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-yuby11",
+      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "url": "https://arxiv.org/abs/2611.23398",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime ",
+      "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-yubzhb",
+      "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+      "url": "https://arxiv.org/abs/2611.23509",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23509v1 Announce Type: new Abstract: Automated agent design searches for executable architectures that improve LLM-based agent performance, with evolutionary methods using language-model crossover to recombine promising mechanisms for task decomposition, model coordina",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-yubx22",
+      "title": "Agent-Native Applications: A New Application Paradigm",
+      "url": "https://arxiv.org/abs/2611.23243",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23243v1 Announce Type: new Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-yubx2y",
+      "title": "From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review",
+      "url": "https://arxiv.org/abs/2611.23252",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23252v1 Announce Type: new Abstract: AI-driven software-intensive embedded systems (SIES) depend on data during development and operation. Poor data quality (DQ) may weaken data trustworthiness, yet evidence about its effects and lifecycle management remains fragmented",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-yubx2z",
+      "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
+      "url": "https://arxiv.org/abs/2611.23253",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23253v1 Announce Type: new Abstract: Research software now serves as a primary instrument of science, but the methods the community uses to judge its quality, sustainability, reuse, and impact remain scattered across software engineering, open science, FAIR software, c",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-yuc26g",
+      "title": "HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic",
+      "url": "https://arxiv.org/abs/2611.23878",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.23878v1 Announce Type: new Abstract: Edge devices in vehicles and robots serve concurrent requests with different deadlines to a vision-language model (VLM), each mixing a compute-bound encoder and prefill with a memory-bound decode. GPU serving targets datacenter thro",
+      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "language model"
       ]
     },
     {
@@ -132,8 +228,8 @@
       "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; ran",
       "whyItMatters": "Touches ai, semiconductor, embedded — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-17T08:01:08.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -149,8 +245,8 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "storage"
@@ -165,11 +261,75 @@
       "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-18T08:01:53.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1rtjuyt",
+      "title": "Dell PowerMaxOS 10.5 Brings Back PowerPath With Up to 29% Higher IOPS and Adds Cyber Detect Snapshot Scans",
+      "url": "https://www.storagereview.com/news/dell-powermaxos-10-5-powerpath-cyber-detect-opentelemetry-nvme-tcp",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "Dell announced PowerMaxOS 10.5 today, a software update for the PowerMax 2500 and 8500 that returns PowerPath multipathing to the platform, adds Dell Cyber Detect scanning of PowerMax snapshots, and opens array telemetry through OpenTelemetry and faster bulk REST APIs. Dell’s hea",
+      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
+      "publishedAt": "2026-11-18T18:32:24.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.1,
+      "tags": [
+        "telemetry"
+      ]
+    },
+    {
+      "id": "sig-mwil9e",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.1,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 3867",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7.1,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-wl1ggp",
+      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "fetchedAt": "2026-11-19T07:48:51.393Z",
+      "score": 7,
+      "tags": [
+        "storage",
+        "performance"
       ]
     },
     {
@@ -202,53 +362,6 @@
       "tags": [
         "llm",
         "language model"
-      ]
-    },
-    {
-      "id": "sig-1rtjuyt",
-      "title": "Dell PowerMaxOS 10.5 Brings Back PowerPath With Up to 29% Higher IOPS and Adds Cyber Detect Snapshot Scans",
-      "url": "https://www.storagereview.com/news/dell-powermaxos-10-5-powerpath-cyber-detect-opentelemetry-nvme-tcp",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Dell announced PowerMaxOS 10.5 today, a software update for the PowerMax 2500 and 8500 that returns PowerPath multipathing to the platform, adds Dell Cyber Detect scanning of PowerMax snapshots, and opens array telemetry through OpenTelemetry and faster bulk REST APIs. Dell’s hea",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-11-18T18:32:24.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.3,
-      "tags": [
-        "telemetry"
-      ]
-    },
-    {
-      "id": "sig-mwil9e",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T22:38:52.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.3,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-wl1ggp",
-      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-17T21:00:00.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.2,
-      "tags": [
-        "storage",
-        "performance"
       ]
     },
     {
@@ -375,23 +488,6 @@
       "tags": [
         "ai",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 2975",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-18T18:08:10.533Z",
-      "score": 7.5,
-      "tags": [
-        "python",
-        "typescript",
-        "rust"
       ]
     },
     {
@@ -1980,133 +2076,6 @@
       "tags": [
         "claude",
         "anthropic"
-      ]
-    },
-    {
-      "id": "sig-eosq91",
-      "title": "Embedded ECC Protects AI Weights Against Bit-Flip Attacks (University of Florida)",
-      "url": "https://semiengineering.com/embedded-ecc-protects-ai-weights-against-bit-flip-attacks-university-of-florida/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Researchers at the University of Florida published “SANAI: Secure ECC Distributed Keyed Parity Embedded in Weights for Protecting Neural Networks against Bit-Flip Attacks.” Abstract Excerpt: “We propose SANAI, a sensitivity-guided, bit-plane-selective scheme that protects critica",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T00:42:18.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-tdschy",
-      "title": "Blog Review: Nov. 11",
-      "url": "https://semiengineering.com/blog-review-nov-11-3/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Interconnects key in AI infrastructure; floating nets; mitigating Control Flow attacks; PNT trends; SEMI Market Symposium. The post Blog Review: Nov. 11 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T08:01:21.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-ytlw8y",
-      "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design",
-      "url": "https://arxiv.org/abs/2611.12982",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.12982v1 Announce Type: new Abstract: Large language model (LLM) agents are being explored for circuit design, but their ability to produce high-quality custom layouts has not been extensively evaluated. ICLayout-Bench is a benchmark in which agents use electronic desig",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytmlcu",
-      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
-      "url": "https://arxiv.org/abs/2611.13644",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.13644v1 Announce Type: new Abstract: Large language model (LLM) inference during autoregressive decoding is fundamentally memory-bandwidth-bound. Existing three-dimensional (3D) stacked processing-in-memory (PIM) architectures alleviate the off-chip bandwidth wall, yet",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytmm8v",
-      "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling",
-      "url": "https://arxiv.org/abs/2611.13762",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.13762v1 Announce Type: new Abstract: GPUs have become essential to many fields, including AI and scientific computing. As GPUs grow more complex, the design space of their hardware configurations becomes increasingly large, yet cycle-level simulators remain too slow to",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-bp2fs9",
-      "title": "Test Struggles To Keep Pace With AI",
-      "url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Rapidly changing workloads, more test insertions, and fragmented data complicate chip testing. The post Test Struggles To Keep Pace With AI appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-10T08:07:24.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 6.8,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-12fzjiv",
-      "title": "llm-anthropic 0.31",
-      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! ",
-      "whyItMatters": "Touches anthropic, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-09T23:58:46.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 6.6,
-      "tags": [
-        "anthropic",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-2ewa2l",
-      "title": "Optimized E-Beam Evaporation Reduces Metal-Semiconductor Contact Degradation (RWTH Aachen)",
-      "url": "https://semiengineering.com/optimized-e-beam-evaporation-reduces-metal-semiconductor-contact-degradation-rwth-aachen/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Researchers at RWTH Aachen University published “Mitigating the degradation of metal–semiconductor contacts with optimized electron beam evaporation.” Abstract “An optimized electron beam evaporation (EBE) setup is presented that allows the suppression of charged particle bombard",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-11T23:00:41.000Z",
-      "fetchedAt": "2026-11-12T02:17:17.128Z",
-      "score": 6.4,
-      "tags": [
-        "semiconductor"
       ]
     }
   ]
