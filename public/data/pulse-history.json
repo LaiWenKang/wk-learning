@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-19T23:16:04.486Z",
+  "updatedAt": "2026-11-20T04:00:19.843Z",
   "signals": [
+    {
+      "id": "sig-ci3aw",
+      "title": "SC26 Roundup: Record-Low TOP500 Turnover, Supermicro Ships PCIe Gen6 Flash, and VAST Adds Job-Level QoS",
+      "url": "https://www.storagereview.com/news/sc26-roundup-top500-aic-msi-marvell-compal",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-19T23:45:51.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "gen6",
+        "storage"
+      ]
+    },
     {
       "id": "sig-nafvu3",
       "title": "Microchip Flashtec NVMe 4016 Controller Features 16 NAND Channels and Over 14 GB/s",
@@ -10,7 +27,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +46,7 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,7 +62,7 @@
       "summary": "The MSI EdgeMesa N AI+ is a 1.18-liter aluminum mini PC built on NVIDIA’s RTX Spark N1X, the 20-core Arm processor with a 6,144-core Blackwell RTX GPU that we had previously tested only in laptops. Our review unit carries 128GB of unified memory, a 4TB PCIe Gen5 SSD, 10GbE, and W",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:38.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -63,7 +80,7 @@
       "summary": "Solid State Storage Technology Corporation (SSSTC), a KIOXIA subsidiary, has announced the PQ2 series, its first industrial-grade QLC SSD. The drives pair a PCIe Gen4 x4 interface with KIOXIA’s BiCS FLASH generation 8 QLC and are rated at up to 7,000MB/s for sequential reads, in ",
       "whyItMatters": "More bits per cell = tighter margins: read-retry depth, retention/read-disturb matrices and SLC-cache behavior all get harder to validate.",
       "publishedAt": "2026-11-18T13:27:34.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -82,8 +99,8 @@
       "summary": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends. The post Blog Review: Nov. 18 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T08:01:49.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 9.4,
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 9.3,
       "tags": [
         "pcie",
         "ai",
@@ -99,8 +116,8 @@
       "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 8.4,
       "tags": [
         "machine learning",
         "semiconductor",
@@ -113,11 +130,11 @@
       "url": "https://github.com/Bodila51/gtavi-claudecode",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits. · ★ 830",
+      "summary": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits. · ★ 954",
       "whyItMatters": "Touches claude code, claude, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-18T17:54:29Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 8.2,
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 8.1,
       "tags": [
         "claude code",
         "claude",
@@ -133,11 +150,188 @@
       "summary": "QNAP has launched the ES1686Adc, a 3U, 16-bay dual-controller storage array in which every bay accepts either SAS 12Gb/s drives or dual-port U.3 NVMe SSDs. Two active-active controllers run QNAP’s ZFS-based QES operating system, and the company pitches the design as a way to fill",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T12:39:28.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 8,
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.9,
       "tags": [
         "nvme",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-15mswdl",
+      "title": "AI Accelerators Drive Changes In Power Delivery Networks",
+      "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T08:05:17.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-neyfp",
+      "title": "Can AI Make Its Own Manufacturing Decisions?",
+      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T08:01:02.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-yuby11",
+      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "url": "https://arxiv.org/abs/2611.23398",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "systems",
+      "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime ",
+      "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "reliability"
+      ]
+    },
+    {
+      "id": "sig-yubzhb",
+      "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+      "url": "https://arxiv.org/abs/2611.23509",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23509v1 Announce Type: new Abstract: Automated agent design searches for executable architectures that improve LLM-based agent performance, with evolutionary methods using language-model crossover to recombine promising mechanisms for task decomposition, model coordina",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-yubx22",
+      "title": "Agent-Native Applications: A New Application Paradigm",
+      "url": "https://arxiv.org/abs/2611.23243",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23243v1 Announce Type: new Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by ",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-yubx2y",
+      "title": "From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review",
+      "url": "https://arxiv.org/abs/2611.23252",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23252v1 Announce Type: new Abstract: AI-driven software-intensive embedded systems (SIES) depend on data during development and operation. Poor data quality (DQ) may weaken data trustworthiness, yet evidence about its effects and lifecycle management remains fragmented",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-yubx2z",
+      "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
+      "url": "https://arxiv.org/abs/2611.23253",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.23253v1 Announce Type: new Abstract: Research software now serves as a primary instrument of science, but the methods the community uses to judge its quality, sustainability, reuse, and impact remain scattered across software engineering, open science, FAIR software, c",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-yuc26g",
+      "title": "HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic",
+      "url": "https://arxiv.org/abs/2611.23878",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.23878v1 Announce Type: new Abstract: Edge devices in vehicles and robots serve concurrent requests with different deadlines to a vision-language model (VLM), each mixing a compute-bound encoder and prefill with a memory-bound decode. GPU serving targets datacenter thro",
+      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-84grtp",
+      "title": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "265 points on Hacker News",
+      "whyItMatters": "Touches github, firmware — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-18T14:56:04Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7,
+      "tags": [
+        "github",
+        "firmware"
+      ]
+    },
+    {
+      "id": "sig-1cljy25",
+      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-18T14:24:00.000Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 5381",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-20T04:00:19.843Z",
+      "score": 7,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
       ]
     },
     {
@@ -154,183 +348,6 @@
       "tags": [
         "storage",
         "performance"
-      ]
-    },
-    {
-      "id": "sig-15mswdl",
-      "title": "AI Accelerators Drive Changes In Power Delivery Networks",
-      "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T08:05:17.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-neyfp",
-      "title": "Can AI Make Its Own Manufacturing Decisions?",
-      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T08:01:02.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-yuby11",
-      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
-      "url": "https://arxiv.org/abs/2611.23398",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "systems",
-      "summary": "arXiv:2611.23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime ",
-      "whyItMatters": "Touches ai, reliability — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "reliability"
-      ]
-    },
-    {
-      "id": "sig-yubzhb",
-      "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
-      "url": "https://arxiv.org/abs/2611.23509",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.23509v1 Announce Type: new Abstract: Automated agent design searches for executable architectures that improve LLM-based agent performance, with evolutionary methods using language-model crossover to recombine promising mechanisms for task decomposition, model coordina",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-yubx22",
-      "title": "Agent-Native Applications: A New Application Paradigm",
-      "url": "https://arxiv.org/abs/2611.23243",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.23243v1 Announce Type: new Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by ",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yubx2y",
-      "title": "From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review",
-      "url": "https://arxiv.org/abs/2611.23252",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.23252v1 Announce Type: new Abstract: AI-driven software-intensive embedded systems (SIES) depend on data during development and operation. Poor data quality (DQ) may weaken data trustworthiness, yet evidence about its effects and lifecycle management remains fragmented",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-yubx2z",
-      "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
-      "url": "https://arxiv.org/abs/2611.23253",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.23253v1 Announce Type: new Abstract: Research software now serves as a primary instrument of science, but the methods the community uses to judge its quality, sustainability, reuse, and impact remain scattered across software engineering, open science, FAIR software, c",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-yuc26g",
-      "title": "HETEROVLM: Edge Multi-Request Vision-Language Model Serving on a Heterogeneous Versal SoC with AI Engines and Programmable Logic",
-      "url": "https://arxiv.org/abs/2611.23878",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.23878v1 Announce Type: new Abstract: Edge devices in vehicles and robots serve concurrent requests with different deadlines to a vision-language model (VLM), each mixing a compute-bound encoder and prefill with a memory-bound decode. GPU serving targets datacenter thro",
-      "whyItMatters": "Touches ai, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-84grtp",
-      "title": "Nintendo takes Picofly firmware down from GitHub [video]",
-      "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "241 points on Hacker News",
-      "whyItMatters": "Touches github, firmware — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-18T14:56:04Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.1,
-      "tags": [
-        "github",
-        "firmware"
-      ]
-    },
-    {
-      "id": "sig-1cljy25",
-      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 5106",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-19T23:16:04.486Z",
-      "score": 7,
-      "tags": [
-        "python",
-        "typescript",
-        "rust"
       ]
     },
     {
@@ -1996,82 +2013,6 @@
       "tags": [
         "github",
         "firmware"
-      ]
-    },
-    {
-      "id": "sig-1fjxkm6",
-      "title": "Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook",
-      "url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "How an integrated foundation IP strategy can reduce execution risk, enable faster tape-out, and lower TCO. The post Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:01:23.000Z",
-      "fetchedAt": "2026-11-13T03:31:51.485Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-gwhg6a",
-      "title": "This is the Meta MetaRoCE Network Adapter",
-      "url": "https://www.servethehome.com/this-is-the-meta-metaroce-network-adapter/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "At OCP Summit 2026, Meta showed off its MetaRoCE adapter designed to scale to million-GPU training clusters The post This is the Meta MetaRoCE Network Adapter appeared first on ServeTheHome .",
-      "whyItMatters": "Enterprise customers encode expectations in specs and quals — their requirement changes are literally tomorrow's test checklist.",
-      "publishedAt": "2026-11-12T04:51:39.000Z",
-      "fetchedAt": "2026-11-13T03:31:51.485Z",
-      "score": 6.9,
-      "tags": [
-        "ocp"
-      ]
-    },
-    {
-      "id": "sig-g4yp07",
-      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "86 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T23:06:17Z",
-      "fetchedAt": "2026-11-13T03:31:51.485Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1ubrxzi",
-      "title": "Build once, run on any agent: A practical guide to agent skills",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Bl",
-      "whyItMatters": "Touches github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T22:54:52.000Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 6.5,
-      "tags": [
-        "github"
-      ]
-    },
-    {
-      "id": "sig-sc47to",
-      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-      "url": "https://unemploymentlabs.com/checkpoint-forensics",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "72 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T21:56:11Z",
-      "fetchedAt": "2026-11-12T23:31:01.782Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     }
   ]
