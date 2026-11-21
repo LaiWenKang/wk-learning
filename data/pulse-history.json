@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T16:25:24.825Z",
+  "updatedAt": "2026-11-21T21:49:21.762Z",
   "signals": [
     {
       "id": "sig-ci3aw",
@@ -10,7 +10,7 @@
       "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -27,7 +27,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,7 +46,7 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -62,11 +62,267 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 8.4,
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 8.2,
       "tags": [
         "nvme",
         "linux"
+      ]
+    },
+    {
+      "id": "sig-u689r6",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — trending new repo",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2263",
+      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T14:43:10Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-34s1pp",
+      "title": "hatsunemiku-ai/google-one-tools (Python) — trending new repo",
+      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "★ 984",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-20T22:12:47Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-qvx90q",
+      "title": "How Virtual Twins And Machine Learning Optimize DRAM Yield",
+      "url": "https://semiengineering.com/how-virtual-twins-and-machine-learning-optimize-dram-yield/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-19T08:03:18.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 7.3,
+      "tags": [
+        "machine learning",
+        "semiconductor",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7347",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 7,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1cak2aq",
+      "title": "JEDEC Previews DDR6 Memory Standard: 2.35x More Bandwidth, 44% Narrower DIMMs",
+      "url": "https://www.servethehome.com/jedec-previews-ddr6-memory-standard-2-35x-more-bandwidth-44-narrower-dimms/",
+      "source": "ServeTheHome",
+      "category": "systems",
+      "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandw",
+      "whyItMatters": "Touches jedec — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-20T23:40:12.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.9,
+      "tags": [
+        "jedec"
+      ]
+    },
+    {
+      "id": "sig-12x7smh",
+      "title": "HighPoint Rocket 9500A Series Enters Enterprise Networking With Intel E810 NICs: Dual-Port 100GbE for $379",
+      "url": "https://www.storagereview.com/news/highpoint-rocket-9500a-intel-e810-100gbe-25gbe-nics",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "HighPoint Technologies, best known for its NVMe RAID and switch adapters, has moved into Ethernet with the Rocket 9500A Series, three 25GbE and 100GbE network interface cards built on Intel E810 controllers. The cards are sold as standalone adapters for enterprise servers and mul",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-20T16:19:49.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.7,
+      "tags": [
+        "nvme"
+      ]
+    },
+    {
+      "id": "sig-12ofa8c",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects. The ",
+      "whyItMatters": "Touches jedec — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-20T08:01:14.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.4,
+      "tags": [
+        "jedec"
+      ]
+    },
+    {
+      "id": "sig-1jri9ws",
+      "title": "iamajmeena/neonclipping (Python) — trending new repo",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1719",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T10:00:43Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.3,
+      "tags": [
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-15mswdl",
+      "title": "AI Accelerators Drive Changes In Power Delivery Networks",
+      "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T08:05:17.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-neyfp",
+      "title": "Can AI Make Its Own Manufacturing Decisions?",
+      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T08:01:02.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1cljy25",
+      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-18T14:24:00.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-1ceem59",
+      "title": "Can AI Agents Really Shift Chip Design Left?",
+      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-18T08:01:53.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-wl1ggp",
+      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-rto9zg",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
+      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T18:29:29.000Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-7rkd3a",
+      "title": "sybil-solutions/inference-optimisation-skill (Python) — trending new repo",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 1540",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-z96ueh",
+      "title": "boringmarketer/boring-marketing-skills (Python) — trending new repo",
+      "url": "https://github.com/boringmarketer/boring-marketing-skills",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. · ★ 768",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-16T15:09:46Z",
+      "fetchedAt": "2026-11-21T21:49:21.762Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "python"
       ]
     },
     {
@@ -86,56 +342,6 @@
       ]
     },
     {
-      "id": "sig-u689r6",
-      "title": "bookwjitchieni1986/blender-ai-mcp-addon — trending new repo",
-      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2005",
-      "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T14:43:10Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "claude",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-34s1pp",
-      "title": "hatsunemiku-ai/google-one-tools (Python) — trending new repo",
-      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "★ 836",
-      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T22:12:47Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 7.5,
-      "tags": [
-        "ai",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-qvx90q",
-      "title": "How Virtual Twins And Machine Learning Optimize DRAM Yield",
-      "url": "https://semiengineering.com/how-virtual-twins-and-machine-learning-optimize-dram-yield/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 7.4,
-      "tags": [
-        "machine learning",
-        "semiconductor",
-        "dram"
-      ]
-    },
-    {
       "id": "sig-1nsb0fw",
       "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
@@ -152,148 +358,6 @@
       ]
     },
     {
-      "id": "sig-1cak2aq",
-      "title": "JEDEC Previews DDR6 Memory Standard: 2.35x More Bandwidth, 44% Narrower DIMMs",
-      "url": "https://www.servethehome.com/jedec-previews-ddr6-memory-standard-2-35x-more-bandwidth-44-narrower-dimms/",
-      "source": "ServeTheHome",
-      "category": "systems",
-      "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandw",
-      "whyItMatters": "Touches jedec — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-20T23:40:12.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 7,
-      "tags": [
-        "jedec"
-      ]
-    },
-    {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7198",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 7,
-      "tags": [
-        "python",
-        "typescript",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-12x7smh",
-      "title": "HighPoint Rocket 9500A Series Enters Enterprise Networking With Intel E810 NICs: Dual-Port 100GbE for $379",
-      "url": "https://www.storagereview.com/news/highpoint-rocket-9500a-intel-e810-100gbe-25gbe-nics",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "HighPoint Technologies, best known for its NVMe RAID and switch adapters, has moved into Ethernet with the Rocket 9500A Series, three 25GbE and 100GbE network interface cards built on Intel E810 controllers. The cards are sold as standalone adapters for enterprise servers and mul",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-20T16:19:49.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6.8,
-      "tags": [
-        "nvme"
-      ]
-    },
-    {
-      "id": "sig-12ofa8c",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects. The ",
-      "whyItMatters": "Touches jedec — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-20T08:01:14.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6.6,
-      "tags": [
-        "jedec"
-      ]
-    },
-    {
-      "id": "sig-1jri9ws",
-      "title": "iamajmeena/neonclipping (Python) — trending new repo",
-      "url": "https://github.com/iamajmeena/neonclipping",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1634",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T10:00:43Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6.5,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-15mswdl",
-      "title": "AI Accelerators Drive Changes In Power Delivery Networks",
-      "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T08:05:17.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-neyfp",
-      "title": "Can AI Make Its Own Manufacturing Decisions?",
-      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-19T08:01:02.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6.4,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1cljy25",
-      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1ceem59",
-      "title": "Can AI Agents Really Shift Chip Design Left?",
-      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-18T08:01:53.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
       "id": "sig-mwil9e",
       "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
       "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
@@ -307,22 +371,6 @@
       "tags": [
         "openai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-wl1ggp",
-      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-17T21:00:00.000Z",
-      "fetchedAt": "2026-11-21T16:25:24.825Z",
-      "score": 6,
-      "tags": [
-        "storage",
-        "performance"
       ]
     },
     {
@@ -810,22 +858,6 @@
       ]
     },
     {
-      "id": "sig-rto9zg",
-      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
-      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
-      "source": "GitHub Blog",
-      "category": "ai",
-      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports",
-      "whyItMatters": "Touches ai, github — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T18:29:29.000Z",
-      "fetchedAt": "2026-11-19T00:26:17.393Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
       "id": "sig-yuagwn",
       "title": "From AIOps Pipelines to Agentic Service Operations: A Survey of Capability, Authority, and Evidence",
       "url": "https://arxiv.org/abs/2611.21620",
@@ -965,22 +997,6 @@
       "tags": [
         "typescript",
         "javascript"
-      ]
-    },
-    {
-      "id": "sig-7rkd3a",
-      "title": "sybil-solutions/inference-optimisation-skill (Python) — trending new repo",
-      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · ★ 999",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T18:40:04Z",
-      "fetchedAt": "2026-11-18T09:13:27.001Z",
-      "score": 6.9,
-      "tags": [
-        "llm",
-        "python"
       ]
     },
     {
@@ -1962,53 +1978,6 @@
       "tags": [
         "claude",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-i9cemj",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 489 # Comments: 390",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T10:18:13.000Z",
-      "fetchedAt": "2026-11-14T18:49:10.024Z",
-      "score": 8.1,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1aoh4p1",
-      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "17 points on Hacker News",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-14T17:51:13Z",
-      "fetchedAt": "2026-11-14T18:49:10.024Z",
-      "score": 6.5,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-ztky16",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 959 # Comments: 580",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-14T02:52:59.000Z",
-      "fetchedAt": "2026-11-14T18:49:10.024Z",
-      "score": 6.1,
-      "tags": [
-        "ai"
       ]
     }
   ]
