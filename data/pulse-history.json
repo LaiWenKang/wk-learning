@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T08:49:43.393Z",
+  "updatedAt": "2026-11-21T16:25:24.825Z",
   "signals": [
     {
       "id": "sig-ci3aw",
@@ -10,7 +10,7 @@
       "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -27,7 +27,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -46,8 +46,8 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 9.7,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 9.5,
       "tags": [
         "ssd",
         "pcie"
@@ -62,8 +62,8 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 8.4,
       "tags": [
         "nvme",
         "linux"
@@ -75,11 +75,11 @@
       "url": "http://ricapar.net/ClawDOS/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "46 points on Hacker News",
+      "summary": "125 points on Hacker News",
       "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-21T05:38:01Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "coding agent"
@@ -91,14 +91,30 @@
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 1884",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2005",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T14:43:10Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "claude",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-34s1pp",
+      "title": "hatsunemiku-ai/google-one-tools (Python) — trending new repo",
+      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "★ 836",
+      "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-20T22:12:47Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
         "python"
       ]
     },
@@ -111,8 +127,8 @@
       "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7.4,
       "tags": [
         "machine learning",
         "semiconductor",
@@ -125,11 +141,11 @@
       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "284 points on Hacker News",
+      "summary": "420 points on Hacker News",
       "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-20T13:29:59Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "anthropic"
@@ -144,10 +160,27 @@
       "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandw",
       "whyItMatters": "Touches jedec — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-20T23:40:12.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7,
       "tags": [
         "jedec"
+      ]
+    },
+    {
+      "id": "sig-19c0eap",
+      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7198",
+      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 7,
+      "tags": [
+        "python",
+        "typescript",
+        "rust"
       ]
     },
     {
@@ -159,27 +192,10 @@
       "summary": "HighPoint Technologies, best known for its NVMe RAID and switch adapters, has moved into Ethernet with the Rocket 9500A Series, three 25GbE and 100GbE network interface cards built on Intel E810 controllers. The cards are sold as standalone adapters for enterprise servers and mul",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T16:19:49.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6.8,
       "tags": [
         "nvme"
-      ]
-    },
-    {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 6918",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 7,
-      "tags": [
-        "python",
-        "typescript",
-        "rust"
       ]
     },
     {
@@ -191,8 +207,8 @@
       "summary": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects. The ",
       "whyItMatters": "Touches jedec — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-20T08:01:14.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.8,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6.6,
       "tags": [
         "jedec"
       ]
@@ -203,11 +219,11 @@
       "url": "https://github.com/iamajmeena/neonclipping",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1415",
+      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1634",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T10:00:43Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.7,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6.5,
       "tags": [
         "llm",
         "python"
@@ -222,8 +238,8 @@
       "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:05:17.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.6,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -238,8 +254,8 @@
       "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:01:02.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.6,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6.4,
       "tags": [
         "ai",
         "semiconductor"
@@ -254,11 +270,59 @@
       "summary": "",
       "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.2,
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6,
       "tags": [
         "ai",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-1ceem59",
+      "title": "Can AI Agents Really Shift Chip Design Left?",
+      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-18T08:01:53.000Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-mwil9e",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
+      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6,
+      "tags": [
+        "openai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-wl1ggp",
+      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
+      "source": "Blocks & Files",
+      "category": "systems",
+      "summary": "",
+      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "fetchedAt": "2026-11-21T16:25:24.825Z",
+      "score": 6,
+      "tags": [
+        "storage",
+        "performance"
       ]
     },
     {
@@ -304,22 +368,6 @@
       "score": 6,
       "tags": [
         "storage"
-      ]
-    },
-    {
-      "id": "sig-1ceem59",
-      "title": "Can AI Agents Really Shift Chip Design Left?",
-      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial. The post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-18T08:01:53.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -727,38 +775,6 @@
       "score": 7.1,
       "tags": [
         "telemetry"
-      ]
-    },
-    {
-      "id": "sig-mwil9e",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp",
-      "whyItMatters": "Touches openai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T22:38:52.000Z",
-      "fetchedAt": "2026-11-19T07:48:51.393Z",
-      "score": 7.1,
-      "tags": [
-        "openai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-wl1ggp",
-      "title": "Hammerspace's high-performance storage box and complete storage SW/HW system",
-      "url": "https://www.blocksandfiles.com/flash/2026/11/17/hammerspaces-high-performance-storage-box-and-complete-storage-sw/hw-system/5310479",
-      "source": "Blocks & Files",
-      "category": "systems",
-      "summary": "",
-      "whyItMatters": "Touches storage, performance — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-17T21:00:00.000Z",
-      "fetchedAt": "2026-11-19T07:48:51.393Z",
-      "score": 7,
-      "tags": [
-        "storage",
-        "performance"
       ]
     },
     {
@@ -1993,66 +2009,6 @@
       "score": 6.1,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-1cdbpi1",
-      "title": "Dell Pro Precision 9 T4 Review: 86 Xeon Cores and Two RTX PRO 6000 GPUs for Models Too Big for One Card",
-      "url": "https://www.storagereview.com/review/dell-pro-precision-9-t4-review",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "The Dell Pro Precision 9 T4 is the single-socket tower at the top of Dell’s Pro Precision line, and our review unit is configured for local AI at a scale most workstations can’t reach. It pairs Intel’s 86-core Xeon 698X with 256GB of DDR5-6400 ECC memory, two 300W NVIDIA RTX PRO ",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T22:08:22.000Z",
-      "fetchedAt": "2026-11-14T13:22:32.220Z",
-      "score": 6.1,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1pez8x5",
-      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
-      "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: “Recent generations of high bandwidth memory (HBM), such as HBM",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-13T21:53:30.000Z",
-      "fetchedAt": "2026-11-14T13:22:32.220Z",
-      "score": 6.1,
-      "tags": [
-        "hbm"
-      ]
-    },
-    {
-      "id": "sig-1ia52rc",
-      "title": "Kitesurf is now open source",
-      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-      "source": "Cloudflare Blog",
-      "category": "ai",
-      "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-13T20:20:21.000Z",
-      "fetchedAt": "2026-11-14T13:22:32.220Z",
-      "score": 6,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-9ncomt",
-      "title": "Lenovo ThinkPad X1 2-in-1 Gen 11 Aura Edition Review: An 8-Core Convertible at 2.52 Pounds",
-      "url": "https://www.storagereview.com/review/lenovo-thinkpad-x1-2-in-1-gen-11-aura-edition-review",
-      "source": "StorageReview",
-      "category": "productivity",
-      "summary": "The Lenovo ThinkPad X1 2-in-1 Gen 11 Aura Edition is a 14-inch business convertible that weighs 1.14kg (2.52lb) and folds through laptop, tent, stand, and tablet modes on a 360-degree hinge. Lenovo positions it as a convertible business laptop for multi-mode productivity, and thi",
-      "whyItMatters": "Touches productivity — relevant to working more deliberately.",
-      "publishedAt": "2026-11-13T18:53:58.000Z",
-      "fetchedAt": "2026-11-14T13:22:32.220Z",
-      "score": 6,
-      "tags": [
-        "productivity"
       ]
     }
   ]
