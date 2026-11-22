@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-11-22T01:41:01.898Z",
+  "updatedAt": "2026-11-22T08:53:06.198Z",
   "signals": [
-    {
-      "id": "sig-ci3aw",
-      "title": "SC26 Roundup: Record-Low TOP500 Turnover, Supermicro Ships PCIe Gen6 Flash, and VAST Adds Job-Level QoS",
-      "url": "https://www.storagereview.com/news/sc26-roundup-top500-aic-msi-marvell-compal",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 10,
-      "tags": [
-        "pcie",
-        "gen6",
-        "storage"
-      ]
-    },
     {
       "id": "sig-nafvu3",
       "title": "Microchip Flashtec NVMe 4016 Controller Features 16 NAND Channels and Over 14 GB/s",
@@ -27,7 +10,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -35,6 +18,23 @@
         "nvme",
         "ssd controller",
         "pcie"
+      ]
+    },
+    {
+      "id": "sig-ci3aw",
+      "title": "SC26 Roundup: Record-Low TOP500 Turnover, Supermicro Ships PCIe Gen6 Flash, and VAST Adds Job-Level QoS",
+      "url": "https://www.storagereview.com/news/sc26-roundup-top500-aic-msi-marvell-compal",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-19T23:45:51.000Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 9.9,
+      "tags": [
+        "pcie",
+        "gen6",
+        "storage"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -62,8 +62,8 @@
       "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
       "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T23:56:28.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 9,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 8.8,
       "tags": [
         "ai",
         "python",
@@ -79,8 +79,8 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 7.9,
       "tags": [
         "nvme",
         "linux"
@@ -92,11 +92,11 @@
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2457",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2702",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T14:43:10Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "claude",
@@ -109,11 +109,11 @@
       "url": "https://github.com/hatsunemiku-ai/google-one-tools",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "★ 1051",
+      "summary": "★ 1175",
       "whyItMatters": "Touches ai, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-20T22:12:47Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 7,
       "tags": [
         "ai",
         "python"
@@ -128,8 +128,8 @@
       "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 7,
       "tags": [
         "machine learning",
         "semiconductor",
@@ -142,10 +142,10 @@
       "url": "https://github.com/erkamyaman/rust-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7448",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7615",
       "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
       "score": 7,
       "tags": [
         "python",
@@ -162,10 +162,25 @@
       "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandw",
       "whyItMatters": "Touches jedec — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-20T23:40:12.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.8,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.6,
       "tags": [
         "jedec"
+      ]
+    },
+    {
+      "id": "sig-1tvtmh7",
+      "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "15 points on Hacker News",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-22T04:10:09Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.4,
+      "tags": [
+        "rust"
       ]
     },
     {
@@ -177,10 +192,25 @@
       "summary": "HighPoint Technologies, best known for its NVMe RAID and switch adapters, has moved into Ethernet with the Rocket 9500A Series, three 25GbE and 100GbE network interface cards built on Intel E810 controllers. The cards are sold as standalone adapters for enterprise servers and mul",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T16:19:49.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.6,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.4,
       "tags": [
         "nvme"
+      ]
+    },
+    {
+      "id": "sig-1hwvpvt",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "56 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-22T02:10:02Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -189,11 +219,11 @@
       "url": "https://linebender.org/blog/next-100-guis/",
       "source": "Hacker News (front page)",
       "category": "programming",
-      "summary": "86 points on Hacker News",
+      "summary": "155 points on Hacker News",
       "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T21:17:53Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.4,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.2,
       "tags": [
         "rust"
       ]
@@ -204,11 +234,11 @@
       "url": "https://www.pandex.io",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "30 points on Hacker News",
+      "summary": "82 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-21T20:47:41Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.4,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -222,8 +252,8 @@
       "summary": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects. The ",
       "whyItMatters": "Touches jedec — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-20T08:01:14.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.3,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6.1,
       "tags": [
         "jedec"
       ]
@@ -234,11 +264,11 @@
       "url": "https://github.com/iamajmeena/neonclipping",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1741",
+      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 1870",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T10:00:43Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.2,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6,
       "tags": [
         "llm",
         "python"
@@ -253,8 +283,8 @@
       "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:05:17.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.2,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6,
       "tags": [
         "ai",
         "semiconductor"
@@ -269,11 +299,27 @@
       "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:01:02.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6.2,
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6,
       "tags": [
         "ai",
         "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1cljy25",
+      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
+      "source": "Blocks & Files",
+      "category": "ai",
+      "summary": "",
+      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-18T14:24:00.000Z",
+      "fetchedAt": "2026-11-22T08:53:06.198Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "storage"
       ]
     },
     {
@@ -289,22 +335,6 @@
       "score": 6,
       "tags": [
         "rust"
-      ]
-    },
-    {
-      "id": "sig-1cljy25",
-      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
-      "source": "Blocks & Files",
-      "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-22T01:41:01.898Z",
-      "score": 6,
-      "tags": [
-        "ai",
-        "storage"
       ]
     },
     {
@@ -1978,37 +2008,6 @@
       "tags": [
         "github",
         "security"
-      ]
-    },
-    {
-      "id": "sig-1marcws",
-      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-      "url": "https://gitlab.com/snipedbywifi/terminactory",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "138 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-14T14:05:54Z",
-      "fetchedAt": "2026-11-15T02:09:45.038Z",
-      "score": 6.2,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-19q7s0v",
-      "title": "JDhruv14/line-art-animation (TypeScript) — trending new repo",
-      "url": "https://github.com/JDhruv14/line-art-animation",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle. · ★ 759",
-      "whyItMatters": "Touches claude, typescript — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T09:25:25Z",
-      "fetchedAt": "2026-11-15T02:09:45.038Z",
-      "score": 6,
-      "tags": [
-        "claude",
-        "typescript"
       ]
     }
   ]
