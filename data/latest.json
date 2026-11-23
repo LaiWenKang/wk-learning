@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:22:24.507Z",
+  "generatedAt": "2026-11-23T03:01:10.008Z",
   "signals": [
     {
       "id": "sig-nafvu3",
@@ -10,7 +10,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 9.5,
       "tags": [
         "pcie",
@@ -46,7 +46,7 @@
       "summary": "The ASUS ProArt GR1X packs NVIDIA’s RTX Spark N1X into a 150mm-square, 1.15-liter desktop with two M.2 2280 SSD slots, 10GbE, and a dual-fan cooler ASUS built to sustain 140W. Our review unit is the 64GB configuration with a 1TB PCIe Gen4 SSD and Windows 11 Pro. We tested it alon",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-18T14:40:41.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 9.5,
       "tags": [
         "ssd",
@@ -55,15 +55,15 @@
     },
     {
       "id": "sig-pbx3ow",
-      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "title": "Muru",
       "url": "https://simonwillison.net/2026/Nov/21/muru/",
-      "source": "Hacker News (front page)",
+      "source": "Simon Willison's Weblog",
       "category": "programming",
-      "summary": "68 points on Hacker News",
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
       "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-22T09:57:01Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 8.7,
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 8.2,
       "tags": [
         "ai",
         "python",
@@ -76,15 +76,31 @@
       "url": "https://github.com/EL4CTEO/fast-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 1799",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 2029",
       "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 8,
       "tags": [
         "coding agent",
         "python",
         "rust"
+      ]
+    },
+    {
+      "id": "sig-18c4qsy",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 903 # Comments: 902",
+      "whyItMatters": "Touches ai, anthropic — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-22T08:57:34.000Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "anthropic"
       ]
     },
     {
@@ -96,8 +112,8 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 7.4,
       "tags": [
         "nvme",
         "linux"
@@ -109,10 +125,10 @@
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2745",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. · ★ 2750",
       "whyItMatters": "Touches ai, claude, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T14:43:10Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 7,
       "tags": [
         "ai",
@@ -129,7 +145,7 @@
       "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
       "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
       "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 7,
       "tags": [
         "machine learning",
@@ -138,20 +154,33 @@
       ]
     },
     {
-      "id": "sig-19c0eap",
-      "title": "erkamyaman/rust-anything (Rust) — trending new repo",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. · ★ 7953",
-      "whyItMatters": "Touches python, typescript, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T12:10:36Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 7,
+      "id": "sig-xp2b25",
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "url": "https://0rwx.com/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "24 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-22T23:53:00Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.4,
       "tags": [
-        "python",
-        "typescript",
-        "rust"
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-18mazor",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "106 points on Hacker News",
+      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-22T23:06:37Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.4,
+      "tags": [
+        "security"
       ]
     },
     {
@@ -160,13 +189,28 @@
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "44 points on Hacker News",
+      "summary": "274 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-22T21:01:16Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6.5,
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.3,
       "tags": [
         "ai"
+      ]
+    },
+    {
+      "id": "sig-12pn6cf",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Tool: Select Styling Specimens I got frustrated at how HTML &lt;select&gt; boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-22T19:45:06.000Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.3,
+      "tags": [
+        "claude"
       ]
     },
     {
@@ -175,11 +219,11 @@
       "url": "https://boazbk.github.io/mltheoryseminar/",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "13 points on Hacker News",
+      "summary": "50 points on Hacker News",
       "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-22T18:01:54Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6.4,
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.3,
       "tags": [
         "ai"
       ]
@@ -190,11 +234,11 @@
       "url": "https://github.com/gulivan/worker755",
       "source": "Hacker News (front page)",
       "category": "ai",
-      "summary": "250 points on Hacker News",
+      "summary": "279 points on Hacker News",
       "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-22T13:56:58Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6.3,
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
+      "score": 6.1,
       "tags": [
         "llm"
       ]
@@ -208,40 +252,10 @@
       "summary": "JEDEC has unveiled the first specifications for DDR6 memory. Targeting over twice the bandwidth of DDR5, and with DIMMs 44% smaller, DDR6 is slated to be the biggest change in generations to the server memory standard The post JEDEC Previews DDR6 Memory Standard: 2.35x More Bandw",
       "whyItMatters": "Touches jedec — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-20T23:40:12.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6.2,
-      "tags": [
-        "jedec"
-      ]
-    },
-    {
-      "id": "sig-18c4qsy",
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "806 points on Hacker News",
-      "whyItMatters": "Touches anthropic — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-22T08:57:34Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 6.1,
       "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "sig-12x7smh",
-      "title": "HighPoint Rocket 9500A Series Enters Enterprise Networking With Intel E810 NICs: Dual-Port 100GbE for $379",
-      "url": "https://www.storagereview.com/news/highpoint-rocket-9500a-intel-e810-100gbe-25gbe-nics",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "HighPoint Technologies, best known for its NVMe RAID and switch adapters, has moved into Ethernet with the Rocket 9500A Series, three 25GbE and 100GbE network interface cards built on Intel E810 controllers. The cards are sold as standalone adapters for enterprise servers and mul",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-20T16:19:49.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6,
-      "tags": [
-        "nvme"
+        "jedec"
       ]
     },
     {
@@ -250,10 +264,10 @@
       "url": "https://github.com/iamajmeena/neonclipping",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 2084",
+      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM). · ★ 2103",
       "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T10:00:43Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 6,
       "tags": [
         "llm",
@@ -269,7 +283,7 @@
       "summary": "Moving voltage regulators closer to processors can reduce power loss, but adds challenges for advanced packaging, thermal management, and system-level design. The post AI Accelerators Drive Changes In Power Delivery Networks appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:05:17.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 6,
       "tags": [
         "ai",
@@ -285,7 +299,7 @@
       "summary": "AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-19T08:01:02.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 6,
       "tags": [
         "ai",
@@ -293,35 +307,19 @@
       ]
     },
     {
-      "id": "sig-1399kzw",
-      "title": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
-      "url": "https://news.ycombinator.com/item?id=50555002",
-      "source": "Hacker News (front page)",
-      "category": "firmware",
-      "summary": "98 points on Hacker News",
-      "whyItMatters": "Touches firmware, embedded — relevant to staying close to low-level engineering.",
-      "publishedAt": "2026-11-19T01:37:45Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
-      "score": 6,
-      "tags": [
-        "firmware",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-1cljy25",
-      "title": "Gartner spins up Emerging Market Quadrant for AI Data Storage",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/11/18/gartner-spins-up-emerging-market-quadrant-for-ai-data-storage/5310786",
-      "source": "Blocks & Files",
+      "id": "sig-teyut6",
+      "title": "INK-Q/agy-fast (TypeScript) — trending new repo",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "",
-      "whyItMatters": "Touches ai, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-18T14:24:00.000Z",
-      "fetchedAt": "2026-11-22T22:22:24.507Z",
+      "summary": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. · ★ 569",
+      "whyItMatters": "Touches llm, typescript — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-19T04:58:46Z",
+      "fetchedAt": "2026-11-23T03:01:10.008Z",
       "score": 6,
       "tags": [
-        "ai",
-        "storage"
+        "llm",
+        "typescript"
       ]
     }
   ]
