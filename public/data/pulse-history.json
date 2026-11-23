@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-11-23T12:10:39.754Z",
+  "updatedAt": "2026-11-23T23:58:16.923Z",
   "signals": [
+    {
+      "id": "sig-1wrvmi0",
+      "title": "Hybrid-Bonded 3D NAND Boosts Analog In-Memory Compute Density (IBM, Micron, U. of Patras)",
+      "url": "https://semiengineering.com/hybrid-bonded-3d-nand-boosts-analog-in-memory-compute-density/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Researchers at IBM Research, Micron Technology, and University of Patras published “3D-NAND-CIM: A Hybrid-Bonded 3D-NAND-Flash-based Analog In-Memory-Compute macro offering 4.8M weights/mm².” Find the technical paper here. November 2026. Pritish Narayanan, Athanasios Vasilopoulos",
+      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
+      "publishedAt": "2026-11-23T21:35:38.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 10,
+      "tags": [
+        "nand",
+        "3d nand",
+        "micron"
+      ]
+    },
     {
       "id": "sig-nafvu3",
       "title": "Microchip Flashtec NVMe 4016 Controller Features 16 NAND Channels and Over 14 GB/s",
@@ -10,7 +27,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -18,6 +35,22 @@
         "nvme",
         "ssd controller",
         "pcie"
+      ]
+    },
+    {
+      "id": "sig-qcekzi",
+      "title": "HighPoint PAE Bundles Move 600W RTX PRO Blackwell GPUs to an External 1300W Enclosure Over PCIe Gen5 x16",
+      "url": "https://www.storagereview.com/news/highpoint-pae-bundles-external-rtx-pro-blackwell-gpu-pcie-gen5-x16-copprlink",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-23T17:47:55.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 9.8,
+      "tags": [
+        "pcie",
+        "gen5"
       ]
     },
     {
@@ -29,12 +62,269 @@
       "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
       "score": 9.5,
       "tags": [
         "pcie",
         "gen6",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-yuebns",
+      "title": "How developers split roles among them and a coding agent and what \"collaboration\" means",
+      "url": "https://arxiv.org/abs/2611.26668",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.26668v1 Announce Type: new Abstract: Background: Coding agents such as Claude Code become more and more competent, so that their role in the development process can grow. Objective: How do developers characterize the role-split between them and their agent? How would t",
+      "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 8.5,
+      "tags": [
+        "coding agent",
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-pbx3ow",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
+      "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1kwmcbf",
+      "title": "AI Changes What Chip Engineers Need To Learn",
+      "url": "https://semiengineering.com/ai-changes-what-chip-engineers-need-to-learn/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "AI is automating routine design tasks, shifting engineering education toward architecture, specifications, verification, and the ability to evaluate results. The post AI Changes What Chip Engineers Need To Learn appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-23T08:01:13.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.6,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-yuebnn",
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavio",
+      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-yuee0z",
+      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+      "url": "https://arxiv.org/abs/2611.26906",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.26906v1 Announce Type: new Abstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the che",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-yueyf2",
+      "title": "Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes",
+      "url": "https://arxiv.org/abs/2611.27090",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.27090v1 Announce Type: new Abstract: When an AI coding agent deletes the wrong files or a long agent run crashes, users fall back on recovery mechanisms: resume from a checkpoint, undo, ask for approval, read the log. Research runtimes promise stronger guarantees, such",
+      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-yuez18",
+      "title": "Schema-Validated LLM Workflows: A Benchmark Protocol and Comparative Evaluation Across Six Python Implementations",
+      "url": "https://arxiv.org/abs/2611.27106",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.27106v1 Announce Type: new Abstract: Large language models are increasingly used to extract records, generate SQL, summarize reports, answer policy questions, and route operational work. At these software boundaries, parseable output is necessary but does not establish",
+      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "python"
+      ]
+    },
+    {
+      "id": "sig-yuebmu",
+      "title": "BitPrefill: W1.58A4 Tensor-Core Acceleration for Compute-Bound LLM Prefill",
+      "url": "https://arxiv.org/abs/2611.26657",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.26657v1 Announce Type: new Abstract: Low-bit quantization reduces large language model (LLM) inference cost, yet implementations optimized for memory-bound decode can leave compute-bound prefill on BF16 tensor cores. This gap matters for input-heavy workloads, includin",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "language model"
+      ]
+    },
+    {
+      "id": "sig-yuedbc",
+      "title": "CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache",
+      "url": "https://arxiv.org/abs/2611.26857",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.26857v1 Announce Type: new Abstract: Long-context decoding on edge devices is limited by DRAM, because every generated token reads the whole, growing KV cache. 4-bit block-scaled formats such as NVFP4 reduce this traffic but degrade accuracy: on Qwen3-4B, NVFP4 lowers ",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.5,
+      "tags": [
+        "llm",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-1tvtmh7",
+      "title": "EL4CTEO/fast-anything (Rust) — trending new repo",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3109",
+      "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-21T14:40:27Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.4,
+      "tags": [
+        "coding agent",
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-vnnn9l",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3 Comments URL: https://news.ycombinator.com/item?id=50605045 Points: 256 # Comments: 193",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-22T23:12:10.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7.3,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1dah4az",
+      "title": "Graid VROC Is Coming to AMD EPYC in February 2027, Starting With Linux RAID 1 Boot Drives",
+      "url": "https://www.storagereview.com/news/graid-vroc-amd-epyc-february-2027-linux-raid-1-boot",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-20T17:17:15.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7,
+      "tags": [
+        "nvme",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-qvx90q",
+      "title": "How Virtual Twins And Machine Learning Optimize DRAM Yield",
+      "url": "https://semiengineering.com/how-virtual-twins-and-machine-learning-optimize-dram-yield/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
+      "publishedAt": "2026-11-19T08:03:18.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 7,
+      "tags": [
+        "machine learning",
+        "semiconductor",
+        "dram"
+      ]
+    },
+    {
+      "id": "sig-mqbgt6",
+      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+      "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "12 points on Hacker News",
+      "whyItMatters": "Touches security — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-23T23:11:38Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 6.5,
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "sig-13me6wc",
+      "title": "Marvisak/VIctory (Rust) — trending new repo",
+      "url": "https://github.com/Marvisak/VIctory",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "An attempt at running GTA VI on PC · ★ 1279",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-23T21:47:25Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 6.4,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-3gs5lg",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Ski",
+      "whyItMatters": "Touches javascript — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-23T21:46:35.000Z",
+      "fetchedAt": "2026-11-23T23:58:16.923Z",
+      "score": 6.4,
+      "tags": [
+        "javascript"
       ]
     },
     {
@@ -54,201 +344,6 @@
       ]
     },
     {
-      "id": "sig-yuebns",
-      "title": "How developers split roles among them and a coding agent and what \"collaboration\" means",
-      "url": "https://arxiv.org/abs/2611.26668",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.26668v1 Announce Type: new Abstract: Background: Coding agents such as Claude Code become more and more competent, so that their role in the development process can grow. Objective: How do developers characterize the role-split between them and their agent? How would t",
-      "whyItMatters": "Touches coding agent, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 8.8,
-      "tags": [
-        "coding agent",
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-pbx3ow",
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
-      "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-21T23:56:28.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 8,
-      "tags": [
-        "ai",
-        "python",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1kwmcbf",
-      "title": "AI Changes What Chip Engineers Need To Learn",
-      "url": "https://semiengineering.com/ai-changes-what-chip-engineers-need-to-learn/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "AI is automating routine design tasks, shifting engineering education toward architecture, specifications, verification, and the ability to evaluate results. The post AI Changes What Chip Engineers Need To Learn appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-23T08:01:13.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.9,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-yuebnn",
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavio",
-      "whyItMatters": "Touches ai, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-yuee0z",
-      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
-      "url": "https://arxiv.org/abs/2611.26906",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.26906v1 Announce Type: new Abstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the che",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yueyf2",
-      "title": "Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes",
-      "url": "https://arxiv.org/abs/2611.27090",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.27090v1 Announce Type: new Abstract: When an AI coding agent deletes the wrong files or a long agent run crashes, users fall back on recovery mechanisms: resume from a checkpoint, undo, ask for approval, read the log. Research runtimes promise stronger guarantees, such",
-      "whyItMatters": "Touches ai, coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "ai",
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-yuez18",
-      "title": "Schema-Validated LLM Workflows: A Benchmark Protocol and Comparative Evaluation Across Six Python Implementations",
-      "url": "https://arxiv.org/abs/2611.27106",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.27106v1 Announce Type: new Abstract: Large language models are increasingly used to extract records, generate SQL, summarize reports, answer policy questions, and route operational work. At these software boundaries, parseable output is necessary but does not establish",
-      "whyItMatters": "Touches llm, python — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-yuebmu",
-      "title": "BitPrefill: W1.58A4 Tensor-Core Acceleration for Compute-Bound LLM Prefill",
-      "url": "https://arxiv.org/abs/2611.26657",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.26657v1 Announce Type: new Abstract: Low-bit quantization reduces large language model (LLM) inference cost, yet implementations optimized for memory-bound decode can leave compute-bound prefill on BF16 tensor cores. This gap matters for input-heavy workloads, includin",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yuedbc",
-      "title": "CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache",
-      "url": "https://arxiv.org/abs/2611.26857",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.26857v1 Announce Type: new Abstract: Long-context decoding on edge devices is limited by DRAM, because every generated token reads the whole, growing KV cache. 4-bit block-scaled formats such as NVFP4 reduce this traffic but degrade accuracy: on Qwen3-4B, NVFP4 lowers ",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.8,
-      "tags": [
-        "llm",
-        "dram"
-      ]
-    },
-    {
-      "id": "sig-1tvtmh7",
-      "title": "EL4CTEO/fast-anything (Rust) — trending new repo",
-      "url": "https://github.com/EL4CTEO/fast-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 2650",
-      "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.7,
-      "tags": [
-        "coding agent",
-        "python",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-vnnn9l",
-      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3 Comments URL: https://news.ycombinator.com/item?id=50605045 Points: 240 # Comments: 177",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-22T23:12:10.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1dah4az",
-      "title": "Graid VROC Is Coming to AMD EPYC in February 2027, Starting With Linux RAID 1 Boot Drives",
-      "url": "https://www.storagereview.com/news/graid-vroc-amd-epyc-february-2027-linux-raid-1-boot",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7.1,
-      "tags": [
-        "nvme",
-        "linux"
-      ]
-    },
-    {
       "id": "sig-u689r6",
       "title": "bookwjitchieni1986/blender-ai-mcp-addon — trending new repo",
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
@@ -263,23 +358,6 @@
         "ai",
         "claude",
         "python"
-      ]
-    },
-    {
-      "id": "sig-qvx90q",
-      "title": "How Virtual Twins And Machine Learning Optimize DRAM Yield",
-      "url": "https://semiengineering.com/how-virtual-twins-and-machine-learning-optimize-dram-yield/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Model process variation, detect multiple failure modes, and evaluate solutions with less wafer experimentation. The post How Virtual Twins And Machine Learning Optimize DRAM Yield appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Memory-market moves steer fab capex and NAND supply — the macro forces behind roadmap and priority shifts you feel downstream.",
-      "publishedAt": "2026-11-19T08:03:18.000Z",
-      "fetchedAt": "2026-11-23T12:10:39.754Z",
-      "score": 7,
-      "tags": [
-        "machine learning",
-        "semiconductor",
-        "dram"
       ]
     },
     {
@@ -1864,70 +1942,6 @@
       "score": 6.4,
       "tags": [
         "security"
-      ]
-    },
-    {
-      "id": "sig-1ta8mg3",
-      "title": "Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall",
-      "url": "https://semiengineering.com/designing-edge-ai-socs-at-near-threshold-why-foundation-ip-can-help-you-break-down-the-power-wall/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits. The post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-12T08:05:04.000Z",
-      "fetchedAt": "2026-11-16T18:19:53.542Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-fh8vxv",
-      "title": "FrigadeHQ/yogurt (TypeScript) — trending new repo",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux. · ★ 1815",
-      "whyItMatters": "Touches ai, typescript, linux — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-10T20:01:01Z",
-      "fetchedAt": "2026-11-16T18:19:53.542Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "typescript",
-        "linux"
-      ]
-    },
-    {
-      "id": "sig-1lzgnp3",
-      "title": "Aristotle Expands into Rust",
-      "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
-      "source": "Hacker News (front page)",
-      "category": "programming",
-      "summary": "12 points on Hacker News",
-      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-16T17:34:41Z",
-      "fetchedAt": "2026-11-16T18:19:53.542Z",
-      "score": 6.5,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1371hcf",
-      "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
-      "url": "https://news.ycombinator.com/item?id=50520076",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "14 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-16T17:20:28Z",
-      "fetchedAt": "2026-11-16T18:19:53.542Z",
-      "score": 6.5,
-      "tags": [
-        "ai"
       ]
     }
   ]
