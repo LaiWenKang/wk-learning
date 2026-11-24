@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T09:40:29.045Z",
+  "generatedAt": "2026-11-24T20:21:56.277Z",
   "signals": [
     {
       "id": "sig-nafvu3",
@@ -10,7 +10,7 @@
       "summary": "Microchip has announced the Flashtec NVMe 4016 SSD controller, a fourth-generation Flashtec design with a PCIe Gen 5 x4 interface and 16 programmable NAND Flash channels. The company says the controller delivers more than 14 GB/s of throughput and over 3 million IOPS. It’s now sa",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-18T19:10:34.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -21,19 +21,20 @@
       ]
     },
     {
-      "id": "sig-qcekzi",
-      "title": "HighPoint PAE Bundles Move 600W RTX PRO Blackwell GPUs to an External 1300W Enclosure Over PCIe Gen5 x16",
-      "url": "https://www.storagereview.com/news/highpoint-pae-bundles-external-rtx-pro-blackwell-gpu-pcie-gen5-x16-copprlink",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 9.6,
+      "id": "sig-p58hi8",
+      "title": "SeaStore: Redesigning Ceph's Storage Back End for CPU-Efficient NVMe Performance",
+      "url": "https://dl.acm.org/doi/10.1145/3828523.3857112",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "54 points on Hacker News",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-23T06:54:08Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 9.5,
       "tags": [
-        "pcie",
-        "gen5"
+        "nvme",
+        "storage",
+        "performance"
       ]
     },
     {
@@ -45,12 +46,28 @@
       "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
       "score": 9.5,
       "tags": [
         "pcie",
         "gen6",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-qcekzi",
+      "title": "HighPoint PAE Bundles Move 600W RTX PRO Blackwell GPUs to an External 1300W Enclosure Over PCIe Gen5 x16",
+      "url": "https://www.storagereview.com/news/highpoint-pae-bundles-external-rtx-pro-blackwell-gpu-pcie-gen5-x16-copprlink",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-23T17:47:55.000Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 9.3,
+      "tags": [
+        "pcie",
+        "gen5"
       ]
     },
     {
@@ -62,8 +79,8 @@
       "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 8.7,
       "tags": [
         "ai",
         "semiconductor",
@@ -79,8 +96,8 @@
       "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 8.7,
       "tags": [
         "semiconductor",
         "communication",
@@ -96,8 +113,8 @@
       "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:47.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 8,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -112,8 +129,8 @@
       "summary": "Frontier models are improving design automation, but layouts, waveforms, and other semiconductor-specific data presents challenges that general-purpose AI has yet to fully overcome. The post AI Can Read The Code, But Can It Understand The Chip? appeared first on Semiconductor Eng",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:31.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 8,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -128,8 +145,8 @@
       "summary": "Shortening the path from design intent to verified implementation could put custom silicon within reach of more teams. The post How Can AI Build Faster And Better Silicon For Physical AI? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T08:04:22.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 8,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "semiconductor"
@@ -144,8 +161,8 @@
       "summary": "arXiv:2611.28295v1 Announce Type: new Abstract: Scientific information extraction (IE) is a fundamental component of AI for Science, transforming experimental knowledge embedded in scientific literature into structured and traceable data for evidence synthesis, scientific databas",
       "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "embedded"
@@ -160,8 +177,8 @@
       "summary": "arXiv:2611.28318v1 Announce Type: new Abstract: Can changing which matrices receive 2, 4, or 8 bits improve a small language model without increasing its parameter storage? I compare two parent-selection rules in the same genetic algorithm: a binary-tournament variant and an Alte",
       "whyItMatters": "Touches language model, storage — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "language model",
         "storage"
@@ -176,8 +193,8 @@
       "summary": "arXiv:2611.28168v1 Announce Type: new Abstract: Credentials embedded in client-delivered web artifacts, such as minified JavaScript bundles, webpack chunks, server-side-rendered state objects, and JSON or XML API responses, form a runtime attack surface that repository-time (shif",
       "whyItMatters": "Touches javascript, embedded — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "javascript",
         "embedded"
@@ -192,8 +209,8 @@
       "summary": "arXiv:2611.28704v1 Announce Type: new Abstract: AI coding agents now generate code faster than humans can review it. Security analyses rely on solver answers such as \"unsatisfiable\" (for example, no attack path exists) or \"optimal.\" Unlike satisfying models, they cannot be checke",
       "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "security"
@@ -208,8 +225,8 @@
       "summary": "arXiv:2611.28996v1 Announce Type: new Abstract: Speculations abound about the \"right\" ways for developers to integrate AI into their software engineering (SE) work, but the evidence that exists is sparse and contradictory. Yet, developers are held responsible for the products the",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "ai",
         "software engineering"
@@ -224,8 +241,8 @@
       "summary": "arXiv:2611.29582v1 Announce Type: new Abstract: Post-synthesis power, performance, and area (PPA) depend jointly on the register-transfer-level (RTL) code and the synthesis algorithms. However, the benefits of RTL optimization may be limited by bottlenecks in synthesis algorithms",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.6,
       "tags": [
         "llm",
         "performance"
@@ -240,8 +257,8 @@
       "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
       "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T23:56:28.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "python",
@@ -254,11 +271,11 @@
       "url": "https://github.com/EL4CTEO/fast-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3370",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3560",
       "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 7.1,
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 7,
       "tags": [
         "coding agent",
         "python",
@@ -274,7 +291,7 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -282,48 +299,32 @@
       ]
     },
     {
-      "id": "sig-wz4fhm",
-      "title": "Hope Is Not A Strategy: What First-Silicon Success Really Takes",
-      "url": "https://semiengineering.com/hope-is-not-a-strategy-what-first-silicon-success-really-takes/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Most re-spins are caused by logic and functional flaws, not hard-to-predict physical effects. The post Hope Is Not A Strategy: What First-Silicon Success Really Takes appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:08:01.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
+      "id": "sig-65idx0",
+      "title": "Compiling Web Applications into Verified Operations for AI Agents",
+      "url": "https://protocolis.co/paper/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "14 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T19:12:02Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
       "score": 6.5,
       "tags": [
-        "semiconductor"
+        "ai"
       ]
     },
     {
-      "id": "sig-1ltgaur",
-      "title": "Why Photonic Design Is Becoming a System-Level Challenge",
-      "url": "https://semiengineering.com/why-photonic-design-is-becoming-a-system-level-challenge/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "A component can meet its individual design targets and still behave differently as part of a complete optical link. The post Why Photonic Design Is Becoming a System-Level Challenge appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:07:22.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 6.5,
+      "id": "sig-1rl94lb",
+      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "url": "https://jobs.ashbyhq.com/weave-os",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T17:00:55Z",
+      "fetchedAt": "2026-11-24T20:21:56.277Z",
+      "score": 6.4,
       "tags": [
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1966uqw",
-      "title": "Designing A Microarchitecture From Formal Proof To Full-System",
-      "url": "https://semiengineering.com/designing-a-microarchitecture-from-formal-proof-to-full-system/",
-      "source": "Semiconductor Engineering",
-      "category": "systems",
-      "summary": "Combining architectural proof, software-driven verification, simulation, emulation, and cloud-based compute infrastructure. The post Designing A Microarchitecture From Formal Proof To Full-System appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-24T08:06:57.000Z",
-      "fetchedAt": "2026-11-24T09:40:29.045Z",
-      "score": 6.5,
-      "tags": [
-        "semiconductor"
+        "ai"
       ]
     }
   ]
