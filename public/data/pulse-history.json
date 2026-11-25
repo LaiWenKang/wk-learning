@@ -1,6 +1,329 @@
 {
-  "updatedAt": "2026-11-24T20:21:56.277Z",
+  "updatedAt": "2026-11-25T03:34:58.587Z",
   "signals": [
+    {
+      "id": "sig-kbabbt",
+      "title": "Podcast #158: DapuStor’s Roger Peene on 512TB SSDs, Storage Class Memory, and PCIe Gen6",
+      "url": "https://www.storagereview.com/podcast/podcast-158-dapustor-roger-peene-512tb-ssd-scm-pcie-gen6-sc26",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-24T21:21:24.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 10,
+      "tags": [
+        "pcie",
+        "gen6",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-ci3aw",
+      "title": "SC26 Roundup: Record-Low TOP500 Turnover, Supermicro Ships PCIe Gen6 Flash, and VAST Adds Job-Level QoS",
+      "url": "https://www.storagereview.com/news/sc26-roundup-top500-aic-msi-marvell-compal",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-19T23:45:51.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 9.5,
+      "tags": [
+        "pcie",
+        "gen6",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-qcekzi",
+      "title": "HighPoint PAE Bundles Move 600W RTX PRO Blackwell GPUs to an External 1300W Enclosure Over PCIe Gen5 x16",
+      "url": "https://www.storagereview.com/news/highpoint-pae-bundles-external-rtx-pro-blackwell-gpu-pcie-gen5-x16-copprlink",
+      "source": "StorageReview",
+      "category": "semiconductor",
+      "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-23T17:47:55.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 9.1,
+      "tags": [
+        "pcie",
+        "gen5"
+      ]
+    },
+    {
+      "id": "sig-3vw5r1",
+      "title": "AI Vs. High-Level Synthesis",
+      "url": "https://semiengineering.com/ai-vs-high-level-synthesis/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:11:34.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 8.5,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-rg15tv",
+      "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
+      "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:03:55.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 8.5,
+      "tags": [
+        "semiconductor",
+        "communication",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-7pn8wh",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.9,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-18kfpj0",
+      "title": "Why AI Struggles To Reuse Chip Designs",
+      "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:11:47.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-1s3h1dt",
+      "title": "AI Can Read The Code, But Can It Understand The Chip?",
+      "url": "https://semiengineering.com/ai-can-read-the-code-but-can-it-understand-the-chip/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Frontier models are improving design automation, but layouts, waveforms, and other semiconductor-specific data presents challenges that general-purpose AI has yet to fully overcome. The post AI Can Read The Code, But Can It Understand The Chip? appeared first on Semiconductor Eng",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:11:31.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-8664r1",
+      "title": "How Can AI Build Faster And Better Silicon For Physical AI?",
+      "url": "https://semiengineering.com/how-can-ai-build-faster-and-better-silicon-for-physical-ai/",
+      "source": "Semiconductor Engineering",
+      "category": "ai",
+      "summary": "Shortening the path from design intent to verified implementation could put custom silicon within reach of more teams. The post How Can AI Build Faster And Better Silicon For Physical AI? appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T08:04:22.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.5,
+      "tags": [
+        "ai",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-yufrty",
+      "title": "GERF: A Token-Efficient Multimodal Retrieval Framework for Schema-Guided Scientific Information Extraction",
+      "url": "https://arxiv.org/abs/2611.28295",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.28295v1 Announce Type: new Abstract: Scientific information extraction (IE) is a fundamental component of AI for Science, transforming experimental knowledge embedded in scientific literature into structured and traceable data for evidence synthesis, scientific databas",
+      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-yufsgy",
+      "title": "Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models",
+      "url": "https://arxiv.org/abs/2611.28318",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.28318v1 Announce Type: new Abstract: Can changing which matrices receive 2, 4, or 8 bits improve a small language model without increasing its parameter storage? I compare two parent-selection rules in the same genetic algorithm: a binary-tournament variant and an Alte",
+      "whyItMatters": "Touches language model, storage — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "language model",
+        "storage"
+      ]
+    },
+    {
+      "id": "sig-yufqx1",
+      "title": "SecretSifter: A Runtime Secret-Detection Engine for Live Web Traffic",
+      "url": "https://arxiv.org/abs/2611.28168",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "programming",
+      "summary": "arXiv:2611.28168v1 Announce Type: new Abstract: Credentials embedded in client-delivered web artifacts, such as minified JavaScript bundles, webpack chunks, server-side-rendered state objects, and JSON or XML API responses, form a runtime attack surface that repository-time (shif",
+      "whyItMatters": "Touches javascript, embedded — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "javascript",
+        "embedded"
+      ]
+    },
+    {
+      "id": "sig-yufvsx",
+      "title": "Zero-Trust Formal Methods: AI Agents Build Verified Checkers for Untrusted Solvers",
+      "url": "https://arxiv.org/abs/2611.28704",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.28704v1 Announce Type: new Abstract: AI coding agents now generate code faster than humans can review it. Security analyses rely on solver answers such as \"unsatisfiable\" (for example, no attack path exists) or \"optimal.\" Unlike satisfying models, they cannot be checke",
+      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-yufxpq",
+      "title": "\"What Should I Do?\" Guidelines for Responsibly Integrating AI in Software Engineering",
+      "url": "https://arxiv.org/abs/2611.28996",
+      "source": "arXiv cs.SE (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.28996v1 Announce Type: new Abstract: Speculations abound about the \"right\" ways for developers to integrate AI into their software engineering (SE) work, but the evidence that exists is sparse and contradictory. Yet, developers are held responsible for the products the",
+      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "ai",
+        "software engineering"
+      ]
+    },
+    {
+      "id": "sig-yugm1y",
+      "title": "LLM-Assisted Co-Optimization of RTL and Synthesis Algorithms via Bottleneck Analysis",
+      "url": "https://arxiv.org/abs/2611.29582",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.29582v1 Announce Type: new Abstract: Post-synthesis power, performance, and area (PPA) depend jointly on the register-transfer-level (RTL) code and the synthesis algorithms. However, the benefits of RTL optimization may be limited by bottlenecks in synthesis algorithms",
+      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7.4,
+      "tags": [
+        "llm",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-pbx3ow",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison's Weblog",
+      "category": "programming",
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
+      "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1tvtmh7",
+      "title": "EL4CTEO/fast-anything (Rust) — trending new repo",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3651",
+      "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-21T14:40:27Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7,
+      "tags": [
+        "coding agent",
+        "python",
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1dah4az",
+      "title": "Graid VROC Is Coming to AMD EPYC in February 2027, Starting With Linux RAID 1 Boot Drives",
+      "url": "https://www.storagereview.com/news/graid-vroc-amd-epyc-february-2027-linux-raid-1-boot",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-20T17:17:15.000Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 7,
+      "tags": [
+        "nvme",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-vfmrmy",
+      "title": "fxceless/victory-fork (Rust) — trending new repo",
+      "url": "https://github.com/fxceless/victory-fork",
+      "source": "GitHub trending new repos (search API)",
+      "category": "programming",
+      "summary": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files. · ★ 2124",
+      "whyItMatters": "Touches rust — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-24T18:02:37Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 6.2,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "sig-1rl94lb",
+      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "url": "https://jobs.ashbyhq.com/weave-os",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T17:00:55Z",
+      "fetchedAt": "2026-11-25T03:34:58.587Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
     {
       "id": "sig-nafvu3",
       "title": "Microchip Flashtec NVMe 4016 Controller Features 16 NAND Channels and Over 14 GB/s",
@@ -38,267 +361,6 @@
       ]
     },
     {
-      "id": "sig-ci3aw",
-      "title": "SC26 Roundup: Record-Low TOP500 Turnover, Supermicro Ships PCIe Gen6 Flash, and VAST Adds Job-Level QoS",
-      "url": "https://www.storagereview.com/news/sc26-roundup-top500-aic-msi-marvell-compal",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "SC26 is under way at McCormick Place in Chicago, and behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture. The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 pr",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-19T23:45:51.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 9.5,
-      "tags": [
-        "pcie",
-        "gen6",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-qcekzi",
-      "title": "HighPoint PAE Bundles Move 600W RTX PRO Blackwell GPUs to an External 1300W Enclosure Over PCIe Gen5 x16",
-      "url": "https://www.storagereview.com/news/highpoint-pae-bundles-external-rtx-pro-blackwell-gpu-pcie-gen5-x16-copprlink",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 9.3,
-      "tags": [
-        "pcie",
-        "gen5"
-      ]
-    },
-    {
-      "id": "sig-3vw5r1",
-      "title": "AI Vs. High-Level Synthesis",
-      "url": "https://semiengineering.com/ai-vs-high-level-synthesis/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 8.7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-rg15tv",
-      "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
-      "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 8.7,
-      "tags": [
-        "semiconductor",
-        "communication",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-18kfpj0",
-      "title": "Why AI Struggles To Reuse Chip Designs",
-      "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:11:47.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-1s3h1dt",
-      "title": "AI Can Read The Code, But Can It Understand The Chip?",
-      "url": "https://semiengineering.com/ai-can-read-the-code-but-can-it-understand-the-chip/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Frontier models are improving design automation, but layouts, waveforms, and other semiconductor-specific data presents challenges that general-purpose AI has yet to fully overcome. The post AI Can Read The Code, But Can It Understand The Chip? appeared first on Semiconductor Eng",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:11:31.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-8664r1",
-      "title": "How Can AI Build Faster And Better Silicon For Physical AI?",
-      "url": "https://semiengineering.com/how-can-ai-build-faster-and-better-silicon-for-physical-ai/",
-      "source": "Semiconductor Engineering",
-      "category": "ai",
-      "summary": "Shortening the path from design intent to verified implementation could put custom silicon within reach of more teams. The post How Can AI Build Faster And Better Silicon For Physical AI? appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T08:04:22.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.7,
-      "tags": [
-        "ai",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-yufrty",
-      "title": "GERF: A Token-Efficient Multimodal Retrieval Framework for Schema-Guided Scientific Information Extraction",
-      "url": "https://arxiv.org/abs/2611.28295",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.28295v1 Announce Type: new Abstract: Scientific information extraction (IE) is a fundamental component of AI for Science, transforming experimental knowledge embedded in scientific literature into structured and traceable data for evidence synthesis, scientific databas",
-      "whyItMatters": "Touches ai, embedded — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-yufsgy",
-      "title": "Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models",
-      "url": "https://arxiv.org/abs/2611.28318",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.28318v1 Announce Type: new Abstract: Can changing which matrices receive 2, 4, or 8 bits improve a small language model without increasing its parameter storage? I compare two parent-selection rules in the same genetic algorithm: a binary-tournament variant and an Alte",
-      "whyItMatters": "Touches language model, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "language model",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-yufqx1",
-      "title": "SecretSifter: A Runtime Secret-Detection Engine for Live Web Traffic",
-      "url": "https://arxiv.org/abs/2611.28168",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.28168v1 Announce Type: new Abstract: Credentials embedded in client-delivered web artifacts, such as minified JavaScript bundles, webpack chunks, server-side-rendered state objects, and JSON or XML API responses, form a runtime attack surface that repository-time (shif",
-      "whyItMatters": "Touches javascript, embedded — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "javascript",
-        "embedded"
-      ]
-    },
-    {
-      "id": "sig-yufvsx",
-      "title": "Zero-Trust Formal Methods: AI Agents Build Verified Checkers for Untrusted Solvers",
-      "url": "https://arxiv.org/abs/2611.28704",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.28704v1 Announce Type: new Abstract: AI coding agents now generate code faster than humans can review it. Security analyses rely on solver answers such as \"unsatisfiable\" (for example, no attack path exists) or \"optimal.\" Unlike satisfying models, they cannot be checke",
-      "whyItMatters": "Touches ai, security — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "security"
-      ]
-    },
-    {
-      "id": "sig-yufxpq",
-      "title": "\"What Should I Do?\" Guidelines for Responsibly Integrating AI in Software Engineering",
-      "url": "https://arxiv.org/abs/2611.28996",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.28996v1 Announce Type: new Abstract: Speculations abound about the \"right\" ways for developers to integrate AI into their software engineering (SE) work, but the evidence that exists is sparse and contradictory. Yet, developers are held responsible for the products the",
-      "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "ai",
-        "software engineering"
-      ]
-    },
-    {
-      "id": "sig-yugm1y",
-      "title": "LLM-Assisted Co-Optimization of RTL and Synthesis Algorithms via Bottleneck Analysis",
-      "url": "https://arxiv.org/abs/2611.29582",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.29582v1 Announce Type: new Abstract: Post-synthesis power, performance, and area (PPA) depend jointly on the register-transfer-level (RTL) code and the synthesis algorithms. However, the benefits of RTL optimization may be limited by bottlenecks in synthesis algorithms",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.6,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-pbx3ow",
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
-      "source": "Simon Willison's Weblog",
-      "category": "programming",
-      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
-      "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-21T23:56:28.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7.1,
-      "tags": [
-        "ai",
-        "python",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1tvtmh7",
-      "title": "EL4CTEO/fast-anything (Rust) — trending new repo",
-      "url": "https://github.com/EL4CTEO/fast-anything",
-      "source": "GitHub trending new repos (search API)",
-      "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3560",
-      "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7,
-      "tags": [
-        "coding agent",
-        "python",
-        "rust"
-      ]
-    },
-    {
-      "id": "sig-1dah4az",
-      "title": "Graid VROC Is Coming to AMD EPYC in February 2027, Starting With Linux RAID 1 Boot Drives",
-      "url": "https://www.storagereview.com/news/graid-vroc-amd-epyc-february-2027-linux-raid-1-boot",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 7,
-      "tags": [
-        "nvme",
-        "linux"
-      ]
-    },
-    {
       "id": "sig-65idx0",
       "title": "Compiling Web Applications into Verified Operations for AI Agents",
       "url": "https://protocolis.co/paper/",
@@ -309,20 +371,6 @@
       "publishedAt": "2026-11-24T19:12:02Z",
       "fetchedAt": "2026-11-24T20:21:56.277Z",
       "score": 6.5,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1rl94lb",
-      "title": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
-      "url": "https://jobs.ashbyhq.com/weave-os",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T17:00:55Z",
-      "fetchedAt": "2026-11-24T20:21:56.277Z",
-      "score": 6.4,
       "tags": [
         "ai"
       ]
@@ -1828,151 +1876,6 @@
       "score": 6.4,
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "id": "sig-ytr9gl",
-      "title": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
-      "url": "https://arxiv.org/abs/2611.19861",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.19861v1 Announce Type: new Abstract: High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult t",
-      "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 9.9,
-      "tags": [
-        "nand",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytqf8h",
-      "title": "Towards Sustainable Large Language Model Inference: A Systematic Literature Review",
-      "url": "https://arxiv.org/abs/2611.18570",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.18570v1 Announce Type: new Abstract: Large language model (LLM) inference is becoming a significant contributor to both operational cost and environmental impact in modern AI deployments. Energy consumption during inference depends on multiple factors across the pipeli",
-      "whyItMatters": "Touches ai, llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 8.4,
-      "tags": [
-        "ai",
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytr4g8",
-      "title": "Rethinking KV Caching for LLM Decode: Free-Space Optical KV Regeneration for Reduction of Memory Traffic",
-      "url": "https://arxiv.org/abs/2611.19279",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.19279v1 Announce Type: new Abstract: Long-context large language model (LLM) decoding repeatedly reads the historical key-value (KV) cache, making multi-head attention (MHA) memory-bandwidth-bound. Caching layer-input activations instead halves historical-cache storage",
-      "whyItMatters": "Touches llm, language model, storage — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 8.4,
-      "tags": [
-        "llm",
-        "language model",
-        "storage"
-      ]
-    },
-    {
-      "id": "sig-1v9z21x",
-      "title": "How the Claude Code team thinks about verification",
-      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "262 points on Hacker News",
-      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T10:20:40Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.6,
-      "tags": [
-        "claude code",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-ytqifa",
-      "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
-      "url": "https://arxiv.org/abs/2611.18908",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.18908v1 Announce Type: new Abstract: Alignment-trained large language model (LLM) agents are increasingly deployed in autonomous, multi-round settings where ethical compliance can come into direct tension with task success. While safety literature extensively documents",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-ytr2ql",
-      "title": "Large Language Models for AI Infrastructure",
-      "url": "https://arxiv.org/abs/2611.19061",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.19061v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to design, optimize, and operate the infrastructure behind AI training and serving, yet the literature remains fragmented across hardware design, machine learning systems, electroni",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-ytqing",
-      "title": "NEMESIS2.0: LLM-Aided Netlist-Driven Performance Equation Modeling for Accelerated Analog Circuit Sizing",
-      "url": "https://arxiv.org/abs/2611.18995",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.18995v1 Announce Type: new Abstract: This work presents NEMESIS2.0, an open-source LLM-aided framework that automatically derives equation-based performance models for analog circuits. The resulting equations provide fast, accurate surrogates for SPICE evaluation. To v",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-ytr8ip",
-      "title": "MIAO: Microscaling Intermediate Accumulation Optimization",
-      "url": "https://arxiv.org/abs/2611.19722",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.19722v1 Announce Type: new Abstract: Microscaling (MX) quantization enables lower-precision large language model (LLM) inference with limited accuracy degradation, reducing memory requirement and multiplication cost. However, despite reduced operand precision, accumula",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-18gan9x",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 710 # Comments: 591",
-      "whyItMatters": "Observability features are test surfaces too: log pages, thresholds and field-debug paths need the same rigor as the data path.",
-      "publishedAt": "2026-11-16T22:58:20.000Z",
-      "fetchedAt": "2026-11-18T01:37:56.533Z",
-      "score": 6.8,
-      "tags": [
-        "telemetry"
       ]
     }
   ]
