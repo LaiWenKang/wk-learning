@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:16:21.032Z",
+  "updatedAt": "2026-11-26T23:01:23.884Z",
   "signals": [
     {
       "id": "sig-12gzvxt",
@@ -10,7 +10,7 @@
       "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides. The ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-25T08:01:01.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-24T21:21:24.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -44,28 +44,12 @@
       "summary": "arXiv:2611.34669v1 Announce Type: new Abstract: During independent home study sessions, students frequently sustain improper sitting postures, accumulate excessive sedentary hours, and experience productivity loss from off-task digital distractions. Furthermore, learners often la",
       "whyItMatters": "Touches ai, embedded, productivity — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 8.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 8.5,
       "tags": [
         "ai",
         "embedded",
         "productivity"
-      ]
-    },
-    {
-      "id": "sig-tekuh7",
-      "title": "Blog Review: Nov. 25",
-      "url": "https://semiengineering.com/blog-review-nov-25-3/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-25T08:01:39.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 8.2,
-      "tags": [
-        "pcie",
-        "semiconductor"
       ]
     },
     {
@@ -77,11 +61,43 @@
       "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 8.1,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-tekuh7",
+      "title": "Blog Review: Nov. 25",
+      "url": "https://semiengineering.com/blog-review-nov-25-3/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-25T08:01:39.000Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.9,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-hgtwx5",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.8,
+      "tags": [
+        "ai",
+        "claude"
       ]
     },
     {
@@ -93,8 +109,8 @@
       "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuni",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "performance"
@@ -109,8 +125,8 @@
       "summary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform un",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -125,8 +141,8 @@
       "summary": "arXiv:2611.33314v1 Announce Type: new Abstract: AI-assisted coding ranges from fully agentic coding to inline code suggestions in the editor. Inline suggestions require predicting a developer's most likely next edit from an editing session. The next edit may lie at the cursor, in",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "github"
@@ -141,8 +157,8 @@
       "summary": "arXiv:2611.33227v1 Announce Type: cross Abstract: Language models can generate Python that drives industrial protocols on programmable logic controllers, yet existing code-grounding checks ask whether an imported package or symbol exists rather than whether it suits the declared ",
       "whyItMatters": "Touches llm, python — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "python"
@@ -157,8 +173,8 @@
       "summary": "arXiv:2611.33346v1 Announce Type: new Abstract: Recent large language model (LLM)-guided evolutionary approaches have demonstrated the potential to automate microarchitectural design exploration. However, existing approaches primarily evolve C++ simulator code rather than reasoni",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "language model"
@@ -173,27 +189,27 @@
       "summary": "arXiv:2611.33691v1 Announce Type: new Abstract: Long-context inference is a rising demand for LLMs, especially for agent applications. Sparse attention (SpAt) and chiplet technology are promising solutions to reduce computations and scale hardware performance. However, deploying ",
       "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.7,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.5,
       "tags": [
         "llm",
         "performance"
       ]
     },
     {
-      "id": "sig-19126fx",
-      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "177 points on Hacker News",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-25T20:35:50Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.5,
+      "id": "sig-g9vpmu",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "source": "Hacker News Best",
+      "category": "ai",
+      "summary": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 543 # Comments: 344",
+      "whyItMatters": "Touches anthropic, github — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-25T21:48:10.000Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.3,
       "tags": [
-        "linux",
-        "kernel"
+        "anthropic",
+        "github"
       ]
     },
     {
@@ -205,8 +221,8 @@
       "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "semiconductor",
@@ -222,8 +238,8 @@
       "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.3,
       "tags": [
         "semiconductor",
         "communication",
@@ -239,8 +255,8 @@
       "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-25T16:00:00.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 7.4,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 7.1,
       "tags": [
         "ai",
         "github"
@@ -252,10 +268,10 @@
       "url": "https://github.com/EL4CTEO/fast-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 4143",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 4215",
       "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
       "score": 7,
       "tags": [
         "coding agent",
@@ -272,7 +288,7 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -288,11 +304,42 @@
       "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T23:02:07.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 6.7,
       "tags": [
         "ai",
         "llm"
+      ]
+    },
+    {
+      "id": "sig-146qg1o",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "76 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-26T21:47:45Z",
+      "fetchedAt": "2026-11-26T23:01:23.884Z",
+      "score": 6.5,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-19126fx",
+      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "177 points on Hacker News",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-25T20:35:50Z",
+      "fetchedAt": "2026-11-26T14:16:21.032Z",
+      "score": 7.5,
+      "tags": [
+        "linux",
+        "kernel"
       ]
     },
     {
@@ -1849,39 +1896,6 @@
       "score": 7.6,
       "tags": [
         "storage",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-xheety",
-      "title": "Seagate Launches Nytro 4350 NVMe SSDs Boasting 6,800 MB/s Reads and Up to 7.68 TB",
-      "url": "https://www.storagereview.com/news/seagate-launches-nytro-4350-nvme-ssds-boasting-6800-mb-s-reads-and-up-to-7-68-tb",
-      "source": "StorageReview",
-      "category": "semiconductor",
-      "summary": "Seagate has announced the launch of the Nytro 4350 NVMe SSD, with capacities ranging from 1.92 TB to 7.68 TB for data center and enterprise applications. The company rates the drive for sequential read speeds up to 6,800 MB/s and write speeds up to 4,000 MB/s. The announcement do",
-      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
-      "publishedAt": "2026-11-18T19:13:09.000Z",
-      "fetchedAt": "2026-11-19T16:50:07.308Z",
-      "score": 10,
-      "tags": [
-        "ssd",
-        "nvme",
-        "seagate"
-      ]
-    },
-    {
-      "id": "sig-gb1gv6",
-      "title": "Seven new models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-      "source": "Hacker News Best",
-      "category": "ai",
-      "summary": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 585 # Comments: 365",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-18T16:08:24.000Z",
-      "fetchedAt": "2026-11-19T16:50:07.308Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
         "performance"
       ]
     }
