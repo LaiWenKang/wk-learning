@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T22:40:50.095Z",
+  "generatedAt": "2026-11-26T04:27:29.791Z",
   "signals": [
     {
       "id": "sig-12gzvxt",
@@ -10,7 +10,7 @@
       "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides. The ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-25T08:01:01.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
       "score": 10,
       "tags": [
         "nand",
@@ -27,7 +27,7 @@
       "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-24T21:21:24.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
       "score": 10,
       "tags": [
         "pcie",
@@ -44,28 +44,11 @@
       "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-25T08:01:39.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 8.6,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 8.4,
       "tags": [
         "pcie",
         "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-yuzwrk",
-      "title": "RTLDetective: Agentic RTL Debugging through Dataflow Analysis and Simulation-Guided Fault Localization",
-      "url": "https://arxiv.org/abs/2611.31709",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.31709v1 Announce Type: new Abstract: Large language model (LLM) agents have shown promise in RTL debugging, yet accurately localizing functional errors and generating reliable repairs remain challenging. We propose RTLDetective, a multi-agent framework that integrates ",
-      "whyItMatters": "Touches llm, language model, debugging — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 8.5,
-      "tags": [
-        "llm",
-        "language model",
-        "debugging"
       ]
     },
     {
@@ -77,11 +60,28 @@
       "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 8.5,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 8.4,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-yuzwrk",
+      "title": "RTLDetective: Agentic RTL Debugging through Dataflow Analysis and Simulation-Guided Fault Localization",
+      "url": "https://arxiv.org/abs/2611.31709",
+      "source": "arXiv cs.AR (hardware architecture)",
+      "category": "ai",
+      "summary": "arXiv:2611.31709v1 Announce Type: new Abstract: Large language model (LLM) agents have shown promise in RTL debugging, yet accurately localizing functional errors and generating reliable repairs remain challenging. We propose RTLDetective, a multi-agent framework that integrates ",
+      "whyItMatters": "Touches llm, language model, debugging — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 8.3,
+      "tags": [
+        "llm",
+        "language model",
+        "debugging"
       ]
     },
     {
@@ -90,11 +90,11 @@
       "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
       "source": "Hacker News (front page)",
       "category": "systems",
-      "summary": "32 points on Hacker News",
+      "summary": "107 points on Hacker News",
       "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-25T20:35:50Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.8,
       "tags": [
         "linux",
         "kernel"
@@ -109,8 +109,8 @@
       "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.8,
       "tags": [
         "ai",
         "semiconductor",
@@ -126,8 +126,8 @@
       "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.8,
       "tags": [
         "semiconductor",
         "communication",
@@ -143,8 +143,8 @@
       "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
       "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-25T16:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.7,
       "tags": [
         "ai",
         "github"
@@ -159,8 +159,8 @@
       "summary": "arXiv:2611.31421v1 Announce Type: new Abstract: GitHub Actions workflows automate continuous integration and delivery (CI/CD), and workflow smells are recurring configuration patterns that may weaken security, hinder maintenance, or waste resources. Extending static analyzers to ",
       "whyItMatters": "Touches github, security — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-25T05:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.3,
       "tags": [
         "github",
         "security"
@@ -175,8 +175,8 @@
       "summary": "arXiv:2611.31460v1 Announce Type: new Abstract: Coding agents open many pull requests (PRs) that claim to make software faster. Most such claims also give a reason, such as \"cache the result\" or \"read the file once\". A stopwatch can show that code got faster, but not that it got ",
       "whyItMatters": "Touches kernel, performance — relevant to building stronger systems intuition.",
       "publishedAt": "2026-11-25T05:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.3,
       "tags": [
         "kernel",
         "performance"
@@ -191,8 +191,8 @@
       "summary": "arXiv:2611.31927v1 Announce Type: new Abstract: The use of AI agents in software engineering (SE) are commonplace, with differing levels of autonomy, a myriad of capabilities, and ability to perform a variety of tasks. Philosophers have begun to examine the ethics of such agents,",
       "whyItMatters": "Touches ai, software engineering — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-25T05:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "software engineering"
@@ -207,8 +207,8 @@
       "summary": "arXiv:2611.31937v1 Announce Type: new Abstract: Some key execution states in large language model inference persist across multiple instructions and are difficult to express and exploit within RVV semantics centered on individual operations. We define specialization boundaries ac",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-25T05:00:00.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "language model"
@@ -223,8 +223,8 @@
       "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
       "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T23:02:07.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "llm"
@@ -239,7 +239,7 @@
       "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo",
       "whyItMatters": "Touches ai, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T23:56:28.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
       "score": 7,
       "tags": [
         "ai",
@@ -253,10 +253,10 @@
       "url": "https://github.com/EL4CTEO/fast-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 3936",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 4033",
       "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
       "score": 7,
       "tags": [
         "coding agent",
@@ -273,7 +273,7 @@
       "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
       "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
       "publishedAt": "2026-11-20T17:17:15.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
       "score": 7,
       "tags": [
         "nvme",
@@ -289,8 +289,8 @@
       "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:47.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "semiconductor"
@@ -305,8 +305,8 @@
       "summary": "Frontier models are improving design automation, but layouts, waveforms, and other semiconductor-specific data presents challenges that general-purpose AI has yet to fully overcome. The post AI Can Read The Code, But Can It Understand The Chip? appeared first on Semiconductor Eng",
       "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:31.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "semiconductor"
@@ -321,8 +321,8 @@
       "summary": "Shortening the path from design intent to verified implementation could put custom silicon within reach of more teams. The post How Can AI Build Faster And Better Silicon For Physical AI? appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-24T08:04:22.000Z",
-      "fetchedAt": "2026-11-25T22:40:50.095Z",
-      "score": 6.9,
+      "fetchedAt": "2026-11-26T04:27:29.791Z",
+      "score": 6.8,
       "tags": [
         "ai",
         "semiconductor"
