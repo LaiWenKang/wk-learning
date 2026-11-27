@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T04:54:19.383Z",
+  "generatedAt": "2026-11-27T14:52:35.236Z",
   "signals": [
     {
       "id": "sig-1b9xsvb",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia GP2 series offers 18M IOPS and a 50DWPD rating to try to service a tier between DRAM and traditional TLC NAND The post Kioxia Announces GP2 Series SSD with Over 18 Million Random Read IOPS appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-27T04:08:01.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "KIOXIA has announced the GP2 Series, the second drive in its GP Series of Super High IOPS SSDs built for direct GPU access. The company rates the GP2 at more than 18 million random read IOPS at a 512-byte block size, nearly double the 10 million of the GP1 Series it introduced in",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-26T23:07:20.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,7 +45,7 @@
       "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides. The ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-25T08:01:01.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 10,
       "tags": [
         "nand",
@@ -62,29 +62,12 @@
       "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-24T21:21:24.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 10,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 9.7,
       "tags": [
         "pcie",
         "gen6",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-yv279k",
-      "title": "An Embedded Ergonomic Posture Monitoring and AI-Assisted Home Learning System on a Raspberry Pi 3B Edge Platform",
-      "url": "https://arxiv.org/abs/2611.34669",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.34669v1 Announce Type: new Abstract: During independent home study sessions, students frequently sustain improper sitting postures, accumulate excessive sedentary hours, and experience productivity loss from off-task digital distractions. Furthermore, learners often la",
-      "whyItMatters": "Touches ai, embedded, productivity — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 8.3,
-      "tags": [
-        "ai",
-        "embedded",
-        "productivity"
       ]
     },
     {
@@ -96,11 +79,43 @@
       "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-yv1bek",
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuni",
+      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7.7,
+      "tags": [
+        "ai",
+        "performance"
+      ]
+    },
+    {
+      "id": "sig-yv1dvh",
+      "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+      "url": "https://arxiv.org/abs/2611.33470",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform un",
+      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7.7,
+      "tags": [
+        "llm",
+        "language model"
       ]
     },
     {
@@ -109,11 +124,11 @@
       "url": "https://github.com/nexu-io/opengame",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 128",
+      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 189",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-25T10:35:45Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7.5,
       "tags": [
         "ai",
         "claude code",
@@ -130,8 +145,8 @@
       "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-25T08:01:39.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.8,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7.5,
       "tags": [
         "pcie",
         "semiconductor"
@@ -146,107 +161,11 @@
       "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T15:09:31.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.6,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "claude"
-      ]
-    },
-    {
-      "id": "sig-yv1bek",
-      "title": "General-Purpose Decision Models for AI Configuration Tuning",
-      "url": "https://arxiv.org/abs/2611.33190",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuni",
-      "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "performance"
-      ]
-    },
-    {
-      "id": "sig-yv1dvh",
-      "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
-      "url": "https://arxiv.org/abs/2611.33470",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform un",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yv1cvu",
-      "title": "Building a Unified Inline Code Editing Model for GitHub Copilot",
-      "url": "https://arxiv.org/abs/2611.33314",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.33314v1 Announce Type: new Abstract: AI-assisted coding ranges from fully agentic coding to inline code suggestions in the editor. Inline suggestions require predicting a developer's most likely next edit from an editing session. The next edit may lie at the cursor, in",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-yv1c2l",
-      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
-      "url": "https://arxiv.org/abs/2611.33227",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.33227v1 Announce Type: cross Abstract: Language models can generate Python that drives industrial protocols on programmable logic controllers, yet existing code-grounding checks ask whether an imported package or symbol exists rather than whether it suits the declared ",
-      "whyItMatters": "Touches llm, python — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "python"
-      ]
-    },
-    {
-      "id": "sig-yv1cyn",
-      "title": "NEVA: Natural-Language Co-Evolution and Validation of Microarchitectures",
-      "url": "https://arxiv.org/abs/2611.33346",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.33346v1 Announce Type: new Abstract: Recent large language model (LLM)-guided evolutionary approaches have demonstrated the potential to automate microarchitectural design exploration. However, existing approaches primarily evolve C++ simulator code rather than reasoni",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yv1flu",
-      "title": "L2C2: Enhancing Large-scale Chiplets for Agent Long-Context LLM Inference with Sparse and Distributed Attention",
-      "url": "https://arxiv.org/abs/2611.33691",
-      "source": "arXiv cs.AR (hardware architecture)",
-      "category": "ai",
-      "summary": "arXiv:2611.33691v1 Announce Type: new Abstract: Long-context inference is a rising demand for LLMs, especially for agent applications. Sparse attention (SpAt) and chiplet technology are promising solutions to reduce computations and scale hardware performance. However, deploying ",
-      "whyItMatters": "Touches llm, performance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.3,
-      "tags": [
-        "llm",
-        "performance"
       ]
     },
     {
@@ -258,8 +177,8 @@
       "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.1,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7,
       "tags": [
         "ai",
         "semiconductor",
@@ -275,28 +194,12 @@
       "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7.1,
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7,
       "tags": [
         "semiconductor",
         "communication",
         "security"
-      ]
-    },
-    {
-      "id": "sig-iwjv2e",
-      "title": "Art of play in the age of AI",
-      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-25T16:00:00.000Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "github"
       ]
     },
     {
@@ -305,10 +208,10 @@
       "url": "https://github.com/qianyiai/KuroCat",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣 · ★ 1494",
+      "summary": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣 · ★ 1725",
       "whyItMatters": "Touches ai, claude, typescript — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-21T15:49:31Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 7,
       "tags": [
         "ai",
@@ -324,15 +227,107 @@
       "url": "https://github.com/EL4CTEO/fast-anything",
       "source": "GitHub trending new repos (search API)",
       "category": "programming",
-      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 4284",
+      "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · ★ 4403",
       "whyItMatters": "Touches coding agent, python, rust — relevant to sharpening day-to-day engineering skills.",
       "publishedAt": "2026-11-21T14:40:27Z",
-      "fetchedAt": "2026-11-27T04:54:19.383Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
       "score": 7,
       "tags": [
         "coding agent",
         "python",
         "rust"
+      ]
+    },
+    {
+      "id": "sig-1dah4az",
+      "title": "Graid VROC Is Coming to AMD EPYC in February 2027, Starting With Linux RAID 1 Boot Drives",
+      "url": "https://www.storagereview.com/news/graid-vroc-amd-epyc-february-2027-linux-raid-1-boot",
+      "source": "StorageReview",
+      "category": "systems",
+      "summary": "Graid Technology plans to bring VROC, the CPU-based NVMe RAID stack it took over from Intel, to AMD EPYC servers. The first release is scheduled for February 2027 with Linux support and RAID 1 protection for boot drives, and it requires no dedicated RAID controller. For server bu",
+      "whyItMatters": "Protocol/spec movement usually lands in firmware as new commands and state machines — conformance, regression and error-path coverage follow.",
+      "publishedAt": "2026-11-20T17:17:15.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 7,
+      "tags": [
+        "nvme",
+        "linux"
+      ]
+    },
+    {
+      "id": "sig-iwjv2e",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-25T16:00:00.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1i5szl0",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "15 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T11:41:11Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1aqn4fp",
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "468 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T06:44:34Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-yv1bbt",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readin",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-yv1bbu",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI (new submissions)",
+      "category": "ai",
+      "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mat",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "fetchedAt": "2026-11-27T14:52:35.236Z",
+      "score": 6.2,
+      "tags": [
+        "llm"
       ]
     }
   ]
