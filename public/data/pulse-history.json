@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T23:20:13.929Z",
+  "updatedAt": "2026-11-28T04:45:55.915Z",
   "signals": [
     {
       "id": "sig-1b9xsvb",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia GP2 series offers 18M IOPS and a 50DWPD rating to try to service a tier between DRAM and traditional TLC NAND The post Kioxia Announces GP2 Series SSD with Over 18 Million Random Read IOPS appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-27T04:08:01.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "KIOXIA has announced the GP2 Series, the second drive in its GP Series of Super High IOPS SSDs built for direct GPU access. The company rates the GP2 at more than 18 million random read IOPS at a 512-byte block size, nearly double the 10 million of the GP1 Series it introduced in",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-26T23:07:20.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,7 +45,7 @@
       "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides. The ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-25T08:01:01.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 10,
       "tags": [
         "nand",
@@ -62,12 +62,28 @@
       "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-24T21:21:24.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 9.5,
       "tags": [
         "pcie",
         "gen6",
         "storage"
+      ]
+    },
+    {
+      "id": "sig-nvuvfl",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "38 points on Hacker News",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-28T03:19:20Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 8,
+      "tags": [
+        "linux",
+        "kernel"
       ]
     },
     {
@@ -79,7 +95,7 @@
       "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 8,
       "tags": [
         "pcie",
@@ -95,8 +111,8 @@
       "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuni",
       "whyItMatters": "Touches ai, performance — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-27T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 7.3,
       "tags": [
         "ai",
         "performance"
@@ -111,8 +127,8 @@
       "summary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform un",
       "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-27T05:00:00.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 7.5,
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 7.3,
       "tags": [
         "llm",
         "language model"
@@ -124,11 +140,11 @@
       "url": "https://github.com/nexu-io/opengame",
       "source": "GitHub trending new repos (search API)",
       "category": "ai",
-      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 221",
+      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 240",
       "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-25T10:35:45Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 7.3,
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 7.2,
       "tags": [
         "ai",
         "claude code",
@@ -145,8 +161,8 @@
       "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-25T08:01:39.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 7.2,
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 7.1,
       "tags": [
         "pcie",
         "semiconductor"
@@ -161,8 +177,8 @@
       "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
       "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
       "publishedAt": "2026-11-26T15:09:31.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 7.1,
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 7,
       "tags": [
         "ai",
         "claude"
@@ -177,7 +193,7 @@
       "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 7,
       "tags": [
         "ai",
@@ -194,12 +210,118 @@
       "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
       "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 7,
       "tags": [
         "semiconductor",
         "communication",
         "security"
+      ]
+    },
+    {
+      "id": "sig-gqgomi",
+      "title": "Claude silently added rules to ignore users skintone preferences in our app",
+      "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "12 points on Hacker News",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-28T03:55:15Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.5,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-fnr4iq",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "112 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-28T01:32:56Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1i0biv2",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up wi",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.4,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-7vkq19",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "url": "https://sessiongraph.ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "39 points on Hacker News",
+      "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T21:07:34Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.3,
+      "tags": [
+        "coding agent"
+      ]
+    },
+    {
+      "id": "sig-glg5pf",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "url": "https://github.com/skeeto/prospero",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "49 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T20:23:14Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.3,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-iwjv2e",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-25T16:00:00.000Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.3,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1f042ve",
+      "title": "Microsoft Ignite 2026: Azure Agents Can Now Change Resources Under Azure Policy, With 11,000 SRE Agents Running Inside Microsoft",
+      "url": "https://www.storagereview.com/news/microsoft-ignite-2026-azure-agentic-operations-arm-mcp-server-sre-agent",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft used Ignite 2026 to move Azure’s AI agents from reading infrastructure to changing it. The Azure Resource Manager (ARM) MCP Server, which already gave agents read access to more than 3,500 resource types, now lets them create, manage, and update resources, with each req",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T19:40:40.000Z",
+      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "score": 6.2,
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -236,67 +358,6 @@
         "coding agent",
         "python",
         "rust"
-      ]
-    },
-    {
-      "id": "sig-iwjv2e",
-      "title": "Art of play in the age of AI",
-      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-25T16:00:00.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-7vkq19",
-      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
-      "url": "https://sessiongraph.ai/",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "10 points on Hacker News",
-      "whyItMatters": "Touches coding agent — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-27T21:07:34Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 6.4,
-      "tags": [
-        "coding agent"
-      ]
-    },
-    {
-      "id": "sig-glg5pf",
-      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
-      "url": "https://github.com/skeeto/prospero",
-      "source": "Hacker News (front page)",
-      "category": "ai",
-      "summary": "17 points on Hacker News",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-27T20:23:14Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1f042ve",
-      "title": "Microsoft Ignite 2026: Azure Agents Can Now Change Resources Under Azure Policy, With 11,000 SRE Agents Running Inside Microsoft",
-      "url": "https://www.storagereview.com/news/microsoft-ignite-2026-azure-agentic-operations-arm-mcp-server-sre-agent",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft used Ignite 2026 to move Azure’s AI agents from reading infrastructure to changing it. The Azure Resource Manager (ARM) MCP Server, which already gave agents read access to more than 3,500 resource types, now lets them create, manage, and update resources, with each req",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-27T19:40:40.000Z",
-      "fetchedAt": "2026-11-27T23:20:13.929Z",
-      "score": 6.4,
-      "tags": [
-        "ai"
       ]
     },
     {
@@ -1747,86 +1808,6 @@
       "score": 6,
       "tags": [
         "storage"
-      ]
-    },
-    {
-      "id": "sig-yudewq",
-      "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
-      "url": "https://arxiv.org/abs/2611.25070",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.25070v1 Announce Type: new Abstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions. The framework employs an advanced AI agentic approach to interpret human i",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "fetchedAt": "2026-11-21T01:47:10.606Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
-      "id": "sig-yudexv",
-      "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
-      "url": "https://arxiv.org/abs/2611.25088",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.25088v1 Announce Type: new Abstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE). In practice, designing, training, and evaluating complex models demands modifying multi-file repositorie",
-      "whyItMatters": "Touches ai, machine learning — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "fetchedAt": "2026-11-21T01:47:10.606Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "machine learning"
-      ]
-    },
-    {
-      "id": "sig-yudfng",
-      "title": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
-      "url": "https://arxiv.org/abs/2611.25135",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.25135v1 Announce Type: new Abstract: Reinforcement learning (RL) can only teach a language model what its reward can recognize. Answer checkers are exact but need a reference answer; learned reward models and LLM judges work everywhere, but their scores are not probabi",
-      "whyItMatters": "Touches llm, language model — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "fetchedAt": "2026-11-21T01:47:10.606Z",
-      "score": 7.4,
-      "tags": [
-        "llm",
-        "language model"
-      ]
-    },
-    {
-      "id": "sig-yudfs0",
-      "title": "An AI-Powered Multiverse Analysis of Empirical Finance Research: Evidence from Reused Natural Experiments",
-      "url": "https://arxiv.org/abs/2611.25184",
-      "source": "arXiv cs.AI (new submissions)",
-      "category": "ai",
-      "summary": "arXiv:2611.25184v1 Announce Type: new Abstract: Empirical finance research often reuses natural experiments to study other outcomes, raising concerns about multiple testing and publication bias. We use AI agents to run a multiverse analysis of 324 papers that reuse 13 natural exp",
-      "whyItMatters": "Touches ai, finance — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "fetchedAt": "2026-11-21T01:47:10.606Z",
-      "score": 7.4,
-      "tags": [
-        "ai",
-        "finance"
-      ]
-    },
-    {
-      "id": "sig-yudfr3",
-      "title": "Formally Verified Semidefinite Programming",
-      "url": "https://arxiv.org/abs/2611.25174",
-      "source": "arXiv cs.SE (new submissions)",
-      "category": "programming",
-      "summary": "arXiv:2611.25174v1 Announce Type: new Abstract: We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification ",
-      "whyItMatters": "Touches claude, rust — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "fetchedAt": "2026-11-21T01:47:10.606Z",
-      "score": 7.4,
-      "tags": [
-        "claude",
-        "rust"
       ]
     }
   ]
