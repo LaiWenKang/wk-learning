@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T04:45:55.915Z",
+  "updatedAt": "2026-11-28T13:40:24.956Z",
   "signals": [
     {
       "id": "sig-1b9xsvb",
@@ -10,7 +10,7 @@
       "summary": "The Kioxia GP2 series offers 18M IOPS and a 50DWPD rating to try to service a tier between DRAM and traditional TLC NAND The post Kioxia Announces GP2 Series SSD with Over 18 Million Random Read IOPS appeared first on ServeTheHome .",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-27T04:08:01.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -29,7 +29,7 @@
       "summary": "KIOXIA has announced the GP2 Series, the second drive in its GP Series of Super High IOPS SSDs built for direct GPU access. The company rates the GP2 at more than 18 million random read IOPS at a 512-byte block size, nearly double the 10 million of the GP1 Series it introduced in",
       "whyItMatters": "Touches ssd, kioxia — relevant to understanding the hardware landscape.",
       "publishedAt": "2026-11-26T23:07:20.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
       "score": 10,
       "tags": [
         "ssd",
@@ -45,7 +45,7 @@
       "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides. The ",
       "whyItMatters": "NAND-level changes ripple straight into ECC strategy, timing corners and retention testing — the physics sets your test matrix.",
       "publishedAt": "2026-11-25T08:01:01.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
       "score": 10,
       "tags": [
         "nand",
@@ -62,28 +62,12 @@
       "summary": "Brian caught up with Roger Peene, GM, Americas at DapuStor, at the company’s SC26 booth in Chicago for a short episode recorded over a table of enterprise SSDs. The centerpiece was the R6060 at 512TB in the E2 form factor, and the conversation moved from there to storage class me",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-24T21:21:24.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
       "score": 9.5,
       "tags": [
         "pcie",
         "gen6",
         "storage"
-      ]
-    },
-    {
-      "id": "sig-nvuvfl",
-      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
-      "url": "https://unkernel.dev",
-      "source": "Hacker News (front page)",
-      "category": "systems",
-      "summary": "38 points on Hacker News",
-      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-28T03:19:20Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 8,
-      "tags": [
-        "linux",
-        "kernel"
       ]
     },
     {
@@ -95,11 +79,251 @@
       "summary": "HighPoint Technologies has packaged its external PCIe Gen5 hardware into three PCIe Accelerator Expansion (PAE) bundles that move an NVIDIA RTX PRO Blackwell Workstation Edition GPU out of the server or workstation chassis. Each bundle pairs a single-width host adapter with a Roc",
       "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
       "publishedAt": "2026-11-23T17:47:55.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
       "score": 8,
       "tags": [
         "pcie",
         "gen5"
+      ]
+    },
+    {
+      "id": "sig-1at41qv",
+      "title": "Claude Code sabotage: preliminary benchmarking",
+      "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "59 points on Hacker News",
+      "whyItMatters": "Touches claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-28T10:37:40Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7.9,
+      "tags": [
+        "claude code",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-nvuvfl",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "source": "Hacker News (front page)",
+      "category": "systems",
+      "summary": "435 points on Hacker News",
+      "whyItMatters": "Touches linux, kernel — relevant to building stronger systems intuition.",
+      "publishedAt": "2026-11-28T03:19:20Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7.7,
+      "tags": [
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "id": "sig-9vho7j",
+      "title": "nexu-io/opengame (TypeScript) — trending new repo",
+      "url": "https://github.com/nexu-io/opengame",
+      "source": "GitHub trending new repos (search API)",
+      "category": "ai",
+      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 272",
+      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-25T10:35:45Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "claude code",
+        "claude",
+        "typescript"
+      ]
+    },
+    {
+      "id": "sig-tekuh7",
+      "title": "Blog Review: Nov. 25",
+      "url": "https://semiengineering.com/blog-review-nov-25-3/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
+      "publishedAt": "2026-11-25T08:01:39.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7,
+      "tags": [
+        "pcie",
+        "semiconductor"
+      ]
+    },
+    {
+      "id": "sig-3vw5r1",
+      "title": "AI Vs. High-Level Synthesis",
+      "url": "https://semiengineering.com/ai-vs-high-level-synthesis/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:11:34.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7,
+      "tags": [
+        "ai",
+        "semiconductor",
+        "productivity"
+      ]
+    },
+    {
+      "id": "sig-rg15tv",
+      "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
+      "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:03:55.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 7,
+      "tags": [
+        "semiconductor",
+        "communication",
+        "security"
+      ]
+    },
+    {
+      "id": "sig-hgtwx5",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
+      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.7,
+      "tags": [
+        "ai",
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-1uk0lvm",
+      "title": "jjack: A CLI and TypeScript library to help jj users manage PR stacks on GitHub",
+      "url": "https://github.com/david-crespo/jjack",
+      "source": "Hacker News (front page)",
+      "category": "programming",
+      "summary": "3 points on Hacker News",
+      "whyItMatters": "Touches typescript, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-26T10:07:07Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.6,
+      "tags": [
+        "typescript",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-ryvvuw",
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "33 points on Hacker News",
+      "whyItMatters": "Touches llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-28T11:57:04Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-1kbei1w",
+      "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
+      "url": "https://fleetlayer.ai/",
+      "source": "Hacker News (front page)",
+      "category": "ai",
+      "summary": "16 points on Hacker News",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-28T08:37:09Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.4,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-1i0biv2",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up wi",
+      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.1,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "sig-iwjv2e",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "category": "programming",
+      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
+      "publishedAt": "2026-11-25T16:00:00.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6.1,
+      "tags": [
+        "ai",
+        "github"
+      ]
+    },
+    {
+      "id": "sig-1f042ve",
+      "title": "Microsoft Ignite 2026: Azure Agents Can Now Change Resources Under Azure Policy, With 11,000 SRE Agents Running Inside Microsoft",
+      "url": "https://www.storagereview.com/news/microsoft-ignite-2026-azure-agentic-operations-arm-mcp-server-sre-agent",
+      "source": "StorageReview",
+      "category": "ai",
+      "summary": "Microsoft used Ignite 2026 to move Azure’s AI agents from reading infrastructure to changing it. The Azure Resource Manager (ARM) MCP Server, which already gave agents read access to more than 3,500 resource types, now lets them create, manage, and update resources, with each req",
+      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-27T19:40:40.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6,
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sig-7pn8wh",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison's Weblog",
+      "category": "ai",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
+      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "sig-18kfpj0",
+      "title": "Why AI Struggles To Reuse Chip Designs",
+      "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
+      "source": "Semiconductor Engineering",
+      "category": "semiconductor",
+      "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
+      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
+      "publishedAt": "2026-11-24T08:11:47.000Z",
+      "fetchedAt": "2026-11-28T13:40:24.956Z",
+      "score": 6,
+      "tags": [
+        "ai",
+        "semiconductor"
       ]
     },
     {
@@ -135,90 +359,6 @@
       ]
     },
     {
-      "id": "sig-9vho7j",
-      "title": "nexu-io/opengame (TypeScript) — trending new repo",
-      "url": "https://github.com/nexu-io/opengame",
-      "source": "GitHub trending new repos (search API)",
-      "category": "ai",
-      "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more. · ★ 240",
-      "whyItMatters": "Touches ai, claude code, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-25T10:35:45Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 7.2,
-      "tags": [
-        "ai",
-        "claude code",
-        "claude",
-        "typescript"
-      ]
-    },
-    {
-      "id": "sig-tekuh7",
-      "title": "Blog Review: Nov. 25",
-      "url": "https://semiengineering.com/blog-review-nov-25-3/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability. The post Blog Review: Nov. 25 appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Faster links stress thermals, link training and reset/recovery paths — the classic soak, throttle and error-injection corners.",
-      "publishedAt": "2026-11-25T08:01:39.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 7.1,
-      "tags": [
-        "pcie",
-        "semiconductor"
-      ]
-    },
-    {
-      "id": "sig-hgtwx5",
-      "title": "Quoting Jack Despain Zhou",
-      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostens",
-      "whyItMatters": "Touches ai, claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-26T15:09:31.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-3vw5r1",
-      "title": "AI Vs. High-Level Synthesis",
-      "url": "https://semiengineering.com/ai-vs-high-level-synthesis/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "AI promises to automate chip design from spec to implementation, but can it match HLS in productivity, verification, and quality of results? The post AI Vs. High-Level Synthesis appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor, productivity — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:11:34.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 7,
-      "tags": [
-        "ai",
-        "semiconductor",
-        "productivity"
-      ]
-    },
-    {
-      "id": "sig-rg15tv",
-      "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
-      "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "Maintaining consistent communication behavior, integration, and security across configurations. The post A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches semiconductor, communication, security — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:03:55.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 7,
-      "tags": [
-        "semiconductor",
-        "communication",
-        "security"
-      ]
-    },
-    {
       "id": "sig-gqgomi",
       "title": "Claude silently added rules to ignore users skintone preferences in our app",
       "url": "https://twitter.com/jakozloski/status/2126281598517576049",
@@ -249,21 +389,6 @@
       ]
     },
     {
-      "id": "sig-1i0biv2",
-      "title": "datasette-charts 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up wi",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-27T23:57:17.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 6.4,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "id": "sig-7vkq19",
       "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
       "url": "https://sessiongraph.ai/",
@@ -289,37 +414,6 @@
       "publishedAt": "2026-11-27T20:23:14Z",
       "fetchedAt": "2026-11-28T04:45:55.915Z",
       "score": 6.3,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-iwjv2e",
-      "title": "Art of play in the age of AI",
-      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
-      "source": "GitHub Blog",
-      "category": "programming",
-      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
-      "whyItMatters": "Touches ai, github — relevant to sharpening day-to-day engineering skills.",
-      "publishedAt": "2026-11-25T16:00:00.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 6.3,
-      "tags": [
-        "ai",
-        "github"
-      ]
-    },
-    {
-      "id": "sig-1f042ve",
-      "title": "Microsoft Ignite 2026: Azure Agents Can Now Change Resources Under Azure Policy, With 11,000 SRE Agents Running Inside Microsoft",
-      "url": "https://www.storagereview.com/news/microsoft-ignite-2026-azure-agentic-operations-arm-mcp-server-sre-agent",
-      "source": "StorageReview",
-      "category": "ai",
-      "summary": "Microsoft used Ignite 2026 to move Azure’s AI agents from reading infrastructure to changing it. The Azure Resource Manager (ARM) MCP Server, which already gave agents read access to more than 3,500 resource types, now lets them create, manage, and update resources, with each req",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-27T19:40:40.000Z",
-      "fetchedAt": "2026-11-28T04:45:55.915Z",
-      "score": 6.2,
       "tags": [
         "ai"
       ]
@@ -549,22 +643,6 @@
       ]
     },
     {
-      "id": "sig-7pn8wh",
-      "title": "Three LLM inflection points in twelve months",
-      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going t",
-      "whyItMatters": "Touches ai, llm — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-24T23:02:07.000Z",
-      "fetchedAt": "2026-11-26T23:01:23.884Z",
-      "score": 6.7,
-      "tags": [
-        "ai",
-        "llm"
-      ]
-    },
-    {
       "id": "sig-146qg1o",
       "title": "AI made self-hosting fun again",
       "url": "https://janlukas.blog/posts/ai-self-hosting",
@@ -593,22 +671,6 @@
       "tags": [
         "linux",
         "kernel"
-      ]
-    },
-    {
-      "id": "sig-18kfpj0",
-      "title": "Why AI Struggles To Reuse Chip Designs",
-      "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
-      "source": "Semiconductor Engineering",
-      "category": "semiconductor",
-      "summary": "AI can accelerate derivative designs, but physical constraints and incomplete data limit how much can be automated. The post Why AI Struggles To Reuse Chip Designs appeared first on Semiconductor Engineering .",
-      "whyItMatters": "Touches ai, semiconductor — relevant to understanding the hardware landscape.",
-      "publishedAt": "2026-11-24T08:11:47.000Z",
-      "fetchedAt": "2026-11-26T14:16:21.032Z",
-      "score": 6.5,
-      "tags": [
-        "ai",
-        "semiconductor"
       ]
     },
     {
@@ -1763,51 +1825,6 @@
       "tags": [
         "openai",
         "llm"
-      ]
-    },
-    {
-      "id": "sig-1umq1z0",
-      "title": "Quoting Ravi Vakil",
-      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Aless",
-      "whyItMatters": "Touches ai — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T19:21:49.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6.1,
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "id": "sig-1w5owyh",
-      "title": "Quoting Levent Alpöge",
-      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "source": "Simon Willison's Weblog",
-      "category": "ai",
-      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also ",
-      "whyItMatters": "Touches claude — relevant to keeping your AI/tooling knowledge current.",
-      "publishedAt": "2026-11-20T16:30:48.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "sig-1536az8",
-      "title": "AMD ROCm 10.2 Brings hipFile to PyTorch, LVM, and mdraid Volumes, and Adds 18 Ryzen Processors",
-      "url": "https://www.storagereview.com/news/amd-rocm-10-2-hipfile-pytorch-lvm-mdraid-aiter-ryzen",
-      "source": "StorageReview",
-      "category": "systems",
-      "summary": "AMD has released ROCm 10.2.0, a stability-focused update to its open GPU software stack that refreshes the serving frameworks, libraries, and tools developers already run on Instinct, Radeon, and Ryzen hardware. For storage teams, hipFile and AMD Infinity Storage now plug into Py",
-      "whyItMatters": "Touches storage — relevant to building stronger systems intuition.",
-      "publishedAt": "2026-11-20T16:18:56.000Z",
-      "fetchedAt": "2026-11-21T08:49:43.393Z",
-      "score": 6,
-      "tags": [
-        "storage"
       ]
     }
   ]
